@@ -2,7 +2,7 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Kim Gabe's DS Blog • All posts by \"주사위 게임 3\" tag",
     "description": "Kim Gabe의 블로그입니다. 데이터 사이언스, AI, 머신러닝 학습 과정을 기록합니다.",
-    "home_page_url": "https://Kimgabe.github.io",
+    "home_page_url": "https://kimgabe.github.io",
     "items": [
         {
             "id": "https://kimgabe.github.io/2023/09/14/%EB%A7%A4%EC%9D%BC-%EC%BD%94%EB%94%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8-Day-8/",

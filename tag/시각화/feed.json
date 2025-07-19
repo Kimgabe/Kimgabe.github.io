@@ -2,7 +2,7 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Kim Gabe's DS Blog • All posts by \"시각화\" tag",
     "description": "Kim Gabe의 블로그입니다. 데이터 사이언스, AI, 머신러닝 학습 과정을 기록합니다.",
-    "home_page_url": "https://Kimgabe.github.io",
+    "home_page_url": "https://kimgabe.github.io",
     "items": [
         {
             "id": "https://kimgabe.github.io/2023/11/14/EDA-%EC%9D%B4%EB%94%94%EC%95%BC%EB%8A%94-%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4-%EC%98%86%EC%97%90-%EB%A7%A4%EC%9E%A5%EC%9D%84-%EB%A7%8C%EB%93%9C%EB%8A%94%EA%B0%80-v1/",

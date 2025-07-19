@@ -2,7 +2,7 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Kim Gabe's DS Blog • All posts by \"데이터 전처리,모델 튜닝,하이퍼 파라미터,결측치 처리,범주형 변수,라벨 처리,변수 분포,클래스 불균형,특징 선택,파라미터 그리드,스케일링,머신러닝,데이터 통합,이상치,상관관계\" tag",
     "description": "Kim Gabe의 블로그입니다. 데이터 사이언스, AI, 머신러닝 학습 과정을 기록합니다.",
-    "home_page_url": "https://Kimgabe.github.io",
+    "home_page_url": "https://kimgabe.github.io",
     "items": [
         {
             "id": "https://kimgabe.github.io/2025/07/18/Tip-%EC%8B%A4%EC%A0%9C-%EA%B7%B8%EB%A6%AC%EB%93%9C-%EC%84%9C%EC%B9%98%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%9D%B4%EB%A4%84%EC%A7%88%EA%B9%8C-generated-version0/",

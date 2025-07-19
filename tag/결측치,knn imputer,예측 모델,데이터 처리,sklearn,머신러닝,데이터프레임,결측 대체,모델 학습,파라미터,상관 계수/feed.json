@@ -2,7 +2,7 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Kim Gabe's DS Blog • All posts by \"결측치,knn imputer,예측 모델,데이터 처리,sklearn,머신러닝,데이터프레임,결측 대체,모델 학습,파라미터,상관 계수\" tag",
     "description": "Kim Gabe의 블로그입니다. 데이터 사이언스, AI, 머신러닝 학습 과정을 기록합니다.",
-    "home_page_url": "https://Kimgabe.github.io",
+    "home_page_url": "https://kimgabe.github.io",
     "items": [
         {
             "id": "https://kimgabe.github.io/2025/07/18/10-%EA%B2%B0%EC%B8%A1%EC%B9%98-%EB%AC%B8%EC%A0%9C-%EA%B2%B0%EC%B8%A1%EC%B9%98-%EC%98%88%EC%B8%A1-%EB%AA%A8%EB%8D%B8-%ED%99%9C%EC%9A%A9-generated-version0/",

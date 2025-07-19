@@ -2,7 +2,7 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Kim Gabe's DS Blog • All posts by \"np.flatten\" tag",
     "description": "Kim Gabe의 블로그입니다. 데이터 사이언스, AI, 머신러닝 학습 과정을 기록합니다.",
-    "home_page_url": "https://Kimgabe.github.io",
+    "home_page_url": "https://kimgabe.github.io",
     "items": [
         {
             "id": "https://kimgabe.github.io/2021/07/14/04-numpy/",

@@ -2,7 +2,7 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Kim Gabe's DS Blog • All posts by \"regression. dacon\" tag",
     "description": "Kim Gabe의 블로그입니다. 데이터 사이언스, AI, 머신러닝 학습 과정을 기록합니다.",
-    "home_page_url": "https://Kimgabe.github.io",
+    "home_page_url": "https://kimgabe.github.io",
     "items": [
         {
             "id": "https://kimgabe.github.io/2021/07/10/%EC%98%88%EC%B8%A1-%EC%83%81%EC%A0%90-%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C-%EB%A7%A4%EC%B6%9C-%EC%98%88%EC%B8%A1-v1/",

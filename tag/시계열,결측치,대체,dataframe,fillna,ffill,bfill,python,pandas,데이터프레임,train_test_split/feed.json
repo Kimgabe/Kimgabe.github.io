@@ -2,7 +2,7 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Kim Gabe's DS Blog • All posts by \"시계열,결측치,대체,dataframe,fillna,ffill,bfill,python,pandas,데이터프레임,train_test_split\" tag",
     "description": "Kim Gabe의 블로그입니다. 데이터 사이언스, AI, 머신러닝 학습 과정을 기록합니다.",
-    "home_page_url": "https://Kimgabe.github.io",
+    "home_page_url": "https://kimgabe.github.io",
     "items": [
         {
             "id": "https://kimgabe.github.io/2025/07/18/09-%EA%B2%B0%EC%B8%A1%EC%B9%98-%EB%AC%B8%EC%A0%9C-%EC%8B%9C%EA%B3%84%EC%97%B4-%EA%B2%B0%EC%B8%A1%EC%B9%98-%EB%8C%80%EC%B2%B4-generated-version0/",
