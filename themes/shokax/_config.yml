@@ -41,7 +41,7 @@ homeConfig:
 # 请关闭所有不使用的模块以优化主题 js 体积和性能
 modules:
   debug: false # 启用调试模式
-  player: true # 启用音乐播放器
+  player: false # 启用音乐播放器 (비활성화)
   fireworks: true # 启用鼠标点击烟花特效
   visibilityListener: true # 启用可见度监听器
   tabs: true # 启用选项卡扩展支持，如需开启 summary 功能请一并开启
@@ -75,7 +75,8 @@ seo:
 visitor:
   clarity: false
   baiduAnalytics: false
-  googleAnalytics: false
+  googleAnalytics: G-S8SVCTHDH2
+  googleAdsense: pub-8264517186303288
 
 darkmode: true
 auto_dark: # 自动亮/暗模式
@@ -168,15 +169,20 @@ iconfont: "4415496_59g1326wajd"
 
 menu:
   home: / || home
+  posts:
+    default: / || feather
+    archives: /archives/ || list-alt
+    categories: /categories/ || th
+    programming: /categories/personal-study/ || code
+    data-science: /categories/personal-study/ || chart-bar  
+    ai-ml: /categories/gabe-ai-journey/ || brain
+    career: /categories/gabe-ai-journey/ || briefcase
+    portfolio: /categories/portfolio/ || folder-open
+    tags: /tags/ || tags
   # about:
   #   default: / || user
   #   aboutsite: /about/  || user
   #   admiration: /admiration/ || coffee
-  # posts:
-  #   default: / || feather
-  #   archives: /archives/ || list-alt
-  #   categories: /categories/ || th
-  #   tags: /tags/ || tags
   # friends: /friends/ || heart
 
 # https://twikoo.js.org

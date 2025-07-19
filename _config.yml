@@ -12,7 +12,7 @@ language: en
 timezone: 'Asia/Seoul'
 
 # URL
-url: https://Kimgabe.github.io
+url: https://kimgabe.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -116,7 +116,7 @@ symbols_count_time:
 # Deployment
 deploy:
   type: git
-  repo: https://github.com/Kimgabe/Kimgabe.github.io.git
+  repo: https://github.com/Kimgabe/kimgabe.github.io.git
   branch: main
 
 # ShokaX 테마 설정 - Hexo 덮어쓰기 방식
@@ -134,6 +134,11 @@ theme_config:
       default: / || feather
       archives: /archives/ || list-alt
       categories: /categories/ || th
+      programming: /categories/personal-study/ || code
+      data-science: /categories/personal-study/ || chart-bar  
+      ai-ml: /categories/gabe-ai-journey/ || brain
+      career: /categories/gabe-ai-journey/ || briefcase
+      portfolio: /categories/portfolio/ || folder-open
       tags: /tags/ || tags
   modules:
     debug: false
