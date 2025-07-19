@@ -7,7 +7,6 @@
         <language>en</language>
         <pubDate>Fri, 19 Jan 2024 00:00:00 +0900</pubDate>
         <lastBuildDate>Fri, 19 Jan 2024 00:00:00 +0900</lastBuildDate>
-        <category>데이터 통합,pandas,DataFrame,concat,os,listdir,CSV 파일,데이터 병합,데이터 프레임,데이터 분석,데이터 처리,데이터 정렬,빈 데이터 프레임,파일 시스템,경고 메시지</category>
         <category>python</category>
         <category>ndarray</category>
         <category>numpy vectorization</category>
@@ -22,6 +21,7 @@
         <category>np.eye</category>
         <category>np.linspace</category>
         <category>reshape</category>
+        <category>데이터 통합,pandas,DataFrame,concat,os,listdir,CSV 파일,데이터 병합,데이터 프레임,데이터 분석,데이터 처리,데이터 정렬,빈 데이터 프레임,파일 시스템,경고 메시지</category>
         <category>feature engineering</category>
         <category>prediction</category>
         <category>regression. DACON</category>
@@ -56,7 +56,6 @@
         <category>1차원 벡터 슬리이싱</category>
         <category>2차원 행렬 슬라이싱</category>
         <category>3차원 텐서 슬라이싱</category>
-        <category>Python,pandas,데이터 병합,날짜 포맷,apply 함수,merge 함수,데이터프레임,Series,경고 필터링,파일 로드,데이터 접근</category>
         <category>ndarray 형태바꾸기</category>
         <category>np.ravel</category>
         <category>np.flatten</category>
@@ -64,6 +63,7 @@
         <category>array의 차원바꾸기</category>
         <category>이미지 벡터화</category>
         <category>판다스,데이터 병합,Series,DataFrame,to_dict,replace,merge,ref_df,인덱스,행정구역,엑셀 파일,CSV 파일,인코딩,add_prefix</category>
+        <category>Python,pandas,데이터 병합,날짜 포맷,apply 함수,merge 함수,데이터프레임,Series,경고 필터링,파일 로드,데이터 접근</category>
         <category>np.add</category>
         <category>np.divide</category>
         <category>np.mod</category>
@@ -80,12 +80,12 @@
         <category>np.any</category>
         <category>np.all</category>
         <category>np.where</category>
+        <category>데이터 분석,거리 행렬,병합,지하철역,경도,위도,pandas,scipy,haversine,argsort,DataFrame</category>
         <category>axis</category>
         <category>numpy 축</category>
         <category>1차원 axis</category>
         <category>2차원 axis</category>
         <category>3차원 axis</category>
-        <category>데이터 분석,거리 행렬,병합,지하철역,경도,위도,pandas,scipy,haversine,argsort,DataFrame</category>
         <category>판다스,데이터 병합,groupby,DataFrame,Series,merge,replace,고객ID,구매금액,인덱스,CSV 파일,인코딩,머신러닝,통계량,조건부 통계량</category>
         <category>broadcasting</category>
         <category>브로드캐스팅</category>
@@ -101,11 +101,9 @@
         <category>역행렬</category>
         <category>정방행렬</category>
         <category>항등행렬</category>
-        <category>데이터 전처리,sklearn,결측치,SimpleImputer,train_test_split,DataFrame,상관 계수,범주형 변수,연속형 변수,전처리 모델,대표값 대체,결측치 대체법,전략,평균,최빈값</category>
         <category>boolean indexing</category>
         <category>다중조건</category>
-        <category>시계열,결측치,대체,DataFrame,fillna,ffill,bfill,Python,pandas,데이터프레임,train_test_split</category>
-        <category>결측치,KNN Imputer,예측 모델,데이터 처리,sklearn,머신러닝,데이터프레임,결측 대체,모델 학습,파라미터,상관 계수</category>
+        <category>데이터 전처리,sklearn,결측치,SimpleImputer,train_test_split,DataFrame,상관 계수,범주형 변수,연속형 변수,전처리 모델,대표값 대체,결측치 대체법,전략,평균,최빈값</category>
         <category>그래프 그리기</category>
         <category>line plot</category>
         <category>scatter plot</category>
@@ -113,12 +111,14 @@
         <category>grid 추가하기</category>
         <category>subplot으로 그래프 여러개 그리기</category>
         <category>histogram그리기</category>
+        <category>로또 번호 자동생성기</category>
+        <category>시계열,결측치,대체,DataFrame,fillna,ffill,bfill,Python,pandas,데이터프레임,train_test_split</category>
+        <category>결측치,KNN Imputer,예측 모델,데이터 처리,sklearn,머신러닝,데이터프레임,결측 대체,모델 학습,파라미터,상관 계수</category>
+        <category>범주형 변수,모델 학습,숫자 변환,더미화,연속형 치환,차원의 저주,데이터 분석,지도학습,인코딩,머신러닝</category>
         <category>문제풀이</category>
         <category>pi</category>
         <category>Mote Carlo</category>
         <category>원주율구하기</category>
-        <category>로또 번호 자동생성기</category>
-        <category>범주형 변수,모델 학습,숫자 변환,더미화,연속형 치환,차원의 저주,데이터 분석,지도학습,인코딩,머신러닝</category>
         <category>EDA</category>
         <category>스타벅스</category>
         <category>이디야</category>
@@ -161,7 +161,6 @@
         <category>head</category>
         <category>tail</category>
         <category>기초</category>
-        <category>데이터 전처리,모델 튜닝,하이퍼 파라미터,결측치 처리,범주형 변수,라벨 처리,변수 분포,클래스 불균형,특징 선택,파라미터 그리드,스케일링,머신러닝,데이터 통합,이상치,상관관계</category>
         <category>Pandas</category>
         <category>Series</category>
         <category>local</category>
@@ -174,16 +173,17 @@
         <category>dict</category>
         <category>numpy_array</category>
         <category>slicing</category>
-        <category>python - 시각화 - visualization - matplotlib - canvas - subplot - title - fontsize - tick - x축 - y축 - legend - marker - linestyle - color - alpha - 투명도 - grid - 이미지저장</category>
+        <category>데이터 전처리,모델 튜닝,하이퍼 파라미터,결측치 처리,범주형 변수,라벨 처리,변수 분포,클래스 불균형,특징 선택,파라미터 그리드,스케일링,머신러닝,데이터 통합,이상치,상관관계</category>
         <category>visualization</category>
         <category>matplotlib</category>
-        <category>꺾은선 그래프</category>
-        <category>area plot</category>
-        <category>면적 그래프</category>
+        <category>python - 시각화 - visualization - matplotlib - canvas - subplot - title - fontsize - tick - x축 - y축 - legend - marker - linestyle - color - alpha - 투명도 - grid - 이미지저장</category>
         <category>bar plot</category>
         <category>막대그래프</category>
         <category>barhplot</category>
         <category>가로막대 그래프</category>
+        <category>꺾은선 그래프</category>
+        <category>area plot</category>
+        <category>면적 그래프</category>
         <category>histogram</category>
         <category>히스토그램</category>
         <category>pie chart</category>
@@ -198,12 +198,9 @@
         <category>logistic regression</category>
         <category>XGBoost</category>
         <category>feature importance</category>
-        <category>python basic</category>
         <category>데이터타입</category>
         <category>연산자</category>
-        <category>주석</category>
-        <category>indent</category>
-        <category>IndentationError</category>
+        <category>python basic</category>
         <category>escape string</category>
         <category>문자열자르기</category>
         <category>문자열 slicing</category>
@@ -216,6 +213,9 @@
         <category>format()</category>
         <category>문자 자르기</category>
         <category>split()</category>
+        <category>주석</category>
+        <category>indent</category>
+        <category>IndentationError</category>
         <category>list</category>
         <category>튜플</category>
         <category>tuple</category>
@@ -233,16 +233,6 @@
         <category>list와 tuple의 차이점</category>
         <category>mutable</category>
         <category>immutable</category>
-        <category>조건문</category>
-        <category>if문</category>
-        <category>if</category>
-        <category>elif</category>
-        <category>else</category>
-        <category>조건문 논리</category>
-        <category>조건문 우선순위</category>
-        <category>다중조건문</category>
-        <category>중첩조건문</category>
-        <category>nested condition</category>
         <category>딕셔러니</category>
         <category>dictionary</category>
         <category>set</category>
@@ -257,6 +247,16 @@
         <category>합집합</category>
         <category>차집합</category>
         <category>부분집합</category>
+        <category>조건문</category>
+        <category>if문</category>
+        <category>if</category>
+        <category>elif</category>
+        <category>else</category>
+        <category>조건문 논리</category>
+        <category>조건문 우선순위</category>
+        <category>다중조건문</category>
+        <category>중첩조건문</category>
+        <category>nested condition</category>
         <category>반복문</category>
         <category>loop</category>
         <category>for문</category>
@@ -264,6 +264,11 @@
         <category>무한루프</category>
         <category>break</category>
         <category>continue</category>
+        <category>dict 아이템출력하기</category>
+        <category>for문에 index사용하기</category>
+        <category>2중 for문</category>
+        <category>loop중첩</category>
+        <category>구구단 출력하기</category>
         <category>itertools</category>
         <category>product()</category>
         <category>combination()</category>
@@ -272,20 +277,13 @@
         <category>list comprehension</category>
         <category>for문 한줄로 작성하기</category>
         <category>dictionary comprehension</category>
-        <category>dict 아이템출력하기</category>
-        <category>for문에 index사용하기</category>
-        <category>2중 for문</category>
-        <category>loop중첩</category>
-        <category>구구단 출력하기</category>
-        <category>패키지</category>
-        <category>모듈</category>
         <category>함수</category>
-        <category>패키지와 모듈&amp;함수 관계</category>
-        <category>import</category>
-        <category>특정모듈만 불러오기</category>
-        <category>alias</category>
-        <category>별명</category>
-        <category>별명 지어주기</category>
+        <category>lambda</category>
+        <category>lambda로 sort하기</category>
+        <category>lambda로 filtering하기</category>
+        <category>lambda로 mapping하기</category>
+        <category>lambda로 reducing하기</category>
+        <category>자주쓰는 lambda기능</category>
         <category>def</category>
         <category>내장함수</category>
         <category>parameter</category>
@@ -302,12 +300,6 @@
         <category>argument parameter</category>
         <category>args</category>
         <category>kwargs</category>
-        <category>lambda</category>
-        <category>lambda로 sort하기</category>
-        <category>lambda로 filtering하기</category>
-        <category>lambda로 mapping하기</category>
-        <category>lambda로 reducing하기</category>
-        <category>자주쓰는 lambda기능</category>
         <category>class</category>
         <category>객체</category>
         <category>상속</category>
@@ -327,6 +319,14 @@
         <category>부모클래스</category>
         <category>자식클래스</category>
         <category>super</category>
+        <category>패키지</category>
+        <category>모듈</category>
+        <category>패키지와 모듈&amp;함수 관계</category>
+        <category>import</category>
+        <category>특정모듈만 불러오기</category>
+        <category>alias</category>
+        <category>별명</category>
+        <category>별명 지어주기</category>
         <category>정규표현식</category>
         <category>re</category>
         <category>preprocessing</category>
@@ -356,12 +356,6 @@
         <category>findall</category>
         <category>sub</category>
         <category>compile</category>
-        <category>핸즈온 머신러닝</category>
-        <category>ML</category>
-        <category>DL</category>
-        <category>공부방법</category>
-        <category>도서</category>
-        <category>리뷰</category>
         <category>GitHub</category>
         <category>Resume</category>
         <category>automated</category>
@@ -373,36 +367,37 @@
         <category>프로필</category>
         <category>자동작성</category>
         <category>GitHub Prifile Readme Generator</category>
-        <category>문자열 다루기</category>
-        <category>islower()</category>
-        <category>isupper()</category>
-        <category>escape문자</category>
-        <category>산술연산자</category>
+        <category>핸즈온 머신러닝</category>
+        <category>ML</category>
+        <category>DL</category>
+        <category>공부방법</category>
+        <category>도서</category>
+        <category>리뷰</category>
         <category>덧셈식 출력하기</category>
         <category>문자열 붙여서 출력하기</category>
         <category>문자열 돌리기</category>
         <category>홀짝 구분하기</category>
         <category>문자열 겹쳐쓰기</category>
+        <category>문자열 다루기</category>
+        <category>islower()</category>
+        <category>isupper()</category>
+        <category>escape문자</category>
+        <category>산술연산자</category>
         <category>문자열 섞기</category>
         <category>문자 리스트를 문자열로 변환하기</category>
         <category>문자열 곱하기</category>
         <category>더 크게 합치기</category>
         <category>두 수의 연산값 합치기</category>
-        <category>n의 배수</category>
-        <category>공배수</category>
-        <category>홀짝에 따라 다른값 반환하기</category>
-        <category>조건 문자열</category>
-        <category>flag에 따라 다른값 반환하기</category>
         <category>마지막 두 원소</category>
         <category>수 조작하기 1</category>
         <category>수 조작하기 2</category>
         <category>수열과 구간 쿼리 3</category>
         <category>수열과 구간 쿼리 2</category>
-        <category>수열과 구간쿼리 4</category>
-        <category>배열만들기2</category>
-        <category>카운트 업</category>
-        <category>콜라츠 수열 만들기</category>
-        <category>배열만들기 4</category>
+        <category>n의 배수</category>
+        <category>공배수</category>
+        <category>홀짝에 따라 다른값 반환하기</category>
+        <category>조건 문자열</category>
+        <category>flag에 따라 다른값 반환하기</category>
         <category>코드 처리하기</category>
         <category>등차수열의 특정한 항만 더하기</category>
         <category>주사위게임2</category>
@@ -413,145 +408,11 @@
         <category>글자 이어 붙여 문자열 만들기</category>
         <category>9로 나눈 나머지</category>
         <category>문자열 여러번 뒤집기</category>
-        <item>
-            <guid isPermalink="true">https://kimgabe.github.io/2024/01/19/githubblog-codecopy-button/</guid>
-            <title>[GitHub 블로그] GitHub Blog 코드블록에 복사버튼 추가하기(feat. Minimal-mistakes)</title>
-            <link>https://kimgabe.github.io/2024/01/19/githubblog-codecopy-button/</link>
-            <pubDate>Fri, 19 Jan 2024 00:00:00 +0900</pubDate>
-            <description><![CDATA[ &lt;h2 id=&#34;summary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#summary&#34;&gt;#&lt;/a&gt; 🚦 Summary&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;최근에는 GitHub 블로그를 생성하면 공개된 여러 테마를 그대로 Clone해와서 손쉽게 생성이 가능합니다.&lt;/li&gt;
-&lt;li&gt;다만 코드블록의 복사버튼은 별도로 기능 구현이 필요합니다.&lt;/li&gt;
-&lt;li&gt;이번 포스팅에서는 Minimal-mistake 테마로 만든 GitHub 블로그에서 코드블록의 복사버튼을 만드는 방법을 소개합니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;blockquote&gt;
-&lt;p&gt;💡 이런걸 정리합니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;내 GitHub 블로그의 코드블록에 복사버튼을 추가하는 방법&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;작업순서-소개&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#작업순서-소개&#34;&gt;#&lt;/a&gt; 📑 작업순서 소개&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;_config.yml&lt;/code&gt;  파일 수정&lt;/li&gt;
-&lt;li&gt;layout 추가&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h3 id=&#34;1️⃣-configyml-파일-수정&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1️⃣-configyml-파일-수정&#34;&gt;#&lt;/a&gt; 1️⃣ config.yml  파일 수정&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;💡  &lt;code&gt;_config.yml&lt;/code&gt;  이란?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;_config.yml&lt;/code&gt;  은 GitHub Pages 혹은 Jekyll을 사용해서 GitHub 블로그를 구성할 때 사용되는 설정파일입니다.&lt;/li&gt;
-&lt;li&gt;이 파일에서 블로그의 기본 설정, 테마, 플러그인, 페이지 제목, 블로그 설명, 사이드바 설정 등 다양한 옵션을 조정할 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;📰  &lt;code&gt;_config.yml&lt;/code&gt;  파일 수정 하기&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;GitHub 블로그를 생성한 Repository의 루트 디렉토리로 이동합니다.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;_config.yml&lt;/code&gt;  파일을 열고 &#39;plugins&#39; 부분을 찾아서 아래와 같이  &lt;code&gt;jekyll-remote-theme&lt;/code&gt;  플러그인을 추가합니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;plugins&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; jekyll&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;remote&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;theme&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;_config.yml&lt;/code&gt;  파일에서  &lt;code&gt;remote_theme&lt;/code&gt;  부분을 찾아 Minimal Mistakes 테마를 설정합니다. 아래와 같이 설정합니다&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;remote_theme&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;mmistakes/minimal-mistakes&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr /&gt;
-&lt;h3 id=&#34;2️⃣-_layouts-과-defaulthtml-파일-수정하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2️⃣-_layouts-과-defaulthtml-파일-수정하기&#34;&gt;#&lt;/a&gt; 2️⃣  &lt;code&gt;_layouts&lt;/code&gt;  과  &lt;code&gt;default.html&lt;/code&gt;  파일 수정하기&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;💡  &lt;code&gt;_layouts&lt;/code&gt;  과  &lt;code&gt;default.html&lt;/code&gt;  파일?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;_layouts&lt;/code&gt;  디렉토리는 GitHub 블로그의 페이지 레이아웃을 정의하는 곳입니다.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;default.html&lt;/code&gt;  파일은 블로그의 기본 레이아웃을 정의하며, 모든 페이지에 공통으로 적용됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;📰  &lt;code&gt;default.html&lt;/code&gt;  파일 수정 하기&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;만약  &lt;code&gt;_layouts&lt;/code&gt;  폴더가 없다면 생성하고  &lt;code&gt;default.html&lt;/code&gt;  을 생성해 줍니다.&lt;/li&gt;
-&lt;li&gt;생성한  &lt;code&gt;default.html&lt;/code&gt;  파일의 하단에 아래의 코드를 추가합니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&#34;highlight html&#34;&gt;&lt;figcaption data-lang=&#34;HTML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;&lt;h2 id=&#34;summary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#summary&#34;&gt;#&lt;/a&gt; 🚦 Summary&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;최근에는 GitHub 블로그를 생성하면 공개된 여러 테마를 그대로 Clone해와서 손쉽게 생성이 가능합니다.&lt;/li&gt;
-&lt;li&gt;다만 코드블록의 복사버튼은 별도로 기능 구현이 필요합니다.&lt;/li&gt;
-&lt;li&gt;이번 포스팅에서는 Minimal-mistake 테마로 만든 GitHub 블로그에서 코드블록의 복사버튼을 만드는 방법을 소개합니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;blockquote&gt;
-&lt;p&gt;💡 이런걸 정리합니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;내 GitHub 블로그의 코드블록에 복사버튼을 추가하는 방법&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;작업순서-소개&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#작업순서-소개&#34;&gt;#&lt;/a&gt; 📑 작업순서 소개&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;_config.yml&lt;/code&gt;  파일 수정&lt;/li&gt;
-&lt;li&gt;layout 추가&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h3 id=&#34;1️⃣-configyml-파일-수정&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1️⃣-configyml-파일-수정&#34;&gt;#&lt;/a&gt; 1️⃣ config.yml  파일 수정&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;💡  &lt;code&gt;_config.yml&lt;/code&gt;  이란?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;_config.yml&lt;/code&gt;  은 GitHub Pages 혹은 Jekyll을 사용해서 GitHub 블로그를 구성할 때 사용되는 설정파일입니다.&lt;/li&gt;
-&lt;li&gt;이 파일에서 블로그의 기본 설정, 테마, 플러그인, 페이지 제목, 블로그 설명, 사이드바 설정 등 다양한 옵션을 조정할 수 있습니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;📰  &lt;code&gt;_config.yml&lt;/code&gt;  파일 수정 하기&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;GitHub 블로그를 생성한 Repository의 루트 디렉토리로 이동합니다.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;_config.yml&lt;/code&gt;  파일을 열고 &#39;plugins&#39; 부분을 찾아서 아래와 같이  &lt;code&gt;jekyll-remote-theme&lt;/code&gt;  플러그인을 추가합니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;plugins&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; jekyll&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;remote&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;theme&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;_config.yml&lt;/code&gt;  파일에서  &lt;code&gt;remote_theme&lt;/code&gt;  부분을 찾아 Minimal Mistakes 테마를 설정합니다. 아래와 같이 설정합니다&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;remote_theme&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;mmistakes/minimal-mistakes&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr /&gt;
-&lt;h3 id=&#34;2️⃣-_layouts-과-defaulthtml-파일-수정하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2️⃣-_layouts-과-defaulthtml-파일-수정하기&#34;&gt;#&lt;/a&gt; 2️⃣  &lt;code&gt;_layouts&lt;/code&gt;  과  &lt;code&gt;default.html&lt;/code&gt;  파일 수정하기&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;💡  &lt;code&gt;_layouts&lt;/code&gt;  과  &lt;code&gt;default.html&lt;/code&gt;  파일?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;_layouts&lt;/code&gt;  디렉토리는 GitHub 블로그의 페이지 레이아웃을 정의하는 곳입니다.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;default.html&lt;/code&gt;  파일은 블로그의 기본 레이아웃을 정의하며, 모든 페이지에 공통으로 적용됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;📰  &lt;code&gt;default.html&lt;/code&gt;  파일 수정 하기&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;만약  &lt;code&gt;_layouts&lt;/code&gt;  폴더가 없다면 생성하고  &lt;code&gt;default.html&lt;/code&gt;  을 생성해 줍니다.&lt;/li&gt;
-&lt;li&gt;생성한  &lt;code&gt;default.html&lt;/code&gt;  파일의 하단에 아래의 코드를 추가합니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&#34;highlight html&#34;&gt;&lt;figcaption data-lang=&#34;HTML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;{{ content }}&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;여기까지 진행하면 모든 준비가 완료되었습니다.&lt;/li&gt;
-&lt;li&gt;이제부터 일반적인 마크다운의 코드블록 작성 방식대로 작성을 하면 자동으로 복사버튼이 생성됩니다.&lt;/li&gt;
-&lt;li&gt;위 코드를 적용한 결과 아래와 같이 코드 복사버튼이 생성되고, 복사버튼을 누르면 복사가 되었다는 메시지가 팝업됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgur.com/f9zwApM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id=&#34;outro&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#outro&#34;&gt;#&lt;/a&gt; 🎈Outro.&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;이번 포스팅에서는 GitHub 블로그의 Minimal-mistake 테마에서 코드블록에 복사버튼을 추가하는 방법을 정리했습니다.&lt;/li&gt;
-&lt;li&gt;차후에 시간이 된다면 GitHub 블로그를 생성하는 방법에 대해서도 포스팅을 하다록 하겠습니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;여기까지 진행하면 모든 준비가 완료되었습니다.&lt;/li&gt;
-&lt;li&gt;이제부터 일반적인 마크다운의 코드블록 작성 방식대로 작성을 하면 자동으로 복사버튼이 생성됩니다.&lt;/li&gt;
-&lt;li&gt;위 코드를 적용한 결과 아래와 같이 코드 복사버튼이 생성되고, 복사버튼을 누르면 복사가 되었다는 메시지가 팝업됩니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgur.com/f9zwApM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id=&#34;outro&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#outro&#34;&gt;#&lt;/a&gt; 🎈Outro.&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;이번 포스팅에서는 GitHub 블로그의 Minimal-mistake 테마에서 코드블록에 복사버튼을 추가하는 방법을 정리했습니다.&lt;/li&gt;
-&lt;li&gt;차후에 시간이 된다면 GitHub 블로그를 생성하는 방법에 대해서도 포스팅을 하다록 하겠습니다.&lt;/li&gt;
-&lt;/ul&gt;
- ]]></description>
-        </item>
+        <category>수열과 구간쿼리 4</category>
+        <category>배열만들기2</category>
+        <category>카운트 업</category>
+        <category>콜라츠 수열 만들기</category>
+        <category>배열만들기 4</category>
         <item>
             <guid isPermalink="true">https://kimgabe.github.io/2024/01/19/githubaction-auto-readme/</guid>
             <title>[Git] Github Action으로 내 README.md 자동화 하기</title>
@@ -880,6 +741,145 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.github.com/ko/enterprise-cloud@latest/actions&#34;&gt;Github Actions&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.github.com/ko/enterprise-cloud@latest/actions/automating-builds-and-tests/building-and-testing-python&#34;&gt;Python 빌드 및 테스트&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://kimgabe.github.io/2024/01/19/githubblog-codecopy-button/</guid>
+            <title>[GitHub 블로그] GitHub Blog 코드블록에 복사버튼 추가하기(feat. Minimal-mistakes)</title>
+            <link>https://kimgabe.github.io/2024/01/19/githubblog-codecopy-button/</link>
+            <pubDate>Fri, 19 Jan 2024 00:00:00 +0900</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;summary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#summary&#34;&gt;#&lt;/a&gt; 🚦 Summary&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;최근에는 GitHub 블로그를 생성하면 공개된 여러 테마를 그대로 Clone해와서 손쉽게 생성이 가능합니다.&lt;/li&gt;
+&lt;li&gt;다만 코드블록의 복사버튼은 별도로 기능 구현이 필요합니다.&lt;/li&gt;
+&lt;li&gt;이번 포스팅에서는 Minimal-mistake 테마로 만든 GitHub 블로그에서 코드블록의 복사버튼을 만드는 방법을 소개합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 이런걸 정리합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;내 GitHub 블로그의 코드블록에 복사버튼을 추가하는 방법&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;작업순서-소개&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#작업순서-소개&#34;&gt;#&lt;/a&gt; 📑 작업순서 소개&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;_config.yml&lt;/code&gt;  파일 수정&lt;/li&gt;
+&lt;li&gt;layout 추가&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;1️⃣-configyml-파일-수정&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1️⃣-configyml-파일-수정&#34;&gt;#&lt;/a&gt; 1️⃣ config.yml  파일 수정&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡  &lt;code&gt;_config.yml&lt;/code&gt;  이란?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;_config.yml&lt;/code&gt;  은 GitHub Pages 혹은 Jekyll을 사용해서 GitHub 블로그를 구성할 때 사용되는 설정파일입니다.&lt;/li&gt;
+&lt;li&gt;이 파일에서 블로그의 기본 설정, 테마, 플러그인, 페이지 제목, 블로그 설명, 사이드바 설정 등 다양한 옵션을 조정할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;📰  &lt;code&gt;_config.yml&lt;/code&gt;  파일 수정 하기&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub 블로그를 생성한 Repository의 루트 디렉토리로 이동합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;_config.yml&lt;/code&gt;  파일을 열고 &#39;plugins&#39; 부분을 찾아서 아래와 같이  &lt;code&gt;jekyll-remote-theme&lt;/code&gt;  플러그인을 추가합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;plugins&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; jekyll&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;remote&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;theme&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;_config.yml&lt;/code&gt;  파일에서  &lt;code&gt;remote_theme&lt;/code&gt;  부분을 찾아 Minimal Mistakes 테마를 설정합니다. 아래와 같이 설정합니다&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;remote_theme&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;mmistakes/minimal-mistakes&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr /&gt;
+&lt;h3 id=&#34;2️⃣-_layouts-과-defaulthtml-파일-수정하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2️⃣-_layouts-과-defaulthtml-파일-수정하기&#34;&gt;#&lt;/a&gt; 2️⃣  &lt;code&gt;_layouts&lt;/code&gt;  과  &lt;code&gt;default.html&lt;/code&gt;  파일 수정하기&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡  &lt;code&gt;_layouts&lt;/code&gt;  과  &lt;code&gt;default.html&lt;/code&gt;  파일?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;_layouts&lt;/code&gt;  디렉토리는 GitHub 블로그의 페이지 레이아웃을 정의하는 곳입니다.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;default.html&lt;/code&gt;  파일은 블로그의 기본 레이아웃을 정의하며, 모든 페이지에 공통으로 적용됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;📰  &lt;code&gt;default.html&lt;/code&gt;  파일 수정 하기&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;만약  &lt;code&gt;_layouts&lt;/code&gt;  폴더가 없다면 생성하고  &lt;code&gt;default.html&lt;/code&gt;  을 생성해 줍니다.&lt;/li&gt;
+&lt;li&gt;생성한  &lt;code&gt;default.html&lt;/code&gt;  파일의 하단에 아래의 코드를 추가합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight html&#34;&gt;&lt;figcaption data-lang=&#34;HTML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;&lt;h2 id=&#34;summary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#summary&#34;&gt;#&lt;/a&gt; 🚦 Summary&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;최근에는 GitHub 블로그를 생성하면 공개된 여러 테마를 그대로 Clone해와서 손쉽게 생성이 가능합니다.&lt;/li&gt;
+&lt;li&gt;다만 코드블록의 복사버튼은 별도로 기능 구현이 필요합니다.&lt;/li&gt;
+&lt;li&gt;이번 포스팅에서는 Minimal-mistake 테마로 만든 GitHub 블로그에서 코드블록의 복사버튼을 만드는 방법을 소개합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 이런걸 정리합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;내 GitHub 블로그의 코드블록에 복사버튼을 추가하는 방법&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;작업순서-소개&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#작업순서-소개&#34;&gt;#&lt;/a&gt; 📑 작업순서 소개&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;_config.yml&lt;/code&gt;  파일 수정&lt;/li&gt;
+&lt;li&gt;layout 추가&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;1️⃣-configyml-파일-수정&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1️⃣-configyml-파일-수정&#34;&gt;#&lt;/a&gt; 1️⃣ config.yml  파일 수정&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡  &lt;code&gt;_config.yml&lt;/code&gt;  이란?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;_config.yml&lt;/code&gt;  은 GitHub Pages 혹은 Jekyll을 사용해서 GitHub 블로그를 구성할 때 사용되는 설정파일입니다.&lt;/li&gt;
+&lt;li&gt;이 파일에서 블로그의 기본 설정, 테마, 플러그인, 페이지 제목, 블로그 설명, 사이드바 설정 등 다양한 옵션을 조정할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;📰  &lt;code&gt;_config.yml&lt;/code&gt;  파일 수정 하기&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub 블로그를 생성한 Repository의 루트 디렉토리로 이동합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;_config.yml&lt;/code&gt;  파일을 열고 &#39;plugins&#39; 부분을 찾아서 아래와 같이  &lt;code&gt;jekyll-remote-theme&lt;/code&gt;  플러그인을 추가합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;plugins&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; jekyll&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;remote&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;theme&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;_config.yml&lt;/code&gt;  파일에서  &lt;code&gt;remote_theme&lt;/code&gt;  부분을 찾아 Minimal Mistakes 테마를 설정합니다. 아래와 같이 설정합니다&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;remote_theme&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;mmistakes/minimal-mistakes&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr /&gt;
+&lt;h3 id=&#34;2️⃣-_layouts-과-defaulthtml-파일-수정하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2️⃣-_layouts-과-defaulthtml-파일-수정하기&#34;&gt;#&lt;/a&gt; 2️⃣  &lt;code&gt;_layouts&lt;/code&gt;  과  &lt;code&gt;default.html&lt;/code&gt;  파일 수정하기&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡  &lt;code&gt;_layouts&lt;/code&gt;  과  &lt;code&gt;default.html&lt;/code&gt;  파일?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;_layouts&lt;/code&gt;  디렉토리는 GitHub 블로그의 페이지 레이아웃을 정의하는 곳입니다.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;default.html&lt;/code&gt;  파일은 블로그의 기본 레이아웃을 정의하며, 모든 페이지에 공통으로 적용됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;📰  &lt;code&gt;default.html&lt;/code&gt;  파일 수정 하기&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;만약  &lt;code&gt;_layouts&lt;/code&gt;  폴더가 없다면 생성하고  &lt;code&gt;default.html&lt;/code&gt;  을 생성해 줍니다.&lt;/li&gt;
+&lt;li&gt;생성한  &lt;code&gt;default.html&lt;/code&gt;  파일의 하단에 아래의 코드를 추가합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight html&#34;&gt;&lt;figcaption data-lang=&#34;HTML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;{{ content }}&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;여기까지 진행하면 모든 준비가 완료되었습니다.&lt;/li&gt;
+&lt;li&gt;이제부터 일반적인 마크다운의 코드블록 작성 방식대로 작성을 하면 자동으로 복사버튼이 생성됩니다.&lt;/li&gt;
+&lt;li&gt;위 코드를 적용한 결과 아래와 같이 코드 복사버튼이 생성되고, 복사버튼을 누르면 복사가 되었다는 메시지가 팝업됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgur.com/f9zwApM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;outro&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#outro&#34;&gt;#&lt;/a&gt; 🎈Outro.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;이번 포스팅에서는 GitHub 블로그의 Minimal-mistake 테마에서 코드블록에 복사버튼을 추가하는 방법을 정리했습니다.&lt;/li&gt;
+&lt;li&gt;차후에 시간이 된다면 GitHub 블로그를 생성하는 방법에 대해서도 포스팅을 하다록 하겠습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;여기까지 진행하면 모든 준비가 완료되었습니다.&lt;/li&gt;
+&lt;li&gt;이제부터 일반적인 마크다운의 코드블록 작성 방식대로 작성을 하면 자동으로 복사버튼이 생성됩니다.&lt;/li&gt;
+&lt;li&gt;위 코드를 적용한 결과 아래와 같이 코드 복사버튼이 생성되고, 복사버튼을 누르면 복사가 되었다는 메시지가 팝업됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgur.com/f9zwApM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;outro&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#outro&#34;&gt;#&lt;/a&gt; 🎈Outro.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;이번 포스팅에서는 GitHub 블로그의 Minimal-mistake 테마에서 코드블록에 복사버튼을 추가하는 방법을 정리했습니다.&lt;/li&gt;
+&lt;li&gt;차후에 시간이 된다면 GitHub 블로그를 생성하는 방법에 대해서도 포스팅을 하다록 하겠습니다.&lt;/li&gt;
 &lt;/ul&gt;
  ]]></description>
         </item>
