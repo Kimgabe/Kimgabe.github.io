@@ -15,7 +15,7 @@
     "@algolia/client-search": "^5.27.0",
     "@common.js/p-limit": "^6.1.0",
     "@waline/client": "^3.5.7",
-    "algoliasearch": "^5.27.0",
+    "algoliasearch": "^5.34.0",
     "es-toolkit": "^1.39.1",
     "esbuild": "^0.25.5",
     "hana-img-viewer": "^1.2.2",
