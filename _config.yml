@@ -1,0 +1,145 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Kim Gabe's DS Blog
+subtitle: 'Data Science & AI Journey'
+description: 'Kim Gabe의 블로그입니다. 데이터 사이언스, AI, 머신러닝 학습 과정을 기록합니다.'
+keywords: 'Data Science, AI, Machine Learning, Python, 김가베, 데이터분석, 인공지능'
+author: Kim Gabe
+language: en
+timezone: 'Asia/Seoul'
+
+# URL
+url: https://Kimgabe.github.io
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true
+  trailing_html: true
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :year-:month-:day-:title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+
+# ShokaX 공식 문서 설정: 코드 하이라이팅 비활성화
+syntax_highlighter: false
+highlight:
+  enable: false
+prismjs:
+  enable: false
+
+# ShokaX 공식 문서 설정: markdown 렌더러
+markdown:
+  render:
+    html: false
+    xhtmlOut: true
+    breaks: true
+    linkify: true
+    typographer: false
+  plugins:
+    - plugin:
+        name: markdown-it-toc-and-anchor
+        enable: true
+        options:
+          tocClassName: "toc"
+          anchorClassName: "anchor"
+    - plugin:
+        name: markdown-it-multimd-table
+        enable: true
+        options:
+          multiline: true
+          rowspan: true
+
+# Home page setting
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+updated_option: 'mtime'
+
+# Pagination
+per_page: 10
+pagination_dir: page
+
+# Include / Exclude file(s)
+include: []
+exclude: []
+ignore: []
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: shokax
+
+# 심볼 카운트 (읽기 시간) 설정
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  exclude_codeblock: false
+  awl: 4
+  wpm: 275
+  suffix: "mins."
+
+# Deployment
+deploy:
+  type: git
+  repo: https://github.com/Kimgabe/Kimgabe.github.io.git
+  branch: main
+
+# ShokaX 테마 설정 - Hexo 덮어쓰기 방식
+theme_config:
+  image_list:
+    - "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop"
+    - "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1920&h=1080&fit=crop"
+    - "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1920&h=1080&fit=crop"
+    - "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1920&h=1080&fit=crop"
+    - "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&h=1080&fit=crop"
+    - "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop"
+  menu:
+    home: / || home
+    posts:
+      default: / || feather
+      archives: /archives/ || list-alt
+      categories: /categories/ || th
+      tags: /tags/ || tags
+  modules:
+    debug: false
+    player: false
+    fireworks: true
+    visibilityListener: true
+    tabs: true
+    quiz: true
+    cloudflarePatch: false
