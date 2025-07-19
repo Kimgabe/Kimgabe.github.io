@@ -1,0 +1,25 @@
+// AdSense 광고 mixin
+mixin adsense(slot, style="display:block", format="auto", responsive="true")
+  if theme.visitor && theme.visitor.googleAdsense
+    .ad-container
+      ins.adsbygoogle(
+        style=style
+        data-ad-client=theme.visitor.googleAdsense
+        data-ad-slot=slot || "auto" 
+        data-ad-format=format
+        data-full-width-responsive=responsive
+      )
+      script.
+        (adsbygoogle = window.adsbygoogle || []).push({});
+
+// 포스트 상단 광고
+mixin adsenseTop()
+  +adsense("auto", "display:block;margin:20px 0;", "auto", "true")
+
+// 포스트 하단 광고  
+mixin adsenseBottom()
+  +adsense("auto", "display:block;margin:20px 0;", "auto", "true")
+
+// 사이드바 광고
+mixin adsenseSidebar()
+  +adsense("auto", "display:block;width:300px;height:250px;", "rectangle", "true") 

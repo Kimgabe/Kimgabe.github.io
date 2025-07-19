@@ -1,3 +1,5 @@
+include ./adsense.pug
+
 mixin field(item)
     if item.link
         - var postTitleIcon = '<i class="ic i-link-alt"></i>'
@@ -25,4 +27,10 @@ mixin WRender(item)
                 != __('index.recent_comments')
             if tk || waline
                 ul(class="leancloud-recent-comment" id="new-comment")
+    
+    // AdSense 사이드바 광고
+    if theme.visitor && theme.visitor.googleAdsense
+        div(class="rpost adsense-widget")
+            h2 추천 광고
+            +adsenseSidebar()
 

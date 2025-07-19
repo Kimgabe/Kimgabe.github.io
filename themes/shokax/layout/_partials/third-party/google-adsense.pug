@@ -1,0 +1,8 @@
+if theme.visitor && theme.visitor.googleAdsense
+  script(async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" + theme.visitor.googleAdsense crossorigin="anonymous")
+  // Auto ads
+  script.
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "#{theme.visitor.googleAdsense}",
+      enable_page_level_ads: true
+    }); 

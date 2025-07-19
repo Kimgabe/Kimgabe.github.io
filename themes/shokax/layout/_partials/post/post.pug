@@ -1,3 +1,5 @@
+include ../../_mixin/adsense.pug
+
 - var temp = post.lang || config.language
 article(itemscope itemtype="http://schema.org/Article" class="post block" lang=temp)
     link(itemprop="mainEntityOfPage" href!=post.permalink)
@@ -24,8 +26,13 @@ article(itemscope itemtype="http://schema.org/Article" class="post block" lang=t
                     p
                         != get_summary(page)
 
+        // AdSense 광고 - 포스트 상단
+        +adsenseTop()
 
         != post.content
+
+        // AdSense 광고 - 포스트 하단  
+        +adsenseBottom()
         if post.tags && post.tags.length
             div(class="tags")
                 each tag in post.tags.toArray()
