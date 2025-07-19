@@ -1,4 +1,4 @@
-alternate: "Kim Gabe's DS Blog" # 사이트 제목
+alternate: "Kim Gabe's DS Blog" # 站点大标题
 
 statics: "/" # 静态文件根目录
 assets: "assets"
@@ -24,15 +24,6 @@ experiments:
   mobileWidth: 820px # 移动版和桌面版导航栏最短切换长度
   copyrightLength: 50 # 自定义复制时显示copyright的长度
   antiFakeWebsite: false # 防止恶意网站伪装 (개발 환경에서 비활성화)
-
-# ShokaX engine.js가 요구하는 최상위 설정 (최소 6개 필요)
-image_list:
-  - "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop"
-  - "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1920&h=1080&fit=crop"
-  - "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1920&h=1080&fit=crop"
-  - "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1920&h=1080&fit=crop"
-  - "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&h=1080&fit=crop"
-  - "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop"
 
 homeConfig:
   gradient: false # 使用CSS渐变作为文章封面
@@ -84,8 +75,7 @@ seo:
 visitor:
   clarity: false
   baiduAnalytics: false
-  googleAnalytics: G-S8SVCTHDH2
-  googleAdsense: pub-8264517186303288
+  googleAnalytics: false
 
 darkmode: true
 auto_dark: # 自动亮/暗模式
@@ -178,15 +168,6 @@ iconfont: "4415496_59g1326wajd"
 
 menu:
   home: / || home
-  posts:
-    default: / || feather
-    archives: /archives/ || list-alt
-    categories: /categories/ || th
-    programming: /categories/personal-study/ || code
-    data-science: /categories/personal-study/ || chart-bar  
-    ai-ml: /categories/gabe-ai-journey/ || brain
-    career: /categories/gabe-ai-journey/ || briefcase
-    tags: /tags/ || tags
   # about:
   #   default: / || user
   #   aboutsite: /about/  || user
@@ -245,7 +226,7 @@ summary:
 # Value before `||` delimiter is the target permalink,
 # secend value is the name of Font icon.
 social:
-  github: https://github.com/Kimgabe || github || "#191717"
+  github: https://github.com/yourname || github || "#191717"
   #gitee: https://gitee.com/yourname || gitee || "#e60026"
   #google: https://plus.google.com/yourname || google
   #twitter: https://twitter.com/yourname || twitter || "#00aff0"
@@ -272,7 +253,7 @@ widgets:
   # if true, will show random posts
   random_posts: true
   # if true, will show recent comments
-  recent_comments: false
+  recent_comments: true
 
 footer:
   # Specify the date when the site was set up. If not defined, current year will be used.
@@ -302,7 +283,7 @@ outime:
 
 reward:
   # If true, reward will be displayed in every article by default.
-  enable: false
+  enable: true
   account:
     wechatpay: /wechatpay.png
     alipay: /alipay.png
@@ -342,6 +323,18 @@ audio:
 
 # random image api
 image_server: # "https://acg.xydwz.cn/api/api.php"
+
+# image list for covers (minimum 6 required)
+image_list:
+  - "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop"
+  - "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1920&h=1080&fit=crop"
+  - "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1920&h=1080&fit=crop" 
+  - "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=1920&h=1080&fit=crop"
+  - "https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=1920&h=1080&fit=crop"
+  - "https://images.unsplash.com/photo-1502982720700-bfff97f2ecac?w=1920&h=1080&fit=crop"
+
+# index page images (fallback)
+index_images: []
 
 # Algolia Search
 # For more information: https://www.algolia.com

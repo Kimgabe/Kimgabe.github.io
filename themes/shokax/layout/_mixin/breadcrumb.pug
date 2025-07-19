@@ -15,19 +15,19 @@ mixin BCRender(post, home)
             if home
                 if index===cat_length-1
                     span(class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem")
-                        a(href=url_for(cat.path) itemprop="item" rel="index" title=__('post.in')+ pretty_category(cat.name))
+                        a(href=url_for(cat.path) itemprop="item" rel="index" title=__('post.in')+ cat.name)
                             span(itemprop="name")
-                                != pretty_category(cat.name)
+                                != cat.name
                                 meta(itemprop="position" content=index)
                 else
                     span(itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem")
-                        a(href=url_for(cat.path) itemprop="item" rel="index" title=__('post.in') + pretty_category(cat.name))
+                        a(href=url_for(cat.path) itemprop="item" rel="index" title=__('post.in') + cat.name)
                             span(itemprop="name")
-                                != pretty_category(cat.name)
+                                != cat.name
                                 meta(itemprop="position" content=index)
             else
-                a(href=url_for(cat.path) title=__('post.in')+pretty_category(cat.name))
-                    != pretty_category(cat.name)
+                a(href=url_for(cat.path) title=__('post.in')+cat.name)
+                    != cat.name
             if cat_length > 1 && index !== cat_length - 1
                 i(class="ic i-angle-right")
     != '</div>'

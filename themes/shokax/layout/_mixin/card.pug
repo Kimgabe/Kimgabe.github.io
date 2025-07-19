@@ -4,7 +4,7 @@ mixin CardRender(item)
     section(class="item")
         div(class="cover" data-background-image=`${theme.statics}${item.slug}/cover.${getCoverExt(item.slug)}`)
             h2(class="title")
-                != pretty_category(itemname)
+                != itemname
             - var temp = item?.top?.name
             if temp
                 span

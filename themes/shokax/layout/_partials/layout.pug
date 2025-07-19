@@ -2,7 +2,7 @@ include ../_mixin/breadcrumb.pug
 include ../_mixin/sidebar.pug
 include ../_mixin/widgets.pug
 
-- var covers = _cover_index(page, 6)
+- var covers = theme.homeConfig?.fixedCover || "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop"
 - var enableFixedCover = theme.homeConfig?.fixedCover
 - var enablePreload = theme.homeConfig?.coverConfig?.enablePreload
 - var enableCover = theme.homeConfig?.coverConfig?.enableCover
@@ -129,7 +129,6 @@ html(lang=page.language?page.language:config.language, style=theme.grayMode ? 'f
         != partial('_partials/third-party/baidu-analytics.pug', {}, {cache: true})
         != partial('_partials/third-party/clarity.pug', {}, {cache: true})
         != partial('_partials/third-party/google-analytics.pug', {}, {cache: true})
-        != partial('_partials/third-party/google-adsense.pug', {}, {cache: true})
 
         != _js('siteInit.js')
 

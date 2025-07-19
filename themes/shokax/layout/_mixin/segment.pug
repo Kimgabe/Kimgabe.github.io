@@ -30,6 +30,6 @@ mixin SMRender(item, lazy)
                 div(class="meta footer")
                     span
                         - var lastcat = item.categories.last()
-                        != _url(lastcat.path, '<i class="ic i-flag"></i>' + pretty_category(lastcat.name), {itemprop: 'url', title: pretty_category(lastcat.name)})
+                        != _url(lastcat.path, '<i class="ic i-flag"></i>' + lastcat.name, {itemprop: 'url', title: lastcat.name})
             != _url(link1, 'more...', {itemprop: 'url', title: postText, class: 'btn'})
 
