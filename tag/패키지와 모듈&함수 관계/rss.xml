@@ -21,6 +21,16 @@
         <category>np.eye</category>
         <category>np.linspace</category>
         <category>reshape</category>
+        <category>데이터 통합,pandas,DataFrame,concat,os,listdir,CSV 파일,데이터 병합,데이터 프레임,데이터 분석,데이터 처리,데이터 정렬,빈 데이터 프레임,파일 시스템,경고 메시지</category>
+        <category>random 모듈</category>
+        <category>np.random.rand</category>
+        <category>np.random.randn</category>
+        <category>np.random.randint</category>
+        <category>np.random.seed</category>
+        <category>랜덤을 적용하면서도 일정한 값 만들기</category>
+        <category>np.random.choice</category>
+        <category>np.random.uniform</category>
+        <category>np.random.normal</category>
         <category>feature engineering</category>
         <category>prediction</category>
         <category>regression. DACON</category>
@@ -32,17 +42,6 @@
         <category>LightGBM</category>
         <category>머신러닝</category>
         <category>딥러닝</category>
-        <category>random 모듈</category>
-        <category>np.random.rand</category>
-        <category>np.random.randn</category>
-        <category>np.random.randint</category>
-        <category>np.random.seed</category>
-        <category>랜덤을 적용하면서도 일정한 값 만들기</category>
-        <category>np.random.choice</category>
-        <category>np.random.uniform</category>
-        <category>np.random.normal</category>
-        <category>데이터 통합,pandas,DataFrame,concat,os,listdir,CSV 파일,데이터 병합,데이터 프레임,데이터 분석,데이터 처리,데이터 정렬,빈 데이터 프레임,파일 시스템,경고 메시지</category>
-        <category>판다스,데이터 병합,DataFrame,merge,key 변수,customerID,read_csv,데이터 관리,SQL Join,전처리</category>
         <category>indexing</category>
         <category>1차원 벡터 인덱싱</category>
         <category>index로 특정 위치 값 바꾸기</category>
@@ -56,6 +55,7 @@
         <category>1차원 벡터 슬리이싱</category>
         <category>2차원 행렬 슬라이싱</category>
         <category>3차원 텐서 슬라이싱</category>
+        <category>판다스,데이터 병합,DataFrame,merge,key 변수,customerID,read_csv,데이터 관리,SQL Join,전처리</category>
         <category>Python,pandas,데이터 병합,날짜 포맷,apply 함수,merge 함수,데이터프레임,Series,경고 필터링,파일 로드,데이터 접근</category>
         <category>ndarray 형태바꾸기</category>
         <category>np.ravel</category>
@@ -64,7 +64,6 @@
         <category>array의 차원바꾸기</category>
         <category>이미지 벡터화</category>
         <category>판다스,데이터 병합,Series,DataFrame,to_dict,replace,merge,ref_df,인덱스,행정구역,엑셀 파일,CSV 파일,인코딩,add_prefix</category>
-        <category>데이터 분석,거리 행렬,병합,지하철역,경도,위도,pandas,scipy,haversine,argsort,DataFrame</category>
         <category>np.add</category>
         <category>np.divide</category>
         <category>np.mod</category>
@@ -81,21 +80,22 @@
         <category>np.any</category>
         <category>np.all</category>
         <category>np.where</category>
+        <category>데이터 분석,거리 행렬,병합,지하철역,경도,위도,pandas,scipy,haversine,argsort,DataFrame</category>
         <category>axis</category>
         <category>numpy 축</category>
         <category>1차원 axis</category>
         <category>2차원 axis</category>
         <category>3차원 axis</category>
+        <category>판다스,데이터 병합,groupby,DataFrame,Series,merge,replace,고객ID,구매금액,인덱스,CSV 파일,인코딩,머신러닝,통계량,조건부 통계량</category>
         <category>broadcasting</category>
         <category>브로드캐스팅</category>
         <category>서로다른 shape의 numpy끼리 연산하는 방법</category>
         <category>scalar</category>
         <category>상수</category>
-        <category>판다스,데이터 병합,groupby,DataFrame,Series,merge,replace,고객ID,구매금액,인덱스,CSV 파일,인코딩,머신러닝,통계량,조건부 통계량</category>
         <category>결측치,데이터 전처리,pandas,dropna,isnull,Train data,Test data,머신러닝,데이터프레임,train_test_split,결측 레코드,결측치 비율,결측치 삭제,결측치 처리,결측치 문제,결측치 대체</category>
         <category>boolean indexing</category>
         <category>다중조건</category>
-        <category>데이터 전처리,sklearn,결측치,SimpleImputer,train_test_split,DataFrame,상관 계수,범주형 변수,연속형 변수,전처리 모델,대표값 대체,결측치 대체법,전략,평균,최빈값</category>
+        <category>시계열,결측치,대체,DataFrame,fillna,ffill,bfill,Python,pandas,데이터프레임,train_test_split</category>
         <category>선형대수</category>
         <category>linalg</category>
         <category>np.linalg</category>
@@ -104,7 +104,7 @@
         <category>역행렬</category>
         <category>정방행렬</category>
         <category>항등행렬</category>
-        <category>시계열,결측치,대체,DataFrame,fillna,ffill,bfill,Python,pandas,데이터프레임,train_test_split</category>
+        <category>데이터 전처리,sklearn,결측치,SimpleImputer,train_test_split,DataFrame,상관 계수,범주형 변수,연속형 변수,전처리 모델,대표값 대체,결측치 대체법,전략,평균,최빈값</category>
         <category>그래프 그리기</category>
         <category>line plot</category>
         <category>scatter plot</category>
@@ -112,28 +112,23 @@
         <category>grid 추가하기</category>
         <category>subplot으로 그래프 여러개 그리기</category>
         <category>histogram그리기</category>
-        <category>결측치,KNN Imputer,예측 모델,데이터 처리,sklearn,머신러닝,데이터프레임,결측 대체,모델 학습,파라미터,상관 계수</category>
         <category>로또 번호 자동생성기</category>
+        <category>결측치,KNN Imputer,예측 모델,데이터 처리,sklearn,머신러닝,데이터프레임,결측 대체,모델 학습,파라미터,상관 계수</category>
+        <category>범주형 변수,모델 학습,숫자 변환,더미화,연속형 치환,차원의 저주,데이터 분석,지도학습,인코딩,머신러닝</category>
         <category>문제풀이</category>
         <category>pi</category>
         <category>Mote Carlo</category>
         <category>원주율구하기</category>
-        <category>범주형 변수,모델 학습,숫자 변환,더미화,연속형 치환,차원의 저주,데이터 분석,지도학습,인코딩,머신러닝</category>
         <category>EDA</category>
-        <category>스타벅스</category>
-        <category>이디야</category>
-        <category>folium</category>
-        <category>웹크롤링</category>
-        <category>google api</category>
-        <category>좌표추출</category>
-        <category>데이터분석</category>
-        <category>시각화</category>
-        <category>EDA - matplotlib - kaggle - dataset - dendrogram - correlation - preprocessing - folium</category>
-        <category>전처리</category>
-        <category>시리즈</category>
         <category>series</category>
         <category>pandas</category>
         <category>판다스</category>
+        <category>시리즈</category>
+        <category>데이터업데이트</category>
+        <category>데이터접근</category>
+        <category>인덱스재사용</category>
+        <category>EDA - matplotlib - kaggle - dataset - dendrogram - correlation - preprocessing - folium</category>
+        <category>전처리</category>
         <category>size</category>
         <category>shape</category>
         <category>len</category>
@@ -158,9 +153,6 @@
         <category>head</category>
         <category>tail</category>
         <category>기초</category>
-        <category>데이터업데이트</category>
-        <category>데이터접근</category>
-        <category>인덱스재사용</category>
         <category>Pandas</category>
         <category>Series</category>
         <category>local</category>
@@ -173,10 +165,11 @@
         <category>dict</category>
         <category>numpy_array</category>
         <category>slicing</category>
+        <category>python - 시각화 - visualization - matplotlib - canvas - subplot - title - fontsize - tick - x축 - y축 - legend - marker - linestyle - color - alpha - 투명도 - grid - 이미지저장</category>
+        <category>데이터 전처리,모델 튜닝,하이퍼 파라미터,결측치 처리,범주형 변수,라벨 처리,변수 분포,클래스 불균형,특징 선택,파라미터 그리드,스케일링,머신러닝,데이터 통합,이상치,상관관계</category>
+        <category>시각화</category>
         <category>visualization</category>
         <category>matplotlib</category>
-        <category>데이터 전처리,모델 튜닝,하이퍼 파라미터,결측치 처리,범주형 변수,라벨 처리,변수 분포,클래스 불균형,특징 선택,파라미터 그리드,스케일링,머신러닝,데이터 통합,이상치,상관관계</category>
-        <category>python - 시각화 - visualization - matplotlib - canvas - subplot - title - fontsize - tick - x축 - y축 - legend - marker - linestyle - color - alpha - 투명도 - grid - 이미지저장</category>
         <category>bar plot</category>
         <category>막대그래프</category>
         <category>barhplot</category>
@@ -188,6 +181,13 @@
         <category>히스토그램</category>
         <category>pie chart</category>
         <category>파이차트</category>
+        <category>스타벅스</category>
+        <category>이디야</category>
+        <category>folium</category>
+        <category>웹크롤링</category>
+        <category>google api</category>
+        <category>좌표추출</category>
+        <category>데이터분석</category>
         <category>box plot</category>
         <category>3D plot</category>
         <category>imshow</category>
@@ -198,8 +198,9 @@
         <category>logistic regression</category>
         <category>XGBoost</category>
         <category>feature importance</category>
-        <category>python basic</category>
         <category>데이터타입</category>
+        <category>연산자</category>
+        <category>python basic</category>
         <category>주석</category>
         <category>indent</category>
         <category>IndentationError</category>
@@ -215,7 +216,6 @@
         <category>format()</category>
         <category>문자 자르기</category>
         <category>split()</category>
-        <category>연산자</category>
         <category>list</category>
         <category>튜플</category>
         <category>tuple</category>
@@ -247,6 +247,13 @@
         <category>합집합</category>
         <category>차집합</category>
         <category>부분집합</category>
+        <category>반복문</category>
+        <category>loop</category>
+        <category>for문</category>
+        <category>while문</category>
+        <category>무한루프</category>
+        <category>break</category>
+        <category>continue</category>
         <category>조건문</category>
         <category>if문</category>
         <category>if</category>
@@ -257,13 +264,6 @@
         <category>다중조건문</category>
         <category>중첩조건문</category>
         <category>nested condition</category>
-        <category>반복문</category>
-        <category>loop</category>
-        <category>for문</category>
-        <category>while문</category>
-        <category>무한루프</category>
-        <category>break</category>
-        <category>continue</category>
         <category>dict 아이템출력하기</category>
         <category>for문에 index사용하기</category>
         <category>2중 for문</category>
@@ -302,6 +302,31 @@
         <category>alias</category>
         <category>별명</category>
         <category>별명 지어주기</category>
+        <category>lambda</category>
+        <category>lambda로 sort하기</category>
+        <category>lambda로 filtering하기</category>
+        <category>lambda로 mapping하기</category>
+        <category>lambda로 reducing하기</category>
+        <category>자주쓰는 lambda기능</category>
+        <category>class</category>
+        <category>객체</category>
+        <category>상속</category>
+        <category>object</category>
+        <category>instance</category>
+        <category>class선언</category>
+        <category>method</category>
+        <category>__init__</category>
+        <category>self인자</category>
+        <category>method정의</category>
+        <category>method type</category>
+        <category>instance method</category>
+        <category>class method</category>
+        <category>class inheritance</category>
+        <category>method override</category>
+        <category>method재정의</category>
+        <category>부모클래스</category>
+        <category>자식클래스</category>
+        <category>super</category>
         <category>정규표현식</category>
         <category>re</category>
         <category>preprocessing</category>
@@ -331,31 +356,6 @@
         <category>findall</category>
         <category>sub</category>
         <category>compile</category>
-        <category>lambda</category>
-        <category>lambda로 sort하기</category>
-        <category>lambda로 filtering하기</category>
-        <category>lambda로 mapping하기</category>
-        <category>lambda로 reducing하기</category>
-        <category>자주쓰는 lambda기능</category>
-        <category>class</category>
-        <category>객체</category>
-        <category>상속</category>
-        <category>object</category>
-        <category>instance</category>
-        <category>class선언</category>
-        <category>method</category>
-        <category>__init__</category>
-        <category>self인자</category>
-        <category>method정의</category>
-        <category>method type</category>
-        <category>instance method</category>
-        <category>class method</category>
-        <category>class inheritance</category>
-        <category>method override</category>
-        <category>method재정의</category>
-        <category>부모클래스</category>
-        <category>자식클래스</category>
-        <category>super</category>
         <category>GitHub</category>
         <category>Resume</category>
         <category>automated</category>
@@ -373,16 +373,16 @@
         <category>공부방법</category>
         <category>도서</category>
         <category>리뷰</category>
-        <category>문자열 다루기</category>
-        <category>islower()</category>
-        <category>isupper()</category>
-        <category>escape문자</category>
-        <category>산술연산자</category>
         <category>덧셈식 출력하기</category>
         <category>문자열 붙여서 출력하기</category>
         <category>문자열 돌리기</category>
         <category>홀짝 구분하기</category>
         <category>문자열 겹쳐쓰기</category>
+        <category>문자열 다루기</category>
+        <category>islower()</category>
+        <category>isupper()</category>
+        <category>escape문자</category>
+        <category>산술연산자</category>
         <category>문자열 섞기</category>
         <category>문자 리스트를 문자열로 변환하기</category>
         <category>문자열 곱하기</category>
