@@ -141,11 +141,11 @@ theme_config:
       default: / || feather
       archives: /archives/ || list-alt
       categories: /categories/ || th
-      programming: /categories/personal-study/ || code
-      data-science: /categories/personal-study/ || chart-bar  
-      ai-ml: /categories/gabe-ai-journey/ || brain
-      career: /categories/personal-study/ || briefcase
-      portfolio: /categories/portfolio/ || folder-open
+      Programming: /categories/personal-study/ || code
+      Data Science: /categories/personal-study/ || chart-bar  
+      AI Journey: /categories/gabe-ai-journey/ || brain
+      Career: /categories/personal-study/ || briefcase
+      Portfolio: /categories/portfolio/ || folder-open
       tags: /tags/ || tags
   modules:
     debug: false

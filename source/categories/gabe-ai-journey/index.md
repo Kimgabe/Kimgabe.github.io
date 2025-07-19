@@ -1,5 +1,5 @@
 ---
-title: Gabe's AI Journey
+title: 🤖 Gabe's AI Journey
 date: 2025-07-19 23:25:00
 type: categories
 category: gabe-ai-journey

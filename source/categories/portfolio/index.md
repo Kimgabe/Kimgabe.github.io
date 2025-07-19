@@ -1,5 +1,5 @@
 ---
-title: Portfolio
+title: 🎯 Portfolio
 date: 2025-07-19 23:25:00
 type: categories
 category: portfolio

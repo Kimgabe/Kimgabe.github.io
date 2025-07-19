@@ -1,5 +1,5 @@
 ---
-title: Personal Study
+title: 💻 Personal Study
 date: 2025-07-19 23:25:00
 type: categories
 category: personal-study
