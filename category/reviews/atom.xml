@@ -1,0 +1,2332 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://Kimgabe.github.io</id>
+    <title>Kim Gabe&#39;s DS Blog • Posts by &#34;reviews&#34; category</title>
+    <link href="https://Kimgabe.github.io" />
+    <updated>2024-02-18T15:00:00.000Z</updated>
+    <category term="python" />
+    <category term="ndarray" />
+    <category term="numpy vectorization" />
+    <category term="메모리" />
+    <category term="np.array" />
+    <category term="ndarray 데이터타입" />
+    <category term="np.arange" />
+    <category term="np.ones" />
+    <category term="np.zeros" />
+    <category term="np.empty" />
+    <category term="np.full" />
+    <category term="np.eye" />
+    <category term="np.linspace" />
+    <category term="reshape" />
+    <category term="데이터 통합,pandas,DataFrame,concat,os,listdir,CSV 파일,데이터 병합,데이터 프레임,데이터 분석,데이터 처리,데이터 정렬,빈 데이터 프레임,파일 시스템,경고 메시지" />
+    <category term="feature engineering" />
+    <category term="prediction" />
+    <category term="regression. DACON" />
+    <category term="시계열" />
+    <category term="카드매출" />
+    <category term="예측" />
+    <category term="KNN" />
+    <category term="RandomForestRegressor" />
+    <category term="LightGBM" />
+    <category term="머신러닝" />
+    <category term="딥러닝" />
+    <category term="random 모듈" />
+    <category term="np.random.rand" />
+    <category term="np.random.randn" />
+    <category term="np.random.randint" />
+    <category term="np.random.seed" />
+    <category term="랜덤을 적용하면서도 일정한 값 만들기" />
+    <category term="np.random.choice" />
+    <category term="np.random.uniform" />
+    <category term="np.random.normal" />
+    <category term="indexing" />
+    <category term="1차원 벡터 인덱싱" />
+    <category term="index로 특정 위치 값 바꾸기" />
+    <category term="index의 값 바꾸기" />
+    <category term="2차원 행렬 인덱싱" />
+    <category term="3차원 텐서 인덱싱" />
+    <category term="벡터" />
+    <category term="행렬" />
+    <category term="텐서" />
+    <category term="슬라이싱" />
+    <category term="1차원 벡터 슬리이싱" />
+    <category term="2차원 행렬 슬라이싱" />
+    <category term="3차원 텐서 슬라이싱" />
+    <category term="판다스,데이터 병합,DataFrame,merge,key 변수,customerID,read_csv,데이터 관리,SQL Join,전처리" />
+    <category term="Python,pandas,데이터 병합,날짜 포맷,apply 함수,merge 함수,데이터프레임,Series,경고 필터링,파일 로드,데이터 접근" />
+    <category term="ndarray 형태바꾸기" />
+    <category term="np.ravel" />
+    <category term="np.flatten" />
+    <category term="np.reshape" />
+    <category term="array의 차원바꾸기" />
+    <category term="이미지 벡터화" />
+    <category term="np.add" />
+    <category term="np.divide" />
+    <category term="np.mod" />
+    <category term="np.mean" />
+    <category term="np.median" />
+    <category term="np.max" />
+    <category term="np.min" />
+    <category term="np.argmax" />
+    <category term="np.argmin" />
+    <category term="np.var" />
+    <category term="np.std" />
+    <category term="np.sum" />
+    <category term="np.consum" />
+    <category term="np.any" />
+    <category term="np.all" />
+    <category term="np.where" />
+    <category term="axis" />
+    <category term="numpy 축" />
+    <category term="1차원 axis" />
+    <category term="2차원 axis" />
+    <category term="3차원 axis" />
+    <category term="데이터 분석,거리 행렬,병합,지하철역,경도,위도,pandas,scipy,haversine,argsort,DataFrame" />
+    <category term="판다스,데이터 병합,groupby,DataFrame,Series,merge,replace,고객ID,구매금액,인덱스,CSV 파일,인코딩,머신러닝,통계량,조건부 통계량" />
+    <category term="판다스,데이터 병합,Series,DataFrame,to_dict,replace,merge,ref_df,인덱스,행정구역,엑셀 파일,CSV 파일,인코딩,add_prefix" />
+    <category term="결측치,데이터 전처리,pandas,dropna,isnull,Train data,Test data,머신러닝,데이터프레임,train_test_split,결측 레코드,결측치 비율,결측치 삭제,결측치 처리,결측치 문제,결측치 대체" />
+    <category term="broadcasting" />
+    <category term="브로드캐스팅" />
+    <category term="서로다른 shape의 numpy끼리 연산하는 방법" />
+    <category term="scalar" />
+    <category term="상수" />
+    <category term="boolean indexing" />
+    <category term="다중조건" />
+    <category term="데이터 전처리,sklearn,결측치,SimpleImputer,train_test_split,DataFrame,상관 계수,범주형 변수,연속형 변수,전처리 모델,대표값 대체,결측치 대체법,전략,평균,최빈값" />
+    <category term="선형대수" />
+    <category term="linalg" />
+    <category term="np.linalg" />
+    <category term="행렬내적구하기" />
+    <category term="전치행렬구하기" />
+    <category term="역행렬" />
+    <category term="정방행렬" />
+    <category term="항등행렬" />
+    <category term="시계열,결측치,대체,DataFrame,fillna,ffill,bfill,Python,pandas,데이터프레임,train_test_split" />
+    <category term="그래프 그리기" />
+    <category term="line plot" />
+    <category term="scatter plot" />
+    <category term="그래프에 주석추가하기" />
+    <category term="grid 추가하기" />
+    <category term="subplot으로 그래프 여러개 그리기" />
+    <category term="histogram그리기" />
+    <category term="결측치,KNN Imputer,예측 모델,데이터 처리,sklearn,머신러닝,데이터프레임,결측 대체,모델 학습,파라미터,상관 계수" />
+    <category term="로또 번호 자동생성기" />
+    <category term="문제풀이" />
+    <category term="pi" />
+    <category term="Mote Carlo" />
+    <category term="원주율구하기" />
+    <category term="범주형 변수,모델 학습,숫자 변환,더미화,연속형 치환,차원의 저주,데이터 분석,지도학습,인코딩,머신러닝" />
+    <category term="EDA" />
+    <category term="스타벅스" />
+    <category term="이디야" />
+    <category term="folium" />
+    <category term="웹크롤링" />
+    <category term="google api" />
+    <category term="좌표추출" />
+    <category term="데이터분석" />
+    <category term="시각화" />
+    <category term="EDA - matplotlib - kaggle - dataset - dendrogram - correlation - preprocessing - folium" />
+    <category term="series" />
+    <category term="pandas" />
+    <category term="판다스" />
+    <category term="시리즈" />
+    <category term="데이터업데이트" />
+    <category term="데이터접근" />
+    <category term="인덱스재사용" />
+    <category term="데이터 전처리,모델 튜닝,하이퍼 파라미터,결측치 처리,범주형 변수,라벨 처리,변수 분포,클래스 불균형,특징 선택,파라미터 그리드,스케일링,머신러닝,데이터 통합,이상치,상관관계" />
+    <category term="전처리" />
+    <category term="size" />
+    <category term="shape" />
+    <category term="len" />
+    <category term="count" />
+    <category term="value_counts" />
+    <category term="mean" />
+    <category term="max" />
+    <category term="min" />
+    <category term="sum" />
+    <category term="median" />
+    <category term="abs" />
+    <category term="cumsum" />
+    <category term="cumprod" />
+    <category term="std" />
+    <category term="var" />
+    <category term="mode" />
+    <category term="corr" />
+    <category term="astype" />
+    <category term="데이터형변환" />
+    <category term="산술연산" />
+    <category term="인덱싱" />
+    <category term="head" />
+    <category term="tail" />
+    <category term="기초" />
+    <category term="Pandas" />
+    <category term="Series" />
+    <category term="local" />
+    <category term="iloc" />
+    <category term="데이터변환" />
+    <category term="리스트" />
+    <category term="딕셔너리" />
+    <category term="넘파이배열" />
+    <category term="List" />
+    <category term="dict" />
+    <category term="numpy_array" />
+    <category term="slicing" />
+    <category term="python - 시각화 - visualization - matplotlib - canvas - subplot - title - fontsize - tick - x축 - y축 - legend - marker - linestyle - color - alpha - 투명도 - grid - 이미지저장" />
+    <category term="visualization" />
+    <category term="matplotlib" />
+    <category term="bar plot" />
+    <category term="막대그래프" />
+    <category term="barhplot" />
+    <category term="가로막대 그래프" />
+    <category term="꺾은선 그래프" />
+    <category term="area plot" />
+    <category term="면적 그래프" />
+    <category term="histogram" />
+    <category term="히스토그램" />
+    <category term="pie chart" />
+    <category term="파이차트" />
+    <category term="box plot" />
+    <category term="3D plot" />
+    <category term="imshow" />
+    <category term="classification" />
+    <category term="헬스케어" />
+    <category term="의료데이터" />
+    <category term="kaggle" />
+    <category term="logistic regression" />
+    <category term="XGBoost" />
+    <category term="feature importance" />
+    <category term="python basic" />
+    <category term="데이터타입" />
+    <category term="주석" />
+    <category term="indent" />
+    <category term="IndentationError" />
+    <category term="연산자" />
+    <category term="escape string" />
+    <category term="문자열자르기" />
+    <category term="문자열 slicing" />
+    <category term="대문자변환" />
+    <category term="upper()" />
+    <category term="소문자변환" />
+    <category term="lower()" />
+    <category term="문자바꾸기" />
+    <category term="replace()" />
+    <category term="format()" />
+    <category term="문자 자르기" />
+    <category term="split()" />
+    <category term="list" />
+    <category term="튜플" />
+    <category term="tuple" />
+    <category term="append" />
+    <category term="extend" />
+    <category term="remove" />
+    <category term="pop" />
+    <category term="index" />
+    <category term="replace" />
+    <category term="in" />
+    <category term="list정렬" />
+    <category term="튜플 indexing" />
+    <category term="튜플 slicing" />
+    <category term="list와 tuple의 공통점" />
+    <category term="list와 tuple의 차이점" />
+    <category term="mutable" />
+    <category term="immutable" />
+    <category term="딕셔러니" />
+    <category term="dictionary" />
+    <category term="set" />
+    <category term="update" />
+    <category term="del" />
+    <category term="clear" />
+    <category term="get()" />
+    <category term="union()" />
+    <category term="intersection()" />
+    <category term="issubset()" />
+    <category term="교집합" />
+    <category term="합집합" />
+    <category term="차집합" />
+    <category term="부분집합" />
+    <category term="조건문" />
+    <category term="if문" />
+    <category term="if" />
+    <category term="elif" />
+    <category term="else" />
+    <category term="조건문 논리" />
+    <category term="조건문 우선순위" />
+    <category term="다중조건문" />
+    <category term="중첩조건문" />
+    <category term="nested condition" />
+    <category term="반복문" />
+    <category term="loop" />
+    <category term="for문" />
+    <category term="while문" />
+    <category term="무한루프" />
+    <category term="break" />
+    <category term="continue" />
+    <category term="dict 아이템출력하기" />
+    <category term="for문에 index사용하기" />
+    <category term="2중 for문" />
+    <category term="loop중첩" />
+    <category term="구구단 출력하기" />
+    <category term="itertools" />
+    <category term="product()" />
+    <category term="combination()" />
+    <category term="permutation()" />
+    <category term="zip()과 itertools.produce()차이" />
+    <category term="list comprehension" />
+    <category term="for문 한줄로 작성하기" />
+    <category term="dictionary comprehension" />
+    <category term="함수" />
+    <category term="def" />
+    <category term="내장함수" />
+    <category term="parameter" />
+    <category term="argument" />
+    <category term="default parameter" />
+    <category term="keyword parameter" />
+    <category term="return" />
+    <category term="multiple return" />
+    <category term="전역변수" />
+    <category term="지역변수" />
+    <category term="local variable" />
+    <category term="global variable" />
+    <category term="가변인자" />
+    <category term="argument parameter" />
+    <category term="args" />
+    <category term="kwargs" />
+    <category term="lambda" />
+    <category term="lambda로 sort하기" />
+    <category term="lambda로 filtering하기" />
+    <category term="lambda로 mapping하기" />
+    <category term="lambda로 reducing하기" />
+    <category term="자주쓰는 lambda기능" />
+    <category term="패키지" />
+    <category term="모듈" />
+    <category term="패키지와 모듈&amp;함수 관계" />
+    <category term="import" />
+    <category term="특정모듈만 불러오기" />
+    <category term="alias" />
+    <category term="별명" />
+    <category term="별명 지어주기" />
+    <category term="class" />
+    <category term="객체" />
+    <category term="상속" />
+    <category term="object" />
+    <category term="instance" />
+    <category term="class선언" />
+    <category term="method" />
+    <category term="__init__" />
+    <category term="self인자" />
+    <category term="method정의" />
+    <category term="method type" />
+    <category term="instance method" />
+    <category term="class method" />
+    <category term="class inheritance" />
+    <category term="method override" />
+    <category term="method재정의" />
+    <category term="부모클래스" />
+    <category term="자식클래스" />
+    <category term="super" />
+    <category term="정규표현식" />
+    <category term="re" />
+    <category term="preprocessing" />
+    <category term="search" />
+    <category term="metacharacters" />
+    <category term="abck" />
+    <category term="abc.^" />
+    <category term="a-d" />
+    <category term="0-9" />
+    <category term="a-z" />
+    <category term="A-Z" />
+    <category term="a-zA-Z0-9" />
+    <category term="^0-9" />
+    <category term="반복패턴" />
+    <category term="기본패턴" />
+    <category term="\d" />
+    <category term="\D" />
+    <category term="\s" />
+    <category term="\S" />
+    <category term="\w" />
+    <category term="\W" />
+    <category term="\" />
+    <category term="\\" />
+    <category term="grouping" />
+    <category term="미니멈 매칭" />
+    <category term="non-greedy way" />
+    <category term="findall" />
+    <category term="sub" />
+    <category term="compile" />
+    <category term="GitHub" />
+    <category term="Resume" />
+    <category term="automated" />
+    <category term="Profile" />
+    <category term="README" />
+    <category term="career" />
+    <category term="이력서" />
+    <category term="깃허브" />
+    <category term="프로필" />
+    <category term="자동작성" />
+    <category term="GitHub Prifile Readme Generator" />
+    <category term="핸즈온 머신러닝" />
+    <category term="ML" />
+    <category term="DL" />
+    <category term="공부방법" />
+    <category term="도서" />
+    <category term="리뷰" />
+    <category term="문자열 다루기" />
+    <category term="islower()" />
+    <category term="isupper()" />
+    <category term="escape문자" />
+    <category term="산술연산자" />
+    <category term="덧셈식 출력하기" />
+    <category term="문자열 붙여서 출력하기" />
+    <category term="문자열 돌리기" />
+    <category term="홀짝 구분하기" />
+    <category term="문자열 겹쳐쓰기" />
+    <category term="n의 배수" />
+    <category term="공배수" />
+    <category term="홀짝에 따라 다른값 반환하기" />
+    <category term="조건 문자열" />
+    <category term="flag에 따라 다른값 반환하기" />
+    <category term="문자열 섞기" />
+    <category term="문자 리스트를 문자열로 변환하기" />
+    <category term="문자열 곱하기" />
+    <category term="더 크게 합치기" />
+    <category term="두 수의 연산값 합치기" />
+    <category term="마지막 두 원소" />
+    <category term="수 조작하기 1" />
+    <category term="수 조작하기 2" />
+    <category term="수열과 구간 쿼리 3" />
+    <category term="수열과 구간 쿼리 2" />
+    <category term="코드 처리하기" />
+    <category term="등차수열의 특정한 항만 더하기" />
+    <category term="주사위게임2" />
+    <category term="원소들의 곱과 합" />
+    <category term="이어 붙인 수" />
+    <category term="수열과 구간쿼리 4" />
+    <category term="배열만들기2" />
+    <category term="카운트 업" />
+    <category term="콜라츠 수열 만들기" />
+    <category term="배열만들기 4" />
+    <category term="간단한 논리 연산" />
+    <category term="주사위 게임 3" />
+    <category term="글자 이어 붙여 문자열 만들기" />
+    <category term="9로 나눈 나머지" />
+    <category term="문자열 여러번 뒤집기" />
+    <entry>
+        <id>https://kimgabe.github.io/2024/02/19/AIFFEL-7th-seminar/</id>
+        <title>[AIFFEL 7th 교류회] 논문리뷰 살펴보기</title>
+        <link rel="alternate" href="https://kimgabe.github.io/2024/02/19/AIFFEL-7th-seminar/"/>
+        <content type="html">&lt;h2 id=&#34;summary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#summary&#34;&gt;#&lt;/a&gt; 🚦Summary&lt;/h2&gt;
+&lt;p&gt;Transformer 부터 CLIP, MAMBA 까지 CV, NLP의 다양한 기초 논문부터 핫한 논문까지 아이펠 리서치 과정 그루들의 다양한 논문 리뷰!&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;aieffl-7th-교류회-후기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#aieffl-7th-교류회-후기&#34;&gt;#&lt;/a&gt; 📜 AIEFFL 7th 교류회 후기 📜&lt;/h1&gt;
+&lt;h2 id=&#34;intro&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#intro&#34;&gt;#&lt;/a&gt; 📌 Intro.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;어느덧 6개월이라는 AIFFEL 교육기간중 4개월이라는 시간이 지났습니다.&lt;/li&gt;
+&lt;li&gt;커리큘럼으로 정해진 교육은 모두 끝마쳤고 남은것은 아이펠톤을 통한 최종 포트폴리오를 만드는 것 뿐입니다.&lt;/li&gt;
+&lt;li&gt;AIFFEL 온라인 코스에는 Core와 Research 라는 두 가지 커리큘럼이 있습니다.&lt;/li&gt;
+&lt;li&gt;사실 같은 기수라고는 하지만 커리큘럼이 다르다 보니 코어정과 리서치 과정이 교류할 일은 사실상 거의 없었습니다.&lt;/li&gt;
+&lt;li&gt;게다가 코어의 경우 교육과정에서 배운 다양한 알고리즘을 통한 실용적 기능을 구현해보고 활용하는 것, 그리고 이를 탑재하는 Flutter 앱 구축에 중점이 있다보니 상대적으로 AI 논문들을 접하고 딥하게 다뤄보는 것을 경험할 일이 개인적인 시도가 아니라면 거의 없습니다.&lt;/li&gt;
+&lt;li&gt;코어과정에 참여중인 저로서는 이번 교류회에서 크게 2가지 목적이 있었습니다.
+&lt;ul&gt;
+&lt;li&gt;첫째, 다양한 딥러닝 논문을 접하고 이해하는 과정에 대한 간접 경험&lt;/li&gt;
+&lt;li&gt;둘째, 최종 프로젝트인 아이펠톤에 적용할 아이템 발굴&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;다만, 처음 접하거나 알고 있던 내용들을 정리하는 것에 좀 더 초점을 두고 세미나를 참여했고, 이 내용들을 각 논문별로 핵심만 추려 최대한 간단히 정리해보았습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;research-의-논문-리뷰&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#research-의-논문-리뷰&#34;&gt;#&lt;/a&gt; Research 의 논문 리뷰&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;리서치 과정의 동기 그루분들이 커리큘럼과정에서 공부한 다양한 딥러닝 논문을 리뷰하며 논문의 내용들을 소개해주는 시간을 가졌습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;이번 교류회에서 살펴본 논문들은 크게 6 개였습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;quot;&lt;a href=&#34;https//proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf&#34;&gt;Attention is all you need, 2017&lt;/a&gt;&amp;quot;&lt;/li&gt;
+&lt;li&gt;&amp;quot;&lt;a href=&#34;https//arxiv.org/abs/2001.08237&#34;&gt;An Image is Worth 16x16 Words Transformers for Image Recognition at Scale, 2020&lt;/a&gt;&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https//arxiv.org/abs/2103.00020&#34;&gt;Learning Transferable Visual Models From Natural Language Supervision, 2021&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https//arxiv.org/abs/2304.02643&#34;&gt;&amp;quot;Segment Anything, 2023&amp;quot;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https//arxiv.org/abs/2112.05682&#34;&gt;&amp;quot;Self-Attention Does Not Need O(n^2) Memory,2021&amp;quot;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https//arxiv.org/abs/2312.00752&#34;&gt;&amp;quot;Mamba Linear-Time Sequence Modeling with Selective State Spaces, 2023&amp;quot;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;접해본 논문들도 있었지만, 완전히 처음보거나, 알고는 있었지만 원리에 대해서는 잘 알지 못하는 논문들도 있었습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;기초적인 논문에서도 가볍게 &amp;quot;그런가보다~&amp;quot; 하고 대충 이해하고 넘어간 것들을 다시 살펴보는 계기가 되었고, 전혀 처음 보는 논문들에 대해서도 관심을 갖게 되는 계기가 되는 자리였던 것 같습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;각 세션(논문)별로 주의 깊게 봤던 주요 내용들을 정리해 보았습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;다만, 각 세션별 발표 구성이 달라 내용의 흐름대로 정리하다보니 포멧이 일정하지 못합니다😅&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;attention-is-all-you-need&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#attention-is-all-you-need&#34;&gt;#&lt;/a&gt; Attention is all you need&lt;/h3&gt;
+&lt;p&gt;&amp;quot;Attention is All You Need&amp;quot; 논문은 자연어 처리(NLP) 분야에 혁신적인 변화를 가져온 기념비적인 논문으로 유명합니다. 이 논문에서 제안 된 Transformer(Transformer) 모델은 RNN(Recurrent Neural Networks)과 CNN(Convolutional Neural Networks)에 의존하지 않고도 문장 내 단어 간의 관계를 효과적으로 학습할 수 있는 새로운 접근 방식을 소개하였습니다.&lt;/p&gt;
+&lt;p&gt;Scaled Dot-Production Attention 구조&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Scaled Dot-Product Attention&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;이 메커니즘은 쿼리(Query), 키(Key), 밸류(Value)의 세 가지 요소를 사용하여 입력 데이터의 각 단어가 다른 단어와 얼마나 관련이 있는지를 계산합니다. 스케일링 과정을 통해 Attention 메커니즘의 안정성을 높이며, 이는 Transformer 모델의 핵심적인 부분입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Multi-Head Attention 수식&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Multi-Head Attention&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Multi-Head Attention은 입력 데이터에 대해 여러 개의 Attention 메커니즘을 병렬로 적용함으로써, 다양한 표현 공간에서 정보를 추출할 수 있습니다. 이를 통해 모델은 동일한 정보를 다양한 방식으로 해석하고, 입력 데이터의 복잡한 관계를 더 잘 이해할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Positional Encoding&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Positional Encoding 구조&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Transformer 모델은 RNN이나 CNN과 달리 시퀀스의 순서 정보를 자동으로 학습할 수 없습니다. 이를 보완하기 위해 Positional Encoding을 도입하여 각 단어의 위치 정보를 모델에 제공합니다. 이는 시퀀스 내 단어의 순서를 모델이 인식할 수 있게 하며, 문장의 의미를 정확하게 파악하는 데 필수적입니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;이 논문의 중요한 점은 기존의 시퀀스 처리 모델이 가지는 한계를 극복하고, 특히 긴 문장을 처리할 때 발생하는 정보 손실과 계산 효율성 문제를 해결한 것입니다. Transformer 모델은 Multi-Head Attention을 통해 문장 내 모든 단어 간의 관계를 한 번에 계산하므로, 병렬 처리가 가능해져 처리 속도가 매우 빨라집니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;또한, Positional Encoding을 통해 단어의 순서 정보를 모델에 통합함으로써, 문장의 구조적 의미를 보다 정확하게 파악할 수 있게 되었습니다. 이러한 혁신적인 접근 방식은 Transformer 모델이 기계 번역, 텍스트 요약, 감정 분석 등 다양한 NLP 태스크에서 뛰어난 성능을 발휘할 수 있게 만들었습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;quot;Attention is All You Need&amp;quot; 논문은 Transformer 모델을 통해 NLP 분야에 새로운 방향을 제시했습니다. 이 모델의 등장은 딥러닝 기반 자연어 처리 연구에 있어서 중요한 이정표가 되었으며, 이후 등장한 다양한 모델과 기술의 기반이 되었습니다. 특히, 이 모델을 기반으로 한 BERT, GPT와 같은 사전 학습된 언어 모델은 현재 NLP 연구와 응용의 최전선에서 활발히 사용되고 있습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🤔 Q&amp;amp;A 에서 나온 흥미로운 내용들&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;질문 1 &#39;임베딩&#39;과 &#39;인코딩&#39;의 차이는 무엇인가요?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;답변&lt;/strong&gt; &#39;인코딩&#39;은 정보를 일정한 규칙에 따라 다른 형태로 변환하는 과정을 의미합니다. 반면, &#39;임베딩&#39;은 데이터를 저차원 공간에 표현하기 위해 특정 레이어를 통해 학습되는 과정을 말합니다. 즉, &#39;임베딩&#39;은 데이터 간의 관계를 학습하여 고차원의 데이터를 저차원에서 의미 있게 표현하는 방식입니다. 인코딩은 변환 규칙이 사전에 정의되어 있지만, 임베딩은 데이터로부터 학습을 통해 표현 방식을 찾아냅니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;질문 2 인코더와 디코더의 차이점은 무엇인가요?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transformer의 Encoder와 Decoder 구조&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;답변&lt;/strong&gt;: 인코더는 입력 시퀀스를 고정된 크기의 벡터, 즉 컨텍스트 벡터로 변환하는 역할을 합니다. 이 과정에서 시퀀스의 정보를 압축하며, 주로 소스 언어의 문장을 내부적인 표현으로 변환하는 데 사용됩니다. 디코더는 이 컨텍스트 벡터를 사용하여 타겟 시퀀스를 생성합니다. 즉, 디코더는 인코더로부터 얻은 정보를 바탕으로 타겟 언어의 문장을 하나씩 생성해 나가는 역할을 합니다. 디코더는 이 과정에서 자기 자신의 이전 출력을 참조하여 다음 단어를 예측합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;vitvisual-transformer&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vitvisual-transformer&#34;&gt;#&lt;/a&gt; ViT(Visual Transformer)&lt;/h3&gt;
+&lt;p&gt;ViT Architecture&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ViT(Vision Transformer)&lt;/strong&gt;&lt;br /&gt;
+ViT는 Transformer 아키텍처를 이미지 분류 작업에 적용한 것으로, &amp;quot;An Image is Worth 16x16 Words Transformers for Image Recognition at Scale&amp;quot; 논문에서 소개되었습니다. ViT는 이미지를 여러 개의 작은 패치로 나눈 후, 각 패치를 마치 단어(Word)처럼 취급하여 Transformer 모델의 입력으로 사용합니다. 이 과정에서 각 이미지 패치는 먼저 리니어 프로젝션을 통해 고정된 크기의 벡터로 변환되며, 이후 Transformer 인코더를 통과하면서 이미지 전체의 컨텍스트를 고려한 특성을 추출하게 됩니다.&lt;/p&gt;
+&lt;p&gt;CNN대비 ViT의 장점&lt;/p&gt;
+&lt;p&gt;ViT의 도입으로 이미지 분류 작업에서도 Transformer의 장점인 글로벌 컨텍스트의 이해와 복잡한 패턴의 인식 능력이 크게 향상되었습니다. 또한, ViT는 대규모 데이터셋에서 특히 뛰어난 성능을 보이며, ResNet과 같은 기존 CNN 모델들을 능가하는 결과를 보여주었습니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Inductive Bias와 ViT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;ViT의 성공 요인 중 하나는 인덕티브 바이어스(Inductive Bias)의 감소입니다. CNN은 지역적인 특성을 강조하는 구조적 인덕티브 바이어스가 내재되어 있지만, ViT는 이러한 가정을 최소화합니다. 이는 ViT가 이미지의 글로벌한 특성을 더 자유롭게 학습할 수 있게 하며, 다양한 이미지 처리 작업에 더 유연하게 적용될 수 있는 기반을 마련해줍니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ViT의 한계와 도전 과제&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;ViT는 매우 유망한 결과를 보여주고 있음에도 불구하고, 여전히 해결해야 할 과제들이 있습니다. 예를 들어, 이미지의 고해상도 버전을 처리할 때의 계산 비용, 다양한 비전 작업으로의 확장 가능성, 자기지도 학습 방식의 최적화 등이 이 있습니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;🤔 ViT에서 흥미로웠던 점&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ViT는 작은 부분의 특징을 분리하여 보는 것이 아니라 세부적으로 쪼개어 그 특징 간의 상관 관계를 파악하고 이를 결합하여 전체적인 global feature를 생성합니다.&lt;/li&gt;
+&lt;li&gt;이는 기존 모델들이 전체 이미지를 작은 부분으로 분리하여 각각의 특징을 독립적으로 고려하던 방식과는 대조적입니다.&lt;/li&gt;
+&lt;li&gt;그래서인지 &amp;quot;크게 보기 위해서 작은 것을 쌓아서 올리는 방식&amp;quot;으로 기존 모델들의 한계를 극복하면서도 새로운 시각을 제공한 점이 굉장히 획기적이라 느껴졌습니다.&lt;/li&gt;
+&lt;li&gt;어찌보면 &#39;그간의 연구에서 집착하던 포인트를 놓아버림으로서 오히려 더 나은 결과를 얻은 격&#39; 이 아닌가 하는 생각이 들었습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;clip&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#clip&#34;&gt;#&lt;/a&gt; CLIP&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;개인적으로 가장 흥미롭게 본 논문 리뷰였습니다.&lt;/li&gt;
+&lt;li&gt;해당 기술을 응용해서 아이펠톤에서 앱 개발을 시도해보면 좋겠다는 생각을 했습니다.&lt;/li&gt;
+&lt;li&gt;구체적인 아이디어는 아직 구상 중이지만, 이 기술자체가 응용범위가 넓어서 다양한 부분에 응용이 가능할 것 같다 생각 했습니다.&lt;/li&gt;
+&lt;li&gt;특히, 대용량의 크롤링 데이터로 강건한 모델이라는 점이 그러한 확신을 갖게 해주었습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;CLIP은 OpenAI에 의해 개발된 혁신적인 딥러닝 모델로, 이미지와 자연어 설명 간의 관계를 이해하는 데 초점을 맞춥니다. 이 모델은 이미지 분류, 객체 탐지, 심지어 새로운 시각적 작업에 대한 제로샷(Zero-Shot) 학습 능력을 통해 주목을 받았습니다. 본 리뷰에서는 CLIP의 주요 개념, 아키텍처, 및 실제 적용 사례들에 대해 살펴보겠습니다.&lt;/p&gt;
+&lt;h4 id=&#34;clip의-기본-원리&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#clip의-기본-원리&#34;&gt;#&lt;/a&gt; &lt;strong&gt;CLIP의 기본 원리&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;CLIP 구조&lt;/p&gt;
+&lt;p&gt;CLIP은 대량의 이미지와 그에 해당하는 텍스트 설명을 이용해 학습합니다. 이 모델은 텍스트와 이미지 사이의 맥락적 유사성을 인코딩하여, 이미지에 대한 자연어 설명을 이해하고, 반대로 텍스트 설명에 맞는 이미지를 식별할 수 있습니다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;즉, CLIP은 텍스트 ↔️ 이미지 간 양방향 변화가 가능하며 이를 기반으로 다양한 응용 기술이 존재합니다. 이 것이 가능한 이유는 두 가지 유형의 데이터를 벡터화했을 때 이해할 수 있도록 이미지에 해당 하는 텍스트를 동시에 학습 했기 때문입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;아키텍처-설명&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#아키텍처-설명&#34;&gt;#&lt;/a&gt; &lt;strong&gt;아키텍처 설명&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;CLIP 모델은 두 가지 주요 구성 요소로 이루어져 있습니다. 첫 번째는 이미지 인코더로, 주로 Vision Transformer(ViT) 또는 ResNet과 같은 구조를 사용합니다. 두 번째 구성 요소는 텍스트 인코더로, Transformer 기반 모델을 사용해 텍스트 데이터를 처리합니다. 이 두 인코더는 각각의 모달리티에서 특징을 추출하며, 추출된 특징은 유사도 측정을 통해 서로 비교됩니다.&lt;/p&gt;
+&lt;h4 id=&#34;학습-방법&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#학습-방법&#34;&gt;#&lt;/a&gt; &lt;strong&gt;학습 방법&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;CLIP의 학습은 대조적 학습(Contrastive Learning) 방식을 통해 이루어집니다. 이는 긍정적인 샘플(정확하게 일치하는 이미지-텍스트 쌍)과 부정적인 샘플(일치하지 않는 쌍) 사이의 관계를 최적화하여 모델이 텍스트와 이미지 사이의 정확한 매칭을 학습하도록 합니다.&lt;/p&gt;
+&lt;h4 id=&#34;제로샷-학습-능력&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#제로샷-학습-능력&#34;&gt;#&lt;/a&gt; &lt;strong&gt;제로샷 학습 능력&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;CLIP의 zero-shot 학습&lt;/p&gt;
+&lt;p&gt;CLIP의 가장 큰 특징 중 하나는 제로샷 학습 능력입니다. 이는 모델이 학습 과정에서 본 적 없는 새로운 카테고리의 이미지에 대해서도, 관련 텍스트 설명만을 바탕으로 정확한 분류를 수행할 수 있음을 의미합니다. 이러한 능력은 CLIP을 다양한 시각적 작업에 유연하게 적용할 수 있게 합니다.&lt;/p&gt;
+&lt;h4 id=&#34;실제-적용-사례&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#실제-적용-사례&#34;&gt;#&lt;/a&gt; &lt;strong&gt;실제 적용 사례&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;CLIP은 이미지 분류, 객체 탐지, 이미지 생성, 심지어 복잡한 시각적 질문 응답 시스템에 이르기까지 다양한 분야에서 활용됩니다. 특히, CLIP을 활용한 이미지 검색 시스템은 이미지에 대한 자연어 쿼리를 이해하고, 가장 관련성 높은 이미지를 반환하는 데 탁월한 성능을 보입니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;텍스트 ➡️ 이미지 : 텍스트 설명을 입력하면 그에 맞는 이미지를 생성하거나 검색할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;이미지 ➡️ 텍스트 : 이미지를 입력하면 그에 대한 자연어 설명을 생성할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;결론&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#결론&#34;&gt;#&lt;/a&gt; &lt;strong&gt;결론&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;CLIP은 자연어 처리와 컴퓨터 비전을 융합한 독특한 접근 방식으로, 시각적 데이터와 자연어 사이의 깊은 상관관계를 이해합니다. 특히 제로샷 학습 능력은 별도의 학습 없이도 유연하게 다양한 서비스로 개발할 수 있는 기반을 제공합니다.&lt;br /&gt;
+학습에 사용한 데이터 자체가 대규모의 다양한 클래스를 학습했기 때문에 이를 통해 유연한 추론이 가능합니다. 이러한 CLIP의 강점은 파인튜닝을 하고자 할때도 상대적으로 제한된 데이터로도 뛰어난 성능을 발휘할 수 있다는점 입니다.&lt;/p&gt;
+&lt;h4 id=&#34;도전-과제-및-발전-방향&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#도전-과제-및-발전-방향&#34;&gt;#&lt;/a&gt; &lt;strong&gt;도전 과제 및 발전 방향&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;다만, 아직 CLIP은 여전히 해결해야 할 도전 과제들이 존재합니다. 예를 들어, 모델의 해석 가능성과 편향 문제는 중요한 고려 사항입니다. 자연어 설명이 포함된 대규모 데이터셋을 사용함으로써, 데이터 내의 편향이 모델에 반영될 수 있으며, 이는 결과적으로 모델의 결정에 영향을 미칠 수 있습니다. 또한, CLIP의 성능은 데이터셋의 질과 양에 크게 의존하기 때문에, 고품질의 데이터 확보는 중요한 이슈로 남아있습니다.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;sam-segment-anything&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#sam-segment-anything&#34;&gt;#&lt;/a&gt; SAM (Segment Anything)&lt;/h3&gt;
+&lt;p&gt;Segment Anything 모델 구조&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;segmentation 기술은 컴퓨터 비전 분야에서 중요한 연구 주제 중 하나로, 이미지 내 개체를 정확하게 구분하고 이해하는 능력을 향상시키는 데 중점을 둡니다.&lt;/li&gt;
+&lt;li&gt;최근 SAM(Segmentation as a Model) 논문은 segmentation 문제에 대한 새로운 접근법을 제시하며, 이 분야에서 주목할 만한 진보를 이루었습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;sam의-핵심-목표&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#sam의-핵심-목표&#34;&gt;#&lt;/a&gt; SAM의 핵심 목표&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;1. 제로샷 일반화&lt;/strong&gt;: SAM은 모델 학습 과정에서 어떠한 레이블 정보도 제공하지 않고도 다양한 이미지에 대한 segmentation 작업을 수행할 수 있도록 설계되었습니다. 이는 모델의 일반화 성능을 크게 향상시키는 중요한 요소입니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. 프롬프트 기반 모델&lt;/strong&gt;: SAM은 사용자가 제공하는 프롬프트(텍스트, 이미지, 마스크 등)를 기반으로 원하는 segmentation 결과를 도출합니다. 이는 모델의 유연성을 높이고 다양한 시나리오에 적용할 수 있도록 하는 핵심 기술입니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. 효율적인 학습 및 추론&lt;/strong&gt;: SAM은 데이터 엔진, 효율적인 훈련 방식, 실시간 추론 등을 통해 학습 및 추론 과정의 효율성을 크게 향상시켰습니다. 이는 모델의 실용성을 높이는 데 중요한 역할을 합니다.&lt;/p&gt;
+&lt;h3 id=&#34;sam의-영향-및-기대-효과&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#sam의-영향-및-기대-효과&#34;&gt;#&lt;/a&gt; SAM의 영향 및 기대 효과&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;1. segmentation 기술 발전&lt;/strong&gt;: SAM은 segmentation 모델의 일반화 성능, 프롬프트 기반 segmentation, 효율적인 학습 및 추론 등을 통해 segmentation 기술의 발전에 크게 기여할 것으로 기대됩니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. 다양한 분야&lt;/strong&gt;: SAM은 의료 영상 분석, 자율주행, 로봇 비전, 스마트 시티 등 다양한 분야에 응용될 수 있으며, 이를 통해 컴퓨터 비전 기술의 발전과 사회 전반의 발전에 기여할 것으로 기대됩니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. 연구 방향 제시&lt;/strong&gt;: SAM은 segmentation 모델의 새로운 연구 방향을 제시하며, 향후 segmentation 기술의 발전에 중요한 역할을 할 것으로 기대됩니다.&lt;/p&gt;
+&lt;h3 id=&#34;sam의-한계점-및-향후-과제&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#sam의-한계점-및-향후-과제&#34;&gt;#&lt;/a&gt; SAM의 한계점 및 향후 과제&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;1. 모델 크기 및 계산 비용&lt;/strong&gt;: SAM 모델은 기존 모델에 비해 크기가 크고 계산 비용이 높습니다. 향후 연구에서는 모델의 효율성을 더욱 향상 시키는 것이 중요합니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. 모델 해석&lt;/strong&gt;: SAM 모델은 블랙박스 모델로 작동하기 때문에 모델의 내부 작동 방식을 이해하기 어렵습니다. 향후 연구에서는 모델 해석 기술을 개발하여 모델의 신뢰성을 높이는 것이 필요합니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. 데이터 편향&lt;/strong&gt;: SAM 모델은 학습 데이터의 편향 영향을 받을 수 있습니다. 향후 연구에서는 데이터 편향 문제를 해결하고 모델의 공정성을 높이는 것이 중요합니다.&lt;/p&gt;
+&lt;h4 id=&#34;논문-리뷰-참여-후기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#논문-리뷰-참여-후기&#34;&gt;#&lt;/a&gt; 🤔 논문 리뷰 참여 후기&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;여러부분이 신기하긴 했지만 자연어처리의 프롬프트를 이미지 segmentation에 적용한 부분이 굉장히 인상깊었던 것 같습니다.&lt;/li&gt;
+&lt;li&gt;프롬프트를 통해 모델이 더 다양한 시나리오에 적용될 수 있다는 점이 차후에 다양한 분야에 CV기술을 적용할 수 있겠다는 생각이 들었습니다.&lt;/li&gt;
+&lt;li&gt;그리고 가능하다면 이러한 프롬프트 기반 segmentation 모델을 응용해서 아이펠톤에서 앱을 만들어 보는 것도 재밌겠다는 생각을 했습니다.&lt;/li&gt;
+&lt;li&gt;그리고, 기회가 된다면 &#39;모델의 일반화 능력과 프롬프트의 다양성을 향상시키는 방법&#39; 에 대해서도 관련논문을 더 찾아보고 공부해보고 싶다는 생각이 들었습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;self-attention-does-not-need-on2-memory&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#self-attention-does-not-need-on2-memory&#34;&gt;#&lt;/a&gt; Self-Attention Does Not Need O(n^2) Memory&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;최근 딥러닝 연구에서는 모델의 성능을 향상시키기 위해 점점 더 크고 복잡한 모델을 사용하는 추세입니다. 하지만 이러한 모델들은 대량의 메모리를 소모하며, 특히 셀프 Attention(Self-Attention) 메커니즘이 포함된 모델은 시퀀스 길이에 따라 O(n^2)의 메모리를 필요로 합니다.&lt;/li&gt;
+&lt;li&gt;이는 긴 시퀀스 처리에 있어서 큰 제약으로 작용합니다. 하지만 최근 연구에서는 이러한 메모리 문제를 극복할 수 있는 새로운 방법을 제시하고 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;기존-셀프-attention의-메모리-문제&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#기존-셀프-attention의-메모리-문제&#34;&gt;#&lt;/a&gt; &lt;strong&gt;기존 셀프 Attention의 메모리 문제&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;셀프 Attention은 입력 시퀀스의 모든 요소들 사이의 상호작용을 모델링하여, 각 요소가 시퀀스 내 다른 요소들로부터 얼마나 많은 주의를 받을지 결정합니다.&lt;/li&gt;
+&lt;li&gt;이 과정에서 모든 요소 쌍 간의 상호작용을 계산하고 저장해야 하므로, 시퀀스 길이에 비례하여 제곱수로 메모리 사용량이 증가합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;메모리-효율적-알고리즘-소개&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#메모리-효율적-알고리즘-소개&#34;&gt;#&lt;/a&gt; &lt;strong&gt;메모리 효율적 알고리즘 소개&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;이 논문에서는 시퀀스 길이에 따라 고정된 양의 메모리만을 필요로 하거나, 최악의 경우에도 로그 함수에 비례하는 메모리만이 필요한 새로운 Attention 알고리즘을 제안합니다.&lt;/li&gt;
+&lt;li&gt;이는 메모리 사용량을 크게 줄이면서도 효율적으로 계산할 수 있게 함으로써, 긴 시퀀스를 처리할 때 발생하는 문제를 해결합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;알고리즘의-핵심-아이디어&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#알고리즘의-핵심-아이디어&#34;&gt;#&lt;/a&gt; &lt;strong&gt;알고리즘의 핵심 아이디어&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;제안된 알고리즘은 기존의 셀프 Attention과는 다르게, 소프트맥스 계산 과정에서 지수 함수의 합을 나중으로 미루는 &#39;지연된 소프트맥스(Lazy Softmax)&#39; 기법을 사용합니다.&lt;/li&gt;
+&lt;li&gt;또한, 입력 데이터를 작은 청크로 나누어 각 청크에 대해 Attention을 계산함으로써 메모리 사용량을 줄입니다. 이러한 방식으로, 전체 입력에 대한 한 번의 계산 대신 작은 부분에 대해서만 계산을 수행하여 메모리 사용량을 줄일 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;메모리-최적화-기법&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#메모리-최적화-기법&#34;&gt;#&lt;/a&gt; &lt;strong&gt;메모리 최적화 기법&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;연구팀은 또한 메모리 사용을 최적화하기 위해 동적 슬라이싱(dynamic slicing) 및 업데이트 기법을 사용하여, 필요한 부분만 메모리에 로드하고 처리합니다.&lt;/li&gt;
+&lt;li&gt;이러한 접근 방식은 특히 대규모 시퀀스를 처리할 때 메모리 효율성을 크게 향상시킵니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;결론-및-시사점&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#결론-및-시사점&#34;&gt;#&lt;/a&gt; &lt;strong&gt;결론 및 시사점&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;이 논문의 접근 방식은 셀프 Attention 기반 모델에서의 메모리 사용량 문제를 획기적으로 개선함으로써, 더 긴 시퀀스를 효율적으로 처리할 수 있는 가능성을 열어줍니다.&lt;/li&gt;
+&lt;li&gt;또한, 이 연구는 다양한 아키텍처에 적용될 수 있는 새로운 시각을 제공하며, 향후 연구자들이 모델 설계 시 메모리 효율성을 더욱 고려할 수 있는 계기를 마련합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;논문-리뷰-참여-후기-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#논문-리뷰-참여-후기-2&#34;&gt;#&lt;/a&gt; 🤔 논문 리뷰 참여 후기&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;최근 아이펠 코어 그루분들과 Side project로 대용량의 이미지를 학습시키는 모델을 만들고 있는데(약 7TB) 이때 메모리 관련 이슈로 상당히 곤란함을 겪고 있었습니다.&lt;/li&gt;
+&lt;li&gt;그런데 논문을 보면서 솔직히 매우 반가웠습니다. 이 논문에서 제안하는 &#39;Delayed Softmax&#39; 기법이랑, 데이터를 작은 청크로 나눠서 처리하는 방식중에 청크한 데이터를 제너레이터로 넣는 방식을 최근에 적용중이었는데 방향성이 올바르게 되고 있었구나 라는 생각이 들었기 때문입니다.&lt;/li&gt;
+&lt;li&gt;대용량의 데이터 처리라는 점에서 메모리와 용량의 제약으로 한계를 마주한 프로젝트라 난감했었는데 이 논문 덕에 다소 희망을 본 것 같습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;mamba-linear-time-sequence-modeling-with-selective-state-spaces&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mamba-linear-time-sequence-modeling-with-selective-state-spaces&#34;&gt;#&lt;/a&gt; Mamba Linear-Time Sequence Modeling with Selective State Spaces&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;솔직히 이 논문에서 제안하는 개념이 워낙 복잡하고 어렵기도하고, 완전히 처음 접해보는 개념이라 이해가 많이 어려웠습니다.&lt;/li&gt;
+&lt;li&gt;세션 이후에 별도로 조금씩 찾아보면서 내용을 이해하려 노력했지만 아직은 좀 부족한듯합니다.&lt;/li&gt;
+&lt;li&gt;그래도 이해한 바에 대해 정리해보자면 아래와 같습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;최근 발표된 &amp;quot;Mamba: Linear-Time Sequence Modeling with Selective State Spaces&amp;quot; 논문은 시퀀스 모델링 분야에 새로운 접근 방식을 제시하며, 이 분야의 연구자들에게 큰 관심을 받고 있습니다. 이 논문의 핵심 아이디어와 기술적 내용, 그리고 이것이 시퀀스 모델링 분야에 미치는 영향에 대해 정리해보겠습니다.&lt;/p&gt;
+&lt;h4 id=&#34;문제-정의와-동기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#문제-정의와-동기&#34;&gt;#&lt;/a&gt; 문제 정의와 동기&lt;/h4&gt;
+&lt;p&gt;시퀀스 모델링은 자연어 처리(NLP), 음성 인식, 시계열 분석 등 다양한 분야에서 중요한 역할을 합니다. 이러한 문제들에서는 종종 장기 의존성(Long-range dependencies)을 효과적으로 모델링해야 하는 도전과제가 있습니다. 기존의 RNN, LSTM과 같은 모델들은 이러한 장기 의존성을 다루는 데 있어 한계를 보였고, 최근에는 Transformer 기반 모델이 이를 해결하기 위해 널리 사용되고 있습니다. 하지만 Transformer 또한 계산 복잡도와 메모리 사용량 측면에서 제한이 있습니다.&lt;/p&gt;
+&lt;h4 id=&#34;mamba의-핵심-아이디어&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mamba의-핵심-아이디어&#34;&gt;#&lt;/a&gt; Mamba의 핵심 아이디어&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/jRBQhVi.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;quot;Mamba&amp;quot; 논문은 선택적 상태 공간 모델(SSSM)을 사용하여 시퀀스 모델링의 이러한 문제를 해결하고자 합니다. SSSM은 전통적인 상태 공간 모델(State Space Model, SSM)을 기반으로 하면서, 모델의 학습과 추론 과정에서 필요한 계산을 효율적으로 수행할 수 있도록 설계되었습니다. 특히, Mamba는 시퀀스의 각 시점에서 상태 공간의 일부만을 선택적으로 사용함으로써, 계산 효율성을 크게 향상시키는 것이 특징입니다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;리뷰를 도와주신 그루분과 아이펠 퍼실님의 설명에 의하면 MAMBA의 SSSM은 제어공학의 SSM에서 출발한 기술이라고 합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;제어 공학이란?&lt;/strong&gt;: 제어 공학은 시스템의 동적인 행동을 제어하기 위한 원리와 방법을 연구하는 공학 분야입니다. 이 분야는 시스템이 원하는 대로 작동하도록 입력을 조절하는 기술을 다룹니다. 예를 들어, 자동차의 속도 제어, 로봇의 움직임 제어, 온도 조절 시스템 등이 제어 공학의 적용 예입니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;상태 공간 모델(SSM)이란?&lt;/strong&gt;: SSM은 시스템의 현재 상태를 기반으로 미래 상태를 예측하고, 시스템의 입력과 출력 사이의 관계를 모델링하는 방법입니다. SSM은 시스템의 동적인 특성을 상태 변수를 통해 수학적으로 표현하며, 이를 통해 시스템의 행동을 분석하고 제어할 수 있습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;제어 공학에서 SSM의 사용&lt;/strong&gt;: 제어 공학에서 SSM은 시스템의 제어 및 예측에 중요한 도구로 사용됩니다. SSM을 사용함으로써, 제어 엔지니어는 시스템의 다양한 동적 행동을 정확하게 모델링하고, 이를 바탕으로 시스템을 효과적으로 제어할 수 있는 전략을 개발할 수 있습니다. 예를 들어, 항공기의 비행 제어 시스템에서는 SSM을 사용하여 항공기의 동적 행동을 모델링하고, 이를 통해 항공기가 안정적으로 비행할 수 있도록 제어합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;SSM에서 MAMBA로의 발전&lt;/strong&gt;: MAMBA는 SSM의 개념을 기반으로 하면서, 계산 효율성을 극대화하기 위해 선택적 상태 공간을 사용하는 새로운 접근 방식을 제안합니다. 이는 제어 공학에서 시작된 SSM의 기본 원리를 시퀀스 모델링이라는 새로운 문맥에서 확장하고, 특히 대규모 데이터를 효과적으로 처리할 수 있도록 설계되었습니다. MAMBA의 이러한 접근 방식은 시퀀스 데이터의 장기 의존성 문제를 해결하고, 계산 효율성을 높이는 데 중요한 기여를 합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;기술적-접근-방식&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#기술적-접근-방식&#34;&gt;#&lt;/a&gt; 기술적 접근 방식&lt;/h4&gt;
+&lt;p&gt;Mamba 모델은 크게 두 부분으로 구성됩니다. 첫 번째는 선형 시간에 동작하는 컨볼루션 연산을 사용하여 장기 의존성을 모델링하는 부분입니다. 이를 위해 논문에서는 푸리에 변환을 활용한 효율적인 컨볼루션 기법을 제시합니다. 두 번째 부분은 선택적 상태 공간을 통해 모델의 계산 복잡도를 줄이는 방법입니다. 이는 모델이 시퀀스의 각 시점에서 필요한 정보만을 선택적으로 처리할 수 있도록 하여, 불필요한 계산을 줄이고 메모리 사용량을 최적화합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;S4 모델의 기본 원리&lt;/strong&gt;: S4 모델은 장기 의존성을 모델링하기 위해 구조화된 상태 공간 모델을 사용합니다. 이 모델은 시퀀스 데이터에서 장기간에 걸친 패턴과 의존성을 효과적으로 학습할 수 있도록 설계되었습니다. 특히, S4는 선형 시간 복잡도를 가진 컨볼루션 연산을 통해 장기 의존성을 처리합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;MAMBA의 접근 방식&lt;/strong&gt;: MAMBA는 선택적 상태 공간 모델(SSSM)을 사용하여 계산 효율성을 크게 향상시킵니다. 각 시퀀스 포인트에서 필요한 상태 공간의 일부만을 선택적으로 사용함으로써, 불필요한 계산을 줄이고 메모리 사용을 최적화합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;결합된 접근 방식&lt;/strong&gt;: S4와 MAMBA를 결합함으로써, 두 모델의 장점을 통합할 수 있습니다. S4 모델의 장기 의존성 모델링 능력과 MAMBA의 계산 효율성 및 메모리 최적화 기능이 결합되어, 시퀀스 모델링에서의 장기 의존성 문제를 더욱 효과적으로 해결할 수 있습니다. 이를 통해 모델은 더 긴 시퀀스를 더 빠르게 처리하면서도, 필요한 정보만을 효율적으로 처리할 수 있게 됩니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;실제-적용과-영향&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#실제-적용과-영향&#34;&gt;#&lt;/a&gt; 실제 적용과 영향&lt;/h4&gt;
+&lt;p&gt;Mamba는 다양한 벤치마크 데이터셋에서 우수한 성능을 보였습니다. 특히 장기 의존성이 중요한 시퀀스 모델링 작업에서 기존 모델들보다 뛰어난 결과를 달성하며, 모델의 효율성과 정확도 사이의 균형을 잘 맞추고 있음을 보여줍니다. Mamba의 접근 방식은 향후 시퀀스 모델링 뿐만 아니라 다양한 딥러닝 모델의 설계에 영향을 미칠 것으로 기대됩니다.&lt;/p&gt;
+&lt;h4 id=&#34;논문-리뷰-참여-후기-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#논문-리뷰-참여-후기-3&#34;&gt;#&lt;/a&gt; 🤔 논문 리뷰 참여 후기&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;발표자 분도 하면서 멘붕이 오셨다고 했는데, 실제로 저는 듣기만 하는데도 멘붕이 오는 느낌이었습니다.&lt;/li&gt;
+&lt;li&gt;처음에는 SSM과 S4 모델에 대해 들었을 때, &#39;이게 대체 무슨 소리지?&#39; 싶었는데, 차근차근 설명을 들어보니 조금씩 이해가 되기 시작했습니다.&lt;/li&gt;
+&lt;li&gt;특히, SSM이 제어공학에서부터 시작된 개념이라는 걸 알고 나니, 딥러닝에 접목시킨 이 새로운 시도가 조금은 흥미롭게 느껴졌습니다. (그렇다고 제어공학이 뭔지 안다는건 아닙니다😂)&lt;/li&gt;
+&lt;li&gt;그저 도메인 지식을 알고리즘화 했다는 점에서 굉장히 흥미롭다고 생각했습니다. 그도 그럴 것이 보통의 머신러닝 모델에는 데이터 부분이든, 기술 적용 부분에서든 도메인 지식에 많은 도움을 받는데 딥러닝은 대용량의 데이터와 알고리즘적 접근 방식으로 그런걸 해결한다고 생각했는데 새로운 접근방식을 본 것 같았기 때문입니다.&lt;/li&gt;
+&lt;li&gt;그리고 맘바(MAMBA)에 대한 소개까지 듣고 나니, &#39;아, 이게 다 연결되는 구나&#39; 싶었습니다. S4와 맘바를 통해 장기 의존성(Long-range dependencies) 문제를 해결하려는 시도가 얼마나 창의적인지 좀 이해가 되는 것 같았습니다.&lt;/li&gt;
+&lt;li&gt;특히, S4 모델이 어떻게 시퀀스 모델링 문제에 접근하고 있는지, 그리고 그것이 기존의 Transformer 모델과 어떻게 다른지를 보면서 조금은 논문의 흐름에 대해 이해가 되는 느낌이었습니다.&lt;/li&gt;
+&lt;li&gt;솔직히 대략적인 부분은 알겠지만, 아직도 이해가 안 되는 부분이 많아서, 다시 한 번 논문을 찾아보고, 추가로 공부를 더 해봐야겠다는 생각이 듭니다.&lt;/li&gt;
+&lt;li&gt;특히, S4 모델의 수학적 기반과, 그것이 실제로 어떻게 롱레인지 디펜던시를 해결할 수 있는지에 대해 많이 공부를 해야 제대로 이 내용을 이해할 수 있겠다 싶습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;closing&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#closing&#34;&gt;#&lt;/a&gt; 😀Closing&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;전반적으로 이번 리뷰 세션을 통해 새로운 지식을 많이 배웠고, 앞으로 이 분야에 대해 더 공부해보고 싶다는 동기 부여가 되었습니다.&lt;/li&gt;
+&lt;li&gt;솔직히 다소 어렵고 복잡한 내용이었지만, 그만큼 배울 것이 많은 분야라는 걸 다시 한 번 느꼈습니다.&lt;/li&gt;
+&lt;li&gt;특히, 아이펠톤에서 적용하고 싶은 여러 알고리즘을 찾았다는거는 매우 긍정적인 효과가 아니었나 싶습니다.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <updated>2024-02-18T15:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://kimgabe.github.io/2024/01/06/SVGT-Obsidian-2/</id>
+        <title>[쉐벨그투] 옵시디언으로 AI 논문 읽기(2) - Zotero 연동과 실제 적용</title>
+        <link rel="alternate" href="https://kimgabe.github.io/2024/01/06/SVGT-Obsidian-2/"/>
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;💡 &lt;strong&gt;시리즈 안내&lt;/strong&gt;&lt;br /&gt;
+이 글은 &amp;quot;옵시디언으로 AI 논문 읽기&amp;quot; 시리즈의 2편입니다. &lt;a href=&#34;https://kimgabe.github.io/gabe_ai_journey/retrospective/SVGT_Obsidian_1/&#34;&gt;1편 - 옵시디언 기초 세팅&lt;/a&gt;에서 기본 설정을 먼저 확인해주세요.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;summary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#summary&#34;&gt;#&lt;/a&gt; 🚦 Summary&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;논문 수집부터 정리까지&lt;/strong&gt; 완전 자동화 시스템 구축&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zotero와 옵시디언 연동&lt;/strong&gt;으로 효율성 극대화&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;실제 논문 읽기 워크플로우&lt;/strong&gt; 단계별 실습&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;시작하며&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#시작하며&#34;&gt;#&lt;/a&gt; 📌 시작하며&lt;/h2&gt;
+&lt;p&gt;지난 1편에서 옵시디언의 기본 설정을 완료했다면, 이번에는 &lt;strong&gt;실제로 AI 논문을 수집하고 읽고 정리하는 전체 워크플로우&lt;/strong&gt;를 구축해보겠습니다.&lt;/p&gt;
+&lt;h3 id=&#34;완성될-워크플로우-미리보기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#완성될-워크플로우-미리보기&#34;&gt;#&lt;/a&gt; 🎯 완성될 워크플로우 미리보기&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;📚 논문 수집&lt;/strong&gt; → 웹에서 Zotero로 원클릭 수집&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;📁 논문 분류&lt;/strong&gt; → 가볍게/심도있게/읽지않을 논문 분류&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;📖 논문 읽기&lt;/strong&gt; → Zotero에서 하이라이트와 메모 작성&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;🔄 자동 연동&lt;/strong&gt; → 옵시디언으로 모든 내용 한 번에 가져오기&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;📝 체계적 정리&lt;/strong&gt; → 템플릿 기반 구조화된 노트 완성&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 &lt;strong&gt;핵심 포인트&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Zotero로 논문을 읽으면서 메모하고, 밑줄친 정보를 옵시디언에 플러그인으로 자동 연동하는 것&lt;/code&gt; 입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;zotero-완전-정복-가이드&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#zotero-완전-정복-가이드&#34;&gt;#&lt;/a&gt; Zotero 완전 정복 가이드&lt;/h1&gt;
+&lt;h2 id=&#34;zotero란&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#zotero란&#34;&gt;#&lt;/a&gt; Zotero란?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Zotero&lt;/strong&gt;는 논문 연구자들의 필수 도구입니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;원클릭 수집&lt;/strong&gt;: 웹에서 논문 정보와 PDF를 자동 저장&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;동기화&lt;/strong&gt;: 로컬 프로그램과 웹 라이브러리 실시간 동기화&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;협업 지원&lt;/strong&gt;: 팀원들과 논문 라이브러리 공유 가능&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;zotero-설치-완전-가이드&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#zotero-설치-완전-가이드&#34;&gt;#&lt;/a&gt; Zotero 설치 완전 가이드&lt;/h2&gt;
+&lt;h3 id=&#34;메인-프로그램-설치&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#메인-프로그램-설치&#34;&gt;#&lt;/a&gt; 메인 프로그램 설치&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;설치 순서:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zotero.org/&#34;&gt;Zotero 공식 사이트&lt;/a&gt; 접속&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Download&lt;/strong&gt; 버튼 클릭하여 본인 OS용 설치파일 다운로드&lt;/li&gt;
+&lt;li&gt;설치 후 &lt;strong&gt;회원가입 필수&lt;/strong&gt; (동기화를 위해 반드시 필요)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;⚠️ &lt;strong&gt;중요&lt;/strong&gt;: 회원가입을 하지 않으면 여러 기기 간 동기화가 불가능합니다!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;브라우저-확장-프로그램-설치&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#브라우저-확장-프로그램-설치&#34;&gt;#&lt;/a&gt; 브라우저 확장 프로그램 설치&lt;/h3&gt;
+&lt;p&gt;웹에서 논문을 발견했을 때 원클릭으로 Zotero에 저장하기 위한 필수 도구들입니다.&lt;/p&gt;
+&lt;h4 id=&#34;zotero-connector-필수&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#zotero-connector-필수&#34;&gt;#&lt;/a&gt; Zotero Connector (필수)&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;설치 링크:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chromewebstore.google.com/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc&#34;&gt;Chrome 확장&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://microsoftedge.microsoft.com/addons/detail/zotero-connector/nmhdhpibnnopknkmonacoephklnflpho&#34;&gt;Edge 확장&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/zotero-connector/&#34;&gt;Firefox 확장&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;설치 후 확인:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;브라우저 도구막대에 Zotero 아이콘이 나타나는지 확인&lt;/li&gt;
+&lt;li&gt;논문 사이트(예: arXiv, Google Scholar)에서 아이콘이 PDF 모양으로 변하는지 테스트&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;zotero-핵심-플러그인-설치&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#zotero-핵심-플러그인-설치&#34;&gt;#&lt;/a&gt; Zotero 핵심 플러그인 설치&lt;/h2&gt;
+&lt;h3 id=&#34;better-bibtex-for-zotero-필수&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#better-bibtex-for-zotero-필수&#34;&gt;#&lt;/a&gt; Better BibTeX for Zotero (필수)&lt;/h3&gt;
+&lt;p&gt;이 플러그인은 옵시디언 연동의 핵심입니다. 반드시 설치해야 합니다.&lt;/p&gt;
+&lt;h4 id=&#34;설치-과정-상세-가이드&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#설치-과정-상세-가이드&#34;&gt;#&lt;/a&gt; 설치 과정 (상세 가이드)&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;1단계: 플러그인 다운로드&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://retorque.re/zotero-better-bibtex/installation/&#34;&gt;Better BibTeX 설치 페이지&lt;/a&gt; 접속:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/Fqloqte.png&#34; alt=&#34;Better BibTeX 설치 페이지&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2단계: GitHub 릴리즈 페이지 이동&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;latest release&lt;/code&gt;  링크를 클릭하면 GitHub으로 이동됩니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/FYMq9Ao.png&#34; alt=&#34;GitHub 릴리즈 페이지&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3단계: 설치 파일 다운로드&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;zotero-better-bibtex-6.7.xxx.xpi&lt;/code&gt;  파일을 다운받습니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4단계: Zotero에서 플러그인 설치&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Zotero 프로그램에서  &lt;code&gt;도구&lt;/code&gt;  →  &lt;code&gt;확장 기능&lt;/code&gt;  클릭:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/3EEqfb9.png&#34; alt=&#34;Zotero 확장 기능 메뉴&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5단계: Add-ons Manager에서 설치&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Install Add-on From File...&lt;/code&gt;  선택:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/Az5UEKc.png&#34; alt=&#34;Add-on Manager 화면&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;6단계: 파일 선택 및 설치&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;다운받은 .xpi 파일을 선택:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/kBCGecQ.png&#34; alt=&#34;파일 선택 화면&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;7단계: 설치 완료&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Install Now&lt;/code&gt;  클릭하여 설치 완료:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/U2wC4e8.png&#34; alt=&#34;설치 확인 화면&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;pdf-translate-선택사항&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pdf-translate-선택사항&#34;&gt;#&lt;/a&gt; PDF Translate (선택사항)&lt;/h3&gt;
+&lt;p&gt;영어 논문을 읽을 때 번역이 필요한 부분을 바로 번역할 수 있는 유용한 플러그인입니다.&lt;/p&gt;
+&lt;h4 id=&#34;설치-과정&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#설치-과정&#34;&gt;#&lt;/a&gt; 설치 과정&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;1단계: GitHub 릴리즈 페이지 접속&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/windingwind/zotero-pdf-translate/releases/tag/v1.0.25&#34;&gt;PDF Translate 릴리즈 페이지&lt;/a&gt;로 이동:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/ubw95C4.png&#34; alt=&#34;PDF Translate 다운로드&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2단계: 설치 파일 다운로드&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;zotero-pdf-translate.xpi&lt;/code&gt;  파일을 다운받습니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3단계: Zotero에 설치&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Better BibTeX 설치와 동일한 방법으로 설치합니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4단계: 사용법 확인&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;설치 후 PDF에서 텍스트를 선택하면 번역 기능을 사용할 수 있습니다.&lt;/p&gt;
+&lt;h2 id=&#34;zotero-기본-설정&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#zotero-기본-설정&#34;&gt;#&lt;/a&gt; Zotero 기본 설정&lt;/h2&gt;
+&lt;h3 id=&#34;citation-key-설정-중요&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#citation-key-설정-중요&#34;&gt;#&lt;/a&gt; Citation Key 설정 (중요!)&lt;/h3&gt;
+&lt;p&gt;옵시디언에서 노트 제목으로 사용될 형식을 설정합니다.&lt;/p&gt;
+&lt;p&gt;이 설정이 잘못되면 나중에 정리할 때 불편합니다.&lt;/p&gt;
+&lt;h4 id=&#34;설정-과정&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#설정-과정&#34;&gt;#&lt;/a&gt; 설정 과정&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;1단계: 환경설정 접속&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Zotero에서  &lt;code&gt;편집&lt;/code&gt;  →  &lt;code&gt;환경설정&lt;/code&gt;  선택:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/AAcwvGF.png&#34; alt=&#34;Zotero 환경설정&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2단계: Better BibTeX 설정&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Better BibTeX&lt;/code&gt;  →  &lt;code&gt;Open Better BibTeX preferences&lt;/code&gt;  클릭:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/Sv7iLA7.png&#34; alt=&#34;Better BibTeX 설정&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3단계: Citation Key Format 입력&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;다음 코드를 정확히 입력합니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/cYLfXaj.png&#34; alt=&#34;Citation Key 설정&#34; /&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;title+(year)+authors(n=1,etal=EtAl)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;citation-key-형식-설명&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#citation-key-형식-설명&#34;&gt;#&lt;/a&gt; Citation Key 형식 설명&lt;/h4&gt;
+&lt;p&gt;이 설정으로 다음과 같은 형식의 제목이 생성됩니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Attention Is All You Need (2017) VaswaniEtAl&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;BERT Pre-training of Deep Bidirectional Transformers (2018) DevlinEtAl&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 &lt;strong&gt;팁&lt;/strong&gt;: 영어 논문이 아닌 경우 제목이 깨질 수 있으니, 수동으로 수정하는 것을 권장합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;옵시디언-zotero-연동-완전-정복&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#옵시디언-zotero-연동-완전-정복&#34;&gt;#&lt;/a&gt; 옵시디언 Zotero 연동 완전 정복&lt;/h1&gt;
+&lt;h2 id=&#34;zotero-integration-플러그인-설치&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#zotero-integration-플러그인-설치&#34;&gt;#&lt;/a&gt; Zotero Integration 플러그인 설치&lt;/h2&gt;
+&lt;h3 id=&#34;플러그인-설치&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#플러그인-설치&#34;&gt;#&lt;/a&gt; 플러그인 설치&lt;/h3&gt;
+&lt;p&gt;옵시디언에서  &lt;code&gt;설정&lt;/code&gt;  →  &lt;code&gt;커뮤니티 플러그인&lt;/code&gt;  →  &lt;code&gt;탐색&lt;/code&gt;  순서로 이동:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/QmNhura.png&#34; alt=&#34;Zotero Integration 플러그인&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;quot;Zotero Integration&amp;quot; 검색 후 설치 및 활성화합니다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;⚠️ &lt;strong&gt;주의&lt;/strong&gt;:  &lt;code&gt;Better BibTeX for Zotero&lt;/code&gt; 가 먼저 설치되어 있어야 정상 작동합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;integration-옵션-세부-설정&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#integration-옵션-세부-설정&#34;&gt;#&lt;/a&gt; Integration 옵션 세부 설정&lt;/h3&gt;
+&lt;h4 id=&#34;output-path-설정&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#output-path-설정&#34;&gt;#&lt;/a&gt; Output Path 설정&lt;/h4&gt;
+&lt;p&gt;Integration된 노트가 저장될 경로를 지정합니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/0OlHMRj.png&#34; alt=&#34;Integration 옵션 설정&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;권장 설정:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Notes/Papers/&amp;#123;&amp;#123;citekey&amp;#125;&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/cbPKFIs.png&#34; alt=&#34;Output Path 설정&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Notes/Papers/&lt;/code&gt;  폴더에 논문 노트들이 자동으로 정리됩니다&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;#123;&amp;#123;citekey&amp;#125;&amp;#125;&lt;/code&gt; 는 앞서 설정한 Citation Key 형식을 사용합니다&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;import-format-템플릿-설정&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#import-format-템플릿-설정&#34;&gt;#&lt;/a&gt; Import Format 템플릿 설정&lt;/h2&gt;
+&lt;p&gt;이 템플릿이 논문 노트의 구조를 결정하는 핵심 부분입니다.&lt;/p&gt;
+&lt;p&gt;신중하게 설정해주세요.&lt;/p&gt;
+&lt;h3 id=&#34;완전-템플릿-코드&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#완전-템플릿-코드&#34;&gt;#&lt;/a&gt; 완전 템플릿 코드&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Add Import Format&lt;/code&gt; 에 다음 템플릿을 추가합니다.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;---
+
+
+cssclass: research-note
+type: &amp;quot;&amp;#123;&amp;#123;itemType&amp;#125;&amp;#125;&amp;quot;&amp;#123;% for type, creators in creators | groupby(&#34;creatorType&#34;) -%&amp;#125;
+&amp;#123;&amp;#123;type | replace(&#34;interviewee&#34;, &#34;author&#34;) | replace(&#34;director&#34;, &#34;author&#34;) | replace(&#34;presenter&#34;, &#34;author&#34;) | replace(&#34;podcaster&#34;, &#34;author&#34;) | replace(&#34;programmer&#34;, &#34;author&#34;) | replace(&#34;cartographer&#34;, &#34;author&#34;) | replace(&#34;inventor&#34;, &#34;author&#34;) | replace(&#34;sponsor&#34;, &#34;author&#34;)  | replace(&#34;performer&#34;, &#34;author&#34;) | replace(&#34;artist&#34;, &#34;author&#34;)&amp;#125;&amp;#125;: &#34;&amp;#123;%- for creator in creators -%&amp;#125;&amp;#123;%- if creator.name %&amp;#125;&amp;#123;&amp;#123;creator.name&amp;#125;&amp;#125;&amp;#123;%- else %&amp;#125;&amp;#123;&amp;#123;creator.lastName&amp;#125;&amp;#125;, &amp;#123;&amp;#123;creator.firstName&amp;#125;&amp;#125;&amp;#123;%- endif %&amp;#125;; &amp;#123;% endfor %&amp;#125;&amp;quot;
+&amp;#123;%- endfor %&amp;#125;
+title: &amp;quot;&amp;#123;&amp;#123;title&amp;#125;&amp;#125;&amp;quot;
+publication: &amp;quot;&amp;#123;&amp;#123;publicationTitle&amp;#125;&amp;#125;&amp;quot;
+date: &amp;#123;&amp;#123;date | format(&#34;YYYY-MM-DD&#34;)&amp;#125;&amp;#125;
+archive: &amp;quot;&amp;#123;&amp;#123;archive&amp;#125;&amp;#125;&amp;quot;
+archive-location: &amp;quot;&amp;#123;&amp;#123;archiveLocation&amp;#125;&amp;#125;&amp;quot;
+citekey: &amp;#123;&amp;#123;citekey&amp;#125;&amp;#125;
+---
+
+
+&amp;#123;&amp;#123;bibliography&amp;#125;&amp;#125;
+[online](&amp;#123;&amp;#123;uri&amp;#125;&amp;#125;) [local](&amp;#123;&amp;#123;desktopURI&amp;#125;&amp;#125;) &amp;#123;%- for attachment in attachments | filterby(&#34;path&#34;, &#34;endswith&#34;, &#34;.pdf&#34;) %&amp;#125; [pdf](file://&amp;#123;&amp;#123;attachment.path | replace(&#34; &#34;, &#34;%20&#34;)&amp;#125;&amp;#125;)
+ 
+&amp;#123;%- endfor %&amp;#125;
+ 
+&amp;#123;% for t in tags -%&amp;#125;#&amp;#123;% if t.tag == &#34;secondary&#34; %&amp;#125;source/secondary&amp;#123;% if not loop.last %&amp;#125;&amp;#123;% elif t.tag == &#34;primary&#34; %&amp;#125;source/primary&amp;#123;% elif &#34;-project&#34; in t.tag %&amp;#125;project/&amp;#123;&amp;#123;t.tag | lower | replace(&#34; &#34;, &#34;-&#34;) | replace(&#34;-project&#34;, &#34;&#34;)&amp;#125;&amp;#125;&amp;#123;% else %&amp;#125;subject/&amp;#123;&amp;#123;t.tag | lower | replace(&#34; &#34;, &#34;-&#34;)&amp;#125;&amp;#125;&amp;#123;% endif %&amp;#125;
+&amp;#123;%- endfor %&amp;#125;&amp;#123;%- endif %&amp;#125;
+
+### 📝 논문 메모 및 하이라이트
+
+&amp;#123;% macro calloutHeader(color) -%&amp;#125;
+&amp;#123;%- if color == &#34;#ff6666&#34; -%&amp;#125;
+🔴 Important
+&amp;#123;%- endif -%&amp;#125;
+&amp;#123;%- if color == &#34;#5fb236&#34; -%&amp;#125;
+🟢 Reference
+&amp;#123;%- endif -%&amp;#125;
+&amp;#123;%- if color == &#34;#2ea8e5&#34; -%&amp;#125;
+🔵 Formula
+&amp;#123;%- endif -%&amp;#125;
+&amp;#123;%- if color == &#34;#a28ae5&#34; -%&amp;#125;
+🟣 Key Sentences
+&amp;#123;%- endif -%&amp;#125;
+&amp;#123;%- endmacro -%&amp;#125;
+
+&amp;#123;% persist &#34;annotations&#34; %&amp;#125;
+&amp;#123;% set annotations = annotations | filterby(&#34;date&#34;, &#34;dateafter&#34;, lastImportDate) -%&amp;#125;
+
+&amp;#123;%- for annotation in annotations %&amp;#125;
+&amp;#123;% if annotation.color !== &#34;#ffd400&#34; %&amp;#125;
+&gt;[!quote&amp;#123;% if annotation.color %&amp;#125;|&amp;#123;&amp;#123;annotation.color&amp;#125;&amp;#125;] &amp;#123;&amp;#123;calloutHeader(annotation.color)&amp;#125;&amp;#125;
+&gt;&amp;#123;%- endif -%&amp;#125;
+![[&amp;#123;&amp;#123;annotation.imageRelativePath&amp;#125;&amp;#125;]] 
+&amp;#123;&amp;#123;annotation.annotatedText&amp;#125;&amp;#125; [(p. &amp;#123;&amp;#123;annotation.pageLabel&amp;#125;&amp;#125;)](zotero://open-pdf/library/items/&amp;#123;&amp;#123;annotation.attachment.itemKey&amp;#125;&amp;#125;?page=&amp;#123;&amp;#123;annotation.pageLabel&amp;#125;&amp;#125;&amp;annotation=&amp;#123;&amp;#123;annotation.id&amp;#125;&amp;#125;)&amp;#123;%- endif %&amp;#125;&amp;#123;%- if annotation.comment%&amp;#125;
+%%&amp;#123;&amp;#123;annotation.comment&amp;#125;&amp;#125;%%&amp;#123;%- endif %&amp;#125;&amp;#123;%- endfor %&amp;#125; &amp;#123;% endpersist %&amp;#125;
+
+---
+
+
+## 📋 논문 분석 템플릿
+
+### 🎯 핵심 내용
+
+#### Abstract 요약
+
+#### 주요 기여점
+1. 
+2. 
+3. 
+
+#### 방법론 핵심
+
+#### 실험 결과 요약
+
+#### 개인적 평가
+
+### 📚 상세 분석
+
+#### Introduction
+- **배경**: 
+- **문제 정의**: 
+- **제안하는 해결책**: 
+
+#### Related Work
+- **기존 연구의 한계**: 
+- **이 연구의 차별점**: 
+
+#### Methodology
+- **핵심 아이디어**: 
+- **기술적 접근**: 
+- **알고리즘/구조**: 
+
+#### Experiments
+- **데이터셋**: 
+- **평가 지표**: 
+- **주요 결과**: 
+- **비교 분석**: 
+
+#### Conclusion
+- **주요 발견**: 
+- **한계점**: 
+- **향후 연구 방향**: 
+
+---
+
+
+## ✅ 논문 이해도 체크리스트
+
+- [ ] **목적**: 저자가 해결하고자 한 문제를 이해했는가?
+- [ ] **방법**: 이 연구의 핵심 접근법을 파악했는가?
+- [ ] **결과**: 실험 결과와 그 의미를 이해했는가?
+- [ ] **활용**: 이 논문의 내용을 내 연구/프로젝트에 적용할 수 있는가?
+- [ ] **확장**: 참고할 만한 다른 연구들을 찾았는가?
+
+---
+
+
+## 🔗 관련 연구 및 키워드
+
+### 핵심 키워드
+-
+
+### 관련 논문
+-
+
+### 후속 연구 아이디어
+-
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;템플릿-구성-요소-설명&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#템플릿-구성-요소-설명&#34;&gt;#&lt;/a&gt; 템플릿 구성 요소 설명&lt;/h3&gt;
+&lt;p&gt;이 템플릿은 다음과 같은 구조로 구성되어 있습니다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;메타데이터&lt;/strong&gt;: 논문의 기본 정보 (저자, 제목, 날짜 등)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;링크&lt;/strong&gt;: 온라인, 로컬, PDF 바로가기 링크&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;태그&lt;/strong&gt;: 자동 태그 시스템&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;하이라이트&lt;/strong&gt;: 색상별로 구분된 메모와 하이라이트&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;분석 템플릿&lt;/strong&gt;: 체계적인 논문 분석을 위한 구조&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;체크리스트&lt;/strong&gt;: 논문 이해도 점검&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;css-스타일-설정&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#css-스타일-설정&#34;&gt;#&lt;/a&gt; CSS 스타일 설정&lt;/h2&gt;
+&lt;p&gt;색상별 하이라이트를 시각적으로 구분하기 위한 CSS 설정이 필요합니다.&lt;/p&gt;
+&lt;h3 id=&#34;css-파일-생성&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#css-파일-생성&#34;&gt;#&lt;/a&gt; CSS 파일 생성&lt;/h3&gt;
+&lt;p&gt;옵시디언 보관소의  &lt;code&gt;.obsidian/snippets/&lt;/code&gt;  폴더로 이동하여  &lt;code&gt;research-note-colors.css&lt;/code&gt;  파일을 생성합니다.&lt;/p&gt;
+&lt;h3 id=&#34;css-코드-입력&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#css-코드-입력&#34;&gt;#&lt;/a&gt; CSS 코드 입력&lt;/h3&gt;
+&lt;p&gt;다음 코드를 입력합니다.&lt;/p&gt;
+&lt;figure class=&#34;highlight css&#34;&gt;&lt;figcaption data-lang=&#34;CSS&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/* Zotero 하이라이트 색상 설정 */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/* 빨간색 - Important */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token selector&#34;&gt;.research-note .callout[data-callout-metadata=&#34;#ff6666&#34;]&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;--callout-color&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 255&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; 59&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; 48&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;--callout-icon&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; lucide-alert-triangle&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/* 초록색 - Reference */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token selector&#34;&gt;.research-note .callout[data-callout-metadata=&#34;#5fb236&#34;]&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;--callout-color&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 40&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; 205&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; 65&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;--callout-icon&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; lucide-book-open&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/* 파란색 - Formula */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token selector&#34;&gt;.research-note .callout[data-callout-metadata=&#34;#2ea8e5&#34;]&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;--callout-color&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 0&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; 122&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; 255&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;--callout-icon&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; lucide-calculator&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/* 보라색 - Key Sentences */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token selector&#34;&gt;.research-note .callout[data-callout-metadata=&#34;#a28ae5&#34;]&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;--callout-color&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 125&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; 84&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; 222&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;--callout-icon&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; lucide-star&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/* 노란색 - General Notes */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token selector&#34;&gt;.research-note .callout[data-callout-metadata=&#34;#ffd400&#34;]&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;--callout-color&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 255&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; 204&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; 0&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;--callout-icon&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; lucide-lightbulb&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;css-활성화&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#css-활성화&#34;&gt;#&lt;/a&gt; CSS 활성화&lt;/h3&gt;
+&lt;p&gt;옵시디언  &lt;code&gt;설정&lt;/code&gt;  →  &lt;code&gt;테마&lt;/code&gt;  →  &lt;code&gt;CSS snippets&lt;/code&gt; 에서 생성한 파일을 활성화합니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/6eykeEe.png&#34; alt=&#34;CSS Snippets 활성화&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;결과-확인&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#결과-확인&#34;&gt;#&lt;/a&gt; 결과 확인&lt;/h3&gt;
+&lt;p&gt;설정 완료 후 색상별 하이라이트가 다음과 같이 표시됩니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/y7l7Joy.png&#34; alt=&#34;색상별 하이라이트 예시&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;논문-찾기와-수집-전략&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#논문-찾기와-수집-전략&#34;&gt;#&lt;/a&gt; 논문 찾기와 수집 전략&lt;/h1&gt;
+&lt;h2 id=&#34;효율적인-논문-검색-사이트&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#효율적인-논문-검색-사이트&#34;&gt;#&lt;/a&gt; 효율적인 논문 검색 사이트&lt;/h2&gt;
+&lt;h3 id=&#34;메인-검색-플랫폼&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#메인-검색-플랫폼&#34;&gt;#&lt;/a&gt; 메인 검색 플랫폼&lt;/h3&gt;
+&lt;h4 id=&#34;arxivorg&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#arxivorg&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;http://arXiv.org&#34;&gt;arXiv.org&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;특징&lt;/strong&gt;: 최신 프리프린트 논문의 보고&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;장점&lt;/strong&gt;: 출판 전 최신 연구 동향 파악 가능&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;활용법&lt;/strong&gt;: 매일 업데이트되는 새 논문 모니터링&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;google-scholar&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#google-scholar&#34;&gt;#&lt;/a&gt; Google Scholar&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;특징&lt;/strong&gt;: 모든 학술 자료 통합 검색&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;장점&lt;/strong&gt;: 인용 횟수 확인, 관련 논문 추천&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;활용법&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;키워드 알림 설정으로 자동 모니터링&lt;/li&gt;
+&lt;li&gt;저자 팔로우로 신규 논문 알림&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;semantic-scholar&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#semantic-scholar&#34;&gt;#&lt;/a&gt; Semantic Scholar&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;특징&lt;/strong&gt;: AI 기반 의미론적 검색&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;장점&lt;/strong&gt;: 논문 간 관계 시각화, 영향력 분석&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;활용법&lt;/strong&gt;: 연구 트렌드 파악, 핵심 논문 발굴&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ai-특화-플랫폼&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ai-특화-플랫폼&#34;&gt;#&lt;/a&gt; AI 특화 플랫폼&lt;/h3&gt;
+&lt;h4 id=&#34;papers-with-code&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#papers-with-code&#34;&gt;#&lt;/a&gt; Papers With Code&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;특징&lt;/strong&gt;: 논문 + 구현 코드 연결&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;장점&lt;/strong&gt;: State-of-the-art 성능 비교, 실습 가능&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;활용법&lt;/strong&gt;: 성능 벤치마크 확인, 코드 구현 학습&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;connected-papers&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#connected-papers&#34;&gt;#&lt;/a&gt; Connected Papers&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;특징&lt;/strong&gt;: 논문 간 관계 그래프 생성&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;장점&lt;/strong&gt;: 연관 연구 발굴, 연구 흐름 파악&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;활용법&lt;/strong&gt;: 핵심 논문 하나로 관련 연구 네트워크 탐색&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;논문-분류-시스템&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#논문-분류-시스템&#34;&gt;#&lt;/a&gt; 논문 분류 시스템&lt;/h2&gt;
+&lt;p&gt;Zotero에서 논문을 다음과 같이 체계적으로 분류해보세요:&lt;/p&gt;
+&lt;h3 id=&#34;분류-체계&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#분류-체계&#34;&gt;#&lt;/a&gt; 분류 체계&lt;/h3&gt;
+&lt;h4 id=&#34;읽기-우선순위별-분류&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#읽기-우선순위별-분류&#34;&gt;#&lt;/a&gt; 읽기 우선순위별 분류&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;📁 &lt;strong&gt;Quick Read&lt;/strong&gt;: 가볍게 훑어볼 논문 (15-30분)&lt;/li&gt;
+&lt;li&gt;📁 &lt;strong&gt;Deep Dive&lt;/strong&gt;: 심도있게 분석할 논문 (1-2시간)&lt;/li&gt;
+&lt;li&gt;📁 &lt;strong&gt;Reference&lt;/strong&gt;: 필요시 참고할 논문&lt;/li&gt;
+&lt;li&gt;📁 &lt;strong&gt;Archive&lt;/strong&gt;: 보관용 논문&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;분야별-분류&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#분야별-분류&#34;&gt;#&lt;/a&gt; 분야별 분류&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;📁 &lt;strong&gt;Computer Vision&lt;/strong&gt;: CV 관련 논문&lt;/li&gt;
+&lt;li&gt;📁 &lt;strong&gt;Natural Language Processing&lt;/strong&gt;: NLP 관련 논문&lt;/li&gt;
+&lt;li&gt;📁 &lt;strong&gt;Machine Learning&lt;/strong&gt;: 일반 ML 논문&lt;/li&gt;
+&lt;li&gt;📁 &lt;strong&gt;Reinforcement Learning&lt;/strong&gt;: 강화학습 논문&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;중요도별-분류&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#중요도별-분류&#34;&gt;#&lt;/a&gt; 중요도별 분류&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;🔴 &lt;strong&gt;High Priority&lt;/strong&gt;: 반드시 읽어야 할 논문&lt;/li&gt;
+&lt;li&gt;🟡 &lt;strong&gt;Medium Priority&lt;/strong&gt;: 시간이 있을 때 읽을 논문&lt;/li&gt;
+&lt;li&gt;🟢 &lt;strong&gt;Low Priority&lt;/strong&gt;: 참고용 논문&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;실제-논문-읽기-실습&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#실제-논문-읽기-실습&#34;&gt;#&lt;/a&gt; 실제 논문 읽기 실습&lt;/h1&gt;
+&lt;h2 id=&#34;zotero에서-하이라이트-색상-체계&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#zotero에서-하이라이트-색상-체계&#34;&gt;#&lt;/a&gt; Zotero에서 하이라이트 색상 체계&lt;/h2&gt;
+&lt;p&gt;논문을 읽으면서 다음 색상 규칙을 일관성있게 사용하세요:&lt;/p&gt;
+&lt;h3 id=&#34;색상별-의미-정의&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#색상별-의미-정의&#34;&gt;#&lt;/a&gt; 색상별 의미 정의&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;🔴 빨간색&lt;/strong&gt;: 핵심 내용, 중요한 발견, 결론&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;🔵 파란색&lt;/strong&gt;: 수학 공식, 알고리즘, 기술적 세부사항&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;🟣 보라색&lt;/strong&gt;: 인용할 만한 핵심 문장, 정의&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;🟡 노란색&lt;/strong&gt;: 일반적인 메모, 나중에 정리할 내용&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;🟢 초록색&lt;/strong&gt;: 참고문헌, 관련 연구 언급&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;효과적인-메모-작성-팁&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#효과적인-메모-작성-팁&#34;&gt;#&lt;/a&gt; 효과적인 메모 작성 팁&lt;/h3&gt;
+&lt;h4 id=&#34;페이지별-요약법&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#페이지별-요약법&#34;&gt;#&lt;/a&gt; 페이지별 요약법&lt;/h4&gt;
+&lt;p&gt;각 페이지나 섹션의 핵심을 한 줄로 요약해두세요:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;p.3: Transformer 아키텍처의 전체 구조 설명
+p.5: Multi-Head Attention의 수학적 정의
+p.8: 실험 결과 - BLEU 스코어에서 기존 모델 대비 2.0 향상
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;질문-기록하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#질문-기록하기&#34;&gt;#&lt;/a&gt; 질문 기록하기&lt;/h4&gt;
+&lt;p&gt;이해되지 않는 부분이나 궁금한 점을 메모:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;- Why use layer normalization before attention instead of after?
+- How does positional encoding preserve sequential information?
+- What&#39;s the computational complexity compared to RNN?
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;연결점-발견하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#연결점-발견하기&#34;&gt;#&lt;/a&gt; 연결점 발견하기&lt;/h4&gt;
+&lt;p&gt;기존 지식과의 연관성을 메모:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;- Similar to CNN&#39;s attention mechanism in spatial domain
+- Reminds me of database query-key-value concept
+- Could this apply to computer vision tasks?
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;옵시디언-연동-실습&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#옵시디언-연동-실습&#34;&gt;#&lt;/a&gt; 옵시디언 연동 실습&lt;/h2&gt;
+&lt;h3 id=&#34;integration-실행하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#integration-실행하기&#34;&gt;#&lt;/a&gt; Integration 실행하기&lt;/h3&gt;
+&lt;p&gt;옵시디언에서  &lt;code&gt;Ctrl+P&lt;/code&gt;  (Command Palette)를 누르고 &amp;quot;Zotero Integration&amp;quot;을 입력:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/IHAp6he.png&#34; alt=&#34;Integration 실행&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;논문-선택하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#논문-선택하기&#34;&gt;#&lt;/a&gt; 논문 선택하기&lt;/h3&gt;
+&lt;p&gt;Zotero에 저장된 논문 목록이 나타나면 원하는 논문을 선택:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/pFpcJ9y.png&#34; alt=&#34;논문 선택 화면&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;자동-생성된-노트-확인&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#자동-생성된-노트-확인&#34;&gt;#&lt;/a&gt; 자동 생성된 노트 확인&lt;/h3&gt;
+&lt;p&gt;Integration이 완료되면 다음 내용이 자동으로 생성됩니다.&lt;/p&gt;
+&lt;h4 id=&#34;메타데이터-섹션&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#메타데이터-섹션&#34;&gt;#&lt;/a&gt; 메타데이터 섹션&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;논문 제목, 저자, 발행년도&lt;/li&gt;
+&lt;li&gt;학회/저널 정보&lt;/li&gt;
+&lt;li&gt;PDF 및 온라인 링크&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;하이라이트-섹션&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#하이라이트-섹션&#34;&gt;#&lt;/a&gt; 하이라이트 섹션&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;색상별로 구분된 콜아웃&lt;/li&gt;
+&lt;li&gt;각 하이라이트의 페이지 번호 링크&lt;/li&gt;
+&lt;li&gt;작성한 메모 내용&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;분석-템플릿&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#분석-템플릿&#34;&gt;#&lt;/a&gt; 분석 템플릿&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;비어있는 템플릿 구조&lt;/li&gt;
+&lt;li&gt;체크리스트 항목&lt;/li&gt;
+&lt;li&gt;관련 연구 연결 공간&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;수동-정리-작업&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#수동-정리-작업&#34;&gt;#&lt;/a&gt; 수동 정리 작업&lt;/h3&gt;
+&lt;p&gt;템플릿의 각 섹션을 체워나갑니다.&lt;/p&gt;
+&lt;h4 id=&#34;abstract-요약-작성&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#abstract-요약-작성&#34;&gt;#&lt;/a&gt; Abstract 요약 작성&lt;/h4&gt;
+&lt;p&gt;논문의 핵심을 3-5문장으로 정리&lt;/p&gt;
+&lt;h4 id=&#34;주요-기여점-정리&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#주요-기여점-정리&#34;&gt;#&lt;/a&gt; 주요 기여점 정리&lt;/h4&gt;
+&lt;p&gt;논문이 제시하는 새로운 점들을 나열&lt;/p&gt;
+&lt;h4 id=&#34;방법론-핵심-파악&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#방법론-핵심-파악&#34;&gt;#&lt;/a&gt; 방법론 핵심 파악&lt;/h4&gt;
+&lt;p&gt;기술적 접근법과 알고리즘의 핵심 아이디어&lt;/p&gt;
+&lt;h4 id=&#34;실험-결과-분석&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#실험-결과-분석&#34;&gt;#&lt;/a&gt; 실험 결과 분석&lt;/h4&gt;
+&lt;p&gt;정량적 결과와 그 의미를 해석&lt;/p&gt;
+&lt;h4 id=&#34;개인적-평가&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#개인적-평가&#34;&gt;#&lt;/a&gt; 개인적 평가&lt;/h4&gt;
+&lt;p&gt;논문의 강점, 약점, 개선점 등 비판적 분석&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;마무리-및-다음-단계&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#마무리-및-다음-단계&#34;&gt;#&lt;/a&gt; 마무리 및 다음 단계&lt;/h1&gt;
+&lt;h2 id=&#34;이번-글에서-완성한-것들&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#이번-글에서-완성한-것들&#34;&gt;#&lt;/a&gt; 이번 글에서 완성한 것들&lt;/h2&gt;
+&lt;p&gt;축하합니다! 이제 &lt;strong&gt;완벽한 AI 논문 읽기 시스템&lt;/strong&gt;을 구축하셨습니다.&lt;/p&gt;
+&lt;h3 id=&#34;구축된-시스템&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#구축된-시스템&#34;&gt;#&lt;/a&gt; 구축된 시스템&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;🔄 원클릭 논문 수집&lt;/strong&gt;: Zotero Connector로 웹에서 즉시 저장&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;🎨 체계적 하이라이트&lt;/strong&gt;: 색상별 구분된 메모 시스템&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;🔗 자동 연동&lt;/strong&gt;: Zotero → 옵시디언 seamless 연결&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;📝 구조화된 정리&lt;/strong&gt;: 템플릿 기반 체계적 분석&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;달성된-효과&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#달성된-효과&#34;&gt;#&lt;/a&gt; 달성된 효과&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;시간 절약&lt;/strong&gt;: 논문 정리 시간 50% 단축&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;일관성&lt;/strong&gt;: 모든 논문을 동일한 체계로 정리&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;연결성&lt;/strong&gt;: 관련 논문들 간의 관계 명확화&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;검색성&lt;/strong&gt;: 필요한 논문과 개념을 빠르게 찾기&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;지속성&lt;/strong&gt;: 체계적인 지식 축적 가능&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;다음-단계-예고&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#다음-단계-예고&#34;&gt;#&lt;/a&gt; 다음 단계 예고&lt;/h2&gt;
+&lt;p&gt;3편에서는 &lt;strong&gt;논문 읽기 방법론과 고급 활용법&lt;/strong&gt;을 다룰 예정입니다.&lt;/p&gt;
+&lt;h3 id=&#34;3편-미리보기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3편-미리보기&#34;&gt;#&lt;/a&gt; 3편 미리보기&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI 논문의 구조와 특징&lt;/strong&gt; 완전 해부&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Andrew Ng식 3단계 논문 읽기&lt;/strong&gt; 방법론&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;분야별 논문 특성&lt;/strong&gt; 이해 (NLP vs CV vs RL)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;효율적인 논문 검색&lt;/strong&gt; 전략과 큐레이션&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;초심자를 위한 단계별&lt;/strong&gt; 학습 로드맵&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;실용적-활용법&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#실용적-활용법&#34;&gt;#&lt;/a&gt; 실용적 활용법&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;논문을 &lt;strong&gt;3단계로 나누어 읽는&lt;/strong&gt; 구체적 방법&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;시간 효율성&lt;/strong&gt;을 극대화하는 읽기 전략&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;비판적 사고&lt;/strong&gt;로 논문을 평가하는 법&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;마지막-당부&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#마지막-당부&#34;&gt;#&lt;/a&gt; 마지막 당부&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;이 시스템은 하루아침에 완성되지 않습니다.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;처음에는 설정이 복잡하고 익숙하지 않을 수 있지만, 꾸준히 사용하다 보면 없어서는 안 될 도구가 될 것입니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;완벽을 추구하지 마세요.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;처음에는 템플릿의 일부만 채워도 괜찮습니다. 중요한 것은 꾸준히 논문을 읽고 정리하는 습관을 기르는 것입니다.&lt;/p&gt;
+&lt;p&gt;이제 실전에서 이 시스템을 활용하여 AI 분야의 깊이 있는 지식을 쌓아나가시길 바랍니다!&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;💬 다음 글 미리보기&lt;/strong&gt;: &lt;a href=&#34;https://kimgabe.github.io/gabe_ai_journey/retrospective/SVGT_Obsidian_3/&#34;&gt;옵시디언으로 AI 논문 읽기(3) - 효율적인 논문 읽기 방법론&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🔗 &lt;strong&gt;시리즈 전체 보기&lt;/strong&gt;&lt;br /&gt;
+1편: &lt;a href=&#34;https://kimgabe.github.io/gabe_ai_journey/retrospective/SVGT_Obsidian_1/&#34;&gt;옵시디언 기초 설정과 필수 플러그인&lt;/a&gt;&lt;br /&gt;
+2편: &lt;strong&gt;Zotero 연동과 실제 적용&lt;/strong&gt; (현재 글)&lt;br /&gt;
+3편: &lt;a href=&#34;https://kimgabe.github.io/gabe_ai_journey/retrospective/SVGT_Obsidian_3/&#34;&gt;효율적인 논문 읽기 방법론&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+        <updated>2024-01-05T15:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://kimgabe.github.io/2023/12/13/AIFFELCON/</id>
+        <title>[Review] 모두콘 2023 세미나참여후기</title>
+        <link rel="alternate" href="https://kimgabe.github.io/2023/12/13/AIFFELCON/"/>
+        <content type="html">&lt;h2 id=&#34;summary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#summary&#34;&gt;#&lt;/a&gt; 🚦SUMMARY&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;지난 토요일(12월 9일)에 이화여대 ECC에서 진행했던 모두콘 2023 행사 후기입니다.&lt;/li&gt;
+&lt;li&gt;모두콘은 2018년부터 모두의 연구소에서 진행하고 있는 AI관련 컨퍼런스 행사 입니다.&lt;/li&gt;
+&lt;li&gt;AI와 관련된 다양한 분야별 현업의 연사님들을 모시고 업계의 트렌드에 대한 다양한 이야기, 실제 AI를 구현할때의 다양한 이슈에 대한 해결방안 등의 실무적팁, 프로젝트 구현기에 대한 이야기 등에 대한 강연을 들을 수 있는 기회였습니다.&lt;/li&gt;
+&lt;li&gt;기업부스 담당자분들, 논문발표자분들, 모두콘에 참여한 다른 연사님과 참여자들 등과 네트워킹을 다질 수 있는 기회였습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;유의사항&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#유의사항&#34;&gt;#&lt;/a&gt; 🚫 유의사항&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;본 내용은 컨퍼런스에 참여하면서 들은 내용에 대해 개괄적으로 정리한 내용입니다.&lt;/li&gt;
+&lt;li&gt;내용에 다소 오류가 있을 수도 있습니다. 각 세미나에 대해서는 차후에 &lt;a href=&#34;https://www.youtube.com/@modulabs_&#34;&gt;모두의 연구소 유투브 채널&lt;/a&gt; 에 4주내로 업로드가 된다고 합니다.&lt;/li&gt;
+&lt;li&gt;각 세미나에 대한 상세 내용은 해당 채널의 영상을 확인해주시면 좋을 것 같습니다 😀&lt;/li&gt;
+&lt;li&gt;가급적 세미나의 내용을 기억하고 차후에도 살펴보기 위해 리뷰를 빙자한 정리노트를 작성했습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;intro&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#intro&#34;&gt;#&lt;/a&gt; 📌 Intro.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;모두콘은 &lt;a href=&#34;https://kdp.modulabs.co.kr/&#34;&gt;모두의 연구소&lt;/a&gt; 가 2018년부터 진행하고 있는 AI관련 컨퍼런스 입니다.&lt;/li&gt;
+&lt;li&gt;올해는 Naver Cloud AI의 하정우 센터장님과 테크프론티어의 한상기 대표님이 진행하는 Keynote speech를 시작으로 여러 세션별로 다양한 강연을 만나볼 수 있었습니다.&lt;/li&gt;
+&lt;li&gt;저는 주로 아래의 세션들에 대해 관심이 많아서 개인 링크드인에 홍보글을 올리기도 했었습니다.
+&lt;ul&gt;
+&lt;li&gt;AI Insight: 카카오브레인의 이미지 생성 모델 &#39;Karlo&#39; 개발 이야기&lt;/li&gt;
+&lt;li&gt;여성 스타트업 리더와 개발자들의 열정을 공유하는 &amp;quot;스우파&amp;quot; 세션 등!&lt;/li&gt;
+&lt;li&gt;AI Research: 제로 베이스에서 구축하는 추천 시스템&lt;/li&gt;
+&lt;li&gt;MODULABS: 언어 모델 평가 방법 및 AI 모델로 보상 함수 만들기&lt;/li&gt;
+&lt;li&gt;AI + X: MLOps 시작 가이드 및 커머스를 위한 Vision Language Model&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;참여했던 모든 세미나에 대해 다 정리하고 싶었지만, 내용이 방대해서 메모한 내용이 많고 기억에 남는 세션 위주로 정리하였습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;keynote-글로벌-ai-전쟁-한상기-하정우의-깊이-있는-대화&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#keynote-글로벌-ai-전쟁-한상기-하정우의-깊이-있는-대화&#34;&gt;#&lt;/a&gt; KEYNOTE : 글로벌 AI 전쟁: 한상기 &amp;amp; 하정우의 깊이 있는 대화&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Naver  Cloud AI의 하정우 센터장님의 글로벌 AI 리더 국가들의 Augmentation에 관련된 논의에 대한 내용들을 비롯, 최근 발표로 이슈가 되고 있는 Gemini 에대한 얘기를 시작으로 최근의 AI 트렌드등에 대해 업계 탑티어의 전문가는 어떤 시선으로 현 산업을 바라보는 가를 느낄 수 있었습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;진행은 두분의 대담형식으로 질문하고 대답을 주고 받는 방식으로 진행되었습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;이 중 몇가지 인상깊었던 부분들을 정리해보면 아래와 같습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;GPT4의 성능과 다양한 버전&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GPT4는 MMLU 언어모델로, 인간 전문가를 깨고 90점을 달성하여 구글 딘바인드의 위기의식을 느끼게 했다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GPT4는 이미지와 비디오 분야에서도 뛰어난 성능을 보여주고 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GPT4와 구글 바드의 성능 차이는 크고, Gemini  프로는 외국어 능력이 아쉬운 부분이 있으며 한국어 테스트에서도 아쉬운 부분이 있다고 한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GPT4의 크기는 울트라 프로, 나노 등 다양한 버전이 있으며, 성능 역시 크기에 따라 다르다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;AGI와 프론티어 AI의 차이점&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AGI는 학계와 업계에서 공통된 정의가 없으며, 사람이 할 수 있는 모든 일을 잘 수행할 수 있는 인공지능을 의미한다.&lt;/li&gt;
+&lt;li&gt;AGI를 달성하기 위해서는 외부 환경 인지, 문제 파악, 정확한 평가, 문제 해결 능력 등이 필요하다.&lt;/li&gt;
+&lt;li&gt;GPT 4부터는 AGI의 일부 특성이 발현되기 시작했으며, 이를 기반으로 계획을 세울 수 있는 능력도 갖추게 되었다.&lt;/li&gt;
+&lt;li&gt;프론티어 AI는 포텐셜함이 있는 범용 AI로 정의되며, 혁신과 위험 가능성을 동시에 가지고 있다.&lt;/li&gt;
+&lt;li&gt;프론티어 AI는 특정 문제뿐만 아니라 일반적인 문제를 스스로 파악하고 해결할 수 있는 능력을 갖추어야 한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;AI 안정정상회의의 목표와 원칙&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AI 안정정상회의는 AI의 성장과 혁신에 동의하면서도 인류 안전에 대한 우려를 표명하고 국제공동협력을 강조하는 회의이다.&lt;/li&gt;
+&lt;li&gt;AI 안정정상회의에서는 프론티어 AI의 발전과 함께 인류 안전을 위한 준비를 강조하고 있다.&lt;/li&gt;
+&lt;li&gt;미국의 상무부 장관이 AI 안전연구소를 관장하고 있어 국가의 성장에 관심을 가지고 있다.&lt;/li&gt;
+&lt;li&gt;중국은 인류 미래를 위해 국제법을 준수하고 악영향에 대처하기 위해 노력하며 국가 형평성을 강조하고 있다.&lt;/li&gt;
+&lt;li&gt;AI 안정정상회의에서는 모든 국가가 동일하게 의견을 제시하고 개도국도 참여할 수 있도록 하며 오픈소스를 강조하고 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;AI 시대에 개도국들의 노력 필요&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;개도국들은 AI 시대에 뒤처지지 않도록 노력해야 한다.&lt;/li&gt;
+&lt;li&gt;AI 기술의 발전으로 인해 안전과 책임에 대한 논의가 필요하다.&lt;/li&gt;
+&lt;li&gt;AI의 파급력이 커질수록 적절한 책임감을 보여줘야 한다.&lt;/li&gt;
+&lt;li&gt;AI의 발전에는 다자주의와 다양성, 포용성이 필요하다.&lt;/li&gt;
+&lt;li&gt;AI 연구에서는 다양한 분야에 대한 연구가 필요하다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;버티컬 파이프라인 기업들에게 기회가 있을 것이다.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;엔드 유저나 기업 고객에게 독특하고 고유한 데이터와 서비스 경험을 제공하는 버티컬 파이프라인 기업들에게 기회가 있을 것이다.&lt;/li&gt;
+&lt;li&gt;오픈 AI가 특별한 이유 없이 버티컬 파이프라인에 진입할 이유는 없으며, 전환 비용이 발생할 수 있기 때문에 사용자들은 전환을 꺼릴 수 있다.&lt;/li&gt;
+&lt;li&gt;기술은 금방 따라잡을 수 있기 때문에 가급적이면 버티컬 도메인의 데이터와 경험을 기반으로 한 애플리케이션 레벨로 진입하는 것이 비용 효율적인 방법이다.&lt;/li&gt;
+&lt;li&gt;현재 시점에서는 개별 기업들이 모든 것을 다 소유하려는 것이 합리적인 방법이 아니며, 전략적인 선택이 필요하다.&lt;/li&gt;
+&lt;li&gt;올해의 인상적인 사건으로는 GPT4의 발표와 라마2의 상용화가 있다. 이러한 사건들은 많은 교훈을 제공했다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;한국의 AI 연구의 약점과 개선 방안&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AI 연구는 인류의 과학과 전체적인 지구의 문제를 해결하는데 도움을 줄 수 있는 훌륭한 도구이다.&lt;/li&gt;
+&lt;li&gt;그러나 한국은 AI 연구가 약하다는 인식이 있다.&lt;/li&gt;
+&lt;li&gt;한국에서는 AI를 활용하여 경제의 불평등 문제, 인간의 소외, 기후 문제 등을 해결할 수 있는 연구를 활성화시키는 노력이 필요하다.&lt;/li&gt;
+&lt;li&gt;기업들은 생산성 향상을 위해 AI를 사용하고 있지만, 인류의 근본적인 문제를 해결하는 AI를 만들기 위한 연구는 부족하다.&lt;/li&gt;
+&lt;li&gt;한국의 기업들과 연구소들은 AI를 활용하여 경제, 불평등, 기후 문제 등에 도전하는 연구를 진행해야 한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;인공지능 연구의 글로벌 그룹들과 안전성 문제&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;인공지능 연구에서는 글로벌 차원에서 세멀트(IoT)와 같은 기술을 연구하는 기관을 만들어야 한다는 의견이 있다.&lt;/li&gt;
+&lt;li&gt;일부 사람들은 유럽에 있는 썬(SUN)과 같은 연구소를 만들어서 인류 공통의 AI 연구를 진행하고 안전성이 검증된 기술을 상업화하는 방안을 제안하고 있다.&lt;/li&gt;
+&lt;li&gt;이러한 연구 그룹은 인류에게 공동의 자산이 될 수 있는 연구를 진행하며, 안전성과 공개성을 중요시한다.&lt;/li&gt;
+&lt;li&gt;하지만 안전성과 분리성을 동시에 보장하기 어려워 어떻게 가르마를 탈 것인지는 아직 과제이다.&lt;/li&gt;
+&lt;li&gt;현재는 글로벌 그룹들이 주도권을 놓고 경쟁하고 있으며, 국내에서도 비슷한 그룹을 만들어서 참여하려는 노력이 진행되고 있다.&lt;/li&gt;
+&lt;li&gt;인공지능 연구에서는 날리지 그래프와 같은 온톨로지 기술을 활용하여 더 지능적인 서비스를 개발하는 연구가 진행되고 있다.&lt;/li&gt;
+&lt;li&gt;RNN 모델의 롱텀 디펜던십 문제를 해결하기 위한 구성의 RNN 아키텍처 연구도 진행되고 있다.&lt;/li&gt;
+&lt;li&gt;현재는 몇 가지 사례에서는 성공적인 결과가 있지만, 아직 실험적인 단계이다.&lt;/li&gt;
+&lt;li&gt;인공지능 연구에서는 비용 문제로 인해 횟수 제한이 있는 경우도 있으며, 중소기업을 이해해야 한다는 의견도 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ai-research-제로-베이스에서-구축하는-추천-시스템&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ai-research-제로-베이스에서-구축하는-추천-시스템&#34;&gt;#&lt;/a&gt; AI Research: 제로 베이스에서 구축하는 추천 시스템&lt;/h2&gt;
+&lt;h3 id=&#34;개인화-큐레이션-추천-시스템&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#개인화-큐레이션-추천-시스템&#34;&gt;#&lt;/a&gt; 개인화 큐레이션 추천 시스템&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;프로젝트 시작 배경&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;프로젝트는 사용자에게 맞춤형 콘텐츠를 추천하는 시스템을 구축하기 위해 시작됨.&lt;/li&gt;
+&lt;li&gt;이는 사용자 경험을 개선하고, 콘텐츠 소비의 효율성을 높이기 위한 목적을 가짐.&lt;/li&gt;
+&lt;li&gt;현대의 디지털 환경에서 개인화된 추천은 사용자 만족도를 크게 향상시킬 수 있음.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;프로젝트 목표 설정&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;초기 목표는 사용자의 취향과 행동을 정확히 분석하여 개인화된 추천을 제공하는 것임.&lt;/li&gt;
+&lt;li&gt;목표 달성을 위해 사용자 데이터 분석 및 효과적인 알고리즘 개발에 중점을 둠.&lt;/li&gt;
+&lt;li&gt;데이터 부족과 같은 초기 장애물을 극복하고, 지속 가능한 추천 시스템을 구축하는 것이 핵심 목표임.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;프로젝트 방향성 결정&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;프로젝트 방향성은 데이터 중심으로 설정되어, 사용자 데이터 수집 및 분석에 초점을 맞춤.&lt;/li&gt;
+&lt;li&gt;사용자의 기본 정보, 행동 패턴, 콘텐츠 소비 이력 등 다양한 데이터를 통합하여 분석할 계획임.&lt;/li&gt;
+&lt;li&gt;이를 통해 더 정확하고 맞춤화된 추천을 제공하고자 하는 것이 프로젝트의 궁극적인 방향성임.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;데이터-수집-및-가공&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#데이터-수집-및-가공&#34;&gt;#&lt;/a&gt; 데이터 수집 및 가공&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;데이터 수집의 중요성 인식&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;프로젝트의 성공은 대규모의 다양한 데이터 수집에 크게 의존함.&lt;/li&gt;
+&lt;li&gt;사용자 행동, 선호도, 상호작용 데이터가 핵심적인 역할을 함.&lt;/li&gt;
+&lt;li&gt;데이터 수집은 시스템의 정확도와 효율성을 결정하는 결정적 요소임.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;데이터베이스 및 테이블 상태 파악&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;기존의 데이터베이스와 테이블을 분석하여 사용 가능한 데이터를 파악함.&lt;/li&gt;
+&lt;li&gt;데이터 구조 및 품질을 평가하여, 추후 가공 및 분석을 위한 기초를 마련함.&lt;/li&gt;
+&lt;li&gt;데이터 누락, 오류, 중복과 같은 문제를 해결하기 위한 전략 수립.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;데이터 가공 및 정제&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;수집된 데이터를 분석에 적합한 형태로 변환하는 과정을 진행함.&lt;/li&gt;
+&lt;li&gt;불필요한 정보 제거, 데이터 정규화, 결측치 처리 등을 수행함.&lt;/li&gt;
+&lt;li&gt;데이터의 품질과 일관성을 높이기 위한 정제 작업에 중점을 둠.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;사용자 행동 데이터의 수집 및 분석&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;사용자의 클릭, 페이지 뷰, 상호작용 시간 등의 행동 데이터를 수집함.&lt;/li&gt;
+&lt;li&gt;이 데이터를 통해 사용자의 선호도와 행동 패턴을 파악함.&lt;/li&gt;
+&lt;li&gt;행동 데이터 분석을 통해 사용자에게 더 맞춤화된 추천을 제공할 수 있도록 함.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;데이터 수집 방법과 도구 선택&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;다양한 데이터 수집 도구와 기술을 고려하여 최적의 방법을 선택함.&lt;/li&gt;
+&lt;li&gt;실시간 데이터 수집 및 배치 처리를 위한 인프라 구축에 중점을 둠.&lt;/li&gt;
+&lt;li&gt;데이터 수집의 효율성과 정확성을 높이기 위한 기술적 선택과 구현에 주의를 기울임.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;사용자-학습-경험-데이터의-정의와-수집&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#사용자-학습-경험-데이터의-정의와-수집&#34;&gt;#&lt;/a&gt; 사용자 학습 경험 데이터의 정의와 수집&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;학습 경험 데이터의 중요성&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;사용자의 학습 경험 데이터는 추천 시스템의 핵심적인 부분임.&lt;/li&gt;
+&lt;li&gt;이 데이터는 사용자가 어떤 콘텐츠를 선호하고, 어떻게 상호작용하는지에 대한 깊은 이해를 제공함.&lt;/li&gt;
+&lt;li&gt;학습 경험 데이터를 통해 보다 정확하고 개인화된 추천을 제공할 수 있음.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;xAPI를 활용한 데이터 추적&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;xAPI(Experience API)를 사용하여 사용자의 학습 활동을 추적하고 기록함.&lt;/li&gt;
+&lt;li&gt;xAPI는 다양한 학습 활동과 경험을 표준화된 형식으로 기록할 수 있게 함.&lt;/li&gt;
+&lt;li&gt;이를 통해 학습 경험 데이터의 수집과 분석이 용이해짐.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;데이터 정의서 작성&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;사용자의 학습 경험을 정의하는 데이터 정의서를 작성함.&lt;/li&gt;
+&lt;li&gt;데이터 정의서는 어떤 데이터를 수집할 것인지, 어떻게 분석할 것인지의 기준을 제공함.&lt;/li&gt;
+&lt;li&gt;이 과정을 통해 데이터의 질과 일관성을 보장할 수 있음.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;이벤트 로깅 시스템 구축&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;사용자의 학습 경험을 기록하기 위한 이벤트 로깅 시스템을 구축함.&lt;/li&gt;
+&lt;li&gt;이 시스템은 사용자의 모든 학습 활동을 실시간으로 추적하고 기록함.&lt;/li&gt;
+&lt;li&gt;로그 데이터는 추후 분석과 모델링에 중요한 입력 데이터로 사용됨.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;학습 데이터의 분석 및 활용&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;수집된 학습 경험 데이터를 분석하여 사용자의 학습 행동과 선호도를 이해함.&lt;/li&gt;
+&lt;li&gt;이 데이터를 기반으로 사용자에게 맞춤형 학습 콘텐츠를 제안함.&lt;/li&gt;
+&lt;li&gt;학습 경험 데이터의 분석은 추천 시스템의 정확성과 효율성을 높이는 데 핵심적임.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;추천-모델의-개발-및-벤치마킹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#추천-모델의-개발-및-벤치마킹&#34;&gt;#&lt;/a&gt; 추천 모델의 개발 및 벤치마킹&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;추천 모델 개발의 전략&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;사용자 맞춤형 추천을 제공하기 위해 다양한 알고리즘과 모델을 탐색함.&lt;/li&gt;
+&lt;li&gt;기존 모델의 장단점을 분석하여, 프로젝트에 가장 적합한 모델 구조를 설계함.&lt;/li&gt;
+&lt;li&gt;사용자의 취향과 행동을 정밀하게 분석할 수 있는 알고리즘 개발에 중점을 둠.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;다양한 추천 알고리즘의 벤치마킹&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Matrix Factorization, Deep Learning 기반의 추천 알고리즘 등을 연구함.&lt;/li&gt;
+&lt;li&gt;각 모델의 성능과 적용 가능성을 평가하여 최적의 솔루션을 선택함.&lt;/li&gt;
+&lt;li&gt;벤치마킹을 통해 모델의 강점을 통합하고, 약점을 개선하는 방향으로 모델 개발 진행.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;스포티파이 기술 블로그의 영감&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;스포티파이의 멀티 헤드 셀퍼텐션 구조와 셔플링 알고리즘에 대한 연구 진행.&lt;/li&gt;
+&lt;li&gt;스포티파이의 기술 블로그에서 얻은 인사이트를 바탕으로 새로운 아이디어를 도출함.&lt;/li&gt;
+&lt;li&gt;사용자의 다양한 취향과 상호작용을 반영할 수 있는 혁신적인 모델 구조를 고려함.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;모델의 구성 및 실험&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;실험적인 접근을 통해 다양한 모델 구성을 시도함.&lt;/li&gt;
+&lt;li&gt;사용자 데이터와 상호작용 패턴을 반영하는 효과적인 모델 구성 요소 탐색.&lt;/li&gt;
+&lt;li&gt;데이터의 복잡성과 다양성을 고려한 모델 실험을 통해 최적의 결과 도출.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;모델 평가 및 선택&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;각 모델의 성능을 평가하기 위한 기준을 설정함.&lt;/li&gt;
+&lt;li&gt;A/B 테스팅, 사용자 피드백, 정량적 성능 지표 등을 활용하여 모델을 평가함.&lt;/li&gt;
+&lt;li&gt;가장 효과적인 모델을 최종적으로 선택하여 추천 시스템에 적용.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;데이터-검증-및-모델-평가&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#데이터-검증-및-모델-평가&#34;&gt;#&lt;/a&gt; 데이터 검증 및 모델 평가&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;데이터 검증의 중요성&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터의 정확성과 일관성은 추천 시스템의 효과성에 결정적인 영향을 미침.&lt;/li&gt;
+&lt;li&gt;수집된 데이터가 정확하고, 오류가 없는지 철저히 검증하는 과정을 진행함.&lt;/li&gt;
+&lt;li&gt;데이터 검증은 추천 시스템의 신뢰성을 확보하는 데 필수적임.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;데이터 품질 관리&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;수집된 데이터의 품질을 지속적으로 관리하고, 문제가 발견되면 즉시 수정함.&lt;/li&gt;
+&lt;li&gt;데이터 무결성, 정확성, 완전성을 확인하기 위한 다양한 기술과 방법론을 사용함.&lt;/li&gt;
+&lt;li&gt;데이터 관리 및 유지 관리는 추천 시스템의 성공을 위한 핵심 요소임.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;모델 성능 평가&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;다양한 성능 지표를 사용하여 추천 모델의 효과성을 평가함.&lt;/li&gt;
+&lt;li&gt;정확도, 정밀도, 재현율, F1 점수 등 다양한 메트릭을 통해 모델의 성능을 분석함.&lt;/li&gt;
+&lt;li&gt;모델 평가는 추천 시스템의 개선 방향을 결정하는 데 중요한 역할을 함.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;A/B 테스팅 및 사용자 피드백&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;모델의 실제 성능을 평가하기 위해 A/B 테스팅을 실시함.&lt;/li&gt;
+&lt;li&gt;사용자의 반응과 피드백을 수집하여 모델의 효과성을 실질적으로 측정함.&lt;/li&gt;
+&lt;li&gt;사용자 피드백은 모델을 최적화하고 개선하는 데 중요한 정보를 제공함.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;모델 개선 및 최적화&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;평가 결과를 바탕으로 모델의 약점을 개선하고 최적화하는 작업을 진행함.&lt;/li&gt;
+&lt;li&gt;데이터 품질, 알고리즘 성능, 사용자 경험 등 여러 측면에서 모델을 지속적으로 개선함.&lt;/li&gt;
+&lt;li&gt;모델의 최적화는 사용자 만족도를 높이고, 추천 시스템의 전반적인 성능을 향상시키는 데 기여함.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;대시보드-구축-및-사용자-이력-데이터-분석&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#대시보드-구축-및-사용자-이력-데이터-분석&#34;&gt;#&lt;/a&gt; 대시보드 구축 및 사용자 이력 데이터 분석&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;대시보드 구축의 목적&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;사용자 이력 데이터를 모니터링하고 분석하기 위해 대시보드를 구축함.&lt;/li&gt;
+&lt;li&gt;대시보드는 데이터 시각화를 통해 인사이트를 쉽게 도출하고 공유하는 데 도움을 줌.&lt;/li&gt;
+&lt;li&gt;실시간 데이터 모니터링을 통해 추천 시스템의 성능을 지속적으로 추적하고 개선함.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;사용자 이력 데이터의 수집 및 분석&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;사용자의 행동, 선호도, 반응 등 다양한 이력 데이터를 수집함.&lt;/li&gt;
+&lt;li&gt;수집된 데이터를 분석하여 사용자의 행동 패턴과 추천 시스템의 효과를 파악함.&lt;/li&gt;
+&lt;li&gt;데이터 분석을 통해 사용자 경험을 개선하고, 추천 알고리즘을 미세 조정함.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;싱크 인사이트 대시보드의 기능&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;싱크 인사이트 대시보드는 다양한 데이터 소스를 통합하여 종합적인 분석을 제공함.&lt;/li&gt;
+&lt;li&gt;사용자의 반응, 클릭률, 페이지 뷰 등의 지표를 실시간으로 모니터링함.&lt;/li&gt;
+&lt;li&gt;대시보드를 통해 데이터 기반의 결정을 촉진하고, 전략적인 비즈니스 인사이트를 제공함.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;데이터 기반의 의사결정 지원&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;대시보드를 통해 수집된 데이터를 기반으로 의사결정을 지원함.&lt;/li&gt;
+&lt;li&gt;사용자 행동의 변화, 추천 효과의 변동 등을 실시간으로 파악하고 대응함.&lt;/li&gt;
+&lt;li&gt;데이터 기반의 의사결정은 추천 시스템의 효율성과 사용자 만족도를 높이는 데 중요함.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;추천 시스템의 지속적인 모니터링 및 개선&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;대시보드를 활용하여 추천 시스템의 성능을 지속적으로 모니터링함.&lt;/li&gt;
+&lt;li&gt;사용자 데이터와 피드백을 분석하여 시스템의 개선점을 식별함.&lt;/li&gt;
+&lt;li&gt;지속적인 모니터링과 데이터 분석을 통해 추천 시스템을 지속적으로 최적화함.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;추천시스템의-평가-및-개선&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#추천시스템의-평가-및-개선&#34;&gt;#&lt;/a&gt; 추천시스템의 평가 및 개선&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;추천 시스템 평가의 중요성&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;추천 시스템의 성능을 정기적으로 평가하여 그 효과성을 확인함.&lt;/li&gt;
+&lt;li&gt;평가 과정은 시스템이 사용자의 필요와 기대를 충족시키고 있는지를 판단하는 기준이 됨.&lt;/li&gt;
+&lt;li&gt;정확한 평가를 통해 시스템의 강점과 약점을 파악하고, 개선 방향을 설정할 수 있음.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;다양한 평가 지표 활용&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;추천 시스템의 성능을 평가하기 위해 다양한 지표를 사용함.&lt;/li&gt;
+&lt;li&gt;사용자 만족도, 클릭률, 전환율, 재방문율 등을 포함한 다양한 메트릭을 적용함.&lt;/li&gt;
+&lt;li&gt;이러한 지표들은 시스템의 효율성과 사용자 반응을 종합적으로 파악하는 데 도움을 줌.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;사용자 피드백과 시장 반응 분석&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;사용자의 피드백과 시장 반응을 분석하여 추천 시스템의 실제 효과를 평가함.&lt;/li&gt;
+&lt;li&gt;사용자의 반응은 추천 시스템의 개선점을 식별하는 데 중요한 역할을 함.&lt;/li&gt;
+&lt;li&gt;시장 반응 분석을 통해 비즈니스 목표 달성도를 측정하고 전략을 조정할 수 있음.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;지속적인 모델 개선&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;평가 결과를 바탕으로 추천 모델을 지속적으로 개선함.&lt;/li&gt;
+&lt;li&gt;데이터, 알고리즘, 사용자 인터페이스 등 다양한 측면에서 모델을 최적화함.&lt;/li&gt;
+&lt;li&gt;모델 개선은 사용자 경험을 개선하고, 비즈니스 가치를 높이는 데 중요함.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;비즈니스 영향력과 ROI 측정&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;추천 시스템의 비즈니스 영향력을 평가하여 투자 대비 수익(ROI)을 측정함.&lt;/li&gt;
+&lt;li&gt;시스템이 비즈니스 성과에 미치는 영향을 분석하고, 장기적인 가치를 평가함.&lt;/li&gt;
+&lt;li&gt;비즈니스 목표와 연계된 평가를 통해 추천 시스템의 전략적 중요성을 입증함.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;추천시스템의-매트릭릭&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#추천시스템의-매트릭릭&#34;&gt;#&lt;/a&gt; 추천시스템의 매트릭릭&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;매트릭의 다양성과 적용&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;추천 시스템의 성능을 평가하기 위한 다양한 매트릭을 적용함.&lt;/li&gt;
+&lt;li&gt;정확도, 재현율, 정밀도, F1 점수 등 다양한 지표를 통해 모델의 효과를 측정함.&lt;/li&gt;
+&lt;li&gt;각 매트릭은 추천 시스템의 다른 측면을 평가하며, 종합적인 성능 이해에 기여함.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;온라인과 오프라인 매트릭의 중요성&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;오프라인 매트릭은 사전 테스트와 모델 평가에 사용되며, 시스템 개발 단계에서 중요함.&lt;/li&gt;
+&lt;li&gt;온라인 매트릭은 실제 사용자 상호작용을 기반으로 하며, 실제 성능 평가에 중요함.&lt;/li&gt;
+&lt;li&gt;두 종류의 매트릭을 통합하여 추천 시스템의 전반적인 성능을 평가함.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;사용자 경험과 매트릭의 연계&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;사용자 경험을 개선하는 것이 최종 목표임을 인식하고, 이를 반영하는 매트릭 선택에 중점을 둠.&lt;/li&gt;
+&lt;li&gt;사용자 만족도, 사용자 참여도 등의 매트릭을 사용하여 추천 시스템의 사용자 중심성을 평가함.&lt;/li&gt;
+&lt;li&gt;사용자 반응을 분석하여 시스템 개선에 반영함.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;데이터-분석의-관점&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#데이터-분석의-관점&#34;&gt;#&lt;/a&gt; 데이터 분석의 관점&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;데이터의 다양성과 심층 분석&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;사용자 데이터의 다양한 측면을 심층적으로 분석함.&lt;/li&gt;
+&lt;li&gt;유저 나이, 접속 시간, 체류 시간 등 다양한 사용자 특성을 고려함.&lt;/li&gt;
+&lt;li&gt;이러한 다차원적 분석을 통해 사용자의 선호와 행동을 더 정확하게 이해함.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;정량적 및 정성적 데이터 분석&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;수치적 데이터 분석과 함께 사용자의 피드백, 리뷰 등 정성적 데이터도 중요하게 다룸.&lt;/li&gt;
+&lt;li&gt;정성적 데이터 분석을 통해 사용자의 기대와 요구를 보다 깊이 이해함.&lt;/li&gt;
+&lt;li&gt;데이터의 신뢰도와 유효성을 검증하여 분석의 정확성을 높임.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;데이터 중심의 의사결정&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;모든 의사결정 과정에서 데이터를 중심으로 함.&lt;/li&gt;
+&lt;li&gt;데이터 분석을 통해 얻은 인사이트를 바탕으로 전략적인 결정을 내림.&lt;/li&gt;
+&lt;li&gt;데이터 중심 접근 방식은 추천 시스템의 효율성과 효과성을 극대화하는 데 기여함.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;모두콘-참여-후기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#모두콘-참여-후기&#34;&gt;#&lt;/a&gt; 🤓 모두콘 참여 후기&lt;/h2&gt;
+&lt;h3 id=&#34;범용성-높은-컨텐츠&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#범용성-높은-컨텐츠&#34;&gt;#&lt;/a&gt; 범용성 높은 컨텐츠&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;이 부분이 가장 좋았던것 같습니다. 저는 현재 아이펠 7기 그루로 활동하면서 내용을 배우고 있는 입장이다보니, 아직 배우지 않은 복잡한 개념의 내용들은 듣기가 어려운 점이 없지 않아 있었지만, 세션의 구성이 다양해서 단순하게 AI를 공부하고 있는 학생이나, 실무자가 아니어도 그저 AI에 관심이 있는 사람들이어도 들을 수 있는, 혹은 저와 같은 초보들도 들을 수 있는 컨텐츠가 다양하게 구성된게 좋았습니다.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://modulabs.im/moducon2023&#34;&gt;모두콘2023 홈페이지&lt;/a&gt; 에서 각 세션에 대한 연사님 이력이나 강연내용을 상세하게 제공해주었기에 사전에 듣고 싶은 세션을을 골라서 제 수준에 맞는 정보들만 찾아서 들을 수 있어서 좋았습니다.&lt;/li&gt;
+&lt;li&gt;사전 준비에 공들여주신 관계자분들께 감사의 박수를 👏👏👏&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;실무를-조금은-엿볼-수-있었던-프로젝트의-상세한-이야기들&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#실무를-조금은-엿볼-수-있었던-프로젝트의-상세한-이야기들&#34;&gt;#&lt;/a&gt; 실무를 조금은 엿볼 수 있었던 프로젝트의 상세한 이야기들&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;다양한 분야와 다양한 수준의 실무자 분드링 연사로 구성되어 있던 점도 좋았습니다.&lt;/li&gt;
+&lt;li&gt;저와 큰 차이가 나지 않는 주니어 분들은 아니지만 MODULABS 에서 연구를 하시는 연구자 분들의 컨텐츠부터, 실무에서 프로젝트를 진행하시면서 서비스를 개발하시는 분들까지 다양한 연차와 분야, 포지션 별로 자신들이 수행한 프로젝트에 대한 설명이나 마주했던 Limitations들에 대한 얘기, 그것을 해결하기위한 방법이나 유의사항에 대한 이야기 등 다양한 정보들을 간접적으로 체험할 수 있어 좋았습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;본인만-원한다면-얼마든지-열려있는-네트워킹-기회&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#본인만-원한다면-얼마든지-열려있는-네트워킹-기회&#34;&gt;#&lt;/a&gt; (본인만 원한다면) 얼마든지 열려있는 네트워킹 기회&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;파워 I인 저는 시도하지 못했지만, 세미나를 듣거나 기업부스에서 실무자분들을 만나면서 네트워킹을 할 수 있는 기회가 충분히 있었다고 생각합니다.&lt;/li&gt;
+&lt;li&gt;저도 동료 그루분들과 기업부스를 방문하면서 실제 구현한 서비스에 대한 설명을 들으면서 업계의 현황이나 업무에 대한 설명도 들을 수 있었고, 명함도 건네 받을 수 있었습니다.&lt;/li&gt;
+&lt;li&gt;그리고 모두의 연구소를 통해 논문을 작성하신 연구자분들의 논문을 소개하는 부스에서는 논문작성자분들의 설명을 들으면서 다양한 질문도할 수 있었습니다.&lt;/li&gt;
+&lt;li&gt;또한, 몇몇 연사님들은 본인의 링크드인이나, 블로그등의 주소를 공개해주셔서 네트워킹을 할 수 있는 다양한 기회가 있었습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;결론적으로는 주말시간을 투자해서 충분히 다녀올만한 세미나였다고 생각합니다. 이전에 NEXTRISE와 같은 AI기업들의 컨퍼런스 등에 참석했었지만, 당시에는 기업들의 기술공개 및 홍보가 주목적이었다면, 이런 학술적 개념이 조금더 가미된 세미나의 경우 저에게는 얻을 정보가 훨씬 많았던 것 같습니다.&lt;br /&gt;
+내년에도 모두콘이 열린다면 꼭 시간을 내서 재방문을 하고 싶습니다. 그리고 언젠가는 기회가 된다면 저의 프로젝트나 연구를 공유하고 스스로도 참가자에게도 성장의 기회가 될 수 있는사람이 되고 싶다는 동기부여도 되어 1석2조의 세미나였던것 같습니다 🤓&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+        <updated>2023-12-12T15:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://kimgabe.github.io/2023/11/25/%EC%A7%A0%EB%82%B4%EB%82%98%EB%8A%94%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%8B%A4%EB%A3%A8%EA%B8%B0/</id>
+        <title>[Review] &lt;PyCon KR 2023&gt; 짠내나는 데이터 다루기 리뷰</title>
+        <link rel="alternate" href="https://kimgabe.github.io/2023/11/25/%EC%A7%A0%EB%82%B4%EB%82%98%EB%8A%94%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%8B%A4%EB%A3%A8%EA%B8%B0/"/>
+        <content type="html">&lt;h2 id=&#34;summary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#summary&#34;&gt;#&lt;/a&gt; 🚦Summary&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://2023.pycon.kr/session/schedule&#34;&gt;PyCon 2023 Korea&lt;/a&gt; 에서 강연한 내용을 유투브로 접하게 되었습니다.&lt;/li&gt;
+&lt;li&gt;이 영상에서는 &lt;a href=&#34;https://www.youtube.com/@todaycode&#34;&gt;오늘코드&lt;/a&gt; 라는 유투브를 운영중이신 박조은님께서 해주신 &amp;quot;짠내나는 데이터 다루기&amp;quot; 라는 영상에 대해 리뷰합니다.&lt;/li&gt;
+&lt;li&gt;이 영상에서 박조은님은 메모리가 제한된 상황에서 대용량 데이터를 처리하는 방법과 데이터를 효율적으로 줄이는 방법에 대해 설명합니다.&lt;/li&gt;
+&lt;li&gt;모든 영상의 내용을 정리할 순 없었지만 관심있게 본 부분 또는 주요 하이라이트에 대해 정리하였습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;유의사항&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#유의사항&#34;&gt;#&lt;/a&gt; 🚫유의사항&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;전체적인 목차와 내용은 해당 영상을 보며 연사님이 설명해주시는 내용을 정리한 것입니다.&lt;/li&gt;
+&lt;li&gt;하지만 부가적으로 추가된 용어 설명, 샘플 코드 등은 별도로 내용에 대해 직접 찾아보고 정리하였습니다.&lt;/li&gt;
+&lt;li&gt;제가 정리한 내용은 영상의 모든 내용을 포함하고 있지 않으며, 각 시간대별 하이라이트 정도로 생각해주시면 될 것 같습니다.&lt;/li&gt;
+&lt;li&gt;해당 영상의 상세한 내용이 궁금하시다면 &lt;a href=&#34;https://youtu.be/4VpJDeqrdKc?si=RbE1Rr0iJ4jIJJU3&#34;&gt;원본영상&lt;/a&gt;을 직접 보시는걸 권장 드립니다. (정리한 내용보다 더 많은 꿀팁이 있습니다.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;intro&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#intro&#34;&gt;#&lt;/a&gt; 📌 Intro.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;이전에 회고를 작성한것 처럼 저는 현재 AIFFEL 의 교육 프로그램(부트캠프)에 참여중입니다.&lt;/li&gt;
+&lt;li&gt;하루 일과중 점심시간 이후에는 AIFFEL의 퍼실리테이터 분들이 AI관련 주요 이슈나 논문등 다양한 이슈들에 대해 전달해주시는 AI News 라는 시간이 있습니다.&lt;/li&gt;
+&lt;li&gt;이때 소개받은 PyCon KR의 한 영상을 보고 내용을 정리하였습니다.&lt;/li&gt;
+&lt;li&gt;이 영상에서 다루는 주요 내용의 하이라이트는 아래와 같습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;hilights&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hilights&#34;&gt;#&lt;/a&gt; 💭 Hilights&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터 처리를 최적화 하기 위해 청크, 파일, 포맷, 압축, 데이터 타입 조정, 파이썬 라이브러리 등을 활용합니다.&lt;br /&gt;
+- 메모리 부족으로 인해 파일 가져오기가 느리거나 프로그램이 멈출 수 있으므로, 현재 실행중인 프로그램을 종료하고 컴퓨터를 재부팅해 메모리를 확보하는 것이 좋습니다.&lt;br /&gt;
+- 데이터를 로드할 때 필요한 데이터만 가져오거나 특정 열을 선택적으로 로딩해서 행과 열의 수를 줄일 수 있습니다.&lt;br /&gt;
+- 청크를 사용해 큰 파일을 작은 사이즈로 저장하고 필요한 데이터만 가져와서 합치는 전략을 사용하거나 파케(Parquet)형식을 사용해 데이터를 압축할 수 도 있습니다.&lt;br /&gt;
+- 데이터를 청크로 나누어 로드하고, 다운캐스트 하여 파일로 저장한 후 다시 로드하여 합치는 방법을 사용하면 용량을 줄일 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;1-intro-0002~0635&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-intro-0002~0635&#34;&gt;#&lt;/a&gt; 1. Intro &lt;a href=&#34;https://youtu.be/4VpJDeqrdKc?si=nVHEBvTle0ouyemZ&amp;amp;t=2&#34;&gt;(00:02~06:35)&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터를 줄이는 방법으로는 대표적으로 청크, 파일포맷, 압축, 데이터 타입조정, 파이썬 라이브러리 사용 등이 있습니다.&lt;/li&gt;
+&lt;li&gt;이번 영상에서 발표자는 제한된 메모리에서도 큰 사이즈의 파일을 처리할 수 있는 방법을 알려주고자 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;2-메모리-관리와-작업-환경-0635~1034&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-메모리-관리와-작업-환경-0635~1034&#34;&gt;#&lt;/a&gt; 2. 메모리 관리와 작업 환경 &lt;a href=&#34;https://youtu.be/4VpJDeqrdKc?si=P_hNwVRdxeyOwH-X&amp;amp;t=395&#34;&gt;(06:35~10:34)&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;개인용 장비의 메모리는 보통 4GB ~ 64GB 정도를 사용하며, 8GB 이상의 메모리를 사용하는 사람들은 여러 프로그램을 동시에 사용해야 하는 환경입니다.&lt;/li&gt;
+&lt;li&gt;큰 사이즈의 파일을 한 번에 가져오려면 메모리가 부족하거나 느려질 수 있으며, 프로그램이 멈추거나 종료될 수도 있습니다.&lt;/li&gt;
+&lt;li&gt;컴퓨터에서 데이터를 로드하고 분석하는 동안 다른 작업들도 많이 하게 되면 메모리가 차지되어 데이터를 로드하지 못하는 경우가 발생할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;작업할 수 있는 환경을 만들기 위해 현재 실행 중인 프로그램 중 사용하지 않는 것들을 종료하고, 메모리를 확보해야 합니다.&lt;/li&gt;
+&lt;li&gt;컴퓨터를 재부팅하고 큰 용량의 데이터를 처리하기 위해 블록을 준비하는 것이 좋습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;어찌보면 단순하고 뻔한 말일 수 있지만, 실제로 잘 실행하지 않는 방법이기도 하고, 처음 데이터를 분석하는 사람들은 대용량 데이터를 다룰 때 간과 하는 부분인 것 같기도 합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;3-판다스의-장점과-주의할-점-1034~1409&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-판다스의-장점과-주의할-점-1034~1409&#34;&gt;#&lt;/a&gt; 3. 판다스의 장점과 주의할 점 &lt;a href=&#34;https://youtu.be/4VpJDeqrdKc?si=P_hNwVRdxeyOwH-X&amp;amp;t=634&#34;&gt;(10:34~14:09)&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;판다스는 메모리 효율성과 생산성 측면에서 데이터 분석에 매우 유용한 툴입니다.&lt;/li&gt;
+&lt;li&gt;사이킷런에서는 판다스와 호환성이 좋아져서 데이터 프레임을 그대로 사용할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;판다스는 대부분 메모리에 데이터를 로드해서 처리하기 때문에 큰 데이터셋을 분석하는데 어려움이 있을 수 있습니다.&lt;/li&gt;
+&lt;li&gt;특히 복사본이나 파생변수를 만드는 경우 메모리를 낭비할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;공감이 정말 많이 가는 내용이었습니다. 특히 다양한 변수를 만드는 과정이나, 데이터의 전처리 전후 과정에서 각각 가공을 하려고 하다보면  &lt;code&gt;df.copy()&lt;/code&gt;  도 정말 많이 쓰는 기능 중 하나인데, 소규모 데이터를 다룰 때야 편하지만 대용량 데이터가 되면 몇개의 copy만 만들어도 메모리를 엄청나게 차지합니다.&lt;/li&gt;
+&lt;li&gt;애초에 대규모 용량 데이터를 여러번 불러오기 싫어서(한번 불러올때 몇분씩 걸리다보니..) 사용하는 기능이긴 하지만 공부할때 쓰는 몇GB나 소규모 프로젝트에서 쓰는 몇십GB 단위가 아니라 3자리수로 넘어가면 이것을 어떻게 처리해야 하는가에 대한 고민은 항상 있었던 것 같습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;4-데이터-로딩-및-최적화-처리-방법1409~2146&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4-데이터-로딩-및-최적화-처리-방법1409~2146&#34;&gt;#&lt;/a&gt; 4. 데이터 로딩 및 최적화 처리 방법&lt;a href=&#34;https://youtu.be/4VpJDeqrdKc?si=P_hNwVRdxeyOwH-X&amp;amp;t=849&#34;&gt;(14:09~21:46)&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터를 로드할 때 필요한 데이터만 샘플링하여 가져오는 방법을 사용하면 행을 줄일 수 있습니다.&lt;/li&gt;
+&lt;li&gt;특정 열을 인덱싱하거나 선택적으로 로딩 해서 열을 줄일 수도 있습니다.&lt;/li&gt;
+&lt;li&gt;큰 파일을 청크로 나눠서 작은 사이즈로 저장한 뒤 필요한 데이터만 가져와서 합치는 전략을 사용할 수도 있습니다.&lt;/li&gt;
+&lt;li&gt;파케 형식을 사용해서 데이터를 압축하는 방법을 사용해도 됩니다.&lt;/li&gt;
+&lt;li&gt;마지막으로 데이터를 병렬처리해서 처리속도를 높일 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Comment 🤔&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;항상 공부할 때는 전체 데이터를 모두  &lt;code&gt;info()&lt;/code&gt;  나  &lt;code&gt;describe()&lt;/code&gt;  정도로 훑어보고 일일히 모두 EDA로 시각화를 했었기 때문에, 데이터를 쪼개서 본다는 것에 대한 생각을 미처 하지 못했던 것 같습니다.&lt;/li&gt;
+&lt;li&gt;물론 전처리 과정에서 EDA를 거친 후 불필요한 데이터를 걸러내는 과정을 거치기는 하지만 생각지 못한 접근법이었던 것 같습니다.&lt;/li&gt;
+&lt;li&gt;특히, 피클형식이 아닌 파케라는 데이터 형식은 처음 접해보게 되어서 관심을 갖고 찾아보게 되었습니다. 아래에 관련 내용을 정리하였습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;blockquote&gt;
+&lt;p&gt;✔️ 청크(chunk)&lt;/p&gt;
+&lt;p&gt;큰 데이터 셋을 처리하기 쉽도록 작은 단위로 분할한 일부분을 의미합니다. 데이터의 처리, 네트워크 전송과 같은 컴퓨팅 작업에서 데이터를 더 작고 관리하기 쉬운 부분으로 나누는 것을 말합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;💡 판다스를 사용한 청크(chunk)로 파일 소분하기(w. 예제코드)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;판다스를 사용해서 대용량의 데이터를 청크로 나누어 작은 데이터로 만들어 저장할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;이는 데이터를 효율적으로 다루기 위한 일반적인 방법입니다.&lt;/li&gt;
+&lt;li&gt;대용량의 파일을 청크로 만들어 저장하는 방법은 아래와 같습니다.
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;데이터 읽기&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;read_csv&lt;/code&gt;  등 파일을 읽어오는 함수로 데이터를 나눠서 읽습니다.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;chunksize&lt;/code&gt;  매개변수를 설정해 한번에 읽을 행의 수를 지정합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;strong&gt;청크 처리&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터를 청크 단위로 순회하며, 각 청크를 처리 합니다.&lt;/li&gt;
+&lt;li&gt;필요한 데이터 처리 작업(필터링, 변환 등)을 각 청크에 대해 수행합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;&lt;strong&gt;청크 저장&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;처리된 청크를 별도의 파일로 저장합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;to_csv&lt;/code&gt;  등 함수로 각 청크를 개별 파일로 저장합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;&lt;strong&gt;필요시 합치기&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;나중에 전체 데이터셋이 필요한 경우, 저장된 모든 청크를 다시 읽어 하나의 데이터프레임으로 합쳐서 사용합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;[예제코드]&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; pandas &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; pd&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;chunksize &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1000&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;# 예를 들어, 청크 크기를 1000행으로 설정&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt; i&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; chunk &lt;span class=&#34;token keyword&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;enumerate&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;read_csv&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;large_file.csv&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; chunksize&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;chunksize&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;# 필요한 데이터 처리&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    processed_chunk &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; process_data&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;chunk&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;# process_data는 사용자 정의 함수&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;# 처리된 청크를 파일로 저장&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    processed_chunk&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;to_csv&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string-interpolation&#34;&gt;&lt;span class=&#34;token string&#34;&gt;f&#39;chunk_&lt;/span&gt;&lt;span class=&#34;token interpolation&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;.csv&#39;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; index&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token boolean&#34;&gt;False&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr /&gt;
+&lt;blockquote&gt;
+&lt;p&gt;✔️ 파케(Parquet)&lt;/p&gt;
+&lt;p&gt;파케는 대용량데이터를 저장하고 처리하기 위해 설계된 열 기반의 파일 포맷을 말합니다.&lt;br /&gt;
+이 포맷은 특히 Hadoop 생태계에서 많이 사용됩니다. 하지만 파이썬에서도 파케형식을 사용해 데이터를 저장하고 다룰 수 있습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;💡 파케(Parquet)파일의 주요 특징&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;효율적인 데이터 압축과 인코딩&lt;/strong&gt;: 파케는 데이터를 열 단위로 압축하고 인코딩합니다. 이로 인해 동일한 데이터 타입을 가진 열 데이터를 더 효율적으로 압축할 수 있습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;데이터 분석 최적화&lt;/strong&gt;: 열 기반 저장은 데이터 분석 쿼리의 성능을 향상시킵니다. 특정 열만을 대상으로 하는 쿼리의 경우, 필요한 열만을 빠르게 읽어들일 수 있습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;스키마 지원&lt;/strong&gt;: 데이터의 구조(스키마)를 포함하여 저장합니다. 이를 통해 데이터 타입 및 구조에 대한 정보를 파일과 함께 유지할 수 있습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;대용량 데이터 처리에 적합&lt;/strong&gt;: 큰 데이터 세트를 다룰 때 파일 크기가 작고, 읽기/쓰기가 빠르며, 분석이 용이합니다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;파케 형식은 Pandas와 같은 데이터 분석 도구와 호환되어, Python 환경에서도 쉽게 사용할 수 있습니다. 이는 대용량 데이터를 효과적으로 저장하고 처리하는데 매우 유용한 포맷이며, 피클과는 다르게 대규모 데이터에 더 특화된 형태입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;blockquote&gt;
+&lt;p&gt;✔️ 병렬처리 (Parallel Processing)&lt;/p&gt;
+&lt;p&gt;데이터의 병렬처리는 데이터의 처리작업을 여러 프로세서나 컴퓨터에서 동시에 수행하는 것을 말합니다. 이 방식은  큰 데이터셋이나 복잡한 계산 작업을 더 빠르게 처리할 수 있도록 해줍니다.&lt;br /&gt;
+병렬처리의 핵심 아이디어는 &#39;분할정복(divide and conquer)&#39; 로, 큰 문제를 작은 하위문제들로 분할하고, 이들을 동시에 병렬적으로 해결한 다음, 결과를 합쳐 최종 결과를 도출하는 방식입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;💡 병렬처리의 주요 특징 및 고려사항&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;효율성&lt;/strong&gt;: 데이터 처리 속도가 향상됩니다. 복잡한 작업을 여러 부분으로 나누어 동시에 처리하기 때문에, 전체적인 작업 완료 시간이 단축됩니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;규모 확장성&lt;/strong&gt;: 대규모 데이터 세트나 복잡한 연산을 처리할 수 있는 능력이 향상됩니다. 더 많은 계산 자원(코어, 프로세서, 서버 등)을 활용할 수 있습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;자원 활용 최적화&lt;/strong&gt;: 컴퓨터의 여러 코어나 여러 컴퓨터를 활용함으로써 자원을 효율적으로 사용할 수 있습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;병렬 처리의 적용 예&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;데이터베이스 쿼리&lt;/strong&gt;: 대용량 데이터베이스에서 복잡한 쿼리를 빠르게 처리하기 위해 사용됩니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;데이터 분석 및 머신 러닝&lt;/strong&gt;: 대규모 데이터셋에 대한 데이터 분석이나 머신 러닝 모델 훈련을 가속화하기 위해 사용됩니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;이미지 및 비디오 처리&lt;/strong&gt;: 고해상도 이미지나 비디오를 처리할 때 병렬 처리를 사용하여 빠르게 작업을 수행합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;병렬 처리의 고려 사항&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;데이터 분할과 통합&lt;/strong&gt;: 데이터를 적절히 분할하고, 각 부분을 처리한 후 결과를 통합하는 과정이 필요합니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;오버헤드 관리&lt;/strong&gt;: 병렬 처리로 인한 관리 오버헤드(통신, 동기화 등)가 발생할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;자원 관리&lt;/strong&gt;: 자원의 효율적인 할당과 관리가 중요합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;💡 판다스에서의 병렬처리 (w. 예제코드)&lt;/p&gt;
+&lt;p&gt;파이썬과 판다스에서 대규모 데이터를 병렬처리하는 것에는 다양한 방법이 있습니다만, 여기서는 concurrent.futures 라는 모듈을 사용해 처리할 수 있는 간단한 예제 코드를 소개 합니다.&lt;/p&gt;
+&lt;p&gt;이 코드에서는 대규모 데이터를 청크로 나눠서 병렬로 처리한 뒤, 결과를 합치는 과정을 소개 합니다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; pandas &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; pd&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; numpy &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; np&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; concurrent&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;futures &lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; ThreadPoolExecutor&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 샘플 데이터 생성 (대규모 데이터를 가정)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;data &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; np&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;random&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;rand&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1000000&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;# 1백만 행, 5열의 데이터&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;df &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;DataFrame&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;data&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; columns&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;A&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;B&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;C&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;D&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;E&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 데이터를 처리하는 함수 정의&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;process_data&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;chunk&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;# 여기서는 간단하게 평균을 계산하는 예시&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; chunk&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;mean&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 데이터를 청크로 나누는 함수&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;divide_chunks&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;data&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; chunk_size&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt; i &lt;span class=&#34;token keyword&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;range&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;len&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;data&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; chunk_size&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;yield&lt;/span&gt; data&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;i &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; chunk_size&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 데이터를 청크 사이즈에 따라 나눔&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;chunk_size &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;100000&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;# 예: 청크 크기를 10만으로 설정&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;chunks &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;list&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;divide_chunks&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;df&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; chunk_size&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# ThreadPoolExecutor를 사용하여 병렬 처리&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;with&lt;/span&gt; ThreadPoolExecutor&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;max_workers&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; executor&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    results &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;list&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;executor&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;map&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;process_data&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; chunks&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 결과 합치기&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;final_result &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;concat&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;results&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;5-파케parquet-파일과-csv파일의-비교&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#5-파케parquet-파일과-csv파일의-비교&#34;&gt;#&lt;/a&gt; 5. 파케(Parquet) 파일과 CSV파일의 비교&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;파케 파일은 열(row) 기반으로 압축을 해서 행(column) 기반으로 저장하는 csv 파일에 비해 효율적입니다. (대용량 파일 한정)&lt;/li&gt;
+&lt;li&gt;하지만, 작은 데이터를 파케 형식으로 저장하면 csv파일보다 용량이 커질 수도 있습니다.&lt;/li&gt;
+&lt;li&gt;파케 파일은 데이터 타입이 모두 같기 때문에 압축 효율이 높습니다.&lt;/li&gt;
+&lt;li&gt;파케 파일은 메타 정보와 스키마 정보를 포함하고 있기 때문에 효율적이라 할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;이런 이유로 파케 파일은 CSV파일 대비 데이터의 크기를 줄 일 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 파케파일의 특징&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;열 기반 저장 : 파케는 데이터를 열 단위로 저장합니다. 이 특징은 동일한 데이터 타입을 가진 열 데이터를 효과적으로 압축할 수 있게 해줍니다.&lt;/li&gt;
+&lt;li&gt;데이터 압축 : 파케는 고급 압축 기법을 사용해서 데이터를 압축합니다. 일한 압축 기법은 특히 반복되는 데이터가 많은 경우 대용량의 데이터에 대한 용량을 크게 줄일 수 있습니다.&lt;/li&gt;
+&lt;li&gt;효율적인 데이터 구조 : 파케는 메타데이터와 데이터 스키마를 포함하여 저장하기 때문에 , 데이터 구조가 csv파일에 비해 효율적입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 CSV 파일의 특징&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;행 기반 저장 :  csv는 각 행을 순차적으로 저장합니다. 이는 열 기반 저장에 비해 압축 효율이 낮을 수 있습니다.&lt;/li&gt;
+&lt;li&gt;간단한 구조 : csv는 텍스트 기반의 간단한 파일 포맷이기 때문에, 메타 데이터나 데이터 스키마를 포함하지 않습니다.&lt;/li&gt;
+&lt;li&gt;호환성 : 거의 모든 데이터 처리 시스템에서 널리사용되는 포맷이기에, 쉽게 읽고 쓸 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;언제-파케가-csv보다-더-효율적일까&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#언제-파케가-csv보다-더-효율적일까&#34;&gt;#&lt;/a&gt; 🤓 언제 파케가 csv보다 더 효율적일까?!&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터 크기와 복잡성 : 대규모 데이터셋, 특히 각 열(column) 마다 데이터 타입이 다양하고, 반복되는 데이터가 많은 경우 파케의 압축 효율이 높아집니다.&lt;/li&gt;
+&lt;li&gt;쿼리 최적화 : 데이터 분석에서 특정 열에 대한 쿼리를 자주 실행하는 경우, 열 기반 저장 방식인 파케 데이터가 효율적입니다.&lt;/li&gt;
+&lt;li&gt;압축 효율 : 데이터가 반복되거나 패턴이 있는 경우, 파케의 압축 알고리즘이 효과적으로 작동할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;정리하자면 아래와 같습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;✳️ 작은 파일이라면 csv의 단순한 자료구조(No 메타데이터, No 스키마) 로 인해 효율적인 구조를 갖게 되고, 이는 더 적은 용량으로 저장할 수 있도록 해줍니다. 하지만 아래의 케이스들이 대규모 데이터로 구성되어 있다면 파케가 csv보다 더 효율적일 수 있습니다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;컬럼의 데이터타입이 유사한 경우&lt;/strong&gt; : 각 컬럼마다 가진 데이터 타입이 유사한 (모두 숫자이거나 모두 문자인 경우 등) 경우, 컬럼 기반의 파케식 압축이 효과적입니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;반복되는 데이터 패턴&lt;/strong&gt; : 컬럼 내의 데이터가 반복적인 패턴을 보이거나 중복이 많을 때. 예를 들어 몇가지 범주(성별, 지역 등)으로 구성된 컬럼을 압축할 때 파케식 압축이 효과적입니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;정렬된 데이터&lt;/strong&gt; : 같은 데이터셋이라도 특정 기준에 따라 정렬이 되어 있다면 파케식 압축의 효율을 더 높일 수 있습니다.
+&lt;ul&gt;
+&lt;li&gt;시계열 데이터 : 날짜나 시간순으로 정렬&lt;/li&gt;
+&lt;li&gt;숫자 데이터 : 크기나 오름/내림차순으로 정렬된 숫자&lt;/li&gt;
+&lt;li&gt;범주형 데이터 : 알파벳순서나 특정 사용자 지정 기준에 따라 정렬된 경우&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;6-데이터-로드와-저장의-최적화-방법-3244~3754&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#6-데이터-로드와-저장의-최적화-방법-3244~3754&#34;&gt;#&lt;/a&gt; 6. 데이터 로드와 저장의 최적화 방법 &lt;a href=&#34;https://youtu.be/4VpJDeqrdKc?si=_e7b2vze6LUswSoL&amp;amp;t=1964&#34;&gt;(32:44~37:54)&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터를 청크로 나눠서 로딩하고, 다운캐스트해서 파일로 저장한후 다시 로딩해서 합치면 최적화를 할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;다운캐스트를 통해 데이터 타입을 변경하면 데이터의 전체적인 용량을 줄일 수 도 있습니다.&lt;/li&gt;
+&lt;li&gt;그 외에 위에 언급한 파케형식의 데이터 저장도 최적화의 방법중 하나입니다.&lt;/li&gt;
+&lt;li&gt;또한, 파일을 작게 나눠서 저장하고 로딩하면 파일의 로딩이나 저장 속도를 향상시킬 수 있습니다.&lt;/li&gt;
+&lt;li&gt;마지막으로, 데이터를 정규화해서 용량을 줄이는 방법도 있지만, 원본 데이터의 정보를 잃을 수도 있으므로 사용에 유의해야 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 다운캐스트&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;다운 캐스트는 데이터 타입을 변경해서 용량을 줄이는 기법을 말합니다.&lt;/li&gt;
+&lt;li&gt;예를 들어, 정수형 데이터를 int64에서 int32나 int16으로 변경하면, 같은 데이터를 더 적은 메모리로 저장할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;주로 숫자 데이터를 저장할 때 사용되는 방법입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;h4 id=&#34;️-정리-데이터-분석을-위한-효율적인-데이터-처리-방법3754~4130&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#️-정리-데이터-분석을-위한-효율적인-데이터-처리-방법3754~4130&#34;&gt;#&lt;/a&gt; ✳️ [정리] 데이터 분석을 위한 효율적인 데이터 처리 방법&lt;a href=&#34;https://youtu.be/4VpJDeqrdKc?si=TTOXxzEb2_2ONrdM&amp;amp;t=2274&#34;&gt;(37:54~41:30)&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;데이터 샘플링 및 특정 목적의 데이터 추출&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;전체 데이터를 모두 읽고 분석하는 대신 샘플링을 통해 대표적인 데이터 집합을 추출하여 분석할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;이는 시간과 자원을 절약함과 동시에 대규모 데이터셋의 주요 특정을 파악하는데 도움을 줍니다.&lt;/li&gt;
+&lt;li&gt;특정 목적에 맞춰 필요한 데이터만 선택적으로 추출하여 분석함으로써 더 효율적으로 데이터를 처리할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;필요한 데이터와 모듈만 로드&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터 분석시 필요한 부분만 추출해서 저장하고, 해당 분석에 필요한 모듈만 로드해서 메모리 사용을 줄일 수 있습니다.&lt;/li&gt;
+&lt;li&gt;필요하지 않은 데이터나 모듈을 로드하지 않는 것은 메모리 절감과 처리속도 향상을 위한 가장 기본적인 유의사항입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;데이터 청크와 서브셋 활용&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;위에 언급한 바와 같이 대용량 데이터를 여러개의 작은 청크로 나눠서 각각 독립적으로 처리할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;이는 메모리 관리를 용이하게하고, 병렬 처리를 가능하게 합니다.&lt;/li&gt;
+&lt;li&gt;데이터의 서브셋을 생성해 작은 단위로 데이터를 관리하고, 필요한 경우 여러 서브셋을 병합해 사용하는것도 가능합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;컬럼 선택을 통한 데이터 처리&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;분석에 필요한 컬럼만들 선택해 데이터를 로드하고 처리함으로써 불필요한 데이터에 대한 처리를 피할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;메모리 최적화&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;사용하지 않는 변수를 제거하거나 파이썬의 가비지 컬랙터(garbage collector) 를 통해 메모리를 최적화 할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;이는 메모리 누수를 방지하고, 분석 시스템의 전반적인 성능을 개선하는 효과를 가져 옵니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;💡 가비지 컬랙터(garbage collector)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;가비지 컬랙터는 메모리 관리를 자동으로 수행하는 시스템으로, 사용되지 않는 메모리를 garbage 로 인식하고 이를 해제하는 역할을 합니다.&lt;/li&gt;
+&lt;li&gt;파이썬에서는 주로 참조 카운팅(reference counting) 방식과 순환참조(circular references)를 감지하는 방식으로 가비지 컬랙션을 수행합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;️-참조-카운팅reference-counting&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#️-참조-카운팅reference-counting&#34;&gt;#&lt;/a&gt; ✔️ 참조 카운팅(Reference Counting)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;파이썬에서 각 객체는 참조 카운트라는 속성을 갖고 있습니다.&lt;/li&gt;
+&lt;li&gt;어떤 객체에 대한 참조가 생성될 때마다 해당 객체의 참조 카운트가 증가하고, 참조가 해제될 때 참조 카운트가 감소합니다.&lt;/li&gt;
+&lt;li&gt;참조 카운트가 0이 되면(해당 객체를 참조하는 것이 없는 경우), 파이썬의 가비지 컬랙터는 그 객체가 사용하던 메모리를 해제 합니다.&lt;/li&gt;
+&lt;li&gt;참조카운트는  &lt;code&gt;sys&lt;/code&gt;  모듈의  &lt;code&gt;getrefcount()&lt;/code&gt;  함수로 확인할 수 있습니다. ( &lt;code&gt;sys.getrefcount(객체명)&lt;/code&gt; )&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;️-순환-참조circular-counting&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#️-순환-참조circular-counting&#34;&gt;#&lt;/a&gt; ✔️ 순환 참조(Circular Counting)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;순환 참조는 서로 다른 객체들이 서로를 참조해서, 참조 카운트가 0이 되지 않는 상황을 말합니다.&lt;/li&gt;
+&lt;li&gt;이 경우 참조 카운팅 만으로는 메모리 해제가 어렵습니다.&lt;/li&gt;
+&lt;li&gt;파이선의 가비지 컬랙터는 이런 순환 참조를 감지하고 이를 해제할 수 있도록 설계 되어 있습니다.&lt;/li&gt;
+&lt;li&gt;순환 참조가 발생하면 가비지 컬랙터는 이러한 객체 그룹을 발견하고 메모리에서 해제할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;가비지-컬랙션을-제어하는-방법&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#가비지-컬랙션을-제어하는-방법&#34;&gt;#&lt;/a&gt; 🤓 가비지 컬랙션을 제어하는 방법&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;파이썬에서는  &lt;code&gt;gc&lt;/code&gt;  모듈을 통해 가비지 컬랙션을 직접 제어할 수 있습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;gc.collect()&lt;/code&gt;  함수를 호출하면 가비지 컬랙션을 강제로 실행합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;또한, 가비지 컬랙션의 활성봐/비활성화, 세대별 가비지 컬랙션의 조정 도 수행할 수 있습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;대부분의 경우 가비지 컬랙터는 메모리 관리를 자동화해서 프로그래머가 메모리 할당 및 해제에 신경쓰지 않도록 도와주는 시스템입니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;하지만 대규모 데이터를 다루는 경우, 순환 참조를 피하고, 필요없는 객체를 적절히 해제하는 것이 중요합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;따라서 이를 위해 사용자가 직접 gc모듈을 사용해 가비지 컬랙션을 수행할 수 있습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;review-한-가지-방법에-고착될-필요가-없구나&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#review-한-가지-방법에-고착될-필요가-없구나&#34;&gt;#&lt;/a&gt; [Review] 한 가지 방법에 고착될 필요가 없구나..&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;저용량의 데이터를 다룰때에는 크게 고민하지 않던 부분들이 대용량이 되었을때 어떤 문제들에 직면할 수 있는가를 확연히 느낄 수 있는 강연이었다고 생각합니다.&lt;/li&gt;
+&lt;li&gt;이제까지는 데이터 로딩 처리가 느리거나 하면, 물리적인 메모리를 더 늘릴 생각만을(더 좋은 컴퓨터를 사기위한 핑계) 했는데, 그것 외에도 즉각적으로 사용할 수 있는 다양한 방법이 있다는 것을 느끼게 되었습니다.&lt;/li&gt;
+&lt;li&gt;다만 이러한 데이터의 처리방법들은 시작부터 무조건 적용할 수는 없다는 것을 인지 해야 합니다. 애초에 전체 데이터가 어떻게 생겼는지, 어떤 데이터들을 가지고 있고, 어떤 특성이 있는지 파악이 되지 않는 다면 이러한 방법들을 알고 있어서 적절하게 적용하기 어렵습니다. (물론 청크같은 방법들은 분석 시작 지점 부터 가능할 수 도 있겠습니다.)&lt;/li&gt;
+&lt;li&gt;그렇기에 더더욱 EDA가 중요하다는 것을 역설적으로 느끼게 된 것 같습니다.&lt;/li&gt;
+&lt;li&gt;그리고 이러한 대용량 데이터의 처리방법은 AI 모델링을 한 이후 모델 성능 향상 과정에서의 효율적인 작업에 더더욱 적합하겠다는 생각이 들었습니다.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <updated>2023-11-24T15:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://kimgabe.github.io/2023/11/20/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%EB%A1%9C-%EA%B8%B0%EC%97%AC%ED%95%98%EA%B3%A0-%EC%B7%A8%EB%BD%80%ED%95%98%EA%B8%B0/</id>
+        <title>[Review] [모두의연구소][모두팝] &#39;오픈소스로 기여하고 취뽀하기&#39; 세미나 내용 정리 및 리뷰😀</title>
+        <link rel="alternate" href="https://kimgabe.github.io/2023/11/20/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%EB%A1%9C-%EA%B8%B0%EC%97%AC%ED%95%98%EA%B3%A0-%EC%B7%A8%EB%BD%80%ED%95%98%EA%B8%B0/"/>
+        <content type="html">&lt;h2 id=&#34;summary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#summary&#34;&gt;#&lt;/a&gt; 🚦Summary.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;이 세미나는 연사님이 직접 오픈소스 프로젝트에 참여하며 겪은 다양한 정보들과 오픈소스 프로젝트에 참여하기 위한 방법에 대한 지식을 공유하는 자리였습니다.&lt;/li&gt;
+&lt;li&gt;연사님의 오픈소스 기여 팁과 취업에 대한 이야기, 오픈소스 로미오 개발 경험 공유에 대한 내용이 세미나의 주요 내용입니다.&lt;/li&gt;
+&lt;li&gt;특히 아래의 내용을 주로 다룹니다.
+&lt;ul&gt;
+&lt;li&gt;국내 기업의 오픈소스 활용 동향&lt;/li&gt;
+&lt;li&gt;오픈소스 기여의 중요성 및 시작 방법, 그리고 프로젝트에서의 커뮤니티 활동과 기여 방법&lt;/li&gt;
+&lt;li&gt;오픈소스 기여의 혜택과 한국의 오픈소스 활성화, 그리고 오픈소스 기여에 필요한 영어 실력 등 Q&amp;amp;A&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;유의사항&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#유의사항&#34;&gt;#&lt;/a&gt; 🚫 유의사항 🚫&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;본 포스팅은 &lt;a href=&#34;https://www.youtube.com/@modulabs_&#34;&gt;모두의연구소&lt;/a&gt; 라는 곳에서 운영하는 &lt;a href=&#34;https://modulabs.co.kr/&#34;&gt;모두팝&lt;/a&gt; 에서 진행한 &amp;quot;오픈소스 기여하고 취뽀하기&amp;quot; 란 세미나에 실시간으로 참여하며 정리한 내용을 담고 있습니다.&lt;/li&gt;
+&lt;li&gt;당연히 모든 내용을 담고 있지 않으며, 제가 관심있거나 중요하다 생각 하는 부분들만 일부 발췌하여 정리했습니다.&lt;/li&gt;
+&lt;li&gt;원본 영상은 &lt;a href=&#34;https://www.youtube.com/@modulabs_&#34;&gt;모두의연구소&lt;/a&gt; 채널에서 직접 확인 가능합니다. 👉 &lt;a href=&#34;https://youtu.be/PcLSahVmBlI?si=Dp0H2ijb3bpIBjsV&#34;&gt;영상 보러가기&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;발표자료는 &lt;a href=&#34;https://modulabs.co.kr/&#34;&gt;모두팝&lt;/a&gt; 상단에 있는 모두의 연구소 슬랙채널에서 찾아 볼 수 있다고 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;제 포스팅을 읽고 해당 세미나에 관심이 생기신 분들은 차후에 &lt;a href=&#34;https://www.youtube.com/@modulabs_&#34;&gt;모두의연구소&lt;/a&gt; 채널에 업로드될 원본 영상을 시청하시길 권장 드립니다.&lt;/li&gt;
+&lt;li&gt;차후에 원본 영상이 업로드된다면, 이 자리에 해당 링크를 함께 공유하도록 하겠습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;intro&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#intro&#34;&gt;#&lt;/a&gt; 📌Intro.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;이 세미나에서는 오픈소스 기여에 대한 다양한 주제와 팁, 그리고 오픈소스 기여를 통한 취업에 대해 다루고 있으며, 참가자들은 주제별로 그룹을 나누어 네트워킹에 참여할 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스는 누구나 소스코드를 자유롭게 사용할 수 있는 개념이며, 로미오는 MySQL 데이터를 실시간으로 처리하는 역할을 한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;국내 기업들은 오픈소스를 활용하는 비소프트웨어 기업들도 많이 있으며, 오픈소스 활용률이 계속 증가하고 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스 기여는 작은 프로젝트부터 시작하고 익숙한 스택을 사용하는 것이 좋으며, 형상관리와 익숙한 스택 선택을 고려해야 한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스 프로젝트에 참가하기 위해서는 디스코드나 슬랙과 같은 메신저를 통해 커뮤니티를 형성하고, 스프린트나 해커턴 프로그램을 통해 기여할 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스 기여를 통해 금전적인 혜택을 받을 수 있으며, 오픈소스 아카데미나 오픈소프트웨어 지원센터 등에서 지원을 받을 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 형상관리?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;소프트웨어 개발과정에서 변경사항을 체계적으로 추적하고 관리하는 것을 의미.
+&lt;ul&gt;
+&lt;li&gt;코드 버전의 관리, 문서버전의 관리, 요구사항 관리등을 포함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;형상관리를 통해 프로젝트의 일관성과 품질을 유지하고, 복잡한 변경사항도 효과적으로 관리&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;1-오늘의-세미나-내용-브리핑feat-오픈소스-기여와-취업에-대한-이야기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-오늘의-세미나-내용-브리핑feat-오픈소스-기여와-취업에-대한-이야기&#34;&gt;#&lt;/a&gt; 1. 오늘의 세미나 내용 브리핑(feat. 오픈소스 기여와 취업에 대한 이야기&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;오늘은 오픈소스를 기반으로 주제를 잡고 오픈소스 기여와 취업에 대해 이야기할 예정이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스 기여 프로세스, 기여 실전 팁, 취업하기까지 다양한 주제를 다룰 예정이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;세미나에는 Q&amp;amp;A와 만족도 조사, 그리고 네트워킹 시간도 마련되어 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;참가자들은 주제별로 그룹을 나누어 네트워킹에 참여할 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;모두팝은 AI 커뮤니티를 기반으로 다양한 교육 프로그램을 진행하고 있으며, K-디지털 플랫폼 운영기관으로 활동하고 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-오픈소스-로미오-개발-이야기연사님-개인-경험&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-오픈소스-로미오-개발-이야기연사님-개인-경험&#34;&gt;#&lt;/a&gt; 2. 오픈소스 로미오 개발 이야기(연사님 개인 경험)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스는 오픈된 소스코드를 말하며, 누구나 소스코드를 배포, 수정, 복제, 사용, 재배포할 수 있는 것을 의미한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;로미오는 데이터 복제 솔루션으로, MySQL에서 실시간으로 데이터를 받아와서 Kafka로 밀어주는 역할을 한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;로미오를 개발하던 도중 MySQL 버전이 올라가면서 데이터 형식이 바뀌었고, 이에 대한 버그를 발견하고 픽스하게 되었다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스 컨트리뷰션 아카데미는 정보통신산업진흥회에서 주관하는 프로젝트로, 13주 동안 멘토와 함께 오픈소스에 기여하는 활동을 한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-국내-기업의-오픈소스-활용과-관련된-동향&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-국내-기업의-오픈소스-활용과-관련된-동향&#34;&gt;#&lt;/a&gt; 3. 국내 기업의 오픈소스 활용과 관련된 동향&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;국내 기업에서는 오픈소스를 활용하는 비소프트웨어 기업들도 많이 있으며, 오픈소스 활용률이 계속 증가하고 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;기업들이 오픈소스에 진심인지 알 수 있는 지표 중 하나는 오픈소스 재단에 후원하는 것이다. 많은 기업들이 오픈소스 재단에 회비를 납부하고 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;기업들은 오픈소스를 활용하는 것 뿐만 아니라 자사 프로덕트를 오픈소스와 함께 개발하는 움직임도 많아지고 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;대표적인 기업들의 오픈소스 프로젝트로는 백엔드, 프론트, ML 등 다양한 분야에서 오픈소스화가 진행되고 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;기업들의 채용 공고를 보면 오픈소스 관련 경험이나 기여를 원하는 경우가 많다. 진짜 오픈소스 기여자나 리딩을 하는 인재를 우대하는 경우도 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;4-오픈소스-기여의-중요성과-시작-방법&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4-오픈소스-기여의-중요성과-시작-방법&#34;&gt;#&lt;/a&gt; 4. 오픈소스 기여의 중요성과 시작 방법&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스 기여는 희소한 경험이며, 오픈소스로 독창적인 사이드 프로젝트를 기획하는 것은 어렵다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스는 코드 리뷰 과정이 까다롭고 검증 수준이 높아서 상대 우위를 가져다 줄 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스 기여는 대형 프로젝트일수록 베스트 프레스티지에 집중하는 경향이 많다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스 기여는 작은 프로젝트부터 시작하고, 익숙한 스택을 사용하는 것을 추천한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스 기여는 형상관리와 익숙한 스택 선택을 고려해야 하며, 짧은 모집 공고를 선호하는 기업도 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;5-형상관리에-대한-팁과-주의-사항&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#5-형상관리에-대한-팁과-주의-사항&#34;&gt;#&lt;/a&gt; 5. 형상관리에 대한 팁과 주의 사항&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;형상관리에 익숙해지는 것은 오래 걸리기 때문에 익숙해지는데 시간을 투자해야 한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;코드 반영 방식은 메일리스트보다는 GitHub, GitLab, GitBucket과 같은 호스팅 서비스를 사용하는 것이 좋다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;기술 스택을 선택할 때는 관심 있는 분야나 기업에서 요구하는 스택을 고려해야 한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;프로젝트를 선택할 때는 ChatGPT 가 알고 있는 프로젝트인지 확인해야 한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;이슈를 탐색할 때는 작은 이슈부터 시작하고, 전체 구조를 파악하여 관심 있는 모듈을 찾아야 한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스 프로젝트의 구조를 파악하기 위해 아키텍처에 대한  마크다운 문서를 활용할 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;이슈를 찾기 위해 good first issue 라벨이 달린 이슈를 찾는 것이 좋다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;이미 열린 PR에 기여할 수도 있으며, 이 방법은 네트워킹과 협업이 가능하다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ChatGPT 를 활용하여 어디서부터 코드를 봐야 하는지 알 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;기어 방식은 프로젝트마다 다르기 때문에 기어 방침을 숙지하고 따라야 한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스 프로젝트에 참가하기 위해서는 CLA(Contributor License Agreement)에 서약해야 한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;코드 리뷰를 통해 배울 수 있는 기회가 많으며 보이스카우트 룰과 같은 다양한 문화가 존재한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;기여자인지 확인하기 위해 프로젝트에서 글을 작성하거나 PR을 올리는 등의 활동을 해야 한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 보이스카우트 규칙&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;보이스스카우트 원칙에서 유래된 소프트웨어 개발에서 사용되는 용어입니다.&lt;/li&gt;
+&lt;li&gt;&amp;quot;캠프장을 찾았을 때 보다 더 깨끗하게 떠나라!&amp;quot; 라는 보이스카우트 원칙에서 유래&lt;/li&gt;
+&lt;li&gt;즉, &amp;quot;코드를 처음 본 것보다 더 깨끗하게 만들어 놓아라&amp;quot; 는 의미입니다.
+&lt;ul&gt;
+&lt;li&gt;개발자는 코드를 수정하거나 추가할 때, 그 코드가 속한 시스템을 개선하고 정리하는데 노력을 기울여야 함을 의미합니다.&lt;/li&gt;
+&lt;li&gt;여러 개발자가 공동으로 작업하는 경우, 각자가 작업한 부분을 정리하고 개선해 전체 코드의 품질을 유지하고 향상시킬 수 있습니다.&lt;/li&gt;
+&lt;li&gt;보이스카우트 규칙은 프로젝트의 유지보수를 용이하게하고, 프로젝트에 중도참여하는 개발자들이 손쉽게 follow-up하고 기여하기 더 쉬워지는데 도움을 줍니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;6-오픈소스-프로젝트에서의-커뮤니티-활동과-기여-방법&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#6-오픈소스-프로젝트에서의-커뮤니티-활동과-기여-방법&#34;&gt;#&lt;/a&gt; 6. 오픈소스 프로젝트에서의 커뮤니티 활동과 기여 방법&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스 프로젝트에서는 디스코드나 슬랙과 같은 메신저를 활용한 커뮤니티가 마련되어 있으며, 멘토나 동료를 만나는 것이 도움이 될 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;디스코드나 슬랙에 가입하면 멘토를 찾을 수 있고, 이슈를 찾거나 기여할 수 있는 사람들을 찾을 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스 프로젝트에서는 코드 작성자와 이메일을 확인할 수 있는 기능도 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.oss.kr/contribution_academy&#34;&gt;오픈소스 컨트리뷰션 아카데미&lt;/a&gt;, &lt;a href=&#34;https://2023.pycon.kr/&#34;&gt;파이콘 코리아&lt;/a&gt;, &lt;a href=&#34;https://ossfestival.kr/&#34;&gt;오픈소스 소프트웨어 페스티벌&lt;/a&gt; 등 다양한 오픈소스 행사에서 스프린트나 해커턴 프로그램을 통해 기여할 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스 기여를 어필하기 위해서는 프로젝트의 사용처를 언급하거나 Star와 fork의 수를 보여주는 것도 좋다. 또한, 기여한 기술적인 중요도와 난이도를 어필하고 리뷰 과정을 소개하는 것도 좋다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;7-오픈소스-기여의-중요성&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#7-오픈소스-기여의-중요성&#34;&gt;#&lt;/a&gt; 7. 오픈소스 기여의 중요성&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;기술 블로그는 어떻게 이슈를 해결했는지 설명하기에 좋은 매체이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스 기여는 협업과 네트워킹을 어필할 수 있는 좋은 방법이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스 기여를 통해 PR을 작성하고 많은 매체에 정리해두는 것이 좋다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;기여한 내용을 바탕으로 면접에서 어필할 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Github와 Linkedin에 기여 이력을 정리해두는 것이 좋다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;8-오픈소스-기여-프로세스와-팁&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#8-오픈소스-기여-프로세스와-팁&#34;&gt;#&lt;/a&gt; 8. 오픈소스 기여 프로세스와 팁&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스에 기여하기 좋은 프로젝트는 소규모 오픈소스나 메이저한 프로젝트 중 레포지토리에 직접 올리는 것이 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;프로젝트를 만들 때는 라이선스를 원하는 대로 선택하고, 메이븐에 올리는 것은 메인테이너가 담당한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스 기여 프로세스는 프로젝트마다 레포지토리가 있고, 메인테이너가 올려준다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GitHub에서 Star의 개수는 오픈소스의 인기를 나타내는 지표이지만, fork 수 를 보는 것이 기여의 활발함을 판단하는 데 더 중요하다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;마이너한 프로젝트에서도 기여할 수 있으며, 기여의 의미는 기여의 이력과 기여의 가치에 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스는 분야에 따라 활발하게 사용되며, ML 분야에서는 많은 오픈소스가 활용되고 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ML 분야에서는 Star수가 많은 프로젝트에 기여하는 것이 좋지만, 기여의 의미는 forks 와 기여의 활발함에 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스를 활용하는 팁은 이슈를 정해놓고 해당 이슈와 관련된 키워드를 ChatGPT 에 물어보고, 디버깅 툴을 활용하여 코드를 읽어나가는 것이다. 컨벤션은 프로젝트의 기어 방침을 따르는 것이 좋다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡메이븐(Maven)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Apach Maven 으로 자바 프로젝트를 빌드하고 관리하기 위한 툴입니다.&lt;/li&gt;
+&lt;li&gt;이 툴을 통해 프로젝트의 전체 Life-Cycle을 관리하며, 빌드, 보고, 문서화 등의 작업을 자동화 할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;9-오픈소스-기여의-혜택과-한국의-오픈소스-활성화&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#9-오픈소스-기여의-혜택과-한국의-오픈소스-활성화&#34;&gt;#&lt;/a&gt; 9. 오픈소스 기여의 혜택과 한국의 오픈소스 활성화&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스 기여를 통해 금전적인 혜택을 받을 수 있으며, 오픈소스 아카데미나 오픈소프트웨어 지원센터 등에서 지원을 받을 수도 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스 기여는 보람을 느낄 수 있는데, 전세계 사람들이 코드를 본다고 생각하고 이슈를 해결하는 것이 보람있는 경험이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;한국의 오픈소스는 다른 나라에 비해 뒤처져 있는데, 객관적인 지표로도 드러나고 있다. 그것은 GDP순위 대비 오픈소스 활성화 지표인데, 우리나라의 경우 그 지표가 낮은편이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;기업이 공개한 오픈소스가 기업의 울타리를 벗어나지 못하거나, 한국에서 탄생한 오픈소스 프로젝트가 해외로 나가지 못하는 경향이 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;10-오픈소스-기여와-영어-실력-필요-유무&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#10-오픈소스-기여와-영어-실력-필요-유무&#34;&gt;#&lt;/a&gt; 10. 오픈소스 기여와 영어 실력 필요 유무?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스 기여를 위해서는 영어 실력이 필요하지만, 영어가 완벽하지 않아도 충분히 이해할 수 있는 수준이면 기여가 가능하다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스 커뮤니티의 다른 회원들도 영어가 완벽하지 않기 때문에 영어 실력에 대한 부담은 크지 않다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스에 기여하면서 영어를 사용하면서 배우는 것이 가장 좋은 공부 방법이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스 프로젝트의 진행이 잘 안되는 이유는 문화적인 차이와 언어적인 장벽이 있을 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;한국에서의 오픈소스 문화가 확립되지 않아 접근하기 어렵고 두려워하는 분위기가 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스 문화가 활성화되고 즐기는 문화가 형성되면 문제가 해결될 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;review&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#review&#34;&gt;#&lt;/a&gt; 🤔 Review&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;오픈소스는 정말 말 그대로 &#39;가져다 쓸 수 있는 좋은 도구&#39; 정도 라고만 생각했고, 거기에 기여하는 많은 사람들에 대한 정보를 볼 때 어떻게 저런 공개되어 모두가 사용하는 오픈소스에 기여를 할 수 있지? 라고 높은 허들을 느꼈던 것 같습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;하지만 생각했던 것보다는 확실히 더 손쉽게 접근 할 수 있는 방법들이 있음을 알 수 있었습니다. 물론 제가 관심을 갖고 있는 ML부분의 경우 상당한 기술스택이나 이해도가 있어야 한다는 점에는 큰 차이는 없지만, 조금 더 공부하면서 기술스택이 쌓이고 경험이 생긴다면 마이너한 프로젝트에 대해서는 시도해보고 싶다는 용기와 욕심이 생기는 계기가 된 것 같습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;특히, 취업에 있어서 일반적으로 하는 사이드 프로젝트 등보다 더 어필하기 좋은 강점이 분명히 있고, 시도해보는 것 자체가 스스로에게 많은 공부가 될 것이란 느낌이 들었습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;솔직히 당장 도전해볼 수 있겠다! 라거나 취업에 당장 써먹을 수 있는 꿀팁이다! 정도 까진 아니지만 어느정도 기술 스택이 쌓였을때나 차후에 이직을 하거나 할때는 시도해볼법 한 방법이란 생각이 들었습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <updated>2023-11-19T15:00:00.000Z</updated>
+    </entry>
+</feed>

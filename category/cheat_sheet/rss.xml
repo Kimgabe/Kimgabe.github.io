@@ -1,0 +1,1236 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Kim Gabe&#39;s DS Blog • Posts by &#34;cheat_sheet&#34; category</title>
+        <link>https://Kimgabe.github.io</link>
+        <description>Kim Gabe의 블로그입니다. 데이터 사이언스, AI, 머신러닝 학습 과정을 기록합니다.</description>
+        <language>en</language>
+        <pubDate>Mon, 08 Jan 2024 00:00:00 +0900</pubDate>
+        <lastBuildDate>Mon, 08 Jan 2024 00:00:00 +0900</lastBuildDate>
+        <category>python</category>
+        <category>ndarray</category>
+        <category>numpy vectorization</category>
+        <category>메모리</category>
+        <category>np.array</category>
+        <category>ndarray 데이터타입</category>
+        <category>np.arange</category>
+        <category>np.ones</category>
+        <category>np.zeros</category>
+        <category>np.empty</category>
+        <category>np.full</category>
+        <category>np.eye</category>
+        <category>np.linspace</category>
+        <category>reshape</category>
+        <category>데이터 통합,pandas,DataFrame,concat,os,listdir,CSV 파일,데이터 병합,데이터 프레임,데이터 분석,데이터 처리,데이터 정렬,빈 데이터 프레임,파일 시스템,경고 메시지</category>
+        <category>feature engineering</category>
+        <category>prediction</category>
+        <category>regression. DACON</category>
+        <category>시계열</category>
+        <category>카드매출</category>
+        <category>예측</category>
+        <category>KNN</category>
+        <category>RandomForestRegressor</category>
+        <category>LightGBM</category>
+        <category>머신러닝</category>
+        <category>딥러닝</category>
+        <category>random 모듈</category>
+        <category>np.random.rand</category>
+        <category>np.random.randn</category>
+        <category>np.random.randint</category>
+        <category>np.random.seed</category>
+        <category>랜덤을 적용하면서도 일정한 값 만들기</category>
+        <category>np.random.choice</category>
+        <category>np.random.uniform</category>
+        <category>np.random.normal</category>
+        <category>indexing</category>
+        <category>1차원 벡터 인덱싱</category>
+        <category>index로 특정 위치 값 바꾸기</category>
+        <category>index의 값 바꾸기</category>
+        <category>2차원 행렬 인덱싱</category>
+        <category>3차원 텐서 인덱싱</category>
+        <category>벡터</category>
+        <category>행렬</category>
+        <category>텐서</category>
+        <category>슬라이싱</category>
+        <category>1차원 벡터 슬리이싱</category>
+        <category>2차원 행렬 슬라이싱</category>
+        <category>3차원 텐서 슬라이싱</category>
+        <category>판다스,데이터 병합,DataFrame,merge,key 변수,customerID,read_csv,데이터 관리,SQL Join,전처리</category>
+        <category>Python,pandas,데이터 병합,날짜 포맷,apply 함수,merge 함수,데이터프레임,Series,경고 필터링,파일 로드,데이터 접근</category>
+        <category>ndarray 형태바꾸기</category>
+        <category>np.ravel</category>
+        <category>np.flatten</category>
+        <category>np.reshape</category>
+        <category>array의 차원바꾸기</category>
+        <category>이미지 벡터화</category>
+        <category>np.add</category>
+        <category>np.divide</category>
+        <category>np.mod</category>
+        <category>np.mean</category>
+        <category>np.median</category>
+        <category>np.max</category>
+        <category>np.min</category>
+        <category>np.argmax</category>
+        <category>np.argmin</category>
+        <category>np.var</category>
+        <category>np.std</category>
+        <category>np.sum</category>
+        <category>np.consum</category>
+        <category>np.any</category>
+        <category>np.all</category>
+        <category>np.where</category>
+        <category>axis</category>
+        <category>numpy 축</category>
+        <category>1차원 axis</category>
+        <category>2차원 axis</category>
+        <category>3차원 axis</category>
+        <category>데이터 분석,거리 행렬,병합,지하철역,경도,위도,pandas,scipy,haversine,argsort,DataFrame</category>
+        <category>판다스,데이터 병합,groupby,DataFrame,Series,merge,replace,고객ID,구매금액,인덱스,CSV 파일,인코딩,머신러닝,통계량,조건부 통계량</category>
+        <category>판다스,데이터 병합,Series,DataFrame,to_dict,replace,merge,ref_df,인덱스,행정구역,엑셀 파일,CSV 파일,인코딩,add_prefix</category>
+        <category>결측치,데이터 전처리,pandas,dropna,isnull,Train data,Test data,머신러닝,데이터프레임,train_test_split,결측 레코드,결측치 비율,결측치 삭제,결측치 처리,결측치 문제,결측치 대체</category>
+        <category>broadcasting</category>
+        <category>브로드캐스팅</category>
+        <category>서로다른 shape의 numpy끼리 연산하는 방법</category>
+        <category>scalar</category>
+        <category>상수</category>
+        <category>boolean indexing</category>
+        <category>다중조건</category>
+        <category>데이터 전처리,sklearn,결측치,SimpleImputer,train_test_split,DataFrame,상관 계수,범주형 변수,연속형 변수,전처리 모델,대표값 대체,결측치 대체법,전략,평균,최빈값</category>
+        <category>선형대수</category>
+        <category>linalg</category>
+        <category>np.linalg</category>
+        <category>행렬내적구하기</category>
+        <category>전치행렬구하기</category>
+        <category>역행렬</category>
+        <category>정방행렬</category>
+        <category>항등행렬</category>
+        <category>시계열,결측치,대체,DataFrame,fillna,ffill,bfill,Python,pandas,데이터프레임,train_test_split</category>
+        <category>그래프 그리기</category>
+        <category>line plot</category>
+        <category>scatter plot</category>
+        <category>그래프에 주석추가하기</category>
+        <category>grid 추가하기</category>
+        <category>subplot으로 그래프 여러개 그리기</category>
+        <category>histogram그리기</category>
+        <category>결측치,KNN Imputer,예측 모델,데이터 처리,sklearn,머신러닝,데이터프레임,결측 대체,모델 학습,파라미터,상관 계수</category>
+        <category>로또 번호 자동생성기</category>
+        <category>문제풀이</category>
+        <category>pi</category>
+        <category>Mote Carlo</category>
+        <category>원주율구하기</category>
+        <category>범주형 변수,모델 학습,숫자 변환,더미화,연속형 치환,차원의 저주,데이터 분석,지도학습,인코딩,머신러닝</category>
+        <category>EDA</category>
+        <category>스타벅스</category>
+        <category>이디야</category>
+        <category>folium</category>
+        <category>웹크롤링</category>
+        <category>google api</category>
+        <category>좌표추출</category>
+        <category>데이터분석</category>
+        <category>시각화</category>
+        <category>EDA - matplotlib - kaggle - dataset - dendrogram - correlation - preprocessing - folium</category>
+        <category>series</category>
+        <category>pandas</category>
+        <category>판다스</category>
+        <category>시리즈</category>
+        <category>데이터업데이트</category>
+        <category>데이터접근</category>
+        <category>인덱스재사용</category>
+        <category>데이터 전처리,모델 튜닝,하이퍼 파라미터,결측치 처리,범주형 변수,라벨 처리,변수 분포,클래스 불균형,특징 선택,파라미터 그리드,스케일링,머신러닝,데이터 통합,이상치,상관관계</category>
+        <category>전처리</category>
+        <category>size</category>
+        <category>shape</category>
+        <category>len</category>
+        <category>count</category>
+        <category>value_counts</category>
+        <category>mean</category>
+        <category>max</category>
+        <category>min</category>
+        <category>sum</category>
+        <category>median</category>
+        <category>abs</category>
+        <category>cumsum</category>
+        <category>cumprod</category>
+        <category>std</category>
+        <category>var</category>
+        <category>mode</category>
+        <category>corr</category>
+        <category>astype</category>
+        <category>데이터형변환</category>
+        <category>산술연산</category>
+        <category>인덱싱</category>
+        <category>head</category>
+        <category>tail</category>
+        <category>기초</category>
+        <category>Pandas</category>
+        <category>Series</category>
+        <category>local</category>
+        <category>iloc</category>
+        <category>데이터변환</category>
+        <category>리스트</category>
+        <category>딕셔너리</category>
+        <category>넘파이배열</category>
+        <category>List</category>
+        <category>dict</category>
+        <category>numpy_array</category>
+        <category>slicing</category>
+        <category>python - 시각화 - visualization - matplotlib - canvas - subplot - title - fontsize - tick - x축 - y축 - legend - marker - linestyle - color - alpha - 투명도 - grid - 이미지저장</category>
+        <category>visualization</category>
+        <category>matplotlib</category>
+        <category>bar plot</category>
+        <category>막대그래프</category>
+        <category>barhplot</category>
+        <category>가로막대 그래프</category>
+        <category>꺾은선 그래프</category>
+        <category>area plot</category>
+        <category>면적 그래프</category>
+        <category>histogram</category>
+        <category>히스토그램</category>
+        <category>pie chart</category>
+        <category>파이차트</category>
+        <category>box plot</category>
+        <category>3D plot</category>
+        <category>imshow</category>
+        <category>classification</category>
+        <category>헬스케어</category>
+        <category>의료데이터</category>
+        <category>kaggle</category>
+        <category>logistic regression</category>
+        <category>XGBoost</category>
+        <category>feature importance</category>
+        <category>python basic</category>
+        <category>데이터타입</category>
+        <category>주석</category>
+        <category>indent</category>
+        <category>IndentationError</category>
+        <category>연산자</category>
+        <category>escape string</category>
+        <category>문자열자르기</category>
+        <category>문자열 slicing</category>
+        <category>대문자변환</category>
+        <category>upper()</category>
+        <category>소문자변환</category>
+        <category>lower()</category>
+        <category>문자바꾸기</category>
+        <category>replace()</category>
+        <category>format()</category>
+        <category>문자 자르기</category>
+        <category>split()</category>
+        <category>list</category>
+        <category>튜플</category>
+        <category>tuple</category>
+        <category>append</category>
+        <category>extend</category>
+        <category>remove</category>
+        <category>pop</category>
+        <category>index</category>
+        <category>replace</category>
+        <category>in</category>
+        <category>list정렬</category>
+        <category>튜플 indexing</category>
+        <category>튜플 slicing</category>
+        <category>list와 tuple의 공통점</category>
+        <category>list와 tuple의 차이점</category>
+        <category>mutable</category>
+        <category>immutable</category>
+        <category>딕셔러니</category>
+        <category>dictionary</category>
+        <category>set</category>
+        <category>update</category>
+        <category>del</category>
+        <category>clear</category>
+        <category>get()</category>
+        <category>union()</category>
+        <category>intersection()</category>
+        <category>issubset()</category>
+        <category>교집합</category>
+        <category>합집합</category>
+        <category>차집합</category>
+        <category>부분집합</category>
+        <category>조건문</category>
+        <category>if문</category>
+        <category>if</category>
+        <category>elif</category>
+        <category>else</category>
+        <category>조건문 논리</category>
+        <category>조건문 우선순위</category>
+        <category>다중조건문</category>
+        <category>중첩조건문</category>
+        <category>nested condition</category>
+        <category>반복문</category>
+        <category>loop</category>
+        <category>for문</category>
+        <category>while문</category>
+        <category>무한루프</category>
+        <category>break</category>
+        <category>continue</category>
+        <category>dict 아이템출력하기</category>
+        <category>for문에 index사용하기</category>
+        <category>2중 for문</category>
+        <category>loop중첩</category>
+        <category>구구단 출력하기</category>
+        <category>itertools</category>
+        <category>product()</category>
+        <category>combination()</category>
+        <category>permutation()</category>
+        <category>zip()과 itertools.produce()차이</category>
+        <category>list comprehension</category>
+        <category>for문 한줄로 작성하기</category>
+        <category>dictionary comprehension</category>
+        <category>함수</category>
+        <category>def</category>
+        <category>내장함수</category>
+        <category>parameter</category>
+        <category>argument</category>
+        <category>default parameter</category>
+        <category>keyword parameter</category>
+        <category>return</category>
+        <category>multiple return</category>
+        <category>전역변수</category>
+        <category>지역변수</category>
+        <category>local variable</category>
+        <category>global variable</category>
+        <category>가변인자</category>
+        <category>argument parameter</category>
+        <category>args</category>
+        <category>kwargs</category>
+        <category>lambda</category>
+        <category>lambda로 sort하기</category>
+        <category>lambda로 filtering하기</category>
+        <category>lambda로 mapping하기</category>
+        <category>lambda로 reducing하기</category>
+        <category>자주쓰는 lambda기능</category>
+        <category>패키지</category>
+        <category>모듈</category>
+        <category>패키지와 모듈&amp;함수 관계</category>
+        <category>import</category>
+        <category>특정모듈만 불러오기</category>
+        <category>alias</category>
+        <category>별명</category>
+        <category>별명 지어주기</category>
+        <category>class</category>
+        <category>객체</category>
+        <category>상속</category>
+        <category>object</category>
+        <category>instance</category>
+        <category>class선언</category>
+        <category>method</category>
+        <category>__init__</category>
+        <category>self인자</category>
+        <category>method정의</category>
+        <category>method type</category>
+        <category>instance method</category>
+        <category>class method</category>
+        <category>class inheritance</category>
+        <category>method override</category>
+        <category>method재정의</category>
+        <category>부모클래스</category>
+        <category>자식클래스</category>
+        <category>super</category>
+        <category>정규표현식</category>
+        <category>re</category>
+        <category>preprocessing</category>
+        <category>search</category>
+        <category>metacharacters</category>
+        <category>abck</category>
+        <category>abc.^</category>
+        <category>a-d</category>
+        <category>0-9</category>
+        <category>a-z</category>
+        <category>A-Z</category>
+        <category>a-zA-Z0-9</category>
+        <category>^0-9</category>
+        <category>반복패턴</category>
+        <category>기본패턴</category>
+        <category>\d</category>
+        <category>\D</category>
+        <category>\s</category>
+        <category>\S</category>
+        <category>\w</category>
+        <category>\W</category>
+        <category>\</category>
+        <category>\\</category>
+        <category>grouping</category>
+        <category>미니멈 매칭</category>
+        <category>non-greedy way</category>
+        <category>findall</category>
+        <category>sub</category>
+        <category>compile</category>
+        <category>GitHub</category>
+        <category>Resume</category>
+        <category>automated</category>
+        <category>Profile</category>
+        <category>README</category>
+        <category>career</category>
+        <category>이력서</category>
+        <category>깃허브</category>
+        <category>프로필</category>
+        <category>자동작성</category>
+        <category>GitHub Prifile Readme Generator</category>
+        <category>핸즈온 머신러닝</category>
+        <category>ML</category>
+        <category>DL</category>
+        <category>공부방법</category>
+        <category>도서</category>
+        <category>리뷰</category>
+        <category>문자열 다루기</category>
+        <category>islower()</category>
+        <category>isupper()</category>
+        <category>escape문자</category>
+        <category>산술연산자</category>
+        <category>덧셈식 출력하기</category>
+        <category>문자열 붙여서 출력하기</category>
+        <category>문자열 돌리기</category>
+        <category>홀짝 구분하기</category>
+        <category>문자열 겹쳐쓰기</category>
+        <category>n의 배수</category>
+        <category>공배수</category>
+        <category>홀짝에 따라 다른값 반환하기</category>
+        <category>조건 문자열</category>
+        <category>flag에 따라 다른값 반환하기</category>
+        <category>문자열 섞기</category>
+        <category>문자 리스트를 문자열로 변환하기</category>
+        <category>문자열 곱하기</category>
+        <category>더 크게 합치기</category>
+        <category>두 수의 연산값 합치기</category>
+        <category>마지막 두 원소</category>
+        <category>수 조작하기 1</category>
+        <category>수 조작하기 2</category>
+        <category>수열과 구간 쿼리 3</category>
+        <category>수열과 구간 쿼리 2</category>
+        <category>코드 처리하기</category>
+        <category>등차수열의 특정한 항만 더하기</category>
+        <category>주사위게임2</category>
+        <category>원소들의 곱과 합</category>
+        <category>이어 붙인 수</category>
+        <category>수열과 구간쿼리 4</category>
+        <category>배열만들기2</category>
+        <category>카운트 업</category>
+        <category>콜라츠 수열 만들기</category>
+        <category>배열만들기 4</category>
+        <category>간단한 논리 연산</category>
+        <category>주사위 게임 3</category>
+        <category>글자 이어 붙여 문자열 만들기</category>
+        <category>9로 나눈 나머지</category>
+        <category>문자열 여러번 뒤집기</category>
+        <item>
+            <guid isPermalink="true">https://kimgabe.github.io/2024/01/08/SVGT-Obsidian-3/</guid>
+            <title>[쉐벨그투] 옵시디언으로 AI 논문 읽기(3) - 효율적인 논문 읽기 방법론</title>
+            <link>https://kimgabe.github.io/2024/01/08/SVGT-Obsidian-3/</link>
+            <pubDate>Mon, 08 Jan 2024 00:00:00 +0900</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;💡 &lt;strong&gt;시리즈 최종편 안내&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;이 글은 &amp;quot;옵시디언으로 AI 논문 읽기&amp;quot; 시리즈의 3편입니다. &lt;a href=&#34;https://kimgabe.github.io/gabe_ai_journey/retrospective/SVGT_Obsidian_1/&#34;&gt;1편 - 옵시디언 기초 세팅&lt;/a&gt;과 &lt;a href=&#34;https://kimgabe.github.io/gabe_ai_journey/retrospective/SVGT_Obsidian_2/&#34;&gt;2편 - Zotero 연동과 실제 적용&lt;/a&gt;을 먼저 확인해주세요.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;summary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#summary&#34;&gt;#&lt;/a&gt; Summary&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Andrew Ng의 3단계 논문 읽기법&lt;/strong&gt; 실전 적용&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;체계적인 논문 분석법&lt;/strong&gt;으로 이해도 극대화&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;분야별 특성 이해&lt;/strong&gt;로 효율적 논문 공략&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;초보자부터 전문가까지&lt;/strong&gt; 단계별 성장 전략&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;시작하며&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#시작하며&#34;&gt;#&lt;/a&gt; 시작하며&lt;/h2&gt;
+&lt;p&gt;1편에서 옵시디언을 세팅하고, 2편에서 Zotero 연동 시스템을 구축했다면, 이번 3편에서는 &lt;strong&gt;실제로 논문을 효율적으로 읽고 이해하는 방법론&lt;/strong&gt;을 완전 정복해보겠습니다.&lt;/p&gt;
+&lt;h3 id=&#34;이번-편에서-마스터할-것들&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#이번-편에서-마스터할-것들&#34;&gt;#&lt;/a&gt; 이번 편에서 마스터할 것들&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;체계적 논문 읽기법&lt;/strong&gt; → Andrew Ng의 검증된 3단계 방법론&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;효율적 분석 도구 활용&lt;/strong&gt; → 논문 이해를 돕는 실용적 도구들&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;분야별 특성 이해&lt;/strong&gt; → NLP vs CV vs RL 논문의 차이점&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;효율적 검색 전략&lt;/strong&gt; → 핵심 논문을 빠르게 찾는 법&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;단계별 성장 로드맵&lt;/strong&gt; → 초보자부터 전문가까지&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 &lt;strong&gt;핵심 철학&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;논문을 다 읽는 것이 목표가 아니라, 필요한 지식을 효율적으로 습득하는 것&lt;/code&gt; 입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;andrew-ng의-3단계-논문-읽기법-완전-마스터&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#andrew-ng의-3단계-논문-읽기법-완전-마스터&#34;&gt;#&lt;/a&gt; Andrew Ng의 3단계 논문 읽기법 완전 마스터&lt;/h1&gt;
+&lt;h2 id=&#34;andrew-ng의-검증된-방법론&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#andrew-ng의-검증된-방법론&#34;&gt;#&lt;/a&gt; Andrew Ng의 검증된 방법론&lt;/h2&gt;
+&lt;p&gt;스탠포드 대학의 앤드류 응 교수가 제안한 &lt;strong&gt;3단계 논문 읽기법&lt;/strong&gt;은 전 세계 연구자들이 인정하는 최고의 방법론입니다.&lt;/p&gt;
+&lt;h3 id=&#34;3단계-읽기법-개요&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3단계-읽기법-개요&#34;&gt;#&lt;/a&gt; 3단계 읽기법 개요&lt;/h3&gt;
+&lt;h4 id=&#34;1단계-스킵-읽기-10-15분&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1단계-스킵-읽기-10-15분&#34;&gt;#&lt;/a&gt; 1단계: 스킵 읽기 (10-15분)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;목표&lt;/strong&gt;: 논문의 전체적인 그림 파악&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;방법&lt;/strong&gt;: 핵심 부분만 선택적으로 읽기&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;판단&lt;/strong&gt;: 이 논문을 더 읽을 가치가 있는지 결정&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2단계-정독하기-1-2시간&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2단계-정독하기-1-2시간&#34;&gt;#&lt;/a&gt; 2단계: 정독하기 (1-2시간)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;목표&lt;/strong&gt;: 논문의 핵심 내용과 기여점 이해&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;방법&lt;/strong&gt;: 상세하게 읽되 증명과 실험은 건너뛰기&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;산출물&lt;/strong&gt;: 논문의 핵심을 다른 사람에게 설명할 수 있는 수준&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3단계-완전-이해-3-5시간&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3단계-완전-이해-3-5시간&#34;&gt;#&lt;/a&gt; 3단계: 완전 이해 (3-5시간)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;목표&lt;/strong&gt;: 논문을 완전히 이해하고 재현 가능한 수준&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;방법&lt;/strong&gt;: 모든 세부사항을 꼼꼼히 분석&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;산출물&lt;/strong&gt;: 동일한 실험을 재현하고 개선점 제안 가능&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;1단계-스킵-읽기-완전-가이드-10-15분&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1단계-스킵-읽기-완전-가이드-10-15분&#34;&gt;#&lt;/a&gt; 1단계: 스킵 읽기 완전 가이드 (10-15분)&lt;/h2&gt;
+&lt;h3 id=&#34;스킵-읽기-체크리스트&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#스킵-읽기-체크리스트&#34;&gt;#&lt;/a&gt; 스킵 읽기 체크리스트&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;반드시 읽어야 할 부분:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_0&#34;&gt; &lt;strong&gt;제목과 저자&lt;/strong&gt; - 첫인상과 신뢰도 판단&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_1&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_1&#34;&gt; &lt;strong&gt;Abstract 전체&lt;/strong&gt; - 논문의 핵심 요약&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_2&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_2&#34;&gt; &lt;strong&gt;Introduction 첫 번째와 마지막 문단&lt;/strong&gt; - 문제 정의와 기여점&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_3&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_3&#34;&gt; &lt;strong&gt;Related Work 훑어보기&lt;/strong&gt; - 기존 연구와의 차별점&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_4&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_4&#34;&gt; &lt;strong&gt;Method 섹션 헤더들&lt;/strong&gt; - 접근법의 구조 파악&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_5&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_5&#34;&gt; &lt;strong&gt;결론 전체&lt;/strong&gt; - 주요 발견과 한계점&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_6&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_6&#34;&gt; &lt;strong&gt;그림과 표 캡션&lt;/strong&gt; - 시각적 정보 빠른 파악&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;핵심-질문-리스트&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#핵심-질문-리스트&#34;&gt;#&lt;/a&gt; 핵심 질문 리스트&lt;/h3&gt;
+&lt;p&gt;스킵 읽기 중 다음 질문들에 답해보세요:&lt;/p&gt;
+&lt;h4 id=&#34;논문-가치-평가&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#논문-가치-평가&#34;&gt;#&lt;/a&gt; 논문 가치 평가&lt;/h4&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;1.&lt;/span&gt; 이 논문이 해결하려는 문제가 무엇인가?&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;2.&lt;/span&gt; 기존 방법들과 어떤 차이점이 있는가?&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;3.&lt;/span&gt; 실험 결과가 설득력 있는가?&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;4.&lt;/span&gt; 내 연구/관심사와 연관성이 있는가?&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;5.&lt;/span&gt; 이 논문을 더 읽을 가치가 있는가?&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;판단-기준&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#판단-기준&#34;&gt;#&lt;/a&gt; 판단 기준&lt;/h3&gt;
+&lt;h4 id=&#34;2단계로-진행해야-하는-경우&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2단계로-진행해야-하는-경우&#34;&gt;#&lt;/a&gt; 2단계로 진행해야 하는 경우&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;해결하려는 문제가 명확하고 중요함&lt;/li&gt;
+&lt;li&gt;기존 방법들과 차별점이 뚜렷함&lt;/li&gt;
+&lt;li&gt;실험 결과가 신뢰할 만함&lt;/li&gt;
+&lt;li&gt;내 관심 분야와 직접적 연관성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;여기서-멈춰야-하는-경우&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#여기서-멈춰야-하는-경우&#34;&gt;#&lt;/a&gt; 여기서 멈춰야 하는 경우&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;문제 정의가 불분명하거나 사소함&lt;/li&gt;
+&lt;li&gt;기존 연구와 차별점이 미미함&lt;/li&gt;
+&lt;li&gt;실험이 부족하거나 결과가 의심스러움&lt;/li&gt;
+&lt;li&gt;내 관심사와 무관함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;스킵-읽기-실전-예시&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#스킵-읽기-실전-예시&#34;&gt;#&lt;/a&gt; 스킵 읽기 실전 예시&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&amp;quot;Attention Is All You Need&amp;quot; 논문으로 실습:&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;1분-만에-파악한-것들&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1분-만에-파악한-것들&#34;&gt;#&lt;/a&gt; 1분 만에 파악한 것들:&lt;/h4&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;🎯 문제: RNN/CNN 없이 Attention만으로 번역 가능한가?&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;🔧 방법: Transformer 아키텍처 제안&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;📊 결과: BLEU 점수에서 기존 모델 대비 뛰어난 성능&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;💡 기여: 병렬 처리 가능한 새로운 아키텍처&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;✅ 판단: 혁신적 → 2단계 진행 결정&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr /&gt;
+&lt;h2 id=&#34;2단계-정독하기-완전-가이드-1-2시간&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2단계-정독하기-완전-가이드-1-2시간&#34;&gt;#&lt;/a&gt; 2단계: 정독하기 완전 가이드 (1-2시간)&lt;/h2&gt;
+&lt;h3 id=&#34;정독의-목표&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#정독의-목표&#34;&gt;#&lt;/a&gt; 정독의 목표&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;달성해야 할 수준:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;논문의 핵심 아이디어를 다른 사람에게 설명 가능&lt;/li&gt;
+&lt;li&gt;저자의 주장과 근거를 이해&lt;/li&gt;
+&lt;li&gt;실험 설계의 논리성 파악&lt;/li&gt;
+&lt;li&gt;한계점과 개선 가능성 발견&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;섹션별-읽기-전략&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#섹션별-읽기-전략&#34;&gt;#&lt;/a&gt; 섹션별 읽기 전략&lt;/h3&gt;
+&lt;h4 id=&#34;abstract-introduction-20분&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#abstract-introduction-20분&#34;&gt;#&lt;/a&gt; Abstract &amp;amp; Introduction (20분)&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;목표&lt;/strong&gt;: 논문의 전체 맥락과 배경 이해&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;읽기 방법:&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;1.&lt;/span&gt; Abstract 문장별 분석&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 1문장: 연구 배경&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 2문장: 문제 정의&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 3문장: 제안 방법&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 4문장: 실험 결과&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 5문장: 결론과 의의&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;2.&lt;/span&gt; Introduction 구조 파악&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 문제의 중요성과 현실적 필요성&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 기존 방법들의 한계점&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 제안하는 해결책의 핵심 아이디어&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 주요 기여점과 결과 요약&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4 id=&#34;related-work-15분&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#related-work-15분&#34;&gt;#&lt;/a&gt; Related Work (15분)&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;목표&lt;/strong&gt;: 기존 연구와의 차별점 명확히 파악&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;핵심 질문:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;어떤 기존 방법들이 존재하는가?&lt;/li&gt;
+&lt;li&gt;각 방법의 장단점은 무엇인가?&lt;/li&gt;
+&lt;li&gt;저자가 주장하는 기존 방법의 한계는?&lt;/li&gt;
+&lt;li&gt;제안 방법이 어떻게 이를 개선하는가?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;method-45분&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#method-45분&#34;&gt;#&lt;/a&gt; Method (45분)&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;목표&lt;/strong&gt;: 핵심 아이디어와 기술적 접근법 이해&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;읽기 순서:&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;1.&lt;/span&gt; 전체 구조 파악 (10분)&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 섹션 헤더들로 방법의 전체 구조 이해&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 핵심 컴포넌트들 간의 관계 파악&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;2.&lt;/span&gt; 핵심 아이디어 이해 (20분)&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 가장 중요한 novelty가 무엇인지 파악&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 수식보다는 직관적 이해에 집중&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 그림과 알고리즘으로 흐름 파악&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;3.&lt;/span&gt; 세부 기법 분석 (15분)&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 구현상의 중요한 디테일들&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 하이퍼파라미터와 설계 선택들&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 계산 복잡도와 효율성 고려사항&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4 id=&#34;experiments-30분&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#experiments-30분&#34;&gt;#&lt;/a&gt; Experiments (30분)&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;목표&lt;/strong&gt;: 제안 방법의 효과성과 한계 파악&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;분석 체크리스트:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_7&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_7&#34;&gt; &lt;strong&gt;실험 설계&lt;/strong&gt;: 공정하고 포괄적인 비교인가?&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_8&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_8&#34;&gt; &lt;strong&gt;베이스라인&lt;/strong&gt;: 적절한 기존 방법들과 비교했는가?&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_9&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_9&#34;&gt; &lt;strong&gt;데이터셋&lt;/strong&gt;: 대표성 있고 충분한 규모인가?&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_10&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_10&#34;&gt; &lt;strong&gt;메트릭&lt;/strong&gt;: 의미 있고 표준적인 평가지표인가?&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_11&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_11&#34;&gt; &lt;strong&gt;결과 해석&lt;/strong&gt;: 저자의 주장이 결과와 일치하는가?&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_12&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_12&#34;&gt; &lt;strong&gt;Ablation Study&lt;/strong&gt;: 각 컴포넌트의 기여도 분석이 있는가?&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;conclusion-discussion-10분&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#conclusion-discussion-10분&#34;&gt;#&lt;/a&gt; Conclusion &amp;amp; Discussion (10분)&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;목표&lt;/strong&gt;: 연구의 의의와 향후 방향 이해&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;핵심 포인트:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;주요 발견과 기여점 재확인&lt;/li&gt;
+&lt;li&gt;저자가 인정하는 한계점들&lt;/li&gt;
+&lt;li&gt;향후 연구 방향과 개선 가능성&lt;/li&gt;
+&lt;li&gt;실제 응용에서의 고려사항들&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;3단계-완전-이해하기-3-5시간&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3단계-완전-이해하기-3-5시간&#34;&gt;#&lt;/a&gt; 3단계: 완전 이해하기 (3-5시간)&lt;/h2&gt;
+&lt;h3 id=&#34;완전-이해의-목표&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#완전-이해의-목표&#34;&gt;#&lt;/a&gt; 완전 이해의 목표&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;달성해야 할 수준:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;논문의 모든 세부사항을 완전히 이해&lt;/li&gt;
+&lt;li&gt;수식 유도와 증명 과정 이해&lt;/li&gt;
+&lt;li&gt;실험을 재현할 수 있는 수준의 이해&lt;/li&gt;
+&lt;li&gt;개선점과 확장 가능성 제안&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;심화-분석-전략&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#심화-분석-전략&#34;&gt;#&lt;/a&gt; 심화 분석 전략&lt;/h3&gt;
+&lt;h4 id=&#34;수식과-알고리즘-완전-분석-1-2시간&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#수식과-알고리즘-완전-분석-1-2시간&#34;&gt;#&lt;/a&gt; 수식과 알고리즘 완전 분석 (1-2시간)&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;접근법:&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;1.&lt;/span&gt; 수식 의미 파악&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 각 변수와 상수의 물리적/수학적 의미&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 수식이 표현하는 직관적 아이디어&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 다른 수식들과의 연관관계&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;2.&lt;/span&gt; 유도 과정 이해&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 가정과 전제 조건들&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 중간 단계별 논리적 흐름&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 최종 결과의 타당성 검증&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;3.&lt;/span&gt; 알고리즘 구현 관점&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 의사코드를 실제 코드로 변환&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 계산 복잡도와 메모리 요구사항&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 구현 시 주의사항들&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4 id=&#34;실험-재현-계획-수립-1시간&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#실험-재현-계획-수립-1시간&#34;&gt;#&lt;/a&gt; 실험 재현 계획 수립 (1시간)&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;체크리스트:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_13&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_13&#34;&gt; &lt;strong&gt;데이터 준비&lt;/strong&gt;: 동일한 데이터셋과 전처리 과정&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_14&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_14&#34;&gt; &lt;strong&gt;모델 구현&lt;/strong&gt;: 논문의 모든 디테일 반영&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_15&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_15&#34;&gt; &lt;strong&gt;훈련 설정&lt;/strong&gt;: 하이퍼파라미터와 최적화 방법&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_16&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_16&#34;&gt; &lt;strong&gt;평가 방법&lt;/strong&gt;: 동일한 메트릭과 평가 프로토콜&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_17&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_17&#34;&gt; &lt;strong&gt;결과 분석&lt;/strong&gt;: 재현 결과와 논문 결과 비교&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;비판적-분석-및-개선점-도출-1-2시간&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#비판적-분석-및-개선점-도출-1-2시간&#34;&gt;#&lt;/a&gt; 비판적 분석 및 개선점 도출 (1-2시간)&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;분석 관점:&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;1.&lt;/span&gt; 방법론의 한계점&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 이론적 제약사항들&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 실용성 측면의 문제점들&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 일반화 가능성의 한계&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;2.&lt;/span&gt; 실험의 완전성&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 빠진 비교 실험들&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 추가 필요한 ablation study&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 다른 데이터셋에서의 검증 필요성&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;3.&lt;/span&gt; 확장 가능성&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 다른 도메인으로의 적용&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 방법론의 개선 방향들&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 새로운 연구 아이디어 도출&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr /&gt;
+&lt;h1 id=&#34;논문-분야별-읽기-전략&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#논문-분야별-읽기-전략&#34;&gt;#&lt;/a&gt; 논문 분야별 읽기 전략&lt;/h1&gt;
+&lt;h2 id=&#34;natural-language-processing-nlp-논문-특성&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#natural-language-processing-nlp-논문-특성&#34;&gt;#&lt;/a&gt; Natural Language Processing (NLP) 논문 특성&lt;/h2&gt;
+&lt;h3 id=&#34;nlp-논문의-구조적-특징&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nlp-논문의-구조적-특징&#34;&gt;#&lt;/a&gt; NLP 논문의 구조적 특징&lt;/h3&gt;
+&lt;h4 id=&#34;일반적인-섹션-구성&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#일반적인-섹션-구성&#34;&gt;#&lt;/a&gt; 일반적인 섹션 구성:&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Introduction&lt;/strong&gt;: 언어 처리 문제와 기존 방법의 한계&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Related Work&lt;/strong&gt;: 언어학적 배경과 기존 모델들&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Method&lt;/strong&gt;: 새로운 아키텍처나 학습 방법&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Experiments&lt;/strong&gt;: 다양한 언어 태스크에서의 성능 평가&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analysis&lt;/strong&gt;: 언어학적 분석과 모델 해석&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;: 언어 이해에 대한 기여와 향후 방향&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;nlp-논문-읽기-포인트&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nlp-논문-읽기-포인트&#34;&gt;#&lt;/a&gt; NLP 논문 읽기 포인트&lt;/h3&gt;
+&lt;h4 id=&#34;핵심-분석-요소&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#핵심-분석-요소&#34;&gt;#&lt;/a&gt; 핵심 분석 요소&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;1. 태스크 정의와 평가&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 해결하려는 언어 문제의 명확한 정의&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 평가 데이터셋과 메트릭의 적절성&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 다국어/도메인 일반화 고려사항&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;2. 언어학적 근거&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 제안 방법의 언어학적 동기&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 언어의 구조적 특성 반영 정도&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 다양한 언어 현상에 대한 처리 능력&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;3. 아키텍처 혁신&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; Attention 메커니즘의 새로운 활용&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 계층적 표현 학습의 효과성&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 사전 훈련과 파인튜닝 전략&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;nlp-논문-체크리스트&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nlp-논문-체크리스트&#34;&gt;#&lt;/a&gt; NLP 논문 체크리스트&lt;/h3&gt;
+&lt;h4 id=&#34;읽기-전-확인사항&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#읽기-전-확인사항&#34;&gt;#&lt;/a&gt; 읽기 전 확인사항:&lt;/h4&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_18&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_18&#34;&gt; 어떤 NLP 태스크(분류, 생성, 이해)인지 확인&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_19&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_19&#34;&gt; 사용하는 데이터와 언어 확인&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_20&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_20&#34;&gt; 기존 모델(BERT, GPT 등) 대비 개선점&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;읽는-중-주의사항&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#읽는-중-주의사항&#34;&gt;#&lt;/a&gt; 읽는 중 주의사항:&lt;/h4&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_21&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_21&#34;&gt; &lt;strong&gt;토큰화&lt;/strong&gt;: 단어, subword, 문자 단위 처리 방식&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_22&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_22&#34;&gt; &lt;strong&gt;임베딩&lt;/strong&gt;: 단어, 위치, 세그먼트 임베딩 방법&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_23&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_23&#34;&gt; &lt;strong&gt;어텐션&lt;/strong&gt;: 자기주의와 교차주의 메커니즘&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_24&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_24&#34;&gt; &lt;strong&gt;디코딩&lt;/strong&gt;: 생성 태스크에서의 디코딩 전략&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;실험-분석-포인트&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#실험-분석-포인트&#34;&gt;#&lt;/a&gt; 실험 분석 포인트:&lt;/h4&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_25&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_25&#34;&gt; &lt;strong&gt;벤치마크 성능&lt;/strong&gt;: GLUE, SuperGLUE 등에서 SOTA 달성?&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_26&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_26&#34;&gt; &lt;strong&gt;일반화 능력&lt;/strong&gt;: 다른 도메인/언어에서도 효과적?&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_27&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_27&#34;&gt; &lt;strong&gt;효율성&lt;/strong&gt;: 모델 크기, 훈련 시간, 추론 속도&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_28&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_28&#34;&gt; &lt;strong&gt;해석가능성&lt;/strong&gt;: 어텐션 패턴이나 표현 분석&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;computer-vision-cv-논문-특성&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#computer-vision-cv-논문-특성&#34;&gt;#&lt;/a&gt; Computer Vision (CV) 논문 특성&lt;/h2&gt;
+&lt;h3 id=&#34;cv-논문의-구조적-특징&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cv-논문의-구조적-특징&#34;&gt;#&lt;/a&gt; CV 논문의 구조적 특징&lt;/h3&gt;
+&lt;h4 id=&#34;일반적인-섹션-구성-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#일반적인-섹션-구성-2&#34;&gt;#&lt;/a&gt; 일반적인 섹션 구성:&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Introduction&lt;/strong&gt;: 시각 인식 문제와 기존 방법의 한계&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Related Work&lt;/strong&gt;: 컴퓨터 비전 발전사와 관련 기법들&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Method&lt;/strong&gt;: 새로운 아키텍처나 학습 전략&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Experiments&lt;/strong&gt;: 이미지 데이터셋에서의 성능 평가&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analysis&lt;/strong&gt;: 시각적 분석과 모델 해석&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;: 시각 이해에 대한 발견&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;cv-논문-읽기-포인트&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cv-논문-읽기-포인트&#34;&gt;#&lt;/a&gt; CV 논문 읽기 포인트&lt;/h3&gt;
+&lt;h4 id=&#34;핵심-분석-요소-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#핵심-분석-요소-2&#34;&gt;#&lt;/a&gt; 핵심 분석 요소&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;1. 비전 태스크 특성&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 분류, 검출, 분할, 생성 등 태스크별 특성&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 입력 이미지의 해상도와 채널 고려사항&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 실시간 처리 요구사항과 정확도 트레이드오프&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;2. 아키텍처 설계&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; CNN, Transformer 등 백본 네트워크 선택&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; Feature Pyramid, Attention 등 모듈 설계&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 다중 스케일 처리와 공간적 관계 모델링&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;3. 데이터와 학습&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 데이터 증강과 정규화 전략&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 사전 훈련과 전이 학습 활용&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; Self-supervised 학습 적용&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;cv-논문-체크리스트&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cv-논문-체크리스트&#34;&gt;#&lt;/a&gt; CV 논문 체크리스트&lt;/h3&gt;
+&lt;h4 id=&#34;읽기-전-확인사항-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#읽기-전-확인사항-2&#34;&gt;#&lt;/a&gt; 읽기 전 확인사항:&lt;/h4&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_29&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_29&#34;&gt; 어떤 CV 태스크(분류, 검출, 분할)인지 확인&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_30&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_30&#34;&gt; 사용하는 데이터셋과 평가 방법 확인&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_31&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_31&#34;&gt; 기존 모델(ResNet, ViT 등) 대비 개선점&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;읽는-중-주의사항-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#읽는-중-주의사항-2&#34;&gt;#&lt;/a&gt; 읽는 중 주의사항:&lt;/h4&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_32&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_32&#34;&gt; &lt;strong&gt;입력 처리&lt;/strong&gt;: 이미지 크기, 정규화, 증강 방법&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_33&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_33&#34;&gt; &lt;strong&gt;특징 추출&lt;/strong&gt;: 컨볼루션, 풀링, 어텐션 레이어 구성&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_34&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_34&#34;&gt; &lt;strong&gt;다중 스케일&lt;/strong&gt;: 피라미드, FPN 등 스케일 처리 방법&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_35&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_35&#34;&gt; &lt;strong&gt;출력 후처리&lt;/strong&gt;: NMS, 임계값 설정 등&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;실험-분석-포인트-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#실험-분석-포인트-2&#34;&gt;#&lt;/a&gt; 실험 분석 포인트:&lt;/h4&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_36&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_36&#34;&gt; &lt;strong&gt;벤치마크 성능&lt;/strong&gt;: ImageNet, COCO 등에서 SOTA 달성?&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_37&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_37&#34;&gt; &lt;strong&gt;일반화 능력&lt;/strong&gt;: 다른 도메인 데이터에서도 효과적?&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_38&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_38&#34;&gt; &lt;strong&gt;계산 복잡도&lt;/strong&gt;: FLOPs, 파라미터 수, 추론 시간&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_39&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_39&#34;&gt; &lt;strong&gt;시각화 품질&lt;/strong&gt;: Grad-CAM, attention map 분석&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;reinforcement-learning-rl-논문-특성&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#reinforcement-learning-rl-논문-특성&#34;&gt;#&lt;/a&gt; Reinforcement Learning (RL) 논문 특성&lt;/h2&gt;
+&lt;h3 id=&#34;rl-논문의-구조적-특징&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#rl-논문의-구조적-특징&#34;&gt;#&lt;/a&gt; RL 논문의 구조적 특징&lt;/h3&gt;
+&lt;h4 id=&#34;일반적인-섹션-구성-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#일반적인-섹션-구성-3&#34;&gt;#&lt;/a&gt; 일반적인 섹션 구성:&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Introduction&lt;/strong&gt;: 의사결정 문제와 환경 정의&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Background&lt;/strong&gt;: MDP 설정과 기존 알고리즘&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Method&lt;/strong&gt;: 새로운 학습 알고리즘과 이론적 근거&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Experiments&lt;/strong&gt;: 다양한 환경에서의 성능 평가&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analysis&lt;/strong&gt;: 수렴성과 샘플 효율성 분석&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;: 의사결정 학습에 대한 발견&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;rl-논문-읽기-포인트&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#rl-논문-읽기-포인트&#34;&gt;#&lt;/a&gt; RL 논문 읽기 포인트&lt;/h3&gt;
+&lt;h4 id=&#34;핵심-분석-요소-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#핵심-분석-요소-3&#34;&gt;#&lt;/a&gt; 핵심 분석 요소&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;1. 환경과 문제 설정&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 상태 공간과 행동 공간의 크기와 복잡도&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 보상 구조와 희소성(sparsity) 정도&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 부분 관측 가능성과 불확실성&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;2. 알고리즘 혁신성&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; Value-based vs Policy-based vs Actor-Critic&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; On-policy vs Off-policy 학습&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 탐험(exploration) 전략의 효과성&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;3. 이론적 보장&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 수렴성(convergence) 증명&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 샘플 복잡도(sample complexity) 분석&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 최적성 갭(optimality gap) 바운드&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;rl-논문-체크리스트&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#rl-논문-체크리스트&#34;&gt;#&lt;/a&gt; RL 논문 체크리스트&lt;/h3&gt;
+&lt;h4 id=&#34;읽기-전-확인사항-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#읽기-전-확인사항-3&#34;&gt;#&lt;/a&gt; 읽기 전 확인사항:&lt;/h4&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_40&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_40&#34;&gt; 어떤 RL 설정 (model-free/based, discrete/continuous)인지&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_41&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_41&#34;&gt; 사용하는 환경과 벤치마크 확인&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_42&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_42&#34;&gt; 기존 알고리즘 대비 성능과 효율성&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;읽는-중-주의사항-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#읽는-중-주의사항-3&#34;&gt;#&lt;/a&gt; 읽는 중 주의사항:&lt;/h4&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_43&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_43&#34;&gt; &lt;strong&gt;MDP 설정&lt;/strong&gt;: 상태, 행동, 보상, 전이 확률 정의&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_44&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_44&#34;&gt; &lt;strong&gt;가치 함수&lt;/strong&gt;: V, Q 함수의 근사 방법&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_45&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_45&#34;&gt; &lt;strong&gt;정책&lt;/strong&gt;: 결정론적 vs 확률적 정책&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_46&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_46&#34;&gt; &lt;strong&gt;탐험 전략&lt;/strong&gt;: ε-greedy, UCB, curiosity-driven 등&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;실험-분석-포인트-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#실험-분석-포인트-3&#34;&gt;#&lt;/a&gt; 실험 분석 포인트:&lt;/h4&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_47&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_47&#34;&gt; &lt;strong&gt;학습 곡선&lt;/strong&gt;: 수렴 속도와 최종 성능&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_48&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_48&#34;&gt; &lt;strong&gt;샘플 효율성&lt;/strong&gt;: 목표 성능 달성까지 필요한 경험&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_49&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_49&#34;&gt; &lt;strong&gt;일반화&lt;/strong&gt;: 다른 환경에서의 전이 성능&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_50&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_50&#34;&gt; &lt;strong&gt;안정성&lt;/strong&gt;: 하이퍼파라미터 민감도와 재현성&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;효율적인-논문-검색과-큐레이션-전략&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#효율적인-논문-검색과-큐레이션-전략&#34;&gt;#&lt;/a&gt; 효율적인 논문 검색과 큐레이션 전략&lt;/h1&gt;
+&lt;h2 id=&#34;전략적-논문-검색법&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#전략적-논문-검색법&#34;&gt;#&lt;/a&gt; 전략적 논문 검색법&lt;/h2&gt;
+&lt;h3 id=&#34;단계별-검색-전략&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#단계별-검색-전략&#34;&gt;#&lt;/a&gt; 단계별 검색 전략&lt;/h3&gt;
+&lt;h4 id=&#34;1단계-토픽-맵핑-단계-첫-주&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1단계-토픽-맵핑-단계-첫-주&#34;&gt;#&lt;/a&gt; 1단계: 토픽 맵핑 단계 (첫 주)&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;목표&lt;/strong&gt;: 관심 분야의 전체 지형 파악&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;검색 전략:&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;1.&lt;/span&gt; Survey 논문 우선 검색&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; &#34;deep learning survey&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; &#34;transformer review&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; &#34;computer vision survey 2024&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;2.&lt;/span&gt; 최신 컨퍼런스 proceedings 확인&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; NeurIPS, ICML, ICLR (ML 일반)&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; ACL, EMNLP (NLP)&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; CVPR, ICCV, ECCV (CV)&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;3.&lt;/span&gt; 핵심 키워드 추출&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; Survey에서 언급되는 주요 개념들&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 최신 트렌드 키워드 수집&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4 id=&#34;2단계-깊이-탐색-단계-2-3주&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2단계-깊이-탐색-단계-2-3주&#34;&gt;#&lt;/a&gt; 2단계: 깊이 탐색 단계 (2-3주)&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;목표&lt;/strong&gt;: 선정된 토픽의 핵심 논문들 발굴&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;고급 검색 기법:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Google Scholar 고급 활용:&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;1.&lt;/span&gt; 인용 기반 검색&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 핵심 논문의 &#34;cited by&#34; 확인&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 높은 인용수 = 영향력 있는 연구&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;2.&lt;/span&gt; 저자 기반 검색&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 분야 권위자들의 최신 연구 추적&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 연구 그룹별 접근법 이해&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;3.&lt;/span&gt; 시간대별 검색&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; &#34;since:2023&#34; 형태로 최신 논문만&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 트렌드 변화 추적&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4 id=&#34;3단계-정밀-큐레이션-지속적&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3단계-정밀-큐레이션-지속적&#34;&gt;#&lt;/a&gt; 3단계: 정밀 큐레이션 (지속적)&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;목표&lt;/strong&gt;: 지속적인 최신 동향 파악&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;자동화 전략:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;arXiv daily digest 구독&lt;/li&gt;
+&lt;li&gt;주요 저자들의 Google Scholar 알림 설정&lt;/li&gt;
+&lt;li&gt;컨퍼런스 proceedings 정기 확인&lt;/li&gt;
+&lt;li&gt;Twitter/X에서 연구자들 팔로우&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;논문-우선순위-매기기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#논문-우선순위-매기기&#34;&gt;#&lt;/a&gt; 논문 우선순위 매기기&lt;/h3&gt;
+&lt;h4 id=&#34;읽기-우선순위-기준&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#읽기-우선순위-기준&#34;&gt;#&lt;/a&gt; 읽기 우선순위 기준&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;높은 우선순위:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_51&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_51&#34;&gt; 높은 인용수 (분야별 기준)&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_52&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_52&#34;&gt; 최신 연구 (1-2년 이내)&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_53&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_53&#34;&gt; 저명한 저자/기관&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_54&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_54&#34;&gt; 핵심 컨퍼런스 발표&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;중간 우선순위:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_55&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_55&#34;&gt; 중간 인용수&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_56&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_56&#34;&gt; 특정 기법에 특화&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_57&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_57&#34;&gt; 흥미로운 아이디어&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_58&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_58&#34;&gt; 실용적 응용 가능&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;낮은 우선순위:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_59&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_59&#34;&gt; 낮은 인용수&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_60&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_60&#34;&gt; 오래된 연구 (5년 이상)&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_61&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_61&#34;&gt; 알려지지 않은 저자&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_62&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_62&#34;&gt; 마이너 학회&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;단계별-성장-로드맵&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#단계별-성장-로드맵&#34;&gt;#&lt;/a&gt; 단계별 성장 로드맵&lt;/h1&gt;
+&lt;h2 id=&#34;단계별-학습-전략&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#단계별-학습-전략&#34;&gt;#&lt;/a&gt; 단계별 학습 전략&lt;/h2&gt;
+&lt;h3 id=&#34;phase-1-기초-다지기-1-3개월&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#phase-1-기초-다지기-1-3개월&#34;&gt;#&lt;/a&gt; Phase 1: 기초 다지기 (1-3개월)&lt;/h3&gt;
+&lt;h4 id=&#34;목표&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#목표&#34;&gt;#&lt;/a&gt; 목표&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;AI/ML 기본 개념 이해&lt;/li&gt;
+&lt;li&gt;논문 읽기 기본 체계 확립&lt;/li&gt;
+&lt;li&gt;기초 수학/통계 지식 보완&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;핵심-활동&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#핵심-활동&#34;&gt;#&lt;/a&gt; 핵심 활동&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;1단계: 기초 개념 학습 (첫 달)&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;필수 이해 개념:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;□ 선형대수: 벡터, 행렬, 고유값&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;□ 확률/통계: 베이즈 정리, 분포, 추정&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;□ 최적화: 경사하강법, 역전파&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;□ 정보이론: 엔트로피, KL divergence&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;활용 자료:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Khan Academy 수학 강의&lt;/li&gt;
+&lt;li&gt;3Blue1Brown YouTube 시리즈&lt;/li&gt;
+&lt;li&gt;&amp;quot;Mathematics for Machine Learning&amp;quot; 교재&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;2단계: 논문 읽기 체계 구축 (둘째 달)&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;시스템 구축:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;□ Obsidian + Zotero 연동 완료&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;□ 논문 읽기 템플릿 개발&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;□ 색상 하이라이트 시스템 습관화&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;□ 주간 5편 스킵 읽기 달성&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;3단계: 기초 논문 완전 이해 (셋째 달)&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;목표 논문 (분야별 1편씩):&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;□ NLP: &#34;Attention Is All You Need&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;□ CV: &#34;ResNet&#34; 또는 &#34;ImageNet Classification&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;□ ML: &#34;Dropout&#34; 또는 &#34;Batch Normalization&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;각 논문별 활동:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;□ 3단계 읽기법 적용&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;□ 핵심 수식 유도 연습&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;□ 간단한 구현 시도&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;□ 발표자료 제작&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4 id=&#34;성과-지표&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#성과-지표&#34;&gt;#&lt;/a&gt; 성과 지표&lt;/h4&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_63&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_63&#34;&gt; 주당 논문 5편 스킵 읽기 달성&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_64&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_64&#34;&gt; 월당 1편 완전 이해 및 정리&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_65&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_65&#34;&gt; 기본 개념 90% 이상 이해&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_66&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_66&#34;&gt; 논문 읽기 시간 50% 단축&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;phase-2-전문성-구축하기-3-6개월&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#phase-2-전문성-구축하기-3-6개월&#34;&gt;#&lt;/a&gt; Phase 2: 전문성 구축하기 (3-6개월)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;목표&lt;/strong&gt;: 특정 분야의 심화 이해 및 연구 트렌드 파악&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;주간 목표&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_67&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_67&#34;&gt; 관심 분야 논문 10편 Quick Review&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_68&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_68&#34;&gt; 핵심 논문 2편 Deep Reading&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_69&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_69&#34;&gt; 선택 논문 1편 Deep Dive&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;학습 전략&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;특정 분야 집중 (CV, NLP, RL 등 중 선택)&lt;/li&gt;
+&lt;li&gt;논문 간 연결고리 발견하기&lt;/li&gt;
+&lt;li&gt;방법론의 발전 과정 추적하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;성과 측정&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_70&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_70&#34;&gt; 분야별 주요 방법론과 발전사 설명 가능&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_71&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_71&#34;&gt; 논문의 한계점과 개선점 파악 가능&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_72&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_72&#34;&gt; 관련 연구들 간의 관계 이해&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;phase-3-연구자-수준-도달-6개월&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#phase-3-연구자-수준-도달-6개월&#34;&gt;#&lt;/a&gt; Phase 3: 연구자 수준 도달 (6개월+)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;목표&lt;/strong&gt;: 독창적 사고 및 연구 아이디어 도출&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;주간 목표&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_73&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_73&#34;&gt; 최신 논문 15편 모니터링&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_74&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_74&#34;&gt; 핵심 논문 3편 Deep Reading&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_75&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_75&#34;&gt; 중요 논문 1편 Deep Dive + 구현&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;고급 활동&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;논문 리뷰 블로그 작성&lt;/li&gt;
+&lt;li&gt;연구 아이디어 도출 및 검증&lt;/li&gt;
+&lt;li&gt;오픈소스 프로젝트 기여&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;성과 측정&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_76&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_76&#34;&gt; 연구 동향 예측 가능&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_77&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_77&#34;&gt; 새로운 연구 아이디어 제안 가능&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_78&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_78&#34;&gt; 논문을 바탕으로 실제 프로젝트 수행 가능&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;일일-논문-읽기-루틴&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#일일-논문-읽기-루틴&#34;&gt;#&lt;/a&gt; 일일 논문 읽기 루틴&lt;/h3&gt;
+&lt;h4 id=&#34;시간대별-최적-활동&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#시간대별-최적-활동&#34;&gt;#&lt;/a&gt; 시간대별 최적 활동&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;오전 (집중력 최고조)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Deep Reading 또는 Deep Dive&lt;/li&gt;
+&lt;li&gt;어려운 수식이나 알고리즘 분석&lt;/li&gt;
+&lt;li&gt;새로운 개념 학습&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;점심시간 (가벼운 활동)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;arXiv daily papers 훑어보기&lt;/li&gt;
+&lt;li&gt;Quick Review 2-3편&lt;/li&gt;
+&lt;li&gt;관심 논문 북마크&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;저녁 (정리와 연결)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;읽은 논문들 간의 연결고리 찾기&lt;/li&gt;
+&lt;li&gt;Obsidian에서 노트 정리 및 연결&lt;/li&gt;
+&lt;li&gt;내일 읽을 논문 선정&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;주간-스케줄-예시&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#주간-스케줄-예시&#34;&gt;#&lt;/a&gt; 주간 스케줄 예시&lt;/h4&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;월요일: 새로운 분야 탐색 (Survey 논문)&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;화요일: 핵심 논문 Deep Reading&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;수요일: 실험 중심 논문 분석&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;목요일: 이론적 논문 Deep Dive&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;금요일: 주간 리뷰 및 정리&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;주말: 관심 논문 구현 및 실험&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr /&gt;
+&lt;h1 id=&#34;실전-활용-팁과-주의사항&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#실전-활용-팁과-주의사항&#34;&gt;#&lt;/a&gt; 실전 활용 팁과 주의사항&lt;/h1&gt;
+&lt;h2 id=&#34;효율적인-논문-읽기-습관&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#효율적인-논문-읽기-습관&#34;&gt;#&lt;/a&gt; 효율적인 논문 읽기 습관&lt;/h2&gt;
+&lt;h3 id=&#34;시간-관리-전략&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#시간-관리-전략&#34;&gt;#&lt;/a&gt; 시간 관리 전략&lt;/h3&gt;
+&lt;h4 id=&#34;포모도로-기법-활용&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#포모도로-기법-활용&#34;&gt;#&lt;/a&gt; 포모도로 기법 활용&lt;/h4&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;25분 집중 + 5분 휴식 사이클:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;1차시: Abstract + Introduction 읽기&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;2차시: Method 섹션 이해하기&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;3차시: Experiments 분석하기&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;4차시: 전체 내용 정리하기&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4 id=&#34;배치-처리-방식&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#배치-처리-방식&#34;&gt;#&lt;/a&gt; 배치 처리 방식&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;스킵 읽기&lt;/strong&gt;: 한 번에 10편씩 배치 처리&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;정독하기&lt;/strong&gt;: 주제별로 묶어서 처리&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;완전 이해&lt;/strong&gt;: 한 편에 충분한 시간 투자&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;읽기-효율성-높이기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#읽기-효율성-높이기&#34;&gt;#&lt;/a&gt; 읽기 효율성 높이기&lt;/h3&gt;
+&lt;h4 id=&#34;집중력-관리&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#집중력-관리&#34;&gt;#&lt;/a&gt; 집중력 관리&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;최적 환경 조성:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;조용하고 정리된 공간&lt;/li&gt;
+&lt;li&gt;스마트폰 등 방해 요소 제거&lt;/li&gt;
+&lt;li&gt;충분한 조명과 편안한 자세&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;에너지 관리:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;가장 집중력이 높은 시간대 활용&lt;/li&gt;
+&lt;li&gt;적절한 휴식과 수분 섭취&lt;/li&gt;
+&lt;li&gt;규칙적인 운동으로 뇌 기능 향상&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;읽기-속도-향상&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#읽기-속도-향상&#34;&gt;#&lt;/a&gt; 읽기 속도 향상&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;스킵 기법 마스터:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;핵심 문장만 골라 읽기&lt;/li&gt;
+&lt;li&gt;그림과 표로 빠른 이해&lt;/li&gt;
+&lt;li&gt;불필요한 세부사항 과감히 생략&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;구조적 읽기:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;섹션 헤더로 전체 구조 파악&lt;/li&gt;
+&lt;li&gt;결론에서 핵심 내용 먼저 확인&lt;/li&gt;
+&lt;li&gt;Introduction과 Conclusion으로 틀 잡기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;일반적인-실수와-해결법&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#일반적인-실수와-해결법&#34;&gt;#&lt;/a&gt; 일반적인 실수와 해결법&lt;/h2&gt;
+&lt;h3 id=&#34;자주-하는-실수들&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#자주-하는-실수들&#34;&gt;#&lt;/a&gt; 자주 하는 실수들&lt;/h3&gt;
+&lt;h4 id=&#34;완벽주의-함정&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#완벽주의-함정&#34;&gt;#&lt;/a&gt; 완벽주의 함정&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;문제점:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;모든 논문을 완벽히 이해하려고 함&lt;/li&gt;
+&lt;li&gt;한 편에 너무 많은 시간 소모&lt;/li&gt;
+&lt;li&gt;이해 안 되는 부분에서 멈춤&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;해결법:&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;1.&lt;/span&gt; 80/20 법칙 적용&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 20% 노력으로 80% 이해 달성&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 핵심만 파악하고 넘어가기&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;2.&lt;/span&gt; 점진적 이해 수용&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 첫 읽기에서 완벽 이해 불가능&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 반복을 통한 점진적 이해&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;3.&lt;/span&gt; 목적 중심 읽기&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 왜 이 논문을 읽는지 명확히&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 목적에 맞는 수준까지만 이해&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4 id=&#34;도구에-과도한-의존&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#도구에-과도한-의존&#34;&gt;#&lt;/a&gt; 도구에 과도한 의존&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;문제점:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;모든 것을 도구로 해결하려고 함&lt;/li&gt;
+&lt;li&gt;비판적 사고 능력 저하&lt;/li&gt;
+&lt;li&gt;스스로 생각하는 습관 부족&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;해결법:&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;1.&lt;/span&gt; 도구는 보조 수단&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 이해를 돕는 역할에 한정&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 최종 판단은 스스로&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;2.&lt;/span&gt; 비판적 읽기 습관&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 저자의 주장을 무조건 수용하지 않기&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 다른 관점에서 생각해보기&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;3.&lt;/span&gt; 균형잡힌 활용&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 도구 사용과 독립적 사고의 균형&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 도구 없이도 읽기 가능한 능력 유지&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;어려움-극복-방법&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#어려움-극복-방법&#34;&gt;#&lt;/a&gt; 어려움 극복 방법&lt;/h3&gt;
+&lt;h4 id=&#34;기술적-내용이-어려울-때&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#기술적-내용이-어려울-때&#34;&gt;#&lt;/a&gt; 기술적 내용이 어려울 때&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;단계적 접근:&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;1.&lt;/span&gt; 전체 그림 먼저 파악&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 무엇을 하려는 논문인지 이해&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 큰 아이디어부터 잡기&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;2.&lt;/span&gt; 배경 지식 보완&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 모르는 개념은 따로 학습&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 기본서나 강의 활용&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;3.&lt;/span&gt; 비유와 예시 활용&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 복잡한 개념을 쉬운 말로 설명&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 구체적인 예시로 이해도 확인&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4 id=&#34;동기-유지가-어려울-때&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#동기-유지가-어려울-때&#34;&gt;#&lt;/a&gt; 동기 유지가 어려울 때&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;지속 가능한 습관:&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;1.&lt;/span&gt; 작은 목표 설정&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 하루 1편 스킵 읽기부터 시작&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 성취감을 통한 동기 부여&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;2.&lt;/span&gt; 관심사와 연결&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 본인의 관심 분야 논문 우선&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 실제 프로젝트와 연계&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token list punctuation&#34;&gt;3.&lt;/span&gt; 커뮤니티 활용&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 스터디 그룹 참여&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token list punctuation&#34;&gt;-&lt;/span&gt; 논문 리뷰 블로그 운영&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr /&gt;
+&lt;h2 id=&#34;마무리&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#마무리&#34;&gt;#&lt;/a&gt; 마무리&lt;/h2&gt;
+&lt;h3 id=&#34;핵심-원칙-정리&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#핵심-원칙-정리&#34;&gt;#&lt;/a&gt; 핵심 원칙 정리&lt;/h3&gt;
+&lt;h4 id=&#34;1-점진적-접근&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-점진적-접근&#34;&gt;#&lt;/a&gt; 1) 점진적 접근&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;완벽함보다는 꾸준함&lt;/li&gt;
+&lt;li&gt;이해 안 되는 부분은 과감히 스킵&lt;/li&gt;
+&lt;li&gt;반복 읽기를 통한 점진적 이해&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-도구의-현명한-활용&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-도구의-현명한-활용&#34;&gt;#&lt;/a&gt; 2) 도구의 현명한 활용&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;다양한 도구로 허들 낮추기&lt;/li&gt;
+&lt;li&gt;하지만 도구에만 의존하지 않기&lt;/li&gt;
+&lt;li&gt;비판적 사고는 스스로 기르기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3-연결과-확장&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-연결과-확장&#34;&gt;#&lt;/a&gt; 3) 연결과 확장&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;논문을 독립적으로 보지 않기&lt;/li&gt;
+&lt;li&gt;다른 연구와의 관계 찾기&lt;/li&gt;
+&lt;li&gt;실제 문제에 적용해보기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;다음-단계로의-발전&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#다음-단계로의-발전&#34;&gt;#&lt;/a&gt; 다음 단계로의 발전&lt;/h3&gt;
+&lt;h4 id=&#34;단기-목표-1-3개월&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#단기-목표-1-3개월&#34;&gt;#&lt;/a&gt; 단기 목표 (1-3개월)&lt;/h4&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_79&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_79&#34;&gt; 3단계 읽기 방법론 체득&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_80&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_80&#34;&gt; 다양한 분석 도구 활용 능숙해지기&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_81&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_81&#34;&gt; 관심 분야 10편 이상 Deep Reading&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;중기-목표-3-12개월&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#중기-목표-3-12개월&#34;&gt;#&lt;/a&gt; 중기 목표 (3-12개월)&lt;/h4&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_82&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_82&#34;&gt; 특정 분야 전문성 구축&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_83&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_83&#34;&gt; 연구 트렌드 예측 능력 개발&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_84&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_84&#34;&gt; 논문 기반 프로젝트 수행&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;장기-목표-1년&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#장기-목표-1년&#34;&gt;#&lt;/a&gt; 장기 목표 (1년+)&lt;/h4&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_85&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_85&#34;&gt; 독창적 연구 아이디어 도출&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_86&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_86&#34;&gt; 커뮤니티에서 지식 공유&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_87&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_87&#34;&gt; 실제 연구 기여 또는 논문 작성&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;마지막-당부&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#마지막-당부&#34;&gt;#&lt;/a&gt; 마지막 당부&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;논문 읽기는 마라톤입니다.&lt;/strong&gt; 처음에는 어렵고 답답하겠지만, 꾸준히 하다 보면 어느 순간 술술 읽히는 자신을 발견하게 될 것입니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;다양한 도구들을 적극 활용하세요.&lt;/strong&gt; 이것은 부정행위가 아니라 현명한 학습 전략입니다. 도구의 도움을 받아 더 빠르게 성장하고, 더 많은 논문을 이해할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;완벽을 추구하지 마세요.&lt;/strong&gt; 모든 논문을 완벽히 이해할 필요는 없습니다. 각 논문에서 얻어갈 수 있는 인사이트를 찾는 것이 더 중요합니다.&lt;/p&gt;
+&lt;p&gt;앞선 1, 2편과 함께 이 시리즈를 통해 &lt;strong&gt;완벽한 AI 논문 읽기 시스템&lt;/strong&gt;을 구축하셨습니다. 이제 실전에서 활용하며 여러분만의 지식 네트워크를 쌓아가시길 바랍니다!&lt;/p&gt;
+&lt;hr /&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🔗 &lt;strong&gt;시리즈 전체 보기&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1편: &lt;a href=&#34;https://kimgabe.github.io/gabe_ai_journey/retrospective/SVGT_Obsidian_1/&#34;&gt;옵시디언 기초 설정과 필수 플러그인&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2편: &lt;a href=&#34;https://kimgabe.github.io/gabe_ai_journey/retrospective/SVGT_Obsidian_2/&#34;&gt;Zotero 연동과 실제 적용&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;3편: &lt;strong&gt;효율적인 논문 읽기 방법론&lt;/strong&gt; (현재 글)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;💬 질문이나 의견이 있으시면 언제든 댓글로 남겨주세요!&lt;/strong&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://kimgabe.github.io/2023/11/21/dtype%EC%9C%BC%EB%A1%9C-%ED%9A%A8%EC%9C%A8%EC%A0%81%EC%9C%BC%EB%A1%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%8B%A4%EB%A3%A8%EA%B8%B0/</guid>
+            <title>[Cheat Sheet] [Pre-processing] 형변환을 활용한 효율적인 데이터 전처리팁 모음</title>
+            <link>https://kimgabe.github.io/2023/11/21/dtype%EC%9C%BC%EB%A1%9C-%ED%9A%A8%EC%9C%A8%EC%A0%81%EC%9C%BC%EB%A1%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%8B%A4%EB%A3%A8%EA%B8%B0/</link>
+            <pubDate>Tue, 21 Nov 2023 00:00:00 +0900</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;summary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#summary&#34;&gt;#&lt;/a&gt; 🚦 Summary&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Series 데이터 생성시 사용하는 옵션인 dtype를 활용한 효율적이면서 유용한 데이터 변환 방법과 사례들을 소개합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;intro&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#intro&#34;&gt;#&lt;/a&gt; 📌 Intro.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;pandas의 series를 공부하다보면 series 데이터 생성시에 dtype을 지정할 수 있다는 것을 배웁니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;이러한 형변환 기능을 통해 다양한 유형의 데이터를 좀 더 손쉽고 효율적으로 바꾸거나 생성할 수 있는 팁을 정리해 공유합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;숫자로된-string형태의-데이터-만들기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#숫자로된-string형태의-데이터-만들기&#34;&gt;#&lt;/a&gt; 숫자로된 string형태의 데이터 만들기&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;일반적으로 숫자로된 형태의 시리즈 데이터를 만들려면 &amp;quot;&amp;quot; 또는 &#39;&#39;를 숫자에 둘러줘야합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;이를 여러개의 숫자에 작업하려면 실제로 굉장히 많은 타이핑을 해야 합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;하지만 dtype을 통해 이를 좀 더 효율적으로 생성할 수 있습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; pandas &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; pd&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 숫자지만 문자열 타입의 데이터로 만들 때&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;number_series &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Series&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;1&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;2&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;3&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; index&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;idx1&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;idx2&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;idx3&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; dtype&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;number_series&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;,&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; number_series&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;,&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;number_series&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;, 1 ,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;생성된 number_seires는 시리즈 형태의 데이터 이며 그 안에 담긴 0번째 인자는 string 임을 알 수 있습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;이를 좀 더 손쉽게 생성해 보도록 하겠습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 숫자 리스트를 문자열로 변환하는 경우&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;number_series &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Series&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; index&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;idx1&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;idx2&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;idx3&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; dtype&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;number_series&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;,&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; number_series&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;,&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;number_series&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;, 1 ,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;단순히 &#39; &#39;를 둘러주는 것을 생략하였을 뿐이지만 실제로 타이핑하는 것에 대한 부담이 현저히 줄게 됩니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;이와 같이 시리즈 생성시에 입력하는 옵션값이 dtype를 이용해 숫자값을 가진 string형태의 시리즈 데이터를 더욱 효율적으로 생성했습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;위와 같이 입력의 번고로움을 줄이는 방식은 아니지만 &#39;dytpe&#39;을 응용한 손쉬운 데이터 변환이라는 방법에서 몇가지 예시가 더 있습니다.ㅋ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;날짜-데이터-입력-간소화&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#날짜-데이터-입력-간소화&#34;&gt;#&lt;/a&gt; 날짜 데이터 입력 간소화&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;일반적으로 날짜형태의 데이터를 입력한다고 해도 날짜형식으로 변경되지는 않으며, 별도의 변경작업을 거쳐야 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 문자열 형태로 날짜 데이터 입력&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;date_series &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Series&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;2020-01-01&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;2020-01-02&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;2020-01-03&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;date_series&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;,&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; date_series&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;,&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;date_series&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;, 2020-01-01 ,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;하지만 아래와 같이 dtype을 통해 손쉽게 생성과 동시에 datetime형태의 데이터로 변경할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# dtype을 이용해 날짜 데이터 타입으로 자동 변환&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# datetime64[ns]에서 ns는 nano sec을 의미&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;date_series &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Series&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;2020-01-01&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;2020-01-02&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;2020-01-03&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; dtype&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;datetime64[ns]&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;date_series&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;,&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; date_series&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;,&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;date_series&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;, 2020-01-01 00:00:00 ,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;원래대로라면 생성된 데이터에 astype()를 써서 변경해야 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;date_series &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Series&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;2020-01-01&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;2020-01-02&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;2020-01-03&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;date_series &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; date_series&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;astype&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;datetime64[ns]&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;date_series&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;,&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; date_series&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;,&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;date_series&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;, 2020-01-01 00:00:00 ,&lt;/p&gt;
+&lt;h3 id=&#34;범주형-데이터를-수치형으로-손쉽게-변환하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#범주형-데이터를-수치형으로-손쉽게-변환하기&#34;&gt;#&lt;/a&gt; 범주형 데이터를 수치형으로 손쉽게 변환하기&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;통상적으로 범주형 데이터를 수치형으로 변환하기 위해서는 Label Encoding이나 One-Hot Encoding을 사용해야 합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;low, medium, high라는 데이터에 대해 Label encoding과 One-Hot Encoding을 적용하는 코드는 아래와 같습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h4 id=&#34;레이블-인코딩을-통한-범주형-데이터의-수치화&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#레이블-인코딩을-통한-범주형-데이터의-수치화&#34;&gt;#&lt;/a&gt; 레이블 인코딩을 통한 범주형 데이터의 수치화&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;레이블 인코딩은 각 범주를 숫자 값으로 변환합니다. 아래와 같이 세개의 범주 &#39;low&#39;, &#39;medium&#39;, &#39;high&#39; 가 있는 경우 이 데이터를 각각 0, 1, 2로 매핑하여 수치로 변경 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; sklearn&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;preprocessing &lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; LabelEncoder&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 범주형 데이터&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;categories &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;low&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;medium&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;high&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 레이블 인코더 생성 및 피팅&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;label_encoder &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; LabelEncoder&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;label_encoded &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; label_encoder&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;fit_transform&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;categories&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;label_encoded&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; label_encoded&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;[1 2 0]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;하지만 dtype를 사용하면 좀 더 손쉽게 범주형 데이터를 수치형으로 변경할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# dtype을 이용해 범주형 데이터를 수치형으로 변환&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;category_series &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Series&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;low&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;medium&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;high&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; dtype&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;category&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;category_encoded &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; category_series&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;cat&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;codes&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;category_encoded&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;category_encoded&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 좌측은 index, 우측은 값&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;0    1&lt;/p&gt;
+&lt;p&gt;1    2&lt;/p&gt;
+&lt;p&gt;2    0&lt;/p&gt;
+&lt;p&gt;dtype: int8&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;라벨 인코딩과 시리즈의 dtype 변경방법모두 문자열을 알파뱃순으로 숫자를 할당하기 때문에 high가 0이 됩니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;이런 방식의 인코딩을 하는 것은 원한 인코딩고 간이 범주데이터가 가지고 잇는 순서나 중요도를 없애고 개별 데이터로서 보기위한 변환이기 때문임을 명심해야 합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;정수형-데이터를-부동소수점으로-변환하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#정수형-데이터를-부동소수점으로-변환하기&#34;&gt;#&lt;/a&gt; 정수형 데이터를 부동소수점으로 변환하기&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;일반적인 정수형 데이터를 시리즈로 만들면 단순히 int64 type의 데이터가 됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 정수형 데이터 입력&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;integer_series &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Series&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;integer_series&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;,&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; integer_series&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;,&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;integer_series&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;, 1 ,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;이러한 데이터를 생성할 때 dtype를 float로 지정하면 소수점을 가진 숫자 데이터로 일괄 변경이 가능합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# dtype을 이용해 정수형 데이터를 부동소수점으로 변환&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;float_series &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Series&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; dtype&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;float&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;float_series&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;,&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; float_series&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;,&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;float_series&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;, 1.0 ,&lt;/p&gt;
+&lt;h3 id=&#34;bool-타입-시리즈의-빠른-생성&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#bool-타입-시리즈의-빠른-생성&#34;&gt;#&lt;/a&gt; bool 타입 시리즈의 빠른 생성&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;보통 시리즈로 bool타입의 데이터를 만들려면 문자열로 입력한뒤에 각 문자에 T/F를 맵핑해 줘야 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 불리언 데이터를 문자열로 입력&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;boolean_series &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Series&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;True&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;False&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;True&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;False&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;boolean_series&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 문자열 데이터를 불리언 타입으로 변환&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;boolean_series &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; boolean_series&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;map&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;True&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;False&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;False&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;boolean_series&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;하지만 dtype를 사용한다면 아래와 같이 1줄의 코드로 bool타입의 데이터를 만들 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 직접 불리언 타입으로 데이터 생성&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;boolean_series &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;Series&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token boolean&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;False&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;False&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; dtype&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;bool&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;boolean_series&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; boolean_series&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;True&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;️-outro&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#️-outro&#34;&gt;#&lt;/a&gt; ✔️ Outro.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;판다스의 시리즈에 대해 공부하다가 우연히 발견하게 된 효율적인 데이터 변환 및 생성 방법에 대해 정리를 해봤습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;사실 맨 처음 제공한 숫자로된 str 데이터를 만드는 방법을 제외하고는 통상적인 dtype을 쓰는 방법에 대한 소개에 더 가까운 글이 되었습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;하지만 단순히 각 형태에 맞는 format으로 시리즈 데이터를 생성하면 대체로 그 타입에 맞는 데이터들이 생성되는 것에 비해 몇몇 데이터는 그러한 점이 적용되지 않습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;이번 포스팅에서 예시로 든 것들이 그런 데이터 타입의 대표적인 예시들이라 볼 수 있습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://kimgabe.github.io/2023/11/21/ydata-profiling/</guid>
+            <title>[Cheat Sheet] &#39;코드 한줄로 EDA를 하는 도구가 있다면?!</title>
+            <link>https://kimgabe.github.io/2023/11/21/ydata-profiling/</link>
+            <pubDate>Tue, 21 Nov 2023 00:00:00 +0900</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;summary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#summary&#34;&gt;#&lt;/a&gt; 🚦 Summary&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;이번 포스팅에서는 데이터 분석 및 AI모델링의 가장 기본적 단계인 EDA를 손쉽게 하기 위한 도구를 소개합니다.&lt;/li&gt;
+&lt;li&gt;샘플 데이터로는 seaborn의 대표적 예제데이터인 planets.csv 파일을 사용합니다.&lt;/li&gt;
+&lt;li&gt;이 라이브러리를 사용하면 수십줄에 달하는 EDA 코드를 딱 1줄의 코드로 구현할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;전통적인 EDA 방법과의 비교를 위해 실제 데이터를 불러와서 EDA 하는 코드를 직접 작성했습니다.&lt;/li&gt;
+&lt;li&gt;대용량의 파일에 대해서는 리포트 생성에 다소 많은 시간이 필요하지만, 간단하게 데이터를 살펴보고 분석 방향 및 데이터 전처리 방향을 설정하기에 유용한 도구라 생각합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;intro&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#intro&#34;&gt;#&lt;/a&gt; 📌Intro&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;일반적으로 EDA를 함에 있어 가장 많이 활용되는 것은 Pandas입니다.&lt;/li&gt;
+&lt;li&gt;보통 이 pandas를 통해 데이터의  &lt;code&gt;info()&lt;/code&gt; 를 살펴보거나,  &lt;code&gt;describe()&lt;/code&gt; 를 통해 각종 통계량을 살펴보기도 하며, 데이터의 결측치나 correlation 등을 살펴보며 데이터의 특성과 패턴을 파악하고 분석 방향을 잡는데 활용합니다.&lt;/li&gt;
+&lt;li&gt;포트폴리오 등을 만들때는 데이터에 대한 EDA를 점진적으로 하면서 통계량을 확인해서 의미를 유추해보고, 데이터의 성질을 파악한 뒤, 전처리를 거쳐 각 데이터를 시각화 하는 과정을 실습해 보는 것은 매우 좋은 일입니다. 다만 이는 많은 시간을 소모하는 일이기도 합니다.&lt;/li&gt;
+&lt;li&gt;이러한 EDA과정을 (기존의 방식보다는 덜 세세할 수 있지만) 간단한 코드 몇줄로 빠른 시간안에 할 수 있도록 도와주는 module이 ydata profiling입니다. 이미 공개된지는 좀 오래된 툴이지만 손쉽게 사용할 수 있다는 점에서 강점이 있고, 빠르게 데이터를 살펴볼때 유용하다 생각합니다.&lt;/li&gt;
+&lt;li&gt;ydata profiling은 Interactive한 결과를 통해 데이터의 전체적인 overview, correlation이 높은 feature, feature별 결측치 정도 등을 즉각적으로 확인할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;작업에-필요한-기본-라이브러리-불러오기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#작업에-필요한-기본-라이브러리-불러오기&#34;&gt;#&lt;/a&gt; 작업에 필요한 기본 라이브러리 불러오기&lt;/h3&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 기초 전처리&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; pandas &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; pd&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 컬럼 전체 확인 가능하도록 출력 범위 설정&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;set_option&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;display.max_columns&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;500&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;set_option&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;display.width&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10000&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 불필요한 경고 표시 생략&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; warnings&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;warnings&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;filterwarnings&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;action &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;ignore&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# pandas 결과값의 표현 범위 소수점 2자리수로 변경&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;options&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;display&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;float_format &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;&amp;#123;:.2f&amp;#125;&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;format&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 파일 로드위한 directory 확인 및 현재 경로로 설정&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; os&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; os&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;getcwd&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;os&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;chdir&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;normal-pandas-with-eda&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#normal-pandas-with-eda&#34;&gt;#&lt;/a&gt; Normal Pandas with EDA&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Intro에서 말한 가장 기본적인 EDA 기법들 몇가지를 사용해 EDA를 진행해보겠습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;실질적인 비교를 위해서는 시각화 코드도 몇개 넣어 보는게 좋을 것 같습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;데이터는 seaborn을 학습하기 위한 샘플 코드로 유명한 planets.csv 파일을 사용해 보겠습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;planets 데이터는 외계행성에 대한 관측데이터를 포함하는 데이터로, 행성이름, 발견방법, 연도, 질량, 거리, 궤도주기 등에 대한 정보를 담고 있는 데이터셋 입니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;일반적으로 시각화를 위한 다양한 형태의 데이터를 가지고 있고, seaborn의 대표적인 예제 데이터중 하나입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; pandas &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; pd&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;planets_data&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;read_csv&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;https://raw.githubusercontent.com/mwaskom/seaborn-data/master/planets.csv&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;기본정보-및-통계요약-확인&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#기본정보-및-통계요약-확인&#34;&gt;#&lt;/a&gt; 기본정보 및 통계요약 확인&lt;/h3&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;display&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;planets_data&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;info&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;display&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;planets_data&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;describe&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;planets_data&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;head&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;RangeIndex: 1035 entries, 0 to 1034&lt;br /&gt;
+Data columns (total 6 columns):&lt;/p&gt;
+&lt;h1 id=&#34;column-non-null-count-dtype&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#column-non-null-count-dtype&#34;&gt;#&lt;/a&gt; Column          Non-Null Count  Dtype&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;p&gt;0   method          1035 non-null   object&lt;br /&gt;
+1   number          1035 non-null   int64&lt;br /&gt;
+2   orbital_period  992 non-null    float64&lt;br /&gt;
+3   mass            513 non-null    float64&lt;br /&gt;
+4   distance        808 non-null    float64&lt;br /&gt;
+5   year            1035 non-null   int64&lt;br /&gt;
+dtypes: float64(3), int64(2), object(1)&lt;br /&gt;
+memory usage: 48.6+ KB&lt;/p&gt;
+&lt;p&gt;None&lt;/p&gt;
+&lt;h3 id=&#34;method-컬럼의-빈도수-그래프countplot&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#method-컬럼의-빈도수-그래프countplot&#34;&gt;#&lt;/a&gt; &#39;method&#39; 컬럼의 빈도수 그래프(countplot)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;각 행성발견 방법별 빈도수를 시각화 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; matplotlib&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;pyplot &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; plt&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; seaborn &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; sns&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;figure&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;figsize&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;sns&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;countplot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;y&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;method&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; data&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;planets_data&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;title&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;Frequency of Discovery Methods&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;show&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/z9rYlwd.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;year-컬럼별-발견된-행성의-수bar-plot&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#year-컬럼별-발견된-행성의-수bar-plot&#34;&gt;#&lt;/a&gt; &#39;year&#39; 컬럼별 발견된 행성의 수(bar plot)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;연도별로 발견된 행성의 수를 막대 그래프로 시각화 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;discovery_years &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; planets_data&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;year&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;value_counts&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;sort_index&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;figure&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;figsize&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;discovery_years&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;plot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;kind&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;bar&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;title&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;Number of Planets Discovered Each Year&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;xlabel&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;Year&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;ylabel&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;Number of Planets Discovered&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;show&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/Gezxovb.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;위와 같이 데이터의 개요를 살펴보고, 원하는 컬럼에 대해 시각화를 하기위해 수십줄의 코드를 작성해야만 합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;물론 이를 위해 소요되는 시간도 만만치 않습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;반면에 ydata profiling은 어떨까요?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;fancy-pandas-with-eda&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#fancy-pandas-with-eda&#34;&gt;#&lt;/a&gt; Fancy Pandas with EDA&lt;/h2&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# install ydata profiling &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# !pip install ydata-profiling&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;데이터-불러오기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#데이터-불러오기&#34;&gt;#&lt;/a&gt; 데이터 불러오기&lt;/h3&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 라이브러리 불러오기&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; ydata_profiling&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; ydata_profiling &lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; ProfileReport&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;주요-기능-설명&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#주요-기능-설명&#34;&gt;#&lt;/a&gt; 주요 기능 설명&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;리포트 생성하기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;분석할 데이터프레임명에  &lt;code&gt;profile_report()&lt;/code&gt;  를 사용해 프로파일링한 리포트를 생성할 수 있습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;이 경우 즉각적으로 리포트 결과가 출력됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;또는 ProfileReport(df, title = &#39;타이틀 입력&#39;) 의 방식으로 리포트를 생성할 수 있습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;생성된 리포트는  &lt;code&gt;profile.to_widgets()&lt;/code&gt;  를 통해 확인할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;그 외 출력되는 리포트에 대한 각각의 기능은 아래와 같습니다.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;개요(Overview)&lt;/strong&gt;: 데이터셋의 기본 정보, 변수의 개수, 누락된 값의 수, 메모리 사용량 등을 제공합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;변수(Variables)&lt;/strong&gt;: 각 변수에 대한 상세 분석을 제공합니다. 이에는 통계적 요약, 분포, 고유한 값들의 리스트, 누락된 값의 수 등이 포함됩니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;상호작용(Interactions)&lt;/strong&gt;: 변수 간의 상호작용을 시각적으로 보여줍니다. 예를 들어, 산점도를 통해 두 변수 간의 관계를 확인할 수 있습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;상관 관계(Correlations)&lt;/strong&gt;: 변수 간의 상관 관계를 다양한 방법(피어슨, 스피어만 등)으로 계산하고 시각화합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;누락된 데이터(Missing values)&lt;/strong&gt;: 데이터의 누락된 부분과 그 패턴을 분석하고 시각화합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;샘플(Sample)&lt;/strong&gt;: 데이터셋의 헤드와 테일, 즉 처음과 끝 부분의 샘플을 제공합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 즉시 생성 예시&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;planets_data&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;profile_report&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;Summarize dataset:   0%|          | 0/5 [00:00&lt;/p&gt;
+&lt;p&gt;Generate report structure:   0%|          | 0/1 [00:00&lt;/p&gt;
+&lt;p&gt;Render HTML:   0%|          | 0/1 [00:00&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;생성파일을 html로 저장할 수 도 있습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;코드창에 출력된 결과가 보기 다소 불편하다거나, 외부에 공유가 필요하다면 html파일을 만들어서 사용하는 것이 유용합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;생성된 html파일은 작업중인 노트북의 경로아래 저장됩니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;planets_data&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;profile_report&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;to_file&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;your_report.html&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;Summarize dataset:   0%|          | 0/5 [00:00&lt;/p&gt;
+&lt;p&gt;Generate report structure:   0%|          | 0/1 [00:00&lt;/p&gt;
+&lt;p&gt;Render HTML:   0%|          | 0/1 [00:00&lt;/p&gt;
+&lt;p&gt;Export report to file:   0%|          | 0/1 [00:00&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;정석에 따라 다양한 EDA를 하기위한 코드를 작성하는 것보다 훨씬 빠르게 데이터에 대한 다양한 EDA를 할 수 있음을 확인했습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;️-outro&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#️-outro&#34;&gt;#&lt;/a&gt; ✔️ Outro&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ydata-profiling은 데이터를 분석하기에 앞서 필수과정인 EDA를 빠르게 진행하기 위한 강력한 도구입니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;다만 대용량의 데이터에서 대해서는 처리 시간이 길어 질 수 있으니 이 점을 고려해야 합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;하지만 이 라이브러리를 잘 이용한다면 데이터에 대한 포괄적인 이해를 할 수 있고, 보고서의 각 탭을 통해 데이터의 전반적인 특징, 잠재적인 문제점을 파악해 데이터 분석 또는 모델 설계를 위한 방향성을 빠르게 잡을 수 있습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Resource : &lt;a href=&#34;https://towardsdatascience.com/exploring-your-data-with-just-1-line-of-python-4b35ce21a82d&#34;&gt;Exploring your data with just 1 line of Python&lt;/a&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

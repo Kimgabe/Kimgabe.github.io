@@ -1,0 +1,706 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Kim Gabe&#39;s DS Blog • Posts by &#34;범주형 변수,모델 학습,숫자 변환,더미화,연속형 치환,차원의 저주,데이터 분석,지도학습,인코딩,머신러닝&#34; tag</title>
+        <link>https://Kimgabe.github.io</link>
+        <description>Kim Gabe의 블로그입니다. 데이터 사이언스, AI, 머신러닝 학습 과정을 기록합니다.</description>
+        <language>en</language>
+        <pubDate>Fri, 18 Jul 2025 00:00:00 +0900</pubDate>
+        <lastBuildDate>Fri, 18 Jul 2025 00:00:00 +0900</lastBuildDate>
+        <category>python</category>
+        <category>ndarray</category>
+        <category>numpy vectorization</category>
+        <category>메모리</category>
+        <category>np.array</category>
+        <category>ndarray 데이터타입</category>
+        <category>np.arange</category>
+        <category>np.ones</category>
+        <category>np.zeros</category>
+        <category>np.empty</category>
+        <category>np.full</category>
+        <category>np.eye</category>
+        <category>np.linspace</category>
+        <category>reshape</category>
+        <category>데이터 통합,pandas,DataFrame,concat,os,listdir,CSV 파일,데이터 병합,데이터 프레임,데이터 분석,데이터 처리,데이터 정렬,빈 데이터 프레임,파일 시스템,경고 메시지</category>
+        <category>feature engineering</category>
+        <category>prediction</category>
+        <category>regression. DACON</category>
+        <category>시계열</category>
+        <category>카드매출</category>
+        <category>예측</category>
+        <category>KNN</category>
+        <category>RandomForestRegressor</category>
+        <category>LightGBM</category>
+        <category>머신러닝</category>
+        <category>딥러닝</category>
+        <category>random 모듈</category>
+        <category>np.random.rand</category>
+        <category>np.random.randn</category>
+        <category>np.random.randint</category>
+        <category>np.random.seed</category>
+        <category>랜덤을 적용하면서도 일정한 값 만들기</category>
+        <category>np.random.choice</category>
+        <category>np.random.uniform</category>
+        <category>np.random.normal</category>
+        <category>indexing</category>
+        <category>1차원 벡터 인덱싱</category>
+        <category>index로 특정 위치 값 바꾸기</category>
+        <category>index의 값 바꾸기</category>
+        <category>2차원 행렬 인덱싱</category>
+        <category>3차원 텐서 인덱싱</category>
+        <category>벡터</category>
+        <category>행렬</category>
+        <category>텐서</category>
+        <category>슬라이싱</category>
+        <category>1차원 벡터 슬리이싱</category>
+        <category>2차원 행렬 슬라이싱</category>
+        <category>3차원 텐서 슬라이싱</category>
+        <category>판다스,데이터 병합,DataFrame,merge,key 변수,customerID,read_csv,데이터 관리,SQL Join,전처리</category>
+        <category>Python,pandas,데이터 병합,날짜 포맷,apply 함수,merge 함수,데이터프레임,Series,경고 필터링,파일 로드,데이터 접근</category>
+        <category>ndarray 형태바꾸기</category>
+        <category>np.ravel</category>
+        <category>np.flatten</category>
+        <category>np.reshape</category>
+        <category>array의 차원바꾸기</category>
+        <category>이미지 벡터화</category>
+        <category>np.add</category>
+        <category>np.divide</category>
+        <category>np.mod</category>
+        <category>np.mean</category>
+        <category>np.median</category>
+        <category>np.max</category>
+        <category>np.min</category>
+        <category>np.argmax</category>
+        <category>np.argmin</category>
+        <category>np.var</category>
+        <category>np.std</category>
+        <category>np.sum</category>
+        <category>np.consum</category>
+        <category>np.any</category>
+        <category>np.all</category>
+        <category>np.where</category>
+        <category>axis</category>
+        <category>numpy 축</category>
+        <category>1차원 axis</category>
+        <category>2차원 axis</category>
+        <category>3차원 axis</category>
+        <category>데이터 분석,거리 행렬,병합,지하철역,경도,위도,pandas,scipy,haversine,argsort,DataFrame</category>
+        <category>판다스,데이터 병합,groupby,DataFrame,Series,merge,replace,고객ID,구매금액,인덱스,CSV 파일,인코딩,머신러닝,통계량,조건부 통계량</category>
+        <category>판다스,데이터 병합,Series,DataFrame,to_dict,replace,merge,ref_df,인덱스,행정구역,엑셀 파일,CSV 파일,인코딩,add_prefix</category>
+        <category>결측치,데이터 전처리,pandas,dropna,isnull,Train data,Test data,머신러닝,데이터프레임,train_test_split,결측 레코드,결측치 비율,결측치 삭제,결측치 처리,결측치 문제,결측치 대체</category>
+        <category>broadcasting</category>
+        <category>브로드캐스팅</category>
+        <category>서로다른 shape의 numpy끼리 연산하는 방법</category>
+        <category>scalar</category>
+        <category>상수</category>
+        <category>boolean indexing</category>
+        <category>다중조건</category>
+        <category>데이터 전처리,sklearn,결측치,SimpleImputer,train_test_split,DataFrame,상관 계수,범주형 변수,연속형 변수,전처리 모델,대표값 대체,결측치 대체법,전략,평균,최빈값</category>
+        <category>선형대수</category>
+        <category>linalg</category>
+        <category>np.linalg</category>
+        <category>행렬내적구하기</category>
+        <category>전치행렬구하기</category>
+        <category>역행렬</category>
+        <category>정방행렬</category>
+        <category>항등행렬</category>
+        <category>시계열,결측치,대체,DataFrame,fillna,ffill,bfill,Python,pandas,데이터프레임,train_test_split</category>
+        <category>그래프 그리기</category>
+        <category>line plot</category>
+        <category>scatter plot</category>
+        <category>그래프에 주석추가하기</category>
+        <category>grid 추가하기</category>
+        <category>subplot으로 그래프 여러개 그리기</category>
+        <category>histogram그리기</category>
+        <category>결측치,KNN Imputer,예측 모델,데이터 처리,sklearn,머신러닝,데이터프레임,결측 대체,모델 학습,파라미터,상관 계수</category>
+        <category>로또 번호 자동생성기</category>
+        <category>문제풀이</category>
+        <category>pi</category>
+        <category>Mote Carlo</category>
+        <category>원주율구하기</category>
+        <category>범주형 변수,모델 학습,숫자 변환,더미화,연속형 치환,차원의 저주,데이터 분석,지도학습,인코딩,머신러닝</category>
+        <category>EDA</category>
+        <category>스타벅스</category>
+        <category>이디야</category>
+        <category>folium</category>
+        <category>웹크롤링</category>
+        <category>google api</category>
+        <category>좌표추출</category>
+        <category>데이터분석</category>
+        <category>시각화</category>
+        <category>EDA - matplotlib - kaggle - dataset - dendrogram - correlation - preprocessing - folium</category>
+        <category>series</category>
+        <category>pandas</category>
+        <category>판다스</category>
+        <category>시리즈</category>
+        <category>데이터업데이트</category>
+        <category>데이터접근</category>
+        <category>인덱스재사용</category>
+        <category>데이터 전처리,모델 튜닝,하이퍼 파라미터,결측치 처리,범주형 변수,라벨 처리,변수 분포,클래스 불균형,특징 선택,파라미터 그리드,스케일링,머신러닝,데이터 통합,이상치,상관관계</category>
+        <category>전처리</category>
+        <category>size</category>
+        <category>shape</category>
+        <category>len</category>
+        <category>count</category>
+        <category>value_counts</category>
+        <category>mean</category>
+        <category>max</category>
+        <category>min</category>
+        <category>sum</category>
+        <category>median</category>
+        <category>abs</category>
+        <category>cumsum</category>
+        <category>cumprod</category>
+        <category>std</category>
+        <category>var</category>
+        <category>mode</category>
+        <category>corr</category>
+        <category>astype</category>
+        <category>데이터형변환</category>
+        <category>산술연산</category>
+        <category>인덱싱</category>
+        <category>head</category>
+        <category>tail</category>
+        <category>기초</category>
+        <category>Pandas</category>
+        <category>Series</category>
+        <category>local</category>
+        <category>iloc</category>
+        <category>데이터변환</category>
+        <category>리스트</category>
+        <category>딕셔너리</category>
+        <category>넘파이배열</category>
+        <category>List</category>
+        <category>dict</category>
+        <category>numpy_array</category>
+        <category>slicing</category>
+        <category>python - 시각화 - visualization - matplotlib - canvas - subplot - title - fontsize - tick - x축 - y축 - legend - marker - linestyle - color - alpha - 투명도 - grid - 이미지저장</category>
+        <category>visualization</category>
+        <category>matplotlib</category>
+        <category>bar plot</category>
+        <category>막대그래프</category>
+        <category>barhplot</category>
+        <category>가로막대 그래프</category>
+        <category>꺾은선 그래프</category>
+        <category>area plot</category>
+        <category>면적 그래프</category>
+        <category>histogram</category>
+        <category>히스토그램</category>
+        <category>pie chart</category>
+        <category>파이차트</category>
+        <category>box plot</category>
+        <category>3D plot</category>
+        <category>imshow</category>
+        <category>classification</category>
+        <category>헬스케어</category>
+        <category>의료데이터</category>
+        <category>kaggle</category>
+        <category>logistic regression</category>
+        <category>XGBoost</category>
+        <category>feature importance</category>
+        <category>python basic</category>
+        <category>데이터타입</category>
+        <category>주석</category>
+        <category>indent</category>
+        <category>IndentationError</category>
+        <category>연산자</category>
+        <category>escape string</category>
+        <category>문자열자르기</category>
+        <category>문자열 slicing</category>
+        <category>대문자변환</category>
+        <category>upper()</category>
+        <category>소문자변환</category>
+        <category>lower()</category>
+        <category>문자바꾸기</category>
+        <category>replace()</category>
+        <category>format()</category>
+        <category>문자 자르기</category>
+        <category>split()</category>
+        <category>list</category>
+        <category>튜플</category>
+        <category>tuple</category>
+        <category>append</category>
+        <category>extend</category>
+        <category>remove</category>
+        <category>pop</category>
+        <category>index</category>
+        <category>replace</category>
+        <category>in</category>
+        <category>list정렬</category>
+        <category>튜플 indexing</category>
+        <category>튜플 slicing</category>
+        <category>list와 tuple의 공통점</category>
+        <category>list와 tuple의 차이점</category>
+        <category>mutable</category>
+        <category>immutable</category>
+        <category>딕셔러니</category>
+        <category>dictionary</category>
+        <category>set</category>
+        <category>update</category>
+        <category>del</category>
+        <category>clear</category>
+        <category>get()</category>
+        <category>union()</category>
+        <category>intersection()</category>
+        <category>issubset()</category>
+        <category>교집합</category>
+        <category>합집합</category>
+        <category>차집합</category>
+        <category>부분집합</category>
+        <category>조건문</category>
+        <category>if문</category>
+        <category>if</category>
+        <category>elif</category>
+        <category>else</category>
+        <category>조건문 논리</category>
+        <category>조건문 우선순위</category>
+        <category>다중조건문</category>
+        <category>중첩조건문</category>
+        <category>nested condition</category>
+        <category>반복문</category>
+        <category>loop</category>
+        <category>for문</category>
+        <category>while문</category>
+        <category>무한루프</category>
+        <category>break</category>
+        <category>continue</category>
+        <category>dict 아이템출력하기</category>
+        <category>for문에 index사용하기</category>
+        <category>2중 for문</category>
+        <category>loop중첩</category>
+        <category>구구단 출력하기</category>
+        <category>itertools</category>
+        <category>product()</category>
+        <category>combination()</category>
+        <category>permutation()</category>
+        <category>zip()과 itertools.produce()차이</category>
+        <category>list comprehension</category>
+        <category>for문 한줄로 작성하기</category>
+        <category>dictionary comprehension</category>
+        <category>함수</category>
+        <category>def</category>
+        <category>내장함수</category>
+        <category>parameter</category>
+        <category>argument</category>
+        <category>default parameter</category>
+        <category>keyword parameter</category>
+        <category>return</category>
+        <category>multiple return</category>
+        <category>전역변수</category>
+        <category>지역변수</category>
+        <category>local variable</category>
+        <category>global variable</category>
+        <category>가변인자</category>
+        <category>argument parameter</category>
+        <category>args</category>
+        <category>kwargs</category>
+        <category>lambda</category>
+        <category>lambda로 sort하기</category>
+        <category>lambda로 filtering하기</category>
+        <category>lambda로 mapping하기</category>
+        <category>lambda로 reducing하기</category>
+        <category>자주쓰는 lambda기능</category>
+        <category>패키지</category>
+        <category>모듈</category>
+        <category>패키지와 모듈&amp;함수 관계</category>
+        <category>import</category>
+        <category>특정모듈만 불러오기</category>
+        <category>alias</category>
+        <category>별명</category>
+        <category>별명 지어주기</category>
+        <category>class</category>
+        <category>객체</category>
+        <category>상속</category>
+        <category>object</category>
+        <category>instance</category>
+        <category>class선언</category>
+        <category>method</category>
+        <category>__init__</category>
+        <category>self인자</category>
+        <category>method정의</category>
+        <category>method type</category>
+        <category>instance method</category>
+        <category>class method</category>
+        <category>class inheritance</category>
+        <category>method override</category>
+        <category>method재정의</category>
+        <category>부모클래스</category>
+        <category>자식클래스</category>
+        <category>super</category>
+        <category>정규표현식</category>
+        <category>re</category>
+        <category>preprocessing</category>
+        <category>search</category>
+        <category>metacharacters</category>
+        <category>abck</category>
+        <category>abc.^</category>
+        <category>a-d</category>
+        <category>0-9</category>
+        <category>a-z</category>
+        <category>A-Z</category>
+        <category>a-zA-Z0-9</category>
+        <category>^0-9</category>
+        <category>반복패턴</category>
+        <category>기본패턴</category>
+        <category>\d</category>
+        <category>\D</category>
+        <category>\s</category>
+        <category>\S</category>
+        <category>\w</category>
+        <category>\W</category>
+        <category>\</category>
+        <category>\\</category>
+        <category>grouping</category>
+        <category>미니멈 매칭</category>
+        <category>non-greedy way</category>
+        <category>findall</category>
+        <category>sub</category>
+        <category>compile</category>
+        <category>GitHub</category>
+        <category>Resume</category>
+        <category>automated</category>
+        <category>Profile</category>
+        <category>README</category>
+        <category>career</category>
+        <category>이력서</category>
+        <category>깃허브</category>
+        <category>프로필</category>
+        <category>자동작성</category>
+        <category>GitHub Prifile Readme Generator</category>
+        <category>핸즈온 머신러닝</category>
+        <category>ML</category>
+        <category>DL</category>
+        <category>공부방법</category>
+        <category>도서</category>
+        <category>리뷰</category>
+        <category>문자열 다루기</category>
+        <category>islower()</category>
+        <category>isupper()</category>
+        <category>escape문자</category>
+        <category>산술연산자</category>
+        <category>덧셈식 출력하기</category>
+        <category>문자열 붙여서 출력하기</category>
+        <category>문자열 돌리기</category>
+        <category>홀짝 구분하기</category>
+        <category>문자열 겹쳐쓰기</category>
+        <category>n의 배수</category>
+        <category>공배수</category>
+        <category>홀짝에 따라 다른값 반환하기</category>
+        <category>조건 문자열</category>
+        <category>flag에 따라 다른값 반환하기</category>
+        <category>문자열 섞기</category>
+        <category>문자 리스트를 문자열로 변환하기</category>
+        <category>문자열 곱하기</category>
+        <category>더 크게 합치기</category>
+        <category>두 수의 연산값 합치기</category>
+        <category>마지막 두 원소</category>
+        <category>수 조작하기 1</category>
+        <category>수 조작하기 2</category>
+        <category>수열과 구간 쿼리 3</category>
+        <category>수열과 구간 쿼리 2</category>
+        <category>코드 처리하기</category>
+        <category>등차수열의 특정한 항만 더하기</category>
+        <category>주사위게임2</category>
+        <category>원소들의 곱과 합</category>
+        <category>이어 붙인 수</category>
+        <category>수열과 구간쿼리 4</category>
+        <category>배열만들기2</category>
+        <category>카운트 업</category>
+        <category>콜라츠 수열 만들기</category>
+        <category>배열만들기 4</category>
+        <category>간단한 논리 연산</category>
+        <category>주사위 게임 3</category>
+        <category>글자 이어 붙여 문자열 만들기</category>
+        <category>9로 나눈 나머지</category>
+        <category>문자열 여러번 뒤집기</category>
+        <item>
+            <guid isPermalink="true">https://kimgabe.github.io/2025/07/18/11-%EB%B2%94%EC%A3%BC%ED%98%95-%EB%B3%80%EC%88%98%EB%AC%B8%EC%A0%9C-%EB%B2%94%EC%A3%BC%ED%98%95-%EB%B3%80%EC%88%98-%EC%B2%98%EB%A6%AC-generated-version1/</guid>
+            <title>범주형 변수의 효과적인 변환과 모델 학습 방법</title>
+            <link>https://kimgabe.github.io/2025/07/18/11-%EB%B2%94%EC%A3%BC%ED%98%95-%EB%B3%80%EC%88%98%EB%AC%B8%EC%A0%9C-%EB%B2%94%EC%A3%BC%ED%98%95-%EB%B3%80%EC%88%98-%EC%B2%98%EB%A6%AC-generated-version1/</link>
+            <category>범주형 변수,모델 학습,숫자 변환,더미화,연속형 치환,차원의 저주,데이터 분석,지도학습,인코딩,머신러닝</category>
+            <pubDate>Fri, 18 Jul 2025 00:00:00 +0900</pubDate>
+            <description><![CDATA[ &lt;p&gt;데이터 분석에서 범주형 변수를 다루는 것은 중요한 과제입니다. 이 글에서는 범주형 변수를 효과적으로 숫자로 변환하고, 모델 학습에 적용하는 다양한 방법을 소개합니다. 더미화와 연속형 치환의 장단점을 비교하며, 실제 데이터에 적용하는 예시를 통해 이해를 돕습니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;주요내용&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터 분석에서 &lt;strong&gt;범주형 변수&lt;/strong&gt;의 올바른 처리는 모델의 성능에 큰 영향을 미칩니다. 📊&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;더미화&lt;/strong&gt;와 &lt;strong&gt;연속형 변수로의 치환&lt;/strong&gt;은 범주형 변수를 다루는 두 가지 주요 방법입니다. 🔑&lt;/li&gt;
+&lt;li&gt;더미화는 변수를 0과 1의 이진값으로 변환하는 반면, 연속형 치환은 변수를 실제 레이블과의 관계를 반영하는 연속값으로 변환합니다. 🔄&lt;/li&gt;
+&lt;li&gt;각 방법은 상황에 따라 장단점이 있으며, 데이터의 특성과 모델의 요구사항에 맞게 적절히 선택해야 합니다. ✅&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;범주형-변수-문제&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#범주형-변수-문제&#34;&gt;#&lt;/a&gt; 범주형 변수 문제&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터에  &lt;code&gt;범주형 변수&lt;/code&gt; 가 포함되어 있어, 대다수의 지도학습 모델이 학습되지 않거나,  &lt;code&gt;비정상적으로&lt;/code&gt;  학습되는 문제&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;예시)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;str타입의 범주형 변수가 포함되면 대다수의 지도 학습 모델 자체가 학습이 되지 않는다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;int혹은 float 타입의 범주형 변수는 (타이타닉의 Pclass) 모델 학습은 되지만 비정상적으로 학습되는 것이 대부분이다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;적절한 모델학습을 위해서  &lt;code&gt;범주형 변수는 반드시 숫자로 변환&lt;/code&gt; 되어야 한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;하지만 그 변환을 분석가가 임의로 설정하는 것은 부적절하다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;예시)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;- 종교 변수가 있을 때, 천주교 =1, 기독교=2, 불교=3 이라고 하는 경우
+
+- (가정) 불교는 천주교의 3배인 것이 아니지만, 숫자로 임의 변경이 되어 모델이 잘못된 인식을 할 수 있다.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;특히  &lt;code&gt;코드화된 범주형 변수&lt;/code&gt; 는 적절한 숫자로 변환을 해줘야 한다&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;범주형-변수-판별-방법&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#범주형-변수-판별-방법&#34;&gt;#&lt;/a&gt; 범주형 변수 판별 방법&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;범주형 변수는  &lt;code&gt;상태 공간의 크기가 유한한&lt;/code&gt;  변수를 의미합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;반드시 도메인 지식이나, 변수의 상태공간을 바탕으로 판별해야 합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;특히,  &lt;code&gt;int 혹은 float 타입의 변수는 무조건 연속형 변수다&lt;/code&gt; 라는 고정관념에 주의해야 합니다.&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;e.g)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;월(month)는 숫자이지만, 범주형 변수입니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;타이타닉의 Pclass는 unique() 값이 1,2,3으로 범주형 변수입니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;관련-문법-seriesunique-with-len&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#관련-문법-seriesunique-with-len&#34;&gt;#&lt;/a&gt; 관련 문법 : Series.unique() with len()&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Series에 포함된 고유한 값을 ndarray 형태로 반환해주는 함수&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;주로, 상태 공간을 확인하는데 사용한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/74717033/134630539-b4aa3fb3-9ab9-4c31-bdd5-8a0dad703b77.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;범주형-변수-변환-방법을-선택하는-기준&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#범주형-변수-변환-방법을-선택하는-기준&#34;&gt;#&lt;/a&gt; 범주형 변수 변환 방법을 선택하는 기준&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;범주형 변수의 크기를 판별했을 때&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;상태 공간의 크기가 작다면 =&amp;gt; Dummy화(방법1)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;상태 공간의 크기가 크다면 =&amp;gt; 연속형 변수로 치환(방법2)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;이 코드는  &lt;code&gt;os&lt;/code&gt; 와  &lt;code&gt;pandas&lt;/code&gt;  라이브러리를 임포트하고, Python에서 발생할 수 있는 불필요한 경고 메시지를 필터링하여 표시하지 않도록 설정합니다. 또한, 현재 작업 중인 디렉토리의 경로를 얻어와서 이를 파일 로드 경로로 설정합니다. 이를 통해 사용자는 현재 작업 중인 디렉토리 내의 파일을 쉽게 접근하고 사용할 수 있습니다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; os&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; pandas &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; pd&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 불필요한 경고 표시를 생략합니다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; warnings&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;warnings&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;filterwarnings&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;action &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;ignore&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;%&lt;/span&gt;pwd &lt;span class=&#34;token comment&#34;&gt;# 현재 작업 경로를 변수 a에 할당합니다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;os&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;chdir&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 현재 작업 경로로 파일 로드 경로를 설정합니다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;데이터 로드&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;중고차 품질을 판단하는 실습용 data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;이 함수는  &lt;code&gt;pandas&lt;/code&gt;  라이브러리의  &lt;code&gt;read_csv&lt;/code&gt;  함수를 사용하여  &lt;code&gt;&amp;quot;car-good.csv&amp;quot;&lt;/code&gt;  파일을 읽고, 결과를  &lt;code&gt;df&lt;/code&gt;  변수에 저장합니다.  &lt;code&gt;pandas&lt;/code&gt; 는 데이터 분석과 조작을 위한 고수준의 Python 라이브러리로, CSV 파일을 읽는 것은 데이터 분석 작업에서 흔히 수행되는 초기 단계입니다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# car-good.csv 파일을 pandas 라이브러리를 사용하여 읽어옵니다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;df &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;read_csv&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;car-good.csv&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;code&gt;df.head()&lt;/code&gt;  함수는 데이터프레임에서 처음 다섯 행을 반환합니다. 이 함수는 데이터의 구조를 빠르게 확인할 때 유용하며, 인자를 전달하여 반환할 행의 수를 조정할 수도 있습니다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;df&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;head&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 데이터프레임의 처음 다섯 행을 반환합니다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;본 코드는 데이터프레임  &lt;code&gt;df&lt;/code&gt; 에서 특징(features)과 라벨(labels)을 분리하는 과정을 보여줍니다.  &lt;code&gt;df.drop(&#39;Class&#39;, axis=1)&lt;/code&gt; 을 사용하여 &#39;Class&#39; 열을 제외한 모든 열을  &lt;code&gt;X&lt;/code&gt;  변수에 할당합니다. 이는 특징 집합을 나타냅니다.  &lt;code&gt;df[&#39;Class&#39;]&lt;/code&gt; 를 사용하여 &#39;Class&#39; 열만을  &lt;code&gt;Y&lt;/code&gt;  변수에 할당함으로써 라벨 집합을 구성합니다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 특징과 라벨 분리&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;X &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; df&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;drop&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;Class&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; axis &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;# &#39;Class&#39; 열을 제외한 모든 열을 X에 할당&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Y &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; df&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;Class&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;# &#39;Class&#39; 열만 Y에 할당&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;code&gt;train_test_split&lt;/code&gt;  함수는 데이터를 학습용과 평가용으로 분리합니다. 이 함수는  &lt;code&gt;sklearn.model_selection&lt;/code&gt;  모듈에 포함되어 있으며, 입력 데이터( &lt;code&gt;X&lt;/code&gt; )와 타겟 데이터( &lt;code&gt;Y&lt;/code&gt; )를 받아 학습 데이터( &lt;code&gt;Train_X&lt;/code&gt; ,  &lt;code&gt;Train_Y&lt;/code&gt; )와 평가 데이터( &lt;code&gt;Test_X&lt;/code&gt; ,  &lt;code&gt;Test_Y&lt;/code&gt; )로 나눕니다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 학습 데이터와 평가 데이터 분리&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; sklearn&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;model_selection &lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; train_test_split&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Train_X&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; Test_X&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; Train_Y&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; Test_Y &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; train_test_split&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;X&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; Y&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;code&gt;Train_Y.value_counts()&lt;/code&gt;  함수는  &lt;code&gt;Train_Y&lt;/code&gt;  데이터셋 내의 레이블 값들의 분포를 확인하는 데 사용됩니다. 이 함수는 각 레이블 값이 데이터셋에 몇 번 등장하는지를 나타내는 카운트를 반환합니다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# label 데이터 개수 확인&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Train_Y&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;value_counts&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;이 함수는  &lt;code&gt;Train_Y&lt;/code&gt; 와  &lt;code&gt;Test_Y&lt;/code&gt;  데이터셋에서 문자열 레이블을 숫자로 치환합니다.  &lt;code&gt;replace&lt;/code&gt;  메소드를 사용하여  &lt;code&gt;&amp;quot;negative&amp;quot;&lt;/code&gt; 는  &lt;code&gt;-1&lt;/code&gt; 로,  &lt;code&gt;&amp;quot;positive&amp;quot;&lt;/code&gt; 는  &lt;code&gt;1&lt;/code&gt; 로 변환합니다.  &lt;code&gt;inplace=True&lt;/code&gt;  파라미터는 변환된 데이터를 원본 데이터셋에 바로 적용함을 의미합니다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 문자 label을 숫자로 치환&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# inplace = True 로 바로 원본데이터에 적용&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Train_Y&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;replace&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;negative&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;positive&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; inplace &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Test_Y&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;replace&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;negative&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;positive&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; inplace &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;본 코드는 데이터 프레임의 상위 5개 행을 출력하며,  &lt;code&gt;Buying&lt;/code&gt; ,  &lt;code&gt;Maint&lt;/code&gt; ,  &lt;code&gt;Lug_boot&lt;/code&gt; ,  &lt;code&gt;safety&lt;/code&gt;  변수들을 범주형 변수로 간주하고 있습니다. 추가적으로, 이 변수들이 단순한 범주형보다는 순서가 있는 서열형 변수임을 지적합니다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Train_X&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;head&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# Buying, Maint, Lug_boot, safety 변수는 범주형 변수로 간주됩니다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 엄밀히 말하면, 이들은 서열형 변수입니다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;unique함수로-상태공간-크기-확인&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#unique함수로-상태공간-크기-확인&#34;&gt;#&lt;/a&gt; unique함수로 상태공간 크기 확인&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;p&gt;상태공간의 크기를 확인하는 것은 데이터 분석에서 중요한 단계입니다. 이를 위해  &lt;code&gt;unique&lt;/code&gt;  함수를 사용할 수 있습니다. 예를 들어,  &lt;code&gt;pandas&lt;/code&gt;  라이브러리를 사용하여 데이터프레임의 특정 열에서 고유한 값들을 찾아내고, 그 개수를 세어 상태공간의 크기를 알아낼 수 있습니다.&lt;/p&gt;
+&lt;p&gt;이 함수는  &lt;code&gt;Train_X&lt;/code&gt;  데이터프레임의 각 열에 대해 고유한 값의 수를 출력하여, 해당 열이 범주형 변수인지 여부를 판단하는 데 도움을 줍니다. 고유한 값의 수가 전체 데이터 수에 비해 상대적으로 작으면, 그 열은 범주형 변수로 간주될 수 있습니다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 모든 변수가 범주형인지 확인하기 위한 코드 (고유한 데이터의 수가 원본 데이터 수에 비해 매우 작은지 확인)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt; col &lt;span class=&#34;token keyword&#34;&gt;in&lt;/span&gt; Train_X&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;columns&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;col&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;len&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;Train_X&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;col&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;unique&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;범주형-변수-변환방법1-더미화&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#범주형-변수-변환방법1-더미화&#34;&gt;#&lt;/a&gt; 범주형 변수 변환방법(1) - 더미화&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;가장 일반적인 범주형 변수를 변환하는 방법&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;범주형 변수가 특정 값을 취하는지 여부를 0 또는 1로 하는 dummy변수를 생성하는 방식&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;일반적으로 마지막 dummy는 제거한다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;경우의 수로 나머지 dummy들로 추론이 가능함&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;변수간의 상관성 제거를 할 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;계산량 감소를 기대할 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;예외적으로, Tree 기반 모델 (Decision Tree, Random Forest 등)에서는 &#39;설명력&#39;을 높이기 위해 마지막 dummy를 그대로 사용하기도 한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;관련-문법-feature_engineencodingonehotcategoricalencoder&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#관련-문법-feature_engineencodingonehotcategoricalencoder&#34;&gt;#&lt;/a&gt; 관련 문법 : feature_engine.encoding.OneHotCategoricalEncoder&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;더미화를 하기 위한 함수&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;sklearn의 preprocessing model을 통한 결측치 처리 과정과 비슷 (모델 생성 -&amp;gt; 학습 -&amp;gt; train/test 데이터에 transform)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Feature-engine은 활발한 개발 중이기 때문에 버전에 따라 import 함수명이 바뀔 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;파라미터&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;variables : 더미화 대상이 되는 범주형 변수의 이름 목록( &lt;code&gt;해당 변수는 반드시 str/object 타입이어야만 한다.&lt;/code&gt; )&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;drop_last : 한 범주 변수로 만든 더미 변수 중 마지막에 생성한 더미 변수를 제거할지 여부&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;top_categories : 한 범주 변수로 만든 더미 변수 개수를 설정 (빈도를 기준으로 자른다.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;한 범주 변수에서 가지는 상태 공간이 100이면, 그중 빈도가 높은 상위 10개만 사용하는 식&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;장점&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;사용이 간편하다.(크게 고려해야 할 사항 없음)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;단점&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;범주 변수가 가지는 값이 많을 때, 더미화 하는 과정에서 추가되는 변수가 너무 많아질 수 있다.(차원의 저주 문제)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;한 범주 변수가 가지는 값이 너무 많을 때(상태 공간이 크면), 더미화를 할 때 데이터가 너무 희소해질 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;희소한 데이터와 연속형 데이터가 같이 있으면 모델링을 하는 것이 상당히 어렵다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;FYI&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;pandas.get_dummies() 함수로도 동일하게 더미화를 할 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;하지만 train data에 포함된 이 방식은  &lt;code&gt;범주형 변수를 처리한 방식&lt;/code&gt; 으로  &lt;code&gt;새로 들어온 데이터에 적용이 불가능&lt;/code&gt;  하기 때문에 실제적인 활용이 어렵다. (pandas 함수들은 인스턴스화되어 처리하는 방식이 아니기 때문)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;위의 그림을 기준으로 볼 때 좌측에 있는 데이터가 train data이고(종교가 다양), 새로 들어온 데이터는  &lt;code&gt;천주교&lt;/code&gt; 만 있다고 할 때, 기존 train data로 생성한 get_dummies와 새로 들어온 데이터로 생성한 get_dummies는 다른 형태가 된다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;전체 데이터가 모두 범주형이므로 더미화를 위해 전부 문자열 타입으로 변경해준다.&lt;/p&gt;
+&lt;p&gt;변수  &lt;code&gt;Train_X&lt;/code&gt; 의 데이터 타입을 문자열( &lt;code&gt;str&lt;/code&gt; )로 변환합니다. 이는 데이터 전처리 과정에서 특정 데이터셋의 특성을 문자열 형태로 일관되게 관리하기 위해 사용됩니다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Train_X &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; Train_X&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;astype&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;# Train_X 변수의 데이터 타입을 문자열로 변환합니다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;이 코드는  &lt;code&gt;feature_engine&lt;/code&gt;  라이브러리의  &lt;code&gt;OneHotEncoder&lt;/code&gt; 를 사용하여 범주형 변수를 원-핫 인코딩합니다.  &lt;code&gt;OneHotEncoder&lt;/code&gt; 는 모델을 생성하고, 훈련 데이터( &lt;code&gt;Train_X&lt;/code&gt; )의 모든 범주형 변수를 원-핫 인코딩된 형태로 변환하는 과정을 포함합니다.  &lt;code&gt;drop_last=True&lt;/code&gt;  옵션을 사용하여 각 범주형 변수에 대한 마지막 더미 변수를 제외시키는 방식으로 다중공선성 문제를 방지합니다. 이후, 생성된 인코더 모델을 사용하여 훈련 데이터( &lt;code&gt;Train_X&lt;/code&gt; )와 테스트 데이터( &lt;code&gt;Test_X&lt;/code&gt; )를 변환합니다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; feature_engine&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;encoding &lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; OneHotEncoder &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; OHE&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 모델 생성(인스턴스화)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 맨 마지막 더미 변수는 생략&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# feature_engine의 variables는 리스트 형태이다&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;dummy_model &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; OHE&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;variables &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; Train_X&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;columns&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;tolist&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 훈련 데이터의 변수명을 리스트로 변환&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                 drop_last &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 모델 학습&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;dummy_model&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;fit&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;Train_X&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 변환&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 훈련 데이터와 테스트 데이터를 변환&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;d_Train_X &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; dummy_model&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;transform&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;Train_X&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;d_Test_X &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; dummy_model&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;transform&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;Test_X&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;이 코드는 더미 변수를 사용하여 K-최근접 이웃(KNN) 모델을 학습하고, 테스트 데이터에 대한 예측을 수행한 후, 실제값과 예측값 사이의  &lt;code&gt;f1_score&lt;/code&gt; 를 계산합니다. 먼저,  &lt;code&gt;sklearn.neighbors&lt;/code&gt; 의  &lt;code&gt;KNeighborsClassifier&lt;/code&gt; 를  &lt;code&gt;KNN&lt;/code&gt; 으로 임포트하고, 학습 데이터( &lt;code&gt;d_Train_X&lt;/code&gt; ,  &lt;code&gt;Train_Y&lt;/code&gt; )를 사용하여 모델을 학습시킵니다. 그 다음, 테스트 데이터( &lt;code&gt;d_Test_X&lt;/code&gt; )에 대한 예측을 수행합니다. 마지막으로,  &lt;code&gt;sklearn.metrics&lt;/code&gt; 의  &lt;code&gt;f1_score&lt;/code&gt;  함수를 사용하여 실제 테스트 레이블( &lt;code&gt;Test_Y&lt;/code&gt; )과 예측 레이블( &lt;code&gt;pred_Y&lt;/code&gt; ) 사이의 F1 점수를 출력합니다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 더미화를 한 뒤의 모델 효과 테스트&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# KNN 활용&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; sklearn&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;neighbors &lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; KNeighborsClassifier &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; KNN&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;model &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; KNN&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;fit&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;d_Train_X&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; Train_Y&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pred_Y &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; model&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;predict&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;d_Test_X&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 실제값과 예측값의 차이 확인 (f1 score)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; sklearn&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;metrics &lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; f1_score&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;f1_score of KNN with dummy variables :&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; f1_score&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;Test_Y&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; pred_Y&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;아래의 연속형 변수와의 절대적 비교를 위해 KNN의 방법을 기본값으로 두었습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;더미화한 변수는 차원이 늘어나고, 희소해지는 경향이 있기 때문에 KNN 성향이 떨어질 가능성이 상대적으로 더 큽니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;따라서 더미화한 변수로 반드시 KNN을 써야 하는 경우라면, 위의 model처럼 KNN()으로 기본값을 두기보다는, metric으로 jaccard 등을 사용하면 현재 상태보다는 조금 더 높은 성능을 기대해 볼 수 있을 것입니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;범주형-변수-변환방법2-연속형-변수로-치환&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#범주형-변수-변환방법2-연속형-변수로-치환&#34;&gt;#&lt;/a&gt; 범주형 변수 변환방법(2) - 연속형 변수로 치환&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;범주형 변수의 상태 공간 크기가 클 때, dummy화는  &lt;code&gt;과하게 많은 변수를 추가&lt;/code&gt;  해서  &lt;code&gt;차원의 저주&lt;/code&gt;  문제로 이어지는 문제가 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;label정보를 활용해 범주 변수를  &lt;code&gt;연속형 변수로 치환&lt;/code&gt;  하면 기존 변수가 가지는  &lt;code&gt;정보가 일부 손실될 우려&lt;/code&gt; 가 있고,  &lt;code&gt;활용이 어렵다&lt;/code&gt; 는 단점이 있으나, 차원의 크기가 변하지 않으며  &lt;code&gt;더 효율적인 변수&lt;/code&gt;  로 치환할 수 있다는 장점이 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;정리하자면,&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;장점&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;지도학습의 경우 Y를 고려한 변환이기 때문에 모델 성능이 좋아지는 경우가 종종 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;차원을 변화시키기 않기 때문에  &lt;code&gt;차원의 저주 문제&lt;/code&gt;  에 빠지지 않는다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;범주형 변수를 연속형 변수로 변환시키기 때문에  &lt;code&gt;더 많은 정보를 포함할 가능성&lt;/code&gt;  이 생긴다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;단점&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;기존 변수가 가지는 정보를 손실할 가능성이 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;아래의 그림에서 X 에 따른 Y평균값이 모두 다르지만, 만약 동일한 값이 존재한다면? (A도 200, B도 200이면?)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A와 B 는 서로 다른 데이터이지만, 동일한 값이 입력되어 정보 손실이 발생한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/74717033/134630579-c049ac27-93e7-4d44-9e91-d8bee82d77bc.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;group by 를 통해 X에 따른 Y의 평균을 계산할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;X에 따른 Y의 평균을 계산해야 하므로 train data의 X, Y값을 다시 이어 붙인다.&lt;/p&gt;
+&lt;p&gt;이 코드는 훈련 데이터 세트( &lt;code&gt;Train_X&lt;/code&gt; )와 타겟 변수( &lt;code&gt;Train_Y&lt;/code&gt; )를 결합하여 새로운 데이터프레임( &lt;code&gt;Train_df&lt;/code&gt; )을 생성합니다. 그 후, 모든 범주형 변수에 대해 각 변수의 값에 따른 타겟 변수( &lt;code&gt;Class&lt;/code&gt; )의 평균을 계산하고, 이를 사전( &lt;code&gt;dict&lt;/code&gt; ) 형태로 저장합니다. 이 사전을 사용하여 훈련 데이터 세트의 해당 변수 값을 그 변수의 값에 따른  &lt;code&gt;Class&lt;/code&gt; 의 평균 값으로 치환합니다. 마지막으로, 테스트 데이터 세트( &lt;code&gt;Test_X&lt;/code&gt; )에 대해서도 동일한 치환 작업을 수행합니다. 이 과정은 변수의 값을 그 변수가 타겟 변수에 미치는 평균적인 영향으로 대체하는 특징 엔지니어링 기법의 일종입니다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Train_df &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;concat&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;Train_X&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; Train_Y&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; axis &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt; col &lt;span class=&#34;token keyword&#34;&gt;in&lt;/span&gt; Train_X&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;columns&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 전체 변수 중 범주 변수만 순회&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;# col에 따른 Class의 평균을 나타내는 사전 생성&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    temp_dict &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; Train_df&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;groupby&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;col&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;Class&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;mean&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;to_dict&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    Train_df&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;col&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; Train_df&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;col&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;replace&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;temp_dict&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 변수 치환    &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;# 테스트 데이터도 같은 방식으로 치환&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    Test_X&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;col&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; Test_X&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;col&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;astype&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;replace&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;temp_dict&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;code&gt;Train_df.head()&lt;/code&gt;  함수는  &lt;code&gt;Train_df&lt;/code&gt;  데이터프레임의 상위 5개 행을 반환합니다. 이는 데이터의 구조를 빠르게 확인하기 위해 사용되며, 주석은 변수값들이 연속형으로 변경되었음을 나타냅니다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 변수값들이 연속형으로 변경되었다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Train_df&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;head&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;해당 변수들은 dummy화한 변수들에 비해 Class값과의 관련성이 더욱 명확하다.&lt;/p&gt;
+&lt;p&gt;위에서 dummy화 했던 변수의 값을 보면 아래와 같다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;%EC%9D%B4%EB%AF%B8%EC%A7%8034.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;이때, index 56의 값을 보면 Buying이 vhigh(매우 높음)이다. 그리고 연속형으로 변환한 결과를 보면 동일 index의 Class에 대한 Buying의 평균값이 -1이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;그리고 Class는 1 또는 -1의 값 뿐이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;따라서 &amp;quot;Buying이 vhigh이면 무조건 -1이다.&amp;quot;라고 추론할 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;이처럼 범주형 변수를 연속형 변수로 변환하면 레이블과 관련된 직접적인 정보를 포함하고 있음을 알 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;모델 학습을 위해 Train / Test 분할&lt;/p&gt;
+&lt;p&gt;본 코드는 데이터 프레임  &lt;code&gt;Train_df&lt;/code&gt; 에서 특정 열( &lt;code&gt;&#39;Class&#39;&lt;/code&gt; )을 기준으로 입력 데이터( &lt;code&gt;Train_X&lt;/code&gt; )와 타겟 데이터( &lt;code&gt;Train_Y&lt;/code&gt; )를 분리하는 과정을 보여줍니다.  &lt;code&gt;Train_X&lt;/code&gt; 는  &lt;code&gt;&#39;Class&#39;&lt;/code&gt;  열을 제외한 모든 열을 포함하며,  &lt;code&gt;Train_Y&lt;/code&gt; 는 오직  &lt;code&gt;&#39;Class&#39;&lt;/code&gt;  열만을 포함합니다. 이는 머신러닝 모델 학습에 있어 입력 변수와 타겟 변수를 분리하는 표준 절차를 따릅니다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Train_X &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; Train_df&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;drop&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;Class&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; axis &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# &#39;Class&#39; 열을 제외한 모든 데이터를 Train_X에 할당합니다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Train_Y &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; Train_df&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;Class&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# &#39;Class&#39; 열의 데이터만 Train_Y에 할당합니다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;이 코드는 KNN 모델을 사용하여 연속 변수를 포함한 데이터에 대해 학습을 수행하고, 테스트 데이터에 대한 예측을 진행합니다. 그 후,  &lt;code&gt;f1_score&lt;/code&gt;  함수를 사용하여 실제 테스트 레이블과 예측된 레이블 간의 F1 점수를 계산하고 출력합니다. 라벨을 고려한 전처리 방식이 더미화 방식보다 우수한 결과를 가져옴을 확인할 수 있으며, 이는 더미화를 적용했을 때의 F1 점수가 0임을 통해 강조됩니다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 모델을 학습시키고 테스트 데이터에 대한 예측을 수행&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;model &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; KNN&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;fit&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;Train_X&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; Train_Y&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pred_Y &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; model&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;predict&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;Test_X&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;f1_score of KNN with continous variable :&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; f1_score&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;Test_Y&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; pred_Y&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 라벨을 고려한 전처리를 통해 더미화보다 좋은 결과를 얻을 수 있음을 확인 (더미화한 f1 점수는 0)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+        </item>
+    </channel>
+</rss>

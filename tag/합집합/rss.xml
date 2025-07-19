@@ -1,0 +1,614 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Kim Gabe&#39;s DS Blog • Posts by &#34;합집합&#34; tag</title>
+        <link>https://Kimgabe.github.io</link>
+        <description>Kim Gabe의 블로그입니다. 데이터 사이언스, AI, 머신러닝 학습 과정을 기록합니다.</description>
+        <language>en</language>
+        <pubDate>Sat, 26 Jun 2021 00:00:00 +0900</pubDate>
+        <lastBuildDate>Sat, 26 Jun 2021 00:00:00 +0900</lastBuildDate>
+        <category>python</category>
+        <category>ndarray</category>
+        <category>numpy vectorization</category>
+        <category>메모리</category>
+        <category>np.array</category>
+        <category>ndarray 데이터타입</category>
+        <category>np.arange</category>
+        <category>np.ones</category>
+        <category>np.zeros</category>
+        <category>np.empty</category>
+        <category>np.full</category>
+        <category>np.eye</category>
+        <category>np.linspace</category>
+        <category>reshape</category>
+        <category>데이터 통합,pandas,DataFrame,concat,os,listdir,CSV 파일,데이터 병합,데이터 프레임,데이터 분석,데이터 처리,데이터 정렬,빈 데이터 프레임,파일 시스템,경고 메시지</category>
+        <category>feature engineering</category>
+        <category>prediction</category>
+        <category>regression. DACON</category>
+        <category>시계열</category>
+        <category>카드매출</category>
+        <category>예측</category>
+        <category>KNN</category>
+        <category>RandomForestRegressor</category>
+        <category>LightGBM</category>
+        <category>머신러닝</category>
+        <category>딥러닝</category>
+        <category>random 모듈</category>
+        <category>np.random.rand</category>
+        <category>np.random.randn</category>
+        <category>np.random.randint</category>
+        <category>np.random.seed</category>
+        <category>랜덤을 적용하면서도 일정한 값 만들기</category>
+        <category>np.random.choice</category>
+        <category>np.random.uniform</category>
+        <category>np.random.normal</category>
+        <category>indexing</category>
+        <category>1차원 벡터 인덱싱</category>
+        <category>index로 특정 위치 값 바꾸기</category>
+        <category>index의 값 바꾸기</category>
+        <category>2차원 행렬 인덱싱</category>
+        <category>3차원 텐서 인덱싱</category>
+        <category>벡터</category>
+        <category>행렬</category>
+        <category>텐서</category>
+        <category>슬라이싱</category>
+        <category>1차원 벡터 슬리이싱</category>
+        <category>2차원 행렬 슬라이싱</category>
+        <category>3차원 텐서 슬라이싱</category>
+        <category>판다스,데이터 병합,DataFrame,merge,key 변수,customerID,read_csv,데이터 관리,SQL Join,전처리</category>
+        <category>Python,pandas,데이터 병합,날짜 포맷,apply 함수,merge 함수,데이터프레임,Series,경고 필터링,파일 로드,데이터 접근</category>
+        <category>ndarray 형태바꾸기</category>
+        <category>np.ravel</category>
+        <category>np.flatten</category>
+        <category>np.reshape</category>
+        <category>array의 차원바꾸기</category>
+        <category>이미지 벡터화</category>
+        <category>np.add</category>
+        <category>np.divide</category>
+        <category>np.mod</category>
+        <category>np.mean</category>
+        <category>np.median</category>
+        <category>np.max</category>
+        <category>np.min</category>
+        <category>np.argmax</category>
+        <category>np.argmin</category>
+        <category>np.var</category>
+        <category>np.std</category>
+        <category>np.sum</category>
+        <category>np.consum</category>
+        <category>np.any</category>
+        <category>np.all</category>
+        <category>np.where</category>
+        <category>axis</category>
+        <category>numpy 축</category>
+        <category>1차원 axis</category>
+        <category>2차원 axis</category>
+        <category>3차원 axis</category>
+        <category>데이터 분석,거리 행렬,병합,지하철역,경도,위도,pandas,scipy,haversine,argsort,DataFrame</category>
+        <category>판다스,데이터 병합,groupby,DataFrame,Series,merge,replace,고객ID,구매금액,인덱스,CSV 파일,인코딩,머신러닝,통계량,조건부 통계량</category>
+        <category>판다스,데이터 병합,Series,DataFrame,to_dict,replace,merge,ref_df,인덱스,행정구역,엑셀 파일,CSV 파일,인코딩,add_prefix</category>
+        <category>결측치,데이터 전처리,pandas,dropna,isnull,Train data,Test data,머신러닝,데이터프레임,train_test_split,결측 레코드,결측치 비율,결측치 삭제,결측치 처리,결측치 문제,결측치 대체</category>
+        <category>broadcasting</category>
+        <category>브로드캐스팅</category>
+        <category>서로다른 shape의 numpy끼리 연산하는 방법</category>
+        <category>scalar</category>
+        <category>상수</category>
+        <category>boolean indexing</category>
+        <category>다중조건</category>
+        <category>데이터 전처리,sklearn,결측치,SimpleImputer,train_test_split,DataFrame,상관 계수,범주형 변수,연속형 변수,전처리 모델,대표값 대체,결측치 대체법,전략,평균,최빈값</category>
+        <category>선형대수</category>
+        <category>linalg</category>
+        <category>np.linalg</category>
+        <category>행렬내적구하기</category>
+        <category>전치행렬구하기</category>
+        <category>역행렬</category>
+        <category>정방행렬</category>
+        <category>항등행렬</category>
+        <category>시계열,결측치,대체,DataFrame,fillna,ffill,bfill,Python,pandas,데이터프레임,train_test_split</category>
+        <category>그래프 그리기</category>
+        <category>line plot</category>
+        <category>scatter plot</category>
+        <category>그래프에 주석추가하기</category>
+        <category>grid 추가하기</category>
+        <category>subplot으로 그래프 여러개 그리기</category>
+        <category>histogram그리기</category>
+        <category>결측치,KNN Imputer,예측 모델,데이터 처리,sklearn,머신러닝,데이터프레임,결측 대체,모델 학습,파라미터,상관 계수</category>
+        <category>로또 번호 자동생성기</category>
+        <category>문제풀이</category>
+        <category>pi</category>
+        <category>Mote Carlo</category>
+        <category>원주율구하기</category>
+        <category>범주형 변수,모델 학습,숫자 변환,더미화,연속형 치환,차원의 저주,데이터 분석,지도학습,인코딩,머신러닝</category>
+        <category>EDA</category>
+        <category>스타벅스</category>
+        <category>이디야</category>
+        <category>folium</category>
+        <category>웹크롤링</category>
+        <category>google api</category>
+        <category>좌표추출</category>
+        <category>데이터분석</category>
+        <category>시각화</category>
+        <category>EDA - matplotlib - kaggle - dataset - dendrogram - correlation - preprocessing - folium</category>
+        <category>series</category>
+        <category>pandas</category>
+        <category>판다스</category>
+        <category>시리즈</category>
+        <category>데이터업데이트</category>
+        <category>데이터접근</category>
+        <category>인덱스재사용</category>
+        <category>데이터 전처리,모델 튜닝,하이퍼 파라미터,결측치 처리,범주형 변수,라벨 처리,변수 분포,클래스 불균형,특징 선택,파라미터 그리드,스케일링,머신러닝,데이터 통합,이상치,상관관계</category>
+        <category>전처리</category>
+        <category>size</category>
+        <category>shape</category>
+        <category>len</category>
+        <category>count</category>
+        <category>value_counts</category>
+        <category>mean</category>
+        <category>max</category>
+        <category>min</category>
+        <category>sum</category>
+        <category>median</category>
+        <category>abs</category>
+        <category>cumsum</category>
+        <category>cumprod</category>
+        <category>std</category>
+        <category>var</category>
+        <category>mode</category>
+        <category>corr</category>
+        <category>astype</category>
+        <category>데이터형변환</category>
+        <category>산술연산</category>
+        <category>인덱싱</category>
+        <category>head</category>
+        <category>tail</category>
+        <category>기초</category>
+        <category>Pandas</category>
+        <category>Series</category>
+        <category>local</category>
+        <category>iloc</category>
+        <category>데이터변환</category>
+        <category>리스트</category>
+        <category>딕셔너리</category>
+        <category>넘파이배열</category>
+        <category>List</category>
+        <category>dict</category>
+        <category>numpy_array</category>
+        <category>slicing</category>
+        <category>python - 시각화 - visualization - matplotlib - canvas - subplot - title - fontsize - tick - x축 - y축 - legend - marker - linestyle - color - alpha - 투명도 - grid - 이미지저장</category>
+        <category>visualization</category>
+        <category>matplotlib</category>
+        <category>bar plot</category>
+        <category>막대그래프</category>
+        <category>barhplot</category>
+        <category>가로막대 그래프</category>
+        <category>꺾은선 그래프</category>
+        <category>area plot</category>
+        <category>면적 그래프</category>
+        <category>histogram</category>
+        <category>히스토그램</category>
+        <category>pie chart</category>
+        <category>파이차트</category>
+        <category>box plot</category>
+        <category>3D plot</category>
+        <category>imshow</category>
+        <category>classification</category>
+        <category>헬스케어</category>
+        <category>의료데이터</category>
+        <category>kaggle</category>
+        <category>logistic regression</category>
+        <category>XGBoost</category>
+        <category>feature importance</category>
+        <category>python basic</category>
+        <category>데이터타입</category>
+        <category>주석</category>
+        <category>indent</category>
+        <category>IndentationError</category>
+        <category>연산자</category>
+        <category>escape string</category>
+        <category>문자열자르기</category>
+        <category>문자열 slicing</category>
+        <category>대문자변환</category>
+        <category>upper()</category>
+        <category>소문자변환</category>
+        <category>lower()</category>
+        <category>문자바꾸기</category>
+        <category>replace()</category>
+        <category>format()</category>
+        <category>문자 자르기</category>
+        <category>split()</category>
+        <category>list</category>
+        <category>튜플</category>
+        <category>tuple</category>
+        <category>append</category>
+        <category>extend</category>
+        <category>remove</category>
+        <category>pop</category>
+        <category>index</category>
+        <category>replace</category>
+        <category>in</category>
+        <category>list정렬</category>
+        <category>튜플 indexing</category>
+        <category>튜플 slicing</category>
+        <category>list와 tuple의 공통점</category>
+        <category>list와 tuple의 차이점</category>
+        <category>mutable</category>
+        <category>immutable</category>
+        <category>딕셔러니</category>
+        <category>dictionary</category>
+        <category>set</category>
+        <category>update</category>
+        <category>del</category>
+        <category>clear</category>
+        <category>get()</category>
+        <category>union()</category>
+        <category>intersection()</category>
+        <category>issubset()</category>
+        <category>교집합</category>
+        <category>합집합</category>
+        <category>차집합</category>
+        <category>부분집합</category>
+        <category>조건문</category>
+        <category>if문</category>
+        <category>if</category>
+        <category>elif</category>
+        <category>else</category>
+        <category>조건문 논리</category>
+        <category>조건문 우선순위</category>
+        <category>다중조건문</category>
+        <category>중첩조건문</category>
+        <category>nested condition</category>
+        <category>반복문</category>
+        <category>loop</category>
+        <category>for문</category>
+        <category>while문</category>
+        <category>무한루프</category>
+        <category>break</category>
+        <category>continue</category>
+        <category>dict 아이템출력하기</category>
+        <category>for문에 index사용하기</category>
+        <category>2중 for문</category>
+        <category>loop중첩</category>
+        <category>구구단 출력하기</category>
+        <category>itertools</category>
+        <category>product()</category>
+        <category>combination()</category>
+        <category>permutation()</category>
+        <category>zip()과 itertools.produce()차이</category>
+        <category>list comprehension</category>
+        <category>for문 한줄로 작성하기</category>
+        <category>dictionary comprehension</category>
+        <category>함수</category>
+        <category>def</category>
+        <category>내장함수</category>
+        <category>parameter</category>
+        <category>argument</category>
+        <category>default parameter</category>
+        <category>keyword parameter</category>
+        <category>return</category>
+        <category>multiple return</category>
+        <category>전역변수</category>
+        <category>지역변수</category>
+        <category>local variable</category>
+        <category>global variable</category>
+        <category>가변인자</category>
+        <category>argument parameter</category>
+        <category>args</category>
+        <category>kwargs</category>
+        <category>lambda</category>
+        <category>lambda로 sort하기</category>
+        <category>lambda로 filtering하기</category>
+        <category>lambda로 mapping하기</category>
+        <category>lambda로 reducing하기</category>
+        <category>자주쓰는 lambda기능</category>
+        <category>패키지</category>
+        <category>모듈</category>
+        <category>패키지와 모듈&amp;함수 관계</category>
+        <category>import</category>
+        <category>특정모듈만 불러오기</category>
+        <category>alias</category>
+        <category>별명</category>
+        <category>별명 지어주기</category>
+        <category>class</category>
+        <category>객체</category>
+        <category>상속</category>
+        <category>object</category>
+        <category>instance</category>
+        <category>class선언</category>
+        <category>method</category>
+        <category>__init__</category>
+        <category>self인자</category>
+        <category>method정의</category>
+        <category>method type</category>
+        <category>instance method</category>
+        <category>class method</category>
+        <category>class inheritance</category>
+        <category>method override</category>
+        <category>method재정의</category>
+        <category>부모클래스</category>
+        <category>자식클래스</category>
+        <category>super</category>
+        <category>정규표현식</category>
+        <category>re</category>
+        <category>preprocessing</category>
+        <category>search</category>
+        <category>metacharacters</category>
+        <category>abck</category>
+        <category>abc.^</category>
+        <category>a-d</category>
+        <category>0-9</category>
+        <category>a-z</category>
+        <category>A-Z</category>
+        <category>a-zA-Z0-9</category>
+        <category>^0-9</category>
+        <category>반복패턴</category>
+        <category>기본패턴</category>
+        <category>\d</category>
+        <category>\D</category>
+        <category>\s</category>
+        <category>\S</category>
+        <category>\w</category>
+        <category>\W</category>
+        <category>\</category>
+        <category>\\</category>
+        <category>grouping</category>
+        <category>미니멈 매칭</category>
+        <category>non-greedy way</category>
+        <category>findall</category>
+        <category>sub</category>
+        <category>compile</category>
+        <category>GitHub</category>
+        <category>Resume</category>
+        <category>automated</category>
+        <category>Profile</category>
+        <category>README</category>
+        <category>career</category>
+        <category>이력서</category>
+        <category>깃허브</category>
+        <category>프로필</category>
+        <category>자동작성</category>
+        <category>GitHub Prifile Readme Generator</category>
+        <category>핸즈온 머신러닝</category>
+        <category>ML</category>
+        <category>DL</category>
+        <category>공부방법</category>
+        <category>도서</category>
+        <category>리뷰</category>
+        <category>문자열 다루기</category>
+        <category>islower()</category>
+        <category>isupper()</category>
+        <category>escape문자</category>
+        <category>산술연산자</category>
+        <category>덧셈식 출력하기</category>
+        <category>문자열 붙여서 출력하기</category>
+        <category>문자열 돌리기</category>
+        <category>홀짝 구분하기</category>
+        <category>문자열 겹쳐쓰기</category>
+        <category>n의 배수</category>
+        <category>공배수</category>
+        <category>홀짝에 따라 다른값 반환하기</category>
+        <category>조건 문자열</category>
+        <category>flag에 따라 다른값 반환하기</category>
+        <category>문자열 섞기</category>
+        <category>문자 리스트를 문자열로 변환하기</category>
+        <category>문자열 곱하기</category>
+        <category>더 크게 합치기</category>
+        <category>두 수의 연산값 합치기</category>
+        <category>마지막 두 원소</category>
+        <category>수 조작하기 1</category>
+        <category>수 조작하기 2</category>
+        <category>수열과 구간 쿼리 3</category>
+        <category>수열과 구간 쿼리 2</category>
+        <category>코드 처리하기</category>
+        <category>등차수열의 특정한 항만 더하기</category>
+        <category>주사위게임2</category>
+        <category>원소들의 곱과 합</category>
+        <category>이어 붙인 수</category>
+        <category>수열과 구간쿼리 4</category>
+        <category>배열만들기2</category>
+        <category>카운트 업</category>
+        <category>콜라츠 수열 만들기</category>
+        <category>배열만들기 4</category>
+        <category>간단한 논리 연산</category>
+        <category>주사위 게임 3</category>
+        <category>글자 이어 붙여 문자열 만들기</category>
+        <category>9로 나눈 나머지</category>
+        <category>문자열 여러번 뒤집기</category>
+        <item>
+            <guid isPermalink="true">https://kimgabe.github.io/2021/06/26/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B8%B0%EC%B4%88-06-v1/</guid>
+            <title>[파이썬 기초] 06. 데이터 타입 - [dict, set] 및 관련 기능</title>
+            <link>https://kimgabe.github.io/2021/06/26/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B8%B0%EC%B4%88-06-v1/</link>
+            <category>pop</category>
+            <category>in</category>
+            <category>딕셔러니</category>
+            <category>dictionary</category>
+            <category>set</category>
+            <category>update</category>
+            <category>del</category>
+            <category>clear</category>
+            <category>get()</category>
+            <category>union()</category>
+            <category>intersection()</category>
+            <category>issubset()</category>
+            <category>교집합</category>
+            <category>합집합</category>
+            <category>차집합</category>
+            <category>부분집합</category>
+            <pubDate>Sat, 26 Jun 2021 00:00:00 +0900</pubDate>
+            <description><![CDATA[ &lt;p&gt;Python의 dictionary 와 set 데이터 타입에 대해 정리합니다.&lt;/p&gt;
+&lt;h1 id=&#34;개요&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#개요&#34;&gt;#&lt;/a&gt; 개요&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터 타입중 &#39;dictionary&#39; 와 &#39;set&#39; 과 관련된 다양한 기능을 정리합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;dictionary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#dictionary&#34;&gt;#&lt;/a&gt; &lt;strong&gt;dictionary&lt;/strong&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;키(key)와 값(value)을 갖는 데이터 구조&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;순서를 따지지 않음. 즉, 인덱스가 없음&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;하지만, 키는 내부적으로 hash값으로 저장 -&amp;gt; 즉, 키값이 index와 비슷한 역할을 한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;빈 dic는 {}으로 생성할 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;Korea&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;Seoul&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token string&#34;&gt;&#39;Canada&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;Ottawa&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token string&#34;&gt;&#39;USA&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;Washington D.C&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p Korea:=&#34;&#34; Seoul,=&#34;&#34; Canada:=&#34;&#34; Ottawa,=&#34;&#34; USA:=&#34;&#34; Washington=&#34;&#34; D.C=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;순서를 따지지 않음. 즉, 인덱스가 없음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;입력한 순서대로 출력한 것 같지만, 인덱스 상으로 정해진 순서는 없다.&lt;/p&gt;
+&lt;p&gt;즉, list 처럼 인덱싱을 통해 특정 위치의 값만 뽑아낼 수가 없다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;#  의도는 &#39;Korea&#39;: &#39;Seoul&#39; 을 뽑는 것.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;빈 dic는 {}으로 생성할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;b &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;dict&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;하지만, 키는 내부적으로 hash값으로 저장 -&amp;gt; 즉, 키값이 index와 비슷한 역할을 한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;인덱싱을 불가능하지만, key값을 알면 인덱싱 처럼 원하는 위치의 값을 찾아서 출력할 수 있다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;Korea&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;Seoul&lt;/p&gt;
+&lt;p&gt;숫자로 된 형식일 경우 인덱싱과 헷갈릴 수 있으니 주의 해야 한다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;b &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#인덱스로 0번째 값이어서 출력된 것이 아니다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 0이라는 key값을 가진 value가 있었기 때문에 출력 된 것.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;1&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# b에는 2라는 key값이 없기 때문에 출력되지 않고 에러가 발생한다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;항목-추가-및-변경&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#항목-추가-및-변경&#34;&gt;#&lt;/a&gt; &lt;strong&gt;항목 추가 및 변경&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;기존에 키가 존재 하면, 새로운 값으로 업데이트&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;존재하지 않으면, 새로운 키, 값 생성&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;Korea&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;Seoul&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token string&#34;&gt;&#39;Canada&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;Ottawa&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token string&#34;&gt;&#39;USA&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;Washington D.C&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;Japan&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;Tokyo&#39;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# Japan 이라는 key가 없으므로 새로운 key : value가 추가된다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p Korea:=&#34;&#34; Seoul,=&#34;&#34; Canada:=&#34;&#34; Ottawa,=&#34;&#34; USA:=&#34;&#34; Washington=&#34;&#34; D.C,=&#34;&#34; Japan:=&#34;&#34; Tokyo=&#34;&#34;&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;Japan&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;Kyoto&#39;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 위에서 추가된 Tokyo가 Kyoto로 업데이트 된다. &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p Korea:=&#34;&#34; Seoul,=&#34;&#34; Canada:=&#34;&#34; Ottawa,=&#34;&#34; USA:=&#34;&#34; Washington=&#34;&#34; D.C,=&#34;&#34; Japan:=&#34;&#34; Kyoto=&#34;&#34;&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;Japan2&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;Kyoto&#39;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# Japan2라는 새로운 key에 Kyoto로 추가된다. &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p Korea:=&#34;&#34; Seoul,=&#34;&#34; Canada:=&#34;&#34; Ottawa,=&#34;&#34; USA:=&#34;&#34; Washington=&#34;&#34; D.C,=&#34;&#34; Japan:=&#34;&#34; Kyoto,=&#34;&#34; Japan2:=&#34;&#34; Kyoto=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;key는 중복이 되면 해당되는 value가 업데이트 되지만, value는 겹치는 값이 있어도 key값만 다르다면 상관 없다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;China&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;Beijing&#39;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# China라는 key가 없으므로 새로운 key : value가 추가 된다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p Korea:=&#34;&#34; Seoul,=&#34;&#34; Canada:=&#34;&#34; Ottawa,=&#34;&#34; USA:=&#34;&#34; Washington=&#34;&#34; D.C,=&#34;&#34; Japan:=&#34;&#34; Kyoto,=&#34;&#34; Japan2:=&#34;&#34; Kyoto,=&#34;&#34; China:=&#34;&#34; Beijing=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;update&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#update&#34;&gt;#&lt;/a&gt; &lt;strong&gt;update()&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;두 딕셔너리를 병합함&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;겹치는 키가 있다면 parameter로 전달되는 키 값이 overwrite된다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;a&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;b&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;c&#39;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;b &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;a&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;d&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;e&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# a와 b에 모두 a라는 key가 존재 한다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;update&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# b가 파라미터이다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p a:=&#34;&#34; 2,=&#34;&#34; b:=&#34;&#34; 2,=&#34;&#34; c:=&#34;&#34; 3,=&#34;&#34; d:=&#34;&#34; 4,=&#34;&#34; e:=&#34;&#34; 5=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;key삭제&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#key삭제&#34;&gt;#&lt;/a&gt; &lt;strong&gt;key삭제&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;del 키워드 사용&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;pop 함수 이용&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;a&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;b&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;c&#39;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p a:=&#34;&#34; 1,=&#34;&#34; b:=&#34;&#34; 2,=&#34;&#34; c:=&#34;&#34; 3=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a-변수에서-특정-key값을-지우는-방법&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#a-변수에서-특정-key값을-지우는-방법&#34;&gt;#&lt;/a&gt; a 변수에서 특정 key값을 지우는 방법&lt;/h2&gt;
+&lt;h3 id=&#34;1-del-키워드-사용&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-del-키워드-사용&#34;&gt;#&lt;/a&gt; 1)  del 키워드 사용&lt;/h3&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;del&lt;/span&gt; a&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;b&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p a:=&#34;&#34; 1,=&#34;&#34; c:=&#34;&#34; 3=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2-pop-함수-사용&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-pop-함수-사용&#34;&gt;#&lt;/a&gt; 2) pop() 함수 사용&lt;/h3&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;pop&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;c&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p a:=&#34;&#34; 1=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;clear&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#clear&#34;&gt;#&lt;/a&gt; &lt;strong&gt;clear()&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;딕셔너리의 모든 값을 초기화&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;a&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;b&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;c&#39;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p a:=&#34;&#34; 1,=&#34;&#34; b:=&#34;&#34; 2,=&#34;&#34; c:=&#34;&#34; 3=&#34;&#34;&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;clear&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;{}&lt;/p&gt;
+&lt;h2 id=&#34;in&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#in&#34;&gt;#&lt;/a&gt; &lt;strong&gt;in&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;key값 존재 확인&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;O(1) 연산 - 딕셔너리의 크기와 관계없이 항상 연산의 속도가 일정하다는 의미&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;a&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;b&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;c&#39;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token string&#34;&gt;&#39;b&#39;&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;in&lt;/span&gt; a  &lt;span class=&#34;token comment&#34;&gt;# b라는 key가 a에 있는가? -&gt; T/F 로 결과가 나온다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;True&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;in&lt;/strong&gt; 은 list나 dict모두에서 사용가능하지만 성능차이가 있다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;a&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;b&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;c&#39;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# dict&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;b &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# list&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;100&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;in&lt;/span&gt; b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;b&#39;&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;in&lt;/span&gt; a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;in&lt;/span&gt; a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# a에서 2는 key가 아닌 value이기 때문에 in 함수 기준으로 봤을때는 False가 된다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;True&lt;br /&gt;
+True&lt;br /&gt;
+False&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;dict는 원소의 개수에 상관없이 &#39;b&#39;라는 key값이 있는지 바로 결과를 출력할 수 있다. (연산 속도가 동일)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;list는 원소의 개수가 많아진다면, 결과값을 출력하는데 시간이 오래 걸린다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;value-access&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#value-access&#34;&gt;#&lt;/a&gt; &lt;strong&gt;value access&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;dict는 항상 [key]로 접근, 키가 없는 경우 에러 발생&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;value로 접근하고 싶다면 &#39;get() 함수&#39; 를 사용하면 된다. 단, 키가 없는 경우 None반환한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;a&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;b&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;c&#39;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# dict&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;get&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;d&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;None&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;d&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 이후에 정리할 if문을 활용해서 에러의 출력을 없앨 수도 있다. &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;d&#39;&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;in&lt;/span&gt; a&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;d&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# a라는 dict에 d라는 key가 있다면 아래의 print()를 실행하라.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;None&lt;/p&gt;
+&lt;h2 id=&#34;모든-keys-values-접근&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#모든-keys-values-접근&#34;&gt;#&lt;/a&gt; &lt;strong&gt;모든 keys, values 접근&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;keys() - 키만 반환&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;values() - 값만 반환&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;items() - 키, 값의 튜플을 반환&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# dict의 모든 값 반환&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;list&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;keys&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# Key값만 반환 by list&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;list&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;values&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;#value들만 반환 by list&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# key와 value를 모두 반환 by tuple 형태&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin&#34;&gt;list&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;items&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;{&#39;a&#39;: 1, &#39;b&#39;: 2, &#39;c&#39;: 3}&lt;br /&gt;
+[&#39;a&#39;, &#39;b&#39;, &#39;c&#39;]&lt;br /&gt;
+[1, 2, 3]&lt;/p&gt;
+&lt;p&gt;[(&#39;a&#39;, 1), (&#39;b&#39;, 2), (&#39;c&#39;, 3)]&lt;/p&gt;
+&lt;h1 id=&#34;set&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#set&#34;&gt;#&lt;/a&gt; &lt;strong&gt;set&lt;/strong&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;dictionary에서 key만 활용하는 데이터 구조로 이해&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;수학에서의 집합과 동일한 개념&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;자주 사용되는 개념은 아니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;dict와 마찬가지로 {}로 설정할 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;set()로 빈 set를 생성할 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;dict와 마찬가지조 인덱싱이 되지 않는다 = 순서가 없다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;중복값은 허용하지 않는다.&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p 1,=&#34;&#34; 2,=&#34;&#34; 3,=&#34;&#34; 4,=&#34;&#34; 5=&#34;&#34;&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;set으로-집합으로-변환&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#set으로-집합으로-변환&#34;&gt;#&lt;/a&gt; &lt;strong&gt;set()으로 집합으로 변환&lt;/strong&gt;&lt;/h2&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;[1, 1, 2, 3, 3, 4, 1, 5]&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;b &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;set&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 중복되는 값인 3이 사라지고 1개만 남는다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p 1,=&#34;&#34; 2,=&#34;&#34; 3,=&#34;&#34; 4,=&#34;&#34; 5=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;set-operations&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#set-operations&#34;&gt;#&lt;/a&gt; &lt;strong&gt;set operations&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;수학 연산과 동일&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;교집합, 합집합, 차집합 등 지원&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;b &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;union&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 합집합&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p 1,=&#34;&#34; 2,=&#34;&#34; 3,=&#34;&#34; 4=&#34;&#34;&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;intersection&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 교집합&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p 2,=&#34;&#34; 3=&#34;&#34;&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;difference&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 차집합&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p 1=&#34;&#34;&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;issubset&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;#부분 집합&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;False&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;b &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;issubset&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;#부분 집합&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;True&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,533 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://Kimgabe.github.io</id>
+    <title>Kim Gabe&#39;s DS Blog • Posts by &#34;그래프에 주석추가하기&#34; tag</title>
+    <link href="https://Kimgabe.github.io" />
+    <updated>2021-07-13T15:00:00.000Z</updated>
+    <category term="python" />
+    <category term="ndarray" />
+    <category term="numpy vectorization" />
+    <category term="메모리" />
+    <category term="np.array" />
+    <category term="ndarray 데이터타입" />
+    <category term="np.arange" />
+    <category term="np.ones" />
+    <category term="np.zeros" />
+    <category term="np.empty" />
+    <category term="np.full" />
+    <category term="np.eye" />
+    <category term="np.linspace" />
+    <category term="reshape" />
+    <category term="데이터 통합,pandas,DataFrame,concat,os,listdir,CSV 파일,데이터 병합,데이터 프레임,데이터 분석,데이터 처리,데이터 정렬,빈 데이터 프레임,파일 시스템,경고 메시지" />
+    <category term="feature engineering" />
+    <category term="prediction" />
+    <category term="regression. DACON" />
+    <category term="시계열" />
+    <category term="카드매출" />
+    <category term="예측" />
+    <category term="KNN" />
+    <category term="RandomForestRegressor" />
+    <category term="LightGBM" />
+    <category term="머신러닝" />
+    <category term="딥러닝" />
+    <category term="random 모듈" />
+    <category term="np.random.rand" />
+    <category term="np.random.randn" />
+    <category term="np.random.randint" />
+    <category term="np.random.seed" />
+    <category term="랜덤을 적용하면서도 일정한 값 만들기" />
+    <category term="np.random.choice" />
+    <category term="np.random.uniform" />
+    <category term="np.random.normal" />
+    <category term="indexing" />
+    <category term="1차원 벡터 인덱싱" />
+    <category term="index로 특정 위치 값 바꾸기" />
+    <category term="index의 값 바꾸기" />
+    <category term="2차원 행렬 인덱싱" />
+    <category term="3차원 텐서 인덱싱" />
+    <category term="벡터" />
+    <category term="행렬" />
+    <category term="텐서" />
+    <category term="슬라이싱" />
+    <category term="1차원 벡터 슬리이싱" />
+    <category term="2차원 행렬 슬라이싱" />
+    <category term="3차원 텐서 슬라이싱" />
+    <category term="판다스,데이터 병합,DataFrame,merge,key 변수,customerID,read_csv,데이터 관리,SQL Join,전처리" />
+    <category term="Python,pandas,데이터 병합,날짜 포맷,apply 함수,merge 함수,데이터프레임,Series,경고 필터링,파일 로드,데이터 접근" />
+    <category term="ndarray 형태바꾸기" />
+    <category term="np.ravel" />
+    <category term="np.flatten" />
+    <category term="np.reshape" />
+    <category term="array의 차원바꾸기" />
+    <category term="이미지 벡터화" />
+    <category term="np.add" />
+    <category term="np.divide" />
+    <category term="np.mod" />
+    <category term="np.mean" />
+    <category term="np.median" />
+    <category term="np.max" />
+    <category term="np.min" />
+    <category term="np.argmax" />
+    <category term="np.argmin" />
+    <category term="np.var" />
+    <category term="np.std" />
+    <category term="np.sum" />
+    <category term="np.consum" />
+    <category term="np.any" />
+    <category term="np.all" />
+    <category term="np.where" />
+    <category term="axis" />
+    <category term="numpy 축" />
+    <category term="1차원 axis" />
+    <category term="2차원 axis" />
+    <category term="3차원 axis" />
+    <category term="데이터 분석,거리 행렬,병합,지하철역,경도,위도,pandas,scipy,haversine,argsort,DataFrame" />
+    <category term="판다스,데이터 병합,groupby,DataFrame,Series,merge,replace,고객ID,구매금액,인덱스,CSV 파일,인코딩,머신러닝,통계량,조건부 통계량" />
+    <category term="판다스,데이터 병합,Series,DataFrame,to_dict,replace,merge,ref_df,인덱스,행정구역,엑셀 파일,CSV 파일,인코딩,add_prefix" />
+    <category term="결측치,데이터 전처리,pandas,dropna,isnull,Train data,Test data,머신러닝,데이터프레임,train_test_split,결측 레코드,결측치 비율,결측치 삭제,결측치 처리,결측치 문제,결측치 대체" />
+    <category term="broadcasting" />
+    <category term="브로드캐스팅" />
+    <category term="서로다른 shape의 numpy끼리 연산하는 방법" />
+    <category term="scalar" />
+    <category term="상수" />
+    <category term="boolean indexing" />
+    <category term="다중조건" />
+    <category term="데이터 전처리,sklearn,결측치,SimpleImputer,train_test_split,DataFrame,상관 계수,범주형 변수,연속형 변수,전처리 모델,대표값 대체,결측치 대체법,전략,평균,최빈값" />
+    <category term="선형대수" />
+    <category term="linalg" />
+    <category term="np.linalg" />
+    <category term="행렬내적구하기" />
+    <category term="전치행렬구하기" />
+    <category term="역행렬" />
+    <category term="정방행렬" />
+    <category term="항등행렬" />
+    <category term="시계열,결측치,대체,DataFrame,fillna,ffill,bfill,Python,pandas,데이터프레임,train_test_split" />
+    <category term="그래프 그리기" />
+    <category term="line plot" />
+    <category term="scatter plot" />
+    <category term="그래프에 주석추가하기" />
+    <category term="grid 추가하기" />
+    <category term="subplot으로 그래프 여러개 그리기" />
+    <category term="histogram그리기" />
+    <category term="결측치,KNN Imputer,예측 모델,데이터 처리,sklearn,머신러닝,데이터프레임,결측 대체,모델 학습,파라미터,상관 계수" />
+    <category term="로또 번호 자동생성기" />
+    <category term="문제풀이" />
+    <category term="pi" />
+    <category term="Mote Carlo" />
+    <category term="원주율구하기" />
+    <category term="범주형 변수,모델 학습,숫자 변환,더미화,연속형 치환,차원의 저주,데이터 분석,지도학습,인코딩,머신러닝" />
+    <category term="EDA" />
+    <category term="스타벅스" />
+    <category term="이디야" />
+    <category term="folium" />
+    <category term="웹크롤링" />
+    <category term="google api" />
+    <category term="좌표추출" />
+    <category term="데이터분석" />
+    <category term="시각화" />
+    <category term="EDA - matplotlib - kaggle - dataset - dendrogram - correlation - preprocessing - folium" />
+    <category term="series" />
+    <category term="pandas" />
+    <category term="판다스" />
+    <category term="시리즈" />
+    <category term="데이터업데이트" />
+    <category term="데이터접근" />
+    <category term="인덱스재사용" />
+    <category term="데이터 전처리,모델 튜닝,하이퍼 파라미터,결측치 처리,범주형 변수,라벨 처리,변수 분포,클래스 불균형,특징 선택,파라미터 그리드,스케일링,머신러닝,데이터 통합,이상치,상관관계" />
+    <category term="전처리" />
+    <category term="size" />
+    <category term="shape" />
+    <category term="len" />
+    <category term="count" />
+    <category term="value_counts" />
+    <category term="mean" />
+    <category term="max" />
+    <category term="min" />
+    <category term="sum" />
+    <category term="median" />
+    <category term="abs" />
+    <category term="cumsum" />
+    <category term="cumprod" />
+    <category term="std" />
+    <category term="var" />
+    <category term="mode" />
+    <category term="corr" />
+    <category term="astype" />
+    <category term="데이터형변환" />
+    <category term="산술연산" />
+    <category term="인덱싱" />
+    <category term="head" />
+    <category term="tail" />
+    <category term="기초" />
+    <category term="Pandas" />
+    <category term="Series" />
+    <category term="local" />
+    <category term="iloc" />
+    <category term="데이터변환" />
+    <category term="리스트" />
+    <category term="딕셔너리" />
+    <category term="넘파이배열" />
+    <category term="List" />
+    <category term="dict" />
+    <category term="numpy_array" />
+    <category term="slicing" />
+    <category term="python - 시각화 - visualization - matplotlib - canvas - subplot - title - fontsize - tick - x축 - y축 - legend - marker - linestyle - color - alpha - 투명도 - grid - 이미지저장" />
+    <category term="visualization" />
+    <category term="matplotlib" />
+    <category term="bar plot" />
+    <category term="막대그래프" />
+    <category term="barhplot" />
+    <category term="가로막대 그래프" />
+    <category term="꺾은선 그래프" />
+    <category term="area plot" />
+    <category term="면적 그래프" />
+    <category term="histogram" />
+    <category term="히스토그램" />
+    <category term="pie chart" />
+    <category term="파이차트" />
+    <category term="box plot" />
+    <category term="3D plot" />
+    <category term="imshow" />
+    <category term="classification" />
+    <category term="헬스케어" />
+    <category term="의료데이터" />
+    <category term="kaggle" />
+    <category term="logistic regression" />
+    <category term="XGBoost" />
+    <category term="feature importance" />
+    <category term="python basic" />
+    <category term="데이터타입" />
+    <category term="주석" />
+    <category term="indent" />
+    <category term="IndentationError" />
+    <category term="연산자" />
+    <category term="escape string" />
+    <category term="문자열자르기" />
+    <category term="문자열 slicing" />
+    <category term="대문자변환" />
+    <category term="upper()" />
+    <category term="소문자변환" />
+    <category term="lower()" />
+    <category term="문자바꾸기" />
+    <category term="replace()" />
+    <category term="format()" />
+    <category term="문자 자르기" />
+    <category term="split()" />
+    <category term="list" />
+    <category term="튜플" />
+    <category term="tuple" />
+    <category term="append" />
+    <category term="extend" />
+    <category term="remove" />
+    <category term="pop" />
+    <category term="index" />
+    <category term="replace" />
+    <category term="in" />
+    <category term="list정렬" />
+    <category term="튜플 indexing" />
+    <category term="튜플 slicing" />
+    <category term="list와 tuple의 공통점" />
+    <category term="list와 tuple의 차이점" />
+    <category term="mutable" />
+    <category term="immutable" />
+    <category term="딕셔러니" />
+    <category term="dictionary" />
+    <category term="set" />
+    <category term="update" />
+    <category term="del" />
+    <category term="clear" />
+    <category term="get()" />
+    <category term="union()" />
+    <category term="intersection()" />
+    <category term="issubset()" />
+    <category term="교집합" />
+    <category term="합집합" />
+    <category term="차집합" />
+    <category term="부분집합" />
+    <category term="조건문" />
+    <category term="if문" />
+    <category term="if" />
+    <category term="elif" />
+    <category term="else" />
+    <category term="조건문 논리" />
+    <category term="조건문 우선순위" />
+    <category term="다중조건문" />
+    <category term="중첩조건문" />
+    <category term="nested condition" />
+    <category term="반복문" />
+    <category term="loop" />
+    <category term="for문" />
+    <category term="while문" />
+    <category term="무한루프" />
+    <category term="break" />
+    <category term="continue" />
+    <category term="dict 아이템출력하기" />
+    <category term="for문에 index사용하기" />
+    <category term="2중 for문" />
+    <category term="loop중첩" />
+    <category term="구구단 출력하기" />
+    <category term="itertools" />
+    <category term="product()" />
+    <category term="combination()" />
+    <category term="permutation()" />
+    <category term="zip()과 itertools.produce()차이" />
+    <category term="list comprehension" />
+    <category term="for문 한줄로 작성하기" />
+    <category term="dictionary comprehension" />
+    <category term="함수" />
+    <category term="def" />
+    <category term="내장함수" />
+    <category term="parameter" />
+    <category term="argument" />
+    <category term="default parameter" />
+    <category term="keyword parameter" />
+    <category term="return" />
+    <category term="multiple return" />
+    <category term="전역변수" />
+    <category term="지역변수" />
+    <category term="local variable" />
+    <category term="global variable" />
+    <category term="가변인자" />
+    <category term="argument parameter" />
+    <category term="args" />
+    <category term="kwargs" />
+    <category term="lambda" />
+    <category term="lambda로 sort하기" />
+    <category term="lambda로 filtering하기" />
+    <category term="lambda로 mapping하기" />
+    <category term="lambda로 reducing하기" />
+    <category term="자주쓰는 lambda기능" />
+    <category term="패키지" />
+    <category term="모듈" />
+    <category term="패키지와 모듈&amp;함수 관계" />
+    <category term="import" />
+    <category term="특정모듈만 불러오기" />
+    <category term="alias" />
+    <category term="별명" />
+    <category term="별명 지어주기" />
+    <category term="class" />
+    <category term="객체" />
+    <category term="상속" />
+    <category term="object" />
+    <category term="instance" />
+    <category term="class선언" />
+    <category term="method" />
+    <category term="__init__" />
+    <category term="self인자" />
+    <category term="method정의" />
+    <category term="method type" />
+    <category term="instance method" />
+    <category term="class method" />
+    <category term="class inheritance" />
+    <category term="method override" />
+    <category term="method재정의" />
+    <category term="부모클래스" />
+    <category term="자식클래스" />
+    <category term="super" />
+    <category term="정규표현식" />
+    <category term="re" />
+    <category term="preprocessing" />
+    <category term="search" />
+    <category term="metacharacters" />
+    <category term="abck" />
+    <category term="abc.^" />
+    <category term="a-d" />
+    <category term="0-9" />
+    <category term="a-z" />
+    <category term="A-Z" />
+    <category term="a-zA-Z0-9" />
+    <category term="^0-9" />
+    <category term="반복패턴" />
+    <category term="기본패턴" />
+    <category term="\d" />
+    <category term="\D" />
+    <category term="\s" />
+    <category term="\S" />
+    <category term="\w" />
+    <category term="\W" />
+    <category term="\" />
+    <category term="\\" />
+    <category term="grouping" />
+    <category term="미니멈 매칭" />
+    <category term="non-greedy way" />
+    <category term="findall" />
+    <category term="sub" />
+    <category term="compile" />
+    <category term="GitHub" />
+    <category term="Resume" />
+    <category term="automated" />
+    <category term="Profile" />
+    <category term="README" />
+    <category term="career" />
+    <category term="이력서" />
+    <category term="깃허브" />
+    <category term="프로필" />
+    <category term="자동작성" />
+    <category term="GitHub Prifile Readme Generator" />
+    <category term="핸즈온 머신러닝" />
+    <category term="ML" />
+    <category term="DL" />
+    <category term="공부방법" />
+    <category term="도서" />
+    <category term="리뷰" />
+    <category term="문자열 다루기" />
+    <category term="islower()" />
+    <category term="isupper()" />
+    <category term="escape문자" />
+    <category term="산술연산자" />
+    <category term="덧셈식 출력하기" />
+    <category term="문자열 붙여서 출력하기" />
+    <category term="문자열 돌리기" />
+    <category term="홀짝 구분하기" />
+    <category term="문자열 겹쳐쓰기" />
+    <category term="n의 배수" />
+    <category term="공배수" />
+    <category term="홀짝에 따라 다른값 반환하기" />
+    <category term="조건 문자열" />
+    <category term="flag에 따라 다른값 반환하기" />
+    <category term="문자열 섞기" />
+    <category term="문자 리스트를 문자열로 변환하기" />
+    <category term="문자열 곱하기" />
+    <category term="더 크게 합치기" />
+    <category term="두 수의 연산값 합치기" />
+    <category term="마지막 두 원소" />
+    <category term="수 조작하기 1" />
+    <category term="수 조작하기 2" />
+    <category term="수열과 구간 쿼리 3" />
+    <category term="수열과 구간 쿼리 2" />
+    <category term="코드 처리하기" />
+    <category term="등차수열의 특정한 항만 더하기" />
+    <category term="주사위게임2" />
+    <category term="원소들의 곱과 합" />
+    <category term="이어 붙인 수" />
+    <category term="수열과 구간쿼리 4" />
+    <category term="배열만들기2" />
+    <category term="카운트 업" />
+    <category term="콜라츠 수열 만들기" />
+    <category term="배열만들기 4" />
+    <category term="간단한 논리 연산" />
+    <category term="주사위 게임 3" />
+    <category term="글자 이어 붙여 문자열 만들기" />
+    <category term="9로 나눈 나머지" />
+    <category term="문자열 여러번 뒤집기" />
+    <entry>
+        <id>https://kimgabe.github.io/2021/07/14/10-numpy/</id>
+        <title>[파이썬 기초] 10. Numpy_ndarray 데이터로 다양한 그래프 그리기</title>
+        <link rel="alternate" href="https://kimgabe.github.io/2021/07/14/10-numpy/"/>
+        <content type="html">&lt;p&gt;plot함수를 이용해 numpy 모듈로 추출한 랜덤한 데이터를 시각화 하는 방법을 소개합니다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; numpy &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; np&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; matplotlib&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;pyplot &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; plt&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;%&lt;/span&gt;matplotlib inline&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;그래프-데이터-생성&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#그래프-데이터-생성&#34;&gt;#&lt;/a&gt; 그래프 데이터 생성&lt;/h1&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;x &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; np&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;linspace&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# x와 연관이 있도록 생성&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;y &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; x &lt;span class=&#34;token operator&#34;&gt;**&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; x &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; np&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;random&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;randn&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;#random을 추가해 일종의 noise 추가  &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;y&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;[ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10.]&lt;br /&gt;
+[  3.21296218   4.3128255    9.1887181   14.86129619  22.55897999&lt;br /&gt;
+32.65802433  44.95035291  58.63330963  73.56553627  92.3407775&lt;br /&gt;
+111.20280392]&lt;/p&gt;
+&lt;h1 id=&#34;그래프-출력하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#그래프-출력하기&#34;&gt;#&lt;/a&gt; 그래프 출력하기&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;plot함수 (선 그래프), scatter(점 그래프), hist(히스토그램) 등 사용&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;함수의 parameter 혹은 plt의 다른 함수로 그래프 형태 및 설정을 변경 가능&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;기본적으로, x, y에 해당하는 값이 필요&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;line-plot&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#line-plot&#34;&gt;#&lt;/a&gt; Line plot&lt;/h2&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;plot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;[]&lt;/p&gt;
+&lt;h2 id=&#34;scatter-plot&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#scatter-plot&#34;&gt;#&lt;/a&gt; Scatter plot&lt;/h2&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;scatter&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;그래프에-주석-추가&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#그래프에-주석-추가&#34;&gt;#&lt;/a&gt; 그래프에 주석 추가&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;x, y 축 및 타이틀&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;xlabel&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;X values&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;ylabel&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;Y values&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;title&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;X-Y relation&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;plot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;[]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;grid 추가&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;xlabel&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;X values&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;ylabel&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;Y values&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;title&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;X-Y relation&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;grid&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token boolean&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;plot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;[]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;x, y축 범위 지정&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;xlabel&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;X values&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;ylabel&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;Y values&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;title&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;X-Y relation&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;grid&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token boolean&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;xlim&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;ylim&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;200&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;plot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;[]&lt;/p&gt;
+&lt;h1 id=&#34;plot-함수-parameters&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#plot-함수-parameters&#34;&gt;#&lt;/a&gt; plot 함수 parameters&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;그래프의 형태에 대한 제어 가능&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.plot&#34;&gt;plot함수 도큐먼트&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;그래프의-색상-변경&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#그래프의-색상-변경&#34;&gt;#&lt;/a&gt; 그래프의 색상 변경&lt;/h2&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;plot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;#ff00ff&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;[]&lt;/p&gt;
+&lt;h2 id=&#34;그래프-선스타일-변경&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#그래프-선스타일-변경&#34;&gt;#&lt;/a&gt; 그래프 선스타일 변경&lt;/h2&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;plot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;-.&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;[]&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;plot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;g^&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;[]&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;plot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;m:&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;[]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;그래프 두께 변경&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;linewidth 명시&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;plot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;m:&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; linewidth&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;[]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;keyword parameter 이용하여 모든 속성 설정&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.plot&#34;&gt;https://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.plot&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;color&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;linestyle&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;marker&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;markerfacecolor&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;markersize 등등&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;plot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; color&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;black&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          linestyle&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;--&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; marker&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;^&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         markerfacecolor&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;blue&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; markersize&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;[]&lt;/p&gt;
+&lt;h1 id=&#34;subplot으로-여러-그래프-출력하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#subplot으로-여러-그래프-출력하기&#34;&gt;#&lt;/a&gt; subplot으로 여러 그래프 출력하기&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;subplot함수로 구획을 구별하여 각각의 subplot에 그래프 출력&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;subplot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;plot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;r&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;subplot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;plot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;g&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;subplot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;plot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;y&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; x&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;k&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;subplot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;plot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; np&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;exp&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;b&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;[]&lt;/p&gt;
+&lt;h1 id=&#34;hist함수-사용&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hist함수-사용&#34;&gt;#&lt;/a&gt; hist함수 사용&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;histogram 생성&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;bins로 historgram bar 개수 설정&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;data &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; np&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;random&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;randint&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; size&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;200&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;data&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;[99 89 83 43 23  1 14 28 76 75  9 14 39 22 12 71 43 36 13 31 66  1  1 22&lt;br /&gt;
+99 83 87 84 88 74 35 56 13 92 98 35 51 27 65 63 61 81 83 38 64 31 72 56&lt;br /&gt;
+71  8 77 81 21  6 65 38 54 63 68 76  5 25 48 99 33 24 35 30 50 44  7 84&lt;br /&gt;
+68  5 37 43 72 85 40 42 28 57 18 53 80 32 66 18 57 84 24 45 57 75  2  6&lt;br /&gt;
+20 85 36 53 77 57  3 97 12 93  4 48 51 21 75  9 15 29 38 37 71 97 42 19&lt;br /&gt;
+83 33 83 33 76 55 20 73 88 79 23  3 44 98 89  7  4 88 33 65 52 40 18 72&lt;br /&gt;
+65 83 80 87 25 99 46 45 34 31 68  7  7 51 80 61 54 30 13 71 35 62 86 26&lt;br /&gt;
+79 78 64  5 23 12 13 49  1 59 48 56 62 25 64 68 75 34 40 36  4 79 46 85&lt;br /&gt;
+17 13 14 46  6 95 66  9]&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;hist&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;data&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; bins&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; alpha&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0.3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;xlabel&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;값&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;ylabel&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;개수&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;grid&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token boolean&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+        <category term="python" />
+        <category term="그래프 그리기" />
+        <category term="line plot" />
+        <category term="scatter plot" />
+        <category term="그래프에 주석추가하기" />
+        <category term="grid 추가하기" />
+        <category term="subplot으로 그래프 여러개 그리기" />
+        <category term="histogram그리기" />
+        <updated>2021-07-13T15:00:00.000Z</updated>
+    </entry>
+</feed>

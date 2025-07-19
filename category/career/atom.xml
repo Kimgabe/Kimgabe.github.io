@@ -1,0 +1,652 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://Kimgabe.github.io</id>
+    <title>Kim Gabe&#39;s DS Blog • Posts by &#34;career&#34; category</title>
+    <link href="https://Kimgabe.github.io" />
+    <updated>2024-01-16T15:00:00.000Z</updated>
+    <category term="python" />
+    <category term="ndarray" />
+    <category term="numpy vectorization" />
+    <category term="메모리" />
+    <category term="np.array" />
+    <category term="ndarray 데이터타입" />
+    <category term="np.arange" />
+    <category term="np.ones" />
+    <category term="np.zeros" />
+    <category term="np.empty" />
+    <category term="np.full" />
+    <category term="np.eye" />
+    <category term="np.linspace" />
+    <category term="reshape" />
+    <category term="데이터 통합,pandas,DataFrame,concat,os,listdir,CSV 파일,데이터 병합,데이터 프레임,데이터 분석,데이터 처리,데이터 정렬,빈 데이터 프레임,파일 시스템,경고 메시지" />
+    <category term="feature engineering" />
+    <category term="prediction" />
+    <category term="regression. DACON" />
+    <category term="시계열" />
+    <category term="카드매출" />
+    <category term="예측" />
+    <category term="KNN" />
+    <category term="RandomForestRegressor" />
+    <category term="LightGBM" />
+    <category term="머신러닝" />
+    <category term="딥러닝" />
+    <category term="random 모듈" />
+    <category term="np.random.rand" />
+    <category term="np.random.randn" />
+    <category term="np.random.randint" />
+    <category term="np.random.seed" />
+    <category term="랜덤을 적용하면서도 일정한 값 만들기" />
+    <category term="np.random.choice" />
+    <category term="np.random.uniform" />
+    <category term="np.random.normal" />
+    <category term="indexing" />
+    <category term="1차원 벡터 인덱싱" />
+    <category term="index로 특정 위치 값 바꾸기" />
+    <category term="index의 값 바꾸기" />
+    <category term="2차원 행렬 인덱싱" />
+    <category term="3차원 텐서 인덱싱" />
+    <category term="벡터" />
+    <category term="행렬" />
+    <category term="텐서" />
+    <category term="슬라이싱" />
+    <category term="1차원 벡터 슬리이싱" />
+    <category term="2차원 행렬 슬라이싱" />
+    <category term="3차원 텐서 슬라이싱" />
+    <category term="판다스,데이터 병합,DataFrame,merge,key 변수,customerID,read_csv,데이터 관리,SQL Join,전처리" />
+    <category term="Python,pandas,데이터 병합,날짜 포맷,apply 함수,merge 함수,데이터프레임,Series,경고 필터링,파일 로드,데이터 접근" />
+    <category term="ndarray 형태바꾸기" />
+    <category term="np.ravel" />
+    <category term="np.flatten" />
+    <category term="np.reshape" />
+    <category term="array의 차원바꾸기" />
+    <category term="이미지 벡터화" />
+    <category term="np.add" />
+    <category term="np.divide" />
+    <category term="np.mod" />
+    <category term="np.mean" />
+    <category term="np.median" />
+    <category term="np.max" />
+    <category term="np.min" />
+    <category term="np.argmax" />
+    <category term="np.argmin" />
+    <category term="np.var" />
+    <category term="np.std" />
+    <category term="np.sum" />
+    <category term="np.consum" />
+    <category term="np.any" />
+    <category term="np.all" />
+    <category term="np.where" />
+    <category term="axis" />
+    <category term="numpy 축" />
+    <category term="1차원 axis" />
+    <category term="2차원 axis" />
+    <category term="3차원 axis" />
+    <category term="데이터 분석,거리 행렬,병합,지하철역,경도,위도,pandas,scipy,haversine,argsort,DataFrame" />
+    <category term="판다스,데이터 병합,groupby,DataFrame,Series,merge,replace,고객ID,구매금액,인덱스,CSV 파일,인코딩,머신러닝,통계량,조건부 통계량" />
+    <category term="판다스,데이터 병합,Series,DataFrame,to_dict,replace,merge,ref_df,인덱스,행정구역,엑셀 파일,CSV 파일,인코딩,add_prefix" />
+    <category term="결측치,데이터 전처리,pandas,dropna,isnull,Train data,Test data,머신러닝,데이터프레임,train_test_split,결측 레코드,결측치 비율,결측치 삭제,결측치 처리,결측치 문제,결측치 대체" />
+    <category term="broadcasting" />
+    <category term="브로드캐스팅" />
+    <category term="서로다른 shape의 numpy끼리 연산하는 방법" />
+    <category term="scalar" />
+    <category term="상수" />
+    <category term="boolean indexing" />
+    <category term="다중조건" />
+    <category term="데이터 전처리,sklearn,결측치,SimpleImputer,train_test_split,DataFrame,상관 계수,범주형 변수,연속형 변수,전처리 모델,대표값 대체,결측치 대체법,전략,평균,최빈값" />
+    <category term="선형대수" />
+    <category term="linalg" />
+    <category term="np.linalg" />
+    <category term="행렬내적구하기" />
+    <category term="전치행렬구하기" />
+    <category term="역행렬" />
+    <category term="정방행렬" />
+    <category term="항등행렬" />
+    <category term="시계열,결측치,대체,DataFrame,fillna,ffill,bfill,Python,pandas,데이터프레임,train_test_split" />
+    <category term="그래프 그리기" />
+    <category term="line plot" />
+    <category term="scatter plot" />
+    <category term="그래프에 주석추가하기" />
+    <category term="grid 추가하기" />
+    <category term="subplot으로 그래프 여러개 그리기" />
+    <category term="histogram그리기" />
+    <category term="결측치,KNN Imputer,예측 모델,데이터 처리,sklearn,머신러닝,데이터프레임,결측 대체,모델 학습,파라미터,상관 계수" />
+    <category term="로또 번호 자동생성기" />
+    <category term="문제풀이" />
+    <category term="pi" />
+    <category term="Mote Carlo" />
+    <category term="원주율구하기" />
+    <category term="범주형 변수,모델 학습,숫자 변환,더미화,연속형 치환,차원의 저주,데이터 분석,지도학습,인코딩,머신러닝" />
+    <category term="EDA" />
+    <category term="스타벅스" />
+    <category term="이디야" />
+    <category term="folium" />
+    <category term="웹크롤링" />
+    <category term="google api" />
+    <category term="좌표추출" />
+    <category term="데이터분석" />
+    <category term="시각화" />
+    <category term="EDA - matplotlib - kaggle - dataset - dendrogram - correlation - preprocessing - folium" />
+    <category term="series" />
+    <category term="pandas" />
+    <category term="판다스" />
+    <category term="시리즈" />
+    <category term="데이터업데이트" />
+    <category term="데이터접근" />
+    <category term="인덱스재사용" />
+    <category term="데이터 전처리,모델 튜닝,하이퍼 파라미터,결측치 처리,범주형 변수,라벨 처리,변수 분포,클래스 불균형,특징 선택,파라미터 그리드,스케일링,머신러닝,데이터 통합,이상치,상관관계" />
+    <category term="전처리" />
+    <category term="size" />
+    <category term="shape" />
+    <category term="len" />
+    <category term="count" />
+    <category term="value_counts" />
+    <category term="mean" />
+    <category term="max" />
+    <category term="min" />
+    <category term="sum" />
+    <category term="median" />
+    <category term="abs" />
+    <category term="cumsum" />
+    <category term="cumprod" />
+    <category term="std" />
+    <category term="var" />
+    <category term="mode" />
+    <category term="corr" />
+    <category term="astype" />
+    <category term="데이터형변환" />
+    <category term="산술연산" />
+    <category term="인덱싱" />
+    <category term="head" />
+    <category term="tail" />
+    <category term="기초" />
+    <category term="Pandas" />
+    <category term="Series" />
+    <category term="local" />
+    <category term="iloc" />
+    <category term="데이터변환" />
+    <category term="리스트" />
+    <category term="딕셔너리" />
+    <category term="넘파이배열" />
+    <category term="List" />
+    <category term="dict" />
+    <category term="numpy_array" />
+    <category term="slicing" />
+    <category term="python - 시각화 - visualization - matplotlib - canvas - subplot - title - fontsize - tick - x축 - y축 - legend - marker - linestyle - color - alpha - 투명도 - grid - 이미지저장" />
+    <category term="visualization" />
+    <category term="matplotlib" />
+    <category term="bar plot" />
+    <category term="막대그래프" />
+    <category term="barhplot" />
+    <category term="가로막대 그래프" />
+    <category term="꺾은선 그래프" />
+    <category term="area plot" />
+    <category term="면적 그래프" />
+    <category term="histogram" />
+    <category term="히스토그램" />
+    <category term="pie chart" />
+    <category term="파이차트" />
+    <category term="box plot" />
+    <category term="3D plot" />
+    <category term="imshow" />
+    <category term="classification" />
+    <category term="헬스케어" />
+    <category term="의료데이터" />
+    <category term="kaggle" />
+    <category term="logistic regression" />
+    <category term="XGBoost" />
+    <category term="feature importance" />
+    <category term="python basic" />
+    <category term="데이터타입" />
+    <category term="주석" />
+    <category term="indent" />
+    <category term="IndentationError" />
+    <category term="연산자" />
+    <category term="escape string" />
+    <category term="문자열자르기" />
+    <category term="문자열 slicing" />
+    <category term="대문자변환" />
+    <category term="upper()" />
+    <category term="소문자변환" />
+    <category term="lower()" />
+    <category term="문자바꾸기" />
+    <category term="replace()" />
+    <category term="format()" />
+    <category term="문자 자르기" />
+    <category term="split()" />
+    <category term="list" />
+    <category term="튜플" />
+    <category term="tuple" />
+    <category term="append" />
+    <category term="extend" />
+    <category term="remove" />
+    <category term="pop" />
+    <category term="index" />
+    <category term="replace" />
+    <category term="in" />
+    <category term="list정렬" />
+    <category term="튜플 indexing" />
+    <category term="튜플 slicing" />
+    <category term="list와 tuple의 공통점" />
+    <category term="list와 tuple의 차이점" />
+    <category term="mutable" />
+    <category term="immutable" />
+    <category term="딕셔러니" />
+    <category term="dictionary" />
+    <category term="set" />
+    <category term="update" />
+    <category term="del" />
+    <category term="clear" />
+    <category term="get()" />
+    <category term="union()" />
+    <category term="intersection()" />
+    <category term="issubset()" />
+    <category term="교집합" />
+    <category term="합집합" />
+    <category term="차집합" />
+    <category term="부분집합" />
+    <category term="조건문" />
+    <category term="if문" />
+    <category term="if" />
+    <category term="elif" />
+    <category term="else" />
+    <category term="조건문 논리" />
+    <category term="조건문 우선순위" />
+    <category term="다중조건문" />
+    <category term="중첩조건문" />
+    <category term="nested condition" />
+    <category term="반복문" />
+    <category term="loop" />
+    <category term="for문" />
+    <category term="while문" />
+    <category term="무한루프" />
+    <category term="break" />
+    <category term="continue" />
+    <category term="dict 아이템출력하기" />
+    <category term="for문에 index사용하기" />
+    <category term="2중 for문" />
+    <category term="loop중첩" />
+    <category term="구구단 출력하기" />
+    <category term="itertools" />
+    <category term="product()" />
+    <category term="combination()" />
+    <category term="permutation()" />
+    <category term="zip()과 itertools.produce()차이" />
+    <category term="list comprehension" />
+    <category term="for문 한줄로 작성하기" />
+    <category term="dictionary comprehension" />
+    <category term="함수" />
+    <category term="def" />
+    <category term="내장함수" />
+    <category term="parameter" />
+    <category term="argument" />
+    <category term="default parameter" />
+    <category term="keyword parameter" />
+    <category term="return" />
+    <category term="multiple return" />
+    <category term="전역변수" />
+    <category term="지역변수" />
+    <category term="local variable" />
+    <category term="global variable" />
+    <category term="가변인자" />
+    <category term="argument parameter" />
+    <category term="args" />
+    <category term="kwargs" />
+    <category term="lambda" />
+    <category term="lambda로 sort하기" />
+    <category term="lambda로 filtering하기" />
+    <category term="lambda로 mapping하기" />
+    <category term="lambda로 reducing하기" />
+    <category term="자주쓰는 lambda기능" />
+    <category term="패키지" />
+    <category term="모듈" />
+    <category term="패키지와 모듈&amp;함수 관계" />
+    <category term="import" />
+    <category term="특정모듈만 불러오기" />
+    <category term="alias" />
+    <category term="별명" />
+    <category term="별명 지어주기" />
+    <category term="class" />
+    <category term="객체" />
+    <category term="상속" />
+    <category term="object" />
+    <category term="instance" />
+    <category term="class선언" />
+    <category term="method" />
+    <category term="__init__" />
+    <category term="self인자" />
+    <category term="method정의" />
+    <category term="method type" />
+    <category term="instance method" />
+    <category term="class method" />
+    <category term="class inheritance" />
+    <category term="method override" />
+    <category term="method재정의" />
+    <category term="부모클래스" />
+    <category term="자식클래스" />
+    <category term="super" />
+    <category term="정규표현식" />
+    <category term="re" />
+    <category term="preprocessing" />
+    <category term="search" />
+    <category term="metacharacters" />
+    <category term="abck" />
+    <category term="abc.^" />
+    <category term="a-d" />
+    <category term="0-9" />
+    <category term="a-z" />
+    <category term="A-Z" />
+    <category term="a-zA-Z0-9" />
+    <category term="^0-9" />
+    <category term="반복패턴" />
+    <category term="기본패턴" />
+    <category term="\d" />
+    <category term="\D" />
+    <category term="\s" />
+    <category term="\S" />
+    <category term="\w" />
+    <category term="\W" />
+    <category term="\" />
+    <category term="\\" />
+    <category term="grouping" />
+    <category term="미니멈 매칭" />
+    <category term="non-greedy way" />
+    <category term="findall" />
+    <category term="sub" />
+    <category term="compile" />
+    <category term="GitHub" />
+    <category term="Resume" />
+    <category term="automated" />
+    <category term="Profile" />
+    <category term="README" />
+    <category term="career" />
+    <category term="이력서" />
+    <category term="깃허브" />
+    <category term="프로필" />
+    <category term="자동작성" />
+    <category term="GitHub Prifile Readme Generator" />
+    <category term="핸즈온 머신러닝" />
+    <category term="ML" />
+    <category term="DL" />
+    <category term="공부방법" />
+    <category term="도서" />
+    <category term="리뷰" />
+    <category term="문자열 다루기" />
+    <category term="islower()" />
+    <category term="isupper()" />
+    <category term="escape문자" />
+    <category term="산술연산자" />
+    <category term="덧셈식 출력하기" />
+    <category term="문자열 붙여서 출력하기" />
+    <category term="문자열 돌리기" />
+    <category term="홀짝 구분하기" />
+    <category term="문자열 겹쳐쓰기" />
+    <category term="n의 배수" />
+    <category term="공배수" />
+    <category term="홀짝에 따라 다른값 반환하기" />
+    <category term="조건 문자열" />
+    <category term="flag에 따라 다른값 반환하기" />
+    <category term="문자열 섞기" />
+    <category term="문자 리스트를 문자열로 변환하기" />
+    <category term="문자열 곱하기" />
+    <category term="더 크게 합치기" />
+    <category term="두 수의 연산값 합치기" />
+    <category term="마지막 두 원소" />
+    <category term="수 조작하기 1" />
+    <category term="수 조작하기 2" />
+    <category term="수열과 구간 쿼리 3" />
+    <category term="수열과 구간 쿼리 2" />
+    <category term="코드 처리하기" />
+    <category term="등차수열의 특정한 항만 더하기" />
+    <category term="주사위게임2" />
+    <category term="원소들의 곱과 합" />
+    <category term="이어 붙인 수" />
+    <category term="수열과 구간쿼리 4" />
+    <category term="배열만들기2" />
+    <category term="카운트 업" />
+    <category term="콜라츠 수열 만들기" />
+    <category term="배열만들기 4" />
+    <category term="간단한 논리 연산" />
+    <category term="주사위 게임 3" />
+    <category term="글자 이어 붙여 문자열 만들기" />
+    <category term="9로 나눈 나머지" />
+    <category term="문자열 여러번 뒤집기" />
+    <entry>
+        <id>https://kimgabe.github.io/2024/01/17/%EC%A7%81%EB%AC%B4%EB%B6%84%EC%84%9D/</id>
+        <title>[Career] AI, 데이터 분야의 직무에는 어떤 것이 있고, 어떤 역량들이 중요할까?!</title>
+        <link rel="alternate" href="https://kimgabe.github.io/2024/01/17/%EC%A7%81%EB%AC%B4%EB%B6%84%EC%84%9D/"/>
+        <content type="html">&lt;h2 id=&#34;summary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#summary&#34;&gt;#&lt;/a&gt; 🚦 Summary&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AI, 데이터 분야 커리어 준비과정의 일환으로 직무에 대한 내용을 조사하고 정리합니다.&lt;/li&gt;
+&lt;li&gt;관심 산업군에서 데이터 분석가들이 어떤 일을 하는지, 어떤 역량등이 필요한지 정리합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;intro&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#intro&#34;&gt;#&lt;/a&gt; 📌 Intro&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;p&gt;데이터 분석가는 현대 기업에서 중요한 위치를 차지하고 있습니다. 이는 21세기를 &#39;데이터의 시대&#39;라고 부르는 이유와 직결되어 있습니다. 각종 산업에서 수집되는 방대한 데이터 속에서 의미 있는 정보를 발견하고 이를 비즈니스 전략에 반영하는 것은 곧 기업의 성공을 의미하게 됩니다. 이 포스팅에서는 제 희망직무인 데이터 분석가에 대해 더 상세한 분석을 합니다.&lt;/p&gt;
+&lt;p&gt;특히, 저의 주요 관심 산업군인 e-commerce, 게임, 금융, 앱 서비스회사에서의 데이터분석가에 초점을 맞춰서 분석하고자 합니다.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;채용공고로-살펴본-데이터-분석가-직무&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#채용공고로-살펴본-데이터-분석가-직무&#34;&gt;#&lt;/a&gt; 🧐채용공고로 살펴본 데이터 분석가 직무&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터 분석직무를 채용하는 여러 회사중 가장 유명하다 생각되는 5개의 채용공고를 분석해보았습니다.&lt;/li&gt;
+&lt;li&gt;채용공고를 확인한 주요 회사는 카카오스타일, 토스, 당근마켓, 쏘카, 에이블리,여기어 였습니다.&lt;/li&gt;
+&lt;li&gt;데이터 분석가, 프로적트 데이터 분석가, 데이터 사이언티스트 등의 채용공고에서 도출한 공통된 경험, 기술, 도구, 지식, 태도 등 은 아래와 같습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;1-기술-및-도구&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-기술-및-도구&#34;&gt;#&lt;/a&gt; 1. 기술 및 도구&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;프로그래밍 언어&lt;/strong&gt;: Python, R 등 데이터 분석에 사용되는 프로그래밍 언어.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;데이터베이스 관리&lt;/strong&gt;: SQL 및 관련 데이터베이스 관리 기술.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;데이터 분석 도구&lt;/strong&gt;: Google Analytics, Firebase, BigQuery 등의 분석 도구 사용 능력.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;데이터 파이프라인 관리&lt;/strong&gt;: 데이터 파이프라인 구축 및 관리.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;보고 도구&lt;/strong&gt;: Tableau 등의 데이터 시각화 및 보고 도구 사용 능력.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-경험-및-지식&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-경험-및-지식&#34;&gt;#&lt;/a&gt; 2. 경험 및 지식&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;데이터 분석 및 가공&lt;/strong&gt;: 데이터 추출, 가공, 분석에 필요한 경험.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;통계학 및 실험 방법론&lt;/strong&gt;: 기본적인 통계 지식 및 실험 방법론에 대한 이해.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;비즈니스 인사이트&lt;/strong&gt;: 비즈니스 관점에서의 데이터 분석 이해 및 인사이트 도출.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;프로젝트 관리&lt;/strong&gt;: 데이터 프로젝트의 전 과정 관리 및 실행 능력.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3-업무-태도-및-방식&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-업무-태도-및-방식&#34;&gt;#&lt;/a&gt; 3. 업무 태도 및 방식&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;문제 해결 능력&lt;/strong&gt;: 문제를 정의하고, 해결 방안을 도출하는 능력.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;자기 주도적 태도&lt;/strong&gt;: 업무에 대한 자기주도적인 접근 및 실행.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;협업 능력&lt;/strong&gt;: 다양한 직군과의 효과적인 협업.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;팀워크 및 커뮤니케이션&lt;/strong&gt;: 팀 내외부와의 효과적인 커뮤니케이션 능력.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;지속적인 학습과 성장&lt;/strong&gt;: 새로운 기술과 도구에 대한 지속적인 학습 의지.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;여러 채용직무를 분석하면서 데이터 분석가, 프로젝트 데이터 분석가, 데이터 사이언티스트 직무에서 성공하기 위해서는 기술적 능력뿐만 아니라, 자기주도적인 업무 접근, 효과적인 팀워크 및 커뮤니케이션, 그리고 지속적인 학습과 성장에 대한 의지가 중요함을 파악할 수 있었습니다.&lt;br /&gt;
+이러한 역량과 태도는 비즈니스 인사이트를 도출하고, 데이터 기반의 의사결정을 지원하는 데 필수적이기 때문이라 생각됩니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;데이터분석가의-1차-2차-고객은-누구이고-어떠한-서비스를-제공하는가&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#데이터분석가의-1차-2차-고객은-누구이고-어떠한-서비스를-제공하는가&#34;&gt;#&lt;/a&gt; 🤳데이터분석가의 1차, 2차 고객은 누구이고 어떠한 서비스를 제공하는가?&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;1-e-commerce&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-e-commerce&#34;&gt;#&lt;/a&gt; 1) e-commerce&lt;/h2&gt;
+&lt;h3 id=&#34;1차고객과-그들에게-제공하는-서비스&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1차고객과-그들에게-제공하는-서비스&#34;&gt;#&lt;/a&gt; &lt;strong&gt;1차고객과 그들에게 제공하는 서비스&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;온라인 쇼핑몰의 경영진은 주요 1차 고객으로, 그들은 시간별, 일별, 월별 판매 데이터, 고객의 방문 패턴, 장바구니 데이터 등 다양한 정보를 분석가에게 요구합니다. 데이터 분석가는 이러한 정보를 기반으로 어떤 상품이 인기가 있는지, 특정 시즌에 어떤 상품이 뜰것 같은지, 어떤 상품을 프로모션할 때 가장 효과적인지 등의 인사이트를 제공합니다.&lt;/p&gt;
+&lt;h3 id=&#34;2차고객과-그들에게-제공하는-서비스&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2차고객과-그들에게-제공하는-서비스&#34;&gt;#&lt;/a&gt; &lt;strong&gt;2차고객과 그들에게 제공하는 서비스&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;온라인 마케팅 팀, 재고 관리팀 등이 2차 고객입니다. 예를 들어 마케팅 팀에게는 어떤 광고 캠페인이 효과적이었는지, 어떤 고객 세그먼트를 타겟으로 광고를 집행해야 효과적인지 등의 정보를 제공합니다. 재고 관리팀에게는 어떤 상품의 재고가 부족할 위험이 있는지, 어떤 상품은 과다한 재고를 보유하고 있는지 등의 정보를 제공합니다.&lt;/p&gt;
+&lt;h2 id=&#34;2-게임회사&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-게임회사&#34;&gt;#&lt;/a&gt; 2) &lt;strong&gt;게임회사&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;1차고객과-그들에게-제공하는-서비스-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1차고객과-그들에게-제공하는-서비스-2&#34;&gt;#&lt;/a&gt; &lt;strong&gt;1차고객과 그들에게 제공하는 서비스&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;게임의 기획자나 프로듀서는 1차 고객입니다. 게임 내에서 플레이어들의 행동 패턴, 구매 패턴, 게임 내에서의 시간 소비 방식 등을 분석하여, 게임의 재미요소나 문제점을 파악합니다. 데이터 분석가는 이런 정보를 바탕으로 게임의 수정 방향성이나, 새로운 게임 모드의 개발 방향 등의 조언을 합니다.&lt;/p&gt;
+&lt;h3 id=&#34;2차고객과-그들에게-제공하는-서비스-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2차고객과-그들에게-제공하는-서비스-2&#34;&gt;#&lt;/a&gt; &lt;strong&gt;2차고객과 그들에게 제공하는 서비스&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;게임의 마케팅 팀이나 고객 지원 팀이 2차 고객입니다. 마케팅 팀에게는 어떤 광고나 이벤트가 플레이어들에게 인기가 있었는지, 어떤 시즌이나 이벤트 때 가장 많은 플레이어가 게임을 이용했는지 등의 정보를 제공합니다. 고객 지원 팀에게는 게임 내에서 발생하는 문제나 버그, 플레이어들의 불만사항 등에 대한 데이터를 제공하여 서비스 개선에 활용하게 합니다.&lt;/p&gt;
+&lt;h2 id=&#34;3-금융회사&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-금융회사&#34;&gt;#&lt;/a&gt; 3) &lt;strong&gt;금융회사&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;1차고객과-그들에게-제공하는-서비스-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1차고객과-그들에게-제공하는-서비스-3&#34;&gt;#&lt;/a&gt; &lt;strong&gt;1차고객과 그들에게 제공하는 서비스&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;은행이나 증권사의 경영진, 투자 담당자 등이 주요 1차 고객입니다. 그들은 금융 시장의 동향, 각종 금융 상품의 성과, 경쟁사와의 위치 등 다양한 정보를 요구합니다. 데이터 분석가는 이런 정보를 바탕으로 투자 전략의 수정 방향성, 새로운 금융 상품의 개발 가능성, 시장에서의 경쟁력 강화 방안 등의 조언을 합니다.&lt;/p&gt;
+&lt;h3 id=&#34;2차고객과-그들에게-제공하는-서비스-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2차고객과-그들에게-제공하는-서비스-3&#34;&gt;#&lt;/a&gt; &lt;strong&gt;2차고객과 그들에게 제공하는 서비스&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;투자자나 금융 상품을 이용하는 고객들이 2차 고객입니다. 그들에게는 자신의 투자 포트폴리오의 성과, 금융 시장의 전반적인 동향, 향후 투자 방향성 등에 대한 정보를 제공합니다.&lt;/p&gt;
+&lt;h2 id=&#34;4-앱-서비스-제공-회사&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4-앱-서비스-제공-회사&#34;&gt;#&lt;/a&gt; 4) 앱 &lt;strong&gt;서비스 제공 회사&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;1차고객과-그들에게-제공하는-서비스-4&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1차고객과-그들에게-제공하는-서비스-4&#34;&gt;#&lt;/a&gt; &lt;strong&gt;1차고객과 그들에게 제공하는 서비스&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;앱의 CEO나 개발 팀은 1차 고객입니다. 그들은 사용자의 앱 사용 패턴, 앱 내에서의 시간 소비 방식, 앱의 문제점 등 다양한 정보를 요구합니다. 데이터 분석가는 이러한 정보를 바탕으로 앱의 수정 방향성, 새로운 기능의 추가 가능성, 사용자의 만족도 향상 방안 등의 조언을 합니다.&lt;/p&gt;
+&lt;h3 id=&#34;2차고객과-그들에게-제공하는-서비스-4&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2차고객과-그들에게-제공하는-서비스-4&#34;&gt;#&lt;/a&gt; &lt;strong&gt;2차고객과 그들에게 제공하는 서비스&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;앱의 마케팅 팀이나 고객 지원 팀이 2차 고객입니다. 마케팅 팀에게는 어떤 광고나 이벤트가 사용자들에게 인기가 있었는지, 어떤 시즌이나 이벤트 때 가장 많은 사용자가 앱을 이용했는지 등의 정보를 제공합니다. 고객 지원 팀에게는 앱 내에서 발생하는 문제나 버그, 사용자들의 불만사항 등에 대한 데이터를 제공하여 서비스 개선에 활용하게 합니다.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;고객에게-서비스를-제공업무하기-위해-나에게-필요한-역량은-무엇일까&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#고객에게-서비스를-제공업무하기-위해-나에게-필요한-역량은-무엇일까&#34;&gt;#&lt;/a&gt; 💡고객에게 서비스를 제공(업무)하기 위해 나에게 필요한 역량은 무엇일까&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;1-e-commerce-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-e-commerce-2&#34;&gt;#&lt;/a&gt; 1) &lt;strong&gt;e-commerce&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;필요한-역량&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#필요한-역량&#34;&gt;#&lt;/a&gt; &lt;strong&gt;필요한 역량&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;데이터 처리 능력&lt;/strong&gt;: 대용량의 판매 데이터, 고객 정보, 웹사이트 트래픽 데이터 등을 효과적으로 처리할 수 있는 능력&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;시장 트렌드 분석&lt;/strong&gt;: 현재 시장의 트렌드를 분석하고 미래의 트렌드를 예측하는 능력&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;고객 행동 분석&lt;/strong&gt;: 고객의 구매 패턴, 방문 경로 등을 분석하여 마케팅 전략에 활용하는 능력&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;2-게임회사-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-게임회사-2&#34;&gt;#&lt;/a&gt; 2) &lt;strong&gt;게임회사&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;필요한-역량-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#필요한-역량-2&#34;&gt;#&lt;/a&gt; &lt;strong&gt;필요한 역량&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;플레이어 행동 분석&lt;/strong&gt;: 게임 내에서의 플레이어 행동과 피드백을 분석하는 능력&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;시장 동향 인지&lt;/strong&gt;: 글로벌 게임 시장의 동향과 변화를 인지하고, 그에 따른 게임의 방향성을 제안하는 능력&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;인게임 데이터 분석&lt;/strong&gt;: 게임 내 아이템의 사용률, 레벨 클리어 시간 등 다양한 인게임 데이터를 분석하는 능력&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;3-금융회사-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-금융회사-2&#34;&gt;#&lt;/a&gt; 3) &lt;strong&gt;금융회사&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;필요한-역량-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#필요한-역량-3&#34;&gt;#&lt;/a&gt; &lt;strong&gt;필요한 역량&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;금융 시장 분석&lt;/strong&gt;: 전세계 금융 시장의 동향과 변화를 파악하는 능력&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;투자 전략 수립&lt;/strong&gt;: 데이터를 기반으로 한 투자 전략을 수립하는 능력&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;리스크 관리&lt;/strong&gt;: 금융 데이터를 분석하여 투자의 리스크를 관리하는 능력&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;4-앱서비스-제공-회사&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4-앱서비스-제공-회사&#34;&gt;#&lt;/a&gt; 4) &lt;strong&gt;앱서비스 제공 회사&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;필요한-역량-4&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#필요한-역량-4&#34;&gt;#&lt;/a&gt; &lt;strong&gt;필요한 역량&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;사용자 행동 분석&lt;/strong&gt;: 앱 사용자의 행동 패턴과 피드백을 분석하는 능력&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;시장 동향 인지&lt;/strong&gt;: 앱 시장의 동향과 변화를 인지하고, 그에 따른 앱의 방향성을 제안하는 능력&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UX/UI 데이터 분석&lt;/strong&gt;: 사용자의 앱 사용성과 만족도를 높이기 위한 분석 능력&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;나열한-역량-중-정말-핵심적인-역량은-무엇일까&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#나열한-역량-중-정말-핵심적인-역량은-무엇일까&#34;&gt;#&lt;/a&gt; 💫나열한 역량 중 정말 핵심적인 역량은 무엇일까?!&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;데이터 처리 능력&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;모든 분야에서 방대한 양의 데이터를 효과적으로 처리하고 분석할 수 있는 능력이 필수적입니다.&lt;/li&gt;
+&lt;li&gt;이를 위해 SQL, Python, R 등의 프로그래밍 및 데이터베이스 관리 능력이 요구됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;통찰력 있는 분석&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;단순히 데이터를 처리하는 것을 넘어서서, 그 데이터 속에서 의미 있는 통찰력을 도출해낼 수 있는 능력이 중요합니다.&lt;/li&gt;
+&lt;li&gt;이를 위해서는 해당 산업의 지식과 함께 분석 도구와 기법에 대한 깊은 이해가 필요합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;시장 동향 인지&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;각 분야의 최신 트렌드와 변화를 빠르게 파악하고 이를 데이터 분석에 반영할 수 있는 능력이 필요합니다.&lt;/li&gt;
+&lt;li&gt;이는 경쟁력 있는 분석 결과를 도출하는 데 큰 도움이 됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;커뮤니케이션 능력&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;분석한 결과를 이해하기 쉽게 다른 팀원이나 스테이크홀더들에게 전달할 수 있는 능력은 매우 중요합니다.&lt;/li&gt;
+&lt;li&gt;복잡한 데이터를 간결하고 명확하게 전달하는 능력은 분석 결과의 효과를 극대화합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;문제 해결 능력&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터 속에서 문제점을 발견하고, 그 문제를 해결하기 위한 방안을 제시하는 능력은 모든 분야의 데이터 분석가에게 필수적입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;데이터분석가로서-나의-경력은-어떻게-바뀔까&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#데이터분석가로서-나의-경력은-어떻게-바뀔까&#34;&gt;#&lt;/a&gt; 🙄데이터분석가로서 나의 경력은 어떻게 바뀔까?&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;1-e-commerce-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-e-commerce-3&#34;&gt;#&lt;/a&gt; 1) e-commerce&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1년차&lt;/strong&gt;: 데이터 처리와 기본적인 분석에 중점을 둡니다. 주로 기존의 데이터 분석 리포트를 기반으로 작업을 수행하며, 선배나 팀장의 지시 하에 업무를 진행합니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3년차&lt;/strong&gt;: 다양한 분석 도구와 기술을 활용하여 복잡한 분석을 수행할 수 있게 됩니다. 새로운 마케팅 전략 제안이나 캠페인의 효과 분석 등을 주도적으로 수행하게 됩니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;5년차&lt;/strong&gt;: 전략적인 분석을 통해 e-commerce 사업의 중장기 전략을 수립하는 데 기여합니다. 팀원들을 리드하며, 데이터 분석 팀의 방향성을 제시하게 됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;2-게임회사-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-게임회사-3&#34;&gt;#&lt;/a&gt; 2) 게임회사&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1년차&lt;/strong&gt;: 주로 기존 게임의 데이터 분석에 참여하며, 선배들의 지도 아래 기본적인 데이터 처리와 분석 능력을 키웁니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3년차&lt;/strong&gt;: 새로운 게임 프로젝트의 데이터 분석을 주도하거나, 기존 게임의 개선을 위한 분석을 진행합니다. 게임 기획자나 개발자와의 협업을 통해 게임의 방향성을 제안하게 됩니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;5년차&lt;/strong&gt;: 게임의 전반적인 데이터 전략을 수립하며, 여러 프로젝트의 데이터 분석을 총괄합니다. 데이터 분석 팀의 리더로서 후배 교육 및 멘토링도 수행하게 됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;3-금융회사-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-금융회사-3&#34;&gt;#&lt;/a&gt; 3) 금융회사&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1년차&lt;/strong&gt;: 주로 기존의 금융 데이터 분석에 참여하며, 선배나 팀장의 지시 하에 업무를 수행합니다. 기본적인 금융 지식과 데이터 처리 능력을 키웁니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3년차&lt;/strong&gt;: 복잡한 금융 데이터를 분석하여 투자 전략을 수립하거나 리스크를 관리하는 업무를 주도적으로 수행하게 됩니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;5년차&lt;/strong&gt;: 금융회사의 중장기 투자 전략이나 리스크 관리 전략을 수립하는데 기여합니다. 데이터 분석 팀의 방향성을 제시하며, 팀원들을 리드하게 됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;4-앱-서비스-회사&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4-앱-서비스-회사&#34;&gt;#&lt;/a&gt; 4) 앱 서비스 회사&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1년차&lt;/strong&gt;: 주로 기존 앱의 데이터 분석에 참여하며, 기본적인 데이터 처리와 분석 능력을 키웁니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3년차&lt;/strong&gt;: 새로운 앱 프로젝트의 데이터 분석을 주도하거나, 기존 앱의 개선을 위한 분석을 진행합니다. 개발 팀과 협업하여 앱의 방향성을 제안하게 됩니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;5년차&lt;/strong&gt;: 앱의 전반적인 데이터 전략을 수립하며, 여러 프로젝트의 데이터 분석을 총괄합니다. 데이터 분석 팀의 리더로서 전략적인 방향성을 제시하게 됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;outro&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#outro&#34;&gt;#&lt;/a&gt; 🎈Outro.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;가뜩이나 관심 산업군도 다양한데 분석가를 목표로 할지 사이언티스트를 목표로 할지도 고민을 하고 있다보니 노선이 불분명하고 갈팡질팡 하는 느낌이 드는 것이 사실입니다.&lt;/li&gt;
+&lt;li&gt;자료를 찾아보다 보니 의외로 잘알고 있다고 생각했던 산업군별 업무였는데, 그렇지 못한 정보들도 많았고, 이 포스팅을 위해 찬찬히 정리하면서 보니 명확하게 포지셔닝이 되는 것 같습니다.&lt;/li&gt;
+&lt;li&gt;늘 생각하지만 제 전공이나 관심사를 살리자면 e-commerce가 가장 적합하다는 생각은 항상 하게 됩니다.&lt;/li&gt;
+&lt;li&gt;그런데 결국 데이터 분석가로서 조금더 오래 살아 남고, 재밌게 일하려면 다양한 도메인 접목이 가능한 앱 서비스 회사의 데이터 분석가를 목표로 하는 것이 장기적으로 좋을 것이라 생각합니다.&lt;/li&gt;
+&lt;li&gt;물론 그 연장선에는 PM혹은 데이터 사이언티스트에 대한 분기도 있을 것 입니다.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <updated>2024-01-16T15:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://kimgabe.github.io/2024/01/16/%EC%A7%81%EB%AC%B4%EC%A0%84%ED%99%98%EA%B3%84%EA%B8%B0/</id>
+        <title>[Career] 왜 나는 데이터 분석가가 되고 싶었던 걸까</title>
+        <link rel="alternate" href="https://kimgabe.github.io/2024/01/16/%EC%A7%81%EB%AC%B4%EC%A0%84%ED%99%98%EA%B3%84%EA%B8%B0/"/>
+        <content type="html">&lt;h2 id=&#34;summary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#summary&#34;&gt;#&lt;/a&gt; 🚦 Summary&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;왜 데이터 분석가란 직무, AI라는 필드를 선택하게 되었는지에 대한 개인적인 얘기들을 정리합니다.&lt;/li&gt;
+&lt;li&gt;내가 이 분야에 뛰어들게 된 계기, 추구하는 바, 그리고 목표&lt;/li&gt;
+&lt;li&gt;제가 생각하는 생각하는 바람직한 개발자의 철학/가치관등에 대한 내용을 담았습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;어쩌다-여기까지&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#어쩌다-여기까지&#34;&gt;#&lt;/a&gt; 🙄어쩌다 여기까지..?&lt;/h2&gt;
+&lt;p&gt;시작점에 대한 고민을 해보자면 여러가지가 있겠지만, 대학 &amp;amp; 대학원에서의 전공활동이 큰 영향을 끼쳤던 것 같습니다. 대학에서는 무역을 전공하며 기초적인 경제지식을 배우기도 했고, 토론 동아리 활동을 하는 등 대외 활동을 하며 알게 모르게 데이터를 접하고 다루고, 그 데이터를 시각화 하고 분석하는 일들이 많았습니다.&lt;/p&gt;
+&lt;p&gt;숫자 자체를 다루는 일에는 그리 좋은 기억이 없지만 그런 데이터를 분석해서 무엇가를 발견해 낸다는 것에는 항상 큰 흥미가 있었던 것 같습니다.&lt;/p&gt;
+&lt;p&gt;대학원생활은  &lt;code&gt;데이터 분석가&lt;/code&gt;  라는 직무를 선택하게된 결정적 계기가 되었습니다. 특히 2가지 활동에서 그런 점이 두드러 졌는데, 하나는 KIEP에서 GPAS라고 하는 지역전문가 양성을 위한 대외 활동에 참여 한 것이었고, 다른 하나는 논문을 쓰는 과정에서였습니다.&lt;/p&gt;
+&lt;p&gt;GPAS에서는 동남아 지역에 진출하고자 하는 국내 중소기업과의 협업을 통해 해외시장을 분석하고, 기업의 해외 시장 진출을 위한 고객 미팅, 시장조사, 보고서 작성, 진출 전략 발굴 등 일종의 컨설팅과 같은 활동을 수행했었습니다.&lt;/p&gt;
+&lt;p&gt;이 과정에서 다양한 데이터들을 조사하고 조합하면서 새로운 인사이트와 전략을 발굴 하는 작업들이 재미가 있었고, 실제로 어느정도의 성과로 이어지다 보니 그런 인상이 더 강해졌습니다.&lt;/p&gt;
+&lt;p&gt;두번째로는 역시 논문을 쓰면서 실제  &lt;code&gt;데이터&lt;/code&gt;  라고 하는 것의 중요성을 체감하게 된 것 같습니다.&lt;br /&gt;
+경제 베이스의 논문을 쓰기위해서는 굉장히 다양한 분야의 시계열 데이터들을 접하고 다루게 됩니다. 이 과정에서 개별적으로는 큰 연관성이 없는 데이터들을 모아 새로운 인사이트로 만들어 내는 그 과정 자체를 겪으면서 데이터가 가진 가능성과 가치에 대해 크게 체감했습니다.&lt;/p&gt;
+&lt;p&gt;당시에는 빅데이터나 머신러닝이라는 개념이 대중화 되기 전이라 메타분석이라는 개념이 좀 더 유행이었고, 그런쪽에 대한 공부를 했었습니다. 하지만 졸업전 취업을 준비하는 과정에서 JTI라는 기업의 채용설명회에서 데이터 분석가라는 직무를 알게 되었습니다. 특히, 시장과 고객에 대한 다양한 데이터등 기업내에서 발생하는 여러 가지 데이터들을 분석해 기업운영을 위한 새로운 Insight를 제공하는 데이터 분석이란 직무에 큰 관심을 갖게 되었스빈다.&lt;/p&gt;
+&lt;p&gt;그래서 졸업 이후에는 AI관련 국비지원 프로그램을 수료하였고, 빅데이터를 기반으로 하는 IT컨설팅 기업에서 근무하며 AI와 데이터 분석이라는 직무에 대한 간접적 경험을 할 수 있게 되었습니다.&lt;/p&gt;
+&lt;p&gt;부트캠프에서 배웠던 내용을 바탕으로 고객의 니즈에 맞춰 새로운 ML 모델을 만들고 가설을 검증해보기도하고, 간단한 데이터 수집 및 소셜 분석, 학습용 데이터 구축,  사업개발을 위한 AI기반 비즈니스모델 설계, 학습용 데이터 구축 등 AI와 관련된 사업에 대해 다양한 경험들을 할 수 있었습니다.&lt;/p&gt;
+&lt;p&gt;그러나 스타트업의 특성상 제가 원하는 데이터들을 다루고 분석하는 업무보다는, AI를 기반으로한 사업을 발굴하기 위한 컨설팅 위주의 업무를 수행하고 있어 제가 원하는 일과는 다른 경험을 하며 그동안 배웠던 기술도, 전문성도 점점 떨어지고 있다는 생각이 들어 이직을 준비하게 되었습니다.&lt;/p&gt;
+&lt;p&gt;그래서 AIFFEL을 선택하게 되었고 처음에 희망하였던 데이터 분석가라는 직무를 수행하기 위한 준비를 하고 있습니다.&lt;/p&gt;
+&lt;h2 id=&#34;바람직한-개발자의-철학가치관&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#바람직한-개발자의-철학가치관&#34;&gt;#&lt;/a&gt; 바람직한 개발자의 철학/가치관&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;개인적으로 가져야 하는 태도라고 생각하는 점과, 급여를 받고 일하는 프로로서 가져야할 태도에 대한 생각이 있습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;개인적으로는 제 깃허브나 블로그에도 늘 적어 두는 말이지만, “배워서 쓸 수 없는 공부는 의미가 없다. 다른 사람을 키워주는 공부가 진정한 공부다.” 는 다산선생의 말씀이 IT분야에서는 너무나 핵심이 되는 말이라 생각합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;저 스스로도 이 분야에 대해 공부하면서 오픈소스나 개인 블로그에 정리된 수많은 정보들에 많은 도움을 받고 있고, 이러한 선순환이 AI의 급격한 발전에 큰 기여를 했다고 생각합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;AIFFEL의 Share Value, Grow Together 라는 슬로건도 그런 점을 잘 반영하고 있다고 생각하며, 이것이 제가 AIFFEL을 선택한 이유이기도 합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;실제 일을 하는 프로로서 가져야 할 태도는 크게 2가지를 생각합니다. 첫번째는 PS(Problem Solving) 에 대한 역량을 갖추고자 노력하는 것, 둘째는 성장하고자 하는 욕구 라 생각합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PS의 경우 결국은 문제에 대한 지속적 관심 👉 탐구 👉 가설수립 👉 해결시도 의 과정을 끊임없이 반복하는 것입니다.&lt;/li&gt;
+&lt;li&gt;그리고 이것은 결국 성장하고자 하는 욕구와 연결됩니다.&lt;/li&gt;
+&lt;li&gt;본인이 일하고 있는 도메인 분야에 대해 지속적으로 관심을 가져야 하고, 그래야만 PS 역량을 기를 수 있으며, 이러한 지속적 관심을 위해서는 결국 &#39;성장하고자 하는 욕구&#39; 가 늘 있어야 한다고 생각합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;outro&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#outro&#34;&gt;#&lt;/a&gt; 🎈 Outro.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;개인적인 얘기를 많이 적게 되었지만, 데이터 분석가가 되기 위해 어떤 과정을 거쳐봤는가를 스스로 돌아보고 재점검 하는 포스팅이 된 것 같습니다.&lt;/li&gt;
+&lt;li&gt;지금의 이 마인드셋과 태도를 잃지 않고 직무 전환을 성공적으로 이뤄낸 뒤에도 PS 역량을 기르기 위해 부단히 노력하는 분석가가 되고자 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <updated>2024-01-15T15:00:00.000Z</updated>
+    </entry>
+</feed>

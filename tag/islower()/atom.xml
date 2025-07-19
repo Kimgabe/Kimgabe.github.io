@@ -1,0 +1,643 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://Kimgabe.github.io</id>
+    <title>Kim Gabe&#39;s DS Blog • Posts by &#34;islower()&#34; tag</title>
+    <link href="https://Kimgabe.github.io" />
+    <updated>2023-09-06T15:00:00.000Z</updated>
+    <category term="python" />
+    <category term="ndarray" />
+    <category term="numpy vectorization" />
+    <category term="메모리" />
+    <category term="np.array" />
+    <category term="ndarray 데이터타입" />
+    <category term="np.arange" />
+    <category term="np.ones" />
+    <category term="np.zeros" />
+    <category term="np.empty" />
+    <category term="np.full" />
+    <category term="np.eye" />
+    <category term="np.linspace" />
+    <category term="reshape" />
+    <category term="데이터 통합,pandas,DataFrame,concat,os,listdir,CSV 파일,데이터 병합,데이터 프레임,데이터 분석,데이터 처리,데이터 정렬,빈 데이터 프레임,파일 시스템,경고 메시지" />
+    <category term="feature engineering" />
+    <category term="prediction" />
+    <category term="regression. DACON" />
+    <category term="시계열" />
+    <category term="카드매출" />
+    <category term="예측" />
+    <category term="KNN" />
+    <category term="RandomForestRegressor" />
+    <category term="LightGBM" />
+    <category term="머신러닝" />
+    <category term="딥러닝" />
+    <category term="random 모듈" />
+    <category term="np.random.rand" />
+    <category term="np.random.randn" />
+    <category term="np.random.randint" />
+    <category term="np.random.seed" />
+    <category term="랜덤을 적용하면서도 일정한 값 만들기" />
+    <category term="np.random.choice" />
+    <category term="np.random.uniform" />
+    <category term="np.random.normal" />
+    <category term="indexing" />
+    <category term="1차원 벡터 인덱싱" />
+    <category term="index로 특정 위치 값 바꾸기" />
+    <category term="index의 값 바꾸기" />
+    <category term="2차원 행렬 인덱싱" />
+    <category term="3차원 텐서 인덱싱" />
+    <category term="벡터" />
+    <category term="행렬" />
+    <category term="텐서" />
+    <category term="슬라이싱" />
+    <category term="1차원 벡터 슬리이싱" />
+    <category term="2차원 행렬 슬라이싱" />
+    <category term="3차원 텐서 슬라이싱" />
+    <category term="판다스,데이터 병합,DataFrame,merge,key 변수,customerID,read_csv,데이터 관리,SQL Join,전처리" />
+    <category term="Python,pandas,데이터 병합,날짜 포맷,apply 함수,merge 함수,데이터프레임,Series,경고 필터링,파일 로드,데이터 접근" />
+    <category term="ndarray 형태바꾸기" />
+    <category term="np.ravel" />
+    <category term="np.flatten" />
+    <category term="np.reshape" />
+    <category term="array의 차원바꾸기" />
+    <category term="이미지 벡터화" />
+    <category term="np.add" />
+    <category term="np.divide" />
+    <category term="np.mod" />
+    <category term="np.mean" />
+    <category term="np.median" />
+    <category term="np.max" />
+    <category term="np.min" />
+    <category term="np.argmax" />
+    <category term="np.argmin" />
+    <category term="np.var" />
+    <category term="np.std" />
+    <category term="np.sum" />
+    <category term="np.consum" />
+    <category term="np.any" />
+    <category term="np.all" />
+    <category term="np.where" />
+    <category term="axis" />
+    <category term="numpy 축" />
+    <category term="1차원 axis" />
+    <category term="2차원 axis" />
+    <category term="3차원 axis" />
+    <category term="데이터 분석,거리 행렬,병합,지하철역,경도,위도,pandas,scipy,haversine,argsort,DataFrame" />
+    <category term="판다스,데이터 병합,groupby,DataFrame,Series,merge,replace,고객ID,구매금액,인덱스,CSV 파일,인코딩,머신러닝,통계량,조건부 통계량" />
+    <category term="판다스,데이터 병합,Series,DataFrame,to_dict,replace,merge,ref_df,인덱스,행정구역,엑셀 파일,CSV 파일,인코딩,add_prefix" />
+    <category term="결측치,데이터 전처리,pandas,dropna,isnull,Train data,Test data,머신러닝,데이터프레임,train_test_split,결측 레코드,결측치 비율,결측치 삭제,결측치 처리,결측치 문제,결측치 대체" />
+    <category term="broadcasting" />
+    <category term="브로드캐스팅" />
+    <category term="서로다른 shape의 numpy끼리 연산하는 방법" />
+    <category term="scalar" />
+    <category term="상수" />
+    <category term="boolean indexing" />
+    <category term="다중조건" />
+    <category term="데이터 전처리,sklearn,결측치,SimpleImputer,train_test_split,DataFrame,상관 계수,범주형 변수,연속형 변수,전처리 모델,대표값 대체,결측치 대체법,전략,평균,최빈값" />
+    <category term="선형대수" />
+    <category term="linalg" />
+    <category term="np.linalg" />
+    <category term="행렬내적구하기" />
+    <category term="전치행렬구하기" />
+    <category term="역행렬" />
+    <category term="정방행렬" />
+    <category term="항등행렬" />
+    <category term="시계열,결측치,대체,DataFrame,fillna,ffill,bfill,Python,pandas,데이터프레임,train_test_split" />
+    <category term="그래프 그리기" />
+    <category term="line plot" />
+    <category term="scatter plot" />
+    <category term="그래프에 주석추가하기" />
+    <category term="grid 추가하기" />
+    <category term="subplot으로 그래프 여러개 그리기" />
+    <category term="histogram그리기" />
+    <category term="결측치,KNN Imputer,예측 모델,데이터 처리,sklearn,머신러닝,데이터프레임,결측 대체,모델 학습,파라미터,상관 계수" />
+    <category term="로또 번호 자동생성기" />
+    <category term="문제풀이" />
+    <category term="pi" />
+    <category term="Mote Carlo" />
+    <category term="원주율구하기" />
+    <category term="범주형 변수,모델 학습,숫자 변환,더미화,연속형 치환,차원의 저주,데이터 분석,지도학습,인코딩,머신러닝" />
+    <category term="EDA" />
+    <category term="스타벅스" />
+    <category term="이디야" />
+    <category term="folium" />
+    <category term="웹크롤링" />
+    <category term="google api" />
+    <category term="좌표추출" />
+    <category term="데이터분석" />
+    <category term="시각화" />
+    <category term="EDA - matplotlib - kaggle - dataset - dendrogram - correlation - preprocessing - folium" />
+    <category term="series" />
+    <category term="pandas" />
+    <category term="판다스" />
+    <category term="시리즈" />
+    <category term="데이터업데이트" />
+    <category term="데이터접근" />
+    <category term="인덱스재사용" />
+    <category term="데이터 전처리,모델 튜닝,하이퍼 파라미터,결측치 처리,범주형 변수,라벨 처리,변수 분포,클래스 불균형,특징 선택,파라미터 그리드,스케일링,머신러닝,데이터 통합,이상치,상관관계" />
+    <category term="전처리" />
+    <category term="size" />
+    <category term="shape" />
+    <category term="len" />
+    <category term="count" />
+    <category term="value_counts" />
+    <category term="mean" />
+    <category term="max" />
+    <category term="min" />
+    <category term="sum" />
+    <category term="median" />
+    <category term="abs" />
+    <category term="cumsum" />
+    <category term="cumprod" />
+    <category term="std" />
+    <category term="var" />
+    <category term="mode" />
+    <category term="corr" />
+    <category term="astype" />
+    <category term="데이터형변환" />
+    <category term="산술연산" />
+    <category term="인덱싱" />
+    <category term="head" />
+    <category term="tail" />
+    <category term="기초" />
+    <category term="Pandas" />
+    <category term="Series" />
+    <category term="local" />
+    <category term="iloc" />
+    <category term="데이터변환" />
+    <category term="리스트" />
+    <category term="딕셔너리" />
+    <category term="넘파이배열" />
+    <category term="List" />
+    <category term="dict" />
+    <category term="numpy_array" />
+    <category term="slicing" />
+    <category term="python - 시각화 - visualization - matplotlib - canvas - subplot - title - fontsize - tick - x축 - y축 - legend - marker - linestyle - color - alpha - 투명도 - grid - 이미지저장" />
+    <category term="visualization" />
+    <category term="matplotlib" />
+    <category term="bar plot" />
+    <category term="막대그래프" />
+    <category term="barhplot" />
+    <category term="가로막대 그래프" />
+    <category term="꺾은선 그래프" />
+    <category term="area plot" />
+    <category term="면적 그래프" />
+    <category term="histogram" />
+    <category term="히스토그램" />
+    <category term="pie chart" />
+    <category term="파이차트" />
+    <category term="box plot" />
+    <category term="3D plot" />
+    <category term="imshow" />
+    <category term="classification" />
+    <category term="헬스케어" />
+    <category term="의료데이터" />
+    <category term="kaggle" />
+    <category term="logistic regression" />
+    <category term="XGBoost" />
+    <category term="feature importance" />
+    <category term="python basic" />
+    <category term="데이터타입" />
+    <category term="주석" />
+    <category term="indent" />
+    <category term="IndentationError" />
+    <category term="연산자" />
+    <category term="escape string" />
+    <category term="문자열자르기" />
+    <category term="문자열 slicing" />
+    <category term="대문자변환" />
+    <category term="upper()" />
+    <category term="소문자변환" />
+    <category term="lower()" />
+    <category term="문자바꾸기" />
+    <category term="replace()" />
+    <category term="format()" />
+    <category term="문자 자르기" />
+    <category term="split()" />
+    <category term="list" />
+    <category term="튜플" />
+    <category term="tuple" />
+    <category term="append" />
+    <category term="extend" />
+    <category term="remove" />
+    <category term="pop" />
+    <category term="index" />
+    <category term="replace" />
+    <category term="in" />
+    <category term="list정렬" />
+    <category term="튜플 indexing" />
+    <category term="튜플 slicing" />
+    <category term="list와 tuple의 공통점" />
+    <category term="list와 tuple의 차이점" />
+    <category term="mutable" />
+    <category term="immutable" />
+    <category term="딕셔러니" />
+    <category term="dictionary" />
+    <category term="set" />
+    <category term="update" />
+    <category term="del" />
+    <category term="clear" />
+    <category term="get()" />
+    <category term="union()" />
+    <category term="intersection()" />
+    <category term="issubset()" />
+    <category term="교집합" />
+    <category term="합집합" />
+    <category term="차집합" />
+    <category term="부분집합" />
+    <category term="조건문" />
+    <category term="if문" />
+    <category term="if" />
+    <category term="elif" />
+    <category term="else" />
+    <category term="조건문 논리" />
+    <category term="조건문 우선순위" />
+    <category term="다중조건문" />
+    <category term="중첩조건문" />
+    <category term="nested condition" />
+    <category term="반복문" />
+    <category term="loop" />
+    <category term="for문" />
+    <category term="while문" />
+    <category term="무한루프" />
+    <category term="break" />
+    <category term="continue" />
+    <category term="dict 아이템출력하기" />
+    <category term="for문에 index사용하기" />
+    <category term="2중 for문" />
+    <category term="loop중첩" />
+    <category term="구구단 출력하기" />
+    <category term="itertools" />
+    <category term="product()" />
+    <category term="combination()" />
+    <category term="permutation()" />
+    <category term="zip()과 itertools.produce()차이" />
+    <category term="list comprehension" />
+    <category term="for문 한줄로 작성하기" />
+    <category term="dictionary comprehension" />
+    <category term="함수" />
+    <category term="def" />
+    <category term="내장함수" />
+    <category term="parameter" />
+    <category term="argument" />
+    <category term="default parameter" />
+    <category term="keyword parameter" />
+    <category term="return" />
+    <category term="multiple return" />
+    <category term="전역변수" />
+    <category term="지역변수" />
+    <category term="local variable" />
+    <category term="global variable" />
+    <category term="가변인자" />
+    <category term="argument parameter" />
+    <category term="args" />
+    <category term="kwargs" />
+    <category term="lambda" />
+    <category term="lambda로 sort하기" />
+    <category term="lambda로 filtering하기" />
+    <category term="lambda로 mapping하기" />
+    <category term="lambda로 reducing하기" />
+    <category term="자주쓰는 lambda기능" />
+    <category term="패키지" />
+    <category term="모듈" />
+    <category term="패키지와 모듈&amp;함수 관계" />
+    <category term="import" />
+    <category term="특정모듈만 불러오기" />
+    <category term="alias" />
+    <category term="별명" />
+    <category term="별명 지어주기" />
+    <category term="class" />
+    <category term="객체" />
+    <category term="상속" />
+    <category term="object" />
+    <category term="instance" />
+    <category term="class선언" />
+    <category term="method" />
+    <category term="__init__" />
+    <category term="self인자" />
+    <category term="method정의" />
+    <category term="method type" />
+    <category term="instance method" />
+    <category term="class method" />
+    <category term="class inheritance" />
+    <category term="method override" />
+    <category term="method재정의" />
+    <category term="부모클래스" />
+    <category term="자식클래스" />
+    <category term="super" />
+    <category term="정규표현식" />
+    <category term="re" />
+    <category term="preprocessing" />
+    <category term="search" />
+    <category term="metacharacters" />
+    <category term="abck" />
+    <category term="abc.^" />
+    <category term="a-d" />
+    <category term="0-9" />
+    <category term="a-z" />
+    <category term="A-Z" />
+    <category term="a-zA-Z0-9" />
+    <category term="^0-9" />
+    <category term="반복패턴" />
+    <category term="기본패턴" />
+    <category term="\d" />
+    <category term="\D" />
+    <category term="\s" />
+    <category term="\S" />
+    <category term="\w" />
+    <category term="\W" />
+    <category term="\" />
+    <category term="\\" />
+    <category term="grouping" />
+    <category term="미니멈 매칭" />
+    <category term="non-greedy way" />
+    <category term="findall" />
+    <category term="sub" />
+    <category term="compile" />
+    <category term="GitHub" />
+    <category term="Resume" />
+    <category term="automated" />
+    <category term="Profile" />
+    <category term="README" />
+    <category term="career" />
+    <category term="이력서" />
+    <category term="깃허브" />
+    <category term="프로필" />
+    <category term="자동작성" />
+    <category term="GitHub Prifile Readme Generator" />
+    <category term="핸즈온 머신러닝" />
+    <category term="ML" />
+    <category term="DL" />
+    <category term="공부방법" />
+    <category term="도서" />
+    <category term="리뷰" />
+    <category term="문자열 다루기" />
+    <category term="islower()" />
+    <category term="isupper()" />
+    <category term="escape문자" />
+    <category term="산술연산자" />
+    <category term="덧셈식 출력하기" />
+    <category term="문자열 붙여서 출력하기" />
+    <category term="문자열 돌리기" />
+    <category term="홀짝 구분하기" />
+    <category term="문자열 겹쳐쓰기" />
+    <category term="n의 배수" />
+    <category term="공배수" />
+    <category term="홀짝에 따라 다른값 반환하기" />
+    <category term="조건 문자열" />
+    <category term="flag에 따라 다른값 반환하기" />
+    <category term="문자열 섞기" />
+    <category term="문자 리스트를 문자열로 변환하기" />
+    <category term="문자열 곱하기" />
+    <category term="더 크게 합치기" />
+    <category term="두 수의 연산값 합치기" />
+    <category term="마지막 두 원소" />
+    <category term="수 조작하기 1" />
+    <category term="수 조작하기 2" />
+    <category term="수열과 구간 쿼리 3" />
+    <category term="수열과 구간 쿼리 2" />
+    <category term="코드 처리하기" />
+    <category term="등차수열의 특정한 항만 더하기" />
+    <category term="주사위게임2" />
+    <category term="원소들의 곱과 합" />
+    <category term="이어 붙인 수" />
+    <category term="수열과 구간쿼리 4" />
+    <category term="배열만들기2" />
+    <category term="카운트 업" />
+    <category term="콜라츠 수열 만들기" />
+    <category term="배열만들기 4" />
+    <category term="간단한 논리 연산" />
+    <category term="주사위 게임 3" />
+    <category term="글자 이어 붙여 문자열 만들기" />
+    <category term="9로 나눈 나머지" />
+    <category term="문자열 여러번 뒤집기" />
+    <entry>
+        <id>https://kimgabe.github.io/2023/09/07/%EB%A7%A4%EC%9D%BC-%EC%BD%94%EB%94%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8-Day-1/</id>
+        <title>[Programmers school] 코딩 기초 트레이닝 Day 1</title>
+        <link rel="alternate" href="https://kimgabe.github.io/2023/09/07/%EB%A7%A4%EC%9D%BC-%EC%BD%94%EB%94%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8-Day-1/"/>
+        <content type="html">&lt;p&gt;문자출력, 대소문자 변경, 산술연산자 응용, 특수문자출력, 문자열 반복 출력하기 등&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;1-문자-출력하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-문자-출력하기&#34;&gt;#&lt;/a&gt; 1. 문자 출력하기&lt;/h2&gt;
+&lt;p&gt;💡 문제설명&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;문자열  &lt;code&gt;str&lt;/code&gt; 이 주어질 때,  &lt;code&gt;str&lt;/code&gt; 을 출력하는 코드를 작성해 보세요.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🔒 제한 사항&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1 ≤  &lt;code&gt;str&lt;/code&gt; 의 길이 ≤ 1,000,000&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;str&lt;/code&gt; 에는 공백이 없으며, 첫째 줄에 한 줄로만 주어집니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;💡 입출력 예&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;입력 #1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;HelloWorld!&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;출력 #1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;HelloWorld!&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;🎓 문제풀이 코드(기본 세팅)&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin&#34;&gt;str&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;input&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;💭 문제 해석&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;input()함수에 HelloWorld! 라는 문자열을 입력받아서 str이란 변수에 저장한 것을 출력해야 함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;⚙ 문제 풀이 계획&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;str을 print()문을 활용해 출력&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;✅ 제출한 답&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin&#34;&gt;str&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;input&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# input() 함수를 통해 &#34;HelloWorld!&#34; 를 입력받아 str에 저장&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# str에 저장된 문자열 데이터 출력 by print()문&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;➡️ 실행결과&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;테스트 &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;입력값 〉	&lt;span class=&#34;token string&#34;&gt;&#34;HelloWorld!&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;기댓값 〉	&lt;span class=&#34;token string&#34;&gt;&#34;HelloWorld!&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;실행 결과 〉	테스트를 통과하였습니다&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;출력 〉	HelloWorld!&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;🤔 피드백&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;처음에 input()에 직접 HelloWorld! 를 입력해야 하나 고민 했는데 input() 자체가 입력을 받는 거니까 입력창이 뜨면 입력하고 아니면 자동 입력되겠거니! 했는데 그게 맞았음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;2-a와-b-출력하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-a와-b-출력하기&#34;&gt;#&lt;/a&gt; 2. a와 b 출력하기&lt;/h2&gt;
+&lt;p&gt;💡 문제설명&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;정수  &lt;code&gt;a&lt;/code&gt; 와  &lt;code&gt;b&lt;/code&gt; 가 주어집니다. 각 수를 입력받아 입출력 예와 같은 형식으로 출력하는 코드를 작성해 보세요.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🔒 제한 사항&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;-100,000 ≤  &lt;code&gt;a&lt;/code&gt; ,  &lt;code&gt;b&lt;/code&gt;  ≤ 100,000&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;💡 입출력 예&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;입력 #1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;출력 #1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;b &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;🎓 문제풀이 코드(기본 세팅)&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; b &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;map&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;input&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;strip&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;split&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39; &#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;💭 문제 해석&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;map함수로 입력된  &lt;code&gt;4 5&lt;/code&gt;  를 각각 a와 b에 할당한 상태&lt;/li&gt;
+&lt;li&gt;변수 a와 b에 할당된 값을 활용해 출력값과 같은 출력이 나오게 해야 함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;⚙ 문제 풀이 계획&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;출력과 같은 값이 나오려면 print()문을 활용하되, 줄바꿈(\n), fstring을 사용하면 될 것 같음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;✅ 제출한 답&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; b &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;map&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;input&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;strip&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;split&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39; &#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string-interpolation&#34;&gt;&lt;span class=&#34;token string&#34;&gt;f&#34;a = &lt;/span&gt;&lt;span class=&#34;token interpolation&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;\nb = &lt;/span&gt;&lt;span class=&#34;token interpolation&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;➡️ 실행결과&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;테스트 &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;입력값 〉	&lt;span class=&#34;token string&#34;&gt;&#34;4 5&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;기댓값 〉	&#34;a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;b &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;실행 결과 〉	테스트를 통과하였습니다&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;출력 〉	a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;b &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;🤔 피드백&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt; &lt;code&gt;print(f&amp;quot;&amp;#123;a&amp;#125;\n&amp;#123;b&amp;#125;&amp;quot;)&lt;/code&gt; &lt;/strong&gt;: f-string을 사용해 변수 ** &lt;code&gt;a&lt;/code&gt; **와 ** &lt;code&gt;b&lt;/code&gt; **의 값을 문자열로 만듬&lt;/li&gt;
+&lt;li&gt;이때 띄어쓰기와 줄바꿈( &lt;code&gt;\n&lt;/code&gt; ) 을 활용해 출력값과 동일한 형태로 출력되게 하였음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;3-문자열-반복해서-출력하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-문자열-반복해서-출력하기&#34;&gt;#&lt;/a&gt; 3. 문자열 반복해서 출력하기&lt;/h2&gt;
+&lt;p&gt;💡 문제설명&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;문자열  &lt;code&gt;str&lt;/code&gt; 과 정수  &lt;code&gt;n&lt;/code&gt; 이 주어집니다.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;str&lt;/code&gt; 이  &lt;code&gt;n&lt;/code&gt;  번 반복된 문자열을 만들어 출력하는 코드를 작성해보세요.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🔒 제한 사항&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1 ≤  &lt;code&gt;str&lt;/code&gt; 의 길이 ≤ 10&lt;/li&gt;
+&lt;li&gt;1 ≤  &lt;code&gt;n&lt;/code&gt;  ≤ 5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;💡 입출력 예&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;입력 #1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;string &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;출력 #1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;stringstringstringstringstring&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;🎓 문제풀이 코드(기본 세팅)&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; b &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;input&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;strip&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;split&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39; &#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;b &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;💭 문제 해석&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a에는 string 이란 변수가, b에는 5라는 변수가 할당된 상태&lt;/li&gt;
+&lt;li&gt;여기서 b의 변수값은 int로 데이터 유형이 변경됨&lt;/li&gt;
+&lt;li&gt;출력 #1과 같은 형태로 출력하려면 산술연산자 개념을 활용해야 함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;⚙ 문제 풀이 계획&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;string을 5번 연속 출력해야 하므로 변수간 산술연산을 활용해 a를 5번 연속 출력&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;✅ 제출한 답&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; b &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;input&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;strip&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;split&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39; &#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;b &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;➡️ 실행결과&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;테스트 &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;입력값 〉	&lt;span class=&#34;token string&#34;&gt;&#34;string 5&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;기댓값 〉	&lt;span class=&#34;token string&#34;&gt;&#34;stringstringstringstringstring&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;실행 결과 〉	테스트를 통과하였습니다&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;출력 〉	stringstringstringstringstring&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;🤔 피드백&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터의 유형에 대한 이해와 산술연산자 활용능력을 테스트하기 위한 문제&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;4-대소문자-바꿔기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4-대소문자-바꿔기&#34;&gt;#&lt;/a&gt; 4. 대소문자 바꿔기&lt;/h2&gt;
+&lt;p&gt;💡 문제설명&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;영어 알파벳으로 이루어진 문자열  &lt;code&gt;str&lt;/code&gt; 이 주어집니다. 각 알파벳을 대문자는 소문자로 소문자는 대문자로 변환해서 출력하는 코드를 작성해 보세요.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🔒 제한 사항&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1 ≤  &lt;code&gt;str&lt;/code&gt; 의 길이 ≤ 20
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;str&lt;/code&gt; 은 알파벳으로 이루어진 문자열입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;💡 입출력 예&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;입력 #1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;aBcDeFg&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;출력 #1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;AbCdEfG&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;🎓 문제풀이 코드(기본 세팅)&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin&#34;&gt;str&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;input&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;💭 문제 해석&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;문자열데이터를 다루는 함수중 upper()와 lower()를 활용하는 문제&lt;/li&gt;
+&lt;li&gt;또한, 대소문자 구분을 위해 islower(), isupper()를 활용해 각각의 문자가 대문자인지 소문자인지도 판별해야 함&lt;/li&gt;
+&lt;li&gt;변환된 문자를 새로운 변수에 할당하기 위해 append 기능을 활용해야 함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;⚙ 문제 풀이 계획&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;입력된 문자가 대문자와 소문자가 섞여있기 때문에 대문자에게는 lower()를 적용해야 하고, 소문자에게는 upper()를 적용해야 함&lt;/li&gt;
+&lt;li&gt;for loop을 활용해서 문제를 풀어야 함&lt;/li&gt;
+&lt;li&gt;변경된 문자가 입력될 가상 변수를 1개 생성한뒤 입력된 문자(aBcDeFg) 를 하나씩 순환하면서 대문자, 소문자로 각각 변경하여 가상 변수에 할당&lt;/li&gt;
+&lt;li&gt;할당된 가상변수를 다시 str에 할당한 뒤 print()&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;✅ 제출한 답&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin&#34;&gt;str&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;input&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;str_converted &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;&#39;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 변환된 문자열을 저장할 빈 문자열 생성&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 원본 문자열의 각 문자에 대해 반복문 적용&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt; char &lt;span class=&#34;token keyword&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;token builtin&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;# char가 소문자인 경우&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; char&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;islower&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;# 소문자를 대문자로 변환한 뒤 str_converted에 추가&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        str_converted &lt;span class=&#34;token operator&#34;&gt;+=&lt;/span&gt; char&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;upper&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;# char가 대문자인 경우&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; char&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;isupper&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;# 대문자를 소문자로 변환한 뒤 str_converted에 추가&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        str_converted &lt;span class=&#34;token operator&#34;&gt;+=&lt;/span&gt; char&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;lower&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin&#34;&gt;str&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; str_converted &lt;span class=&#34;token comment&#34;&gt;# 변환된 문자열을 다시 str에 할당&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;➡️ 실행결과&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;테스트 &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;입력값 〉	&#34;aBcDeFg&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;기댓값 〉	&lt;span class=&#34;token string&#34;&gt;&#34;AbCdEfG&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;실행 결과 〉	테스트를 통과하였습니다&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;출력 〉	AbCdEfG&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;🤔 피드백&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;파이썬의 다양한 함수를 활용하는 능력을 테스트 하기 위함&lt;/li&gt;
+&lt;li&gt;반복문, 문자열 preprocessing, if절 등을 사용하지 않으면 문제를 풀기 어려움&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;5-특수문자-출력하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#5-특수문자-출력하기&#34;&gt;#&lt;/a&gt; 5. 특수문자 출력하기&lt;/h2&gt;
+&lt;p&gt;💡 문제설명&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;다음과 같이 출력하도록 코드를 작성해 주세요.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🔒 제한 사항&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;None&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;💡 입출력 예&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;입력 #1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token boolean&#34;&gt;None&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;출력 #1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;!@&lt;span class=&#34;token comment&#34;&gt;#$%^&amp;amp;*(\&#39;&#34;&amp;lt;&gt;?:;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;🎓 문제풀이 코드(기본 세팅)&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;hello world!&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;💭 문제 해석&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;!@#$%^&amp;amp;*(\&#39;&amp;quot;&amp;lt;&amp;gt;?:;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;특수문자를 출력할때 escape 문자를 활용하는 방법을 테스트하는 내용&lt;/li&gt;
+&lt;li&gt;모든 특수문자는 아니지만 일부 특수문자는 escape문자를 활용해야만 파이썬에서 ‘문자열(string)’로 인식할 수 있음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;⚙ 문제 풀이 계획&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;문자로서 출력하기 위해 escape문자를 써야 하는 특수문자에 대해 적용이 필요&lt;/li&gt;
+&lt;li&gt;적용 대상 특수문자
+&lt;ul&gt;
+&lt;li&gt;작은 따옴표 : ‘&lt;/li&gt;
+&lt;li&gt;큰 따옴표 : “&lt;/li&gt;
+&lt;li&gt;백슬레시 : \&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;escape문자가 적용된 특수문자 예시
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt; &lt;code&gt;\&#39;&lt;/code&gt; &lt;/strong&gt;: 작은따옴표&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt; &lt;code&gt;\&amp;quot;&lt;/code&gt; &lt;/strong&gt;: 큰따옴표&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt; &lt;code&gt;\\&lt;/code&gt; &lt;/strong&gt;: 백슬래시&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;✅ 제출한 답&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;!@#$%^&amp;amp;*(\\&#39;\&#34;&amp;lt;&gt;?:;&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;➡️ 실행결과&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;테스트 &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;입력값 〉	&lt;span class=&#34;token string&#34;&gt;&#34;이 문제는 입력이 없습니다.&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;기댓값 〉	&lt;span class=&#34;token string&#34;&gt;&#34;!@#$%^&amp;amp;*(\&#39;&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&gt;&lt;/span&gt;?&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;실행 결과 〉	테스트를 통과하였습니다&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;출력 〉	!@&lt;span class=&#34;token comment&#34;&gt;#$%^&amp;amp;*(\&#39;&#34;&amp;lt;&gt;?:;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;🤔 피드백&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;escape문자에 대한 개념을 알아야지만 풀 수 있는 문제&lt;/li&gt;
+&lt;li&gt;특히 자주 쓰이는 작은/큰 따옴표와 백슬레시를 문자열로 출력하고자 할 때 어떻게 적용가능한지는 종종 쓰이는 것이니 잘 기억해둘 필요가 있음&lt;/li&gt;
+&lt;li&gt;escape 문자는 문자열 내에서 특수한 기능을 수행하거나 특수 문자를 출력할 때 사용하는 문자&lt;/li&gt;
+&lt;li&gt;Python에서는 백슬래시(&lt;strong&gt; &lt;code&gt;\&lt;/code&gt; &lt;/strong&gt;)를 사용하여 escape 문자를 표현&lt;/li&gt;
+&lt;li&gt;자주사용되는 escape문자의 예시들
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;줄바꿈 ( &lt;code&gt;\n&lt;/code&gt; )&lt;/strong&gt;: 새로운 줄을 시작&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Hello\nWorld&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Hello&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;World&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;탭 ( &lt;code&gt;\t&lt;/code&gt; )&lt;/strong&gt;: 탭 간격을 띄우기&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Hello\tWorld&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Hello World&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;백스페이스 ( &lt;code&gt;\b&lt;/code&gt; )&lt;/strong&gt;: 커서를 하나 뒤로 이동&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Helloo\b World&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Hello World&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;캐리지 리턴 ( &lt;code&gt;\r&lt;/code&gt; )&lt;/strong&gt;: 커서를 해당 줄의 처음으로 이동&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;World\rHello&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Hello&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#&#34;&gt;#&lt;/a&gt; &lt;img src=&#34;/images/coding-test/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EA%B3%B5%EC%A7%80%EC%9A%A9.gif&#34; alt=&#34;&#34; /&gt;&lt;/h2&gt;
+</content>
+        <category term="upper()" />
+        <category term="lower()" />
+        <category term="for문" />
+        <category term="문자열 다루기" />
+        <category term="islower()" />
+        <category term="isupper()" />
+        <category term="escape문자" />
+        <category term="산술연산자" />
+        <updated>2023-09-06T15:00:00.000Z</updated>
+    </entry>
+</feed>

@@ -1,0 +1,875 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Kim Gabe&#39;s DS Blog • Posts by &#34;정규표현식&#34; tag</title>
+        <link>https://Kimgabe.github.io</link>
+        <description>Kim Gabe의 블로그입니다. 데이터 사이언스, AI, 머신러닝 학습 과정을 기록합니다.</description>
+        <language>en</language>
+        <pubDate>Sat, 26 Jun 2021 00:00:00 +0900</pubDate>
+        <lastBuildDate>Sat, 26 Jun 2021 00:00:00 +0900</lastBuildDate>
+        <category>python</category>
+        <category>ndarray</category>
+        <category>numpy vectorization</category>
+        <category>메모리</category>
+        <category>np.array</category>
+        <category>ndarray 데이터타입</category>
+        <category>np.arange</category>
+        <category>np.ones</category>
+        <category>np.zeros</category>
+        <category>np.empty</category>
+        <category>np.full</category>
+        <category>np.eye</category>
+        <category>np.linspace</category>
+        <category>reshape</category>
+        <category>데이터 통합,pandas,DataFrame,concat,os,listdir,CSV 파일,데이터 병합,데이터 프레임,데이터 분석,데이터 처리,데이터 정렬,빈 데이터 프레임,파일 시스템,경고 메시지</category>
+        <category>feature engineering</category>
+        <category>prediction</category>
+        <category>regression. DACON</category>
+        <category>시계열</category>
+        <category>카드매출</category>
+        <category>예측</category>
+        <category>KNN</category>
+        <category>RandomForestRegressor</category>
+        <category>LightGBM</category>
+        <category>머신러닝</category>
+        <category>딥러닝</category>
+        <category>random 모듈</category>
+        <category>np.random.rand</category>
+        <category>np.random.randn</category>
+        <category>np.random.randint</category>
+        <category>np.random.seed</category>
+        <category>랜덤을 적용하면서도 일정한 값 만들기</category>
+        <category>np.random.choice</category>
+        <category>np.random.uniform</category>
+        <category>np.random.normal</category>
+        <category>indexing</category>
+        <category>1차원 벡터 인덱싱</category>
+        <category>index로 특정 위치 값 바꾸기</category>
+        <category>index의 값 바꾸기</category>
+        <category>2차원 행렬 인덱싱</category>
+        <category>3차원 텐서 인덱싱</category>
+        <category>벡터</category>
+        <category>행렬</category>
+        <category>텐서</category>
+        <category>슬라이싱</category>
+        <category>1차원 벡터 슬리이싱</category>
+        <category>2차원 행렬 슬라이싱</category>
+        <category>3차원 텐서 슬라이싱</category>
+        <category>판다스,데이터 병합,DataFrame,merge,key 변수,customerID,read_csv,데이터 관리,SQL Join,전처리</category>
+        <category>Python,pandas,데이터 병합,날짜 포맷,apply 함수,merge 함수,데이터프레임,Series,경고 필터링,파일 로드,데이터 접근</category>
+        <category>ndarray 형태바꾸기</category>
+        <category>np.ravel</category>
+        <category>np.flatten</category>
+        <category>np.reshape</category>
+        <category>array의 차원바꾸기</category>
+        <category>이미지 벡터화</category>
+        <category>np.add</category>
+        <category>np.divide</category>
+        <category>np.mod</category>
+        <category>np.mean</category>
+        <category>np.median</category>
+        <category>np.max</category>
+        <category>np.min</category>
+        <category>np.argmax</category>
+        <category>np.argmin</category>
+        <category>np.var</category>
+        <category>np.std</category>
+        <category>np.sum</category>
+        <category>np.consum</category>
+        <category>np.any</category>
+        <category>np.all</category>
+        <category>np.where</category>
+        <category>axis</category>
+        <category>numpy 축</category>
+        <category>1차원 axis</category>
+        <category>2차원 axis</category>
+        <category>3차원 axis</category>
+        <category>데이터 분석,거리 행렬,병합,지하철역,경도,위도,pandas,scipy,haversine,argsort,DataFrame</category>
+        <category>판다스,데이터 병합,groupby,DataFrame,Series,merge,replace,고객ID,구매금액,인덱스,CSV 파일,인코딩,머신러닝,통계량,조건부 통계량</category>
+        <category>판다스,데이터 병합,Series,DataFrame,to_dict,replace,merge,ref_df,인덱스,행정구역,엑셀 파일,CSV 파일,인코딩,add_prefix</category>
+        <category>결측치,데이터 전처리,pandas,dropna,isnull,Train data,Test data,머신러닝,데이터프레임,train_test_split,결측 레코드,결측치 비율,결측치 삭제,결측치 처리,결측치 문제,결측치 대체</category>
+        <category>broadcasting</category>
+        <category>브로드캐스팅</category>
+        <category>서로다른 shape의 numpy끼리 연산하는 방법</category>
+        <category>scalar</category>
+        <category>상수</category>
+        <category>boolean indexing</category>
+        <category>다중조건</category>
+        <category>데이터 전처리,sklearn,결측치,SimpleImputer,train_test_split,DataFrame,상관 계수,범주형 변수,연속형 변수,전처리 모델,대표값 대체,결측치 대체법,전략,평균,최빈값</category>
+        <category>선형대수</category>
+        <category>linalg</category>
+        <category>np.linalg</category>
+        <category>행렬내적구하기</category>
+        <category>전치행렬구하기</category>
+        <category>역행렬</category>
+        <category>정방행렬</category>
+        <category>항등행렬</category>
+        <category>시계열,결측치,대체,DataFrame,fillna,ffill,bfill,Python,pandas,데이터프레임,train_test_split</category>
+        <category>그래프 그리기</category>
+        <category>line plot</category>
+        <category>scatter plot</category>
+        <category>그래프에 주석추가하기</category>
+        <category>grid 추가하기</category>
+        <category>subplot으로 그래프 여러개 그리기</category>
+        <category>histogram그리기</category>
+        <category>결측치,KNN Imputer,예측 모델,데이터 처리,sklearn,머신러닝,데이터프레임,결측 대체,모델 학습,파라미터,상관 계수</category>
+        <category>로또 번호 자동생성기</category>
+        <category>문제풀이</category>
+        <category>pi</category>
+        <category>Mote Carlo</category>
+        <category>원주율구하기</category>
+        <category>범주형 변수,모델 학습,숫자 변환,더미화,연속형 치환,차원의 저주,데이터 분석,지도학습,인코딩,머신러닝</category>
+        <category>EDA</category>
+        <category>스타벅스</category>
+        <category>이디야</category>
+        <category>folium</category>
+        <category>웹크롤링</category>
+        <category>google api</category>
+        <category>좌표추출</category>
+        <category>데이터분석</category>
+        <category>시각화</category>
+        <category>EDA - matplotlib - kaggle - dataset - dendrogram - correlation - preprocessing - folium</category>
+        <category>series</category>
+        <category>pandas</category>
+        <category>판다스</category>
+        <category>시리즈</category>
+        <category>데이터업데이트</category>
+        <category>데이터접근</category>
+        <category>인덱스재사용</category>
+        <category>데이터 전처리,모델 튜닝,하이퍼 파라미터,결측치 처리,범주형 변수,라벨 처리,변수 분포,클래스 불균형,특징 선택,파라미터 그리드,스케일링,머신러닝,데이터 통합,이상치,상관관계</category>
+        <category>전처리</category>
+        <category>size</category>
+        <category>shape</category>
+        <category>len</category>
+        <category>count</category>
+        <category>value_counts</category>
+        <category>mean</category>
+        <category>max</category>
+        <category>min</category>
+        <category>sum</category>
+        <category>median</category>
+        <category>abs</category>
+        <category>cumsum</category>
+        <category>cumprod</category>
+        <category>std</category>
+        <category>var</category>
+        <category>mode</category>
+        <category>corr</category>
+        <category>astype</category>
+        <category>데이터형변환</category>
+        <category>산술연산</category>
+        <category>인덱싱</category>
+        <category>head</category>
+        <category>tail</category>
+        <category>기초</category>
+        <category>Pandas</category>
+        <category>Series</category>
+        <category>local</category>
+        <category>iloc</category>
+        <category>데이터변환</category>
+        <category>리스트</category>
+        <category>딕셔너리</category>
+        <category>넘파이배열</category>
+        <category>List</category>
+        <category>dict</category>
+        <category>numpy_array</category>
+        <category>slicing</category>
+        <category>python - 시각화 - visualization - matplotlib - canvas - subplot - title - fontsize - tick - x축 - y축 - legend - marker - linestyle - color - alpha - 투명도 - grid - 이미지저장</category>
+        <category>visualization</category>
+        <category>matplotlib</category>
+        <category>bar plot</category>
+        <category>막대그래프</category>
+        <category>barhplot</category>
+        <category>가로막대 그래프</category>
+        <category>꺾은선 그래프</category>
+        <category>area plot</category>
+        <category>면적 그래프</category>
+        <category>histogram</category>
+        <category>히스토그램</category>
+        <category>pie chart</category>
+        <category>파이차트</category>
+        <category>box plot</category>
+        <category>3D plot</category>
+        <category>imshow</category>
+        <category>classification</category>
+        <category>헬스케어</category>
+        <category>의료데이터</category>
+        <category>kaggle</category>
+        <category>logistic regression</category>
+        <category>XGBoost</category>
+        <category>feature importance</category>
+        <category>python basic</category>
+        <category>데이터타입</category>
+        <category>주석</category>
+        <category>indent</category>
+        <category>IndentationError</category>
+        <category>연산자</category>
+        <category>escape string</category>
+        <category>문자열자르기</category>
+        <category>문자열 slicing</category>
+        <category>대문자변환</category>
+        <category>upper()</category>
+        <category>소문자변환</category>
+        <category>lower()</category>
+        <category>문자바꾸기</category>
+        <category>replace()</category>
+        <category>format()</category>
+        <category>문자 자르기</category>
+        <category>split()</category>
+        <category>list</category>
+        <category>튜플</category>
+        <category>tuple</category>
+        <category>append</category>
+        <category>extend</category>
+        <category>remove</category>
+        <category>pop</category>
+        <category>index</category>
+        <category>replace</category>
+        <category>in</category>
+        <category>list정렬</category>
+        <category>튜플 indexing</category>
+        <category>튜플 slicing</category>
+        <category>list와 tuple의 공통점</category>
+        <category>list와 tuple의 차이점</category>
+        <category>mutable</category>
+        <category>immutable</category>
+        <category>딕셔러니</category>
+        <category>dictionary</category>
+        <category>set</category>
+        <category>update</category>
+        <category>del</category>
+        <category>clear</category>
+        <category>get()</category>
+        <category>union()</category>
+        <category>intersection()</category>
+        <category>issubset()</category>
+        <category>교집합</category>
+        <category>합집합</category>
+        <category>차집합</category>
+        <category>부분집합</category>
+        <category>조건문</category>
+        <category>if문</category>
+        <category>if</category>
+        <category>elif</category>
+        <category>else</category>
+        <category>조건문 논리</category>
+        <category>조건문 우선순위</category>
+        <category>다중조건문</category>
+        <category>중첩조건문</category>
+        <category>nested condition</category>
+        <category>반복문</category>
+        <category>loop</category>
+        <category>for문</category>
+        <category>while문</category>
+        <category>무한루프</category>
+        <category>break</category>
+        <category>continue</category>
+        <category>dict 아이템출력하기</category>
+        <category>for문에 index사용하기</category>
+        <category>2중 for문</category>
+        <category>loop중첩</category>
+        <category>구구단 출력하기</category>
+        <category>itertools</category>
+        <category>product()</category>
+        <category>combination()</category>
+        <category>permutation()</category>
+        <category>zip()과 itertools.produce()차이</category>
+        <category>list comprehension</category>
+        <category>for문 한줄로 작성하기</category>
+        <category>dictionary comprehension</category>
+        <category>함수</category>
+        <category>def</category>
+        <category>내장함수</category>
+        <category>parameter</category>
+        <category>argument</category>
+        <category>default parameter</category>
+        <category>keyword parameter</category>
+        <category>return</category>
+        <category>multiple return</category>
+        <category>전역변수</category>
+        <category>지역변수</category>
+        <category>local variable</category>
+        <category>global variable</category>
+        <category>가변인자</category>
+        <category>argument parameter</category>
+        <category>args</category>
+        <category>kwargs</category>
+        <category>lambda</category>
+        <category>lambda로 sort하기</category>
+        <category>lambda로 filtering하기</category>
+        <category>lambda로 mapping하기</category>
+        <category>lambda로 reducing하기</category>
+        <category>자주쓰는 lambda기능</category>
+        <category>패키지</category>
+        <category>모듈</category>
+        <category>패키지와 모듈&amp;함수 관계</category>
+        <category>import</category>
+        <category>특정모듈만 불러오기</category>
+        <category>alias</category>
+        <category>별명</category>
+        <category>별명 지어주기</category>
+        <category>class</category>
+        <category>객체</category>
+        <category>상속</category>
+        <category>object</category>
+        <category>instance</category>
+        <category>class선언</category>
+        <category>method</category>
+        <category>__init__</category>
+        <category>self인자</category>
+        <category>method정의</category>
+        <category>method type</category>
+        <category>instance method</category>
+        <category>class method</category>
+        <category>class inheritance</category>
+        <category>method override</category>
+        <category>method재정의</category>
+        <category>부모클래스</category>
+        <category>자식클래스</category>
+        <category>super</category>
+        <category>정규표현식</category>
+        <category>re</category>
+        <category>preprocessing</category>
+        <category>search</category>
+        <category>metacharacters</category>
+        <category>abck</category>
+        <category>abc.^</category>
+        <category>a-d</category>
+        <category>0-9</category>
+        <category>a-z</category>
+        <category>A-Z</category>
+        <category>a-zA-Z0-9</category>
+        <category>^0-9</category>
+        <category>반복패턴</category>
+        <category>기본패턴</category>
+        <category>\d</category>
+        <category>\D</category>
+        <category>\s</category>
+        <category>\S</category>
+        <category>\w</category>
+        <category>\W</category>
+        <category>\</category>
+        <category>\\</category>
+        <category>grouping</category>
+        <category>미니멈 매칭</category>
+        <category>non-greedy way</category>
+        <category>findall</category>
+        <category>sub</category>
+        <category>compile</category>
+        <category>GitHub</category>
+        <category>Resume</category>
+        <category>automated</category>
+        <category>Profile</category>
+        <category>README</category>
+        <category>career</category>
+        <category>이력서</category>
+        <category>깃허브</category>
+        <category>프로필</category>
+        <category>자동작성</category>
+        <category>GitHub Prifile Readme Generator</category>
+        <category>핸즈온 머신러닝</category>
+        <category>ML</category>
+        <category>DL</category>
+        <category>공부방법</category>
+        <category>도서</category>
+        <category>리뷰</category>
+        <category>문자열 다루기</category>
+        <category>islower()</category>
+        <category>isupper()</category>
+        <category>escape문자</category>
+        <category>산술연산자</category>
+        <category>덧셈식 출력하기</category>
+        <category>문자열 붙여서 출력하기</category>
+        <category>문자열 돌리기</category>
+        <category>홀짝 구분하기</category>
+        <category>문자열 겹쳐쓰기</category>
+        <category>n의 배수</category>
+        <category>공배수</category>
+        <category>홀짝에 따라 다른값 반환하기</category>
+        <category>조건 문자열</category>
+        <category>flag에 따라 다른값 반환하기</category>
+        <category>문자열 섞기</category>
+        <category>문자 리스트를 문자열로 변환하기</category>
+        <category>문자열 곱하기</category>
+        <category>더 크게 합치기</category>
+        <category>두 수의 연산값 합치기</category>
+        <category>마지막 두 원소</category>
+        <category>수 조작하기 1</category>
+        <category>수 조작하기 2</category>
+        <category>수열과 구간 쿼리 3</category>
+        <category>수열과 구간 쿼리 2</category>
+        <category>코드 처리하기</category>
+        <category>등차수열의 특정한 항만 더하기</category>
+        <category>주사위게임2</category>
+        <category>원소들의 곱과 합</category>
+        <category>이어 붙인 수</category>
+        <category>수열과 구간쿼리 4</category>
+        <category>배열만들기2</category>
+        <category>카운트 업</category>
+        <category>콜라츠 수열 만들기</category>
+        <category>배열만들기 4</category>
+        <category>간단한 논리 연산</category>
+        <category>주사위 게임 3</category>
+        <category>글자 이어 붙여 문자열 만들기</category>
+        <category>9로 나눈 나머지</category>
+        <category>문자열 여러번 뒤집기</category>
+        <item>
+            <guid isPermalink="true">https://kimgabe.github.io/2021/06/26/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B8%B0%EC%B4%88-15-v1/</guid>
+            <title>[파이썬 기초] 15. 정규표현식(패턴 찾기)과 re 모듈</title>
+            <link>https://kimgabe.github.io/2021/06/26/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B8%B0%EC%B4%88-15-v1/</link>
+            <category>정규표현식</category>
+            <category>re</category>
+            <category>preprocessing</category>
+            <category>search</category>
+            <category>metacharacters</category>
+            <category>abck</category>
+            <category>abc.^</category>
+            <category>a-d</category>
+            <category>0-9</category>
+            <category>a-z</category>
+            <category>A-Z</category>
+            <category>a-zA-Z0-9</category>
+            <category>^0-9</category>
+            <category>반복패턴</category>
+            <category>기본패턴</category>
+            <category>\d</category>
+            <category>\D</category>
+            <category>\s</category>
+            <category>\S</category>
+            <category>\w</category>
+            <category>\W</category>
+            <category>\</category>
+            <category>\\</category>
+            <category>grouping</category>
+            <category>미니멈 매칭</category>
+            <category>non-greedy way</category>
+            <category>findall</category>
+            <category>sub</category>
+            <category>compile</category>
+            <pubDate>Sat, 26 Jun 2021 00:00:00 +0900</pubDate>
+            <description><![CDATA[ &lt;p&gt;정규표현식을 활용해 문자열 데이터를 다루는 다양한 방법을 소개합니다.&lt;/p&gt;
+&lt;h1 id=&#34;정규표현식-regular-expression&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#정규표현식-regular-expression&#34;&gt;#&lt;/a&gt; 정규표현식 (regular expression)&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;특정한 패턴과 일치하는 문자열를 &#39;검색&#39;, &#39;치환&#39;, &#39;제거&#39; 하는 기능을 지원한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;정규표현식의 도움없이 패턴을 찾는 작업(Rule 기반)은 불완전 하거나, 작업의 cost가 높다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;e.g) 이메일 형식 판별, 전화번호 형식 판별, 숫자로만 이루어진 문자열 등&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;raw-string&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#raw-string&#34;&gt;#&lt;/a&gt; raw string&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;문자열 앞에 r이 붙으면&lt;/strong&gt; 해당 문자열이 구성된 그대로 문자열로 변환&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;abcdef\n&#39;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# \n : escapce 문자열 (enter의미)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;b &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;r&#39;abcdef\n&#39;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# escape 문자열이 적용되지 않는다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;abcdef&lt;/p&gt;
+&lt;p&gt;abcdef\n&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;정규표현식에서 패턴은 raw string으로 이뤄진다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;특정 표현식은 &#39;&#39; 와 함께 이뤄지는 경우가 대부분이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;기본-패턴&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#기본-패턴&#34;&gt;#&lt;/a&gt; 기본 패턴&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;a, X, 9 등등 문자 하나하나의 character들은 정확히 해당 문자와 일치&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;e.g) 패턴 test는 test 문자열과 일치&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;대소문자의 경우 기본적으로 구별하나, 구별하지 않도록 설정 가능&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;몇몇 문자들에 대해서는 예외가 존재하는데, 이들은 특별한 의미로 사용 됨&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;. ^ $ * + ? { } [ ] \ | ( )&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;. (마침표) - 어떤 한개의 character와 일치 (newline(엔터) 제외)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\w - 문자 character와 일치 [a-zA-Z0-9_]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\s - 공백문자와 일치&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\t, \n, \r - tab, newline, return&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\d - 숫자 character와 일치 [0-9]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;^ = 시작, $ = 끝 각각 문자열의 시작과 끝을 의미&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\가 붙으면 스페셜한 의미가 없어짐. 예를들어 \.는 .자체를 의미 \\는 \를 의미&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;자세한 내용은 링크 참조 &lt;a href=&#34;https://docs.python.org/3/library/re.html&#34;&gt;https://docs.python.org/3/library/re.html&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;search-method&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#search-method&#34;&gt;#&lt;/a&gt; &lt;strong&gt;search method&lt;/strong&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;첫번째로 패턴을 찾으면 match 되는 객체를 반환&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;패턴을 찾지 못하면 None 반환&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&#39;search(정규표현식 패턴, 찾을 대상이 되는 문자열)&#39; 와 같은 형태로 사용한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;일치하는 패턴이 있는 경우 = 매치되는 객체를 반환한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; re &lt;span class=&#34;token comment&#34;&gt;# 정규표현식 모듈 불러오기&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;m &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;abc&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;123abcdef&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;#123abdef 에서 &#39;abc&#39;라는 패턴을 찾아라(abc가 해당 문자열에 있는지 없는지)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;m&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;m&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;일치 하는 패턴이 없는 경우 = None 출력한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;m &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;abc&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;123abdef&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;#123abdef 에서 &#39;abc&#39;라는 패턴을 찾아라(abc가 해당 문자열에 있는지 없는지)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;m&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;m&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;None&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;m &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;abc&#39;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;abcdef&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;m&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;start&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 해당 문자열에서 패턴이 검색된 위치의 시작 index&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;m&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;end&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;# 해당 문자열에서 패턴이 검색된 위치의 끝 index&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;m&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;group&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 해당 검색된 패턴 자체를 출력&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;0&lt;br /&gt;
+3&lt;br /&gt;
+abc&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;m.start() 와 m.end()은 각각 패턴이 검색된 문자열의 시작점과 끝점의 index를 의미&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;이때 표현되는 start와 end의 값은 시작점은 포함, 끝지점은 포함하지 않는다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;abcdef에서 abc가 검색된 지점은 [abc]def이다.즉, 시작점은 0번째 string인 a이고, 끝지점은 2번째 index인 c에서 끝나서 end의 출력물은 3이 된다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;m &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;abc&#39;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;123abcdef&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;m&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;start&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 해당 문자열에서 패턴이 검색된 위치의 시작 index&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;m&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;end&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;# 해당 문자열에서 패턴이 검색된 위치의 끝 index&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;m&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;group&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 해당 검색된 패턴 자체를 출력&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;3&lt;br /&gt;
+6&lt;br /&gt;
+abc&lt;/p&gt;
+&lt;p&gt;abc가 검색되는 위치가 변경되었다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\d - 숫자 character와 일치 [0-9]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;m &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;\d\d&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;112abcdef119&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# \d\d : 숫자 2개가 연달아 나오는 패턴이 있는가? &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;m&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# search 함수는 여러개의 패턴이 검색되면 &#39;가장 먼저&#39; 확인되는 패턴을 return한다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;m &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;\d\d\d\d&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;112abcdef119&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# \d\d\d\d : 숫자 4개가 연달아 나오는 패턴이 있는가?&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;m &lt;span class=&#34;token comment&#34;&gt;# None 이므로 print() 없이는 아무것도 출력되지 않는다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;\w - 문자 character와 일치 [a-zA-Z0-9_]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;m &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;\d\d\d\w&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;112abcdef119&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# \d\d\d\w : 숫자 3개와 문자1개 패턴으로 나오는 패턴이 있는가?&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;m&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;. (마침표) - 어떤 한개의 character와 일치 (newline(엔터) 제외)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;m &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;..\w\w&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;@#$%ABCDabcd&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# ..\w\w : 어떤 문자든지 2개가 나오고 문자 character 2개가 연달아 나오는 패턴이 있는가?&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;m&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;metacharacters-메타-캐릭터&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#metacharacters-메타-캐릭터&#34;&gt;#&lt;/a&gt; metacharacters (메타 캐릭터) :&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&#39;[]&#39; 문자들의 범위를 나타내기 위해 사용&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[] 내부의 meta character는 순수하게 문자열을 의미(위의 기본 패턴 처럼 어떤 특정 의미를 갖지 않는다)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;e.g)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;[abck] : a or b or c or k&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[abc.^] : a or b or c or . or ^&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[a-d]  : -와 함께 사용되면 해당 문자 사이의 범위에 속하는 문자 중 하나 (즉, a부터 d사이중 하나)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[0-9]  : 모든 숫자&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[a-z]  : 모든 소문자&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[A-Z]  : 모든 대문자&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[a-zA-Z0-9] : 모든 알파벳 문자 및 숫자&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[^0-9] : ^가 맨 앞에 사용 되는 경우 해당 문자 패턴이 아닌 것과 매칭. ,즉 &lt;strong&gt;&#39;^&#39;는 not을 의미&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[abck] : a or b or c or k&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;[cbm]at&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;cat&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# [cbm] 중 한개 + at 라는 패턴이 있는가?&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;[cbm]at&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;aat&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# [cbm] 중 한개 + at 라는 패턴이 있는가?&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 일치하는 값이 없음 = None = 아무것도 출력되지 않음&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;[0-9]  : 모든 숫자&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;[0-4]pattern&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;7pattern&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# [0-4]의 숫자중 1개 + pattern 라는 패턴이 있는가?&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 7은 0~ 4 사이의 숫자가 아니므로 None&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;[0-9]pattern&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;7pattern&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# [0-9]의 숫자중(모든수) 1개 + pattern 라는 패턴이 있는가?&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;[^0-9] : ^가 맨 앞에 사용 되는 경우 해당 문자 패턴이 아닌 것과 매칭. ,즉 &lt;strong&gt;&#39;^&#39;는 not을 의미&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;[^abc]aron&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;0aron&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# ^abc : ^ or a or b or c + aron 이란 패턴이 있는가?&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;[abc.^]aron&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;caron&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# abc.^ : a or b or c or . or ^ + aron 이란 패턴이 있는가?&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;[abc.^]aron&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;daron&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# abc.^ : a or b or c or . or ^ + aron 이란 패턴이 있는가?&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;[^0-9] : ^가 맨 앞에 사용 되는 경우 해당 문자 패턴이 아닌 것과 매칭. ,즉 &lt;strong&gt;&#39;^&#39;는 not을 의미&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;[^abc.]aron&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;daron&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# ^abc. : a or b or c or . 가 아닌 것 + aron 이란 패턴이 있는가?&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;반복패턴&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#반복패턴&#34;&gt;#&lt;/a&gt; 반복패턴&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;패턴 뒤에 위치하는 *, +, ?는 해당 패턴이 &lt;strong&gt;반복적으로 존재하는지 검사&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&#39;+&#39; -&amp;gt; 1번 이상의 패턴이 발생&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&#39;*&#39; -&amp;gt; 0번 이상의 패턴이 발생&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&#39;?&#39; -&amp;gt; 0 혹은 1번의 패턴이 발생&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;반복을 패턴의 경우 greedy하게 검색 함, 즉, 가능한 많은 부분이 매칭되도록 한다.&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;e.g) a[bcd]*b  패턴을 abcbdccb에서 검색하는 경우&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ab, abcb, abcbdccb 전부 가능 하지만 최대한 많은 부분이 매칭된 abcbdccb가 검색된 패턴&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&#39;*&#39; -&amp;gt; 0번 이상의 패턴이 발생&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;a[bcd]*b&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;abcbdccb&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# [bcd] 중 하나가 0번이상 반복되고(0번포함) + b인 패턴&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;&#39;+&#39; -&amp;gt; 1번 이상의 패턴이 발생&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;b\w+a&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;banana&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# b\w+a : b로 시작해서 어떤 숫자나 영문자(\w)가 1번이상 발생(+)하고 그 뒤에 a가 붙은 패턴이 있는가?&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;i+&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;piigiii&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# i+ : i가 1번 이상 포함된 패턴이 있는가?&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# search함수는 가장 먼저 찾아지는 첫번째 것을 검색하는 순간 멈춘다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;&#39;+&#39;&lt;/strong&gt; 와 **&#39;*&#39;**의 차이&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;pi+g&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;piig&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;pi*g&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;piig&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;pi+g&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;pig&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# pi+g :&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;pi*g&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;pig&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&#39;+&#39;는 최소 1번, &#39;*&#39; 는 최소 0번이기 때문에 위의 경우 차이가 없지만, 아래 처럼 &#39;i&#39;가 아예 없는 경우라면 그 차이가 보인다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;pi+g&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;pg&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# pi+g :&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;pi*g&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;pg&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;&#39;?&#39; -&amp;gt; 0 혹은 1번의 패턴이 발생&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;https?&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;http://www.naver.com&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;https?&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;httpt://www.naver.com&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;https?&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;httpq://www.naver.com&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;사실상 https? 에서 s는 없어도 상관없다.&lt;/p&gt;
+&lt;h2 id=&#34;기본-패턴-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#기본-패턴-2&#34;&gt;#&lt;/a&gt; 기본 패턴 *&lt;em&gt;*&lt;/em&gt;&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;다른 문자와 함께 사용되어 특수한 의미를 갖게 된다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;대문자는 소문자 패턴 조건의 not을 의미한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;p&gt;e.g)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;\d : 숫자를          [0-9]와 동일&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\D : 숫자가 아닌 문자  [^0-9]와 동일&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\s : 공백 문자(띄어쓰기, 탭, 엔터 등)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\S : 공백이 아닌 문자&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\w : 알파벳대소문자, 숫자 [0-9a-zA-Z]와 동일&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\W : non alpha-numeric 문자 [^0-9a-zA-Z]와 동일&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;메타 캐릭터가 캐릭터 자체를 표현하도록 할 경우 사용&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;\. , \\&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\s : 공백 문자(띄어쓰기, 탭, 엔터 등)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;\sand&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;apple and banana&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# \sand :  공백 문자 + and 인 패턴이 있는가?&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;\S : 공백이 아닌 문자&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;\Sand&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;apple land banana&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# \Sand : 공백 없음+and 라는 패턴이 있는가?&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;메타 캐릭터가 캐릭터 자체를 표현하도록 할 경우&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;\. , \\&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;원래 메타 표현식에서 .는 &#39;모든 문자&#39;를 의미&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&#39;.&#39;이 들어간 패턴을 찾고 싶을때&lt;/p&gt;
+&lt;p&gt;잘못된 검색법&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;.and&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;.and&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;.and&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;Aand&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;정확한 예시 : \를 사용해줘야 한다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;\.and&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;.and&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;\.and&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;Aand&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;기본-패턴-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#기본-패턴-3&#34;&gt;#&lt;/a&gt; 기본 패턴 &lt;strong&gt;.&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;모든 문자를 의미&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;p.g&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;pig&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;기본-패턴-4&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#기본-패턴-4&#34;&gt;#&lt;/a&gt; 기본 패턴 &lt;strong&gt;^&lt;/strong&gt;, &lt;strong&gt;$&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;^  문자열의 맨 앞부터 일치하는 경우 검색&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$  문자열의 맨 뒤부터 일치하는 경우 검색&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;^  문자열의 맨 앞부터 일치하는 경우 검색&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;b\w+a&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;cabana&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# b\w+a :  b로 시작해서 어떤문자(\w)하나이상이 나오고 a가 나오는 패턴이 있는가?&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;^b\w+a&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;cabana&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# ^b\w+a : 문자열의 시작부터 b로 시작해서 어떤문자(\w)하나 이상이 나오고 a가 나오는 패턴이 있는가?&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# None이 뜬다. 왜? 검색할 문자열이 &#39;c&#39;로 시작하기 때문&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;^b\w+a&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;babana&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 문자열의 시작이 b여서 패턴 검색이 된다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;$  문자열의 맨 뒤부터 일치하는 경우 검색&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;b\w+a$&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;cabana&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# b\w+a$ : b로 시작해서 어떤문자(\w)하나 이상이 나오고 끝이 a가 나오는 패턴이 있는가?&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;b\w+a$&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;cabanap&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# b\w+a$ : b로 시작해서 어떤문자(\w)하나 이상이 나오고 끝이 a가 나오는 패턴이 있는가?&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 맨 끝이 a로 끝나야 되는데 p로 끝나서 None이 된다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;grouping&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#grouping&#34;&gt;#&lt;/a&gt; &lt;strong&gt;grouping&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;()을 사용하여 그루핑&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;매칭 결과를 각 그룹별로 분리 가능&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;패턴 명시 할 때, 각 그룹을 괄호() 안에 넣어 분리하여 사용&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;이메일 패턴이 가장 대표적인 예시&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;m &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;\w+@.+&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;gabe@gmail.com&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# \w+@.+ : 어떤 문자열이든 1개 이상(\w+)이 나오고 @가 붙고 그 다음에 어떤 문자든 한번(.+) 나오는 패턴?&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;m&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;group&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;#일치하는 패턴 전체를 가져오는 함수&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&#39;gabe@gmail.com&#39;&lt;/p&gt;
+&lt;p&gt;문자열을 찾으면서 ID 와 도메인을 분리해서 가져오고 싶을때?&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;m &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;(\w+)@(.+)&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;gabe@gmail.com&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;m&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;group&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 첫번째 그룹 : (\w+)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;m&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;group&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 두번째 그룹 : (.+)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;m&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;group&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 모든 그룹&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;gabe&lt;br /&gt;
+&lt;a href=&#34;http://gmail.com&#34;&gt;gmail.com&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;mailto:gabe@gmail.com&#34;&gt;gabe@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;처음에 그룹을 사용하는게 어렵다면, 위의 예제 처럼 전체 패턴을 먼저 만들고, ()를 둘러주는 식으로 하면 쉽다.&lt;/p&gt;
+&lt;h2 id=&#34;미니멈-매칭non-greedy-way&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#미니멈-매칭non-greedy-way&#34;&gt;#&lt;/a&gt; &lt;strong&gt;미니멈 매칭(non-greedy way)&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;기본적으로 *, +, ?를 사용하면 greedy(맥시멈 매칭)하게 동작한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;*?, +?을 이용하여 해당 기능을 구현&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;e.g) html 안에 tag가 무엇인지 찾고 싶을 때&lt;/p&gt;
+&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;즉,  gabe 중 을 찾고 싶을때&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;잘못된-예시&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#잘못된-예시&#34;&gt;#&lt;/a&gt; 잘못된 예시&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;기본적으로 *, +, ?를 사용하면 greedy(맥시멈 매칭)하게 동작한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;gabe&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;gabe&#39;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;greedy-하지-않게-매칭을-하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#greedy-하지-않게-매칭을-하기&#34;&gt;#&lt;/a&gt; greedy 하지 않게 매칭을 하기&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;*?, +?을 이용하여 해당 기능을 구현&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;gabe&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&#39;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;기본-패턴-5&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#기본-패턴-5&#34;&gt;#&lt;/a&gt; &lt;strong&gt;기본 패턴&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;*, +, ?을 사용하여 반복적인 패턴을 찾는 것이 가능하나, 반복의 횟수는 제한 불가&lt;/li&gt;
+&lt;li&gt;패턴뒤에 위치하는 중괄호{}에 숫자를 명시하면 해당 숫자 만큼의 반복인 경우에만 매칭&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;e.g)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;{4} - 4번 반복&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;{3,4} - 3 ~ 4번 반복|&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;특정 문자가 정확하게 원하는 숫자만큼 반복되는 패턴을 찾고 싶을때?&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;pi+g&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;piiiig&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;위 와 같은 예시를 검색할때는 +나 * 등을 써서는 원하는 정확한 문자열을 검색할 수 없다.&lt;/p&gt;
+&lt;p&gt;piiiig 나 piiig나 piig 등  &lt;code&gt;~회 이상&lt;/code&gt;  이란 조건 때문에 딱 원하는 1개의 패턴만 검색하지 않기 때문 (반복 패턴의 greedy 특성)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;{nums} - nums번 반복&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;pi&amp;#123;3&amp;#125;g&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;piiiiig&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# pi&amp;#123;3&amp;#125;g : i가 정확하게 3번만 나오고 g가 나오는 패턴. 즉, piiig를 찾기 위한 입력&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 일치하는 값이 없으므로 None이 된다.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;{nums1,nums2} - nums1 ~ nums2번 반복&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;pi&amp;#123;3,5&amp;#125;g&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;piiiiig&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# pi&amp;#123;3,5&amp;#125;g : p + i가 3~5회 반복 + g 인 패턴이 있는가?&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;기본-패턴-non-greedy-way&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#기본-패턴-non-greedy-way&#34;&gt;#&lt;/a&gt; 기본 패턴 &lt;strong&gt;{}?&lt;/strong&gt; - non-greedy way&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;{m,n}의 경우 m번 에서 n번 반복하나 greedy하게 동작&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;a&amp;#123;3,5&amp;#125;&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;aaaaa&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;{m,n}?로 사용하면 non-greedy하게 동작. 즉, 최소 m번만 매칭하면 만족&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;a&amp;#123;3,5&amp;#125;?&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;aaaaa&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;match-method&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#match-method&#34;&gt;#&lt;/a&gt; &lt;strong&gt;match method&lt;/strong&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;search와 유사하나, 주어진 문자열의 시작부터 비교하여 패턴이 있는지 확인&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;시작부터 해당 패턴이 존재하지 않다면 None 반환&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;re.search() 로 한다면 아래의 2개는 모두 동일 결과를 return할 것이다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;match&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;\d\d\d&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;my number is 123&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# None &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 문자열의 시작부터 패턴이 일치하는지를 확인하는 것이 match 이기 때문&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;match&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;\d\d\d&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;123 is my number&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;즉, search 의 기본 패턴 &lt;strong&gt;^&lt;/strong&gt; 와 같다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;^\d\d\d&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;123 is my number&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;findall-method&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#findall-method&#34;&gt;#&lt;/a&gt; &lt;strong&gt;findall method&lt;/strong&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;search가 최초로 매칭되는 패턴만 반환한다면, findall은 매칭되는 전체의 패턴을 반환&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;매칭되는 모든 결과를 &lt;strong&gt;리스트 형태로 반환&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;email의 grouping 형식으로 예시&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# [\w-]+@[\w.]+ :  [\w-] 패턴이 1개이상(+) + @ + [\w.] 패턴이 1개 이상(+)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;findall&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;[\w-]+@[\w.]+&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;gabe@gmail.com and gabe2@gmail.com is the list of email&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;[&#39;gabe@gmail.com&#39;, &#39;gabe2@gmail.com&#39;]&lt;/p&gt;
+&lt;h1 id=&#34;sub-method&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#sub-method&#34;&gt;#&lt;/a&gt; &lt;strong&gt;sub method&lt;/strong&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;주어진 문자열에서 일치하는 모든 패턴을 replace 한 뒤, 그 결과를 문자열로 다시 반환한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;두번째 인자는 특정 문자열이 될 수도 있고, 함수가 될 수 도 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;count가 0인 경우는 전체를, 1이상이면 해당 숫자만큼 치환 된다. (default=1)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;sub&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;검색할 패턴&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;replace할 문자&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;검색 대상&#39;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; count&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;or&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;Where count = 0&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;일치되는 패턴은 모두 바뀐다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;sub&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;[\w-]+@[\w.]+&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;replaced&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;gabe@gmail.com and gabe2@gmail.com is the list of email&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; count&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&#39;replaced and replaced is the list of email&#39;&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;sub&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;[\w-]+@[\w.]+&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;replaced&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;gabe@gmail.com and gabe2@gmail.com is the list of email&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# count=0 일 경우 생략 가능&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&#39;replaced and replaced is the list of email&#39;&lt;/p&gt;
+&lt;p&gt;Where count = 1&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;가장 먼저 일치하는 패턴만 바뀐다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;sub&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;[\w-]+@[\w.]+&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;replaced&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;gabe@gmail.com and gabe2@gmail.com is the list of email&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; count&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&#39;replaced and &lt;a href=&#34;mailto:gabe2@gmail.com&#34;&gt;gabe2@gmail.com&lt;/a&gt; is the list of email&#39;&lt;/p&gt;
+&lt;h1 id=&#34;compile-method&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#compile-method&#34;&gt;#&lt;/a&gt; &lt;strong&gt;compile method&lt;/strong&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;동일한 정규표현식을 매번 다시 쓰기 번거로움을 해결&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;compile로 해당표현식을 re.RegexObject 객체로 저장하여 사용가능&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# compile 지정&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;email_reg &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;compile&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;[\w-]+@[\w.]+&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 지정된 compile로 search &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;email_reg&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;gabe@gmail.com and gabe2@gmail.com is the list of email&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;간혹 웹스크롤링을 하다보면 &amp;quot;&lt;a href=&#34;mailto:gabe@email.com&#34;&gt;gabe@email.com&lt;/a&gt;.&amp;quot; 과 같이 되어있는 경우도 있는데, 이때도 위의 complie한 기준이면 검색해서 결과값을 가져온다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;email_reg&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;gabe@gmail.com. and gabe2@gmail.com is the list of email&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;이를 방지하기 위해서는 아래와 같이 \w+을 한번더 명시해주는 것이 확실하다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;email_reg &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;compile&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;[\w-]+@[\w.]+\w+&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;email_reg&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;gabe@gmail.com. and gabe2@gmail.com is the list of email&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 지정된 compile로 findall &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;email_reg&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;findall&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;gabe@gmail.com and gabe2@gmail.com is the list of email&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;[&#39;gabe@gmail.com&#39;, &#39;gabe2@gmail.com&#39;]&lt;/p&gt;
+&lt;h1 id=&#34;실제-정규표현식-활용-예시&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#실제-정규표현식-활용-예시&#34;&gt;#&lt;/a&gt; 실제 정규표현식 활용 예시&lt;/h1&gt;
+&lt;h2 id=&#34;웹-스크롤링한-뉴스에서-이메일-주소를-추출하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#웹-스크롤링한-뉴스에서-이메일-주소를-추출하기&#34;&gt;#&lt;/a&gt; 웹 스크롤링한 뉴스에서 이메일 주소를 추출하기&lt;/h2&gt;
+&lt;p&gt;뉴스 스크롤링&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; requests&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; bs4 &lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; BeautifulSoup&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 위의 두 모듈이 없는 경우에는 pip install requests bs4 실행&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;get_news_content&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;url&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    response &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; requests&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;get&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;url&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    content &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; response&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;text&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    soup &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; BeautifulSoup&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;content&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;html5lib&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    div &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; soup&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;find&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;div&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; attrs &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;id&#39;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;harmonyContainer&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    content &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt; paragraph &lt;span class=&#34;token keyword&#34;&gt;in&lt;/span&gt; div&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;find_all&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;p&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        content &lt;span class=&#34;token operator&#34;&gt;+=&lt;/span&gt; paragraph&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;get_text&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; content&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;news1 &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; get_news_content&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;https://news.v.daum.net/v/20210706141605093&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;news1&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;분산서비스거부(DDos·디도스)공격이 발생할 경우 대기업은 탐지까지 3분, 중소기업은 9분이 걸리는 것으로 나타났다. 해킹 메일도 25.8%가 열람하고 7.6%가 감염될 정도로 사이버 보안에 허술하다는 결과가 나왔다.과학기술정보통신부는 한국인터넷진흥원(KISA)과 함께 상반기 사이버위기 대응 모의훈련을 실시한 결과를 6일 발표했다. 5월 17일부터 2주간 실시한 이번 상반기 사이버위기 대응 모의훈련에는 230개 기업이 참여했다.디도스 모의공격에 대한 대응력 훈련 결과 대기업은 평균 디도스 공격 탐지시간 3분, 대응시간 19분 걸렸다. 중소기업은 평균 탐지시간이 9분, 대응시간은 22분이나 걸렸다.기업의 정보시스템에 대한 모의침투 훈련 결과 30개사 홈페이지에서 114개 취약점이 확인됐다. 클라우드 사업자를 대상으로 한 모의침투 훈련에서는 클라우드 보안 인증을 받은 사업자의 탐지 및 방어율이 미인증 사업자에 비해 높았다고 과기정통부는 전했다.시스템과 데이터를 잠근 뒤 이를 인질 삼아 금전을 요구하는 랜섬웨어 공격은 상반기에만 2019년도 전체 건수의 2배에 달할 정도로 급증했다. 랜섬웨어 공격은 2019년 39건에서 지난해 127건으로 225% 급증한 데 이어 올해 상반기에만 78건이 발생했다.과기정통부는 “랜섬웨어 침해사고 대부분이 이용자가 일반적 보안 수칙을 준수하지 않아 발생했다”며 “사용자 보안 인식 제고가 절실히 요구된다”고 강조했다. 과기정통부는 랜섬웨어 급증에 따라 특화 모의훈련을 개발하고 올해 10월 중 훈련을 실시할 예정이다.세종 류찬희 선임기자 chani@seoul.co.krCopyrightsⓒ 서울신문사. 무단 전재 및 재배포 금지&lt;/p&gt;
+&lt;p&gt;스크롤링한 뉴스에서 위에서 compile한 이메일 주소 찾기 불러와서 사용&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;email_reg &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;compile&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;[\w-]+@[\w.]+\w+&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;email_reg&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;news1&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;웹페이지-리스트에서-올바른-http-https-웹페이지만-찾기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#웹페이지-리스트에서-올바른-http-https-웹페이지만-찾기&#34;&gt;#&lt;/a&gt; 웹페이지 리스트에서 올바른 (http, https) 웹페이지만 찾기&lt;/h2&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;webs &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;http://www.test.co.kr&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token string&#34;&gt;&#39;https://www.test1.com&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token string&#34;&gt;&#39;http://www.test.com&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token string&#34;&gt;&#39;ftp://www.test.com&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token string&#34;&gt;&#39;http:://www.test.com&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;       &lt;span class=&#34;token string&#34;&gt;&#39;htp://www.test.com&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;       &lt;span class=&#34;token string&#34;&gt;&#39;http://www.google.com&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;       &lt;span class=&#34;token string&#34;&gt;&#39;https://www.homepage.com.&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;웹페이지를 찾는 정규표현식을 complie로 생성&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;web_reg &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; re&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;compile&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;r&#39;https?://[\w.]+\w+$&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# s? 를 붙임으로 http 와 https 둘다 포함해서 검색하도록 설정&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;lambda와 mapping을 활용해 생성한 정규표현식으로 웹페이지 찾기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;list를 loop 하면서 T/F로 list화 해서 출력해주는 형식&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;web_reg의 결과가 None이면 False&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin&#34;&gt;list&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;map&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;lambda&lt;/span&gt; w&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;web_reg&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;search&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;w&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;None&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; webs&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;[True, True, True, False, False, False, True, False]&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

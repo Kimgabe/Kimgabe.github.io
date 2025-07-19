@@ -1,0 +1,618 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Kim Gabe&#39;s DS Blog • Posts by &#34;retrospective&#34; category</title>
+        <link>https://Kimgabe.github.io</link>
+        <description>Kim Gabe의 블로그입니다. 데이터 사이언스, AI, 머신러닝 학습 과정을 기록합니다.</description>
+        <language>en</language>
+        <pubDate>Sat, 20 Jan 2024 00:00:00 +0900</pubDate>
+        <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0900</lastBuildDate>
+        <category>python</category>
+        <category>ndarray</category>
+        <category>numpy vectorization</category>
+        <category>메모리</category>
+        <category>np.array</category>
+        <category>ndarray 데이터타입</category>
+        <category>np.arange</category>
+        <category>np.ones</category>
+        <category>np.zeros</category>
+        <category>np.empty</category>
+        <category>np.full</category>
+        <category>np.eye</category>
+        <category>np.linspace</category>
+        <category>reshape</category>
+        <category>데이터 통합,pandas,DataFrame,concat,os,listdir,CSV 파일,데이터 병합,데이터 프레임,데이터 분석,데이터 처리,데이터 정렬,빈 데이터 프레임,파일 시스템,경고 메시지</category>
+        <category>feature engineering</category>
+        <category>prediction</category>
+        <category>regression. DACON</category>
+        <category>시계열</category>
+        <category>카드매출</category>
+        <category>예측</category>
+        <category>KNN</category>
+        <category>RandomForestRegressor</category>
+        <category>LightGBM</category>
+        <category>머신러닝</category>
+        <category>딥러닝</category>
+        <category>random 모듈</category>
+        <category>np.random.rand</category>
+        <category>np.random.randn</category>
+        <category>np.random.randint</category>
+        <category>np.random.seed</category>
+        <category>랜덤을 적용하면서도 일정한 값 만들기</category>
+        <category>np.random.choice</category>
+        <category>np.random.uniform</category>
+        <category>np.random.normal</category>
+        <category>indexing</category>
+        <category>1차원 벡터 인덱싱</category>
+        <category>index로 특정 위치 값 바꾸기</category>
+        <category>index의 값 바꾸기</category>
+        <category>2차원 행렬 인덱싱</category>
+        <category>3차원 텐서 인덱싱</category>
+        <category>벡터</category>
+        <category>행렬</category>
+        <category>텐서</category>
+        <category>슬라이싱</category>
+        <category>1차원 벡터 슬리이싱</category>
+        <category>2차원 행렬 슬라이싱</category>
+        <category>3차원 텐서 슬라이싱</category>
+        <category>판다스,데이터 병합,DataFrame,merge,key 변수,customerID,read_csv,데이터 관리,SQL Join,전처리</category>
+        <category>Python,pandas,데이터 병합,날짜 포맷,apply 함수,merge 함수,데이터프레임,Series,경고 필터링,파일 로드,데이터 접근</category>
+        <category>ndarray 형태바꾸기</category>
+        <category>np.ravel</category>
+        <category>np.flatten</category>
+        <category>np.reshape</category>
+        <category>array의 차원바꾸기</category>
+        <category>이미지 벡터화</category>
+        <category>np.add</category>
+        <category>np.divide</category>
+        <category>np.mod</category>
+        <category>np.mean</category>
+        <category>np.median</category>
+        <category>np.max</category>
+        <category>np.min</category>
+        <category>np.argmax</category>
+        <category>np.argmin</category>
+        <category>np.var</category>
+        <category>np.std</category>
+        <category>np.sum</category>
+        <category>np.consum</category>
+        <category>np.any</category>
+        <category>np.all</category>
+        <category>np.where</category>
+        <category>axis</category>
+        <category>numpy 축</category>
+        <category>1차원 axis</category>
+        <category>2차원 axis</category>
+        <category>3차원 axis</category>
+        <category>데이터 분석,거리 행렬,병합,지하철역,경도,위도,pandas,scipy,haversine,argsort,DataFrame</category>
+        <category>판다스,데이터 병합,groupby,DataFrame,Series,merge,replace,고객ID,구매금액,인덱스,CSV 파일,인코딩,머신러닝,통계량,조건부 통계량</category>
+        <category>판다스,데이터 병합,Series,DataFrame,to_dict,replace,merge,ref_df,인덱스,행정구역,엑셀 파일,CSV 파일,인코딩,add_prefix</category>
+        <category>결측치,데이터 전처리,pandas,dropna,isnull,Train data,Test data,머신러닝,데이터프레임,train_test_split,결측 레코드,결측치 비율,결측치 삭제,결측치 처리,결측치 문제,결측치 대체</category>
+        <category>broadcasting</category>
+        <category>브로드캐스팅</category>
+        <category>서로다른 shape의 numpy끼리 연산하는 방법</category>
+        <category>scalar</category>
+        <category>상수</category>
+        <category>boolean indexing</category>
+        <category>다중조건</category>
+        <category>데이터 전처리,sklearn,결측치,SimpleImputer,train_test_split,DataFrame,상관 계수,범주형 변수,연속형 변수,전처리 모델,대표값 대체,결측치 대체법,전략,평균,최빈값</category>
+        <category>선형대수</category>
+        <category>linalg</category>
+        <category>np.linalg</category>
+        <category>행렬내적구하기</category>
+        <category>전치행렬구하기</category>
+        <category>역행렬</category>
+        <category>정방행렬</category>
+        <category>항등행렬</category>
+        <category>시계열,결측치,대체,DataFrame,fillna,ffill,bfill,Python,pandas,데이터프레임,train_test_split</category>
+        <category>그래프 그리기</category>
+        <category>line plot</category>
+        <category>scatter plot</category>
+        <category>그래프에 주석추가하기</category>
+        <category>grid 추가하기</category>
+        <category>subplot으로 그래프 여러개 그리기</category>
+        <category>histogram그리기</category>
+        <category>결측치,KNN Imputer,예측 모델,데이터 처리,sklearn,머신러닝,데이터프레임,결측 대체,모델 학습,파라미터,상관 계수</category>
+        <category>로또 번호 자동생성기</category>
+        <category>문제풀이</category>
+        <category>pi</category>
+        <category>Mote Carlo</category>
+        <category>원주율구하기</category>
+        <category>범주형 변수,모델 학습,숫자 변환,더미화,연속형 치환,차원의 저주,데이터 분석,지도학습,인코딩,머신러닝</category>
+        <category>EDA</category>
+        <category>스타벅스</category>
+        <category>이디야</category>
+        <category>folium</category>
+        <category>웹크롤링</category>
+        <category>google api</category>
+        <category>좌표추출</category>
+        <category>데이터분석</category>
+        <category>시각화</category>
+        <category>EDA - matplotlib - kaggle - dataset - dendrogram - correlation - preprocessing - folium</category>
+        <category>series</category>
+        <category>pandas</category>
+        <category>판다스</category>
+        <category>시리즈</category>
+        <category>데이터업데이트</category>
+        <category>데이터접근</category>
+        <category>인덱스재사용</category>
+        <category>데이터 전처리,모델 튜닝,하이퍼 파라미터,결측치 처리,범주형 변수,라벨 처리,변수 분포,클래스 불균형,특징 선택,파라미터 그리드,스케일링,머신러닝,데이터 통합,이상치,상관관계</category>
+        <category>전처리</category>
+        <category>size</category>
+        <category>shape</category>
+        <category>len</category>
+        <category>count</category>
+        <category>value_counts</category>
+        <category>mean</category>
+        <category>max</category>
+        <category>min</category>
+        <category>sum</category>
+        <category>median</category>
+        <category>abs</category>
+        <category>cumsum</category>
+        <category>cumprod</category>
+        <category>std</category>
+        <category>var</category>
+        <category>mode</category>
+        <category>corr</category>
+        <category>astype</category>
+        <category>데이터형변환</category>
+        <category>산술연산</category>
+        <category>인덱싱</category>
+        <category>head</category>
+        <category>tail</category>
+        <category>기초</category>
+        <category>Pandas</category>
+        <category>Series</category>
+        <category>local</category>
+        <category>iloc</category>
+        <category>데이터변환</category>
+        <category>리스트</category>
+        <category>딕셔너리</category>
+        <category>넘파이배열</category>
+        <category>List</category>
+        <category>dict</category>
+        <category>numpy_array</category>
+        <category>slicing</category>
+        <category>python - 시각화 - visualization - matplotlib - canvas - subplot - title - fontsize - tick - x축 - y축 - legend - marker - linestyle - color - alpha - 투명도 - grid - 이미지저장</category>
+        <category>visualization</category>
+        <category>matplotlib</category>
+        <category>bar plot</category>
+        <category>막대그래프</category>
+        <category>barhplot</category>
+        <category>가로막대 그래프</category>
+        <category>꺾은선 그래프</category>
+        <category>area plot</category>
+        <category>면적 그래프</category>
+        <category>histogram</category>
+        <category>히스토그램</category>
+        <category>pie chart</category>
+        <category>파이차트</category>
+        <category>box plot</category>
+        <category>3D plot</category>
+        <category>imshow</category>
+        <category>classification</category>
+        <category>헬스케어</category>
+        <category>의료데이터</category>
+        <category>kaggle</category>
+        <category>logistic regression</category>
+        <category>XGBoost</category>
+        <category>feature importance</category>
+        <category>python basic</category>
+        <category>데이터타입</category>
+        <category>주석</category>
+        <category>indent</category>
+        <category>IndentationError</category>
+        <category>연산자</category>
+        <category>escape string</category>
+        <category>문자열자르기</category>
+        <category>문자열 slicing</category>
+        <category>대문자변환</category>
+        <category>upper()</category>
+        <category>소문자변환</category>
+        <category>lower()</category>
+        <category>문자바꾸기</category>
+        <category>replace()</category>
+        <category>format()</category>
+        <category>문자 자르기</category>
+        <category>split()</category>
+        <category>list</category>
+        <category>튜플</category>
+        <category>tuple</category>
+        <category>append</category>
+        <category>extend</category>
+        <category>remove</category>
+        <category>pop</category>
+        <category>index</category>
+        <category>replace</category>
+        <category>in</category>
+        <category>list정렬</category>
+        <category>튜플 indexing</category>
+        <category>튜플 slicing</category>
+        <category>list와 tuple의 공통점</category>
+        <category>list와 tuple의 차이점</category>
+        <category>mutable</category>
+        <category>immutable</category>
+        <category>딕셔러니</category>
+        <category>dictionary</category>
+        <category>set</category>
+        <category>update</category>
+        <category>del</category>
+        <category>clear</category>
+        <category>get()</category>
+        <category>union()</category>
+        <category>intersection()</category>
+        <category>issubset()</category>
+        <category>교집합</category>
+        <category>합집합</category>
+        <category>차집합</category>
+        <category>부분집합</category>
+        <category>조건문</category>
+        <category>if문</category>
+        <category>if</category>
+        <category>elif</category>
+        <category>else</category>
+        <category>조건문 논리</category>
+        <category>조건문 우선순위</category>
+        <category>다중조건문</category>
+        <category>중첩조건문</category>
+        <category>nested condition</category>
+        <category>반복문</category>
+        <category>loop</category>
+        <category>for문</category>
+        <category>while문</category>
+        <category>무한루프</category>
+        <category>break</category>
+        <category>continue</category>
+        <category>dict 아이템출력하기</category>
+        <category>for문에 index사용하기</category>
+        <category>2중 for문</category>
+        <category>loop중첩</category>
+        <category>구구단 출력하기</category>
+        <category>itertools</category>
+        <category>product()</category>
+        <category>combination()</category>
+        <category>permutation()</category>
+        <category>zip()과 itertools.produce()차이</category>
+        <category>list comprehension</category>
+        <category>for문 한줄로 작성하기</category>
+        <category>dictionary comprehension</category>
+        <category>함수</category>
+        <category>def</category>
+        <category>내장함수</category>
+        <category>parameter</category>
+        <category>argument</category>
+        <category>default parameter</category>
+        <category>keyword parameter</category>
+        <category>return</category>
+        <category>multiple return</category>
+        <category>전역변수</category>
+        <category>지역변수</category>
+        <category>local variable</category>
+        <category>global variable</category>
+        <category>가변인자</category>
+        <category>argument parameter</category>
+        <category>args</category>
+        <category>kwargs</category>
+        <category>lambda</category>
+        <category>lambda로 sort하기</category>
+        <category>lambda로 filtering하기</category>
+        <category>lambda로 mapping하기</category>
+        <category>lambda로 reducing하기</category>
+        <category>자주쓰는 lambda기능</category>
+        <category>패키지</category>
+        <category>모듈</category>
+        <category>패키지와 모듈&amp;함수 관계</category>
+        <category>import</category>
+        <category>특정모듈만 불러오기</category>
+        <category>alias</category>
+        <category>별명</category>
+        <category>별명 지어주기</category>
+        <category>class</category>
+        <category>객체</category>
+        <category>상속</category>
+        <category>object</category>
+        <category>instance</category>
+        <category>class선언</category>
+        <category>method</category>
+        <category>__init__</category>
+        <category>self인자</category>
+        <category>method정의</category>
+        <category>method type</category>
+        <category>instance method</category>
+        <category>class method</category>
+        <category>class inheritance</category>
+        <category>method override</category>
+        <category>method재정의</category>
+        <category>부모클래스</category>
+        <category>자식클래스</category>
+        <category>super</category>
+        <category>정규표현식</category>
+        <category>re</category>
+        <category>preprocessing</category>
+        <category>search</category>
+        <category>metacharacters</category>
+        <category>abck</category>
+        <category>abc.^</category>
+        <category>a-d</category>
+        <category>0-9</category>
+        <category>a-z</category>
+        <category>A-Z</category>
+        <category>a-zA-Z0-9</category>
+        <category>^0-9</category>
+        <category>반복패턴</category>
+        <category>기본패턴</category>
+        <category>\d</category>
+        <category>\D</category>
+        <category>\s</category>
+        <category>\S</category>
+        <category>\w</category>
+        <category>\W</category>
+        <category>\</category>
+        <category>\\</category>
+        <category>grouping</category>
+        <category>미니멈 매칭</category>
+        <category>non-greedy way</category>
+        <category>findall</category>
+        <category>sub</category>
+        <category>compile</category>
+        <category>GitHub</category>
+        <category>Resume</category>
+        <category>automated</category>
+        <category>Profile</category>
+        <category>README</category>
+        <category>career</category>
+        <category>이력서</category>
+        <category>깃허브</category>
+        <category>프로필</category>
+        <category>자동작성</category>
+        <category>GitHub Prifile Readme Generator</category>
+        <category>핸즈온 머신러닝</category>
+        <category>ML</category>
+        <category>DL</category>
+        <category>공부방법</category>
+        <category>도서</category>
+        <category>리뷰</category>
+        <category>문자열 다루기</category>
+        <category>islower()</category>
+        <category>isupper()</category>
+        <category>escape문자</category>
+        <category>산술연산자</category>
+        <category>덧셈식 출력하기</category>
+        <category>문자열 붙여서 출력하기</category>
+        <category>문자열 돌리기</category>
+        <category>홀짝 구분하기</category>
+        <category>문자열 겹쳐쓰기</category>
+        <category>n의 배수</category>
+        <category>공배수</category>
+        <category>홀짝에 따라 다른값 반환하기</category>
+        <category>조건 문자열</category>
+        <category>flag에 따라 다른값 반환하기</category>
+        <category>문자열 섞기</category>
+        <category>문자 리스트를 문자열로 변환하기</category>
+        <category>문자열 곱하기</category>
+        <category>더 크게 합치기</category>
+        <category>두 수의 연산값 합치기</category>
+        <category>마지막 두 원소</category>
+        <category>수 조작하기 1</category>
+        <category>수 조작하기 2</category>
+        <category>수열과 구간 쿼리 3</category>
+        <category>수열과 구간 쿼리 2</category>
+        <category>코드 처리하기</category>
+        <category>등차수열의 특정한 항만 더하기</category>
+        <category>주사위게임2</category>
+        <category>원소들의 곱과 합</category>
+        <category>이어 붙인 수</category>
+        <category>수열과 구간쿼리 4</category>
+        <category>배열만들기2</category>
+        <category>카운트 업</category>
+        <category>콜라츠 수열 만들기</category>
+        <category>배열만들기 4</category>
+        <category>간단한 논리 연산</category>
+        <category>주사위 게임 3</category>
+        <category>글자 이어 붙여 문자열 만들기</category>
+        <category>9로 나눈 나머지</category>
+        <category>문자열 여러번 뒤집기</category>
+        <item>
+            <guid isPermalink="true">https://kimgabe.github.io/2024/01/20/AIFFEL-vacation/</guid>
+            <title>[AIFFEL의 방학] 무엇을 하면서 방학을 보냈어야 알차게 보낸걸까에 대한 회고</title>
+            <link>https://kimgabe.github.io/2024/01/20/AIFFEL-vacation/</link>
+            <pubDate>Sat, 20 Jan 2024 00:00:00 +0900</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;summary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#summary&#34;&gt;#&lt;/a&gt; 🚦 Summary&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AIFFEL의 6개월 기간중 유일한 장기 휴식! 방학기간동안의 회고를 작성합니다.&lt;/li&gt;
+&lt;li&gt;늘 그렇지만 계획은 거창하지만 결과는 기대만치 되지 않는 것이 슬픈 현실인듯 합니다.&lt;/li&gt;
+&lt;li&gt;별거아니지만 지난 일주일을 회고하며 방학때 한일들을 돌아봅니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;intro&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#intro&#34;&gt;#&lt;/a&gt; 📌 Intro.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;초등학교 이후로 처음 써보는 방학일기 같습니다.&lt;/li&gt;
+&lt;li&gt;이번 방학을 보내고 보니 한참 어릴때의 교훈인데도 여전히 그 깨달음을 실천하지 못하고 사는구나 라는 생각이 부쩍 드는 회고 입니다.&lt;/li&gt;
+&lt;li&gt;&amp;quot;누구나 그럴싸한 계획을 갖고 있다..&amp;quot; 라는 마이크 타이슨의 유명한 밈이 아니라도 매번 계획이란것은 이상이고 현실은 다른 것 같습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;방학을-시작할-때의-나의-모습&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#방학을-시작할-때의-나의-모습&#34;&gt;#&lt;/a&gt; 방학을 시작할 때의  나의 모습&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/tmBX3uK.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;누구나 이런 기승전결이 있는 아름다운 방학 계획을 생각할 것 입니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;저라고 다르지 않았습니다. 타이밍이 참 좋게도 연초에 생기는 꿀같은 방학이라 많은 것들을 시도해볼 생각이었습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;원래 이번 방학에 하려고 생각했던 많은 일들이 있었습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;취업준비
+&lt;ul&gt;
+&lt;li&gt;AIFFEL 방학숙제 하기&lt;/li&gt;
+&lt;li&gt;취업준비 자료 찾고 정리하기, 포폴 정리하기&lt;/li&gt;
+&lt;li&gt;옵시디언 노트 블로그에 정리해서 포스팅하기&lt;/li&gt;
+&lt;li&gt;Tableau 정리 노트 복습하고 포스팅 하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;공부
+&lt;ul&gt;
+&lt;li&gt;헤커톤 참여&lt;/li&gt;
+&lt;li&gt;MLOps 공부&lt;/li&gt;
+&lt;li&gt;모두콘에서 받은 책 읽기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;생산성 관리
+&lt;ul&gt;
+&lt;li&gt;노션 Time tracking dashboard 2024 ver로 업데이트하기&lt;/li&gt;
+&lt;li&gt;dashboard 구글캘린더와 연동시기키&lt;/li&gt;
+&lt;li&gt;Chroma DB로 local chatGPT구현하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;일상
+&lt;ul&gt;
+&lt;li&gt;당근에 안쓰는 물건 팔기&lt;/li&gt;
+&lt;li&gt;집안 대청소&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;그런데 실상은 결국 계획만 그럴싸한 방학이 된것 같습니다 😂&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;그래도 조금이나마 해놓은 것들을 정리하면서 나쁘지 않았다고 자기위안을 통한 동기부여를 해보겠습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;시간관리-대시보드-업데이트하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#시간관리-대시보드-업데이트하기&#34;&gt;#&lt;/a&gt; 시간관리 대시보드 업데이트하기&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;원래도 Notion에 스케줄링을 하고 시간관리를 하는 작업을 했었는데, AIFFEL을 하면서 바쁘고, 너무 루틴하다는 핑계(?) 로 손을 놓고 있었습니다.&lt;/li&gt;
+&lt;li&gt;이참에 시간이 났으니 구글캘린더 연동까지 해서 2024 Ver로 업데이트하고 다시 시간관리를 열심히 해야지!! 라고 생각했었습니다.&lt;/li&gt;
+&lt;li&gt;완벽하게 원하는 수준까지 구현이 다된 것은 아니지만 어느정도 소기성과는 만들어 낼 수 있었 던 것 같습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/Igkk8VL.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;이제는 마땅한 도구가 없다거나 하는 핑계도 대기 어렵고, 대놓고 블로그에 시간관리도 한다고 말했으니 더 열심히 하겠지.. 라는 생각으로 못밖아 봅니다 💪&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;헤커톤-참여-mlops-공부하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#헤커톤-참여-mlops-공부하기&#34;&gt;#&lt;/a&gt; 헤커톤 참여 &amp;amp; MLOps 공부하기&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;아무래도 이전 부터 캠프나 회사에서 했던 일들의 대부분이 ML베이스 프로젝트다 보니 ML로 하는 프로젝트들이 저에겐 더 익숙합니다.&lt;/li&gt;
+&lt;li&gt;일반적인 테이블 데이터들을 다루고 시각화 하는 작업이 더 재밌기도 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/EI6dvXs.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;예전부터 AutoML을 비롯해 다양한 MLOps 를 위한 도구나 시스템 구축에 대한 공부를 하려고 했었는데, 관련 강의와 책을 다 사두고는 미루다가 못해서 이번에는 남는 시간에 공부를 꼭 해봐야 겠다고 생각했습니다.&lt;/li&gt;
+&lt;li&gt;그래서 관련 분야 공부를 조금씩 시간내서 할 수 있었고, 이를 바탕으로 해커톤에 도전중입니다.&lt;/li&gt;
+&lt;li&gt;제대로된 전처리 없이 모델 최적화 부분만을 진행하고 있어 성능이 잘나오거나 해서 등수가 높진 않지만 그래도 어느정도의 성과를 보이고 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/O7BwDXk.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;아직 2주정도의 시간이 남아있어서 최대한 좋은 성과를 위해 도전해보려 합니다.
+&lt;ul&gt;
+&lt;li&gt;하나는 CV베이스로 하는 해커톤도 있어서 시작은 했는데 모델링 계획만 짜고는 실행도 못했습니다.&lt;/li&gt;
+&lt;li&gt;이것도 똑같이 2주정도 남았는데 AIFFEL하면서 해낼 수 있을지 모르겠습니다.&lt;/li&gt;
+&lt;li&gt;그래도 최대한 둘다 마무리를 잘 지어보도록 하겠습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;문제는 정작 이거한다고 아이펠 노드 까먹어서 캐글노드는 기한내에 못한 불상사가..😂&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;chroma-db-및-local-chatgpt구현하기-진행중&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#chroma-db-및-local-chatgpt구현하기-진행중&#34;&gt;#&lt;/a&gt; Chroma DB 및 Local chatGPT구현하기 (진행중)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;이건 정말 크게 계획에 없이 미루던 작업도 아니고 즉흥적으로 방학하면서 시작해버린 프로젝트 입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/BFLblLG.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;옵시디언으로 노트를 다양하게 정리를 하고 있다보니 정보들이 많이 쌓여 가는데 나만의 chatGPT로 구현해보면 재밌지 않을까 생각을 했습니다.&lt;/li&gt;
+&lt;li&gt;물론 쉐벨그투를 하면서 소개한 옵시디언 내부의 플러그인으로도 충분히 구현이 되지만, 아무래도 API를 쓰는거다보니 소액이긴해도 부담에 대한 부담이 생기는것은 사실입니다.&lt;/li&gt;
+&lt;li&gt;다행히 허깅페이스에서 Upstage 등에서 제공하는 Pretrained model 등이 있었고, 그 외 여러가지 레퍼런스 자료를 찾아서 무료로 사용할 수 있는 나만의 chatGPT를 구현할 수 있었습니다.&lt;/li&gt;
+&lt;li&gt;문제는 아직 완벽하게 프로젝트 완료를 하지 못했다는 겁니다.&lt;/li&gt;
+&lt;li&gt;Chroma DB로 로컬 DB랑 검색엔진도 만들어 놨고, 전이학습 모델로 로컬 chatGPT도 구현을 했는데 문제는 두 시스템의 연결입니다.&lt;/li&gt;
+&lt;li&gt;아직 이 부분은 제대로 구현을 하질 못해서 연결 방법을 공부하고 있습니다.&lt;/li&gt;
+&lt;li&gt;기회가 된다면 이 부분도 정리해서 개인포폴로 만들어 봐도 재밌을 것 같다고 생각하고 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 Chroma DB&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Chroma DB는 벡터 임베딩의 저장 및 검색을 위해 설계된 오픈 소스 벡터 저장 시스템(&lt;strong&gt;벡터 데이터베이스&lt;/strong&gt;)입니다. 주요 기능은 대규모 언어 모델(LLM)에 의해 후속 사용을 위해 관련 메타데이터와 함께 임베딩을 저장하는 것입니다. 또한, 텍스트 데이터를 처리하는 &lt;strong&gt;의미론적 검색 엔진의 기반&lt;/strong&gt;이 될 수 있습니다. 벡터 데이터베이스는 비구조화 및 반구조화 데이터의 대량 관리에 이상적인 해결책을 제공합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;outro&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#outro&#34;&gt;#&lt;/a&gt; 🎈Outro.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;quot;그나마 이만큼 이라도 해놓은게 어디냐!&amp;quot; 라고 스스로 위안은 하지만 사실 첨에 계획했던 것 생각하면 많이 시작은 거창했으나 끝은 미미했던(?) 방학이었습니다.&lt;/li&gt;
+&lt;li&gt;그래도 제일 기억에 남는건 공부하고 이런 딱딱한 것들 보다는 캠핑가서 리프레시 하고 온 기억이 제일 큰것 같습니다.&lt;/li&gt;
+&lt;li&gt;역시 방학은 노는게 제일!!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/flzVXPJ.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://kimgabe.github.io/2023/11/03/AIEFFL-firstweek-retrospective/</guid>
+            <title>[주간 회고] AIEFFL 7th 첫주 온보딩 회고</title>
+            <link>https://kimgabe.github.io/2023/11/03/AIEFFL-firstweek-retrospective/</link>
+            <pubDate>Fri, 03 Nov 2023 00:00:00 +0900</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;summary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#summary&#34;&gt;#&lt;/a&gt; 🚦Summary :&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;왜 AIEFFL이었나? : 내가 원하는 걸 얻을 수 있는 커리큘럼과 환경이어서&lt;/li&gt;
+&lt;li&gt;첫주를 경험해본 소감은? : &#39;내가 찾던게 이건데!&#39;, 방황하던 2달이 아까웠다.망설이지 말걸..&lt;/li&gt;
+&lt;li&gt;앞으로 ? : 간절해서 온만큼, 열심히할것이고, &#39;쉐벨그투&#39;를 실현하는 사람이 되겠다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;aieffl-7th-첫주-회고&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#aieffl-7th-첫주-회고&#34;&gt;#&lt;/a&gt; 📜 AIEFFL 7th 첫주 회고 📜&lt;/h1&gt;
+&lt;h2 id=&#34;어쩌다-나는-aieffl에&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#어쩌다-나는-aieffl에&#34;&gt;#&lt;/a&gt; 어쩌다 나는 AIEFFL에..?🤔&lt;/h2&gt;
+&lt;p&gt;나는 이미 국비지원으로 AI를 한번 배워본 사람이고(빅데이터 분석가과정), 이를 바탕으로 회사를 다니면서 AI와 관련된 산업의 경험도 해보았다. 하지만 현재는 그만두고 AIFFEL에서 다시금 이직 준비를 하고 있다.&lt;/p&gt;
+&lt;p&gt;왜? 라고 한다면 이유는 명확했다. &#39;나는 AI를 다루면서 일하는 사람이고 싶었지, AI로 구상만 하고 다루지 못하는 사람이고 싶지 않았다.&#39; 그래서 잘만 다니던 회사를 그만두었다.&lt;/p&gt;
+&lt;p&gt;그리고 그만두면서 이직하기전에 목표를 세웠다. &amp;quot;스스로 지금의 나를 객관적으로 평가해서 내가 공부했던 AI라는 것을 다시 되돌아보고 부족한 부분을 채우자&amp;quot;, 그래서 처음엔 여러 부트캠프들을 찾아봤다. 다들 다양하지만 사실상 비슷한 커리큘럼을 갖고 있었고, 국비지원, 사비로 듣는 플랫폼까지 다양한 유형의 부트캠프가 있었는데 결국은 AIEFFL을 선택하게 되었다.&lt;/p&gt;
+&lt;p&gt;왜? 라고 한다면, 결국은 니즈에 가장 잘 맞아서 이다. 나의 경우 앞서 말했듯 이미 한번 부트캠프를 경험했고, 그것을 바탕으로 일을 해본 경험이 있었지만 회고를 해봤을때 아쉬운것이 있었다.&lt;/p&gt;
+&lt;p&gt;간단하게 말하자면 3가지 정도이다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;AI에 대한 지식 및 코딩스킬&lt;/li&gt;
+&lt;li&gt;스스로 공부하는 능력&lt;/li&gt;
+&lt;li&gt;관련 분야에 대한 네트워킹&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;돌아볼때마다 &#39;나 진짜 제대로 알고 있는거 맞나?&#39; 라는 고민이 많았고, 그 고민의 원인은 결국 &#39;스스로 AI를 공부하는 경험과 능력&#39; 이 없다고 느낀 것이었다. 그리고 그것을 위한 네트워크도 너무 부족했다. 더욱이 나는 혼자 내비두면, 생각만 열심히 하고 정말 &#39;아무것도 하지않는&#39; 사람이라 &#39;Peer-pressure&#39;가 필요 했다. 그리고 스스로 계속 내가 관심있는 이 분야에 대해 공부할 수 있는 경험과 방법을 배우고 네트워킹을 통한 배움과 성장의 기회를 확보하고 싶었다.&lt;/p&gt;
+&lt;p&gt;그런 판단기준으로 여러 커리큘럼을 보던 중 발견한것이 AIEFFL이었다. &#39;쉐벨그투(&amp;quot;Share Value, Grow together&amp;quot;)&#39; 라는 그 슬로건이 내가 찾던 것이었다.&lt;/p&gt;
+&lt;h2 id=&#34;1주를-보내보니-찍먹이긴한데-제대로네&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1주를-보내보니-찍먹이긴한데-제대로네&#34;&gt;#&lt;/a&gt; 1주를 보내보니.. 찍먹이긴한데.. 제대로네?!&lt;/h2&gt;
+&lt;p&gt;대학교때도 그랬고, 어느 부트캠프를 가도 그렇듯 OT는 반나절 나머지는 수업진도를 나가는게 일반적이지 않은가? 근데 지난 1주일(온보딩기간)을 돌아보면 정말 말그대로 Soft-landing을 위한 시간이었다. &#39;자 봐봐 AIEFFL에서는 이런 가치로 교육을 운영해, 우리는 이런 사람들이야. 우리는 이렇게 당신들을 도울거야. 당신들은 여기서 이런걸 하나 하나 경험하게 될거야.&#39; 라고 말해주는 듯했다.&lt;/p&gt;
+&lt;p&gt;어떤 과정에서 어떤 방식으로 공부해야하고, 나의 성장을 위해 어떻게 나를 도와줄것인지, 다른 사람들과는 어떻게 커뮤니케이션 해야 하는지, 차후에 내가 이 업계에서 일하게 된다면 어떤식으로 현직자들은 네트워킹을 하는지 그런 것들을 천천히 익숙해지게 해준 것 같았다.&lt;/p&gt;
+&lt;p&gt;처음에는 약간.. &#39;아니 이거 맞아..?! 이렇게 그냥 1주일 보내도 된다고..?&#39; 이런 생각이 들었는데, 막상 1주의 적응기를 거치면서 생각해보니(솔직히 담주가면 많이 빠듯할거같아 걱정되긴한다.) 이 1주일의 적응이 없었으면 시작부터 멘붕이었겠구나 싶은 생각이 든다.&lt;/p&gt;
+&lt;h2 id=&#34;어찌되었든-첫주에-배운-git은-어땠는지&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#어찌되었든-첫주에-배운-git은-어땠는지&#34;&gt;#&lt;/a&gt; 어찌되었든 첫주에 배운 Git은 어땠는지..?&lt;/h2&gt;
+&lt;p&gt;GitHub자체는 만든지 몇년되었는데, 솔직히 이게 왜 개발자들 사이에서 늘 Hip한 플랫폼이지? 에 대한 의문은 있었다. 근데 그럴만했다. 나는 github을 협업의 도구로 쓴게 아니라, 그냥 내 개인 블로그, 저장소 같은 공간으로 썼을 뿐이니까.&lt;/p&gt;
+&lt;p&gt;이 글을 쓰는 Github블로그 만드려고 별에 별짓을 다했던게 생각난다. (애초에 블로그 생성이야 git을 쓰는일은 거의 없다지만) 그래도 블로그 만들면서 나름 git에 대해 어느정도는 알고 있다고 생각했다.&lt;/p&gt;
+&lt;p&gt;블로그 개설하려고 fork하고, clone해서 로컬에 블로그 폴더 만들고, 마크다운으로 글쓰고, 포스팅 만들고 카테고리 관리하고, commit하고 push하고 하면서 나름 git을 쓰는 방법에 익숙해졌다...고 생각했는데 왠걸? &#39;겉핥기&#39;로 급하게 배운다는거에 대한 맹점을 이번에 새삼 느꼈다. 당장 어떻게 굴러가게 할수는 있다. 근데 &#39;뭐가 뭔지, 왜 쓰는지&#39; 를 모르고 쓰다보니 응용이 안되는거다.&lt;/p&gt;
+&lt;p&gt;다행히 이번주에 Git 사용법을 익히면서 왜 그렇게 개발자들이, AI쓰는 사람들이 github을 선호하고 쓰는지에 대한 이해가 확실히 생겼고, (코드야 좀 버벅거린해도) 어떻게든 협업해서 공동작업이란걸 하는 방법을 알게 되었다.&lt;/p&gt;
+&lt;p&gt;그런 점이 가장 큰 소득이었지 않나 싶다.&lt;/p&gt;
+&lt;h2 id=&#34;그래서-앞으로의-6개월은&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#그래서-앞으로의-6개월은&#34;&gt;#&lt;/a&gt; 그래서 앞으로의 6개월은..?&lt;/h2&gt;
+&lt;p&gt;솔직히 1주간 온보딩 해보고 진짜 후회많이 했다. 5기, 6기 할때도 신청할 수 있었는데 신청할걸. &#39;왜 좀더 빨리 시작하지 않았지?&#39; (&#39;교육의 질&#39; 문제 이전에 체계가 나에게 너무 잘 맞아서, 내가 원하는 시스템이라서) 라는 생각이 많이 들었다.&lt;/p&gt;
+&lt;p&gt;+솔직히 면접(?) 에서 떨어지면 어쩌지 하고 쫄렸던 것도 컸다. 근데 사실 이건 정말 icebreking 같은거라 지나고 보니 왜그렇게 부담스러워 했나 싶다.&lt;/p&gt;
+&lt;p&gt;앞으로의 과정이야 당연히 버겁고 어려울거다. 중간에 좀 지루해할수도있고, 도망가고 싶을수도 있다. 내가 아무리 관련 경험이 있다고 하지만(솔직히 이게 더 큰 부담이긴하다. 기대치라는게 있을테니까.), 많이 잊어먹기도 했고, 애초에 코드를 잘하는 편도 아니었고, 그저 &#39;발을 담가본&#39; 경험만이 있을뿐이니까.&lt;/p&gt;
+&lt;p&gt;그래도 온보딩을 겪고 보니 그러면서 AI라는 필드에서 공부를 하기 위한 훈련을 하고 공부근육을 기르는 시간이 될거란 기대가 생겨있다. 네트워킹에 대한 경험도 생길것이고. &#39;내가 노력해서 열심히 하면 그만큼 얻어갈 수 있겠구나.&#39; 라는 생각을 하고 있다. &#39;쉐벨그투&#39;가 되는 사람이 되야겠다고 생각한다 🫡&lt;/p&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;11월-1주차-kpt-keep-problem-try&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#11월-1주차-kpt-keep-problem-try&#34;&gt;#&lt;/a&gt; 11월 1주차 KPT (Keep, Problem, Try)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;이번 한주간 내가 무얼 잘했고, 무엇이 아쉬웠고, 어떻게 개선해나갈지 정리!!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Keep👍&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;기록저그미로 기록을 가지런히 정리해서 그루들에게 도움을 준것 (같다.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Problem🤔&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;eraser에 직접 적다보니 사용법이 덜 익숙하기도 하고, 내 스스로 정리할 공간에 2번정리하느라 작성이 다소 늦었다.(+캔버스에 적느라 더 느림 = 사용법 미숙지 이슈)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Try💪&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;내 정리 플랫폼에 선정리하며 중간 중간 eraser에 공유하기&lt;/li&gt;
+&lt;li&gt;eraser 사용법도 익히기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

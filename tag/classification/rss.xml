@@ -1,0 +1,947 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Kim Gabe&#39;s DS Blog • Posts by &#34;classification&#34; tag</title>
+        <link>https://Kimgabe.github.io</link>
+        <description>Kim Gabe의 블로그입니다. 데이터 사이언스, AI, 머신러닝 학습 과정을 기록합니다.</description>
+        <language>en</language>
+        <pubDate>Thu, 17 Jun 2021 00:00:00 +0900</pubDate>
+        <lastBuildDate>Thu, 17 Jun 2021 00:00:00 +0900</lastBuildDate>
+        <category>python</category>
+        <category>ndarray</category>
+        <category>numpy vectorization</category>
+        <category>메모리</category>
+        <category>np.array</category>
+        <category>ndarray 데이터타입</category>
+        <category>np.arange</category>
+        <category>np.ones</category>
+        <category>np.zeros</category>
+        <category>np.empty</category>
+        <category>np.full</category>
+        <category>np.eye</category>
+        <category>np.linspace</category>
+        <category>reshape</category>
+        <category>데이터 통합,pandas,DataFrame,concat,os,listdir,CSV 파일,데이터 병합,데이터 프레임,데이터 분석,데이터 처리,데이터 정렬,빈 데이터 프레임,파일 시스템,경고 메시지</category>
+        <category>feature engineering</category>
+        <category>prediction</category>
+        <category>regression. DACON</category>
+        <category>시계열</category>
+        <category>카드매출</category>
+        <category>예측</category>
+        <category>KNN</category>
+        <category>RandomForestRegressor</category>
+        <category>LightGBM</category>
+        <category>머신러닝</category>
+        <category>딥러닝</category>
+        <category>random 모듈</category>
+        <category>np.random.rand</category>
+        <category>np.random.randn</category>
+        <category>np.random.randint</category>
+        <category>np.random.seed</category>
+        <category>랜덤을 적용하면서도 일정한 값 만들기</category>
+        <category>np.random.choice</category>
+        <category>np.random.uniform</category>
+        <category>np.random.normal</category>
+        <category>indexing</category>
+        <category>1차원 벡터 인덱싱</category>
+        <category>index로 특정 위치 값 바꾸기</category>
+        <category>index의 값 바꾸기</category>
+        <category>2차원 행렬 인덱싱</category>
+        <category>3차원 텐서 인덱싱</category>
+        <category>벡터</category>
+        <category>행렬</category>
+        <category>텐서</category>
+        <category>슬라이싱</category>
+        <category>1차원 벡터 슬리이싱</category>
+        <category>2차원 행렬 슬라이싱</category>
+        <category>3차원 텐서 슬라이싱</category>
+        <category>판다스,데이터 병합,DataFrame,merge,key 변수,customerID,read_csv,데이터 관리,SQL Join,전처리</category>
+        <category>Python,pandas,데이터 병합,날짜 포맷,apply 함수,merge 함수,데이터프레임,Series,경고 필터링,파일 로드,데이터 접근</category>
+        <category>ndarray 형태바꾸기</category>
+        <category>np.ravel</category>
+        <category>np.flatten</category>
+        <category>np.reshape</category>
+        <category>array의 차원바꾸기</category>
+        <category>이미지 벡터화</category>
+        <category>np.add</category>
+        <category>np.divide</category>
+        <category>np.mod</category>
+        <category>np.mean</category>
+        <category>np.median</category>
+        <category>np.max</category>
+        <category>np.min</category>
+        <category>np.argmax</category>
+        <category>np.argmin</category>
+        <category>np.var</category>
+        <category>np.std</category>
+        <category>np.sum</category>
+        <category>np.consum</category>
+        <category>np.any</category>
+        <category>np.all</category>
+        <category>np.where</category>
+        <category>axis</category>
+        <category>numpy 축</category>
+        <category>1차원 axis</category>
+        <category>2차원 axis</category>
+        <category>3차원 axis</category>
+        <category>데이터 분석,거리 행렬,병합,지하철역,경도,위도,pandas,scipy,haversine,argsort,DataFrame</category>
+        <category>판다스,데이터 병합,groupby,DataFrame,Series,merge,replace,고객ID,구매금액,인덱스,CSV 파일,인코딩,머신러닝,통계량,조건부 통계량</category>
+        <category>판다스,데이터 병합,Series,DataFrame,to_dict,replace,merge,ref_df,인덱스,행정구역,엑셀 파일,CSV 파일,인코딩,add_prefix</category>
+        <category>결측치,데이터 전처리,pandas,dropna,isnull,Train data,Test data,머신러닝,데이터프레임,train_test_split,결측 레코드,결측치 비율,결측치 삭제,결측치 처리,결측치 문제,결측치 대체</category>
+        <category>broadcasting</category>
+        <category>브로드캐스팅</category>
+        <category>서로다른 shape의 numpy끼리 연산하는 방법</category>
+        <category>scalar</category>
+        <category>상수</category>
+        <category>boolean indexing</category>
+        <category>다중조건</category>
+        <category>데이터 전처리,sklearn,결측치,SimpleImputer,train_test_split,DataFrame,상관 계수,범주형 변수,연속형 변수,전처리 모델,대표값 대체,결측치 대체법,전략,평균,최빈값</category>
+        <category>선형대수</category>
+        <category>linalg</category>
+        <category>np.linalg</category>
+        <category>행렬내적구하기</category>
+        <category>전치행렬구하기</category>
+        <category>역행렬</category>
+        <category>정방행렬</category>
+        <category>항등행렬</category>
+        <category>시계열,결측치,대체,DataFrame,fillna,ffill,bfill,Python,pandas,데이터프레임,train_test_split</category>
+        <category>그래프 그리기</category>
+        <category>line plot</category>
+        <category>scatter plot</category>
+        <category>그래프에 주석추가하기</category>
+        <category>grid 추가하기</category>
+        <category>subplot으로 그래프 여러개 그리기</category>
+        <category>histogram그리기</category>
+        <category>결측치,KNN Imputer,예측 모델,데이터 처리,sklearn,머신러닝,데이터프레임,결측 대체,모델 학습,파라미터,상관 계수</category>
+        <category>로또 번호 자동생성기</category>
+        <category>문제풀이</category>
+        <category>pi</category>
+        <category>Mote Carlo</category>
+        <category>원주율구하기</category>
+        <category>범주형 변수,모델 학습,숫자 변환,더미화,연속형 치환,차원의 저주,데이터 분석,지도학습,인코딩,머신러닝</category>
+        <category>EDA</category>
+        <category>스타벅스</category>
+        <category>이디야</category>
+        <category>folium</category>
+        <category>웹크롤링</category>
+        <category>google api</category>
+        <category>좌표추출</category>
+        <category>데이터분석</category>
+        <category>시각화</category>
+        <category>EDA - matplotlib - kaggle - dataset - dendrogram - correlation - preprocessing - folium</category>
+        <category>series</category>
+        <category>pandas</category>
+        <category>판다스</category>
+        <category>시리즈</category>
+        <category>데이터업데이트</category>
+        <category>데이터접근</category>
+        <category>인덱스재사용</category>
+        <category>데이터 전처리,모델 튜닝,하이퍼 파라미터,결측치 처리,범주형 변수,라벨 처리,변수 분포,클래스 불균형,특징 선택,파라미터 그리드,스케일링,머신러닝,데이터 통합,이상치,상관관계</category>
+        <category>전처리</category>
+        <category>size</category>
+        <category>shape</category>
+        <category>len</category>
+        <category>count</category>
+        <category>value_counts</category>
+        <category>mean</category>
+        <category>max</category>
+        <category>min</category>
+        <category>sum</category>
+        <category>median</category>
+        <category>abs</category>
+        <category>cumsum</category>
+        <category>cumprod</category>
+        <category>std</category>
+        <category>var</category>
+        <category>mode</category>
+        <category>corr</category>
+        <category>astype</category>
+        <category>데이터형변환</category>
+        <category>산술연산</category>
+        <category>인덱싱</category>
+        <category>head</category>
+        <category>tail</category>
+        <category>기초</category>
+        <category>Pandas</category>
+        <category>Series</category>
+        <category>local</category>
+        <category>iloc</category>
+        <category>데이터변환</category>
+        <category>리스트</category>
+        <category>딕셔너리</category>
+        <category>넘파이배열</category>
+        <category>List</category>
+        <category>dict</category>
+        <category>numpy_array</category>
+        <category>slicing</category>
+        <category>python - 시각화 - visualization - matplotlib - canvas - subplot - title - fontsize - tick - x축 - y축 - legend - marker - linestyle - color - alpha - 투명도 - grid - 이미지저장</category>
+        <category>visualization</category>
+        <category>matplotlib</category>
+        <category>bar plot</category>
+        <category>막대그래프</category>
+        <category>barhplot</category>
+        <category>가로막대 그래프</category>
+        <category>꺾은선 그래프</category>
+        <category>area plot</category>
+        <category>면적 그래프</category>
+        <category>histogram</category>
+        <category>히스토그램</category>
+        <category>pie chart</category>
+        <category>파이차트</category>
+        <category>box plot</category>
+        <category>3D plot</category>
+        <category>imshow</category>
+        <category>classification</category>
+        <category>헬스케어</category>
+        <category>의료데이터</category>
+        <category>kaggle</category>
+        <category>logistic regression</category>
+        <category>XGBoost</category>
+        <category>feature importance</category>
+        <category>python basic</category>
+        <category>데이터타입</category>
+        <category>주석</category>
+        <category>indent</category>
+        <category>IndentationError</category>
+        <category>연산자</category>
+        <category>escape string</category>
+        <category>문자열자르기</category>
+        <category>문자열 slicing</category>
+        <category>대문자변환</category>
+        <category>upper()</category>
+        <category>소문자변환</category>
+        <category>lower()</category>
+        <category>문자바꾸기</category>
+        <category>replace()</category>
+        <category>format()</category>
+        <category>문자 자르기</category>
+        <category>split()</category>
+        <category>list</category>
+        <category>튜플</category>
+        <category>tuple</category>
+        <category>append</category>
+        <category>extend</category>
+        <category>remove</category>
+        <category>pop</category>
+        <category>index</category>
+        <category>replace</category>
+        <category>in</category>
+        <category>list정렬</category>
+        <category>튜플 indexing</category>
+        <category>튜플 slicing</category>
+        <category>list와 tuple의 공통점</category>
+        <category>list와 tuple의 차이점</category>
+        <category>mutable</category>
+        <category>immutable</category>
+        <category>딕셔러니</category>
+        <category>dictionary</category>
+        <category>set</category>
+        <category>update</category>
+        <category>del</category>
+        <category>clear</category>
+        <category>get()</category>
+        <category>union()</category>
+        <category>intersection()</category>
+        <category>issubset()</category>
+        <category>교집합</category>
+        <category>합집합</category>
+        <category>차집합</category>
+        <category>부분집합</category>
+        <category>조건문</category>
+        <category>if문</category>
+        <category>if</category>
+        <category>elif</category>
+        <category>else</category>
+        <category>조건문 논리</category>
+        <category>조건문 우선순위</category>
+        <category>다중조건문</category>
+        <category>중첩조건문</category>
+        <category>nested condition</category>
+        <category>반복문</category>
+        <category>loop</category>
+        <category>for문</category>
+        <category>while문</category>
+        <category>무한루프</category>
+        <category>break</category>
+        <category>continue</category>
+        <category>dict 아이템출력하기</category>
+        <category>for문에 index사용하기</category>
+        <category>2중 for문</category>
+        <category>loop중첩</category>
+        <category>구구단 출력하기</category>
+        <category>itertools</category>
+        <category>product()</category>
+        <category>combination()</category>
+        <category>permutation()</category>
+        <category>zip()과 itertools.produce()차이</category>
+        <category>list comprehension</category>
+        <category>for문 한줄로 작성하기</category>
+        <category>dictionary comprehension</category>
+        <category>함수</category>
+        <category>def</category>
+        <category>내장함수</category>
+        <category>parameter</category>
+        <category>argument</category>
+        <category>default parameter</category>
+        <category>keyword parameter</category>
+        <category>return</category>
+        <category>multiple return</category>
+        <category>전역변수</category>
+        <category>지역변수</category>
+        <category>local variable</category>
+        <category>global variable</category>
+        <category>가변인자</category>
+        <category>argument parameter</category>
+        <category>args</category>
+        <category>kwargs</category>
+        <category>lambda</category>
+        <category>lambda로 sort하기</category>
+        <category>lambda로 filtering하기</category>
+        <category>lambda로 mapping하기</category>
+        <category>lambda로 reducing하기</category>
+        <category>자주쓰는 lambda기능</category>
+        <category>패키지</category>
+        <category>모듈</category>
+        <category>패키지와 모듈&amp;함수 관계</category>
+        <category>import</category>
+        <category>특정모듈만 불러오기</category>
+        <category>alias</category>
+        <category>별명</category>
+        <category>별명 지어주기</category>
+        <category>class</category>
+        <category>객체</category>
+        <category>상속</category>
+        <category>object</category>
+        <category>instance</category>
+        <category>class선언</category>
+        <category>method</category>
+        <category>__init__</category>
+        <category>self인자</category>
+        <category>method정의</category>
+        <category>method type</category>
+        <category>instance method</category>
+        <category>class method</category>
+        <category>class inheritance</category>
+        <category>method override</category>
+        <category>method재정의</category>
+        <category>부모클래스</category>
+        <category>자식클래스</category>
+        <category>super</category>
+        <category>정규표현식</category>
+        <category>re</category>
+        <category>preprocessing</category>
+        <category>search</category>
+        <category>metacharacters</category>
+        <category>abck</category>
+        <category>abc.^</category>
+        <category>a-d</category>
+        <category>0-9</category>
+        <category>a-z</category>
+        <category>A-Z</category>
+        <category>a-zA-Z0-9</category>
+        <category>^0-9</category>
+        <category>반복패턴</category>
+        <category>기본패턴</category>
+        <category>\d</category>
+        <category>\D</category>
+        <category>\s</category>
+        <category>\S</category>
+        <category>\w</category>
+        <category>\W</category>
+        <category>\</category>
+        <category>\\</category>
+        <category>grouping</category>
+        <category>미니멈 매칭</category>
+        <category>non-greedy way</category>
+        <category>findall</category>
+        <category>sub</category>
+        <category>compile</category>
+        <category>GitHub</category>
+        <category>Resume</category>
+        <category>automated</category>
+        <category>Profile</category>
+        <category>README</category>
+        <category>career</category>
+        <category>이력서</category>
+        <category>깃허브</category>
+        <category>프로필</category>
+        <category>자동작성</category>
+        <category>GitHub Prifile Readme Generator</category>
+        <category>핸즈온 머신러닝</category>
+        <category>ML</category>
+        <category>DL</category>
+        <category>공부방법</category>
+        <category>도서</category>
+        <category>리뷰</category>
+        <category>문자열 다루기</category>
+        <category>islower()</category>
+        <category>isupper()</category>
+        <category>escape문자</category>
+        <category>산술연산자</category>
+        <category>덧셈식 출력하기</category>
+        <category>문자열 붙여서 출력하기</category>
+        <category>문자열 돌리기</category>
+        <category>홀짝 구분하기</category>
+        <category>문자열 겹쳐쓰기</category>
+        <category>n의 배수</category>
+        <category>공배수</category>
+        <category>홀짝에 따라 다른값 반환하기</category>
+        <category>조건 문자열</category>
+        <category>flag에 따라 다른값 반환하기</category>
+        <category>문자열 섞기</category>
+        <category>문자 리스트를 문자열로 변환하기</category>
+        <category>문자열 곱하기</category>
+        <category>더 크게 합치기</category>
+        <category>두 수의 연산값 합치기</category>
+        <category>마지막 두 원소</category>
+        <category>수 조작하기 1</category>
+        <category>수 조작하기 2</category>
+        <category>수열과 구간 쿼리 3</category>
+        <category>수열과 구간 쿼리 2</category>
+        <category>코드 처리하기</category>
+        <category>등차수열의 특정한 항만 더하기</category>
+        <category>주사위게임2</category>
+        <category>원소들의 곱과 합</category>
+        <category>이어 붙인 수</category>
+        <category>수열과 구간쿼리 4</category>
+        <category>배열만들기2</category>
+        <category>카운트 업</category>
+        <category>콜라츠 수열 만들기</category>
+        <category>배열만들기 4</category>
+        <category>간단한 논리 연산</category>
+        <category>주사위 게임 3</category>
+        <category>글자 이어 붙여 문자열 만들기</category>
+        <category>9로 나눈 나머지</category>
+        <category>문자열 여러번 뒤집기</category>
+        <item>
+            <guid isPermalink="true">https://kimgabe.github.io/2021/06/17/%EB%B6%84%EB%A5%98-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D%EC%9C%BC%EB%A1%9C-%EC%8B%AC%EB%B6%80%EC%A0%84%EC%A6%9D%EC%9D%84-%EC%98%88%EC%B8%A1%ED%95%98%EA%B8%B0-v1/</guid>
+            <title>[분류] 데이터 분석으로 심부전증을 예측하기</title>
+            <link>https://kimgabe.github.io/2021/06/17/%EB%B6%84%EB%A5%98-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D%EC%9C%BC%EB%A1%9C-%EC%8B%AC%EB%B6%80%EC%A0%84%EC%A6%9D%EC%9D%84-%EC%98%88%EC%B8%A1%ED%95%98%EA%B8%B0-v1/</link>
+            <category>feature engineering</category>
+            <category>딥러닝</category>
+            <category>EDA</category>
+            <category>classification</category>
+            <category>헬스케어</category>
+            <category>의료데이터</category>
+            <category>kaggle</category>
+            <category>logistic regression</category>
+            <category>XGBoost</category>
+            <category>feature importance</category>
+            <pubDate>Thu, 17 Jun 2021 00:00:00 +0900</pubDate>
+            <description><![CDATA[ &lt;p&gt;📌의료지표 데이터를 통해 심부전증 진단하기(Kaggle 데이터 활용)&lt;/p&gt;
+&lt;h1 id=&#34;왜-심부전증-데이터를-골랐는가-에-대하여&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#왜-심부전증-데이터를-골랐는가-에-대하여&#34;&gt;#&lt;/a&gt; 왜 심부전증 데이터를 골랐는가? 에 대하여&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;부트캠프에서 처음으로 빅데이터 분석을 배우며 마지막에 딥러닝에 대해 배우는 과정이 있었다.&lt;/li&gt;
+&lt;li&gt;이때, 이미지를 통해 폐질환 등을 분류해는 모델링에 대한 사례를 배웠는데 이때 생긴 궁금증이 있었다.&lt;/li&gt;
+&lt;li&gt;&amp;quot;이미지로 분류하는 것이 아니라, 의료관련 다양한 지표 데이터들을 활용해 머신러닝으로 질병을 예측/분류 할수는 없는 걸까?&amp;quot;&lt;/li&gt;
+&lt;li&gt;때마침 kaggle에서 심부전증환자를 예측하는데 활용할 수 있는 데이터를 발견해서 이를 통해 확인해보고자 한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;주제-예측-모델로-심부전증-여부-예측하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#주제-예측-모델로-심부전증-여부-예측하기&#34;&gt;#&lt;/a&gt; 주제 : 예측 모델로 심부전증 여부 예측하기&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;데이터-소개&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#데이터-소개&#34;&gt;#&lt;/a&gt; 데이터 소개&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Kaggle의 Heart Failure Prediction 데이터셋을 사용&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;컬럼설명&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#컬럼설명&#34;&gt;#&lt;/a&gt; &lt;strong&gt;컬럼설명&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;범주형 데이터&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;anaemia: 환자의 빈혈증 여부 (0: 정상, 1: 빈혈)&lt;/li&gt;
+&lt;li&gt;diabetes: 당뇨병 여부 (0: 정상, 1: 당뇨)&lt;/li&gt;
+&lt;li&gt;high_blood_pressure: 고혈압 여부 (0: 정상, 1: 고혈압)&lt;/li&gt;
+&lt;li&gt;sex: 성별 (0: 여성, 1: 남성)&lt;/li&gt;
+&lt;li&gt;smoking: 흡연 여부 (0: 비흡연, 1: 흡연)&lt;/li&gt;
+&lt;li&gt;DEATH_EVENT: 사망 여부 (0: 생존, 1: 사망)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;수치형 데이터&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;age: 환자의 나이
+&lt;ul&gt;
+&lt;li&gt;심부전 유병률은 60세 이상에서 급증하며 나이가 들수록 증가하는 것으로 알려졌다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;time: 관찰 기간 (일)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;creatinine_phosphokinase: 크레아틴키나제 검사 결과&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;CK (크레아틴키나제)는 심장, 뇌, 골격근, 및 다른 조직에서 발견되는 효소&lt;/li&gt;
+&lt;li&gt;CK(크레아틴키나제) 농도는 근육 또는 심장 세포가 손상될 때에 올라간다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ejection_fraction: 박출계수 (%)&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;맥박을 통해 심장에서 박출 되거나 펌프하는 혈액의 %량&lt;/li&gt;
+&lt;li&gt;범주는 0-100%&lt;/li&gt;
+&lt;li&gt;의학적으로 박출계수가 50% 또는 더 높다면, 정상 %로 고려(치료 필요 없음)&lt;/li&gt;
+&lt;li&gt;박출계수가 50%보다 낮다면, 심장은 대부분 충분한 산소가 없다거나, 관상동맥으로 흐르는 혈액이 부족하다는 의미&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;platelets: 혈소판 수 (kiloplatelets/mL)&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;성인의 경우 혈액 1마이크로 리터 안에 약 15~40만 개의 혈소판을 보유하고 있다.&lt;/li&gt;
+&lt;li&gt;혈소판의 수나 기능에 이상이 생기면 지혈 작용에 영향을 주어 출혈이 생길 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;serum_creatinine: 혈중 크레아틴 레벨 (mg/dL)&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;크레아티닌은 근육에서 생성되는 노폐물 - 신장기능 평가의 주요 지표&lt;/li&gt;
+&lt;li&gt;혈중 크레아티닌 농도의 정상범위는 0.50~1.4 mg/dL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;serum_sodium: 혈중 나트륨 레벨 (mEq/L)&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;고나트륨혈증은 보통 혈중농도가 145mEq/L 이상인 경우를 말함&lt;/li&gt;
+&lt;li&gt;고나트륨혈증 발생기 심혈관계 이상 발생할 수 있음&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;데이터 출처: &lt;a href=&#34;https://www.kaggle.com/andrewmvd/heart-failure-clinical-data&#34;&gt;https://www.kaggle.com/andrewmvd/heart-failure-clinical-data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;step-0-의료-데이터셋에-대하여&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#step-0-의료-데이터셋에-대하여&#34;&gt;#&lt;/a&gt; Step 0. 의료 데이터셋에 대하여&lt;/h1&gt;
+&lt;p&gt;✔️ 의료 데이터의 수집 관련 정책의 변화&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;한국의 경우 한정&lt;/li&gt;
+&lt;li&gt;2020.1월 데이터 3법 개정 이후 -&amp;gt; &#39;가명정보&#39; 사용이 가능해짐&lt;/li&gt;
+&lt;li&gt;개인 식별이 가능한 정보를 비식별화( de-identification)을 하여 일반적으로 사용가능한 데이터로 변화시킨 것&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;✔️ 의료 데이터 분석의 현재&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;해외 (덴마크, 일본, 영국, 미국 등) 의 경우 과거부터 의료데이터 분석을 시행해옴.&lt;/li&gt;
+&lt;li&gt;단순하게는 병원 공실률 개선을 위한 분석 부터 넓게는 질병발생 가능성 예측 까지 넓은 범주에서 의료 관련 데이터 분석을 시행&lt;/li&gt;
+&lt;li&gt;하지만, 한국의 경우 데이터 3법 개정 이후부터 의료 관련 데이터 분석이 활발해지고 있는 상황.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;✔️ 주요 판단지표 : Accuracy, Precision, Recall&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Accuracy : 예측결과(pred)와 실제 값(label)이 같은 개수 / 전체 데이터&lt;/li&gt;
+&lt;li&gt;Precision(정밀도) : TP라고 예측했을때 실제로 TP일 확률 =&amp;gt; [ TP/ (FP+TP) ] (FP 를 낮추는데 초점)&lt;/li&gt;
+&lt;li&gt;Recall (재현율) : 실제값이 Positive인 데이터 중에서 예측결과(Pred)와 실제 값(label)이 일치한 데이터의 비율 =&amp;gt; [TP / (FN+TP) ] (FN을 낮추는데 초점)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;💡 &lt;strong&gt;의료 데이터 분석에서는 &lt;strong&gt;Recall&lt;/strong&gt;이 가장 중요한 지표&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Why?&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;**Recall이 중요한 지표인 경우 : 실제로 Positive한 것을 Negative로 &#39;잘못&#39; 판단했을때 그 영향력이 심각한 경우&lt;/li&gt;
+&lt;li&gt;의료 데이터의 경우가 대표적인 예시&lt;/li&gt;
+&lt;li&gt;실제 질병을 질병이 없다고 예측할 경우 그 잘못된 판단으로 &lt;strong&gt;환자의 생명&lt;/strong&gt; 을 잃게 될 수 도 있기 때문.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;그래서 실제 의료 분석은 여러단계를 거치면서 분석한다.
+&lt;ul&gt;
+&lt;li&gt;1) 비교적 간단하지만 정확성은 떨어지는 테스트&lt;/li&gt;
+&lt;li&gt;2) &#39;1)&#39;보다는 좀 더 복잡하지만 정확성은 좀 더 높은 테스트&lt;/li&gt;
+&lt;li&gt;3) &#39;2)&#39;보다는 좀 더 복잡하지만 정확성은 좀 더 높은 테스트&lt;/li&gt;
+&lt;li&gt;와 같이 조금씩 더 복잡하면서 정확성이 더 높은 테스트를 순차적으로 시행&lt;/li&gt;
+&lt;li&gt;e.g) MRI -&amp;gt; 혈액 검사 -&amp;gt; 조직검사&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;즉, 일반적으로 의료분석은 상대적으로 쉽게 얻을 수 있는 데이터들을 조합해서 차근 차근 분석 정확도를 높여가기 때문에 초반에는 Recall 이 높은 분석방법이 더 중요하다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🤔 그래도 최종적으로는 Precision 과 Recall이 모두 높은 방법을 사용&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Recall을 100%로 만드는 것을 추구하면 Precision은 0에 가까워 진다.&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;가령, 무한대의 환자가 있다고 가정히할때&lt;/li&gt;
+&lt;li&gt;Recall을 100%로 만들려면 무한대의 모든 환자에게 병이 있다. (True) 라고 진단하면 된다.&lt;/li&gt;
+&lt;li&gt;하지만 이 경우 Precision 을 측정하면 분모값이 환자수(무한대) 이기 때문에 0쪽으로 하락한다.&lt;/li&gt;
+&lt;li&gt;그러므로, &lt;strong&gt;Recall은 95%이상을 추구하면서 Precision을 떨어지지 않도록 하는 것이 중요&lt;/strong&gt;하다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;step-1-데이터셋-준비하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#step-1-데이터셋-준비하기&#34;&gt;#&lt;/a&gt; Step 1. 데이터셋 준비하기&lt;/h1&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; pandas &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; pd&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; numpy &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; np&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; matplotlib&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;pyplot &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; plt&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; seaborn &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; sns&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 컬럼 전체 확인 가능하도록 출력 범위 설정&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;set_option&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;display.max_columns&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;500&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;set_option&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;display.width&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1000&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 불필요한 경고 표시 생략&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; warnings&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;warnings&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;filterwarnings&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;action &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;ignore&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;kaggle-api-로-데이터-불러오기-및-셋팅&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#kaggle-api-로-데이터-불러오기-및-셋팅&#34;&gt;#&lt;/a&gt; Kaggle API 로 데이터 불러오기 및 셋팅&lt;/h2&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 다운로드 패키지&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; opendatasets &lt;span class=&#34;token keyword&#34;&gt;as&lt;/span&gt; od&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# os 명령 관련 패키지&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; os&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;#username = gabesoon&lt;/p&gt;
+&lt;p&gt;#user key = f7dab1c856bc634fde741afaf75781ea&lt;/p&gt;
+&lt;p&gt;od.download(&amp;quot;&lt;a href=&#34;https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset&#34;&gt;https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset&lt;/a&gt;&amp;quot;)&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;os&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;listdir&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;[&#39;.ipynb_checkpoints&#39;,&lt;br /&gt;
+&#39;heart-attack-analysis-prediction-dataset&#39;,&lt;br /&gt;
+&#39;heart_failure_clinical_records_dataset.csv&#39;,&lt;br /&gt;
+&#39;[분류] 데이터 분석으로 심부전증을 예측하기 (Kaggle 데이터).ipynb&#39;]&lt;/p&gt;
+&lt;h2 id=&#34;pandas-라이브러리로-csv파일-읽어들이기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pandas-라이브러리로-csv파일-읽어들이기&#34;&gt;#&lt;/a&gt; Pandas 라이브러리로 csv파일 읽어들이기&lt;/h2&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 데이터 로드&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;df &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;read_csv&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;heart_failure_clinical_records_dataset.csv&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 데이터 확인&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;df&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;info&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;df&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;head&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;RangeIndex: 299 entries, 0 to 298&lt;br /&gt;
+Data columns (total 13 columns):&lt;/p&gt;
+&lt;h1 id=&#34;column-non-null-count-dtype&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#column-non-null-count-dtype&#34;&gt;#&lt;/a&gt; Column                    Non-Null Count  Dtype&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;p&gt;0   age                       299 non-null    float64&lt;br /&gt;
+1   anaemia                   299 non-null    int64&lt;br /&gt;
+2   creatinine_phosphokinase  299 non-null    int64&lt;br /&gt;
+3   diabetes                  299 non-null    int64&lt;br /&gt;
+4   ejection_fraction         299 non-null    int64&lt;br /&gt;
+5   high_blood_pressure       299 non-null    int64&lt;br /&gt;
+6   platelets                 299 non-null    float64&lt;br /&gt;
+7   serum_creatinine          299 non-null    float64&lt;br /&gt;
+8   serum_sodium              299 non-null    int64&lt;br /&gt;
+9   sex                       299 non-null    int64&lt;br /&gt;
+10  smoking                   299 non-null    int64&lt;br /&gt;
+11  time                      299 non-null    int64&lt;br /&gt;
+12  DEATH_EVENT               299 non-null    int64&lt;br /&gt;
+dtypes: float64(3), int64(10)&lt;br /&gt;
+memory usage: 30.5 KB&lt;br /&gt;
+None&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;총 299명의 환자 데이터&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Columns 는 13개&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;NaN값 있는 columns 없음&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;범주형 데이터 : count 확인&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;anaemia: 환자의 빈혈증 여부 (0: 정상, 1: 빈혈)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;diabetes: 당뇨병 여부 (0: 정상, 1: 당뇨)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;high_blood_pressure: 고혈압 여부 (0: 정상, 1: 고혈압)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;sex: 성별 (0: 여성, 1: 남성)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;smoking: 흡연 여부 (0: 비흡연, 1: 흡연)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DEATH_EVENT: 사망 여부 (0: 생존, 1: 사망)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;수치형 데이터 : 전반적인 통계량 확인&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;age: 환자의 나이&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;creatinine_phosphokinase: 크레아틴키나제 검사 결과&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ejection_fraction: 박출계수 (%)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;platelets: 혈소판 수 (kiloplatelets/mL)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;serum_creatinine: 혈중 크레아틴 레벨 (mg/dL)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;serum_sodium: 혈중 나트륨 레벨 (mEq/L)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;time: 관찰 기간 (일)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;df&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;describe&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;환자의 나이 분포는 40~95세 사이이고, 평균 연령은 60.83이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;(0,1) 로된 범주형 데이터의 평균값을 보면 대부분 0.35~0.64 범주안에 있다 = 특별하게 불균형한 데이터는 없는 것으로 보인다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;(대부분의 데이터가 6:4 정도의 비율) - 용인 가능한 수준&lt;/p&gt;
+&lt;p&gt;단, 사망자 데이터는 0.32로 1/3이 생존이라 다소 불균형이다.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;creatinine_phosphokinase 의 경우 min값은 23, 50%값은 250, 75%값은 582인데, max값은 7861로 이상치일 것으로 보인다. (제외 해야할 수도 있다.)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;step-2-eda-및-데이터-기초-통계-분석&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#step-2-eda-및-데이터-기초-통계-분석&#34;&gt;#&lt;/a&gt; Step 2. EDA 및 데이터 기초 통계 분석&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;수치형-데이터별-histogram-데이터-빈도-with-death_event&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#수치형-데이터별-histogram-데이터-빈도-with-death_event&#34;&gt;#&lt;/a&gt; 수치형 데이터별 Histogram - 데이터 빈도 with DEATH_EVENT&lt;/h2&gt;
+&lt;h3 id=&#34;연령대별-사망수-분포&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#연령대별-사망수-분포&#34;&gt;#&lt;/a&gt; 연령대별 사망수 분포&lt;/h3&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# seaborn의 histplot, jointplot, pairplot을 이용&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# kde = 히스토그램 분포를 곡선으로 표현&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# gray = 1 이지만 0과 겹친 데이터&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;sns&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;histplot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;age&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; data&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;df&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; hue&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;DEATH_EVENT&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; kde&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token boolean&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;age 데이터는 longtail 형태의 데이터(앞쪽 데이터의 빈도가 높고 뒤로 갈수록 빈도가 낮아지는 형태)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;크레아틴키나제-검사-결과-3000이하인-것만&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#크레아틴키나제-검사-결과-3000이하인-것만&#34;&gt;#&lt;/a&gt; 크레아틴키나제 검사 결과 (3000이하인 것만)&lt;/h3&gt;
+&lt;p&gt;creatinine_phosphokinase: 크레아틴키나제 검사 결과&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;CK (크레아틴키나제)는 심장, 뇌, 골격근, 및 다른 조직에서 발견되는 효소&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CK(크레아틴키나제) 농도는 근육 또는 심장 세포가 손상될 때에 올라간다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;creatinine_phosphokinase 는 describe()로 보았을때 &lt;strong&gt;outlier가 존재하는&lt;/strong&gt; 데이터였다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;실제로 값이 3000 이상인 경우 데이터의 count가 낮아서 전체 데이터를 시각화할 경우 데이터를 크게 보기가 어려웠다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;빈도수가 많은 데이터를 살피기 위해 값이 &lt;strong&gt;3000이하 인 데이터&lt;/strong&gt;들만 추려서 시각화 하였다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; df&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;loc&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;df&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;creatinine_phosphokinase&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;### ejection_fraction: 박출계수 (%) - 히스토그램&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;```python&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# bins 조절로 빈자리가 없도록 조절&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;sns&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;histplot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;ejection_fraction&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; data&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;df&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; bins&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; hue&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;DEATH_EVENT&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; kde&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token boolean&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;ejection_fraction: 박출계수 (%)&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;맥박을 통해 심장에서 박출 되거나 펌프하는 혈액의 %량&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;범주는 0-100%&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;의학적으로 박출계수가 50% 또는 더 높다면, 정상 %로 고려(치료 필요 없음)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;박출계수가 50%보다 낮다면, 심장은 대부분 충분한 산소가 없다거나, 관상동맥으로 흐르는 혈액이 부족하다는 의미&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;전반적으로 ejection_fraction이 낮은 사람의 사망수가 높고, 높은 사람은 사망수가 낮은 경향을 보인다.(도메인 지식과 동일)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;사망자수와 반비례 형태의 관계를 보이고, 각 빈도 별로 사망자수의 비율에 차이는 있지만 사망수는 전반적으로 높게 분포되어 있어 사망 여부 판별에 중요한 데이터로 사용할 수 있을 것으로 예상된다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;특히 Precision을 높이기 위한 데이터로는 유용할 것이다.(사망한 경우자체가 많음-&amp;gt; TP증가 -&amp;gt; FP 낮아짐 -&amp;gt; Precision 낮아짐)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;다만 Recall을 높이는데는 크게 유용한 데이터는 아닐 것이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;관찰일수time-히스토그램&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#관찰일수time-히스토그램&#34;&gt;#&lt;/a&gt; 관찰일수(time) - 히스토그램&lt;/h3&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;sns&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;histplot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;time&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; data&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;df&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; hue&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;DEATH_EVENT&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; kde&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token boolean&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;관찰기간(time)에 대한 데이터가 초반에 많이 몰려있고, 관찰기간이 긴 데이터일 수록 분포가 떨어진다. (Gamma distribution)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;생존데이터의 경우 &#39;쌍봉 형태&#39; 이다. 생존자에 대한 대부분의 데이터가 2곳에 집약되어 있는 것.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;사망자가 발생하면 관찰기간(time)의 값이 더 높아질수가 없는 구조이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;그러므로 &lt;strong&gt;time 데이터는 제외하고 학습을 진행하는 것&lt;/strong&gt;이 바람직 하다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ejection_fraction-박출계수-boxplot&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ejection_fraction-박출계수-boxplot&#34;&gt;#&lt;/a&gt; ejection_fraction: 박출계수 (%) - Boxplot&lt;/h3&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# seaborn의 Boxplot 계열(boxplot(), violinplot(), swarmplot())을 사용&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# ejection_fraction: 박출계수 (%)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;sns&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;boxplot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;DEATH_EVENT&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;ejection_fraction&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; data&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;df&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;[도메인 지식]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ejection_fraction이 50%보다 낮다면, 심장은 대부분 충분한 산소가 없다거나, 관상동맥으로 흐르는 혈액이 부족하다는 의미이다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;[Boxplot 분석]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;생존자의 ejection_fraction 평균은 약 40이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;사망자의 ejection_fraction 평균은 약 30 이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;ejection_fraction은 도메인 지식 만큼은 아니겠지만, 사망자와 생존자간의 평균 차이가 상당하므로 사망자수 와의 상관성이 있는 주요 지표일 것으로 예상된다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;혈소판-수-kiloplateletsml&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#혈소판-수-kiloplateletsml&#34;&gt;#&lt;/a&gt; 혈소판 수 (kiloplatelets/mL)&lt;/h3&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;sns&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;histplot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;platelets&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; data&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;df&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; hue&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;DEATH_EVENT&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;platelets: 혈소판 수 (kiloplatelets/mL)&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;성인의 경우 혈액 1마이크로 리터 안에 약 15~40만 개의 혈소판을 보유하고 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;혈소판의 수나 기능에 이상이 생기면 지혈 작용에 영향을 주어 출혈이 생길 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;혈소판 수의 데이터와 사망자수 간의 연관성이 보이지 않는다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;관찰-기간-일&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#관찰-기간-일&#34;&gt;#&lt;/a&gt; 관찰 기간 (일)&lt;/h3&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;sns&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;histplot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;time&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; data&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;df&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; hue&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;DEATH_EVENT&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; kde&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token boolean&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;전반적으로 볼때, 관찰 기간이 짧을때 사망자수가 많지만 관찰 기간이 길어질 수록 사망자수가 적어지는 경향이 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;다만, 관찰 기간이 중간치일때는 사망자수의 분포가 균일하다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;그러므로 관찰 기간이 사망자수를 예측하는데 결정적인 지표라고 하기는 어렵다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;수치형-데이터별-jointplot&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#수치형-데이터별-jointplot&#34;&gt;#&lt;/a&gt; 수치형 데이터별 Jointplot&lt;/h2&gt;
+&lt;h3 id=&#34;혈소판-수-kiloplateletsml-x-크레아틴키나제-검사-결과-x-사망자-수&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#혈소판-수-kiloplateletsml-x-크레아틴키나제-검사-결과-x-사망자-수&#34;&gt;#&lt;/a&gt; [혈소판 수 (kiloplatelets/mL) x 크레아틴키나제 검사 결과] X 사망자 수&lt;/h3&gt;
+&lt;p&gt;creatinine_phosphokinase: 크레아틴키나제 검사 결과&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;CK (크레아틴키나제)는 심장, 뇌, 골격근, 및 다른 조직에서 발견되는 효소&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CK(크레아틴키나제) 농도는 근육 또는 심장 세포가 손상될 때에 올라간다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#sns.jointplot(x=&#39;platelets&#39;, y=&#39;creatinine_phosphokinase&#39;, hue=&#39;DEATH_EVENT&#39;, data=df, alpha=0.4)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;sns&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;jointplot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;platelets&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;creatinine_phosphokinase&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;data&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;df&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; kind&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;kde&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; hue&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;DEATH_EVENT&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;박출계수-x-혈중-나트륨-레벨-meql-x-사망자-수&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#박출계수-x-혈중-나트륨-레벨-meql-x-사망자-수&#34;&gt;#&lt;/a&gt; [박출계수 (%) x 혈중 나트륨 레벨 (mEq/L)] X 사망자 수&lt;/h3&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;sns&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;jointplot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;ejection_fraction&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;serum_creatinine&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; data&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;df&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; hue&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;DEATH_EVENT&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;범주형-데이터별-boxplot&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#범주형-데이터별-boxplot&#34;&gt;#&lt;/a&gt; 범주형 데이터별 Boxplot&lt;/h2&gt;
+&lt;h3 id=&#34;흡연자여부-별-박출계수&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#흡연자여부-별-박출계수&#34;&gt;#&lt;/a&gt; 흡연자여부 별 박출계수&lt;/h3&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;sns&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;boxplot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;smoking&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;ejection_fraction&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; data&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;df&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;[도메인 지식]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ejection_fraction이 50%보다 낮다면, 심장은 대부분 충분한 산소가 없다거나, 관상동맥으로 흐르는 혈액이 부족하다는 의미이다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;[Boxplot 분석]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;흡연자와 비흡연자간 데이터의 평균은 큰 차이가 없다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;흡연자의 경우 ejection_fraction 값의 범위가 좁다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;흡연자의 ejection_fraction 최고치가 더 낮다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;흡연자의 ejection_fraction 평균은 30 중반이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;비흡연자의 ejection_fraction 평균은 30 후반이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;흡연자의 ejection_fraction 평균은 정상치 아래이므로 심장에 문제가 있을 가능성이 있다고 예상할 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;즉, 흡연여부는 심부전증에 간접적으로 유의미한 데이터일 가능성이 높다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;다만 이 데이터에서는 비흡연자의 ejection_fraction도 평균이 40 아래이므로 도메인 지식만큼 심부전 발생여부와 강력한 연관성을 보이지 않을 가능성이 크다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;흡연여부-별-사망자수-x-혈소판-수-kiloplateletsml&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#흡연여부-별-사망자수-x-혈소판-수-kiloplateletsml&#34;&gt;#&lt;/a&gt; 흡연여부 별 사망자수 x 혈소판 수 (kiloplatelets/mL)&lt;/h3&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;sns&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;swarmplot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;DEATH_EVENT&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;platelets&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; hue&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;smoking&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; data&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;df&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr /&gt;
+&lt;h1 id=&#34;step-3-데이터-전처리&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#step-3-데이터-전처리&#34;&gt;#&lt;/a&gt; Step 3. 데이터 전처리&lt;/h1&gt;
+&lt;h2 id=&#34;데이터-표준화&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#데이터-표준화&#34;&gt;#&lt;/a&gt; 데이터 표준화&lt;/h2&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; sklearn&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;preprocessing &lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; StandardScaler&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 형태별 데이터 분류를 위해 columns 확인 - 복사해서 사용&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;df&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;columns&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;Index([&#39;age&#39;, &#39;anaemia&#39;, &#39;creatinine_phosphokinase&#39;, &#39;diabetes&#39;, &#39;ejection_fraction&#39;, &#39;high_blood_pressure&#39;, &#39;platelets&#39;, &#39;serum_creatinine&#39;, &#39;serum_sodium&#39;, &#39;sex&#39;, &#39;smoking&#39;, &#39;time&#39;, &#39;DEATH_EVENT&#39;], dtype=&#39;object&#39;)&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 수치형 입력 데이터, 범주형 입력 데이터, 출력 데이터로 구분하기&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#범주형&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;X_num &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; df&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;age&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;creatinine_phosphokinase&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;ejection_fraction&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;platelets&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;serum_creatinine&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;serum_sodium&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#수치형&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;X_cat &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; df&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;anaemia&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;diabetes&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;high_blood_pressure&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;sex&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;smoking&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#출력 (label)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;y &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; df&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;DEATH_EVENT&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 수치형 입력 데이터를 표준화 &amp;amp; 입력 데이터 통합&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;scaler &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; StandardScaler&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;scaler&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;fit&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;X_num&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;X_scaled &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; scaler&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;transform&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;X_num&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;X_scaled &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;DataFrame&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;data&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;X_scaled&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; index&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;X_num&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;index&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; columns&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;X_num&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;columns&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 결과 통합&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;X &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; pd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;concat&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;X_scaled&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; X_cat&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; axis&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;X&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;head&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;train-test-split&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#train-test-split&#34;&gt;#&lt;/a&gt; Train / Test Split&lt;/h2&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; sklearn&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;model_selection &lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; train_test_split&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 학습 / 테스트용 데이터 분리 (7:3)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 시간 순서 상관이 없으므로 shuffle=True 기본으로 사용&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;X_train&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; X_test&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y_train&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y_test &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; train_test_split&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;X&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; test_size&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0.3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; random_state&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr /&gt;
+&lt;h1 id=&#34;step-4-classification-모델-학습&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#step-4-classification-모델-학습&#34;&gt;#&lt;/a&gt; Step 4. Classification 모델 학습&lt;/h1&gt;
+&lt;h2 id=&#34;logistic-regression-으로-기본적인-분류-분석-진행&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#logistic-regression-으로-기본적인-분류-분석-진행&#34;&gt;#&lt;/a&gt; Logistic Regression 으로 기본적인 분류 분석 진행&lt;/h2&gt;
+&lt;h3 id=&#34;logistic-regression-모델-생성-학습&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#logistic-regression-모델-생성-학습&#34;&gt;#&lt;/a&gt; Logistic Regression 모델 생성 &amp;amp; 학습&lt;/h3&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; sklearn&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;linear_model &lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; LogisticRegression&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 모델 생성&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# max_iter : Gradient Descent 수행 횟수&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;model_lr &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; LogisticRegression&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;max_iter&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1000&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 모델 학습&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;model_lr&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;fit&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;X_train&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y_train&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;LogisticRegression(max_iter=1000)&lt;/p&gt;
+&lt;h3 id=&#34;모델-결과-평가1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#모델-결과-평가1&#34;&gt;#&lt;/a&gt; 모델 결과 평가1&lt;/h3&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; sklearn&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;metrics &lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; accuracy_score&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; precision_score &lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; recall_score &lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; confusion_matrix&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;get_eval&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;y_test &lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; pred&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    confusion &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; confusion_matrix&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt; y_test&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; pred&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    accuracy &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; accuracy_score&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;y_test &lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; pred&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    precision &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; precision_score&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;y_test &lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; pred&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    recall &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; recall_score&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;y_test &lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; pred&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;오차 행렬&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;confusion&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;정확도: &amp;#123;0:.2f&amp;#125;, 정밀도: &amp;#123;1:.2f&amp;#125;, 재현율: &amp;#123;2:.2f&amp;#125;&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token builtin&#34;&gt;format&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;accuracy &lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; precision &lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;recall&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; sklearn&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;metrics &lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; classification_report&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 예측값 pred에 할당&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pred &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; model_lr&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;predict&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;X_test&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 결과 출력&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;classification_report&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;y_test&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; pred&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;pre&gt;&lt;code&gt;          precision    recall  f1-score   support
+
+       0       0.78      0.92      0.84        64
+       1       0.64      0.35      0.45        26
+
+accuracy                           0.76        90
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;macro avg       0.71      0.63      0.65        90&lt;br /&gt;
+weighted avg       0.74      0.76      0.73        90&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;get_eval&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;y_test&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;pred&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;오차 행렬&lt;br /&gt;
+[[59  5]&lt;br /&gt;
+[17  9]]&lt;br /&gt;
+정확도: 0.76, 정밀도: 0.64, 재현율: 0.35&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;step-5-앙상블로-머신러닝-결과-향상-시키기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#step-5-앙상블로-머신러닝-결과-향상-시키기&#34;&gt;#&lt;/a&gt; Step 5. 앙상블로 머신러닝 결과 향상 시키기&lt;/h1&gt;
+&lt;h2 id=&#34;추가모델-xgboost-생성학습&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#추가모델-xgboost-생성학습&#34;&gt;#&lt;/a&gt; 추가모델 (XGBoost) 생성&amp;amp;학습&lt;/h2&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; xgboost &lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; XGBClassifier&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 모델 생성&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;model_xgb &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; XGBClassifier&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 모델 학습&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;model_xgb&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;fit&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;X_train&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y_train&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;[14:33:57] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective &#39;binary:logistic&#39; was changed from &#39;error&#39; to &#39;logloss&#39;. Explicitly set eval_metric if you&#39;d like to restore the old behavior.&lt;/p&gt;
+&lt;p&gt;XGBClassifier(base_score=0.5, booster=&#39;gbtree&#39;, colsample_bylevel=1,&lt;br /&gt;
+colsample_bynode=1, colsample_bytree=1, gamma=0, gpu_id=-1,&lt;br /&gt;
+importance_type=&#39;gain&#39;, interaction_constraints=&#39;&#39;,&lt;br /&gt;
+learning_rate=0.300000012, max_delta_step=0, max_depth=6,&lt;br /&gt;
+min_child_weight=1, missing=nan, monotone_constraints=&#39;()&#39;,&lt;br /&gt;
+n_estimators=100, n_jobs=6, num_parallel_tree=1, random_state=0,&lt;br /&gt;
+reg_alpha=0, reg_lambda=1, scale_pos_weight=1, subsample=1,&lt;br /&gt;
+tree_method=&#39;exact&#39;, validate_parameters=1, verbosity=None)&lt;/p&gt;
+&lt;h2 id=&#34;추가-모델-학습-결과-평가&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#추가-모델-학습-결과-평가&#34;&gt;#&lt;/a&gt; 추가 모델 학습 결과 평가&lt;/h2&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 예측&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pred &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; model_xgb&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;predict&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;X_test&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 결과 출력&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;classification_report&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;y_test&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; pred&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;pre&gt;&lt;code&gt;          precision    recall  f1-score   support
+
+       0       0.81      0.88      0.84        64
+       1       0.62      0.50      0.55        26
+
+accuracy                           0.77        90
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;macro avg       0.72      0.69      0.70        90&lt;br /&gt;
+weighted avg       0.76      0.77      0.76        90&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Precision과 Recall은 정확도를 측정하는 관점이 서로 다르다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;때문에 어느 하나가 높다고 무조건 좋은 결과라 할 수 없다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;이 둘을 모두 고려한 값이 f1-score 이다. (Precision &amp;amp; Recall의 조화평균)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;get_eval&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;y_test&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;pred&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;오차 행렬&lt;br /&gt;
+[[56  8]&lt;br /&gt;
+[13 13]]&lt;br /&gt;
+정확도: 0.77, 정밀도: 0.62, 재현율: 0.50&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;step-6-분석결과에서-insight-찾기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#step-6-분석결과에서-insight-찾기&#34;&gt;#&lt;/a&gt; Step 6. 분석결과에서 Insight 찾기&lt;/h1&gt;
+&lt;h2 id=&#34;feature-importance-확인하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#feature-importance-확인하기&#34;&gt;#&lt;/a&gt; Feature importance 확인하기&lt;/h2&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;barh&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;X&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;columns&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; model_xgb&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;feature_importances_&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 가로 출력 (barh)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;show&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;serum_creatinine이 가장 중요한 요소이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ejection_fraction 이 두번째로 중요한 요소이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;age가 세번째로 중요한 요소이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;즉 심부전증 예측을 위해 위의 3 요소를 중점적으로 살펴 보는 것이 중요하다.&lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;sns&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;jointplot&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;x&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;ejection_fraction&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;serum_creatinine&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; data&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;df&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; hue&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;DEATH_EVENT&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;주요 변수로 판별된 2개의 feature에서 발생한 DEATH_EVENT가 서로 구분이 잘 된다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;이 데이터들을 기반으로 심부전증 여부를 판별하게 된다면 분류를 잘 할 수 있을 것으로 예상 된다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;step-7-두개의-모델-학습-결과-심화-분석&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#step-7-두개의-모델-학습-결과-심화-분석&#34;&gt;#&lt;/a&gt; Step 7. 두개의 모델 학습 결과 심화 분석&lt;/h1&gt;
+&lt;h2 id=&#34;precision-recall-커브-확인-주로-불균형한-데이터르-평가할때-사용&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#precision-recall-커브-확인-주로-불균형한-데이터르-평가할때-사용&#34;&gt;#&lt;/a&gt; Precision-Recall 커브 확인 - 주로 불균형한 데이터르 평가할때 사용&lt;/h2&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; sklearn&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;metrics &lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; plot_precision_recall_curve&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 두 모델의 Precision-Recall 커브를 한번에 그리기&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;fig &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;figure&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;#기본 figure 생성&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;ax &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; fig&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;gca&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;#여러개의 x를 사용해 하나의 캔버스에 그리기 위해 사용&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plot_precision_recall_curve&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;model_lr&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; X_test&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y_test&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ax&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;ax&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plot_precision_recall_curve&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;model_xgb&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; X_test&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y_test&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ax&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;ax&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;2개의 그래프를 비교하였을때 위쪽에 위치한 것이 더 정확도가 높은 모델이란 뜻이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;전반적으로 XGBClassifier이 더 높은 성능을 보여주고 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;roc-커브-확인하기-주로-균형인-데이터를-평가할때-사용&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#roc-커브-확인하기-주로-균형인-데이터를-평가할때-사용&#34;&gt;#&lt;/a&gt; ROC 커브 확인하기 - 주로 균형인 데이터를 평가할때 사용&lt;/h2&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; sklearn&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;metrics &lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; plot_roc_curve&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 두 모델의 ROC 커브를 한번에 그리기&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;fig &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; plt&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;figure&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;ax &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; fig&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;gca&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plot_roc_curve&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;model_lr&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; X_test&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y_test&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ax&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;ax&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;plot_roc_curve&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;model_xgb&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; X_test&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; y_test&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ax&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;ax&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;TP(True Positive) rate가 낮을때 얼마나 빨리 1에 가까워 지는지로 평가&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;AUC (Area Under Curve) : 그래프 아래의 영역의 넓이 값&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;전반적으로 LogisticRegression이 더 높은 성능을 보여주고 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;결론&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#결론&#34;&gt;#&lt;/a&gt; 결론&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;주어진 데이터를 기반으로 보았을때 심부전증 예측에 중요한 요소는 serum_creatinine(혈중 크레아틴 레벨), ejection_fraction(박출계수), 그리고 age이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;실제로 도메인 지식과 비교봤을때 크레아틴 레벨이나, 박출계수는 심부전을 측정하는데 중요한 지표이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;그러므로 Classification을 적용한 데이터 분석으로 심부전증을 예측할 수 있음을 확인했다.&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

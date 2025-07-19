@@ -1,0 +1,547 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://Kimgabe.github.io</id>
+    <title>Kim Gabe&#39;s DS Blog • Posts by &#34;resume&#34; tag</title>
+    <link href="https://Kimgabe.github.io" />
+    <updated>2023-11-06T15:00:00.000Z</updated>
+    <category term="python" />
+    <category term="ndarray" />
+    <category term="numpy vectorization" />
+    <category term="메모리" />
+    <category term="np.array" />
+    <category term="ndarray 데이터타입" />
+    <category term="np.arange" />
+    <category term="np.ones" />
+    <category term="np.zeros" />
+    <category term="np.empty" />
+    <category term="np.full" />
+    <category term="np.eye" />
+    <category term="np.linspace" />
+    <category term="reshape" />
+    <category term="데이터 통합,pandas,DataFrame,concat,os,listdir,CSV 파일,데이터 병합,데이터 프레임,데이터 분석,데이터 처리,데이터 정렬,빈 데이터 프레임,파일 시스템,경고 메시지" />
+    <category term="feature engineering" />
+    <category term="prediction" />
+    <category term="regression. DACON" />
+    <category term="시계열" />
+    <category term="카드매출" />
+    <category term="예측" />
+    <category term="KNN" />
+    <category term="RandomForestRegressor" />
+    <category term="LightGBM" />
+    <category term="머신러닝" />
+    <category term="딥러닝" />
+    <category term="random 모듈" />
+    <category term="np.random.rand" />
+    <category term="np.random.randn" />
+    <category term="np.random.randint" />
+    <category term="np.random.seed" />
+    <category term="랜덤을 적용하면서도 일정한 값 만들기" />
+    <category term="np.random.choice" />
+    <category term="np.random.uniform" />
+    <category term="np.random.normal" />
+    <category term="indexing" />
+    <category term="1차원 벡터 인덱싱" />
+    <category term="index로 특정 위치 값 바꾸기" />
+    <category term="index의 값 바꾸기" />
+    <category term="2차원 행렬 인덱싱" />
+    <category term="3차원 텐서 인덱싱" />
+    <category term="벡터" />
+    <category term="행렬" />
+    <category term="텐서" />
+    <category term="슬라이싱" />
+    <category term="1차원 벡터 슬리이싱" />
+    <category term="2차원 행렬 슬라이싱" />
+    <category term="3차원 텐서 슬라이싱" />
+    <category term="판다스,데이터 병합,DataFrame,merge,key 변수,customerID,read_csv,데이터 관리,SQL Join,전처리" />
+    <category term="Python,pandas,데이터 병합,날짜 포맷,apply 함수,merge 함수,데이터프레임,Series,경고 필터링,파일 로드,데이터 접근" />
+    <category term="ndarray 형태바꾸기" />
+    <category term="np.ravel" />
+    <category term="np.flatten" />
+    <category term="np.reshape" />
+    <category term="array의 차원바꾸기" />
+    <category term="이미지 벡터화" />
+    <category term="np.add" />
+    <category term="np.divide" />
+    <category term="np.mod" />
+    <category term="np.mean" />
+    <category term="np.median" />
+    <category term="np.max" />
+    <category term="np.min" />
+    <category term="np.argmax" />
+    <category term="np.argmin" />
+    <category term="np.var" />
+    <category term="np.std" />
+    <category term="np.sum" />
+    <category term="np.consum" />
+    <category term="np.any" />
+    <category term="np.all" />
+    <category term="np.where" />
+    <category term="axis" />
+    <category term="numpy 축" />
+    <category term="1차원 axis" />
+    <category term="2차원 axis" />
+    <category term="3차원 axis" />
+    <category term="데이터 분석,거리 행렬,병합,지하철역,경도,위도,pandas,scipy,haversine,argsort,DataFrame" />
+    <category term="판다스,데이터 병합,groupby,DataFrame,Series,merge,replace,고객ID,구매금액,인덱스,CSV 파일,인코딩,머신러닝,통계량,조건부 통계량" />
+    <category term="판다스,데이터 병합,Series,DataFrame,to_dict,replace,merge,ref_df,인덱스,행정구역,엑셀 파일,CSV 파일,인코딩,add_prefix" />
+    <category term="결측치,데이터 전처리,pandas,dropna,isnull,Train data,Test data,머신러닝,데이터프레임,train_test_split,결측 레코드,결측치 비율,결측치 삭제,결측치 처리,결측치 문제,결측치 대체" />
+    <category term="broadcasting" />
+    <category term="브로드캐스팅" />
+    <category term="서로다른 shape의 numpy끼리 연산하는 방법" />
+    <category term="scalar" />
+    <category term="상수" />
+    <category term="boolean indexing" />
+    <category term="다중조건" />
+    <category term="데이터 전처리,sklearn,결측치,SimpleImputer,train_test_split,DataFrame,상관 계수,범주형 변수,연속형 변수,전처리 모델,대표값 대체,결측치 대체법,전략,평균,최빈값" />
+    <category term="선형대수" />
+    <category term="linalg" />
+    <category term="np.linalg" />
+    <category term="행렬내적구하기" />
+    <category term="전치행렬구하기" />
+    <category term="역행렬" />
+    <category term="정방행렬" />
+    <category term="항등행렬" />
+    <category term="시계열,결측치,대체,DataFrame,fillna,ffill,bfill,Python,pandas,데이터프레임,train_test_split" />
+    <category term="그래프 그리기" />
+    <category term="line plot" />
+    <category term="scatter plot" />
+    <category term="그래프에 주석추가하기" />
+    <category term="grid 추가하기" />
+    <category term="subplot으로 그래프 여러개 그리기" />
+    <category term="histogram그리기" />
+    <category term="결측치,KNN Imputer,예측 모델,데이터 처리,sklearn,머신러닝,데이터프레임,결측 대체,모델 학습,파라미터,상관 계수" />
+    <category term="로또 번호 자동생성기" />
+    <category term="문제풀이" />
+    <category term="pi" />
+    <category term="Mote Carlo" />
+    <category term="원주율구하기" />
+    <category term="범주형 변수,모델 학습,숫자 변환,더미화,연속형 치환,차원의 저주,데이터 분석,지도학습,인코딩,머신러닝" />
+    <category term="EDA" />
+    <category term="스타벅스" />
+    <category term="이디야" />
+    <category term="folium" />
+    <category term="웹크롤링" />
+    <category term="google api" />
+    <category term="좌표추출" />
+    <category term="데이터분석" />
+    <category term="시각화" />
+    <category term="EDA - matplotlib - kaggle - dataset - dendrogram - correlation - preprocessing - folium" />
+    <category term="series" />
+    <category term="pandas" />
+    <category term="판다스" />
+    <category term="시리즈" />
+    <category term="데이터업데이트" />
+    <category term="데이터접근" />
+    <category term="인덱스재사용" />
+    <category term="데이터 전처리,모델 튜닝,하이퍼 파라미터,결측치 처리,범주형 변수,라벨 처리,변수 분포,클래스 불균형,특징 선택,파라미터 그리드,스케일링,머신러닝,데이터 통합,이상치,상관관계" />
+    <category term="전처리" />
+    <category term="size" />
+    <category term="shape" />
+    <category term="len" />
+    <category term="count" />
+    <category term="value_counts" />
+    <category term="mean" />
+    <category term="max" />
+    <category term="min" />
+    <category term="sum" />
+    <category term="median" />
+    <category term="abs" />
+    <category term="cumsum" />
+    <category term="cumprod" />
+    <category term="std" />
+    <category term="var" />
+    <category term="mode" />
+    <category term="corr" />
+    <category term="astype" />
+    <category term="데이터형변환" />
+    <category term="산술연산" />
+    <category term="인덱싱" />
+    <category term="head" />
+    <category term="tail" />
+    <category term="기초" />
+    <category term="Pandas" />
+    <category term="Series" />
+    <category term="local" />
+    <category term="iloc" />
+    <category term="데이터변환" />
+    <category term="리스트" />
+    <category term="딕셔너리" />
+    <category term="넘파이배열" />
+    <category term="List" />
+    <category term="dict" />
+    <category term="numpy_array" />
+    <category term="slicing" />
+    <category term="python - 시각화 - visualization - matplotlib - canvas - subplot - title - fontsize - tick - x축 - y축 - legend - marker - linestyle - color - alpha - 투명도 - grid - 이미지저장" />
+    <category term="visualization" />
+    <category term="matplotlib" />
+    <category term="bar plot" />
+    <category term="막대그래프" />
+    <category term="barhplot" />
+    <category term="가로막대 그래프" />
+    <category term="꺾은선 그래프" />
+    <category term="area plot" />
+    <category term="면적 그래프" />
+    <category term="histogram" />
+    <category term="히스토그램" />
+    <category term="pie chart" />
+    <category term="파이차트" />
+    <category term="box plot" />
+    <category term="3D plot" />
+    <category term="imshow" />
+    <category term="classification" />
+    <category term="헬스케어" />
+    <category term="의료데이터" />
+    <category term="kaggle" />
+    <category term="logistic regression" />
+    <category term="XGBoost" />
+    <category term="feature importance" />
+    <category term="python basic" />
+    <category term="데이터타입" />
+    <category term="주석" />
+    <category term="indent" />
+    <category term="IndentationError" />
+    <category term="연산자" />
+    <category term="escape string" />
+    <category term="문자열자르기" />
+    <category term="문자열 slicing" />
+    <category term="대문자변환" />
+    <category term="upper()" />
+    <category term="소문자변환" />
+    <category term="lower()" />
+    <category term="문자바꾸기" />
+    <category term="replace()" />
+    <category term="format()" />
+    <category term="문자 자르기" />
+    <category term="split()" />
+    <category term="list" />
+    <category term="튜플" />
+    <category term="tuple" />
+    <category term="append" />
+    <category term="extend" />
+    <category term="remove" />
+    <category term="pop" />
+    <category term="index" />
+    <category term="replace" />
+    <category term="in" />
+    <category term="list정렬" />
+    <category term="튜플 indexing" />
+    <category term="튜플 slicing" />
+    <category term="list와 tuple의 공통점" />
+    <category term="list와 tuple의 차이점" />
+    <category term="mutable" />
+    <category term="immutable" />
+    <category term="딕셔러니" />
+    <category term="dictionary" />
+    <category term="set" />
+    <category term="update" />
+    <category term="del" />
+    <category term="clear" />
+    <category term="get()" />
+    <category term="union()" />
+    <category term="intersection()" />
+    <category term="issubset()" />
+    <category term="교집합" />
+    <category term="합집합" />
+    <category term="차집합" />
+    <category term="부분집합" />
+    <category term="조건문" />
+    <category term="if문" />
+    <category term="if" />
+    <category term="elif" />
+    <category term="else" />
+    <category term="조건문 논리" />
+    <category term="조건문 우선순위" />
+    <category term="다중조건문" />
+    <category term="중첩조건문" />
+    <category term="nested condition" />
+    <category term="반복문" />
+    <category term="loop" />
+    <category term="for문" />
+    <category term="while문" />
+    <category term="무한루프" />
+    <category term="break" />
+    <category term="continue" />
+    <category term="dict 아이템출력하기" />
+    <category term="for문에 index사용하기" />
+    <category term="2중 for문" />
+    <category term="loop중첩" />
+    <category term="구구단 출력하기" />
+    <category term="itertools" />
+    <category term="product()" />
+    <category term="combination()" />
+    <category term="permutation()" />
+    <category term="zip()과 itertools.produce()차이" />
+    <category term="list comprehension" />
+    <category term="for문 한줄로 작성하기" />
+    <category term="dictionary comprehension" />
+    <category term="함수" />
+    <category term="def" />
+    <category term="내장함수" />
+    <category term="parameter" />
+    <category term="argument" />
+    <category term="default parameter" />
+    <category term="keyword parameter" />
+    <category term="return" />
+    <category term="multiple return" />
+    <category term="전역변수" />
+    <category term="지역변수" />
+    <category term="local variable" />
+    <category term="global variable" />
+    <category term="가변인자" />
+    <category term="argument parameter" />
+    <category term="args" />
+    <category term="kwargs" />
+    <category term="lambda" />
+    <category term="lambda로 sort하기" />
+    <category term="lambda로 filtering하기" />
+    <category term="lambda로 mapping하기" />
+    <category term="lambda로 reducing하기" />
+    <category term="자주쓰는 lambda기능" />
+    <category term="패키지" />
+    <category term="모듈" />
+    <category term="패키지와 모듈&amp;함수 관계" />
+    <category term="import" />
+    <category term="특정모듈만 불러오기" />
+    <category term="alias" />
+    <category term="별명" />
+    <category term="별명 지어주기" />
+    <category term="class" />
+    <category term="객체" />
+    <category term="상속" />
+    <category term="object" />
+    <category term="instance" />
+    <category term="class선언" />
+    <category term="method" />
+    <category term="__init__" />
+    <category term="self인자" />
+    <category term="method정의" />
+    <category term="method type" />
+    <category term="instance method" />
+    <category term="class method" />
+    <category term="class inheritance" />
+    <category term="method override" />
+    <category term="method재정의" />
+    <category term="부모클래스" />
+    <category term="자식클래스" />
+    <category term="super" />
+    <category term="정규표현식" />
+    <category term="re" />
+    <category term="preprocessing" />
+    <category term="search" />
+    <category term="metacharacters" />
+    <category term="abck" />
+    <category term="abc.^" />
+    <category term="a-d" />
+    <category term="0-9" />
+    <category term="a-z" />
+    <category term="A-Z" />
+    <category term="a-zA-Z0-9" />
+    <category term="^0-9" />
+    <category term="반복패턴" />
+    <category term="기본패턴" />
+    <category term="\d" />
+    <category term="\D" />
+    <category term="\s" />
+    <category term="\S" />
+    <category term="\w" />
+    <category term="\W" />
+    <category term="\" />
+    <category term="\\" />
+    <category term="grouping" />
+    <category term="미니멈 매칭" />
+    <category term="non-greedy way" />
+    <category term="findall" />
+    <category term="sub" />
+    <category term="compile" />
+    <category term="GitHub" />
+    <category term="Resume" />
+    <category term="automated" />
+    <category term="Profile" />
+    <category term="README" />
+    <category term="career" />
+    <category term="이력서" />
+    <category term="깃허브" />
+    <category term="프로필" />
+    <category term="자동작성" />
+    <category term="GitHub Prifile Readme Generator" />
+    <category term="핸즈온 머신러닝" />
+    <category term="ML" />
+    <category term="DL" />
+    <category term="공부방법" />
+    <category term="도서" />
+    <category term="리뷰" />
+    <category term="문자열 다루기" />
+    <category term="islower()" />
+    <category term="isupper()" />
+    <category term="escape문자" />
+    <category term="산술연산자" />
+    <category term="덧셈식 출력하기" />
+    <category term="문자열 붙여서 출력하기" />
+    <category term="문자열 돌리기" />
+    <category term="홀짝 구분하기" />
+    <category term="문자열 겹쳐쓰기" />
+    <category term="n의 배수" />
+    <category term="공배수" />
+    <category term="홀짝에 따라 다른값 반환하기" />
+    <category term="조건 문자열" />
+    <category term="flag에 따라 다른값 반환하기" />
+    <category term="문자열 섞기" />
+    <category term="문자 리스트를 문자열로 변환하기" />
+    <category term="문자열 곱하기" />
+    <category term="더 크게 합치기" />
+    <category term="두 수의 연산값 합치기" />
+    <category term="마지막 두 원소" />
+    <category term="수 조작하기 1" />
+    <category term="수 조작하기 2" />
+    <category term="수열과 구간 쿼리 3" />
+    <category term="수열과 구간 쿼리 2" />
+    <category term="코드 처리하기" />
+    <category term="등차수열의 특정한 항만 더하기" />
+    <category term="주사위게임2" />
+    <category term="원소들의 곱과 합" />
+    <category term="이어 붙인 수" />
+    <category term="수열과 구간쿼리 4" />
+    <category term="배열만들기2" />
+    <category term="카운트 업" />
+    <category term="콜라츠 수열 만들기" />
+    <category term="배열만들기 4" />
+    <category term="간단한 논리 연산" />
+    <category term="주사위 게임 3" />
+    <category term="글자 이어 붙여 문자열 만들기" />
+    <category term="9로 나눈 나머지" />
+    <category term="문자열 여러번 뒤집기" />
+    <entry>
+        <id>https://kimgabe.github.io/2023/11/07/how-to-create-github-profile/</id>
+        <title>[Review] 자동으로 나만의 GitHub 프로필과 이력서를 만들 수 있다?! (feat.GitHub Profile Readme Generator)</title>
+        <link rel="alternate" href="https://kimgabe.github.io/2023/11/07/how-to-create-github-profile/"/>
+        <content type="html">&lt;p&gt;Hackers Ground에서 진행한 GitHub로 나만의 프로필 및 이력서 만들기에 대한 영상을 보고 내용을 정리+Review 했습니다.&lt;/p&gt;
+&lt;h2 id=&#34;summary&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#summary&#34;&gt;#&lt;/a&gt; 🚦Summary&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;해당 포스팅은 &lt;a href=&#34;https://www.youtube.com/@hackersground-kr&#34;&gt;Hackers Ground&lt;/a&gt; 라는 채널에서 소개한 GitHub 프로필로 이력서 만들기 라는 &lt;a href=&#34;https://www.youtube.com/live/Pe28SY8Cn5A?si=JOSFY8vPftMzYz0I&#34;&gt;영상&lt;/a&gt; 을 보고 내용을 정리한 것을 소개합니다.&lt;/li&gt;
+&lt;li&gt;해당 영상에서는 이력서와 포트폴리오 작성 방법에 대해 설명하고 있으며, 손쉽게 GitHub 프로필을 생성하는 방법도 소개합니다.
+&lt;ul&gt;
+&lt;li&gt;이력서는 연락처 정보와 기술 스택등을 포함해 지원 회사에 맞춰 커스터마이징 되어야 한다.&lt;/li&gt;
+&lt;li&gt;경력과 프로젝트에 대한 내용을 중점적으로 적는 것이 좋다.&lt;/li&gt;
+&lt;li&gt;GitHub프로필은 기본 프로필 &amp;amp; 다른 프로필로 나눌 수 있으며, 자기 소개와 전문성을 나타내는 파트이다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arturssmirnovs.github.io/github-profile-readme-generator/&#34;&gt;GitHub Profile Readme Generator&lt;/a&gt; 를 통해 손쉽게 나만의 GitHub 프로필을 작성할 수 있다.&lt;/li&gt;
+&lt;li&gt;참고로 해당 스트리밍을 진행해주신 &lt;a href=&#34;https://github.com/justinyoo&#34;&gt;Justin Yoo님의 GitHub 프로필&lt;/a&gt;은 링크와 같습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;이-포스팅은-개인적-경험을-정리하는것을-주목적으로-합니다&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#이-포스팅은-개인적-경험을-정리하는것을-주목적으로-합니다&#34;&gt;#&lt;/a&gt; ⛔ 이 포스팅은 개인적 경험을 정리하는것을 주목적으로 합니다.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;해당 포스팅의 작성 목적은 제가 배운 내용을 기록하는것이 최우선 목표이며, 포스팅 내용 일부에 개인적 경험, 영상에 없는 타 문서/영상/포스팅의 지식이 포함될 수 있습니다.
+&lt;ul&gt;
+&lt;li&gt;원본 영상에 없는 내용은 다른 색상으로 작성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;주요 파트별로 참고하고싶은 내용만을 요약하였으며 더욱 상세한 내용은 원본 영상을 시청해보시길 권장 드립니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;1-이력서와-포트폴리오의-차이와-작성방법-영상-구간-intro~1324&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-이력서와-포트폴리오의-차이와-작성방법-영상-구간-intro~1324&#34;&gt;#&lt;/a&gt; 1. 이력서와 포트폴리오의 차이와 작성방법 &lt;a href=&#34;https://www.youtube.com/live/Pe28SY8Cn5A?si=Ny4CGvHDDp-yG3RO&#34;&gt;(영상 구간 : Intro~13:24)&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;이력서는 객관적인 숫자와 경력을 통해 자신의 적합성을 보여주는 문서이다.&lt;/li&gt;
+&lt;li&gt;포트폴리오는 자랑하고 싶은 능력과 성취를 종합적으로 보여주는 문서이다.
+&lt;ul&gt;
+&lt;li&gt;포트폴리오는 자신의 경력뿐만 아니라 학력, 프로젝트, 수상경력, 봉사활동 등을 포함해 작성할 수 있다&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-이력서-작성-요령-영상-구간-1324~2301&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-이력서-작성-요령-영상-구간-1324~2301&#34;&gt;#&lt;/a&gt; 2. 이력서 작성 요령 &lt;a href=&#34;https://www.youtube.com/live/Pe28SY8Cn5A?si=Ny4CGvHDDp-yG3RO&amp;amp;t=804&#34;&gt;(영상 구간 : 13:24~23:01)&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;이력서에는 연락처 정보가 포함되어야 한다.
+&lt;ul&gt;
+&lt;li&gt;이메일 주소와 핸드폰번호등은 항상 최신화 되어 있어야 한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;이력서는 지원회사에 맞춰 매번 커스터마이징 되어야 한다.
+&lt;ul&gt;
+&lt;li&gt;지원 직무나 분야에 맞는 기술 스택이나 목표를 적어야 한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;이력서는 자기소개와 프로필 사진이 포함될 수 있다.
+&lt;ul&gt;
+&lt;li&gt;프로필 사진은 전문적이고 프로페셔널한 이미지를 보여줄 수 있는 것이 좋다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;이력서는 항상 현행화 되어야 한다. 연락처 정보나 기술 스택 등이 변경되었을 경우 업데이트 해야 한다
+&lt;blockquote&gt;
+&lt;p&gt;💡이전 회사에서 사수분께 조언받은 내용이긴 하지만 매번 업데이트가 어렵다면 적어도 분기에 한번은 자신의 이력서를 검토하고 업데이트하는 시간을 가져야 한다. (혹은 프로젝트가 끝날때마다)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-이력서-작성시-주의-사항-영상-구간-2301~3157&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-이력서-작성시-주의-사항-영상-구간-2301~3157&#34;&gt;#&lt;/a&gt; 3. 이력서 작성시 주의 사항 &lt;a href=&#34;https://www.youtube.com/live/Pe28SY8Cn5A?si=Ny4CGvHDDp-yG3RO&amp;amp;t=1381&#34;&gt;(영상 구간 : 23:01~31:57)&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;이력서 작성 시 경력과 프로젝트에 대한 내용을 중점적으로 작성하는 것이 좋다.
+&lt;ul&gt;
+&lt;li&gt;경력은 어디서 일했는지, 어떤일을 했는지, 근무 기간등을 구체적으로 적는다.&lt;/li&gt;
+&lt;li&gt;프로젝트는 프로젝트 이름, 기간, 역할, 성과등을 적는다.
+&lt;ul&gt;
+&lt;li&gt;성과는 가급적 수치화 하여 보는이로 하여금 즉각적으로 인지할 수 있도록 한다. (과정에 대한 설명은 면접에서!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;학력은 경력이 많을 수록 중요하지 않으며, 학위와 졸업기간을 적는다.&lt;/li&gt;
+&lt;li&gt;수상경력은 학력 부분이 아닌 별도로 적는 것이 좋다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;특정 회사에 지원시 해당 회사에 맞춰서 이력서를 정리해 보내는 것이 좋다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;4-github으로-프로필-작성하는-방법-영상-구간-3157~4201&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4-github으로-프로필-작성하는-방법-영상-구간-3157~4201&#34;&gt;#&lt;/a&gt; 4. GitHub으로 프로필 작성하는 방법 &lt;a href=&#34;https://www.youtube.com/live/Pe28SY8Cn5A?si=Ny4CGvHDDp-yG3RO&amp;amp;t=1917&#34;&gt;(영상 구간 : 31:57~42:01)&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub 프로필은 기본 프로필과 기타 프로필로 나눌 수 있음
+&lt;ul&gt;
+&lt;li&gt;기본 프로필은 자기소개 부분
+&lt;ul&gt;
+&lt;li&gt;자신의 전문성과 업무 포커스를 나타낼 수 있음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;기타 프로필은 자신의 소속사, 현재위치, 블로그, 소셜 미디어 등을 추가로 작성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub에서는 repository의 &lt;a href=&#34;http://README.md&#34;&gt;README.md&lt;/a&gt; 파일을 이용해 이력서를 작성할 수 있다.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;이력서는 개발자 특화된 내용을 담고 있으며, 화려한 디자인보다는 필요한 내용을 간결하게 보여주는 것이 중요하다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;5-github-프로필-생성기를-이용해-자신의-github프로필을-손쉽게-꾸밀-수-있다-영상-구간-4201~5056&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#5-github-프로필-생성기를-이용해-자신의-github프로필을-손쉽게-꾸밀-수-있다-영상-구간-4201~5056&#34;&gt;#&lt;/a&gt; 5. GitHub 프로필 생성기를 이용해 자신의 GitHub프로필을 손쉽게 꾸밀 수 있다. &lt;a href=&#34;https://www.youtube.com/live/Pe28SY8Cn5A?si=Ny4CGvHDDp-yG3RO&amp;amp;t=2521&#34;&gt;(영상 구간 : 42:01~50:56)&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://arturssmirnovs.github.io/github-profile-readme-generator/&#34;&gt;GitHub Profile Readme Generator&lt;/a&gt;를 사용하면 자신만의 GitHub프로필을 만들 수 있다.&lt;/li&gt;
+&lt;li&gt;프로필 생성기에서 기본적인 포맷을 설정하고, 필요한 정보를 입력하면 마크다운 문서가 생성&lt;/li&gt;
+&lt;li&gt;생성된 마크다운 문서를 복사해 깃허브 프로필에 붙여넣으면 된다.&lt;/li&gt;
+&lt;li&gt;생성된 마크다운 문서는 영어로 되어있다.(한글로 바꾸는건 스스로 작업필요)&lt;/li&gt;
+&lt;li&gt;생성된 프로필의 기본정보에서 자신에 맞게 커스터마이징 할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;6-github-프로필-작성하기-영상-구간-5056~010651&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#6-github-프로필-작성하기-영상-구간-5056~010651&#34;&gt;#&lt;/a&gt; 6. GitHub 프로필 작성하기 &lt;a href=&#34;https://www.youtube.com/live/Pe28SY8Cn5A?si=Ny4CGvHDDp-yG3RO&amp;amp;t=3056&#34;&gt;(영상 구간 : 50:56~01:06:51)&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub 프로필에는 자신의 정보와 SNS계정을 추가할 수 있다.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arturssmirnovs.github.io/github-profile-readme-generator/&#34;&gt;GitHub Profile Readme Generator&lt;/a&gt;를 이용하면 템플릿에 맞게 정보를 입력하고 미리보기로 확인이 가능하다.&lt;/li&gt;
+&lt;li&gt;프로필에는 자기소개, 학력, 기술, 활동 경력 등을 작성할 수 있다.&lt;/li&gt;
+&lt;li&gt;마크다운으로 작성한 프로필을 복사해 GitHub의 본인 User명이 있는 &lt;a href=&#34;http://README.md&#34;&gt;README.md&lt;/a&gt; 에 붙여넣으면 메인화면에 이력서가 보여진다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;github-프로필-생성기-사용법&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#github-프로필-생성기-사용법&#34;&gt;#&lt;/a&gt; GitHub 프로필 생성기 사용법&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/5KdAQtH.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;review&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#review&#34;&gt;#&lt;/a&gt; Review&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;마크다운은 현실적으로 개발자/AI를 다루는사람들이 가장 많이 다루는 문서작성 툴중 하나일 것이다.&lt;/li&gt;
+&lt;li&gt;그런 면에서 마크다운을 활용해 문서를 다양하게 꾸미고 커스터마이징하는 방법은 확실히 배워둘 필요가 있다.&lt;/li&gt;
+&lt;li&gt;GitHub는 실무에선 협업툴이지만 취업준비를 하는 입장에선 사실 개인 코드저장소와 같은 곳이 되는 곳이다.&lt;/li&gt;
+&lt;li&gt;스스로 하는 포트폴리오, 공부한 내용등 다양한 코드를 저장해둘 수 있다.&lt;/li&gt;
+&lt;li&gt;그렇기에 오히려 내 프로필과 이력서를 보여주는 공간으로서 적합한 것 같다.&lt;/li&gt;
+&lt;li&gt;하지만 이력서, 프로필을 작성하는것에는 많은 고민이 든다. (이왕이면 잘 보여야 하고 fancy해야 하니까!)&lt;/li&gt;
+&lt;li&gt;그런면에서 GitHub Profile Readme Generator는 상대적으로 기본적인 틀을 손쉽게 만들 수 있어서 좋은 것 같다.&lt;/li&gt;
+&lt;li&gt;차후에 포폴이 좀 더 쌓이면 이를 사용해서 GitHub 이력서를 수정해볼 생각이다.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <category term="GitHub" />
+        <category term="Resume" />
+        <category term="automated" />
+        <category term="Profile" />
+        <category term="README" />
+        <category term="career" />
+        <category term="이력서" />
+        <category term="깃허브" />
+        <category term="프로필" />
+        <category term="자동작성" />
+        <category term="GitHub Prifile Readme Generator" />
+        <updated>2023-11-06T15:00:00.000Z</updated>
+    </entry>
+</feed>
