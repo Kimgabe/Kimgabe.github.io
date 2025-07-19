@@ -17,7 +17,7 @@
     "@waline/client": "^3.5.7",
     "algoliasearch": "^5.27.0",
     "es-toolkit": "^1.39.1",
-    "esbuild": "^0.25.5",
+    "esbuild": "^0.25.7",
     "hana-img-viewer": "^1.2.2",
     "hexo": "^7.3.0",
     "hexo-algoliasearch": "^2.0.1",
