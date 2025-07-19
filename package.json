@@ -14,7 +14,7 @@
   "dependencies": {
     "@algolia/client-search": "^5.27.0",
     "@common.js/p-limit": "^6.1.0",
-    "@waline/client": "^3.5.7",
+    "@waline/client": "^3.6.0",
     "algoliasearch": "^5.27.0",
     "es-toolkit": "^1.39.1",
     "esbuild": "^0.25.5",
