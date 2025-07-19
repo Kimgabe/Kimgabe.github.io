@@ -7,6 +7,7 @@
         <language>en</language>
         <pubDate>Fri, 19 Jan 2024 00:00:00 +0900</pubDate>
         <lastBuildDate>Fri, 19 Jan 2024 00:00:00 +0900</lastBuildDate>
+        <category>데이터 통합,pandas,DataFrame,concat,os,listdir,CSV 파일,데이터 병합,데이터 프레임,데이터 분석,데이터 처리,데이터 정렬,빈 데이터 프레임,파일 시스템,경고 메시지</category>
         <category>python</category>
         <category>ndarray</category>
         <category>numpy vectorization</category>
@@ -21,8 +22,6 @@
         <category>np.eye</category>
         <category>np.linspace</category>
         <category>reshape</category>
-        <category>데이터 통합,pandas,DataFrame,concat,os,listdir,CSV 파일,데이터 병합,데이터 프레임,데이터 분석,데이터 처리,데이터 정렬,빈 데이터 프레임,파일 시스템,경고 메시지</category>
-        <category>판다스,데이터 병합,DataFrame,merge,key 변수,customerID,read_csv,데이터 관리,SQL Join,전처리</category>
         <category>feature engineering</category>
         <category>prediction</category>
         <category>regression. DACON</category>
@@ -34,6 +33,16 @@
         <category>LightGBM</category>
         <category>머신러닝</category>
         <category>딥러닝</category>
+        <category>random 모듈</category>
+        <category>np.random.rand</category>
+        <category>np.random.randn</category>
+        <category>np.random.randint</category>
+        <category>np.random.seed</category>
+        <category>랜덤을 적용하면서도 일정한 값 만들기</category>
+        <category>np.random.choice</category>
+        <category>np.random.uniform</category>
+        <category>np.random.normal</category>
+        <category>판다스,데이터 병합,DataFrame,merge,key 변수,customerID,read_csv,데이터 관리,SQL Join,전처리</category>
         <category>indexing</category>
         <category>1차원 벡터 인덱싱</category>
         <category>index로 특정 위치 값 바꾸기</category>
@@ -54,15 +63,7 @@
         <category>np.reshape</category>
         <category>array의 차원바꾸기</category>
         <category>이미지 벡터화</category>
-        <category>random 모듈</category>
-        <category>np.random.rand</category>
-        <category>np.random.randn</category>
-        <category>np.random.randint</category>
-        <category>np.random.seed</category>
-        <category>랜덤을 적용하면서도 일정한 값 만들기</category>
-        <category>np.random.choice</category>
-        <category>np.random.uniform</category>
-        <category>np.random.normal</category>
+        <category>판다스,데이터 병합,Series,DataFrame,to_dict,replace,merge,ref_df,인덱스,행정구역,엑셀 파일,CSV 파일,인코딩,add_prefix</category>
         <category>np.add</category>
         <category>np.divide</category>
         <category>np.mod</category>
@@ -79,7 +80,6 @@
         <category>np.any</category>
         <category>np.all</category>
         <category>np.where</category>
-        <category>판다스,데이터 병합,Series,DataFrame,to_dict,replace,merge,ref_df,인덱스,행정구역,엑셀 파일,CSV 파일,인코딩,add_prefix</category>
         <category>axis</category>
         <category>numpy 축</category>
         <category>1차원 axis</category>
@@ -92,8 +92,6 @@
         <category>서로다른 shape의 numpy끼리 연산하는 방법</category>
         <category>scalar</category>
         <category>상수</category>
-        <category>boolean indexing</category>
-        <category>다중조건</category>
         <category>결측치,데이터 전처리,pandas,dropna,isnull,Train data,Test data,머신러닝,데이터프레임,train_test_split,결측 레코드,결측치 비율,결측치 삭제,결측치 처리,결측치 문제,결측치 대체</category>
         <category>선형대수</category>
         <category>linalg</category>
@@ -103,8 +101,10 @@
         <category>역행렬</category>
         <category>정방행렬</category>
         <category>항등행렬</category>
-        <category>시계열,결측치,대체,DataFrame,fillna,ffill,bfill,Python,pandas,데이터프레임,train_test_split</category>
         <category>데이터 전처리,sklearn,결측치,SimpleImputer,train_test_split,DataFrame,상관 계수,범주형 변수,연속형 변수,전처리 모델,대표값 대체,결측치 대체법,전략,평균,최빈값</category>
+        <category>boolean indexing</category>
+        <category>다중조건</category>
+        <category>시계열,결측치,대체,DataFrame,fillna,ffill,bfill,Python,pandas,데이터프레임,train_test_split</category>
         <category>결측치,KNN Imputer,예측 모델,데이터 처리,sklearn,머신러닝,데이터프레임,결측 대체,모델 학습,파라미터,상관 계수</category>
         <category>그래프 그리기</category>
         <category>line plot</category>
@@ -113,21 +113,13 @@
         <category>grid 추가하기</category>
         <category>subplot으로 그래프 여러개 그리기</category>
         <category>histogram그리기</category>
-        <category>범주형 변수,모델 학습,숫자 변환,더미화,연속형 치환,차원의 저주,데이터 분석,지도학습,인코딩,머신러닝</category>
-        <category>로또 번호 자동생성기</category>
         <category>문제풀이</category>
         <category>pi</category>
         <category>Mote Carlo</category>
         <category>원주율구하기</category>
+        <category>로또 번호 자동생성기</category>
+        <category>범주형 변수,모델 학습,숫자 변환,더미화,연속형 치환,차원의 저주,데이터 분석,지도학습,인코딩,머신러닝</category>
         <category>EDA</category>
-        <category>EDA - matplotlib - kaggle - dataset - dendrogram - correlation - preprocessing - folium</category>
-        <category>series</category>
-        <category>pandas</category>
-        <category>판다스</category>
-        <category>시리즈</category>
-        <category>데이터업데이트</category>
-        <category>데이터접근</category>
-        <category>인덱스재사용</category>
         <category>스타벅스</category>
         <category>이디야</category>
         <category>folium</category>
@@ -136,6 +128,14 @@
         <category>좌표추출</category>
         <category>데이터분석</category>
         <category>시각화</category>
+        <category>EDA - matplotlib - kaggle - dataset - dendrogram - correlation - preprocessing - folium</category>
+        <category>series</category>
+        <category>pandas</category>
+        <category>판다스</category>
+        <category>시리즈</category>
+        <category>데이터업데이트</category>
+        <category>데이터접근</category>
+        <category>인덱스재사용</category>
         <category>전처리</category>
         <category>size</category>
         <category>shape</category>
@@ -161,6 +161,7 @@
         <category>head</category>
         <category>tail</category>
         <category>기초</category>
+        <category>데이터 전처리,모델 튜닝,하이퍼 파라미터,결측치 처리,범주형 변수,라벨 처리,변수 분포,클래스 불균형,특징 선택,파라미터 그리드,스케일링,머신러닝,데이터 통합,이상치,상관관계</category>
         <category>Pandas</category>
         <category>Series</category>
         <category>local</category>
@@ -174,16 +175,15 @@
         <category>numpy_array</category>
         <category>slicing</category>
         <category>python - 시각화 - visualization - matplotlib - canvas - subplot - title - fontsize - tick - x축 - y축 - legend - marker - linestyle - color - alpha - 투명도 - grid - 이미지저장</category>
-        <category>데이터 전처리,모델 튜닝,하이퍼 파라미터,결측치 처리,범주형 변수,라벨 처리,변수 분포,클래스 불균형,특징 선택,파라미터 그리드,스케일링,머신러닝,데이터 통합,이상치,상관관계</category>
         <category>visualization</category>
         <category>matplotlib</category>
+        <category>꺾은선 그래프</category>
+        <category>area plot</category>
+        <category>면적 그래프</category>
         <category>bar plot</category>
         <category>막대그래프</category>
         <category>barhplot</category>
         <category>가로막대 그래프</category>
-        <category>꺾은선 그래프</category>
-        <category>area plot</category>
-        <category>면적 그래프</category>
         <category>histogram</category>
         <category>히스토그램</category>
         <category>pie chart</category>
@@ -233,6 +233,16 @@
         <category>list와 tuple의 차이점</category>
         <category>mutable</category>
         <category>immutable</category>
+        <category>조건문</category>
+        <category>if문</category>
+        <category>if</category>
+        <category>elif</category>
+        <category>else</category>
+        <category>조건문 논리</category>
+        <category>조건문 우선순위</category>
+        <category>다중조건문</category>
+        <category>중첩조건문</category>
+        <category>nested condition</category>
         <category>딕셔러니</category>
         <category>dictionary</category>
         <category>set</category>
@@ -254,21 +264,6 @@
         <category>무한루프</category>
         <category>break</category>
         <category>continue</category>
-        <category>조건문</category>
-        <category>if문</category>
-        <category>if</category>
-        <category>elif</category>
-        <category>else</category>
-        <category>조건문 논리</category>
-        <category>조건문 우선순위</category>
-        <category>다중조건문</category>
-        <category>중첩조건문</category>
-        <category>nested condition</category>
-        <category>dict 아이템출력하기</category>
-        <category>for문에 index사용하기</category>
-        <category>2중 for문</category>
-        <category>loop중첩</category>
-        <category>구구단 출력하기</category>
         <category>itertools</category>
         <category>product()</category>
         <category>combination()</category>
@@ -277,7 +272,20 @@
         <category>list comprehension</category>
         <category>for문 한줄로 작성하기</category>
         <category>dictionary comprehension</category>
+        <category>dict 아이템출력하기</category>
+        <category>for문에 index사용하기</category>
+        <category>2중 for문</category>
+        <category>loop중첩</category>
+        <category>구구단 출력하기</category>
+        <category>패키지</category>
+        <category>모듈</category>
         <category>함수</category>
+        <category>패키지와 모듈&amp;함수 관계</category>
+        <category>import</category>
+        <category>특정모듈만 불러오기</category>
+        <category>alias</category>
+        <category>별명</category>
+        <category>별명 지어주기</category>
         <category>def</category>
         <category>내장함수</category>
         <category>parameter</category>
@@ -300,14 +308,6 @@
         <category>lambda로 mapping하기</category>
         <category>lambda로 reducing하기</category>
         <category>자주쓰는 lambda기능</category>
-        <category>패키지</category>
-        <category>모듈</category>
-        <category>패키지와 모듈&amp;함수 관계</category>
-        <category>import</category>
-        <category>특정모듈만 불러오기</category>
-        <category>alias</category>
-        <category>별명</category>
-        <category>별명 지어주기</category>
         <category>class</category>
         <category>객체</category>
         <category>상속</category>
@@ -356,6 +356,12 @@
         <category>findall</category>
         <category>sub</category>
         <category>compile</category>
+        <category>핸즈온 머신러닝</category>
+        <category>ML</category>
+        <category>DL</category>
+        <category>공부방법</category>
+        <category>도서</category>
+        <category>리뷰</category>
         <category>GitHub</category>
         <category>Resume</category>
         <category>automated</category>
@@ -367,52 +373,46 @@
         <category>프로필</category>
         <category>자동작성</category>
         <category>GitHub Prifile Readme Generator</category>
-        <category>핸즈온 머신러닝</category>
-        <category>ML</category>
-        <category>DL</category>
-        <category>공부방법</category>
-        <category>도서</category>
-        <category>리뷰</category>
-        <category>덧셈식 출력하기</category>
-        <category>문자열 붙여서 출력하기</category>
-        <category>문자열 돌리기</category>
-        <category>홀짝 구분하기</category>
-        <category>문자열 겹쳐쓰기</category>
         <category>문자열 다루기</category>
         <category>islower()</category>
         <category>isupper()</category>
         <category>escape문자</category>
         <category>산술연산자</category>
-        <category>n의 배수</category>
-        <category>공배수</category>
-        <category>홀짝에 따라 다른값 반환하기</category>
-        <category>조건 문자열</category>
-        <category>flag에 따라 다른값 반환하기</category>
-        <category>코드 처리하기</category>
-        <category>등차수열의 특정한 항만 더하기</category>
-        <category>주사위게임2</category>
-        <category>원소들의 곱과 합</category>
-        <category>이어 붙인 수</category>
+        <category>덧셈식 출력하기</category>
+        <category>문자열 붙여서 출력하기</category>
+        <category>문자열 돌리기</category>
+        <category>홀짝 구분하기</category>
+        <category>문자열 겹쳐쓰기</category>
         <category>문자열 섞기</category>
         <category>문자 리스트를 문자열로 변환하기</category>
         <category>문자열 곱하기</category>
         <category>더 크게 합치기</category>
         <category>두 수의 연산값 합치기</category>
+        <category>n의 배수</category>
+        <category>공배수</category>
+        <category>홀짝에 따라 다른값 반환하기</category>
+        <category>조건 문자열</category>
+        <category>flag에 따라 다른값 반환하기</category>
         <category>마지막 두 원소</category>
         <category>수 조작하기 1</category>
         <category>수 조작하기 2</category>
         <category>수열과 구간 쿼리 3</category>
         <category>수열과 구간 쿼리 2</category>
-        <category>간단한 논리 연산</category>
-        <category>주사위 게임 3</category>
-        <category>글자 이어 붙여 문자열 만들기</category>
-        <category>9로 나눈 나머지</category>
-        <category>문자열 여러번 뒤집기</category>
         <category>수열과 구간쿼리 4</category>
         <category>배열만들기2</category>
         <category>카운트 업</category>
         <category>콜라츠 수열 만들기</category>
         <category>배열만들기 4</category>
+        <category>코드 처리하기</category>
+        <category>등차수열의 특정한 항만 더하기</category>
+        <category>주사위게임2</category>
+        <category>원소들의 곱과 합</category>
+        <category>이어 붙인 수</category>
+        <category>간단한 논리 연산</category>
+        <category>주사위 게임 3</category>
+        <category>글자 이어 붙여 문자열 만들기</category>
+        <category>9로 나눈 나머지</category>
+        <category>문자열 여러번 뒤집기</category>
         <item>
             <guid isPermalink="true">https://kimgabe.github.io/2024/01/19/githubblog-codecopy-button/</guid>
             <title>[GitHub 블로그] GitHub Blog 코드블록에 복사버튼 추가하기(feat. Minimal-mistakes)</title>
@@ -530,7 +530,7 @@
 &lt;li&gt;이제부터 일반적인 마크다운의 코드블록 작성 방식대로 작성을 하면 자동으로 복사버튼이 생성됩니다.&lt;/li&gt;
 &lt;li&gt;위 코드를 적용한 결과 아래와 같이 코드 복사버튼이 생성되고, 복사버튼을 누르면 복사가 되었다는 메시지가 팝업됩니다.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/f9zwApM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgur.com/f9zwApM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2 id=&#34;outro&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#outro&#34;&gt;#&lt;/a&gt; 🎈Outro.&lt;/h2&gt;
 &lt;ul&gt;
@@ -543,7 +543,7 @@
 &lt;li&gt;이제부터 일반적인 마크다운의 코드블록 작성 방식대로 작성을 하면 자동으로 복사버튼이 생성됩니다.&lt;/li&gt;
 &lt;li&gt;위 코드를 적용한 결과 아래와 같이 코드 복사버튼이 생성되고, 복사버튼을 누르면 복사가 되었다는 메시지가 팝업됩니다.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/f9zwApM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgur.com/f9zwApM.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2 id=&#34;outro&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#outro&#34;&gt;#&lt;/a&gt; 🎈Outro.&lt;/h2&gt;
 &lt;ul&gt;
@@ -585,7 +585,7 @@
 &lt;li&gt;(Sub) Github Action의 기초 개념&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;target&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#target&#34;&gt;#&lt;/a&gt; Target&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/FQ7gUxT.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgur.com/FQ7gUxT.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h3 id=&#34;github-action-의-주요-개념들&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#github-action-의-주요-개념들&#34;&gt;#&lt;/a&gt; GitHub Action 의 주요 개념들&lt;/h3&gt;
 &lt;ol&gt;
@@ -781,7 +781,7 @@
 &lt;p&gt;&lt;code&gt;settings&lt;/code&gt;  👉  &lt;code&gt;Actions&lt;/code&gt;  👉  &lt;code&gt;General&lt;/code&gt;  을 선택해 GitHub Action의 옵션으로 이동합니다.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/3VLcF30.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgur.com/3VLcF30.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;2가지 옵션을 확인합니다.
 &lt;ul&gt;
@@ -798,7 +798,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/lEAJB2k.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgur.com/lEAJB2k.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;2️⃣  &lt;code&gt;.github/workflows&lt;/code&gt;  폴더 생성&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -864,7 +864,7 @@
 &lt;li&gt;새로운 폴더를 추가하거나 기존 폴더 이름을 변경해  &lt;code&gt;README.md&lt;/code&gt; 의 파일이 올바르게 업데이트 되는지 확인합니다.&lt;/li&gt;
 &lt;li&gt;올바르게 작성이 되었다면 아래의 이미지처럼 기존 README.md의 내용을 유지하면서 repository에 포함된 폴더명을 기반으로 표를 만들고 링크가 작성되어 있을 것입니다.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/FQ7gUxT.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgur.com/FQ7gUxT.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;위 작업이 적용된 저의 Repository입니다. 👉 &lt;a href=&#34;https://github.com/Kimgabe/AIFFEL_Online_Quest&#34;&gt;Repository 구경하기&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -916,7 +916,7 @@
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h3 id=&#34;기존의-나의-repository-들&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#기존의-나의-repository-들&#34;&gt;#&lt;/a&gt; 기존의 나의 Repository 들..&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/3zrXqfc.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgur.com/3zrXqfc.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;동일한 이름에 동기들의 username으로 구분을 했지만, 왠지 보기에 Repository 가 조잡해보입니다.&lt;/li&gt;
 &lt;li&gt;이러면 정리하고 싶은 욕구가 마구 샘솟습니다. 자주 쓰지도 않을 건데 메인 폴더에 안쓰는 폴더들이 넘쳐나는 기분입니다.&lt;/li&gt;
@@ -965,7 +965,7 @@
 &lt;ul&gt;
 &lt;li&gt;변경된 Repository 의 구조는 아래 이미지와 같습니다.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/qD66ri7.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgur.com/qD66ri7.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h3 id=&#34;repository-합치기-1-여러-repository를-저장할-repository를-생성&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#repository-합치기-1-여러-repository를-저장할-repository를-생성&#34;&gt;#&lt;/a&gt; Repository 합치기 (1) - 여러 Repository를 저장할 Repository를 생성&lt;/h3&gt;
 &lt;blockquote&gt;
@@ -978,7 +978,7 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;개별 Github의 프로필에서 우측의 이미지 선택후 Your Repositories  또는 좌측 상단에 있는 Repositories를 클릭해 개인 Repository 로 이동 후 New 를 눌러 새로운 Repository 를 생성합니다.&lt;br /&gt;
-&lt;img src=&#34;https://i.imgur.com/TFc9ZQa.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgur.com/TFc9ZQa.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;이제 적절한 Repository 이름을 만들고 적당히 설명도 작성해줍니다. 저는 분류하기 애매한 잡다한 코드들을 모아두는 곳이란 의미로 &amp;quot;MiscellaneousRepos&amp;quot; 라고 이름지어봤습니다.&lt;/p&gt;
@@ -987,7 +987,7 @@
 &lt;p&gt;기존에 공부하기 위해 fork했던 repository 나, 굳이 메인에 보일 필요 없는 모든 repository 들을 이곳에 옮길 생각입니다.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/mvcvqls.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgur.com/mvcvqls.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;다음으로는 생성한 Repository를 내 Local로 Clone 합니다.&lt;/p&gt;
@@ -998,7 +998,7 @@
 별도의 수정없이  &lt;code&gt;git add .&lt;/code&gt;  한 후에 commit을 해도 되지만, 종종 &#39;변동사항이 없어 commit이 불가능하다&#39;고 뜨는 경우가 있어서 미리 생성하는게 더 편리합니다.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/19wUB1e.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgur.com/19wUB1e.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;h4 id=&#34;2-내-local에-생성한-repository-clone-및-commit하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-내-local에-생성한-repository-clone-및-commit하기&#34;&gt;#&lt;/a&gt; 2) 내 Local에 생성한 Repository Clone 및 Commit하기&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -1015,15 +1015,15 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;해당 폴더를 우클릭해 Open Git Bash here 를 클릭해 해당 폴더를 경로로 하는 git command 창을 엽니다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/XazNTEa.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgur.com/XazNTEa.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;그럼 아래의 이미지와 같이 git command 창이 열리며 해당 경로로 접속된 걸 확인할 수 있습니다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/KQCbixv.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgur.com/KQCbixv.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;이제 아래의 코드를 각각 입력해 줍니다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/j66yyLI.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgur.com/j66yyLI.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
@@ -1074,7 +1074,7 @@ $ git commit -m &amp;quot;message&amp;quot;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;정상적으로 subtree가 생성되었다면 아래와 같은 메시지가 출력 되어야 합니다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/YMoHXg5.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgur.com/YMoHXg5.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;repository-합치기-3-subtree로-옮긴-repository에-push하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#repository-합치기-3-subtree로-옮긴-repository에-push하기&#34;&gt;#&lt;/a&gt; Repository 합치기 (3) - Subtree로 옮긴 Repository에 push하기&lt;/h3&gt;
@@ -1096,7 +1096,7 @@ $ git commit -m &amp;quot;message&amp;quot;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;아래와 같은 결과가 뜬다면 성공적으로 작업이 완료된 것입니다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/Zk5hl4u.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgur.com/Zk5hl4u.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -1104,7 +1104,7 @@ $ git commit -m &amp;quot;message&amp;quot;
 &lt;p&gt;이후 실제 저의 &lt;a href=&#34;GitHub.md&#34;&gt;GitHub&lt;/a&gt; 으로 이동해서 subtree를 생성한 Repository에 가보면 아래와 같이 Repository들이 성공적으로 옮겨진 것을 알 수 있습니다.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/T3arQo8.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgur.com/T3arQo8.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;repository-합치기-4-옮긴-repository-원본-삭제하기&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#repository-합치기-4-옮긴-repository-원본-삭제하기&#34;&gt;#&lt;/a&gt; Repository 합치기 (4) - 옮긴 Repository 원본 삭제하기&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -1327,7 +1327,7 @@ $ git commit -m &amp;quot;message&amp;quot;
 &lt;li&gt;마크다운으로 작성한 프로필을 복사해 GitHub의 본인 User명이 있는 &lt;a href=&#34;http://README.md&#34;&gt;README.md&lt;/a&gt; 에 붙여넣으면 메인화면에 이력서가 보여진다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;github-프로필-생성기-사용법&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#github-프로필-생성기-사용법&#34;&gt;#&lt;/a&gt; GitHub 프로필 생성기 사용법&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/5KdAQtH.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.imgur.com/5KdAQtH.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;review&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#review&#34;&gt;#&lt;/a&gt; Review&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;마크다운은 현실적으로 개발자/AI를 다루는사람들이 가장 많이 다루는 문서작성 툴중 하나일 것이다.&lt;/li&gt;
