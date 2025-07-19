@@ -253,7 +253,7 @@ sidebar:
   position: left
   # position: right
   # Replace the default avatar image under <root>/source/_data/assets/ and set the url here.
-  avatar: avatar.jpg
+  avatar: user_profile.png
 
 widgets:
   # if true, will show random posts
@@ -342,9 +342,11 @@ image_list:
 # index page images (fallback)
 index_images: []
 
-# Algolia Search
-# For more information: https://www.algolia.com
+# Search Settings (Local Search)
 search:
+  path: search.xml
+  field: post
+  content: true
   hits:
     per_page: 10
 

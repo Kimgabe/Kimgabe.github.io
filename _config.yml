@@ -113,6 +113,13 @@ symbols_count_time:
   wpm: 275
   suffix: "mins."
 
+# Search
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+
 # Deployment
 deploy:
   type: git
@@ -137,7 +144,7 @@ theme_config:
       programming: /categories/personal-study/ || code
       data-science: /categories/personal-study/ || chart-bar  
       ai-ml: /categories/gabe-ai-journey/ || brain
-      career: /categories/gabe-ai-journey/ || briefcase
+      career: /categories/personal-study/ || briefcase
       portfolio: /categories/portfolio/ || folder-open
       tags: /tags/ || tags
   modules:
