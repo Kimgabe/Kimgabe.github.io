@@ -1,17 +1,18 @@
 ---
-title: "[matplotlib-basic] 07~09. Box plot, 3D plot, imshow"
-cover: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1920&h=1080&fit=crop"
-date: 2021-08-03
 categories:
-  - [personal-study, visualization]
+- programming
+- matplotlib
+cover: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1920&h=1080&fit=crop
+date: 2021-08-03
 tags:
-  - python
-  - 시각화
-  - visualization
-  - matplotlib
-  - box plot
-  - 3D plot
-  - imshow
+- python
+- 시각화
+- visualization
+- matplotlib
+- box plot
+- 3D plot
+- imshow
+title: '[matplotlib-basic] 07~09. Box plot, 3D plot, imshow'
 toc: true
 ---
 

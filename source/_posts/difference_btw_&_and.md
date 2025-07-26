@@ -1,10 +1,11 @@
 ---
-title: "[파이썬 뜯어보기] 둘 다 그냥 and 조건 아니었어?! :  '&' 와 'and' 연산자 뜯어보기"
-cover: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop"
-date: 2023-11-15
 categories:
-  - [personal-study, python]
+- programming
+- python
+cover: https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop
+date: 2023-11-15
 tags: []
+title: '[파이썬 뜯어보기] 둘 다 그냥 and 조건 아니었어?! :  ''&'' 와 ''and'' 연산자 뜯어보기'
 toc: true
 ---
 ## 🚦Summary

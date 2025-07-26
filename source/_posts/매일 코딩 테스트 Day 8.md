@@ -1,15 +1,16 @@
 ---
-title: "[Programmers school] 코딩 기초 트레이닝 Day 8"
-cover: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop"
-date: 2023-09-14
 categories:
-  - [personal-study, coding-test]
+- programming
+- algorithms
+cover: https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop
+date: 2023-09-14
 tags:
-  - 간단한 논리 연산
-  - 주사위 게임 3
-  - 글자 이어 붙여 문자열 만들기
-  - 9로 나눈 나머지
-  - 문자열 여러번 뒤집기
+- 간단한 논리 연산
+- 주사위 게임 3
+- 글자 이어 붙여 문자열 만들기
+- 9로 나눈 나머지
+- 문자열 여러번 뒤집기
+title: '[Programmers school] 코딩 기초 트레이닝 Day 8'
 toc: true
 ---
 조건문, 문자열 개념을 응용한 다양한 문제를 풀었습니다.

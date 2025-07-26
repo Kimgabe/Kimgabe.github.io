@@ -1,19 +1,20 @@
 ---
-title: "[EDA] 고전 EDA - 이디야는 정말 스타벅스 옆에 포지셔닝하는 전략을 쓰는가?!"
-cover: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1920&h=1080&fit=crop"
-date: 2023-11-14
 categories:
-  - [portfolio]
+- portfolio
+- data-analysis
+cover: https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1920&h=1080&fit=crop
+date: 2023-11-14
 tags:
-  - EDA
-  - 스타벅스
-  - 이디야
-  - folium
-  - 웹크롤링
-  - google api
-  - 좌표추출
-  - 데이터분석
-  - 시각화
+- EDA
+- 스타벅스
+- 이디야
+- folium
+- 웹크롤링
+- google api
+- 좌표추출
+- 데이터분석
+- 시각화
+title: '[EDA] 고전 EDA - 이디야는 정말 스타벅스 옆에 포지셔닝하는 전략을 쓰는가?!'
 toc: true
 ---
 🚦Summary

@@ -1,10 +1,11 @@
 ---
-title: "데이터 전처리 및 모델 튜닝: 실무자를 위한 가이드"
-cover: "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1920&h=1080&fit=crop"
-date: 2023-11-27
 categories:
-  - [personal-study, preprocessing]
+- data-science
+- preprocessing
+cover: https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1920&h=1080&fit=crop
+date: 2023-11-27
 tags: []
+title: '데이터 전처리 및 모델 튜닝: 실무자를 위한 가이드'
 toc: true
 ---
 

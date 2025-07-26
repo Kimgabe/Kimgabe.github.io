@@ -1,10 +1,11 @@
 ---
-title: "[쉐벨그투] 옵시디언으로 AI 논문 읽기(2) - Zotero 연동과 실제 적용"
-cover: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1920&h=1080&fit=crop"
-date: 2024-01-06
 categories:
-  - [gabe-ai-journey, reviews]
+- tools
+- development-tools
+cover: https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1920&h=1080&fit=crop
+date: 2024-01-06
 tags: []
+title: '[쉐벨그투] 옵시디언으로 AI 논문 읽기(2) - Zotero 연동과 실제 적용'
 toc: true
 ---
 > 💡 **시리즈 안내**  

@@ -1,10 +1,11 @@
 ---
-title: "[Tableau] 기초 개념 - 연결화면과 데이터 유형"
-cover: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop"
-date: 2021-05-14
 categories:
-  - [personal-study, tableau]
+- data-science
+- visualization
+cover: https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop
+date: 2021-05-14
 tags: []
+title: '[Tableau] 기초 개념 - 연결화면과 데이터 유형'
 toc: true
 ---
 ## 🚦 Summary

@@ -75,8 +75,8 @@ seo:
 visitor:
   clarity: false
   baiduAnalytics: false
-  googleAnalytics: G-S8SVCTHDH2
-  googleAdsense: pub-8264517186303288
+  googleAnalytics: "G-S8SVCTHDH2"
+  googleAdsense: "pub-8264517186303288"
 
 darkmode: true
 auto_dark: # 自动亮/暗模式
@@ -169,21 +169,10 @@ iconfont: "4415496_59g1326wajd"
 
 menu:
   home: / || home
-  posts:
-    default: / || feather
-    archives: /archives/ || list-alt
-    categories: /categories/ || th
-    programming: /categories/personal-study/ || code
-    data-science: /categories/personal-study/ || chart-bar  
-    ai-ml: /categories/gabe-ai-journey/ || brain
-    career: /categories/gabe-ai-journey/ || briefcase
-    portfolio: /categories/portfolio/ || folder-open
-    tags: /tags/ || tags
-  # about:
-  #   default: / || user
-  #   aboutsite: /about/  || user
-  #   admiration: /admiration/ || coffee
-  # friends: /friends/ || heart
+  posts: / || feather
+  archives: /archives/ || list-alt
+  categories: /categories/ || th
+  tags: /tags/ || tags
 
 # https://twikoo.js.org
 twikoo:

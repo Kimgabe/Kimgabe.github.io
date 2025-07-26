@@ -1,10 +1,11 @@
 ---
-title: "[SQLD] SQLD 공부 0일차 - Daily Schedule 세우기"
-cover: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1920&h=1080&fit=crop"
-date: 2024-04-23
 categories:
-  - [personal-study, sql]
+- database
+- sql-basics
+cover: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1920&h=1080&fit=crop
+date: 2024-04-23
 tags: []
+title: '[SQLD] SQLD 공부 0일차 - Daily Schedule 세우기'
 toc: true
 ---
 ## 🚦 Summary

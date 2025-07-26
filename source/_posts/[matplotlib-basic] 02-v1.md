@@ -1,18 +1,19 @@
 ---
-title: "[matplotlib-basic] 02. Barplot, Barhplot"
-cover: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop"
-date: 2021-07-23
 categories:
-  - [personal-study, visualization]
+- programming
+- matplotlib
+cover: https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop
+date: 2021-07-23
 tags:
-  - python
-  - 시각화
-  - visualization
-  - matplotlib
-  - bar plot
-  - 막대그래프
-  - barhplot
-  - 가로막대 그래프
+- python
+- 시각화
+- visualization
+- matplotlib
+- bar plot
+- 막대그래프
+- barhplot
+- 가로막대 그래프
+title: '[matplotlib-basic] 02. Barplot, Barhplot'
 toc: true
 ---
 

@@ -1,15 +1,16 @@
 ---
-title: "[Programmers school] 코딩 기초 트레이닝 Day 6"
-cover: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1920&h=1080&fit=crop"
-date: 2023-09-12
 categories:
-  - [personal-study, coding-test]
+- programming
+- algorithms
+cover: https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1920&h=1080&fit=crop
+date: 2023-09-12
 tags:
-  - 마지막 두 원소
-  - 수 조작하기 1
-  - 수 조작하기 2
-  - 수열과 구간 쿼리 3
-  - 수열과 구간 쿼리 2
+- 마지막 두 원소
+- 수 조작하기 1
+- 수 조작하기 2
+- 수열과 구간 쿼리 3
+- 수열과 구간 쿼리 2
+title: '[Programmers school] 코딩 기초 트레이닝 Day 6'
 toc: true
 ---
 조건문, 반복문을 응용한 문제들을 풀었습니다.

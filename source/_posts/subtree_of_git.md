@@ -1,10 +1,11 @@
 ---
-title: "[GitHub] '여러개의 레포지토리를 하나의 레포지토리에서 관리해보자!' (feat.subtree)"
-cover: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1920&h=1080&fit=crop"
-date: 2023-11-14
 categories:
-  - [personal-study, git]
+- productivity
+- dev-efficiency
+cover: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1920&h=1080&fit=crop
+date: 2023-11-14
 tags: []
+title: '[GitHub] ''여러개의 레포지토리를 하나의 레포지토리에서 관리해보자!'' (feat.subtree)'
 toc: true
 ---
 ---

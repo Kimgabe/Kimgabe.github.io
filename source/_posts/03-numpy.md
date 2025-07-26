@@ -1,24 +1,25 @@
 ---
-title: "[파이썬 기초] 03. Numpy_ndarray 인덱싱 & 슬라이싱"
-cover: "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1920&h=1080&fit=crop"
-date: 2021-07-14
 categories:
-  - [personal-study, numpy]
+- programming
+- numpy
+cover: https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1920&h=1080&fit=crop
+date: 2021-07-14
 tags:
-  - python
-  - indexing
-  - 1차원 벡터 인덱싱
-  - index로 특정 위치 값 바꾸기
-  - index의 값 바꾸기
-  - 2차원 행렬 인덱싱
-  - 3차원 텐서 인덱싱
-  - 벡터
-  - 행렬
-  - 텐서
-  - 슬라이싱
-  - 1차원 벡터 슬리이싱
-  - 2차원 행렬 슬라이싱
-  - 3차원 텐서 슬라이싱
+- python
+- indexing
+- 1차원 벡터 인덱싱
+- index로 특정 위치 값 바꾸기
+- index의 값 바꾸기
+- 2차원 행렬 인덱싱
+- 3차원 텐서 인덱싱
+- 벡터
+- 행렬
+- 텐서
+- 슬라이싱
+- 1차원 벡터 슬리이싱
+- 2차원 행렬 슬라이싱
+- 3차원 텐서 슬라이싱
+title: '[파이썬 기초] 03. Numpy_ndarray 인덱싱 & 슬라이싱'
 toc: true
 ---
 array형태의 데이터를 다양한 차원별로 인덱싱하고 슬라이싱하는 방법을 정리합니다.

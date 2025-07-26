@@ -1,27 +1,28 @@
 ---
-title: "[파이썬 기초] 05. Numpy_ndarray 기본 함수(연산, 통계, 집계 등)"
-cover: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1920&h=1080&fit=crop"
-date: 2021-07-14
 categories:
-  - [personal-study, numpy]
+- programming
+- numpy
+cover: https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1920&h=1080&fit=crop
+date: 2021-07-14
 tags:
-  - python
-  - np.add
-  - np.divide
-  - np.mod
-  - np.mean
-  - np.median
-  - np.max
-  - np.min
-  - np.argmax
-  - np.argmin
-  - np.var
-  - np.std
-  - np.sum
-  - np.consum
-  - np.any
-  - np.all
-  - np.where
+- python
+- np.add
+- np.divide
+- np.mod
+- np.mean
+- np.median
+- np.max
+- np.min
+- np.argmax
+- np.argmin
+- np.var
+- np.std
+- np.sum
+- np.consum
+- np.any
+- np.all
+- np.where
+title: '[파이썬 기초] 05. Numpy_ndarray 기본 함수(연산, 통계, 집계 등)'
 toc: true
 ---
 Numpy의 ndarray에 대한 기본적인 연산, 통계, 집계를 하는 방법을 정리합니다.

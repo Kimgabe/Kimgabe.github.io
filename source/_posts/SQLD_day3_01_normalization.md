@@ -1,10 +1,11 @@
 ---
-title: "[SQLD] 3일차 : 정규화(Normalization)"
-cover: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&h=1080&fit=crop"
-date: 2024-04-26
 categories:
-  - [personal-study, sql]
+- database
+- sql-basics
+cover: https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&h=1080&fit=crop
+date: 2024-04-26
 tags: []
+title: '[SQLD] 3일차 : 정규화(Normalization)'
 toc: true
 ---
 ## 🚦 Summary

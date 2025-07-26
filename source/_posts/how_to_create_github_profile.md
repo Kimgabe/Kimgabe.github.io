@@ -1,21 +1,22 @@
 ---
-title: "[Review] 자동으로 나만의 GitHub 프로필과 이력서를 만들 수 있다?! (feat.GitHub Profile Readme Generator)"
-cover: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1920&h=1080&fit=crop"
-date: 2023-11-07
 categories:
-  - [personal-study, git]
+- growth
+- career
+cover: https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1920&h=1080&fit=crop
+date: 2023-11-07
 tags:
-  - GitHub
-  - Resume
-  - automated
-  - Profile
-  - README
-  - career
-  - 이력서
-  - 깃허브
-  - 프로필
-  - 자동작성
-  - GitHub Prifile Readme Generator
+- GitHub
+- Resume
+- automated
+- Profile
+- README
+- career
+- 이력서
+- 깃허브
+- 프로필
+- 자동작성
+- GitHub Prifile Readme Generator
+title: '[Career] 자동으로 나만의 GitHub 프로필과 이력서를 만들 수 있다?! (feat.GitHub Profile Readme Generator)'
 toc: true
 ---
 Hackers Ground에서 진행한 GitHub로 나만의 프로필 및 이력서 만들기에 대한 영상을 보고 내용을 정리+Review 했습니다.

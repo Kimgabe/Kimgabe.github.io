@@ -1,10 +1,11 @@
 ---
-title: "[SQLD] 3일차 : Null 속성의 이해"
-cover: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop"
-date: 2024-04-26
 categories:
-  - [personal-study, sql]
+- database
+- sql-basics
+cover: https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop
+date: 2024-04-26
 tags: []
+title: '[SQLD] 3일차 : Null 속성의 이해'
 toc: true
 ---
 ## 🚦 Summary

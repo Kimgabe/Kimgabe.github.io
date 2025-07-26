@@ -1,37 +1,13 @@
-mixin item(name, path, parent, sublist)
-    - var trimn = (str)=>{return str!=null?str.trim():"";}
-    - var path = path.split('||')
-    - var itemURL = path[0].trim()
-    - if (!itemURL.startsWith('http')){ itemURL = itemURL.replace('//', '/') }
-    - var menuIcon = '<i class="ic i-' + trimn(path[1]) + '"></i>'
-    - var menuText = __('menu.' + name).replace('menu.', '')
-    if parent
-        li(class="item dropdown")
-            if itemURL === '/'
-                a(href="#" onclick="return false;")
-                    != menuIcon + menuText
-            else
-                != _url(itemURL, menuIcon + menuText, {rel: 'section'})
-            ul(class="submenu")
-                each subvalue, subname in sublist
-                    - var path = subvalue.split('||')
-                    - var itemURL = path[0].trim()
-                    - if (itemURL==='/') itemURL='javascript:void(0)'
-                    - var menuText = __('menu.' + subname).replace('menu.', '')
-                    if subname === 'default'
-                        - var menuText = __('menu.' + name).replace('menu.', '')
-                    else
-                        - var menuIcon = '<i class="ic i-' + trimn(path[1]) + '"></i>'
-                        li(class="item")
-                            != _url(itemURL, menuIcon + menuText, {rel: 'section'})
-    else
-        li(class="item")
-            != _url(itemURL, menuIcon + menuText, {rel: 'section'})
-
 each value, name in theme.menu
-    if value.toString() === '[object Object]'
-        each subvalue, subname in value
-            if subname === 'default'
-                +item(name, subvalue, true, value)
-    else
-        +item(name, value)
+    - var path = value.split('||')
+    - var itemURL = path[0] ? path[0].trim() : '/'
+    - var itemIcon = path[1] ? path[1].trim() : ''
+    - var rawMenuText = __('menu.' + name).replace('menu.', '')
+    - var menuText = rawMenuText.charAt(0).toUpperCase() + rawMenuText.slice(1)
+    
+    li(class="item")
+        // 이모지인 경우와 일반 아이콘인 경우를 구분
+        if itemIcon.length === 1 || /[\u{1F600}-\u{1F6FF}]|[\u{2600}-\u{26FF}]|[\u{2700}-\u{27BF}]/u.test(itemIcon)
+            != _url(itemURL, itemIcon + ' ' + menuText, {rel: 'section'})
+        else
+            != _url(itemURL, '<i class="ic i-' + itemIcon + '"></i>' + menuText, {rel: 'section'})

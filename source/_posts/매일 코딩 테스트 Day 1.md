@@ -1,18 +1,19 @@
 ---
-title: "[Programmers school] 코딩 기초 트레이닝 Day 1"
-cover: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop"
-date: 2023-09-07
 categories:
-  - [personal-study, coding-test]
+- programming
+- algorithms
+cover: https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop
+date: 2023-09-07
 tags:
-  - 문자열 다루기
-  - upper()
-  - lower()
-  - islower()
-  - isupper()
-  - for문
-  - escape문자
-  - 산술연산자
+- 문자열 다루기
+- upper()
+- lower()
+- islower()
+- isupper()
+- for문
+- escape문자
+- 산술연산자
+title: '[Programmers school] 코딩 기초 트레이닝 Day 1'
 toc: true
 ---
 문자출력, 대소문자 변경, 산술연산자 응용, 특수문자출력, 문자열 반복 출력하기 등

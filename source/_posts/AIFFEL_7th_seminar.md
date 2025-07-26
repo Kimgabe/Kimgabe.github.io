@@ -1,10 +1,11 @@
 ---
-title: "[AIFFEL 7th 교류회] 논문리뷰 살펴보기"
-cover: "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1920&h=1080&fit=crop"
-date: 2024-02-19
 categories:
-  - [gabe-ai-journey, reviews]
+- growth
+- reviews
+cover: https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1920&h=1080&fit=crop
+date: 2024-02-19
 tags: []
+title: '[AIFFEL 7th 교류회] 논문리뷰 살펴보기'
 toc: true
 ---
 ## 🚦Summary  

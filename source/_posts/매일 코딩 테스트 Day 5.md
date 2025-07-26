@@ -1,15 +1,16 @@
 ---
-title: "[Programmers school] 코딩 기초 트레이닝 Day 5"
-cover: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop"
-date: 2023-09-11
 categories:
-  - [personal-study, coding-test]
+- programming
+- algorithms
+cover: https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop
+date: 2023-09-11
 tags:
-  - 코드 처리하기
-  - 등차수열의 특정한 항만 더하기
-  - 주사위게임2
-  - 원소들의 곱과 합
-  - 이어 붙인 수
+- 코드 처리하기
+- 등차수열의 특정한 항만 더하기
+- 주사위게임2
+- 원소들의 곱과 합
+- 이어 붙인 수
+title: '[Programmers school] 코딩 기초 트레이닝 Day 5'
 toc: true
 ---
 코드 처리하기, 등차수열의 특정한 항만 더하기, 주사위게임2, 원소들의 곱과 합, 이어 붙인 수

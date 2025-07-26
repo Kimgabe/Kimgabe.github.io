@@ -1,15 +1,16 @@
 ---
-title: "[Programmers school] 코딩 기초 트레이닝 Day 2"
-cover: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&h=1080&fit=crop"
-date: 2023-09-08
 categories:
-  - [personal-study, coding-test]
+- programming
+- algorithms
+cover: https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&h=1080&fit=crop
+date: 2023-09-08
 tags:
-  - 덧셈식 출력하기
-  - 문자열 붙여서 출력하기
-  - 문자열 돌리기
-  - 홀짝 구분하기
-  - 문자열 겹쳐쓰기
+- 덧셈식 출력하기
+- 문자열 붙여서 출력하기
+- 문자열 돌리기
+- 홀짝 구분하기
+- 문자열 겹쳐쓰기
+title: '[Programmers school] 코딩 기초 트레이닝 Day 2'
 toc: true
 ---
 ## 덧셈식 출력하기

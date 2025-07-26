@@ -128,6 +128,11 @@ deploy:
 
 # ShokaX 테마 설정 - Hexo 덮어쓰기 방식
 theme_config:
+  visitor:
+    clarity: false
+    baiduAnalytics: false
+    googleAnalytics: "G-S8SVCTHDH2"
+    googleAdsense: "pub-8264517186303288"
   image_list:
     - "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop"
     - "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1920&h=1080&fit=crop"
@@ -137,16 +142,10 @@ theme_config:
     - "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop"
   menu:
     home: / || home
-    posts:
-      default: / || feather
-      archives: /archives/ || list-alt
-      categories: /categories/ || th
-      Programming: /categories/personal-study/ || code
-      Data Science: /categories/personal-study/ || chart-bar  
-      AI Journey: /categories/gabe-ai-journey/ || brain
-      Career: /categories/personal-study/ || briefcase
-      Portfolio: /categories/portfolio/ || folder-open
-      tags: /tags/ || tags
+    posts: / || feather
+    archives: /archives/ || list-alt
+    categories: /categories/ || th
+    tags: /tags/ || tags
   modules:
     debug: false
     player: false

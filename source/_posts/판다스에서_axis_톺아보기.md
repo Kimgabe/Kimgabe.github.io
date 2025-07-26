@@ -1,10 +1,11 @@
 ---
-title: "[Pandas] 예제코드로 보는 axis 옵션 톺아보기 - 'axis =1 은 가로방향?! 아님 세로방향?!  한방에 정리해 봅시다🤓"
-cover: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1920&h=1080&fit=crop"
-date: 2023-11-22
 categories:
-  - [personal-study, pandas]
+- data-science
+- pandas
+cover: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1920&h=1080&fit=crop
+date: 2023-11-22
 tags: []
+title: '[Pandas] 예제코드로 보는 axis 옵션 톺아보기 - ''axis =1 은 가로방향?! 아님 세로방향?!  한방에 정리해 봅시다🤓'
 toc: true
 ---
 ## 🚦 Summary

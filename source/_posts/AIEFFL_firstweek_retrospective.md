@@ -1,10 +1,11 @@
 ---
-title: "[주간 회고] AIEFFL 7th 첫주 온보딩 회고"
-cover: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1920&h=1080&fit=crop"
-date: 2023-11-03
 categories:
-  - [gabe-ai-journey, retrospective]
+- growth
+- reviews
+cover: https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1920&h=1080&fit=crop
+date: 2023-11-03
 tags: []
+title: '[주간 회고] AIEFFL 7th 첫주 온보딩 회고'
 toc: true
 ---
 ## 🚦Summary : 

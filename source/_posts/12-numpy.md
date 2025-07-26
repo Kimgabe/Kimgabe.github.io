@@ -1,15 +1,16 @@
 ---
-title: "[파이썬 기초] 12. Numpy_numpy를 이용하여 pi(원주율) 값을 계산하기"
-cover: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop"
-date: 2021-07-14
 categories:
-  - [personal-study, numpy]
+- programming
+- numpy
+cover: https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop
+date: 2021-07-14
 tags:
-  - python
-  - 문제풀이
-  - pi
-  - Mote Carlo
-  - 원주율구하기
+- python
+- 문제풀이
+- pi
+- Mote Carlo
+- 원주율구하기
+title: '[파이썬 기초] 12. Numpy_numpy를 이용하여 pi(원주율) 값을 계산하기'
 toc: true
 ---
 numpy를 활용해 원주율을 구하는 Mote Carlo Simulatino을 시각화 합니다.

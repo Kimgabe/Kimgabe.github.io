@@ -1,10 +1,11 @@
 ---
-title: "[SQL] SQL의 기본 비교연산자(IS NULL ~ SQL 함수(LENGTH)"
-cover: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop"
-date: 2020-10-22
 categories:
-  - [personal-study, sql]
+- database
+- sql-basics
+cover: https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop
+date: 2020-10-22
 tags: []
+title: '[SQL] SQL의 기본 비교연산자(IS NULL ~ SQL 함수(LENGTH)'
 toc: true
 ---
 ## 🚦 Summary

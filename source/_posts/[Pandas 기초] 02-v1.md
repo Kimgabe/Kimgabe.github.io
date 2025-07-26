@@ -1,10 +1,11 @@
 ---
-title: "[Pandas] 02. Series 데이터 심플 분석(개수, 빈도 등 계산하기)"
-cover: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1920&h=1080&fit=crop"
-date: 2023-11-25
 categories:
-  - [personal-study, pandas]
+- programming
+- pandas
+cover: https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1920&h=1080&fit=crop
+date: 2023-11-25
 tags: []
+title: '[Pandas] 02. Series 데이터 심플 분석(개수, 빈도 등 계산하기)'
 toc: true
 ---
 ## 🚦 Summary

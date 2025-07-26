@@ -1,10 +1,11 @@
 ---
-title: "[Git] Github Action으로 내 README.md 자동화 하기"
-cover: "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1920&h=1080&fit=crop"
-date: 2024-01-19
 categories:
-  - [personal-study, git]
+- productivity
+- dev-efficiency
+cover: https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1920&h=1080&fit=crop
+date: 2024-01-19
 tags: []
+title: '[Git] Github Action으로 내 README.md 자동화 하기'
 toc: true
 ---
 ## 🚦 Summary

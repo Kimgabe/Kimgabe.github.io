@@ -1,21 +1,22 @@
 ---
-title: "[예측] 상점별 미래 3개월 카드매출 예측하기(2) - Preprocessing"
-cover: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1920&h=1080&fit=crop"
-date: 2021-07-08
 categories:
-  - [personal-study, preprocessing]
+- data-science
+- preprocessing
+cover: https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1920&h=1080&fit=crop
+date: 2021-07-08
 tags:
-  - feature engineering
-  - prediction
-  - regression. DACON
-  - 시계열
-  - 카드매출
-  - 예측
-  - KNN
-  - RandomForestRegressor
-  - LightGBM
-  - 머신러닝
-  - 딥러닝
+- feature engineering
+- prediction
+- regression. DACON
+- 시계열
+- 카드매출
+- 예측
+- KNN
+- RandomForestRegressor
+- LightGBM
+- 머신러닝
+- 딥러닝
+title: '[예측] 상점별 미래 3개월 카드매출 예측하기(2) - Preprocessing'
 toc: true
 ---
 

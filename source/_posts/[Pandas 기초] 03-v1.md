@@ -1,10 +1,11 @@
 ---
-title: "[Pandas] 03. Series 데이터 연산과 탐색기법"
-cover: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1920&h=1080&fit=crop"
-date: 2023-11-25
 categories:
-  - [personal-study, pandas]
+- programming
+- pandas
+cover: https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1920&h=1080&fit=crop
+date: 2023-11-25
 tags: []
+title: '[Pandas] 03. Series 데이터 연산과 탐색기법'
 toc: true
 ---
 ## 🚦 Summary

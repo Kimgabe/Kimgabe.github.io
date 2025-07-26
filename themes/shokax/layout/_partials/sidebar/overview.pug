@@ -39,4 +39,4 @@ div(class="social")
 != shokax_inject('sidebar')
 
 div(class="menu")
-    != partial('_partials/sidebar/menu.pug')
+    != partial('_partials/sidebar/menu.pug', {}, {cache: true})

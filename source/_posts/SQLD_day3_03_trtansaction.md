@@ -1,10 +1,11 @@
 ---
-title: "[SQLD] 3일차 : 모델이 표현하는 트랜잭션의 이해"
-cover: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop"
-date: 2024-04-26
 categories:
-  - [personal-study, sql]
+- database
+- sql-basics
+cover: https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop
+date: 2024-04-26
 tags: []
+title: '[SQLD] 3일차 : 모델이 표현하는 트랜잭션의 이해'
 toc: true
 ---
 ## 🚦 Summary

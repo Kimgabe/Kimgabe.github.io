@@ -1,11 +1,12 @@
 ---
-title: "[EDA] 아스널은 누구를 영입했어야 했을까 (EDA 로 스포츠 데이터 분석하기)"
-cover: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1920&h=1080&fit=crop"
-date: 2020-08-07
 categories:
-  - [portfolio]
+- portfolio
+- data-analysis
+cover: https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1920&h=1080&fit=crop
+date: 2020-08-07
 tags:
-  - EDA
+- EDA
+title: '[EDA] 아스널은 누구를 영입했어야 했을까 (EDA 로 스포츠 데이터 분석하기)'
 toc: true
 ---
 스포츠데이터를 EDA하며 간단한 분석을 해보았습니다. 우리팀엔 어떤 선수들이 필요할까?!

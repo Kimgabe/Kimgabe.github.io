@@ -1,10 +1,11 @@
 ---
-title: "[SQL] SQL의 기본 SELECT문 ~ 비교연산자(LIKE)"
-cover: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1920&h=1080&fit=crop"
-date: 2020-10-21
 categories:
-  - [personal-study, sql]
+- database
+- sql-basics
+cover: https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1920&h=1080&fit=crop
+date: 2020-10-21
 tags: []
+title: '[SQL] SQL의 기본 SELECT문 ~ 비교연산자(LIKE)'
 toc: true
 ---
 ## 🚦 Summary

@@ -1,18 +1,19 @@
 ---
-title: "[matplotlib-basic] 03~04. Line Plot & Areaplot(Filled Area)"
-cover: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&h=1080&fit=crop"
-date: 2021-07-24
 categories:
-  - [personal-study, visualization]
+- programming
+- matplotlib
+cover: https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&h=1080&fit=crop
+date: 2021-07-24
 tags:
-  - python
-  - 시각화
-  - visualization
-  - matplotlib
-  - line plot
-  - 꺾은선 그래프
-  - area plot
-  - 면적 그래프
+- python
+- 시각화
+- visualization
+- matplotlib
+- line plot
+- 꺾은선 그래프
+- area plot
+- 면적 그래프
+title: '[matplotlib-basic] 03~04. Line Plot & Areaplot(Filled Area)'
 toc: true
 ---
 

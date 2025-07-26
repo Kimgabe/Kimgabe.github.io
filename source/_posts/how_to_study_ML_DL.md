@@ -1,18 +1,19 @@
 ---
-title: "[Review] 머신러닝, 딥러닝 어떻게 공부할 것인가? (feat. 핸즈온 머신러닝 저자 특강)"
-cover: "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1920&h=1080&fit=crop"
-date: 2023-11-08
 categories:
-  - [personal-study, deep_learning]
+- growth
+- reviews
+cover: https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1920&h=1080&fit=crop
+date: 2023-11-08
 tags:
-  - 핸즈온 머신러닝
-  - ML
-  - DL
-  - 머신러닝
-  - 딥러닝
-  - 공부방법
-  - 도서
-  - 리뷰
+- 핸즈온 머신러닝
+- ML
+- DL
+- 머신러닝
+- 딥러닝
+- 공부방법
+- 도서
+- 리뷰
+title: '[Review] 머신러닝, 딥러닝 어떻게 공부할 것인가? (feat. 핸즈온 머신러닝 저자 특강)'
 toc: true
 ---
 ## 🚦Summary

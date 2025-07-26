@@ -1,13 +1,14 @@
 ---
-title: "[파이썬 기초] 08. Numpy_Boolean indexing으로 조건에 맞는 데이터 선택하기"
-cover: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1920&h=1080&fit=crop"
-date: 2021-07-14
 categories:
-  - [personal-study, numpy]
+- programming
+- numpy
+cover: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1920&h=1080&fit=crop
+date: 2021-07-14
 tags:
-  - python
-  - boolean indexing
-  - 다중조건
+- python
+- boolean indexing
+- 다중조건
+title: '[파이썬 기초] 08. Numpy_Boolean indexing으로 조건에 맞는 데이터 선택하기'
 toc: true
 ---
 ndarray를 bool list를 통해 인덱싱하는 방법에 대해 정리합니다.

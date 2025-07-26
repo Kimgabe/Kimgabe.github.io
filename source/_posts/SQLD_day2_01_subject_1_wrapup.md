@@ -1,10 +1,11 @@
 ---
-title: "[SQLD] 2일차 : 데이터모델링의 이해 Wrap up 및 예상문제 풀이"
-cover: "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1920&h=1080&fit=crop"
-date: 2024-04-25
 categories:
-  - [personal-study, sql]
+- database
+- sql-basics
+cover: https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1920&h=1080&fit=crop
+date: 2024-04-25
 tags: []
+title: '[SQLD] 2일차 : 데이터모델링의 이해 Wrap up 및 예상문제 풀이'
 toc: true
 ---
 ## 🚦 Summary

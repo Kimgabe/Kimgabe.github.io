@@ -1,10 +1,11 @@
 ---
-title: "[Pandas] 01. Series 데이터 생성하기(with index, value)"
-cover: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop"
-date: 2023-08-11
 categories:
-  - [personal-study, pandas]
+- programming
+- pandas
+cover: https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop
+date: 2023-08-11
 tags: []
+title: '[Pandas] 01. Series 데이터 생성하기(with index, value)'
 toc: true
 ---
 ## 🚦Summary

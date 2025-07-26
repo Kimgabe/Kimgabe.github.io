@@ -1,15 +1,16 @@
 ---
-title: "[matplotlib-basic] 01. Scatter plot 그리기"
-cover: "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1920&h=1080&fit=crop"
-date: 2021-07-22
 categories:
-  - [personal-study, visualization]
+- programming
+- matplotlib
+cover: https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1920&h=1080&fit=crop
+date: 2021-07-22
 tags:
-  - python
-  - 시각화
-  - visualization
-  - matplotlib
-  - scatter plot
+- python
+- 시각화
+- visualization
+- matplotlib
+- scatter plot
+title: '[matplotlib-basic] 01. Scatter plot 그리기'
 toc: true
 ---
 

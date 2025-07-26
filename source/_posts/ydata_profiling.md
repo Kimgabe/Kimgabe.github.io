@@ -1,10 +1,11 @@
 ---
-title: "[Cheat Sheet] '코드 한줄로 EDA를 하는 도구가 있다면?!"
-cover: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop"
-date: 2023-11-21
 categories:
-  - [personal-study, cheat_sheet]
+- productivity
+- data-workflow
+cover: https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop
+date: 2023-11-21
 tags: []
+title: '[Cheat Sheet] ''코드 한줄로 EDA를 하는 도구가 있다면?!'
 toc: true
 ---
 ## 🚦 Summary

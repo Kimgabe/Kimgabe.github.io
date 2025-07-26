@@ -1,10 +1,11 @@
 ---
-title: "[DL] Convolution을 이해하고 이미지 처리하기: 딥러닝의 기본 개념과 응용"
-cover: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1920&h=1080&fit=crop"
-date: 2023-12-04
 categories:
-  - [personal-study, deep_learning]
+- ai-ml
+- deep-learning
+cover: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1920&h=1080&fit=crop
+date: 2023-12-04
 tags: []
+title: '[DL] Convolution을 이해하고 이미지 처리하기: 딥러닝의 기본 개념과 응용'
 toc: true
 ---
 ## 🚦 Summary

@@ -1,10 +1,11 @@
 ---
-title: "[AIFFEL의 방학] 무엇을 하면서 방학을 보냈어야 알차게 보낸걸까에 대한 회고"
-cover: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1920&h=1080&fit=crop"
-date: 2024-01-20
 categories:
-  - [gabe-ai-journey, retrospective]
+- growth
+- reviews
+cover: https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1920&h=1080&fit=crop
+date: 2024-01-20
 tags: []
+title: '[AIFFEL의 방학] 무엇을 하면서 방학을 보냈어야 알차게 보낸걸까에 대한 회고'
 toc: true
 ---
 ## 🚦 Summary

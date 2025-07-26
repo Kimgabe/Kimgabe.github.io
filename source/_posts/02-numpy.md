@@ -1,20 +1,21 @@
 ---
-title: "[파이썬 기초] 02. Numpy_random 서브 모듈로 ndarray 데이터 생성하기"
-cover: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop"
-date: 2021-07-14
 categories:
-  - [personal-study, numpy]
+- programming
+- numpy
+cover: https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop
+date: 2021-07-14
 tags:
-  - python
-  - random 모듈
-  - np.random.rand
-  - np.random.randn
-  - np.random.randint
-  - np.random.seed
-  - 랜덤을 적용하면서도 일정한 값 만들기
-  - np.random.choice
-  - np.random.uniform
-  - np.random.normal
+- python
+- random 모듈
+- np.random.rand
+- np.random.randn
+- np.random.randint
+- np.random.seed
+- 랜덤을 적용하면서도 일정한 값 만들기
+- np.random.choice
+- np.random.uniform
+- np.random.normal
+title: '[파이썬 기초] 02. Numpy_random 서브 모듈로 ndarray 데이터 생성하기'
 toc: true
 ---
 Numpy의 random 서브 모듈을 활용해 다양한 ndarray를 만드는 방법을 정리합니다.

@@ -1,15 +1,16 @@
 ---
-title: "[Programmers school] 코딩 기초 트레이닝 Day 3"
-cover: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1920&h=1080&fit=crop"
-date: 2023-09-09
 categories:
-  - [personal-study, coding-test]
+- programming
+- algorithms
+cover: https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1920&h=1080&fit=crop
+date: 2023-09-09
 tags:
-  - 문자열 섞기
-  - 문자 리스트를 문자열로 변환하기
-  - 문자열 곱하기
-  - 더 크게 합치기
-  - 두 수의 연산값 합치기
+- 문자열 섞기
+- 문자 리스트를 문자열로 변환하기
+- 문자열 곱하기
+- 더 크게 합치기
+- 두 수의 연산값 합치기
+title: '[Programmers school] 코딩 기초 트레이닝 Day 3'
 toc: true
 ---
 문자열 섞기, 문자 리스트를 문자열로 변환하기, 문자열 곱하기, 더 크게 합치기, 두 수의 연산값 합치기

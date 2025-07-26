@@ -1,17 +1,18 @@
 ---
-title: "[파이썬 기초] 04. Numpy_ndarray 데이터 형태를 바꾸기(ravel, flatten, reshape)"
-cover: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop"
-date: 2021-07-14
 categories:
-  - [personal-study, numpy]
+- programming
+- numpy
+cover: https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop
+date: 2021-07-14
 tags:
-  - python
-  - ndarray 형태바꾸기
-  - np.ravel
-  - np.flatten
-  - np.reshape
-  - array의 차원바꾸기
-  - 이미지 벡터화
+- python
+- ndarray 형태바꾸기
+- np.ravel
+- np.flatten
+- np.reshape
+- array의 차원바꾸기
+- 이미지 벡터화
+title: '[파이썬 기초] 04. Numpy_ndarray 데이터 형태를 바꾸기(ravel, flatten, reshape)'
 toc: true
 ---
 ndarray의 형태와 차원을 바꾸는 방법을 정리합니다. 해당 개념은 차후 딥러닝 베이스의 이미지 분석에 필수적인 개념입니다.

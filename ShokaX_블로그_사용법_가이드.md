@@ -95,11 +95,11 @@ title: "[Pandas] 예제코드로 보는 axis 옵션 톺아보기"
 cover: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1920&h=1080&fit=crop"
 date: 2023-11-22
 categories:
-  - [personal-study, pandas]
+  - [programming, pandas]
 tags:
   - pandas
   - axis
-  - 데이터분석
+  - 라이브러리
 toc: true
 ---
 
@@ -123,45 +123,63 @@ toc: true
 
 ### **📚 현재 카테고리 구조**
 ```yaml
-# Programming & Development (프로그래밍 & 개발)
-categories: [personal-study, python]
-categories: [personal-study, git] 
-categories: [personal-study, algorithm]
-categories: [personal-study, coding-test]
-categories: [personal-study, cheat-sheet]
+# Data Science (데이터 분석 방법론)
+categories: [data-science, preprocessing]
+categories: [data-science, statistics]
+categories: [data-science, visualization]
+categories: [data-science, eda-methods]
 
-# Data Science & Analysis (데이터 사이언스 & 분석)
-categories: [personal-study, pandas]
-categories: [personal-study, numpy]
-categories: [personal-study, preprocessing]
-categories: [personal-study, visualization]
-categories: [personal-study, sql]
-categories: [personal-study, tableau]
+# Programming & Libraries (프로그래밍 & 라이브러리)
+categories: [programming, python]
+categories: [programming, algorithms]
+categories: [programming, numpy]
+categories: [programming, pandas]
+categories: [programming, matplotlib]
 
 # AI & Machine Learning (AI & 머신러닝)
-categories: [personal-study, deep-learning]
-categories: [gabe-ai-journey, reviews]
+categories: [ai-ml, ml-basics]
+categories: [ai-ml, llm]
+categories: [ai-ml, deep-learning]
+categories: [ai-ml, computer-vision]
+categories: [ai-ml, agents]
 
-# Career & Growth (커리어 & 성장)
-categories: [personal-study, career]
-categories: [gabe-ai-journey, retrospective]
-categories: [personal-study, shadowing]
+# Database (데이터베이스)
+categories: [database, sql-basics]
+categories: [database, sql-advanced]
+categories: [database, nosql]
+
+# Productivity (생산성 & 업무효율화)
+categories: [productivity, automation]
+categories: [productivity, dev-efficiency]
+categories: [productivity, data-workflow]
+categories: [productivity, workplace-tools]
 
 # Portfolio (포트폴리오)
-categories: [portfolio]
+categories: [portfolio, ml-based]
+categories: [portfolio, dl-based]
+categories: [portfolio, data-analysis]
+
+# Growth (성장)
+categories: [growth, reviews]
+categories: [growth, career]
 ```
 
 ### **✅ 카테고리 작성 예시**
 ```yaml
 # ✅ 좋은 예시
 categories:
-  - [personal-study, python]        # Python 학습 포스트
-  - [gabe-ai-journey, reviews]      # AI 과정 리뷰
+  - [programming, python]          # Python 기초/고급 학습 포스트
+  - [programming, pandas]           # Pandas 라이브러리 사용법
+  - [data-science, preprocessing]   # 데이터 전처리 방법론
+  - [ai-ml, deep-learning]          # 딥러닝 관련 포스트
+  - [productivity, automation]      # 업무 자동화 도구/팁
+  - [portfolio, prediction-models]  # 예측 모델 프로젝트
 
 # ❌ 피해야 할 예시  
 categories:
   - python                          # 대분류 없음
-  - [personal-study]               # 소분류 없음
+  - [programming]                   # 소분류 없음
+  - [tools, automation]             # 존재하지 않는 구조 (tools → productivity)
 ```
 
 ---
@@ -344,8 +362,10 @@ hexo clean && hexo generate && hexo server
 ```yaml
 # 해결책: 올바른 YAML 배열 형식 사용
 categories:
-  - [personal-study, python]  # ✅ 올바름
-categories: [python]           # ❌ 대분류 누락
+  - [programming, python-basics]  # ✅ 올바름
+  - [productivity, automation]    # ✅ 올바름
+categories: [python]             # ❌ 대분류 누락
+categories: [tools, automation]  # ❌ 구조 변경됨 (tools → productivity)
 ```
 
 ---
@@ -356,9 +376,26 @@ categories: [python]           # ❌ 대분류 누락
 - [ ] 파일명: `YYYY-MM-DD-제목.md` 형식
 - [ ] 위치: `source/_posts/` 폴더
 - [ ] 메타데이터: title, date, categories 필수
-- [ ] 카테고리: 기존 구조 따라 작성
+- [ ] 카테고리: 위 구조에서 선택하여 작성 (대분류/소분류 필수)
 - [ ] 커버 이미지: 외부 URL 사용 권장
 - [ ] 로컬 테스트: `hexo server`로 확인
+
+### **🎯 카테고리 선택 가이드**
+포스트 작성 시 아래 카테고리 중에서 선택하세요:
+
+**📊 Data Science**: `data-science` → `preprocessing`, `statistics`, `visualization`, `eda-methods`
+**💻 Programming**: `programming` → `python`, `algorithms`, `numpy`, `pandas`, `matplotlib`
+**🤖 AI/ML**: `ai-ml` → `ml-basics`, `llm`, `deep-learning`, `computer-vision`, `agents`  
+**🗄️ Database**: `database` → `sql-basics`, `sql-advanced`, `nosql`
+**⚡ Productivity**: `productivity` → `automation`, `dev-efficiency`, `data-workflow`, `workplace-tools`
+**📁 Portfolio**: `portfolio` → `prediction-models`, `full-stack-projects`, `eda-projects`, `classification`
+**📈 Growth**: `growth` → `reviews`, `career`
+
+### **🎯 카테고리 선택 기준**
+- **Data Science**: 데이터 분석 방법론, 통계 기법, 시각화 방법
+- **Programming**: 프로그래밍 언어 문법, 라이브러리 사용법, 알고리즘
+- **Productivity**: 업무 효율화, 자동화 도구, 개발 생산성 향상
+- **Portfolio**: 완성된 프로젝트, 실제 구현 결과물
 
 ### **⚡ 자주 사용하는 명령어**
 ```bash

@@ -4,6 +4,8 @@ include _mixin/comment.pug
 
 block head
     != _css('post.css')
+    if page.type === 'categories'
+        != _css('categories.css')
     // 临时处理
     link(rel="stylesheet" media="none" onload="this.media='all'" href="https://s4.zstatic.net/ajax/libs/KaTeX/0.16.9/katex.min.css")
 
@@ -35,13 +37,119 @@ block header
 
 block content
     if page.type === 'categories'
-        div(class="collapse wrap")
-            h2(class="item title")
-                a(href=url_for(site.path))
-                    != __('menu.home')
-                small
-                != _p('counter.categories', site.categories.length)
-            != _list_categories(3)
+        // Mixin for category card
+        mixin categoryCard(url, emoji, title, mainCat, subCat, cardClass)
+            - var postCount = getPostCount(mainCat, subCat)
+            div(class=`category-card ${cardClass} ${postCount === 0 ? 'empty-category' : ''}`)
+                if postCount > 0
+                    a(href=url)
+                        div(class="card-icon")
+                            span.card-emoji= emoji
+                        div(class="card-content")
+                            h5(class="card-title")= title
+                            span(class="card-count") #{postCount} posts
+                else
+                    div(class="card-content-disabled")
+                        div(class="card-icon")
+                            span.card-emoji= emoji
+                        div(class="card-content")
+                            h5(class="card-title")= title
+                            span(class="card-count coming-soon") Coming Soon
+        
+        div(class="collapse wrap categories-grid")
+            h2(class="item header") All Categories
+            
+            // 새로운 계층 구조에 맞는 카테고리 계산
+            - var categoryGroups = {}
+            each post in site.posts.toArray()
+                if post.categories && post.categories.length >= 2
+                    - var mainCat = post.categories.toArray()[0].name
+                    - var subCat = post.categories.toArray()[1].name
+                    if !categoryGroups[mainCat]
+                        - categoryGroups[mainCat] = {}
+                    if !categoryGroups[mainCat][subCat]
+                        - categoryGroups[mainCat][subCat] = 0
+                    - categoryGroups[mainCat][subCat]++
+            
+            // 포스팅 개수를 가져오는 헬퍼 함수
+            - var getPostCount = (mainCat, subCat) => { return categoryGroups[mainCat] && categoryGroups[mainCat][subCat] ? categoryGroups[mainCat][subCat] : 0; }
+            
+            // 💻 Programming 상위 카테고리
+            div(class="category-section")
+                h3(class="main-category-title")
+                    span.emoji 💻
+                    span Programming
+                div(class="category-cards-grid")
+                    +categoryCard("/categories/programming/python/", "🐍", "Python", "programming", "python", "programming-card")
+                    +categoryCard("/categories/programming/numpy/", "🔢", "Numpy", "programming", "numpy", "programming-card")
+                    +categoryCard("/categories/programming/pandas/", "🐼", "Pandas", "programming", "pandas", "programming-card")
+                    +categoryCard("/categories/programming/matplotlib/", "📊", "Matplotlib", "programming", "matplotlib", "programming-card")
+                    +categoryCard("/categories/programming/algorithms/", "🧮", "Algorithms", "programming", "algorithms", "programming-card")
+            
+            // 📊 Data Science 상위 카테고리  
+            div(class="category-section")
+                h3(class="main-category-title")
+                    span.emoji 📊
+                    span Data Science
+                div(class="category-cards-grid")
+                    +categoryCard("/categories/data-science/eda-methods/", "🔍", "EDA Methods", "data-science", "eda-methods", "data-science-card")
+                    +categoryCard("/categories/data-science/preprocessing/", "🔧", "Preprocessing", "data-science", "preprocessing", "data-science-card")
+                    +categoryCard("/categories/data-science/statistics/", "📋", "Statistics", "data-science", "statistics", "data-science-card")
+            
+            // 🗄️ Database 상위 카테고리
+            div(class="category-section")
+                h3(class="main-category-title")
+                    span.emoji 🗄️
+                    span Database
+                div(class="category-cards-grid")
+                    +categoryCard("/categories/database/sql-basics/", "📊", "SQL Basics", "database", "sql-basics", "database-card")
+                    +categoryCard("/categories/database/sql-advanced/", "🏗️", "SQL Advanced", "database", "sql-advanced", "database-card")
+                    +categoryCard("/categories/database/nosql/", "🍃", "NoSQL", "database", "nosql", "database-card")
+            
+            // 🤖 AI & Machine Learning 상위 카테고리
+            div(class="category-section")
+                h3(class="main-category-title")
+                    span.emoji 🤖
+                    span AI & Machine Learning
+                div(class="category-cards-grid")
+                    +categoryCard("/categories/ai-ml/ml-basics/", "🎯", "ML Basics", "ai-ml", "ml-basics", "ai-ml-card")
+                    +categoryCard("/categories/ai-ml/deep-learning/", "🧠", "Deep Learning", "ai-ml", "deep-learning", "ai-ml-card")
+                    +categoryCard("/categories/ai-ml/llm/", "💬", "LLM", "ai-ml", "llm", "ai-ml-card")
+                    +categoryCard("/categories/ai-ml/computer-vision/", "👁️", "Computer Vision", "ai-ml", "computer-vision", "ai-ml-card")
+                    +categoryCard("/categories/ai-ml/agents/", "🤝", "AI Agents", "ai-ml", "agents", "ai-ml-card")
+            
+            // 💼 Portfolio 상위 카테고리
+            div(class="category-section")
+                h3(class="main-category-title")
+                    span.emoji 💼
+                    span Portfolio
+                div(class="category-cards-grid")
+                    +categoryCard("/categories/portfolio/eda-projects/", "🔍", "EDA Projects", "portfolio", "eda-projects", "portfolio-card")
+                    +categoryCard("/categories/portfolio/prediction-models/", "📈", "Prediction Models", "portfolio", "prediction-models", "portfolio-card")
+                    +categoryCard("/categories/portfolio/classification/", "🎯", "Classification", "portfolio", "classification", "portfolio-card")
+                    +categoryCard("/categories/portfolio/full-stack-projects/", "🏗️", "Full Stack Projects", "portfolio", "full-stack-projects", "portfolio-card")
+            
+            // 🛠️ Tools & Environment 상위 카테고리
+            div(class="category-section")
+                h3(class="main-category-title")
+                    span.emoji 🛠️
+                    span Tools & Environment
+                div(class="category-cards-grid")
+                    +categoryCard("/categories/tools/development-tools/", "⚒️", "Development Tools", "tools", "development-tools", "tools-card")
+                    +categoryCard("/categories/tools/data-tools/", "📋", "Data Tools", "tools", "data-tools", "tools-card")
+                    +categoryCard("/categories/tools/visualization-tools/", "📊", "Visualization Tools", "tools", "visualization-tools", "tools-card")
+                    +categoryCard("/categories/tools/productivity/", "⚡", "Productivity", "tools", "productivity", "tools-card")
+            
+            // 📝 Growth & Learning 상위 카테고리
+            div(class="category-section")
+                h3(class="main-category-title")
+                    span.emoji 📝
+                    span Growth & Learning
+                div(class="category-cards-grid")
+                    +categoryCard("/categories/growth/course-reviews/", "🎓", "Course Reviews", "growth", "course-reviews", "growth-card")
+                    +categoryCard("/categories/growth/conference-reviews/", "🎤", "Conference Reviews", "growth", "conference-reviews", "growth-card")
+                    +categoryCard("/categories/growth/career-development/", "🚀", "Career Development", "growth", "career-development", "growth-card")
+                    +categoryCard("/categories/growth/study-methods/", "📚", "Study Methods", "growth", "study-methods", "growth-card")
     else if page.type === 'tags'
         div(class="collapse wrap")
             h2(class="item title")

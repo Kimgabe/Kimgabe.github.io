@@ -1,10 +1,11 @@
 ---
-title: "[Review] 모두콘 2023 세미나참여후기"
-cover: "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1920&h=1080&fit=crop"
-date: 2023-12-13
 categories:
-  - [gabe-ai-journey, reviews]
+- growth
+- reviews
+cover: https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1920&h=1080&fit=crop
+date: 2023-12-13
 tags: []
+title: '[Review] 모두콘 2023 세미나참여후기'
 toc: true
 ---
 ## 🚦SUMMARY

@@ -1,10 +1,11 @@
 ---
-title: "[SQLD] 1일차 : 데이터모델링의 이해 - 04. 관계(Relationship)"
-cover: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1920&h=1080&fit=crop"
-date: 2024-04-24
 categories:
-  - [personal-study, sql]
+- database
+- sql-basics
+cover: https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1920&h=1080&fit=crop
+date: 2024-04-24
 tags: []
+title: '[SQLD] 1일차 : 데이터모델링의 이해 - 04. 관계(Relationship)'
 toc: true
 ---
 ## 🚦 Summary

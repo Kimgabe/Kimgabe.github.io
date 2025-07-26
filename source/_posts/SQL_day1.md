@@ -1,10 +1,11 @@
 ---
-title: "[SQL] 「입문」 SQL 첫발 내딛기"
-cover: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1920&h=1080&fit=crop"
-date: 2020-10-20
 categories:
-  - [personal-study, sql]
+- database
+- sql-basics
+cover: https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1920&h=1080&fit=crop
+date: 2020-10-20
 tags: []
+title: '[SQL] 「입문」 SQL 첫발 내딛기'
 toc: true
 ---
 ## 🚦 Summary

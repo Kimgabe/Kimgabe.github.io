@@ -1,10 +1,11 @@
 ---
-title: "[Cheat Sheet] [Pre-processing] 형변환을 활용한 효율적인 데이터 전처리팁 모음"
-cover: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1920&h=1080&fit=crop"
-date: 2023-11-21
 categories:
-  - [personal-study, cheat_sheet]
+- data-science
+- pandas
+cover: https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1920&h=1080&fit=crop
+date: 2023-11-21
 tags: []
+title: '[Cheat Sheet] [Pre-processing] 형변환을 활용한 효율적인 데이터 전처리팁 모음'
 toc: true
 ---
 ## 🚦 Summary 

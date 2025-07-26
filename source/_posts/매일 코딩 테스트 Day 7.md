@@ -1,15 +1,16 @@
 ---
-title: "[Programmers school] 코딩 기초 트레이닝 Day 7"
-cover: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1920&h=1080&fit=crop"
-date: 2023-09-13
 categories:
-  - [personal-study, coding-test]
+- programming
+- algorithms
+cover: https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1920&h=1080&fit=crop
+date: 2023-09-13
 tags:
-  - 수열과 구간쿼리 4
-  - 배열만들기2
-  - 카운트 업
-  - 콜라츠 수열 만들기
-  - 배열만들기 4
+- 수열과 구간쿼리 4
+- 배열만들기2
+- 카운트 업
+- 콜라츠 수열 만들기
+- 배열만들기 4
+title: '[Programmers school] 코딩 기초 트레이닝 Day 7'
 toc: true
 ---
 반복문 개념(for, while)을 응용한 문제를 풀었습니다.

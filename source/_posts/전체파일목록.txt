@@ -1,0 +1,107 @@
+01-numpy.md
+01. [데이터 파편화 문제] concat을 이용한 데이터 병합 (with for loop clause)-generated-version0-v1.md
+02-numpy.md
+02-[예측] 상점 신용카드 매출 예측(2) - Preprocessing-v1.md
+02-[예측] 상점 신용카드 매출 예측(2) - Preprocessing.md
+02. [데이터 파편화 문제]  merge를 이용한 데이터 병합-generated-version1-v1.md
+03-numpy.md
+03. [데이터 파편화 문제]  포맷이 다른 데이터 병합(merge)_(1) 참조 데이터가 필요없는 경우-generated-version1-v1.md
+04-numpy.md
+04. [데이터 파편화 문제]  포맷이 다른 데이터 병합(merge)_(2) 참조 데이터가 필요한 경우-generated-version0-v1.md
+05-numpy.md
+05. [데이터 파편화 문제]  거리 기반의 데이터 병합-generated-version0-v1.md
+06-numpy.md
+06. [데이터 파편화 문제]  데이터 요약이 포함되는 데이터의 병합-generated-version1-v1.md
+07-numpy.md
+07. [결측치 문제] 결측치 확인 및 제거-generated-version0-v1.md
+08-numpy.md
+08. [결측치 문제]  대표값을 활용한 결측치 대체-generated-version0-v1.md
+09-numpy.md
+09. [결측치 문제] 시계열 결측치 대체-generated-version0-v1.md
+10-numpy.md
+10. [결측치 문제] 결측치 예측 모델 활용-generated-version0-v1.md
+11-numpy.md
+11. [범주형 변수문제] 범주형 변수 처리-generated-version1-v1.md
+12-numpy.md
+AIEFFL_firstweek_retrospective.md
+AIFFELCON.md
+AIFFEL_7th_seminar.md
+AIFFEL_vacation.md
+Convolution_알아보기.md
+difference_btw_&_and.md
+dtype으로 효율적으로 데이터 다루기.md
+githubaction_auto_readme.md
+githubblog_codecopy_button.md
+how_to_create_github_profile.md
+how_to_study_ML_DL.md
+SQLD_day1_01_데이터모델의이해.md
+SQLD_day1_02_Entity.md
+SQLD_day1_03_Attribute.md
+SQLD_day1_04_Relationship.md
+SQLD_day1_05_Identifier.md
+SQLD_day2_01_subject_1_wrapup.md
+SQLD_day3_01_normalization.md
+SQLD_day3_02_relationship_n_join.md
+SQLD_day3_03_trtansaction.md
+SQLD_day3_04_null.md
+SQLD_day3_05_identifiers.md
+SQLD_day4_01_subject_1_wrapup2.md
+SQLD스터디_계획.md
+SQL_day1.md
+SQL_day2.md
+SQL_day3.md
+SQL_쿼리문의통찰_리뷰.md
+SQL기초 코테.md
+subtree_of_git.md
+SVGT_Obsidian_2.md
+SVGT_Obsidian_3.md
+tableau_basic_00.md
+ydata_profiling.md
+[EDA] 아스널은 누구를 영입했어야 했을까 (EDA 로 스포츠 데이터 분석하기)-v1.md
+[EDA] 이디야는 스타벅스 옆에 매장을 만드는가-v1.md
+[Kaggle] EDA and Data Viz of The Ages 2023 Dataset-v1.md
+[matplotlib-basic] 00.md
+[matplotlib-basic] 01-v1.md
+[matplotlib-basic] 02-v1.md
+[matplotlib-basic] 03~04-v1.md
+[matplotlib-basic] 05~06-v1.md
+[matplotlib-basic] 07~09-v1.md
+[matplotlib-basic] 07~09.md
+[Pandas 기초] 01-v1.md
+[Pandas 기초] 02-v1.md
+[Pandas 기초] 03-v1.md
+[Tip] 실제 그리드 서치는 어떻게 이뤄질까-generated-version0-v1.md
+[분류] 데이터 분석으로 심부전증을 예측하기-v1.md
+[예측] 상점 신용카드 매출 예측(1) - EDA-v1.md
+[예측] 상점 신용카드 매출 예측(1) - EDA.md
+[예측] 상점 신용카드 매출 예측-v1.md
+[예측] 상점 신용카드 매출 예측.md
+[파이썬 기초] 01-v1.md
+[파이썬 기초] 02-v1.md
+[파이썬 기초] 03-v1.md
+[파이썬 기초] 04-v1.md
+[파이썬 기초] 05-v1.md
+[파이썬 기초] 06-v1.md
+[파이썬 기초] 07-v1.md
+[파이썬 기초] 08-v1.md
+[파이썬 기초] 09-v1.md
+[파이썬 기초] 10-v1.md
+[파이썬 기초] 11-v1.md
+[파이썬 기초] 12-v1.md
+[파이썬 기초] 13-v1.md
+[파이썬 기초] 13.md
+[파이썬 기초] 14-v1.md
+[파이썬 기초] 15-v1.md
+매일 코딩 테스트 Day 1.md
+매일 코딩 테스트 Day 2.md
+매일 코딩 테스트 Day 3.md
+매일 코딩 테스트 Day 4.md
+매일 코딩 테스트 Day 5.md
+매일 코딩 테스트 Day 6.md
+매일 코딩 테스트 Day 7.md
+매일 코딩 테스트 Day 8.md
+오픈소스로 기여하고 취뽀하기.md
+직무분석.md
+직무전환계기.md
+짠내나는데이터다루기.md
+판다스에서_axis_톺아보기.md

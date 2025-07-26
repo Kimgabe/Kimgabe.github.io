@@ -1,10 +1,11 @@
 ---
-title: "[SQLD] 4일차 : 데이터모델과 SQL Wrap up 및 예상문제 풀이"
-cover: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop"
-date: 2024-04-27
 categories:
-  - [personal-study, sql]
+- database
+- sql-basics
+cover: https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop
+date: 2024-04-27
 tags: []
+title: '[SQLD] 4일차 : 데이터모델과 SQL Wrap up 및 예상문제 풀이'
 toc: true
 ---
 ## 🚦 Summary

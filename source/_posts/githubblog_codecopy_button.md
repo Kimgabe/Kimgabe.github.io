@@ -1,10 +1,11 @@
 ---
-title: "[GitHub 블로그] GitHub Blog 코드블록에 복사버튼 추가하기(feat. Minimal-mistakes)"
-cover: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop"
-date: 2024-01-19
 categories:
-  - [personal-study, git]
+- productivity
+- dev-efficiency
+cover: https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop
+date: 2024-01-19
 tags: []
+title: '[GitHub 블로그] GitHub Blog 코드블록에 복사버튼 추가하기(feat. Minimal-mistakes)'
 toc: true
 ---
 ## 🚦 Summary

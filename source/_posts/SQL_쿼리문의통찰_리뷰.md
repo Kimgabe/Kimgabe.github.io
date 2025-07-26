@@ -1,10 +1,11 @@
 ---
-title: "[SQL] 복잡한 쿼리문을 이해하는 마법의 문장을 발견했습니다."
-cover: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop"
-date: 2024-05-18
 categories:
-  - [personal-study, sql]
+- database
+- sql-basics
+cover: https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop
+date: 2024-05-18
 tags: []
+title: '[SQL] 복잡한 쿼리문을 이해하는 마법의 문장을 발견했습니다.'
 toc: true
 ---
 ## 🚦 Summary

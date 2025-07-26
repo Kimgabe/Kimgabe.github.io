@@ -1,11 +1,14 @@
 ---
-title: "[matplotlib-basic] 00. matplotlib 기본옵션 설정하는 법"
-cover: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1920&h=1080&fit=crop"
-date: 2021-07-22
 categories:
-  - [personal-study, visualization]
+- programming
+- matplotlib
+cover: https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1920&h=1080&fit=crop
+date: 2021-07-22
 tags:
-  - - python - 시각화 - visualization - matplotlib - canvas - subplot - title - fontsize - tick - x축 - y축 - legend - marker - linestyle - color - alpha - 투명도 - grid - 이미지저장
+- - python - 시각화 - visualization - matplotlib - canvas - subplot - title - fontsize
+    - tick - x축 - y축 - legend - marker - linestyle - color - alpha - 투명도 - grid -
+    이미지저장
+title: '[matplotlib-basic] 00. matplotlib 기본옵션 설정하는 법'
 toc: true
 ---
 

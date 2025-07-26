@@ -1,24 +1,25 @@
 ---
-title: "[파이썬 기초] 01. Numpy_ndarray와 다양한 함수를 통한 생성"
-cover: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop"
-date: 2021-07-14
 categories:
-  - [personal-study, numpy]
+- programming
+- numpy
+cover: https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop
+date: 2021-07-14
 tags:
-  - python
-  - ndarray
-  - numpy vectorization
-  - 메모리
-  - np.array
-  - ndarray 데이터타입
-  - np.arange
-  - np.ones
-  - np.zeros
-  - np.empty
-  - np.full
-  - np.eye
-  - np.linspace
-  - reshape
+- python
+- ndarray
+- numpy vectorization
+- 메모리
+- np.array
+- ndarray 데이터타입
+- np.arange
+- np.ones
+- np.zeros
+- np.empty
+- np.full
+- np.eye
+- np.linspace
+- reshape
+title: '[파이썬 기초] 01. Numpy_ndarray와 다양한 함수를 통한 생성'
 toc: true
 ---
 Numpy에 대한 개념, 다양한 Ndarray를 생성하는 방법을 정리합니다.

@@ -1,16 +1,17 @@
 ---
-title: "[파이썬 기초] 07. Numpy_broadcasting 이해 및 활용하기"
-cover: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&h=1080&fit=crop"
-date: 2021-07-14
 categories:
-  - [personal-study, numpy]
+- programming
+- numpy
+cover: https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&h=1080&fit=crop
+date: 2021-07-14
 tags:
-  - python
-  - broadcasting
-  - 브로드캐스팅
-  - 서로다른 shape의 numpy끼리 연산하는 방법
-  - scalar
-  - 상수
+- python
+- broadcasting
+- 브로드캐스팅
+- 서로다른 shape의 numpy끼리 연산하는 방법
+- scalar
+- 상수
+title: '[파이썬 기초] 07. Numpy_broadcasting 이해 및 활용하기'
 toc: true
 ---
 서로 다른 차원의 numpy끼리 연산하는 방법인 broadcasting의 개념에 대해 소개합니다.

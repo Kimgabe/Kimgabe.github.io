@@ -1,15 +1,16 @@
 ---
-title: "[Programmers school] 코딩 기초 트레이닝 Day 4"
-cover: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1920&h=1080&fit=crop"
-date: 2023-09-10
 categories:
-  - [personal-study, coding-test]
+- programming
+- algorithms
+cover: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1920&h=1080&fit=crop
+date: 2023-09-10
 tags:
-  - n의 배수
-  - 공배수
-  - 홀짝에 따라 다른값 반환하기
-  - 조건 문자열
-  - flag에 따라 다른값 반환하기
+- n의 배수
+- 공배수
+- 홀짝에 따라 다른값 반환하기
+- 조건 문자열
+- flag에 따라 다른값 반환하기
+title: '[Programmers school] 코딩 기초 트레이닝 Day 4'
 toc: true
 ---
 n의 배수, 공배수, 홀짝에 따라 다른값 반환하기, 조건 문자열, flag에 따라 다른값 반환하기

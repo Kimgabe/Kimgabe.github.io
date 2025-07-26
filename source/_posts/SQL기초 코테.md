@@ -1,10 +1,11 @@
 ---
-title: "[SQL] 코테 BASIC SELCT문 - 3월에 태어난 여성 회원 목록 출력하기"
-cover: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop"
-date: 2024-06-20
 categories:
-  - [personal-study, sql]
+- database
+- sql-basics
+cover: https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop
+date: 2024-06-20
 tags: []
+title: '[SQL] 코테 BASIC SELCT문 - 3월에 태어난 여성 회원 목록 출력하기'
 toc: true
 ---
 ## 🚦 Summary

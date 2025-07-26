@@ -1,18 +1,19 @@
 ---
-title: "[파이썬 기초] 06. Numpy_ axis(축) 이해 및 axis를 파라미터로 갖는 함수"
-cover: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop"
-date: 2021-07-14
 categories:
-  - [personal-study, numpy]
+- programming
+- numpy
+cover: https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop
+date: 2021-07-14
 tags:
-  - python
-  - axis
-  - numpy 축
-  - 1차원 axis
-  - 2차원 axis
-  - 3차원 axis
-  - 행렬
-  - 텐서
+- python
+- axis
+- numpy 축
+- 1차원 axis
+- 2차원 axis
+- 3차원 axis
+- 행렬
+- 텐서
+title: '[파이썬 기초] 06. Numpy_ axis(축) 이해 및 axis를 파라미터로 갖는 함수'
 toc: true
 ---
 Numpy의 축에 대한 개념을 정리합니다.

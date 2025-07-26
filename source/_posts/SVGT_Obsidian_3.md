@@ -1,10 +1,11 @@
 ---
-title: "[쉐벨그투] 옵시디언으로 AI 논문 읽기(3) - 효율적인 논문 읽기 방법론"
-cover: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&h=1080&fit=crop"
-date: 2024-01-08
 categories:
-  - [personal-study, cheat_sheet]
+- tools
+- development-tools
+cover: https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&h=1080&fit=crop
+date: 2024-01-08
 tags: []
+title: '[쉐벨그투] 옵시디언으로 AI 논문 읽기(3) - 효율적인 논문 읽기 방법론'
 toc: true
 ---
 > 💡 **시리즈 최종편 안내**  

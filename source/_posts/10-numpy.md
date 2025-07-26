@@ -1,18 +1,19 @@
 ---
-title: "[파이썬 기초] 10. Numpy_ndarray 데이터로 다양한 그래프 그리기"
-cover: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop"
-date: 2021-07-14
 categories:
-  - [personal-study, numpy]
+- programming
+- numpy
+cover: https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop
+date: 2021-07-14
 tags:
-  - python
-  - 그래프 그리기
-  - line plot
-  - scatter plot
-  - 그래프에 주석추가하기
-  - grid 추가하기
-  - subplot으로 그래프 여러개 그리기
-  - histogram그리기
+- python
+- 그래프 그리기
+- line plot
+- scatter plot
+- 그래프에 주석추가하기
+- grid 추가하기
+- subplot으로 그래프 여러개 그리기
+- histogram그리기
+title: '[파이썬 기초] 10. Numpy_ndarray 데이터로 다양한 그래프 그리기'
 toc: true
 ---
 plot함수를 이용해 numpy 모듈로 추출한 랜덤한 데이터를 시각화 하는 방법을 소개합니다.

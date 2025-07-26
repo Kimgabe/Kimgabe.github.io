@@ -1,20 +1,21 @@
 ---
-title: "[예측] 상점별 미래 3개월 카드매출 예측하기(1) - EDA"
-cover: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop"
-date: 2021-07-06
 categories:
-  - [portfolio]
+- portfolio
+- eda-projects
+cover: https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1920&h=1080&fit=crop
+date: 2021-07-06
 tags:
-  - prediction
-  - regression. DACON
-  - 시계열
-  - 카드매출
-  - 예측
-  - KNN
-  - RandomForestRegressor
-  - LightGBM
-  - 머신러닝
-  - 딥러닝
+- prediction
+- regression. DACON
+- 시계열
+- 카드매출
+- 예측
+- KNN
+- RandomForestRegressor
+- LightGBM
+- 머신러닝
+- 딥러닝
+title: '[예측] 상점별 미래 3개월 카드매출 예측하기(1) - EDA'
 toc: true
 ---
 

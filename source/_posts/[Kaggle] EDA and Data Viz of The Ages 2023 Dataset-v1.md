@@ -1,11 +1,13 @@
 ---
-title: "[Shadowing] EDA and Data Viz of The Ages 2023 Dataset"
-cover: "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1920&h=1080&fit=crop"
-date: 2023-08-09
 categories:
-  - [personal-study, shadowing]
+- data-science
+- eda-methods
+cover: https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1920&h=1080&fit=crop
+date: 2023-08-09
 tags:
-  - - EDA - matplotlib - kaggle - dataset - dendrogram - correlation - preprocessing - folium
+- - EDA - matplotlib - kaggle - dataset - dendrogram - correlation - preprocessing
+    - folium
+title: '[Shadowing] EDA and Data Viz of The Ages 2023 Dataset'
 toc: true
 ---
 The Ages 2023 Dataset을 활용해 EDA를 수행한 Kaggle의 코드를 쉐도잉하며 정리했습니다.

@@ -1,10 +1,11 @@
 ---
-title: "[SQLD] 1일차 : 데이터모델링의 이해 - 05. 식별자(Identifier)"
-cover: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1920&h=1080&fit=crop"
-date: 2024-04-24
 categories:
-  - [personal-study, sql]
+- database
+- sql-basics
+cover: https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1920&h=1080&fit=crop
+date: 2024-04-24
 tags: []
+title: '[SQLD] 1일차 : 데이터모델링의 이해 - 05. 식별자(Identifier)'
 toc: true
 ---
 ## 🚦 Summary

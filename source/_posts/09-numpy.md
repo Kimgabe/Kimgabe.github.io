@@ -1,20 +1,21 @@
 ---
-title: "[파이썬 기초] 09. Numpy_선형대수 연산하기(linalg 서브모듈 )"
-cover: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1920&h=1080&fit=crop"
-date: 2021-07-14
 categories:
-  - [personal-study, numpy]
+- programming
+- numpy
+cover: https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1920&h=1080&fit=crop
+date: 2021-07-14
 tags:
-  - python
-  - ndarray
-  - 선형대수
-  - linalg
-  - np.linalg
-  - 행렬내적구하기
-  - 전치행렬구하기
-  - 역행렬
-  - 정방행렬
-  - 항등행렬
+- python
+- ndarray
+- 선형대수
+- linalg
+- np.linalg
+- 행렬내적구하기
+- 전치행렬구하기
+- 역행렬
+- 정방행렬
+- 항등행렬
+title: '[파이썬 기초] 09. Numpy_선형대수 연산하기(linalg 서브모듈 )'
 toc: true
 ---
 numpy의 선형대수 연산을 위한 linalg 서브모듈의 활용방법에 대해 정리합니다.

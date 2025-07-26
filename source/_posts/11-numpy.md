@@ -1,12 +1,13 @@
 ---
-title: "[파이썬 기초] 11. Numpy_numpy로 로또번호 자동 생성기 만들기"
-cover: "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1920&h=1080&fit=crop"
-date: 2021-07-14
 categories:
-  - [personal-study, numpy]
+- programming
+- numpy
+cover: https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=1920&h=1080&fit=crop
+date: 2021-07-14
 tags:
-  - python
-  - 로또 번호 자동생성기
+- python
+- 로또 번호 자동생성기
+title: '[파이썬 기초] 11. Numpy_numpy로 로또번호 자동 생성기 만들기'
 toc: true
 ---
 그동안 정리한 numpy이론을 활용해 로또번호 자동생성기를 함수로 구현하는 방법을 정리합니다.

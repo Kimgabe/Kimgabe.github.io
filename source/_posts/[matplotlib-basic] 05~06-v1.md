@@ -1,18 +1,19 @@
 ---
-title: "[matplotlib-basic] 05~06. Histogram & Pie Chart"
-cover: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1920&h=1080&fit=crop"
-date: 2021-07-28
 categories:
-  - [personal-study, visualization]
+- programming
+- matplotlib
+cover: https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1920&h=1080&fit=crop
+date: 2021-07-28
 tags:
-  - python
-  - 시각화
-  - visualization
-  - matplotlib
-  - histogram
-  - 히스토그램
-  - pie chart
-  - 파이차트
+- python
+- 시각화
+- visualization
+- matplotlib
+- histogram
+- 히스토그램
+- pie chart
+- 파이차트
+title: '[matplotlib-basic] 05~06. Histogram & Pie Chart'
 toc: true
 ---
 
