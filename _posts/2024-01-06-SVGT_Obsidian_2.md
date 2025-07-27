@@ -225,7 +225,7 @@ Integration된 노트가 저장될 경로를 지정합니다.
 
 **권장 설정:**
 ```
-Notes/Papers/{{citekey}}
+Notes/Papers/`\{\{citekey\}\}`
 ```
 
 ![Output Path 설정](https://i.imgur.com/cbPKFIs.png)

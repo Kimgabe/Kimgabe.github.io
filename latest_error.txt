@@ -1,0 +1,476 @@
+build	Set up job	﻿2025-07-27T14:35:33.5354720Z Current runner version: '2.326.0'
+build	Set up job	2025-07-27T14:35:33.5379893Z ##[group]Runner Image Provisioner
+build	Set up job	2025-07-27T14:35:33.5380839Z Hosted Compute Agent
+build	Set up job	2025-07-27T14:35:33.5381376Z Version: 20250711.363
+build	Set up job	2025-07-27T14:35:33.5381983Z Commit: 6785254374ce925a23743850c1cb91912ce5c14c
+build	Set up job	2025-07-27T14:35:33.5382665Z Build Date: 2025-07-11T20:04:25Z
+build	Set up job	2025-07-27T14:35:33.5383276Z ##[endgroup]
+build	Set up job	2025-07-27T14:35:33.5383805Z ##[group]Operating System
+build	Set up job	2025-07-27T14:35:33.5384445Z Ubuntu
+build	Set up job	2025-07-27T14:35:33.5384926Z 24.04.2
+build	Set up job	2025-07-27T14:35:33.5385398Z LTS
+build	Set up job	2025-07-27T14:35:33.5385882Z ##[endgroup]
+build	Set up job	2025-07-27T14:35:33.5386347Z ##[group]Runner Image
+build	Set up job	2025-07-27T14:35:33.5387283Z Image: ubuntu-24.04
+build	Set up job	2025-07-27T14:35:33.5387772Z Version: 20250720.1.0
+build	Set up job	2025-07-27T14:35:33.5388871Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20250720.1/images/ubuntu/Ubuntu2404-Readme.md
+build	Set up job	2025-07-27T14:35:33.5390279Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20250720.1
+build	Set up job	2025-07-27T14:35:33.5391479Z ##[endgroup]
+build	Set up job	2025-07-27T14:35:33.5392550Z ##[group]GITHUB_TOKEN Permissions
+build	Set up job	2025-07-27T14:35:33.5394731Z Contents: read
+build	Set up job	2025-07-27T14:35:33.5395368Z Metadata: read
+build	Set up job	2025-07-27T14:35:33.5395895Z Pages: write
+build	Set up job	2025-07-27T14:35:33.5396789Z ##[endgroup]
+build	Set up job	2025-07-27T14:35:33.5398788Z Secret source: Actions
+build	Set up job	2025-07-27T14:35:33.5399819Z Prepare workflow directory
+build	Set up job	2025-07-27T14:35:33.5733055Z Prepare all required actions
+build	Set up job	2025-07-27T14:35:33.5771339Z Getting action download info
+build	Set up job	2025-07-27T14:35:33.9231217Z ##[group]Download immutable action package 'actions/checkout@v4'
+build	Set up job	2025-07-27T14:35:33.9232250Z Version: 4.2.2
+build	Set up job	2025-07-27T14:35:33.9233257Z Digest: sha256:ccb2698953eaebd21c7bf6268a94f9c26518a7e38e27e0b83c1fe1ad049819b1
+build	Set up job	2025-07-27T14:35:33.9234439Z Source commit SHA: 11bd71901bbe5b1630ceea73d27597364c9af683
+build	Set up job	2025-07-27T14:35:33.9235204Z ##[endgroup]
+build	Set up job	2025-07-27T14:35:34.0143141Z Download action repository 'actions/jekyll-build-pages@v1' (SHA:44a6e6beabd48582f863aeeb6cb2151cc1716697)
+build	Set up job	2025-07-27T14:35:34.5108890Z ##[group]Download immutable action package 'actions/upload-pages-artifact@v3'
+build	Set up job	2025-07-27T14:35:34.5109777Z Version: 3.0.1
+build	Set up job	2025-07-27T14:35:34.5110583Z Digest: sha256:aa65de5e734350e024ca30fe125144b6260e68160e01349fc79f7e321ec35490
+build	Set up job	2025-07-27T14:35:34.5111572Z Source commit SHA: 56afc609e74202658d3ffba0e8f6dda462b719fa
+build	Set up job	2025-07-27T14:35:34.5112227Z ##[endgroup]
+build	Set up job	2025-07-27T14:35:34.8039206Z Getting action download info
+build	Set up job	2025-07-27T14:35:34.9348445Z ##[group]Download immutable action package 'actions/upload-artifact@v4'
+build	Set up job	2025-07-27T14:35:34.9349436Z Version: 4.6.2
+build	Set up job	2025-07-27T14:35:34.9350231Z Digest: sha256:290722aa3281d5caf23d0acdc3dbeb3424786a1a01a9cc97e72f147225e37c38
+build	Set up job	2025-07-27T14:35:34.9351316Z Source commit SHA: ea165f8d65b6e75b540449e92b4886f43607fa02
+build	Set up job	2025-07-27T14:35:34.9352062Z ##[endgroup]
+build	Set up job	2025-07-27T14:35:35.0741531Z Complete job name: build
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	﻿2025-07-27T14:35:35.1198601Z ##[group]Pull down action image 'ghcr.io/actions/jekyll-build-pages:v1.0.13'
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:35.1274337Z ##[command]/usr/bin/docker pull ghcr.io/actions/jekyll-build-pages:v1.0.13
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:36.5913227Z v1.0.13: Pulling from actions/jekyll-build-pages
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:36.5913903Z efc2b5ad9eec: Pulling fs layer
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:36.5914241Z 165b60d1bb48: Pulling fs layer
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:36.5914567Z 2a328af1ca3a: Pulling fs layer
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:36.5914877Z 32b58fa44788: Pulling fs layer
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:36.5915189Z 590ab93c22d2: Pulling fs layer
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:36.5915521Z 26ea96c4c14c: Pulling fs layer
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:36.5915836Z bd7e451dfea1: Pulling fs layer
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:36.5916158Z c209e9dadc51: Pulling fs layer
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:36.5916667Z a4925b5c711a: Pulling fs layer
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:36.5917000Z cd9459784e3c: Pulling fs layer
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:36.5917341Z 32b58fa44788: Waiting
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:36.5917628Z 26ea96c4c14c: Waiting
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:36.5917908Z 590ab93c22d2: Waiting
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:36.5918299Z bd7e451dfea1: Waiting
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:36.5918579Z c209e9dadc51: Waiting
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:36.5918863Z a4925b5c711a: Waiting
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:36.5919467Z cd9459784e3c: Waiting
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:36.8722473Z 2a328af1ca3a: Verifying Checksum
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:36.8723572Z 2a328af1ca3a: Download complete
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:37.0808539Z 165b60d1bb48: Verifying Checksum
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:37.0809206Z 165b60d1bb48: Download complete
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:37.0961329Z efc2b5ad9eec: Verifying Checksum
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:37.0962175Z efc2b5ad9eec: Download complete
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:37.2313926Z 32b58fa44788: Verifying Checksum
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:37.2314511Z 32b58fa44788: Download complete
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:37.2460968Z 590ab93c22d2: Verifying Checksum
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:37.2461534Z 590ab93c22d2: Download complete
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:37.3692896Z bd7e451dfea1: Verifying Checksum
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:37.3697209Z bd7e451dfea1: Download complete
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:37.5646230Z a4925b5c711a: Verifying Checksum
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:37.5650653Z a4925b5c711a: Download complete
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:37.5942499Z c209e9dadc51: Verifying Checksum
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:37.5945131Z c209e9dadc51: Download complete
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:37.7231211Z cd9459784e3c: Verifying Checksum
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:37.7233806Z cd9459784e3c: Download complete
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:37.8964126Z 26ea96c4c14c: Verifying Checksum
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:37.8964943Z 26ea96c4c14c: Download complete
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:38.3477887Z efc2b5ad9eec: Pull complete
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:39.7106971Z 165b60d1bb48: Pull complete
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:39.7230514Z 2a328af1ca3a: Pull complete
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:40.6672776Z 32b58fa44788: Pull complete
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:40.6781016Z 590ab93c22d2: Pull complete
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:44.6974297Z 26ea96c4c14c: Pull complete
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:44.7077144Z bd7e451dfea1: Pull complete
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:46.6984661Z c209e9dadc51: Pull complete
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:46.7244669Z a4925b5c711a: Pull complete
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:46.7360914Z cd9459784e3c: Pull complete
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:46.7404551Z Digest: sha256:6791ebfd912185ed59bfb5fb102664fa872496b79f87ff8b9cfba292a7345041
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:46.7422295Z Status: Downloaded newer image for ghcr.io/actions/jekyll-build-pages:v1.0.13
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:46.7433939Z ghcr.io/actions/jekyll-build-pages:v1.0.13
+build	Pull ghcr.io/actions/jekyll-build-pages:v1.0.13	2025-07-27T14:35:46.7464555Z ##[endgroup]
+build	Checkout	﻿2025-07-27T14:35:46.7729935Z ##[group]Run actions/checkout@v4
+build	Checkout	2025-07-27T14:35:46.7730504Z with:
+build	Checkout	2025-07-27T14:35:46.7730721Z   ref: main
+build	Checkout	2025-07-27T14:35:46.7730922Z   submodules: recursive
+build	Checkout	2025-07-27T14:35:46.7731161Z   repository: Kimgabe/Kimgabe.github.io
+build	Checkout	2025-07-27T14:35:46.7731560Z   token: ***
+build	Checkout	2025-07-27T14:35:46.7731753Z   ssh-strict: true
+build	Checkout	2025-07-27T14:35:46.7731938Z   ssh-user: git
+build	Checkout	2025-07-27T14:35:46.7732138Z   persist-credentials: true
+build	Checkout	2025-07-27T14:35:46.7732353Z   clean: true
+build	Checkout	2025-07-27T14:35:46.7732558Z   sparse-checkout-cone-mode: true
+build	Checkout	2025-07-27T14:35:46.7732792Z   fetch-depth: 1
+build	Checkout	2025-07-27T14:35:46.7732980Z   fetch-tags: false
+build	Checkout	2025-07-27T14:35:46.7733176Z   show-progress: true
+build	Checkout	2025-07-27T14:35:46.7733364Z   lfs: false
+build	Checkout	2025-07-27T14:35:46.7733547Z   set-safe-directory: true
+build	Checkout	2025-07-27T14:35:46.7733933Z ##[endgroup]
+build	Checkout	2025-07-27T14:35:46.8787647Z Syncing repository: Kimgabe/Kimgabe.github.io
+build	Checkout	2025-07-27T14:35:46.8788954Z ##[group]Getting Git version info
+build	Checkout	2025-07-27T14:35:46.8789393Z Working directory is '/home/runner/work/Kimgabe.github.io/Kimgabe.github.io'
+build	Checkout	2025-07-27T14:35:46.8790058Z [command]/usr/bin/git version
+build	Checkout	2025-07-27T14:35:46.8839773Z git version 2.50.1
+build	Checkout	2025-07-27T14:35:46.8865629Z ##[endgroup]
+build	Checkout	2025-07-27T14:35:46.8879595Z Temporarily overriding HOME='/home/runner/work/_temp/d7b4adac-435d-45aa-9c0f-6e5a74b72c25' before making global git config changes
+build	Checkout	2025-07-27T14:35:46.8880823Z Adding repository directory to the temporary git global config as a safe directory
+build	Checkout	2025-07-27T14:35:46.8893119Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Kimgabe.github.io/Kimgabe.github.io
+build	Checkout	2025-07-27T14:35:46.8926694Z Deleting the contents of '/home/runner/work/Kimgabe.github.io/Kimgabe.github.io'
+build	Checkout	2025-07-27T14:35:46.8929933Z ##[group]Initializing the repository
+build	Checkout	2025-07-27T14:35:46.8933879Z [command]/usr/bin/git init /home/runner/work/Kimgabe.github.io/Kimgabe.github.io
+build	Checkout	2025-07-27T14:35:46.9033321Z hint: Using 'master' as the name for the initial branch. This default branch name
+build	Checkout	2025-07-27T14:35:46.9034262Z hint: is subject to change. To configure the initial branch name to use in all
+build	Checkout	2025-07-27T14:35:46.9035144Z hint: of your new repositories, which will suppress this warning, call:
+build	Checkout	2025-07-27T14:35:46.9035764Z hint:
+build	Checkout	2025-07-27T14:35:46.9036241Z hint: 	git config --global init.defaultBranch <name>
+build	Checkout	2025-07-27T14:35:46.9036981Z hint:
+build	Checkout	2025-07-27T14:35:46.9037455Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+build	Checkout	2025-07-27T14:35:46.9038070Z hint: 'development'. The just-created branch can be renamed via this command:
+build	Checkout	2025-07-27T14:35:46.9038480Z hint:
+build	Checkout	2025-07-27T14:35:46.9038691Z hint: 	git branch -m <name>
+build	Checkout	2025-07-27T14:35:46.9038948Z hint:
+build	Checkout	2025-07-27T14:35:46.9039277Z hint: Disable this message with "git config set advice.defaultBranchName false"
+build	Checkout	2025-07-27T14:35:46.9039901Z Initialized empty Git repository in /home/runner/work/Kimgabe.github.io/Kimgabe.github.io/.git/
+build	Checkout	2025-07-27T14:35:46.9047291Z [command]/usr/bin/git remote add origin https://github.com/Kimgabe/Kimgabe.github.io
+build	Checkout	2025-07-27T14:35:46.9079354Z ##[endgroup]
+build	Checkout	2025-07-27T14:35:46.9080137Z ##[group]Disabling automatic garbage collection
+build	Checkout	2025-07-27T14:35:46.9084424Z [command]/usr/bin/git config --local gc.auto 0
+build	Checkout	2025-07-27T14:35:46.9112025Z ##[endgroup]
+build	Checkout	2025-07-27T14:35:46.9112395Z ##[group]Setting up auth
+build	Checkout	2025-07-27T14:35:46.9119273Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+build	Checkout	2025-07-27T14:35:46.9152623Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build	Checkout	2025-07-27T14:35:46.9434922Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build	Checkout	2025-07-27T14:35:46.9464329Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build	Checkout	2025-07-27T14:35:46.9683756Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+build	Checkout	2025-07-27T14:35:46.9718864Z ##[endgroup]
+build	Checkout	2025-07-27T14:35:46.9719524Z ##[group]Fetching the repository
+build	Checkout	2025-07-27T14:35:46.9727655Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +refs/heads/main*:refs/remotes/origin/main* +refs/tags/main*:refs/tags/main*
+build	Checkout	2025-07-27T14:35:50.0624456Z From https://github.com/Kimgabe/Kimgabe.github.io
+build	Checkout	2025-07-27T14:35:50.0625098Z  * [new branch]      main       -> origin/main
+build	Checkout	2025-07-27T14:35:50.0652057Z ##[endgroup]
+build	Checkout	2025-07-27T14:35:50.0652631Z ##[group]Determining the checkout info
+build	Checkout	2025-07-27T14:35:50.0659401Z [command]/usr/bin/git branch --list --remote origin/main
+build	Checkout	2025-07-27T14:35:50.0681832Z   origin/main
+build	Checkout	2025-07-27T14:35:50.0687620Z ##[endgroup]
+build	Checkout	2025-07-27T14:35:50.0692337Z [command]/usr/bin/git sparse-checkout disable
+build	Checkout	2025-07-27T14:35:50.0731582Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+build	Checkout	2025-07-27T14:35:50.0757374Z ##[group]Checking out the ref
+build	Checkout	2025-07-27T14:35:50.0762545Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+build	Checkout	2025-07-27T14:35:50.8587415Z Switched to a new branch 'main'
+build	Checkout	2025-07-27T14:35:50.8592574Z branch 'main' set up to track 'origin/main'.
+build	Checkout	2025-07-27T14:35:50.8651541Z ##[endgroup]
+build	Checkout	2025-07-27T14:35:50.8652286Z ##[group]Setting up auth for fetching submodules
+build	Checkout	2025-07-27T14:35:50.8659236Z [command]/usr/bin/git config --global http.https://github.com/.extraheader AUTHORIZATION: basic ***
+build	Checkout	2025-07-27T14:35:50.8698842Z [command]/usr/bin/git config --global --unset-all url.https://github.com/.insteadOf
+build	Checkout	2025-07-27T14:35:50.8728238Z [command]/usr/bin/git config --global --add url.https://github.com/.insteadOf git@github.com:
+build	Checkout	2025-07-27T14:35:50.8757895Z [command]/usr/bin/git config --global --add url.https://github.com/.insteadOf org-74717033@github.com:
+build	Checkout	2025-07-27T14:35:50.8782642Z ##[endgroup]
+build	Checkout	2025-07-27T14:35:50.8783212Z ##[group]Fetching submodules
+build	Checkout	2025-07-27T14:35:50.8787469Z [command]/usr/bin/git submodule sync --recursive
+build	Checkout	2025-07-27T14:35:50.9008020Z [command]/usr/bin/git -c protocol.version=2 submodule update --init --force --depth=1 --recursive
+build	Checkout	2025-07-27T14:35:50.9229178Z [command]/usr/bin/git submodule foreach --recursive git config --local gc.auto 0
+build	Checkout	2025-07-27T14:35:50.9452230Z ##[endgroup]
+build	Checkout	2025-07-27T14:35:50.9452697Z ##[group]Persisting credentials for submodules
+build	Checkout	2025-07-27T14:35:50.9459060Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'url\.https\:\/\/github\.com\/\.insteadOf' && git config --local --unset-all 'url.https://github.com/.insteadOf' || :"
+build	Checkout	2025-07-27T14:35:50.9679629Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local 'http.https://github.com/.extraheader' 'AUTHORIZATION: basic ***' && git config --local --show-origin --name-only --get-regexp remote.origin.url"
+build	Checkout	2025-07-27T14:35:50.9903537Z [command]/usr/bin/git submodule foreach --recursive git config --local --add 'url.https://github.com/.insteadOf' 'git@github.com:'
+build	Checkout	2025-07-27T14:35:51.0124160Z [command]/usr/bin/git submodule foreach --recursive git config --local --add 'url.https://github.com/.insteadOf' 'org-74717033@github.com:'
+build	Checkout	2025-07-27T14:35:51.0339706Z ##[endgroup]
+build	Checkout	2025-07-27T14:35:51.0382239Z [command]/usr/bin/git log -1 --format=%H
+build	Checkout	2025-07-27T14:35:51.0405711Z 809583e73966d88bf9657553397455b8ec326b96
+build	Build with Jekyll	﻿2025-07-27T14:35:51.0577086Z ##[group]Run actions/jekyll-build-pages@v1
+build	Build with Jekyll	2025-07-27T14:35:51.0577396Z with:
+build	Build with Jekyll	2025-07-27T14:35:51.0577572Z   source: .
+build	Build with Jekyll	2025-07-27T14:35:51.0577758Z   destination: ./_site
+build	Build with Jekyll	2025-07-27T14:35:51.0577955Z   future: false
+build	Build with Jekyll	2025-07-27T14:35:51.0578189Z   build_revision: 809583e73966d88bf9657553397455b8ec326b96
+build	Build with Jekyll	2025-07-27T14:35:51.0578471Z   verbose: true
+build	Build with Jekyll	2025-07-27T14:35:51.0578761Z   token: ***
+build	Build with Jekyll	2025-07-27T14:35:51.0578957Z ##[endgroup]
+build	Build with Jekyll	2025-07-27T14:35:51.0666361Z ##[command]/usr/bin/docker run --name ghcrioactionsjekyllbuildpagesv1013_4678a0 --label 47aed8 --workdir /github/workspace --rm -e "INPUT_SOURCE" -e "INPUT_DESTINATION" -e "INPUT_FUTURE" -e "INPUT_BUILD_REVISION" -e "INPUT_VERBOSE" -e "INPUT_TOKEN" -e "HOME" -e "GITHUB_JOB" -e "GITHUB_REF" -e "GITHUB_SHA" -e "GITHUB_REPOSITORY" -e "GITHUB_REPOSITORY_OWNER" -e "GITHUB_REPOSITORY_OWNER_ID" -e "GITHUB_RUN_ID" -e "GITHUB_RUN_NUMBER" -e "GITHUB_RETENTION_DAYS" -e "GITHUB_RUN_ATTEMPT" -e "GITHUB_ACTOR_ID" -e "GITHUB_ACTOR" -e "GITHUB_WORKFLOW" -e "GITHUB_HEAD_REF" -e "GITHUB_BASE_REF" -e "GITHUB_EVENT_NAME" -e "GITHUB_SERVER_URL" -e "GITHUB_API_URL" -e "GITHUB_GRAPHQL_URL" -e "GITHUB_REF_NAME" -e "GITHUB_REF_PROTECTED" -e "GITHUB_REF_TYPE" -e "GITHUB_WORKFLOW_REF" -e "GITHUB_WORKFLOW_SHA" -e "GITHUB_REPOSITORY_ID" -e "GITHUB_TRIGGERING_ACTOR" -e "GITHUB_WORKSPACE" -e "GITHUB_ACTION" -e "GITHUB_EVENT_PATH" -e "GITHUB_ACTION_REPOSITORY" -e "GITHUB_ACTION_REF" -e "GITHUB_PATH" -e "GITHUB_ENV" -e "GITHUB_STEP_SUMMARY" -e "GITHUB_STATE" -e "GITHUB_OUTPUT" -e "RUNNER_OS" -e "RUNNER_ARCH" -e "RUNNER_NAME" -e "RUNNER_ENVIRONMENT" -e "RUNNER_TOOL_CACHE" -e "RUNNER_TEMP" -e "RUNNER_WORKSPACE" -e "ACTIONS_RUNTIME_URL" -e "ACTIONS_RUNTIME_TOKEN" -e "ACTIONS_CACHE_URL" -e "ACTIONS_ID_TOKEN_REQUEST_URL" -e "ACTIONS_ID_TOKEN_REQUEST_TOKEN" -e "ACTIONS_RESULTS_URL" -e GITHUB_ACTIONS=true -e CI=true -v "/var/run/docker.sock":"/var/run/docker.sock" -v "/home/runner/work/_temp/_github_home":"/github/home" -v "/home/runner/work/_temp/_github_workflow":"/github/workflow" -v "/home/runner/work/_temp/_runner_file_commands":"/github/file_commands" -v "/home/runner/work/Kimgabe.github.io/Kimgabe.github.io":"/github/workspace" ghcr.io/actions/jekyll-build-pages:v1.0.13
+build	Build with Jekyll	2025-07-27T14:35:52.2726830Z Bundler can't satisfy your Gemfile's dependencies.
+build	Build with Jekyll	2025-07-27T14:35:52.2727419Z Install missing gems with `bundle install`.
+build	Build with Jekyll	2025-07-27T14:35:52.2766687Z ##[warning]The github-pages gem can't satisfy your Gemfile's dependencies. If you want to use a different Jekyll version or need additional dependencies, consider building Jekyll site with GitHub Actions: https://jekyllrb.com/docs/continuous-integration/github-actions/
+build	Build with Jekyll	2025-07-27T14:35:52.9244017Z To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+build	Build with Jekyll	2025-07-27T14:35:54.5617269Z [33m     Build Warning: Layout 'single' requested in _posts/2020-08-07-[EDA] 아스널은 누구를 영입했어야 했을까 (EDA 로 스포츠 데이터 분석하기).md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:54.8395687Z [33m     Build Warning: Layout 'single' requested in docs/portfolio/data-analysis/_posts/2020-08-07-[EDA] 아스널은 누구를 영입했어야 했을까 (EDA 로 스포츠 데이터 분석하기).md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:54.8518183Z [33m     Build Warning: Layout 'single' requested in _posts/2021-05-14-tableau_basic_00.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:54.8569220Z [33m     Build Warning: Layout 'single' requested in docs/data-science/visualization/_posts/2021-05-14-tableau_basic_00.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:54.9524242Z [33m     Build Warning: Layout 'single' requested in _posts/2021-06-17-[분류] 데이터 분석으로 심부전증을 예측하기.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.0499255Z [33m     Build Warning: Layout 'single' requested in docs/portfolio/ml-based/_posts/2021-06-17-[분류] 데이터 분석으로 심부전증을 예측하기.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.0780591Z [33m     Build Warning: Layout 'single' requested in _posts/2021-06-26-Python-Basic-01.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.0964746Z [33m     Build Warning: Layout 'single' requested in _posts/2021-06-26-Python-Basic-02.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.1009483Z [33m     Build Warning: Layout 'single' requested in _posts/2021-06-26-Python-Basic-03.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.1118336Z [33m     Build Warning: Layout 'single' requested in _posts/2021-06-26-Python-Basic-04.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.1408780Z [33m     Build Warning: Layout 'single' requested in _posts/2021-06-26-Python-Basic-05.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.1650739Z [33m     Build Warning: Layout 'single' requested in _posts/2021-06-26-Python-Basic-06.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.1788149Z [33m     Build Warning: Layout 'single' requested in _posts/2021-06-26-Python-Basic-07.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.1899983Z [33m     Build Warning: Layout 'single' requested in _posts/2021-06-26-Python-Basic-08.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.2182330Z [33m     Build Warning: Layout 'single' requested in _posts/2021-06-26-Python-Basic-09.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.2345436Z [33m     Build Warning: Layout 'single' requested in _posts/2021-06-26-Python-Basic-10.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.2599877Z [33m     Build Warning: Layout 'single' requested in _posts/2021-06-26-Python-Basic-11.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.2719419Z [33m     Build Warning: Layout 'single' requested in _posts/2021-06-26-Python-Basic-12.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.2790467Z [33m     Build Warning: Layout 'single' requested in _posts/2021-06-26-Python-Basic-13.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.3244649Z [33m     Build Warning: Layout 'single' requested in _posts/2021-06-26-Python-Basic-14.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.3615619Z [33m     Build Warning: Layout 'single' requested in _posts/2021-06-26-Python-Basic-15.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.4061774Z [33m     Build Warning: Layout 'single' requested in _posts/2021-07-06-[예측] 상점 신용카드 매출 예측(1) - EDA.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.4525709Z [33m     Build Warning: Layout 'single' requested in docs/portfolio/data-analysis/_posts/2021-07-06-[예측] 상점 신용카드 매출 예측(1) - EDA.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.4989513Z [33m     Build Warning: Layout 'single' requested in docs/portfolio/ml-based/_posts/2021-07-06-[예측] 상점 신용카드 매출 예측(1) - EDA.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.5607645Z [33m     Build Warning: Layout 'single' requested in docs/portfolio/ml-based/_posts/2021-07-08-02-[예측] 상점 신용카드 매출 예측(2) - Preprocessing.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.6988158Z [33m     Build Warning: Layout 'single' requested in docs/portfolio/ml-based/_posts/2021-07-10-[예측] 상점 신용카드 매출 예측.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.7475431Z [33m     Build Warning: Layout 'single' requested in docs/programming/numpy/_posts/2021-07-14-01-numpy.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.7570780Z [33m     Build Warning: Layout 'single' requested in docs/programming/numpy/_posts/2021-07-14-02-numpy.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.7716932Z [33m     Build Warning: Layout 'single' requested in docs/programming/numpy/_posts/2021-07-14-03-numpy.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.7957002Z [33m     Build Warning: Layout 'single' requested in docs/programming/numpy/_posts/2021-07-14-04-numpy.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.8185254Z [33m     Build Warning: Layout 'single' requested in docs/programming/numpy/_posts/2021-07-14-05-numpy.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.8279775Z [33m     Build Warning: Layout 'single' requested in docs/programming/numpy/_posts/2021-07-14-06-numpy.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.8368549Z [33m     Build Warning: Layout 'single' requested in docs/programming/numpy/_posts/2021-07-14-07-numpy.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.8463334Z [33m     Build Warning: Layout 'single' requested in docs/programming/numpy/_posts/2021-07-14-08-numpy.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.8546374Z [33m     Build Warning: Layout 'single' requested in docs/programming/numpy/_posts/2021-07-14-09-numpy.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.8894398Z [33m     Build Warning: Layout 'single' requested in docs/programming/numpy/_posts/2021-07-14-10-numpy.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.8941664Z [33m     Build Warning: Layout 'single' requested in docs/programming/numpy/_posts/2021-07-14-11-numpy.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:55.8993967Z [33m     Build Warning: Layout 'single' requested in docs/programming/numpy/_posts/2021-07-14-12-numpy.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:56.0989123Z [33m     Build Warning: Layout 'single' requested in docs/programming/matplotlib-seaborn/_posts/2021-07-22-[matplotlib-basic] 00.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:56.1311176Z [33m     Build Warning: Layout 'single' requested in docs/programming/matplotlib-seaborn/_posts/2021-07-22-[matplotlib-basic] 01.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:56.1555763Z [33m     Build Warning: Layout 'single' requested in docs/programming/matplotlib-seaborn/_posts/2021-07-23-[matplotlib-basic] 02.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:56.2323491Z [33m     Build Warning: Layout 'single' requested in docs/programming/matplotlib-seaborn/_posts/2021-07-24-[matplotlib-basic] 03~04.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:56.2573982Z [33m     Build Warning: Layout 'single' requested in docs/programming/matplotlib-seaborn/_posts/2021-07-28-[matplotlib-basic] 05~06.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:56.3771139Z [33m     Build Warning: Layout 'single' requested in docs/programming/matplotlib-seaborn/_posts/2021-08-03-[matplotlib-basic] 07~09.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:58.1214326Z [33m     Build Warning: Layout 'single' requested in _posts/2023-08-09-[Kaggle] EDA and Data Viz of The Ages 2023 Dataset.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:35:59.8698897Z [33m     Build Warning: Layout 'single' requested in docs/data-science/visualization/_posts/2023-08-09-[Kaggle] EDA and Data Viz of The Ages 2023 Dataset.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.0034904Z [33m     Build Warning: Layout 'single' requested in docs/programming/pandas/_posts/2023-08-11-[Pandas 기초] 01.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.0267450Z [33m     Build Warning: Layout 'single' requested in _posts/2023-09-07-Daily-Coding-Test-Day-1.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.0527955Z [33m     Build Warning: Layout 'single' requested in _posts/2023-09-08-Daily-Coding-Test-Day-2.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.0852418Z [33m     Build Warning: Layout 'single' requested in _posts/2023-09-09-Daily-Coding-Test-Day-3.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.1183708Z [33m     Build Warning: Layout 'single' requested in _posts/2023-09-10-Daily-Coding-Test-Day-4.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.1552104Z [33m     Build Warning: Layout 'single' requested in _posts/2023-09-11-Daily-Coding-Test-Day-5.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.1808499Z [33m     Build Warning: Layout 'single' requested in _posts/2023-09-12-Daily-Coding-Test-Day-6.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.2077315Z [33m     Build Warning: Layout 'single' requested in _posts/2023-09-13-Daily-Coding-Test-Day-7.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.2397151Z [33m     Build Warning: Layout 'single' requested in _posts/2023-09-14-Daily-Coding-Test-Day-8.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.2482371Z [33m     Build Warning: Layout 'single' requested in _posts/2023-11-01-01. [데이터 파편화 문제] concat을 이용한 데이터 병합 (with for loop clause)-generated-version0.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.2565330Z [33m     Build Warning: Layout 'single' requested in docs/data-science/preprocessing/_posts/2023-11-01-01. [데이터 파편화 문제] concat을 이용한 데이터 병합 (with for loop clause)-generated-version0.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.2648305Z [33m     Build Warning: Layout 'single' requested in _posts/2023-11-02-02. [데이터 파편화 문제] merge를 이용한 데이터 병합-generated-version1.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.2727348Z [33m     Build Warning: Layout 'single' requested in docs/data-science/preprocessing/_posts/2023-11-02-02. [데이터 파편화 문제] merge를 이용한 데이터 병합-generated-version1.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.2815918Z [33m     Build Warning: Layout 'single' requested in _posts/2023-11-03-03. [데이터 파편화 문제] 포맷이 다른 데이터 병합(merge)_(1) 참조 데이터가 필요없는 경우-generated-version1.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.2902750Z [33m     Build Warning: Layout 'single' requested in docs/data-science/preprocessing/_posts/2023-11-03-03. [데이터 파편화 문제] 포맷이 다른 데이터 병합(merge)_(1) 참조 데이터가 필요없는 경우-generated-version1.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.3004632Z [33m     Build Warning: Layout 'single' requested in _posts/2023-11-04-04. [데이터 파편화 문제] 포맷이 다른 데이터 병합(merge)_(2) 참조 데이터가 필요한 경우-generated-version0.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.3106274Z [33m     Build Warning: Layout 'single' requested in docs/data-science/preprocessing/_posts/2023-11-04-04. [데이터 파편화 문제] 포맷이 다른 데이터 병합(merge)_(2) 참조 데이터가 필요한 경우-generated-version0.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.3217617Z [33m     Build Warning: Layout 'single' requested in _posts/2023-11-05-05. [데이터 파편화 문제] 거리 기반의 데이터 병합-generated-version0.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.3333862Z [33m     Build Warning: Layout 'single' requested in docs/data-science/preprocessing/_posts/2023-11-05-05. [데이터 파편화 문제] 거리 기반의 데이터 병합-generated-version0.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.3423900Z [33m     Build Warning: Layout 'single' requested in _posts/2023-11-06-06. [데이터 파편화 문제] 데이터 요약이 포함되는 데이터의 병합-generated-version1.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.3509920Z [33m     Build Warning: Layout 'single' requested in docs/data-science/preprocessing/_posts/2023-11-06-06. [데이터 파편화 문제] 데이터 요약이 포함되는 데이터의 병합-generated-version1.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.3631381Z [33m     Build Warning: Layout 'single' requested in _posts/2023-11-07-07. [결측치 문제] 결측치 확인 및 제거-generated-version0.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.3690859Z [33m     Build Warning: Layout 'single' requested in _posts/2023-11-07-how_to_create_github_profile.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.3808465Z [33m     Build Warning: Layout 'single' requested in docs/data-science/preprocessing/_posts/2023-11-07-07. [결측치 문제] 결측치 확인 및 제거-generated-version0.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.3867006Z [33m     Build Warning: Layout 'single' requested in docs/growth/reviews/_posts/2023-11-07-how_to_create_github_profile.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.4006641Z [33m     Build Warning: Layout 'single' requested in _posts/2023-11-08-08. [결측치 문제] 대표값을 활용한 결측치 대체-generated-version0.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.4099402Z [33m     Build Warning: Layout 'single' requested in _posts/2023-11-08-how_to_study_ML_DL.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.4257513Z [33m     Build Warning: Layout 'single' requested in docs/data-science/preprocessing/_posts/2023-11-08-08. [결측치 문제] 대표값을 활용한 결측치 대체-generated-version0.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.4358939Z [33m     Build Warning: Layout 'single' requested in docs/growth/reviews/_posts/2023-11-08-how_to_study_ML_DL.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.4423735Z [33m     Build Warning: Layout 'single' requested in _posts/2023-11-09-09. [결측치 문제] 시계열 결측치 대체-generated-version0.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.4484751Z [33m     Build Warning: Layout 'single' requested in docs/data-science/preprocessing/_posts/2023-11-09-09. [결측치 문제] 시계열 결측치 대체-generated-version0.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.4575232Z [33m     Build Warning: Layout 'single' requested in _posts/2023-11-10-10. [결측치 문제] 결측치 예측 모델 활용-generated-version0.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.4662232Z [33m     Build Warning: Layout 'single' requested in docs/data-science/preprocessing/_posts/2023-11-10-10. [결측치 문제] 결측치 예측 모델 활용-generated-version0.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.4837269Z [33m     Build Warning: Layout 'single' requested in _posts/2023-11-11-11. [범주형 변수문제] 범주형 변수 처리-generated-version1.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.5011093Z [33m     Build Warning: Layout 'single' requested in docs/data-science/preprocessing/_posts/2023-11-11-11. [범주형 변수문제] 범주형 변수 처리-generated-version1.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:00.9792336Z [33m     Build Warning: Layout 'single' requested in _posts/2023-11-14-[EDA] 이디야는 스타벅스 옆에 매장을 만드는가.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:02.5131343Z [33m     Build Warning: Layout 'single' requested in docs/portfolio/data-analysis/_posts/2023-11-14-[EDA] 이디야는 스타벅스 옆에 매장을 만드는가.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:03.5641684Z [33m     Build Warning: Layout 'single' requested in docs/programming/git/_posts/2023-11-14-subtree_of_git.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:03.5817949Z [33m     Build Warning: Layout 'single' requested in _posts/2023-11-15-difference_btw_and_and.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:03.5916912Z [33m     Build Warning: Layout 'single' requested in _posts/2023-11-20-오픈소스로 기여하고 취뽀하기.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:03.6006775Z [33m     Build Warning: Layout 'single' requested in docs/growth/reviews/_posts/2023-11-20-오픈소스로 기여하고 취뽀하기.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:03.6121578Z [33m     Build Warning: Layout 'single' requested in _posts/2023-11-21-dtype으로 효율적으로 데이터 다루기.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:04.0027228Z [33m     Build Warning: Layout 'single' requested in _posts/2023-11-21-ydata_profiling.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:05.3611742Z [33m     Build Warning: Layout 'single' requested in docs/data-science/preprocessing/_posts/2023-11-21-dtype으로 효율적으로 데이터 다루기.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:05.7428602Z [33m     Build Warning: Layout 'single' requested in docs/data-science/visualization/_posts/2023-11-21-ydata_profiling.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.1122577Z [33m     Build Warning: Layout 'single' requested in docs/programming/pandas/_posts/2023-11-22-판다스에서_axis_톺아보기.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.1326935Z [33m     Build Warning: Layout 'single' requested in _posts/2023-11-25-짠내나는데이터다루기.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.1511686Z [33m     Build Warning: Layout 'single' requested in docs/growth/reviews/_posts/2023-11-25-짠내나는데이터다루기.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.1722524Z [33m     Build Warning: Layout 'single' requested in docs/programming/pandas/_posts/2023-11-25-[Pandas 기초] 02.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.1891270Z [33m     Build Warning: Layout 'single' requested in docs/programming/pandas/_posts/2023-11-25-[Pandas 기초] 03.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.1940709Z [33m     Build Warning: Layout 'single' requested in _posts/2023-11-27-[Tip] 실제 그리드 서치는 어떻게 이뤄질까-generated-version0.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.1985033Z [33m     Build Warning: Layout 'single' requested in docs/data-science/preprocessing/_posts/2023-11-27-[Tip] 실제 그리드 서치는 어떻게 이뤄질까-generated-version0.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.2112782Z [33m     Build Warning: Layout 'single' requested in _posts/2023-12-04-Convolution_알아보기.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.2238682Z [33m     Build Warning: Layout 'single' requested in docs/ai-ml/deep-learning/_posts/2023-12-04-Convolution_알아보기.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.2436967Z [33m     Build Warning: Layout 'single' requested in _posts/2023-12-13-AIFFELCON.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.2639349Z [33m     Build Warning: Layout 'single' requested in docs/growth/reviews/_posts/2023-12-13-AIFFELCON.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.2659415Z [33m    Liquid Warning: Liquid syntax error (line 314): Expected end_of_string but found colon in "{{date:YYYY-MM-DD}}" in /github/workspace/_posts/2024-01-05-SVGT_Obsidian_1.md[0m
+build	Build with Jekyll	2025-07-27T14:36:07.2661375Z [33m    Liquid Warning: Liquid syntax error (line 388): Unexpected character 분 in "{{분야}}" in /github/workspace/_posts/2024-01-05-SVGT_Obsidian_1.md[0m
+build	Build with Jekyll	2025-07-27T14:36:07.2662990Z [33m    Liquid Warning: Liquid syntax error (line 388): Unexpected character 핵 in "{{핵심키워드}}" in /github/workspace/_posts/2024-01-05-SVGT_Obsidian_1.md[0m
+build	Build with Jekyll	2025-07-27T14:36:07.2664095Z [33m    Liquid Warning: Liquid syntax error (line 388): Unexpected character 연 in "{{연도}}" in /github/workspace/_posts/2024-01-05-SVGT_Obsidian_1.md[0m
+build	Build with Jekyll	2025-07-27T14:36:07.2665368Z [33m    Liquid Warning: Liquid syntax error (line 388): Unexpected character 중 in "{{중요도}}" in /github/workspace/_posts/2024-01-05-SVGT_Obsidian_1.md[0m
+build	Build with Jekyll	2025-07-27T14:36:07.2799636Z [33m     Build Warning: Layout 'single' requested in _posts/2024-01-05-SVGT_Obsidian_1.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.2825182Z [33m    Liquid Warning: Liquid syntax error (line 314): Expected end_of_string but found colon in "{{date:YYYY-MM-DD}}" in /github/workspace/docs/growth/retrospective/_posts/2024-01-05-SVGT_Obsidian_1.md[0m
+build	Build with Jekyll	2025-07-27T14:36:07.2827475Z [33m    Liquid Warning: Liquid syntax error (line 388): Unexpected character 분 in "{{분야}}" in /github/workspace/docs/growth/retrospective/_posts/2024-01-05-SVGT_Obsidian_1.md[0m
+build	Build with Jekyll	2025-07-27T14:36:07.2829106Z [33m    Liquid Warning: Liquid syntax error (line 388): Unexpected character 핵 in "{{핵심키워드}}" in /github/workspace/docs/growth/retrospective/_posts/2024-01-05-SVGT_Obsidian_1.md[0m
+build	Build with Jekyll	2025-07-27T14:36:07.2830509Z [33m    Liquid Warning: Liquid syntax error (line 388): Unexpected character 연 in "{{연도}}" in /github/workspace/docs/growth/retrospective/_posts/2024-01-05-SVGT_Obsidian_1.md[0m
+build	Build with Jekyll	2025-07-27T14:36:07.2832103Z [33m    Liquid Warning: Liquid syntax error (line 388): Unexpected character 중 in "{{중요도}}" in /github/workspace/docs/growth/retrospective/_posts/2024-01-05-SVGT_Obsidian_1.md[0m
+build	Build with Jekyll	2025-07-27T14:36:07.2978189Z [33m     Build Warning: Layout 'single' requested in docs/growth/retrospective/_posts/2024-01-05-SVGT_Obsidian_1.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.3007698Z [33m    Liquid Warning: Liquid syntax error (line 314): Expected end_of_string but found colon in "{{date:YYYY-MM-DD}}" in /github/workspace/docs/productivity/tools/_posts/2024-01-05-SVGT_Obsidian_1.md[0m
+build	Build with Jekyll	2025-07-27T14:36:07.3010099Z [33m    Liquid Warning: Liquid syntax error (line 388): Unexpected character 분 in "{{분야}}" in /github/workspace/docs/productivity/tools/_posts/2024-01-05-SVGT_Obsidian_1.md[0m
+build	Build with Jekyll	2025-07-27T14:36:07.3012168Z [33m    Liquid Warning: Liquid syntax error (line 388): Unexpected character 핵 in "{{핵심키워드}}" in /github/workspace/docs/productivity/tools/_posts/2024-01-05-SVGT_Obsidian_1.md[0m
+build	Build with Jekyll	2025-07-27T14:36:07.3014203Z [33m    Liquid Warning: Liquid syntax error (line 388): Unexpected character 연 in "{{연도}}" in /github/workspace/docs/productivity/tools/_posts/2024-01-05-SVGT_Obsidian_1.md[0m
+build	Build with Jekyll	2025-07-27T14:36:07.3016221Z [33m    Liquid Warning: Liquid syntax error (line 388): Unexpected character 중 in "{{중요도}}" in /github/workspace/docs/productivity/tools/_posts/2024-01-05-SVGT_Obsidian_1.md[0m
+build	Build with Jekyll	2025-07-27T14:36:07.3159255Z [33m     Build Warning: Layout 'single' requested in docs/productivity/tools/_posts/2024-01-05-SVGT_Obsidian_1.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.3353428Z [33m     Build Warning: Layout 'single' requested in _posts/2024-01-06-SVGT_Obsidian_2.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.3545248Z [33m     Build Warning: Layout 'single' requested in docs/growth/retrospective/_posts/2024-01-06-SVGT_Obsidian_2.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.3736015Z [33m     Build Warning: Layout 'single' requested in docs/productivity/tools/_posts/2024-01-06-SVGT_Obsidian_2.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.4091959Z [33m     Build Warning: Layout 'single' requested in _posts/2024-01-08-SVGT_Obsidian_3.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.4449991Z [33m     Build Warning: Layout 'single' requested in docs/growth/retrospective/_posts/2024-01-08-SVGT_Obsidian_3.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.4795165Z [33m     Build Warning: Layout 'single' requested in docs/productivity/tools/_posts/2024-01-08-SVGT_Obsidian_3.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.4854939Z [33m     Build Warning: Layout 'single' requested in _posts/2024-01-16-직무전환계기.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.4879274Z [33m     Build Warning: Layout 'single' requested in docs/growth/career/_posts/2024-01-16-직무전환계기.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.4954177Z [33m     Build Warning: Layout 'single' requested in _posts/2024-01-17-직무분석.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.5035257Z [33m     Build Warning: Layout 'single' requested in docs/growth/career/_posts/2024-01-17-직무분석.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.5321495Z [33m     Build Warning: Layout 'single' requested in docs/programming/git/_posts/2024-01-19-githubaction_auto_readme.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.5432480Z [33m     Build Warning: Layout 'single' requested in docs/programming/git/_posts/2024-01-19-githubblog_codecopy_button.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.5487168Z [33m     Build Warning: Layout 'single' requested in _posts/2024-01-20-AIFFEL_vacation.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.5541395Z [33m     Build Warning: Layout 'single' requested in docs/growth/retrospective/_posts/2024-01-20-AIFFEL_vacation.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.5784440Z [33m     Build Warning: Layout 'single' requested in _posts/2024-02-19-AIFFEL_7th_seminar.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.5976659Z [33m     Build Warning: Layout 'single' requested in docs/growth/retrospective/_posts/2024-02-19-AIFFEL_7th_seminar.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.6033822Z [33m     Build Warning: Layout 'single' requested in _posts/2024-05-18-SQL_쿼리문의통찰_리뷰.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.6079106Z [33m     Build Warning: Layout 'single' requested in docs/database/sql/_posts/2024-05-18-SQL_쿼리문의통찰_리뷰.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.6178330Z [33m     Build Warning: Layout 'single' requested in _posts/2024-06-20-SQL기초 코테.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.6277707Z [33m     Build Warning: Layout 'single' requested in docs/database/sql/_posts/2024-06-20-SQL기초 코테.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.6329237Z [33m     Build Warning: Layout 'single' requested in docs/backup_posts/2020-10-20-SQL_day1.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.6568595Z [33m     Build Warning: Layout 'single' requested in docs/backup_posts/2020-10-21-SQL_day2.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.6883955Z [33m     Build Warning: Layout 'single' requested in docs/backup_posts/2020-10-22-SQL_day3.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.6944820Z [33m     Build Warning: Layout 'single' requested in docs/backup_pages/2023-11-03-AIEFFL_firstweek_retrospective.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.6980049Z [33m     Build Warning: Layout 'single' requested in docs/backup_posts/2023-11-03-AIEFFL_firstweek_retrospective.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.7121597Z [33m     Build Warning: Layout 'single' requested in docs/backup_posts/2024-04-23-SQLD스터디_계획.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.7207516Z [33m     Build Warning: Layout 'single' requested in docs/backup_posts/2024-04-24-SQLD_day1_01_데이터모델의이해.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.7256667Z [33m     Build Warning: Layout 'single' requested in docs/backup_posts/2024-04-24-SQLD_day1_02_Entity.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.7316288Z [33m     Build Warning: Layout 'single' requested in docs/backup_posts/2024-04-24-SQLD_day1_03_Attribute.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.7418971Z [33m     Build Warning: Layout 'single' requested in docs/backup_posts/2024-04-24-SQLD_day1_04_Relationship.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.7524919Z [33m     Build Warning: Layout 'single' requested in docs/backup_posts/2024-04-24-SQLD_day1_05_Identifier.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.7730058Z [33m     Build Warning: Layout 'single' requested in docs/backup_posts/2024-04-25-SQLD_day2_01_subject_1_wrapup.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.7862856Z [33m     Build Warning: Layout 'single' requested in docs/backup_posts/2024-04-26-SQLD_day3_01_normalization.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.7964290Z [33m     Build Warning: Layout 'single' requested in docs/backup_posts/2024-04-26-SQLD_day3_02_relationship_n_join.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.8002617Z [33m     Build Warning: Layout 'single' requested in docs/backup_posts/2024-04-26-SQLD_day3_03_trtansaction.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.8072390Z [33m     Build Warning: Layout 'single' requested in docs/backup_posts/2024-04-26-SQLD_day3_04_null.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.8134944Z [33m     Build Warning: Layout 'single' requested in docs/backup_posts/2024-04-26-SQLD_day3_05_identifiers.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.8251219Z [33m     Build Warning: Layout 'single' requested in docs/backup_posts/2024-04-27-SQLD_day4_01_subject_1_wrapup2.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.8266745Z [33m     Build Warning: Layout 'single' requested in _pages/404.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.8276605Z [33m     Build Warning: Layout 'single' requested in docs/_pages/404.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.8281686Z [33m     Build Warning: Layout 'category-archive' requested in _pages/Code shadowing-archive.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.8286344Z [33m     Build Warning: Layout 'category-archive' requested in _pages/DS 17th-archive.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.8291461Z [33m     Build Warning: Layout 'category-archive' requested in _pages/Deep Learning-archive.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:07.8295928Z [33m     Build Warning: Layout 'category-archive' requested in _pages/EDA-archive.md does not exist.[0m
+build	Build with Jekyll	2025-07-27T14:36:08.0290190Z [31m  Liquid Exception: Could not locate the included file 'analytics.html' in any of ["/github/workspace/_includes", "/usr/local/bundle/gems/jekyll-theme-primer-0.6.0/_includes"]. Ensure it exists in one of those directories and is not a symlink as those are not allowed in safe mode. in /_layouts/default.html[0m
+build	Build with Jekyll	2025-07-27T14:36:08.0293167Z /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/tags/include.rb:121:in `locate_include_file': Could not locate the included file 'analytics.html' in any of ["/github/workspace/_includes", "/usr/local/bundle/gems/jekyll-theme-primer-0.6.0/_includes"]. Ensure it exists in one of those directories and is not a symlink as those are not allowed in safe mode. (IOError)
+build	Build with Jekyll	2025-07-27T14:36:08.0294727Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/tags/include.rb:130:in `render'
+build	Build with Jekyll	2025-07-27T14:36:08.0295365Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/block_body.rb:103:in `render_node_to_output'
+build	Build with Jekyll	2025-07-27T14:36:08.0295968Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/block_body.rb:91:in `render'
+build	Build with Jekyll	2025-07-27T14:36:08.0296805Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/tags/if.rb:46:in `block (2 levels) in render'
+build	Build with Jekyll	2025-07-27T14:36:08.0297437Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/tags/if.rb:44:in `each'
+build	Build with Jekyll	2025-07-27T14:36:08.0297993Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/tags/if.rb:44:in `block in render'
+build	Build with Jekyll	2025-07-27T14:36:08.0298538Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/context.rb:123:in `stack'
+build	Build with Jekyll	2025-07-27T14:36:08.0299058Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/tags/if.rb:43:in `render'
+build	Build with Jekyll	2025-07-27T14:36:08.0299782Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/block_body.rb:103:in `render_node_to_output'
+build	Build with Jekyll	2025-07-27T14:36:08.0301001Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/block_body.rb:82:in `render'
+build	Build with Jekyll	2025-07-27T14:36:08.0301851Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/template.rb:206:in `block in render'
+build	Build with Jekyll	2025-07-27T14:36:08.0302739Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/template.rb:240:in `with_profiling'
+build	Build with Jekyll	2025-07-27T14:36:08.0303319Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/template.rb:205:in `render'
+build	Build with Jekyll	2025-07-27T14:36:08.0303801Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/template.rb:218:in `render!'
+build	Build with Jekyll	2025-07-27T14:36:08.0304382Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:30:in `block (2 levels) in render!'
+build	Build with Jekyll	2025-07-27T14:36:08.0305025Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:42:in `measure_bytes'
+build	Build with Jekyll	2025-07-27T14:36:08.0305624Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:29:in `block in render!'
+build	Build with Jekyll	2025-07-27T14:36:08.0306218Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:49:in `measure_time'
+build	Build with Jekyll	2025-07-27T14:36:08.0306906Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:28:in `render!'
+build	Build with Jekyll	2025-07-27T14:36:08.0307471Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/tags/include.rb:140:in `block in render'
+build	Build with Jekyll	2025-07-27T14:36:08.0307979Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/context.rb:123:in `stack'
+build	Build with Jekyll	2025-07-27T14:36:08.0308465Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/tags/include.rb:137:in `render'
+build	Build with Jekyll	2025-07-27T14:36:08.0308997Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/block_body.rb:103:in `render_node_to_output'
+build	Build with Jekyll	2025-07-27T14:36:08.0309512Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/block_body.rb:91:in `render'
+build	Build with Jekyll	2025-07-27T14:36:08.0310005Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/template.rb:206:in `block in render'
+build	Build with Jekyll	2025-07-27T14:36:08.0310511Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/template.rb:240:in `with_profiling'
+build	Build with Jekyll	2025-07-27T14:36:08.0311005Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/template.rb:205:in `render'
+build	Build with Jekyll	2025-07-27T14:36:08.0311466Z 	from /usr/local/bundle/gems/liquid-4.0.4/lib/liquid/template.rb:218:in `render!'
+build	Build with Jekyll	2025-07-27T14:36:08.0312034Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:30:in `block (2 levels) in render!'
+build	Build with Jekyll	2025-07-27T14:36:08.0312669Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:42:in `measure_bytes'
+build	Build with Jekyll	2025-07-27T14:36:08.0313403Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:29:in `block in render!'
+build	Build with Jekyll	2025-07-27T14:36:08.0313991Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:49:in `measure_time'
+build	Build with Jekyll	2025-07-27T14:36:08.0314544Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:28:in `render!'
+build	Build with Jekyll	2025-07-27T14:36:08.0315064Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:126:in `render_liquid'
+build	Build with Jekyll	2025-07-27T14:36:08.0315566Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:195:in `render_layout'
+build	Build with Jekyll	2025-07-27T14:36:08.0316083Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:158:in `place_in_layouts'
+build	Build with Jekyll	2025-07-27T14:36:08.0316715Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:88:in `render_document'
+build	Build with Jekyll	2025-07-27T14:36:08.0317218Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:62:in `run'
+build	Build with Jekyll	2025-07-27T14:36:08.0317698Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:479:in `render_regenerated'
+build	Build with Jekyll	2025-07-27T14:36:08.0318215Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:472:in `block in render_pages'
+build	Build with Jekyll	2025-07-27T14:36:08.0318696Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:471:in `each'
+build	Build with Jekyll	2025-07-27T14:36:08.0319160Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:471:in `render_pages'
+build	Build with Jekyll	2025-07-27T14:36:08.0319626Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:192:in `render'
+build	Build with Jekyll	2025-07-27T14:36:08.0320190Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/site.rb:71:in `process'
+build	Build with Jekyll	2025-07-27T14:36:08.0320661Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/command.rb:28:in `process_site'
+build	Build with Jekyll	2025-07-27T14:36:08.0321148Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/commands/build.rb:65:in `build'
+build	Build with Jekyll	2025-07-27T14:36:08.0321646Z 	from /usr/local/bundle/gems/jekyll-3.10.0/lib/jekyll/commands/build.rb:36:in `process'
+build	Build with Jekyll	2025-07-27T14:36:08.0322235Z 	from /usr/local/bundle/gems/github-pages-232/bin/github-pages:70:in `block (3 levels) in <top (required)>'
+build	Build with Jekyll	2025-07-27T14:36:08.0322858Z 	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+build	Build with Jekyll	2025-07-27T14:36:08.0323387Z 	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+build	Build with Jekyll	2025-07-27T14:36:08.0323876Z 	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+build	Build with Jekyll	2025-07-27T14:36:08.0324364Z 	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+build	Build with Jekyll	2025-07-27T14:36:08.0324832Z 	from /usr/local/bundle/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+build	Build with Jekyll	2025-07-27T14:36:08.0325314Z 	from /usr/local/bundle/gems/github-pages-232/bin/github-pages:6:in `<top (required)>'
+build	Build with Jekyll	2025-07-27T14:36:08.0325729Z 	from /usr/local/bundle/bin/github-pages:25:in `load'
+build	Build with Jekyll	2025-07-27T14:36:08.0326073Z 	from /usr/local/bundle/bin/github-pages:25:in `<main>'
+build	Build with Jekyll	2025-07-27T14:36:08.1069043Z ##[error] Logging at level: debug Configuration file: /github/workspace/./_config.yml GitHub Pages: github-pages v232 GitHub Pages: jekyll v3.10.0 Theme: jekyll-theme-primer Theme source: /usr/local/bundle/gems/jekyll-theme-primer-0.6.0 Requiring: jekyll-github-metadata Requiring: jekyll-seo-tag Requiring: jekyll-paginate Requiring: jekyll-sitemap Requiring: jekyll-feed Requiring: jekyll-seo-tag Requiring: jekyll-gist Requiring: jemoji Requiring: jekyll-coffeescript Requiring: jekyll-commonmark-ghpages Requiring: jekyll-github-metadata Requiring: jekyll-relative-links Requiring: jekyll-optional-front-matter Requiring: jekyll-readme-index Requiring: jekyll-default-layout Requiring: jekyll-titles-from-headings GitHub Metadata: Initializing... Source: /github/workspace/. Destination: /github/workspace/./_site Incremental build: disabled. Enable with --incremental Generating... EntryFilter: excluded /package.json EntryFilter: excluded /README.md EntryFilter: excluded /CHANGELOG.md EntryFilter: excluded /LICENSE EntryFilter: excluded /Gemfile EntryFilter: excluded /Rakefile Reading: _posts/2020-08-07-[EDA] 아스널은 누구를 영입했어야 했을까 (EDA 로 스포츠 데이터 분석하기).md Reading: _posts/2021-05-14-tableau_basic_00.md Reading: _posts/2021-06-17-[분류] 데이터 분석으로 심부전증을 예측하기.md Reading: _posts/2021-06-26-Python-Basic-01.md Reading: _posts/2021-06-26-Python-Basic-02.md Reading: _posts/2021-06-26-Python-Basic-03.md Reading: _posts/2021-06-26-Python-Basic-04.md Reading: _posts/2021-06-26-Python-Basic-05.md Reading: _posts/2021-06-26-Python-Basic-06.md Reading: _posts/2021-06-26-Python-Basic-07.md Reading: _posts/2021-06-26-Python-Basic-08.md Reading: _posts/2021-06-26-Python-Basic-09.md Reading: _posts/2021-06-26-Python-Basic-10.md Reading: _posts/2021-06-26-Python-Basic-11.md Reading: _posts/2021-06-26-Python-Basic-12.md Reading: _posts/2021-06-26-Python-Basic-13.md Reading: _posts/2021-06-26-Python-Basic-14.md Reading: _posts/2021-06-26-Python-Basic-15.md Reading: _posts/2021-07-06-[예측] 상점 신용카드 매출 예측(1) - EDA.md Reading: _posts/2023-08-09-[Kaggle] EDA and Data Viz of The Ages 2023 Dataset.md Reading: _posts/2023-09-07-Daily-Coding-Test-Day-1.md Reading: _posts/2023-09-08-Daily-Coding-Test-Day-2.md Reading: _posts/2023-09-09-Daily-Coding-Test-Day-3.md Reading: _posts/2023-09-10-Daily-Coding-Test-Day-4.md Reading: _posts/2023-09-11-Daily-Coding-Test-Day-5.md Reading: _posts/2023-09-12-Daily-Coding-Test-Day-6.md Reading: _posts/2023-09-13-Daily-Coding-Test-Day-7.md Reading: _posts/2023-09-14-Daily-Coding-Test-Day-8.md Reading: _posts/2023-11-01-01. [데이터 파편화 문제] concat을 이용한 데이터 병합 (with for loop clause)-generated-version0.md Reading: _posts/2023-11-02-02. [데이터 파편화 문제] merge를 이용한 데이터 병합-generated-version1.md Reading: _posts/2023-11-03-03. [데이터 파편화 문제] 포맷이 다른 데이터 병합(merge)_(1) 참조 데이터가 필요없는 경우-generated-version1.md Reading: _posts/2023-11-04-04. [데이터 파편화 문제] 포맷이 다른 데이터 병합(merge)_(2) 참조 데이터가 필요한 경우-generated-version0.md Reading: _posts/2023-11-05-05. [데이터 파편화 문제] 거리 기반의 데이터 병합-generated-version0.md Reading: _posts/2023-11-06-06. [데이터 파편화 문제] 데이터 요약이 포함되는 데이터의 병합-generated-version1.md Reading: _posts/2023-11-07-07. [결측치 문제] 결측치 확인 및 제거-generated-version0.md Reading: _posts/2023-11-07-how_to_create_github_profile.md Reading: _posts/2023-11-08-08. [결측치 문제] 대표값을 활용한 결측치 대체-generated-version0.md Reading: _posts/2023-11-08-how_to_study_ML_DL.md Reading: _posts/2023-11-09-09. [결측치 문제] 시계열 결측치 대체-generated-version0.md Reading: _posts/2023-11-10-10. [결측치 문제] 결측치 예측 모델 활용-generated-version0.md Reading: _posts/2023-11-11-11. [범주형 변수문제] 범주형 변수 처리-generated-version1.md Reading: _posts/2023-11-14-[EDA] 이디야는 스타벅스 옆에 매장을 만드는가.md Reading: _posts/2023-11-15-difference_btw_and_and.md Reading: _posts/2023-11-20-오픈소스로 기여하고 취뽀하기.md Reading: _posts/2023-11-21-dtype으로 효율적으로 데이터 다루기.md Reading: _posts/2023-11-21-ydata_profiling.md Reading: _posts/2023-11-25-짠내나는데이터다루기.md Reading: _posts/2023-11-27-[Tip] 실제 그리드 서치는 어떻게 이뤄질까-generated-version0.md Reading: _posts/2023-12-04-Convolution_알아보기.md Reading: _posts/2023-12-13-AIFFELCON.md Reading: _posts/2024-01-05-SVGT_Obsidian_1.md Reading: _posts/2024-0
+build	Post Checkout	﻿2025-07-27T14:36:08.1650405Z Post job cleanup.
+build	Post Checkout	2025-07-27T14:36:08.2588428Z [command]/usr/bin/git version
+build	Post Checkout	2025-07-27T14:36:08.2625616Z git version 2.50.1
+build	Post Checkout	2025-07-27T14:36:08.2676241Z Temporarily overriding HOME='/home/runner/work/_temp/ece37b55-b4d6-414e-9972-74341dd3fe22' before making global git config changes
+build	Post Checkout	2025-07-27T14:36:08.2677733Z Adding repository directory to the temporary git global config as a safe directory
+build	Post Checkout	2025-07-27T14:36:08.2683037Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Kimgabe.github.io/Kimgabe.github.io
+build	Post Checkout	2025-07-27T14:36:08.2722843Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+build	Post Checkout	2025-07-27T14:36:08.2757448Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build	Post Checkout	2025-07-27T14:36:08.2983853Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build	Post Checkout	2025-07-27T14:36:08.3006196Z http.https://github.com/.extraheader
+build	Post Checkout	2025-07-27T14:36:08.3019798Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+build	Post Checkout	2025-07-27T14:36:08.3050566Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build	Complete job	﻿2025-07-27T14:36:08.3388011Z Cleaning up orphan processes
+report-build-status	Set up job	﻿2025-07-27T14:36:14.5795001Z Current runner version: '2.326.0'
+report-build-status	Set up job	2025-07-27T14:36:14.5819864Z ##[group]Runner Image Provisioner
+report-build-status	Set up job	2025-07-27T14:36:14.5820912Z Hosted Compute Agent
+report-build-status	Set up job	2025-07-27T14:36:14.5821440Z Version: 20250711.363
+report-build-status	Set up job	2025-07-27T14:36:14.5822093Z Commit: 6785254374ce925a23743850c1cb91912ce5c14c
+report-build-status	Set up job	2025-07-27T14:36:14.5822761Z Build Date: 2025-07-11T20:04:25Z
+report-build-status	Set up job	2025-07-27T14:36:14.5823303Z ##[endgroup]
+report-build-status	Set up job	2025-07-27T14:36:14.5823908Z ##[group]Operating System
+report-build-status	Set up job	2025-07-27T14:36:14.5824426Z Ubuntu
+report-build-status	Set up job	2025-07-27T14:36:14.5824900Z 24.04.2
+report-build-status	Set up job	2025-07-27T14:36:14.5825356Z LTS
+report-build-status	Set up job	2025-07-27T14:36:14.5825813Z ##[endgroup]
+report-build-status	Set up job	2025-07-27T14:36:14.5826255Z ##[group]Runner Image
+report-build-status	Set up job	2025-07-27T14:36:14.5826841Z Image: ubuntu-24.04
+report-build-status	Set up job	2025-07-27T14:36:14.5827365Z Version: 20250720.1.0
+report-build-status	Set up job	2025-07-27T14:36:14.5828325Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20250720.1/images/ubuntu/Ubuntu2404-Readme.md
+report-build-status	Set up job	2025-07-27T14:36:14.5829726Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20250720.1
+report-build-status	Set up job	2025-07-27T14:36:14.5830990Z ##[endgroup]
+report-build-status	Set up job	2025-07-27T14:36:14.5832061Z ##[group]GITHUB_TOKEN Permissions
+report-build-status	Set up job	2025-07-27T14:36:14.5834027Z Contents: read
+report-build-status	Set up job	2025-07-27T14:36:14.5834542Z Metadata: read
+report-build-status	Set up job	2025-07-27T14:36:14.5835122Z Pages: write
+report-build-status	Set up job	2025-07-27T14:36:14.5835567Z ##[endgroup]
+report-build-status	Set up job	2025-07-27T14:36:14.5837487Z Secret source: Actions
+report-build-status	Set up job	2025-07-27T14:36:14.5838598Z Prepare workflow directory
+report-build-status	Set up job	2025-07-27T14:36:14.6170947Z Prepare all required actions
+report-build-status	Set up job	2025-07-27T14:36:14.6264793Z Complete job name: report-build-status
+report-build-status	Report Build Status	﻿2025-07-27T14:36:15.2224757Z ##[group]Run gh api -X POST "repos/$GITHUB_REPOSITORY/pages/telemetry" \
+report-build-status	Report Build Status	2025-07-27T14:36:15.2225891Z [36;1mgh api -X POST "repos/$GITHUB_REPOSITORY/pages/telemetry" \[0m
+report-build-status	Report Build Status	2025-07-27T14:36:15.2226837Z [36;1m  -F github_run_id="$GITHUB_RUN_ID" \[0m
+report-build-status	Report Build Status	2025-07-27T14:36:15.2227507Z [36;1m  -F conclusion="$CONCLUSION"[0m
+report-build-status	Report Build Status	2025-07-27T14:36:15.2435040Z shell: /usr/bin/bash -e {0}
+report-build-status	Report Build Status	2025-07-27T14:36:15.2436095Z env:
+report-build-status	Report Build Status	2025-07-27T14:36:15.2437005Z   GITHUB_TOKEN: ***
+report-build-status	Report Build Status	2025-07-27T14:36:15.2437557Z   CONCLUSION: failure
+report-build-status	Report Build Status	2025-07-27T14:36:15.2438140Z ##[endgroup]
+report-build-status	Report Build Status	2025-07-27T14:36:15.5163100Z {}
+report-build-status	Complete job	﻿2025-07-27T14:36:15.5266807Z Cleaning up orphan processes
