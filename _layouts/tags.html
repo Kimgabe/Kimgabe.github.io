@@ -55,7 +55,11 @@ layout: default
       <i class="fas fa-fire"></i> 인기 태그
     </h2>
     <div class="popular-tags-grid">
-      {% assign sorted_tags = site.tags | sort: 1 | reverse %}
+      {% assign all_tags = site.tags %}
+      {% assign sorted_tags = '' | split: '' %}
+      {% for tag in all_tags %}
+        {% assign sorted_tags = sorted_tags | push: tag %}
+      {% endfor %}
       {% for tag in sorted_tags limit: 12 %}
         {% assign tag_name = tag[0] %}
         {% assign posts = tag[1] %}
