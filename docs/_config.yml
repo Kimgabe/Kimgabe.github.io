@@ -402,8 +402,8 @@ defaults:
       sidebar:
         nav: "docs"
       header:
-        teaser: /assets/images/unsplash/code-programming.jpg
-        overlay_image: /assets/images/unsplash/code-programming.jpg
+        teaser: /assets/images/unsplash/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg
+        overlay_image: /assets/images/unsplash/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg
         overlay_filter: 0.4
 
 # docs/data-science
@@ -424,8 +424,8 @@ defaults:
       sidebar:
         nav: "docs"
       header:
-        teaser: /assets/images/unsplash/data-science.jpg
-        overlay_image: /assets/images/unsplash/data-science.jpg
+        teaser: /assets/images/unsplash/desola-lanre-ologun-kwzWjTnDPLk-unsplash.jpg
+        overlay_image: /assets/images/unsplash/desola-lanre-ologun-kwzWjTnDPLk-unsplash.jpg
         overlay_filter: 0.4
 
 # docs/ai-ml
@@ -446,8 +446,8 @@ defaults:
       sidebar:
         nav: "docs"
       header:
-        teaser: /assets/images/unsplash/ai-ml.jpg
-        overlay_image: /assets/images/unsplash/ai-ml.jpg
+        teaser: /assets/images/unsplash/desola-lanre-ologun-kwzWjTnDPLk-unsplash.jpg
+        overlay_image: /assets/images/unsplash/desola-lanre-ologun-kwzWjTnDPLk-unsplash.jpg
         overlay_filter: 0.4
 
 # docs/portfolio
@@ -468,8 +468,8 @@ defaults:
       sidebar:
         nav: "docs"
       header:
-        teaser: /assets/images/unsplash/portfolio.jpg
-        overlay_image: /assets/images/unsplash/portfolio.jpg
+        teaser: /assets/images/unsplash/rpi4-rZKdS0wI8Ks.jpg
+        overlay_image: /assets/images/unsplash/rpi4-rZKdS0wI8Ks.jpg
         overlay_filter: 0.4
 
 # docs/productivity

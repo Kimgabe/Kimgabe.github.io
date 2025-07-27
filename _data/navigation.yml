@@ -58,35 +58,41 @@ docs:
 
   - title: "Portfolio"
     children:
-      - title: "Data Science Projects"
-        url: "/docs/portfolio/data-science/"
-      - title: "Full-Stack Projects"
-        url: "/docs/portfolio/full-stack/"
-      - title: "Raspberry Pi"
-        url: "/docs/portfolio/raspberry-pi/"
-      - title: "Competition"
-        url: "/docs/portfolio/competition/"
+      - title: "DL-Based Projects"
+        url: "/docs/portfolio/dl-based/"
+      - title: "ML-Based Projects"
+        url: "/docs/portfolio/ml-based/"
+      - title: "Data Analysis"
+        url: "/docs/portfolio/data-analysis/"
 
   - title: "Productivity"
     children:
-      - title: "Tools"
-        url: "/docs/productivity/tools/"
+      - title: "Workplace Tools"
+        url: "/docs/productivity/workplace-tools/"
+      - title: "Dev Efficiency"
+        url: "/docs/productivity/dev-efficiency/"
+      - title: "Data Workflow"
+        url: "/docs/productivity/data-workflow/"
       - title: "Automation"
         url: "/docs/productivity/automation/"
+      - title: "Tools"
+        url: "/docs/productivity/tools/"
 
   - title: "Growth"
     children:
+      - title: "Reviews"
+        url: "/docs/growth/reviews/"
       - title: "Retrospective"
         url: "/docs/growth/retrospective/"
-      - title: "Learning"
-        url: "/docs/growth/learning/"
+      - title: "Career"
+        url: "/docs/growth/career/"
 
   - title: "Database"
     children:
+      - title: "NoSQL"
+        url: "/docs/database/nosql/"
       - title: "SQL"
         url: "/docs/database/sql/"
-      - title: "Design"
-        url: "/docs/database/design/"
 
 # Gabe's AI Journey 사이드바
 "Gabe's AI Journey_sidebar":
