@@ -34,8 +34,8 @@ $max-width: 1600px;       // default $x-large
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// Import ShokaX components 
-@import "minimal-mistakes/shokax-layout"; // ShokaX layout system from web demo
+// ShokaX layout system integration removed to fix build errors
+// Will implement ShokaX styles directly in main.scss for GitHub Pages compatibility
 
 // ShokaX Color Variables (웹 데모에서 가져온 색상 시스템)
 :root {
