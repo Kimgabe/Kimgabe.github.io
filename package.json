@@ -37,7 +37,7 @@
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^1.0.0",
     "hexo-util": "^3.3.0",
-    "instantsearch.js": "^4.78.3",
+    "instantsearch.js": "^4.79.2",
     "js-yaml": "^4.1.0",
     "katex": "^0.16.22",
     "mouse-firework": "^0.1.1",
