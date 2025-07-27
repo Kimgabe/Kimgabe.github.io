@@ -298,13 +298,13 @@ permalink: /:categories/:title/ # 생성된 페이지의 고유 주소(permalink
 timezone: Asia/Seoul # 타임존을 서울로 설정합니다.
 
 # Plugins
-# Essential Jekyll Plugins for Custom Theme
+# GitHub Pages approved plugins only
 plugins:
- - jekyll-paginate      # 페이지네이션
- - jekyll-sitemap       # 사이트맵 생성
- - jekyll-feed          # RSS 피드
- - jekyll-seo-tag       # SEO 메타태그
- - jekyll-gist          # GitHub Gist 지원
- - jemoji               # 이모지 지원
+ - jekyll-feed
+ - jekyll-sitemap
+ - jekyll-seo-tag
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
 
 # GitHub Pages compatibility - settings already configured above
