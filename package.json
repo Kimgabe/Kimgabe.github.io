@@ -16,7 +16,7 @@
     "@common.js/p-limit": "^6.1.0",
     "@waline/client": "^3.5.7",
     "algoliasearch": "^5.27.0",
-    "es-toolkit": "^1.39.1",
+    "es-toolkit": "^1.39.8",
     "esbuild": "^0.25.5",
     "hana-img-viewer": "^1.2.2",
     "hexo": "^7.3.0",
