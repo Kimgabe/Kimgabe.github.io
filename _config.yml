@@ -5,20 +5,24 @@
 
 # Site Settings
 locale                   : "ko-KR" # 사이트의 언어를 한국어로 설정합니다.
-title                    : "Kim Gabe's Ds blog" # 블로그의 제목을 설정합니다.
+title                    : "Kim Gabe's DS Blog" # 블로그의 제목을 설정합니다.
 title_separator          : "|" # 제목과 부제목을 구분하는 구분자를 설정합니다.
-subtitle                 : # 블로그의 부제목을 설정합니다. 현재는 비어있습니다.
+subtitle                 : "Data Science & Full-Stack Development Blog" # 블로그의 부제목을 설정합니다.
 name                     : &name "Kim Gabe" # 블로그 소유자의 이름을 설정합니다. &name은 뒤에서 재사용할 수 있는 앵커(anchor)입니다.
-description              : &description "Kim Gabe의 블로그입니다." # 블로그에 대한 간단한 설명을 입력합니다.
+description              : &description "Kim Gabe의 데이터 사이언스 & 풀스택 개발 블로그입니다." # 블로그에 대한 간단한 설명을 입력합니다.
 url                      : https://Kimgabe.github.io # 블로그의 기본 URL을 설정합니다.
 baseurl                  : "" # GitHub Pages 호환성을 위해 빈 문자열로 변경
 repository               : "Kimgabe/Kimgabe.github.io" # 블로그의 GitHub 저장소 이름을 설정합니다.
-teaser                   : https://source.unsplash.com/random # 티저 이미지의 기본 경로를 설정합니다.
-logo                     : /assets/images/favicons/home-logo.png # 로고 이미지의 경로를 설정합니다.
+teaser                   : # 티저 이미지의 기본 경로를 설정합니다.
+logo                     : # 로고 이미지의 경로를 설정합니다.
 masthead_title           : # 마스트헤드에 표시될 제목을 설정합니다. 현재는 비어있습니다.
 breadcrumbs              : true # 브래드크럼 네비게이션을 활성화합니다.
 words_per_minute         : 200 # 글을 읽는데 걸리는 시간을 계산하기 위한 분당 단어 수를 설정합니다.
 date_format              : "%Y-%m-%d" # 날짜 형식을 설정합니다.
+
+# Pagination
+paginate                 : 10 # 한 페이지당 표시할 포스트 개수
+paginate_path            : /page/:num/ # 페이지네이션 URL 구조
 
 comments:
   provider               : "disqus" # 댓글 시스템으로 Disqus를 사용합니다.
@@ -117,9 +121,6 @@ highlighter: rouge # 구문 강조에 사용할 하이라이터로 rouge를 설�
 lsi: false # Latent Semantic Indexing(LSI)을 사용하지 않습니다.
 excerpt_separator: "\n\n" # 포스트 요약을 생성할 때 사용할 구분자를 설정합니다. 여기서는 두 개의 줄바꿈(\n\n)으로 설정되어 있습니다.
 incremental: false # 증분 재생성을 비활성화합니다. 증분 재생성은 변경된 파일만 다시 빌드하여 사이트 생성 속도를 향상시킵니다.
-
-# ShokaX Permalink Structure
-permalink: /:categories/:title/
 
 # Markdown Processing
 kramdown:
@@ -294,8 +295,6 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/ # 생성된 페이지의 고유 주소(permalink) 형식을 설정합니다.
-paginate: 5 # 한 페이지에 표시할 포스트의 개수를 설정합니다.
-paginate_path: /page:num/ # 페이지 번호가 포함된 페이지의 경로를 설정합니다.
 timezone: Asia/Seoul # 타임존을 서울로 설정합니다.
 
 # Plugins
