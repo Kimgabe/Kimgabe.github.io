@@ -15,8 +15,6 @@ $large: 992px;            // default 1024px
 $x-large: 1340px;         // default 1280px
 $max-width: 1600px;       // default $x-large
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
 
 // ShokaX Color Variables (웹 데모에서 가져온 색상 시스템)
 :root {
@@ -689,4 +687,125 @@ html body .btn {
 html body .btn:hover {
   background: var(--secondary-color) !important;
   transform: translateY(-2px) !important;
+}
+
+//
+// MM CSS를 마지막에 임포트해서 ShokaX가 우선권을 가지도록 함
+//
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+//
+// 🚨 CRITICAL: MM 완전 덮어쓰기 - 최고 우선순위
+//
+html body,
+html body * {
+  font-family: 'Mulish', -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif !important;
+}
+
+html body {
+  background-color: #222 !important;
+  color: #999 !important;
+  line-height: 2 !important;
+}
+
+// 절대적 레이아웃 강제
+html body .initial-content,
+html body .initial-content .page {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 2rem !important;
+  max-width: 95rem !important;
+  margin: 0 auto !important;
+  padding: 2rem 1rem !important;
+}
+
+// MM 기본 사이드바 완전 숨김
+html body .page__sidebar,
+html body .sidebar.sticky {
+  display: none !important;
+}
+
+// ShokaX 사이드바 강제 생성
+html body .initial-content::before {
+  content: "Kim Gabe\A\AKnowledge without application is meaningless. True learning lies in educating and empowering others.\A\A📍 Republic of Korea\A🔗 GitHub\A\AProgramming\A• Python\A• Pandas\A• NumPy\A• Matplotlib/Seaborn\A• Git\A• Algorithms\A\AData Science\A• Visualization\A• Statistics" !important;
+  white-space: pre-line !important;
+  display: block !important;
+  width: 300px !important;
+  flex-shrink: 0 !important;
+  background: #fdfdfd !important;
+  border-radius: 0.625rem !important;
+  padding: 2rem !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+  position: sticky !important;
+  top: 2rem !important;
+  height: fit-content !important;
+  font-family: 'Noto Serif JP', serif !important;
+  color: #e9546b !important;
+  text-align: center !important;
+  line-height: 1.6 !important;
+}
+
+// 포스트 카드 강제 가로형
+html body .archive__item,
+html body .list__item {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 1.5rem !important;
+  background: #fdfdfd !important;
+  border-radius: 0.625rem !important;
+  overflow: hidden !important;
+  margin-bottom: 2rem !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+html body .archive__item:hover,
+html body .list__item:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+}
+
+// 썸네일 강제 300px
+html body .archive__item-teaser {
+  width: 300px !important;
+  height: 200px !important;
+  flex-shrink: 0 !important;
+  overflow: hidden !important;
+}
+
+html body .archive__item-teaser img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  transition: transform 0.3s ease !important;
+}
+
+html body .archive__item-teaser:hover img {
+  transform: scale(1.05) !important;
+}
+
+// 제목 색상 강제
+html body h1,
+html body h2,
+html body h3,
+html body .archive__item-title,
+html body .archive__item-title a,
+html body .page__title,
+html body .masthead__menu .site-title {
+  color: #e9546b !important;
+  font-family: 'Noto Serif JP', serif !important;
+  text-decoration: none !important;
+}
+
+// 사이트 제목 Fredericka 폰트 강제
+html body .masthead__menu .site-title {
+  font-family: 'Fredericka the Great', cursive !important;
+  font-size: 2.5em !important;
+}
+
+// 네비게이션 그라디언트 강제
+html body .masthead {
+  background: linear-gradient(-225deg, rgba(227, 253, 245, 0.72) 0%, rgba(255, 230, 250, 0.72) 100%) !important;
+  border-bottom: 1px solid #eff2f3 !important;
 }
