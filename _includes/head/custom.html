@@ -5,6 +5,25 @@
      
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
+<!-- ShokaX Time-based Dark Mode Script -->
+<script>
+(function() {
+  // 시간 기반 자동 다크 모드 (ShokaX 스타일)
+  const hour = new Date().getHours();
+  const isDarkTime = hour >= 20 || hour <= 7;
+  
+  if (isDarkTime) {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    document.body.classList.add('dark-theme');
+  } else {
+    document.documentElement.setAttribute('data-theme', 'light');
+    document.body.classList.add('light-theme');
+  }
+  
+  // ShokaX 스타일 초기화
+  document.documentElement.style.setProperty('--theme-transition', 'all 0.3s ease');
+})();
+</script>
 
 {% if page.use_math %} <!-- if page.use_math is true, then include mathjax -->
     {% include mathjax-support.html %}

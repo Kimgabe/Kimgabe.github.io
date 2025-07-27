@@ -5,8 +5,204 @@ search: false
 
 @charset "utf-8";
 
+//
+// Breakpoints 기준값 재정의 - 아래 import 이전에 정의해야 함.
+//
+$small: 576px;            // default 600px
+$medium: 720px;           // default 768px
+$medium-wide: $medium;    // default 900px
+$large: 992px;            // default 1024px
+$x-large: 1340px;         // default 1280px
+$max-width: 1600px;       // default $x-large
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// ShokaX Color Variables (웹 데모에서 가져온 색상 시스템)
+:root {
+  /* Real ShokaX Color Palette */
+  --color-red: #e9546b;
+  --color-pink: #ed6ea0;
+  --color-orange: #ec8c69;
+  --color-yellow: #eab700;
+  --color-green: #0a7426;
+  --color-aqua: #3e999f;
+  --color-blue: #38a1db;
+  --color-purple: #9d5b8b;
+  --color-grey: #869194;
+  
+  /* ShokaX Primary Colors */
+  --primary-color: var(--color-red);
+  --secondary-color: var(--color-pink);
+  
+  /* ShokaX Tag Cloud Colors */
+  --tagcloud-start: #72cecf;
+  --tagcloud-end: #ffbac3;
+  
+  /* ShokaX Special Colors */
+  --color-pink-light: rgba(255, 230, 250, 0.72);
+  --color-cyan-light: rgba(227, 253, 245, 0.72);
+  
+  /* Grey Scale for Dark Theme */
+  --grey-0: #fff;
+  --grey-1: #fdfdfd;
+  --grey-2: #f7f7f7;
+  --grey-3: #eff2f3;
+  --grey-4: #ccc;
+  --grey-5: #999;
+  --grey-6: #666;
+  --grey-7: #333;
+  --grey-8: #222;
+  --grey-9: #000;
+}
+
+/* Dark theme overrides */
+[data-theme="dark"] {
+  --grey-0: #222;
+  --grey-1: #21252b;
+  --grey-2: #363636;
+  --grey-3: #444;
+  --grey-4: #666;
+  --grey-5: #aaa;
+  --grey-6: #ccc;
+  --grey-7: #ddd;
+  --grey-8: #eee;
+  --grey-9: #f7f7f7;
+  
+  --color-pink-light: #1a0d0f;
+  --color-cyan-light: #0d1a17;
+}
+
+//
+// ShokaX Google Fonts Import
+//
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&family=Fredericka+the+Great&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Inconsolata:wght@400;700&display=swap');
+
+//
+// ShokaX Typography System
+//
+body {
+  font-family: 'Mulish', -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif !important;
+  background-color: var(--grey-8) !important;
+  color: var(--grey-5) !important;
+  line-height: 2;
+}
+
+//
+// ShokaX Site Title Styling 
+//
+.masthead__menu .site-title {
+  font-family: 'Fredericka the Great', cursive !important;
+  font-size: 2.5em !important;
+  color: var(--primary-color) !important;
+  text-decoration: none !important;
+}
+
+//
+// ShokaX Navigation Gradient Background
+//
+.masthead {
+  background: linear-gradient(-225deg, var(--color-cyan-light) 0%, var(--color-pink-light) 100%) !important;
+  border-bottom: 1px solid var(--grey-3);
+}
+
+.masthead__inner-wrap {
+  max-width: 95rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+//
+// ShokaX Post Card - Rectangular Layout (웹 데모 스타일)
+//
+.list__item,
+.archive__item {
+  display: flex !important;
+  gap: 1.5rem;
+  background: var(--grey-1) !important;
+  border-radius: 0.625rem;
+  overflow: hidden;
+  margin-bottom: 2rem !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+}
+
+[data-theme="dark"] .list__item,
+[data-theme="dark"] .archive__item {
+  background: var(--grey-1) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.archive__item-teaser {
+  width: 300px !important;
+  height: 200px !important;
+  flex-shrink: 0;
+  overflow: hidden;
+  
+  img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  &:hover img {
+    transform: scale(1.05);
+  }
+}
+
+.archive__item-body {
+  flex: 1;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.archive__item-title {
+  font-family: 'Noto Serif JP', serif !important;
+  font-size: 1.25rem !important;
+  font-weight: 700;
+  margin-bottom: 0.5rem !important;
+  color: var(--primary-color) !important;
+  
+  a {
+    color: inherit !important;
+    text-decoration: none !important;
+    
+    &:hover {
+      color: var(--secondary-color) !important;
+    }
+  }
+}
+
+.archive__item-excerpt {
+  color: var(--grey-6) !important;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+//
+// ShokaX Page Meta Styling
+//
+.page__meta {
+  color: var(--grey-5) !important;
+  font-size: 0.8rem !important;
+  
+  time, .page__meta-sep {
+    color: var(--secondary-color) !important;
+  }
+}
 
 // add thumbnail-container class to img tags
 // posting 썸네일 이미지 크기 조절
