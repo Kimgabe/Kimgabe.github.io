@@ -113,19 +113,46 @@ body {
 }
 
 //
-// ShokaX Main Layout Structure (웹 데모 완전 복제)
+// ShokaX Layout Override - MM 구조 강제 변경
 //
+body {
+  font-family: 'Mulish', -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif !important;
+  background-color: var(--grey-8) !important;
+  color: var(--grey-5) !important;
+  line-height: 2 !important;
+}
+
+// MM 기본 구조를 ShokaX 구조로 강제 변경
+.initial-content {
+  display: flex !important;
+  gap: 2rem !important;
+  max-width: 95rem !important;
+  margin: 0 auto !important;
+  padding: 2rem 1rem !important;
+}
+
 .page {
   display: flex !important;
-  gap: 2rem;
-  max-width: 95rem;
-  margin: 0 auto;
-  padding: 0 1rem;
+  gap: 2rem !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .page__content {
-  flex: 1;
-  width: calc(100% - 300px - 2rem);
+  flex: 1 !important;
+  width: calc(100% - 300px - 2rem) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+// MM 아카이브를 ShokaX 스타일로 강제 변경
+.archive,
+.page__content .archive {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: none !important;
 }
 
 //
@@ -550,4 +577,116 @@ body {
     /* margin-bottom: -11.5%; */
     width: 300px; 
     height: 300px;
+}
+
+//
+// MM 테마 완전 덮어쓰기 - 강력한 선택자 사용
+//
+html body .initial-content {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 2rem !important;
+  max-width: 95rem !important;
+  margin: 0 auto !important;
+  padding: 2rem 1rem !important;
+}
+
+html body .initial-content .page {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 2rem !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+// 사이드바가 없을 때 생성하기
+html body .initial-content::before {
+  content: "";
+  display: block;
+  width: 300px;
+  flex-shrink: 0;
+  background: var(--grey-1);
+  border-radius: 0.625rem;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 2rem;
+  height: fit-content;
+}
+
+// MM 기본 요소들 숨기기/재스타일링
+html body .page__hero,
+html body .page__hero-wrap {
+  display: none !important;
+}
+
+html body .archive {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+html body .archive__subtitle {
+  font-family: 'Noto Serif JP', serif !important;
+  font-size: 2rem !important;
+  color: var(--primary-color) !important;
+  margin-bottom: 2rem !important;
+  text-align: left !important;
+}
+
+// 엔트리 목록 스타일 강제 적용
+html body .entries-list,
+html body .entries-grid {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 2rem !important;
+  width: 100% !important;
+}
+
+html body .entries-list .archive__item,
+html body .entries-grid .archive__item {
+  display: flex !important;
+  gap: 1.5rem !important;
+  background: var(--grey-1) !important;
+  border-radius: 0.625rem !important;
+  overflow: hidden !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+// MM 기본 링크 스타일 덮어쓰기
+html body a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+html body a:hover {
+  color: var(--primary-color) !important;
+}
+
+// MM 기본 타이포그래피 덮어쓰기
+html body h1, 
+html body h2, 
+html body h3, 
+html body h4, 
+html body h5, 
+html body h6 {
+  font-family: 'Noto Serif JP', serif !important;
+  color: var(--primary-color) !important;
+}
+
+// MM 기본 버튼 스타일 덮어쓰기  
+html body .btn {
+  background: var(--primary-color) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 0.375rem !important;
+  padding: 0.5rem 1rem !important;
+  transition: all 0.3s ease !important;
+}
+
+html body .btn:hover {
+  background: var(--secondary-color) !important;
+  transform: translateY(-2px) !important;
 }
