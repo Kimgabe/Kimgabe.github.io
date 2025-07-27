@@ -34,8 +34,8 @@ $max-width: 1600px;       // default $x-large
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// Import ShokaX components
-@import "minimal-mistakes/shokax-layout"; // ShokaX layout system from web demo
+// Import ShokaX components - removed non-existent layout
+// @import "minimal-mistakes/shokax-layout"; // ShokaX layout system from web demo
 
 //
 // font 크기 재정의 - import 이후 정의해야 함.
