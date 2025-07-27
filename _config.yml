@@ -1,7 +1,7 @@
 # ========================================
-# ShokaX Pure Jekyll Configuration
+# Kim Gabe's Custom Jekyll Theme Configuration  
 # ========================================
-# MM 테마 완전 제거 - 순수 Jekyll + ShokaX 적용
+# Pure Jekyll with custom layouts and styles (no external theme dependency)
 
 # Site Settings
 locale                   : "ko-KR" # 사이트의 언어를 한국어로 설정합니다.
@@ -298,7 +298,7 @@ permalink: /:categories/:title/ # 생성된 페이지의 고유 주소(permalink
 timezone: Asia/Seoul # 타임존을 서울로 설정합니다.
 
 # Plugins
-# ShokaX Essential Plugins
+# Essential Jekyll Plugins for Custom Theme
 plugins:
  - jekyll-paginate      # 페이지네이션
  - jekyll-sitemap       # 사이트맵 생성
@@ -307,12 +307,4 @@ plugins:
  - jekyll-gist          # GitHub Gist 지원
  - jemoji               # 이모지 지원
 
-whitelist:
- # GitHub Pages에서 사용 가능한 플러그인을 나열합니다.
- - jekyll-paginate
- - jekyll-sitemap
- - jekyll-gist
- - jekyll-feed
- - jemoji
- - jekyll-include-cache
- # jekyll-algolia 제거
+# GitHub Pages compatibility - settings already configured above
