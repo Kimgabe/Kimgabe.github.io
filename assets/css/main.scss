@@ -113,6 +113,137 @@ body {
 }
 
 //
+// ShokaX Main Layout Structure (웹 데모 완전 복제)
+//
+.page {
+  display: flex !important;
+  gap: 2rem;
+  max-width: 95rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.page__content {
+  flex: 1;
+  width: calc(100% - 300px - 2rem);
+}
+
+//
+// ShokaX Sidebar (좌측 사이드바 - 웹 데모 스타일)
+//
+.sidebar {
+  width: 300px !important;
+  position: sticky !important;
+  top: 2rem !important;
+  height: fit-content !important;
+  background: var(--grey-1) !important;
+  border-radius: 0.625rem !important;
+  padding: 2rem !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+  margin-bottom: 0 !important;
+  
+  .author__avatar {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    
+    img {
+      width: 120px !important;
+      height: 120px !important;
+      border-radius: 50% !important;
+      border: 3px solid var(--primary-color) !important;
+      object-fit: cover;
+    }
+  }
+  
+  .author__name {
+    font-family: 'Noto Serif JP', serif !important;
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+    color: var(--primary-color) !important;
+    text-align: center !important;
+    margin: 0 0 0.5rem !important;
+  }
+  
+  .author__bio {
+    color: var(--grey-5) !important;
+    font-size: 0.9rem !important;
+    text-align: center !important;
+    margin: 0 0 1.5rem !important;
+  }
+  
+  .author__urls {
+    text-align: center !important;
+    
+    .author__urls-wrapper {
+      display: flex !important;
+      justify-content: center !important;
+      gap: 0.5rem !important;
+      flex-wrap: wrap !important;
+      
+      .btn {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 40px !important;
+        height: 40px !important;
+        border-radius: 50% !important;
+        color: white !important;
+        text-decoration: none !important;
+        transition: all 0.3s ease !important;
+        font-size: 1.1rem !important;
+        
+        &:hover {
+          transform: translateY(-3px) !important;
+          box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+        }
+        
+        &--github { background: #191717 !important; }
+        &--linkedin { background: #0077b5 !important; }
+        &--email { background: #ea4335 !important; }
+        &--rss { background: #ff6600 !important; }
+      }
+    }
+  }
+}
+
+[data-theme="dark"] .sidebar {
+  background: var(--grey-1) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2) !important;
+}
+
+//
+// ShokaX Navigation Menu Styling
+//
+.visible-links {
+  display: flex !important;
+  gap: 1.5rem !important;
+  
+  .masthead__menu-item {
+    a {
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.5rem !important;
+      color: var(--grey-7) !important;
+      text-decoration: none !important;
+      font-weight: 500 !important;
+      padding: 0.5rem 1rem !important;
+      border-radius: 0.375rem !important;
+      transition: all 0.3s ease !important;
+      
+      &:hover {
+        background: rgba(255, 255, 255, 0.1) !important;
+        color: var(--primary-color) !important;
+        transform: translateY(-2px) !important;
+      }
+      
+      i {
+        font-size: 1rem !important;
+      }
+    }
+  }
+}
+
+//
 // ShokaX Post Card - Rectangular Layout (웹 데모 스타일)
 //
 .list__item,
@@ -201,6 +332,208 @@ body {
   
   time, .page__meta-sep {
     color: var(--secondary-color) !important;
+  }
+}
+
+//
+// ShokaX Single Post Layout (상세 페이지)
+//
+.page__inner-wrap {
+  background: var(--grey-1) !important;
+  border-radius: 0.625rem !important;
+  padding: 2rem !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+  margin-bottom: 2rem !important;
+}
+
+.page__title {
+  font-family: 'Noto Serif JP', serif !important;
+  font-size: 2.5rem !important;
+  font-weight: 700 !important;
+  color: var(--primary-color) !important;
+  margin-bottom: 1rem !important;
+  line-height: 1.3 !important;
+}
+
+.page__content {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Noto Serif JP', serif !important;
+    color: var(--primary-color) !important;
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+  }
+  
+  h1 { font-size: 2rem !important; }
+  h2 { font-size: 1.75rem !important; }
+  h3 { font-size: 1.5rem !important; }
+  h4 { font-size: 1.25rem !important; }
+  
+  p {
+    color: var(--grey-6) !important;
+    line-height: 1.8 !important;
+    margin-bottom: 1.5rem !important;
+  }
+  
+  blockquote {
+    border-left: 4px solid var(--primary-color) !important;
+    background: rgba(233, 84, 107, 0.1) !important;
+    padding: 1rem 1.5rem !important;
+    margin: 1.5rem 0 !important;
+    border-radius: 0 0.375rem 0.375rem 0 !important;
+    
+    p {
+      color: var(--grey-7) !important;
+      font-style: italic !important;
+      margin-bottom: 0 !important;
+    }
+  }
+  
+  code {
+    background: var(--grey-2) !important;
+    color: var(--primary-color) !important;
+    padding: 0.2rem 0.4rem !important;
+    border-radius: 0.25rem !important;
+    font-family: 'Inconsolata', monospace !important;
+  }
+  
+  pre {
+    background: var(--grey-2) !important;
+    border-radius: 0.5rem !important;
+    padding: 1rem !important;
+    overflow-x: auto !important;
+    margin: 1.5rem 0 !important;
+    
+    code {
+      background: none !important;
+      color: var(--grey-8) !important;
+      padding: 0 !important;
+    }
+  }
+}
+
+//
+// ShokaX Table of Contents (TOC)
+//
+.toc {
+  background: var(--grey-1) !important;
+  border-radius: 0.625rem !important;
+  padding: 1.5rem !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+  margin-bottom: 2rem !important;
+  
+  .toc__title {
+    font-family: 'Noto Serif JP', serif !important;
+    color: var(--primary-color) !important;
+    font-size: 1.25rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 1rem !important;
+  }
+  
+  .toc__menu {
+    a {
+      color: var(--grey-6) !important;
+      text-decoration: none !important;
+      padding: 0.25rem 0 !important;
+      display: block !important;
+      border-radius: 0.25rem !important;
+      transition: all 0.3s ease !important;
+      
+      &:hover {
+        color: var(--primary-color) !important;
+        background: rgba(233, 84, 107, 0.1) !important;
+        padding-left: 0.5rem !important;
+      }
+    }
+  }
+}
+
+//
+// ShokaX Comments Section
+//
+.page__comments {
+  background: var(--grey-1) !important;
+  border-radius: 0.625rem !important;
+  padding: 2rem !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+  margin-top: 2rem !important;
+}
+
+//
+// ShokaX Dark Mode Toggle (웹 데모 스타일)
+//
+.dark-mode-toggle {
+  position: fixed !important;
+  top: 20px !important;
+  right: 20px !important;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50% !important;
+  background: var(--primary-color) !important;
+  color: white !important;
+  border: none !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 1.2rem !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+  transition: all 0.3s ease !important;
+  z-index: 9999 !important;
+  
+  &:hover {
+    transform: scale(1.1) !important;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.2) !important;
+  }
+}
+
+//
+// ShokaX Responsive Design
+//
+@media (max-width: 900px) {
+  .page {
+    flex-direction: column !important;
+    
+    .sidebar {
+      width: 100% !important;
+      position: relative !important;
+      top: auto !important;
+      margin-bottom: 2rem !important;
+    }
+    
+    .page__content {
+      width: 100% !important;
+    }
+  }
+  
+  .list__item,
+  .archive__item {
+    flex-direction: column !important;
+    
+    .archive__item-teaser {
+      width: 100% !important;
+      height: 250px !important;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    padding: 1rem !important;
+    
+    .author__avatar img {
+      width: 100px !important;
+      height: 100px !important;
+    }
+  }
+  
+  .page__title {
+    font-size: 2rem !important;
+  }
+  
+  .dark-mode-toggle {
+    width: 45px !important;
+    height: 45px !important;
+    font-size: 1rem !important;
   }
 }
 
