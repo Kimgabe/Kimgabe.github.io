@@ -170,7 +170,13 @@ layout: default
             <div class="calendar-months-grid">
               {% for month in (1..12) %}
                 {% assign month_str = month | prepend: '0' | slice: -2, 2 %}
-                {% assign month_posts = year_posts | where_exp: "post", "post.date | date: '%m' == month_str" %}
+                {% assign month_posts = '' | split: '' %}
+                {% for post in year_posts %}
+                  {% assign post_month = post.date | date: '%m' %}
+                  {% if post_month == month_str %}
+                    {% assign month_posts = month_posts | push: post %}
+                  {% endif %}
+                {% endfor %}
                 
                 <div class="calendar-month {% if month_posts.size > 0 %}has-posts{% endif %}" 
                      data-year="{{ year }}" 
