@@ -37,7 +37,7 @@ subtitle                 : "Data Scientist & Full-Stack Developer" # site taglin
 name                     : &name "Kim Gabe"
 description              : &description "Data Science, AI/ML, and Full-Stack Development Blog with Real ShokaX Theme"
 url                      : "https://kimgabe.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "kimgabe/kimgabe.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -383,6 +383,148 @@ defaults:
         overlay_image: /assets/images/unsplash/rpi4-rZKdS0wI8Ks.jpg
         overlay_filter: 0.4
         caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/rZKdS0wI8Ks)"
+
+# docs/programming
+  - scope:
+      path: "docs/programming"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+      toc_label: Table of Contents
+      toc_icon: "fas fa-list-ol"
+      sidebar:
+        nav: "docs"
+      header:
+        teaser: /assets/images/unsplash/code-programming.jpg
+        overlay_image: /assets/images/unsplash/code-programming.jpg
+        overlay_filter: 0.4
+
+# docs/data-science
+  - scope:
+      path: "docs/data-science"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+      toc_label: Table of Contents
+      toc_icon: "fas fa-list-ol"
+      sidebar:
+        nav: "docs"
+      header:
+        teaser: /assets/images/unsplash/data-science.jpg
+        overlay_image: /assets/images/unsplash/data-science.jpg
+        overlay_filter: 0.4
+
+# docs/ai-ml
+  - scope:
+      path: "docs/ai-ml"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+      toc_label: Table of Contents
+      toc_icon: "fas fa-list-ol"
+      sidebar:
+        nav: "docs"
+      header:
+        teaser: /assets/images/unsplash/ai-ml.jpg
+        overlay_image: /assets/images/unsplash/ai-ml.jpg
+        overlay_filter: 0.4
+
+# docs/portfolio
+  - scope:
+      path: "docs/portfolio"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+      toc_label: Table of Contents
+      toc_icon: "fas fa-list-ol"
+      sidebar:
+        nav: "docs"
+      header:
+        teaser: /assets/images/unsplash/portfolio.jpg
+        overlay_image: /assets/images/unsplash/portfolio.jpg
+        overlay_filter: 0.4
+
+# docs/productivity
+  - scope:
+      path: "docs/productivity"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+      toc_label: Table of Contents
+      toc_icon: "fas fa-list-ol"
+      sidebar:
+        nav: "docs"
+
+# docs/growth
+  - scope:
+      path: "docs/growth"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+      toc_label: Table of Contents
+      toc_icon: "fas fa-list-ol"
+      sidebar:
+        nav: "docs"
+
+# docs/database
+  - scope:
+      path: "docs/database"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+      toc_label: Table of Contents
+      toc_icon: "fas fa-list-ol"
+      sidebar:
+        nav: "docs"
 
 # Sass/SCSS
 sass:

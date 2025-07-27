@@ -8,45 +8,115 @@ main:
     url   : /year-archive-grid/    
   - title : "Search"
     url   : /search/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
 
 # 포스팅내 사이드바에 메뉴 표시
 docs:
-  - title: "Personal Study" # Main category 1
-    children: # Sub-categories
-      - title: "Python Basics"        # Sub-category 1
-        url: "/python-basics/"
-      - title: "EDA"
-        url: "/EDA/"
-      # - title: "Machine Learning"
-      #   url: "/machine-learning/"
-      # - title: "Deep Learning"
-      #   url: "/deep-learning/"
-      - title: "Paper/Article Review"
-        url: "/paper-review/"
-      - title: "Shadowing"
-        url: "/shadowing/"
-      - title: "Portfolio"
-        url: "/portfolio/"
-      # - title: "Tips & cheat sheet"
-      #   url: "/tips/" 
+  - title: "Programming" 
+    children:
+      - title: "Python"
+        url: "/docs/programming/python/"
+      - title: "Pandas"
+        url: "/docs/programming/pandas/"
+      - title: "NumPy"
+        url: "/docs/programming/numpy/"
+      - title: "Matplotlib/Seaborn"
+        url: "/docs/programming/matplotlib-seaborn/"
+      - title: "Git"
+        url: "/docs/programming/git/"
+      - title: "Algorithms"
+        url: "/docs/programming/algorithms/"
 
-  - title: "AIEFFEL_17th" # Main category 2
-    children: # Sub-categories
-      - title: "Study Notes"          # Sub-category 1
-        url: "/study-notes/"
-      - title: "Team Study Notes"
-        url: "/team-study-notes/"
-      - title: "Team Study Notes"
-        url: "/team-study-notes/"
-      - title: "Retrospective & Review"
-        url: "/retrospective/"
+  - title: "Data Science"
+    children:
+      - title: "Visualization"
+        url: "/docs/data-science/visualization/"
+      - title: "Statistics"
+        url: "/docs/data-science/statistics/"
+      - title: "Preprocessing"
+        url: "/docs/data-science/preprocessing/"
+      - title: "Pandas"
+        url: "/docs/data-science/pandas/"
+      - title: "NumPy"
+        url: "/docs/data-science/numpy/"
+      - title: "EDA Methods"
+        url: "/docs/data-science/eda-methods/"
+      - title: "Analysis"
+        url: "/docs/data-science/analysis/"
+
+  - title: "AI/ML"
+    children:
+      - title: "Machine Learning"
+        url: "/docs/ai-ml/machine-learning/"
+      - title: "Deep Learning"
+        url: "/docs/ai-ml/deep-learning/"
+      - title: "Computer Vision"
+        url: "/docs/ai-ml/computer-vision/"
+      - title: "LLM"
+        url: "/docs/ai-ml/llm/"
+      - title: "AI Agents"
+        url: "/docs/ai-ml/ai-agents/"
+
+  - title: "Portfolio"
+    children:
+      - title: "Data Science Projects"
+        url: "/docs/portfolio/data-science/"
+      - title: "Full-Stack Projects"
+        url: "/docs/portfolio/full-stack/"
+      - title: "Raspberry Pi"
+        url: "/docs/portfolio/raspberry-pi/"
+      - title: "Competition"
+        url: "/docs/portfolio/competition/"
+
+  - title: "Productivity"
+    children:
+      - title: "Tools"
+        url: "/docs/productivity/tools/"
+      - title: "Automation"
+        url: "/docs/productivity/automation/"
+
+  - title: "Growth"
+    children:
+      - title: "Retrospective"
+        url: "/docs/growth/retrospective/"
+      - title: "Learning"
+        url: "/docs/growth/learning/"
+
+  - title: "Database"
+    children:
+      - title: "SQL"
+        url: "/docs/database/sql/"
+      - title: "Design"
+        url: "/docs/database/design/"
+
+# Gabe's AI Journey 사이드바
+"Gabe's AI Journey_sidebar":
+  - title: "AI Journey"
+    children:
+      - title: "Study Notes"
+        url: "/gabe_ai_journey/study-notes/"
+      - title: "Projects"
+        url: "/gabe_ai_journey/projects/"
+
+# Personal Study 사이드바
+personal_study_sidebar:
+  - title: "Personal Study"
+    children:
+      - title: "Python Basics"
+        url: "/personal_study/python-basics/"
+      - title: "EDA"
+        url: "/personal_study/eda/"
+      - title: "Paper Review"
+        url: "/personal_study/paper-review/"
+      - title: "Shadowing"
+        url: "/personal_study/shadowing/"
+
+# RPi4 Cluster 사이드바
+rpi4cluster:
+  - title: "RPi4 Cluster"
+    children:
+      - title: "Setup"
+        url: "/rpi4cluster/setup/"
+      - title: "Projects"
+        url: "/rpi4cluster/projects/"
 
 
