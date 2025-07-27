@@ -1,0 +1,126 @@
+/* ================================
+   ShokaX Layout System
+   ================================ */
+
+/* Container and Main Layout */
+#container {
+  min-height: 100vh;
+  min-width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  position: relative;
+  z-index: var(--zindex-1);
+  padding-top: var(--spacing-lg);
+}
+
+main > .inner {
+  width: calc(100% - #{$content-padding});
+  max-width: $content-width;
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+  
+  // User's customization: sidebar.position = left
+  flex-direction: row-reverse;
+}
+
+/* Main Content Area */
+#main {
+  flex: 1;
+  width: calc(100% - 20rem - #{var(--spacing-xl)});
+  min-width: 0; // Allow shrinking
+}
+
+.wrap {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Index Layout */
+.index.wrap {
+  padding: var(--spacing-lg) 0;
+}
+
+.divider {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-xl);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  
+  &::after {
+    content: '';
+    flex: 1;
+    height: 2px;
+    background: linear-gradient(to right, var(--primary-color), transparent);
+  }
+}
+
+/* Segments */
+.segments {
+  &.posts {
+    display: grid;
+    gap: var(--spacing-xl);
+  }
+}
+
+/* Responsive Layout */
+@media (max-width: $lg) {
+  main > .inner {
+    flex-direction: column;
+    width: calc(100% - #{var(--spacing-md)});
+  }
+  
+  #main {
+    width: 100%;
+  }
+  
+  #sidebar {
+    width: 100%;
+    order: 2;
+    margin-top: var(--spacing-xl);
+  }
+}
+
+@media (max-width: $md) {
+  main > .inner {
+    padding: 0 var(--spacing-sm);
+  }
+  
+  .index.wrap {
+    padding: var(--spacing-md) 0;
+  }
+  
+  .divider {
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-lg);
+  }
+  
+  .segments.posts {
+    gap: var(--spacing-lg);
+  }
+}
+
+@media (max-width: $sm) {
+  main {
+    padding-top: var(--spacing-md);
+  }
+  
+  .wrap {
+    padding: 0;
+  }
+  
+  .divider {
+    font-size: 1.125rem;
+    margin-bottom: var(--spacing-md);
+  }
+}

@@ -2,41 +2,403 @@
 layout: default
 ---
 
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
-{% endif %}
+<div class="wrap">
+  <!-- Search Header -->
+  <header class="search-header">
+    <h1 class="search-title">
+      <i class="fas fa-search"></i> 검색
+    </h1>
+    <p class="search-description">제목, 내용, 태그에서 검색할 수 있습니다.</p>
+  </header>
 
-{% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
-{% endif %}
-
-<div id="main" role="main">
-  {% include sidebar.html %}
-
-  <div class="archive">
-    {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 id="page-title" class="page__title">{{ page.title }}</h1>
-    {% endunless %}
-
-    {{ content }}
-
-    {%- assign search_provider = site.search_provider | default: "lunr" -%}
-    {%- case search_provider -%}
-      {%- when "lunr" -%}
-        <input type="text" id="search" class="search-input" placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}" />
-        <div id="results" class="results"></div>
-      {%- when "google" -%}
-        <form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
-        <input type="text" id="cse-search-input-box-id" class="search-input" placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}" />
-        </form>
-        <div id="results" class="results">
-          <gcse:searchresults-only></gcse:searchresults-only>
+  <!-- Search Form -->
+  <div class="search-form-container">
+    <form class="search-form" role="search" aria-label="Site search">
+      <div class="search-input-group">
+        <input type="text" 
+               id="search-input" 
+               class="search-input" 
+               placeholder="검색어를 입력하세요..." 
+               aria-label="Search posts and pages"
+               autocomplete="off"
+               spellcheck="false">
+        <button type="submit" class="search-button" aria-label="Execute search">
+          <i class="fas fa-search" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="search-filters">
+        <div class="filter-group">
+          <label class="filter-label">검색 범위:</label>
+          <label class="filter-option">
+            <input type="checkbox" id="search-posts" checked aria-describedby="posts-desc">
+            <span>포스트</span>
+          </label>
+          <label class="filter-option">
+            <input type="checkbox" id="search-pages" aria-describedby="pages-desc">
+            <span>페이지</span>
+          </label>
         </div>
-      {%- when "algolia" -%}
-        <div class="search-searchbar"></div>
-        <div class="search-hits"></div>
-    {%- endcase -%}
+        <div class="filter-group">
+          <label class="filter-label">정렬:</label>
+          <select id="search-sort" aria-label="Sort search results">
+            <option value="relevance">관련도</option>
+            <option value="date">최신순</option>
+            <option value="title">제목순</option>
+          </select>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- Search Results -->
+  <div class="search-results-container">
+    <!-- Search Status -->
+    <div class="search-status" role="status" aria-live="polite">
+      <p class="search-info"></p>
+    </div>
+
+    <!-- Search Suggestions -->
+    <div class="search-suggestions" style="display: none;">
+      <h3>추천 검색어:</h3>
+      <div class="suggestion-tags">
+        {% assign popular_tags = site.tags | sort | slice: 0, 8 %}
+        {% for tag in popular_tags %}
+        <button class="suggestion-tag" data-query="{{ tag[0] }}">{{ tag[0] }}</button>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Results List -->
+    <div class="search-results" id="search-results">
+      <!-- Results will be populated by JavaScript -->
+    </div>
+
+    <!-- No Results -->
+    <div class="no-results" id="no-results" style="display: none;">
+      <div class="no-results-content">
+        <i class="fas fa-search-minus"></i>
+        <h3>검색 결과가 없습니다</h3>
+        <p>다른 검색어를 시도해보세요.</p>
+        <div class="search-tips">
+          <h4>검색 팁:</h4>
+          <ul>
+            <li>키워드를 짧게 입력해보세요</li>
+            <li>여러 단어로 검색해보세요</li>
+            <li>태그나 카테고리명으로 검색해보세요</li>
+            <li>영어/한글을 바꿔서 검색해보세요</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+
+<!-- Search JavaScript -->
+<script>
+// Search functionality
+class SiteSearch {
+  constructor() {
+    this.searchData = null;
+    this.searchInput = document.getElementById('search-input');
+    this.searchButton = document.querySelector('.search-button');
+    this.searchResults = document.getElementById('search-results');
+    this.searchStatus = document.querySelector('.search-info');
+    this.noResults = document.getElementById('no-results');
+    this.searchSuggestions = document.querySelector('.search-suggestions');
+    
+    this.init();
+  }
+
+  async init() {
+    try {
+      // Load search data
+      const response = await fetch('{{ "/search.json" | relative_url }}');
+      this.searchData = await response.json();
+      
+      // Set up event listeners
+      this.setupEventListeners();
+      
+      // Check for URL search parameter
+      this.checkUrlParams();
+      
+      // Show suggestions initially
+      this.showSuggestions();
+      
+    } catch (error) {
+      console.error('Failed to load search data:', error);
+      this.searchStatus.textContent = '검색 데이터를 불러올 수 없습니다.';
+    }
+  }
+
+  setupEventListeners() {
+    // Search input
+    this.searchInput.addEventListener('input', this.debounce(() => {
+      this.performSearch();
+    }, 300));
+
+    // Search form submission
+    document.querySelector('.search-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      this.performSearch();
+    });
+
+    // Filter changes
+    document.getElementById('search-posts').addEventListener('change', () => {
+      this.performSearch();
+    });
+    
+    document.getElementById('search-pages').addEventListener('change', () => {
+      this.performSearch();
+    });
+
+    // Sort changes
+    document.getElementById('search-sort').addEventListener('change', () => {
+      this.performSearch();
+    });
+
+    // Suggestion clicks
+    document.querySelectorAll('.suggestion-tag').forEach(tag => {
+      tag.addEventListener('click', () => {
+        this.searchInput.value = tag.dataset.query;
+        this.performSearch();
+        this.searchInput.focus();
+      });
+    });
+
+    // Keyboard shortcuts
+    document.addEventListener('keydown', (e) => {
+      if (e.ctrlKey && e.key === 'k') {
+        e.preventDefault();
+        this.searchInput.focus();
+      }
+    });
+  }
+
+  checkUrlParams() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const query = urlParams.get('q');
+    if (query) {
+      this.searchInput.value = query;
+      this.performSearch();
+    }
+  }
+
+  showSuggestions() {
+    if (this.searchInput.value.trim() === '') {
+      this.searchSuggestions.style.display = 'block';
+      this.searchResults.innerHTML = '';
+      this.noResults.style.display = 'none';
+      this.searchStatus.textContent = '';
+    } else {
+      this.searchSuggestions.style.display = 'none';
+    }
+  }
+
+  performSearch() {
+    const query = this.searchInput.value.trim().toLowerCase();
+    
+    if (query === '') {
+      this.showSuggestions();
+      return;
+    }
+
+    this.searchSuggestions.style.display = 'none';
+
+    const includePosts = document.getElementById('search-posts').checked;
+    const includePages = document.getElementById('search-pages').checked;
+    const sortBy = document.getElementById('search-sort').value;
+
+    let results = [];
+
+    // Search posts
+    if (includePosts) {
+      results = results.concat(this.searchInData(this.searchData.posts, query, 'post'));
+    }
+
+    // Search pages
+    if (includePages) {
+      results = results.concat(this.searchInData(this.searchData.pages, query, 'page'));
+    }
+
+    // Sort results
+    results = this.sortResults(results, sortBy);
+
+    // Display results
+    this.displayResults(results, query);
+
+    // Update URL
+    this.updateUrl(query);
+  }
+
+  searchInData(data, query, type) {
+    const results = [];
+    const queryTerms = query.split(' ').filter(term => term.length > 0);
+
+    data.forEach(item => {
+      let score = 0;
+      let matches = [];
+
+      queryTerms.forEach(term => {
+        const titleMatch = this.highlightText(item.title?.toLowerCase() || '', term);
+        const contentMatch = this.highlightText(item.content?.toLowerCase() || '', term);
+        const excerptMatch = this.highlightText(item.excerpt?.toLowerCase() || '', term);
+        
+        // Check tags and categories
+        const tagMatch = item.tags?.some(tag => tag.toLowerCase().includes(term));
+        const categoryMatch = item.categories?.some(cat => cat.toLowerCase().includes(term));
+
+        if (titleMatch.found) {
+          score += 10; // Title matches are most important
+          matches.push({ type: 'title', text: titleMatch.text });
+        }
+        
+        if (excerptMatch.found) {
+          score += 5;
+          matches.push({ type: 'excerpt', text: excerptMatch.text });
+        }
+        
+        if (contentMatch.found) {
+          score += 2;
+          matches.push({ type: 'content', text: contentMatch.text });
+        }
+
+        if (tagMatch) {
+          score += 3;
+        }
+
+        if (categoryMatch) {
+          score += 3;
+        }
+      });
+
+      if (score > 0) {
+        results.push({
+          ...item,
+          type: type,
+          score: score,
+          matches: matches
+        });
+      }
+    });
+
+    return results;
+  }
+
+  highlightText(text, term) {
+    const index = text.indexOf(term);
+    if (index !== -1) {
+      const start = Math.max(0, index - 50);
+      const end = Math.min(text.length, index + term.length + 50);
+      let excerpt = text.substring(start, end);
+      
+      if (start > 0) excerpt = '...' + excerpt;
+      if (end < text.length) excerpt = excerpt + '...';
+      
+      // Highlight the term
+      const highlightedExcerpt = excerpt.replace(
+        new RegExp(term, 'gi'), 
+        `<mark>$&</mark>`
+      );
+      
+      return { found: true, text: highlightedExcerpt };
+    }
+    return { found: false, text: text.substring(0, 150) + '...' };
+  }
+
+  sortResults(results, sortBy) {
+    switch (sortBy) {
+      case 'date':
+        return results.sort((a, b) => new Date(b.date) - new Date(a.date));
+      case 'title':
+        return results.sort((a, b) => a.title.localeCompare(b.title));
+      case 'relevance':
+      default:
+        return results.sort((a, b) => b.score - a.score);
+    }
+  }
+
+  displayResults(results, query) {
+    if (results.length === 0) {
+      this.searchResults.innerHTML = '';
+      this.noResults.style.display = 'block';
+      this.searchStatus.textContent = `"${query}"에 대한 검색 결과가 없습니다.`;
+      return;
+    }
+
+    this.noResults.style.display = 'none';
+    this.searchStatus.textContent = `"${query}"에 대한 검색 결과 ${results.length}개를 찾았습니다.`;
+
+    const resultsHtml = results.map(result => this.createResultHTML(result, query)).join('');
+    this.searchResults.innerHTML = resultsHtml;
+
+    // Add click tracking
+    this.searchResults.querySelectorAll('.search-result-link').forEach(link => {
+      link.addEventListener('click', () => {
+        // Could add analytics here
+        console.log('Search result clicked:', link.href);
+      });
+    });
+  }
+
+  createResultHTML(result, query) {
+    const typeIcon = result.type === 'post' ? 'fas fa-file-alt' : 'fas fa-page';
+    const typeLabel = result.type === 'post' ? '포스트' : '페이지';
+    
+    let matchPreview = '';
+    if (result.matches.length > 0) {
+      const firstMatch = result.matches[0];
+      matchPreview = `<div class="search-match-preview">${firstMatch.text}</div>`;
+    }
+
+    return `
+      <article class="search-result" role="article">
+        <div class="search-result-header">
+          <span class="search-result-type">
+            <i class="${typeIcon}" aria-hidden="true"></i>
+            ${typeLabel}
+          </span>
+          ${result.date ? `<time class="search-result-date">${result.date}</time>` : ''}
+        </div>
+        <h3 class="search-result-title">
+          <a href="${result.url}" class="search-result-link">${result.title}</a>
+        </h3>
+        <div class="search-result-content">
+          ${matchPreview || (result.excerpt || result.content.substring(0, 200) + '...')}
+        </div>
+        ${result.tags ? `
+          <div class="search-result-tags">
+            ${result.tags.slice(0, 3).map(tag => `<span class="search-result-tag">${tag}</span>`).join('')}
+          </div>
+        ` : ''}
+      </article>
+    `;
+  }
+
+  updateUrl(query) {
+    const url = new URL(window.location);
+    if (query) {
+      url.searchParams.set('q', query);
+    } else {
+      url.searchParams.delete('q');
+    }
+    window.history.replaceState(null, '', url);
+  }
+
+  debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+      const later = () => {
+        clearTimeout(timeout);
+        func(...args);
+      };
+      clearTimeout(timeout);
+      timeout = setTimeout(later, wait);
+    };
+  }
+}
+
+// Initialize search when DOM is ready
+document.addEventListener('DOMContentLoaded', () => {
+  new SiteSearch();
+});
+</script>

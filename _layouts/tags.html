@@ -1,43 +1,271 @@
 ---
-layout: archive
+layout: default
 ---
 
-{{ content }}
+<div class="wrap">
+  <!-- Tags Header -->
+  <header class="tags-header">
+    <h1>{{ page.title | default: "태그" }}</h1>
+    <p>{{ page.description | default: "태그별로 게시글을 탐색해보세요" }}</p>
+    <div class="tag-stats">
+      <div class="stat-item">
+        <span class="stat-number">{{ site.tags.size }}</span>
+        <span class="stat-label">태그</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">{{ site.posts.size }}</span>
+        <span class="stat-label">총 게시글</span>
+      </div>
+    </div>
+  </header>
 
-{% assign tags_max = 0 %}
-{% for tag in site.tags %}
-  {% if tag[1].size > tags_max %}
-    {% assign tags_max = tag[1].size %}
-  {% endif %}
-{% endfor %}
+  <!-- Tag Cloud -->
+  <section class="tag-cloud-section">
+    <h2 class="section-title">
+      <i class="fas fa-cloud"></i> 태그 클라우드
+    </h2>
+    <div class="tag-cloud">
+      {% assign max_count = 0 %}
+      {% for tag in site.tags %}
+        {% if tag[1].size > max_count %}
+          {% assign max_count = tag[1].size %}
+        {% endif %}
+      {% endfor %}
+      
+      {% for tag in site.tags %}
+        {% assign tag_name = tag[0] %}
+        {% assign posts = tag[1] %}
+        {% assign tag_slug = tag_name | slugify %}
+        {% assign size_ratio = posts.size | times: 1.0 | divided_by: max_count %}
+        {% assign font_size = size_ratio | times: 1.5 | plus: 0.8 %}
+        
+        <a href="{{ '#' | append: tag_slug | relative_url }}" 
+           class="tag-cloud-item" 
+           style="font-size: {{ font_size }}rem;"
+           data-count="{{ posts.size }}">
+          {{ tag_name }}
+        </a>
+      {% endfor %}
+    </div>
+  </section>
 
-<ul class="taxonomy__index">
-  {% for i in (1..tags_max) reversed %}
-    {% for tag in site.tags %}
-      {% if tag[1].size == i %}
-        <li>
-          <a href="#{{ tag[0] | slugify }}">
-            <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
-          </a>
-        </li>
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-</ul>
+  <!-- Popular Tags -->
+  <section class="popular-tags-section">
+    <h2 class="section-title">
+      <i class="fas fa-fire"></i> 인기 태그
+    </h2>
+    <div class="popular-tags-grid">
+      {% assign sorted_tags = site.tags | sort: 1 | reverse %}
+      {% for tag in sorted_tags limit: 12 %}
+        {% assign tag_name = tag[0] %}
+        {% assign posts = tag[1] %}
+        {% assign tag_slug = tag_name | slugify %}
+        
+        <article class="popular-tag-card">
+          <div class="tag-info">
+            <h3 class="tag-name">
+              <a href="{{ '#' | append: tag_slug | relative_url }}">{{ tag_name }}</a>
+            </h3>
+            <p class="tag-count">{{ posts.size }}개 게시글</p>
+          </div>
+          <div class="latest-posts">
+            {% for post in posts limit: 3 %}
+            <div class="latest-post">
+              <time>{{ post.date | date: "%m/%d" }}</time>
+              <a href="{{ post.url | relative_url }}">{{ post.title | truncate: 30 }}</a>
+            </div>
+            {% endfor %}
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-{% for i in (1..tags_max) reversed %}
-  {% for tag in site.tags %}
-    {% if tag[1].size == i %}
-      <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
-        <h2 class="archive__subtitle">{{ tag[0] }}</h2>
-        <div class="entries-{{ entries_layout }}">
-          {% for post in tag.last %}
-            {% include archive-single.html type=entries_layout %}
-          {% endfor %}
+  <!-- All Tags List -->
+  <section class="all-tags-section">
+    <h2 class="section-title">
+      <i class="fas fa-list"></i> 전체 태그
+    </h2>
+    
+    <!-- Tag Filter -->
+    <div class="tag-filter">
+      <input type="text" 
+             id="tag-search" 
+             placeholder="태그 검색..." 
+             class="tag-search-input">
+      <div class="tag-sort">
+        <label>정렬:</label>
+        <select id="tag-sort-select" class="tag-sort-select">
+          <option value="alphabetical">가나다순</option>
+          <option value="count">게시글 수</option>
+          <option value="recent">최근 업데이트</option>
+        </select>
+      </div>
+    </div>
+    
+    <div class="tags-list" id="tags-list">
+      {% assign sorted_tags = site.tags | sort %}
+      {% for tag in sorted_tags %}
+        {% assign tag_name = tag[0] %}
+        {% assign posts = tag[1] %}
+        {% assign tag_slug = tag_name | slugify %}
+        {% assign latest_post = posts | first %}
+        
+        <div class="tag-item" 
+             id="{{ tag_slug }}" 
+             data-name="{{ tag_name | downcase }}"
+             data-count="{{ posts.size }}"
+             data-date="{{ latest_post.date | date: '%Y-%m-%d' }}">
+          <h3 class="tag-title">
+            <i class="fas fa-tag"></i>
+            {{ tag_name }}
+            <span class="post-count">({{ posts.size }})</span>
+          </h3>
+          
+          <div class="posts-list">
+            {% for post in posts limit: 5 %}
+            <article class="post-preview">
+              <time class="post-date">{{ post.date | date: "%Y-%m-%d" }}</time>
+              <h4 class="post-title">
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              </h4>
+              {% if post.excerpt %}
+              <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 100 }}</p>
+              {% endif %}
+              {% if post.categories.size > 0 %}
+              <div class="post-categories">
+                {% for category in post.categories limit: 2 %}
+                <span class="post-category">{{ category }}</span>
+                {% endfor %}
+              </div>
+              {% endif %}
+            </article>
+            {% endfor %}
+            
+            {% if posts.size > 5 %}
+            <div class="show-more">
+              <button class="btn-show-more" data-tag="{{ tag_slug }}">
+                더보기 ({{ posts.size | minus: 5 }}개 더)
+              </button>
+              
+              <div class="hidden-posts" style="display: none;">
+                {% for post in posts offset: 5 %}
+                <article class="post-preview">
+                  <time class="post-date">{{ post.date | date: "%Y-%m-%d" }}</time>
+                  <h4 class="post-title">
+                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                  </h4>
+                  {% if post.excerpt %}
+                  <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 100 }}</p>
+                  {% endif %}
+                  {% if post.categories.size > 0 %}
+                  <div class="post-categories">
+                    {% for category in post.categories limit: 2 %}
+                    <span class="post-category">{{ category }}</span>
+                    {% endfor %}
+                  </div>
+                  {% endif %}
+                </article>
+                {% endfor %}
+              </div>
+            </div>
+            {% endif %}
+          </div>
         </div>
-        <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-      </section>
-    {% endif %}
-  {% endfor %}
-{% endfor %}
+      {% endfor %}
+    </div>
+  </section>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Show more posts functionality
+  const showMoreButtons = document.querySelectorAll('.btn-show-more');
+  showMoreButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const hiddenPosts = this.parentElement.querySelector('.hidden-posts');
+      
+      if (hiddenPosts.style.display === 'none') {
+        hiddenPosts.style.display = 'block';
+        this.textContent = '접기';
+      } else {
+        hiddenPosts.style.display = 'none';
+        const remainingCount = hiddenPosts.querySelectorAll('.post-preview').length;
+        this.textContent = `더보기 (${remainingCount}개 더)`;
+      }
+    });
+  });
+  
+  // Tag search functionality
+  const searchInput = document.getElementById('tag-search');
+  const sortSelect = document.getElementById('tag-sort-select');
+  const tagsList = document.getElementById('tags-list');
+  const tagItems = Array.from(tagsList.querySelectorAll('.tag-item'));
+  
+  function filterAndSortTags() {
+    const searchTerm = searchInput.value.toLowerCase();
+    const sortBy = sortSelect.value;
+    
+    // Filter tags
+    const filteredItems = tagItems.filter(item => {
+      const tagName = item.dataset.name;
+      return tagName.includes(searchTerm);
+    });
+    
+    // Sort tags
+    filteredItems.sort((a, b) => {
+      switch (sortBy) {
+        case 'alphabetical':
+          return a.dataset.name.localeCompare(b.dataset.name);
+        case 'count':
+          return parseInt(b.dataset.count) - parseInt(a.dataset.count);
+        case 'recent':
+          return new Date(b.dataset.date) - new Date(a.dataset.date);
+        default:
+          return 0;
+      }
+    });
+    
+    // Clear and repopulate
+    tagsList.innerHTML = '';
+    filteredItems.forEach(item => {
+      tagsList.appendChild(item);
+    });
+    
+    // Show hidden items that don't match
+    tagItems.forEach(item => {
+      if (!filteredItems.includes(item)) {
+        item.style.display = 'none';
+      } else {
+        item.style.display = 'block';
+      }
+    });
+  }
+  
+  searchInput.addEventListener('input', filterAndSortTags);
+  sortSelect.addEventListener('change', filterAndSortTags);
+  
+  // Tag cloud hover effects
+  const tagCloudItems = document.querySelectorAll('.tag-cloud-item');
+  tagCloudItems.forEach(item => {
+    item.addEventListener('mouseenter', function() {
+      const count = this.dataset.count;
+      this.setAttribute('title', `${count}개 게시글`);
+    });
+  });
+  
+  // Smooth scroll to tag when coming from anchor link
+  if (window.location.hash) {
+    const targetElement = document.querySelector(window.location.hash);
+    if (targetElement) {
+      setTimeout(() => {
+        targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        targetElement.classList.add('highlight');
+        setTimeout(() => {
+          targetElement.classList.remove('highlight');
+        }, 2000);
+      }, 300);
+    }
+  }
+});
+</script>

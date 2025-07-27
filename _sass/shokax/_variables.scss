@@ -1,0 +1,156 @@
+/* ================================
+   ShokaX Variables & Color System
+   ================================ */
+
+// ShokaX Breakpoints
+$xs: 480px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1600px;
+
+// Content Width
+$content-width: 72.5rem; // 1160px
+$content-padding: 0.75rem;
+
+:root {
+  /* ================================
+     Real ShokaX Color Palette
+     ================================ */
+  --color-red: #e9546b;
+  --color-pink: #ed6ea0;
+  --color-orange: #ec8c69;
+  --color-yellow: #eab700;
+  --color-green: #0a7426;
+  --color-aqua: #3e999f;
+  --color-blue: #38a1db;
+  --color-purple: #9d5b8b;
+  --color-grey: #869194;
+  
+  /* ShokaX Primary Colors */
+  --primary-color: var(--color-red);
+  --secondary-color: var(--color-pink);
+  
+  /* ShokaX Tag Cloud Colors */
+  --tagcloud-start: #72cecf;
+  --tagcloud-end: #ffbac3;
+  
+  /* ShokaX Special Colors */
+  --color-pink-light: rgba(255, 230, 250, 0.72);
+  --color-cyan-light: rgba(227, 253, 245, 0.72);
+  
+  /* ================================
+     Grey Scale System
+     ================================ */
+  --grey-0: #fff;
+  --grey-1: #fdfdfd;
+  --grey-2: #f7f7f7;
+  --grey-3: #eff2f3;
+  --grey-4: #ccc;
+  --grey-5: #999;
+  --grey-6: #666;
+  --grey-7: #333;
+  --grey-8: #222;
+  --grey-9: #000;
+  
+  /* ================================
+     Light Theme Colors
+     ================================ */
+  --bg-color-light: var(--grey-0);
+  --text-color-light: var(--grey-7);
+  --card-bg-light: var(--grey-0);
+  --border-color-light: var(--grey-3);
+  --body-bg-shadow: var(--grey-2);
+  --box-bg-shadow: rgba(0, 0, 0, 0.1);
+  --header-text-color: var(--grey-0);
+  
+  /* ================================
+     Dark Theme Colors
+     ================================ */
+  --bg-color-dark: var(--grey-8);
+  --text-color-dark: var(--grey-5);
+  --card-bg-dark: #21252b;
+  --border-color-dark: #444;
+  
+  /* ================================
+     ShokaX Navigation
+     ================================ */
+  --nav-bg: linear-gradient(-225deg, var(--color-cyan-light) 0%, var(--color-pink-light) 100%);
+  
+  /* ================================
+     Typography System
+     ================================ */
+  --font-primary: 'Mulish', -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-heading: 'Noto Serif SC', serif;
+  --font-title: 'Noto Serif JP', serif;
+  --font-logo: 'Fredericka the Great', cursive;
+  --font-mono: 'Inconsolata', consolas, Menlo, monospace;
+  
+  /* ================================
+     Spacing System
+     ================================ */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  
+  /* ================================
+     Border Radius
+     ================================ */
+  --border-radius: 0.375rem;
+  --border-radius-sm: 0.3125rem;
+  --border-radius-card: 0.625rem;
+  
+  /* ================================
+     Shadow System
+     ================================ */
+  --shadow-light: 0 2px 8px rgba(0,0,0,0.1);
+  --shadow-medium: 0 4px 12px rgba(0,0,0,0.15);
+  --shadow-heavy: 0 8px 24px rgba(0,0,0,0.2);
+  
+  /* ================================
+     Z-index Layers
+     ================================ */
+  --zindex-0: -1;
+  --zindex-1: 1;
+  --zindex-2: 9;
+  --zindex-3: 99;
+  --zindex-4: 999;
+  --zindex-5: 9999;
+}
+
+/* ================================
+   Dark Theme Overrides
+   ================================ */
+[data-theme="dark"] {
+  --grey-0: #222;
+  --grey-1: #21252b;
+  --grey-2: #363636;
+  --grey-3: #444;
+  --grey-4: #666;
+  --grey-5: #aaa;
+  --grey-6: #bbb;
+  --grey-7: #ddd;
+  --grey-8: #222;
+  --grey-9: #000;
+  
+  --bg-color: var(--bg-color-dark);
+  --text-color: var(--text-color-dark);
+  --card-bg: var(--card-bg-dark);
+  --border-color: var(--border-color-dark);
+}
+
+.dark-theme {
+  --grey-0: #222;
+  --grey-1: #21252b;
+  --grey-2: #363636;
+  --grey-3: #444;
+  --grey-4: #666;
+  --grey-5: #aaa;
+  --grey-6: #bbb;
+  --grey-7: #ddd;
+  --grey-8: #222;
+  --grey-9: #000;
+}

@@ -1,43 +1,156 @@
 ---
-layout: archive
+layout: default
 ---
 
-{{ content }}
+<div class="wrap">
+  <!-- Categories Header -->
+  <header class="categories-header">
+    <h1>{{ page.title | default: "카테고리" }}</h1>
+    <p>{{ page.description | default: "주제별로 정리된 게시글을 탐색해보세요" }}</p>
+    <div class="category-stats">
+      <div class="stat-item">
+        <span class="stat-number">{{ site.categories.size }}</span>
+        <span class="stat-label">카테고리</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">{{ site.posts.size }}</span>
+        <span class="stat-label">총 게시글</span>
+      </div>
+    </div>
+  </header>
 
-{% assign categories_max = 0 %}
-{% for category in site.categories %}
-  {% if category[1].size > categories_max %}
-    {% assign categories_max = category[1].size %}
-  {% endif %}
-{% endfor %}
-
-<ul class="taxonomy__index">
-  {% for i in (1..categories_max) reversed %}
-    {% for category in site.categories %}
-      {% if category[1].size == i %}
-        <li>
-          <a href="#{{ category[0] | slugify }}">
-            <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
-          </a>
-        </li>
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-</ul>
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-{% for i in (1..categories_max) reversed %}
-  {% for category in site.categories %}
-    {% if category[1].size == i %}
-      <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
-        <h2 class="archive__subtitle">{{ category[0] }}</h2>
-        <div class="entries-{{ entries_layout }}">
-          {% for post in category.last %}
-            {% include archive-single.html type=entries_layout %}
+  <!-- Categories Content -->
+  <div class="categories-container">
+    {% assign category_groups = site.categories | group_by_exp: "item", "item[0] | split: '/' | first" %}
+    
+    {% for group in category_groups %}
+      {% assign main_category = group.name %}
+      {% assign main_category_posts = group.items %}
+      
+      <section class="category-section">
+        <h2 class="main-category-title">
+          <span class="emoji">{{ site.data.categories[main_category].emoji | default: "📁" }}</span>
+          {{ site.data.categories[main_category].title | default: main_category | capitalize }}
+        </h2>
+        
+        <div class="category-cards-grid">
+          {% for category_data in main_category_posts %}
+            {% assign category_name = category_data[0] %}
+            {% assign posts = category_data[1] %}
+            {% assign category_slug = category_name | slugify %}
+            {% assign category_class = main_category | slugify | append: "-card" %}
+            
+            <article class="category-card {{ category_class }}">
+              <div class="card-icon">
+                <span class="card-emoji">{{ site.data.categories[category_name].emoji | default: "📄" }}</span>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">
+                  <a href="{{ '/categories/#' | append: category_slug | relative_url }}">
+                    {{ site.data.categories[category_name].title | default: category_name }}
+                  </a>
+                </h3>
+                <p class="card-count">{{ posts.size }}개 게시글</p>
+                {% if site.data.categories[category_name].description %}
+                <p class="card-description">{{ site.data.categories[category_name].description }}</p>
+                {% endif %}
+              </div>
+            </article>
           {% endfor %}
         </div>
-        <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
       </section>
-    {% endif %}
-  {% endfor %}
-{% endfor %}
+    {% endfor %}
+  </div>
+
+  <!-- All Categories List -->
+  <section class="all-categories-section">
+    <h2 class="section-title">
+      <i class="fas fa-list"></i> 전체 카테고리
+    </h2>
+    
+    <div class="categories-list">
+      {% for category in site.categories %}
+        {% assign category_name = category[0] %}
+        {% assign posts = category[1] %}
+        {% assign category_slug = category_name | slugify %}
+        
+        <div class="category-item" id="{{ category_slug }}">
+          <h3 class="category-title">
+            <i class="fas fa-folder"></i>
+            {{ site.data.categories[category_name].title | default: category_name }}
+            <span class="post-count">({{ posts.size }})</span>
+          </h3>
+          
+          <div class="posts-list">
+            {% for post in posts limit: 5 %}
+            <article class="post-preview">
+              <time class="post-date">{{ post.date | date: "%Y-%m-%d" }}</time>
+              <h4 class="post-title">
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              </h4>
+              {% if post.excerpt %}
+              <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 100 }}</p>
+              {% endif %}
+            </article>
+            {% endfor %}
+            
+            {% if posts.size > 5 %}
+            <div class="show-more">
+              <button class="btn-show-more" data-category="{{ category_slug }}">
+                더보기 ({{ posts.size | minus: 5 }}개 더)
+              </button>
+              
+              <div class="hidden-posts" style="display: none;">
+                {% for post in posts offset: 5 %}
+                <article class="post-preview">
+                  <time class="post-date">{{ post.date | date: "%Y-%m-%d" }}</time>
+                  <h4 class="post-title">
+                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                  </h4>
+                  {% if post.excerpt %}
+                  <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 100 }}</p>
+                  {% endif %}
+                </article>
+                {% endfor %}
+              </div>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+
+<script>
+// Show more posts functionality
+document.addEventListener('DOMContentLoaded', function() {
+  const showMoreButtons = document.querySelectorAll('.btn-show-more');
+  
+  showMoreButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const categorySlug = this.dataset.category;
+      const hiddenPosts = this.parentElement.querySelector('.hidden-posts');
+      
+      if (hiddenPosts.style.display === 'none') {
+        hiddenPosts.style.display = 'block';
+        this.textContent = '접기';
+      } else {
+        hiddenPosts.style.display = 'none';
+        const remainingCount = hiddenPosts.querySelectorAll('.post-preview').length;
+        this.textContent = `더보기 (${remainingCount}개 더)`;
+      }
+    });
+  });
+  
+  // Smooth scroll to category when coming from anchor link
+  if (window.location.hash) {
+    const targetElement = document.querySelector(window.location.hash);
+    if (targetElement) {
+      setTimeout(() => {
+        targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 300);
+    }
+  }
+});
+</script>

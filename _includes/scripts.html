@@ -1,28 +1,158 @@
+<!-- Enhanced Code Highlighting - Prism.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/toolbar/prism-toolbar.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
+
+<!-- ShokaX JavaScript Files -->
+<script src="{{ '/assets/js/darkmode.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/fireworks.js' | relative_url }}"></script>
+
+<!-- Accessibility and Performance JavaScript -->
+<script>
+// Enhanced accessibility features
+document.addEventListener('DOMContentLoaded', function() {
+  // Keyboard navigation for mobile menu
+  const mobileToggle = document.querySelector('.mobile-menu-toggle');
+  const mainNav = document.querySelector('.main-nav');
+  
+  if (mobileToggle && mainNav) {
+    mobileToggle.addEventListener('click', function() {
+      const expanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', !expanded);
+      mainNav.classList.toggle('mobile-open');
+    });
+    
+    // Close mobile menu on Escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && mainNav.classList.contains('mobile-open')) {
+        mobileToggle.setAttribute('aria-expanded', 'false');
+        mainNav.classList.remove('mobile-open');
+        mobileToggle.focus();
+      }
+    });
+  }
+  
+  // Enhanced image lazy loading with intersection observer
+  if ('IntersectionObserver' in window) {
+    const imageObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const img = entry.target;
+          img.src = img.dataset.src || img.src;
+          img.classList.remove('lazy');
+          observer.unobserve(img);
+        }
+      });
+    });
+    
+    document.querySelectorAll('img[loading="lazy"]').forEach(img => {
+      imageObserver.observe(img);
+    });
+  }
+  
+  // Skip to main content link
+  const skipLink = document.createElement('a');
+  skipLink.href = '#main';
+  skipLink.className = 'skip-link sr-only';
+  skipLink.textContent = 'Skip to main content';
+  skipLink.addEventListener('focus', function() {
+    this.classList.remove('sr-only');
+  });
+  skipLink.addEventListener('blur', function() {
+    this.classList.add('sr-only');
+  });
+  document.body.insertBefore(skipLink, document.body.firstChild);
+  
+  // Focus management for better keyboard navigation
+  const focusableElements = 'a[href], button, textarea, input[type="text"], input[type="radio"], input[type="checkbox"], select';
+  
+  // Announce page changes to screen readers
+  const announcer = document.createElement('div');
+  announcer.setAttribute('aria-live', 'polite');
+  announcer.setAttribute('aria-atomic', 'true');
+  announcer.className = 'sr-only';
+  announcer.id = 'page-announcer';
+  document.body.appendChild(announcer);
+  
+  // Enhanced code block accessibility
+  document.querySelectorAll('pre code').forEach((block, index) => {
+    // Add role and label for screen readers
+    block.setAttribute('role', 'region');
+    block.setAttribute('aria-label', `Code block ${index + 1}`);
+    
+    // Add copy functionality with keyboard support
+    const copyBtn = block.parentNode.querySelector('.toolbar .copy-to-clipboard-button');
+    if (copyBtn) {
+      copyBtn.setAttribute('aria-label', 'Copy code to clipboard');
+      copyBtn.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          this.click();
+        }
+      });
+    }
+  });
+  
+  // Prism.js configuration for better accessibility
+  Prism.plugins.toolbar.registerButton('accessibility', {
+    text: 'Accessible View',
+    onClick: function(env) {
+      const code = env.element;
+      const text = code.textContent;
+      const modal = document.createElement('div');
+      modal.innerHTML = `
+        <div class="code-modal" role="dialog" aria-labelledby="code-title" aria-modal="true">
+          <div class="code-modal-content">
+            <h3 id="code-title">Code Content</h3>
+            <textarea readonly aria-label="Code content for screen readers">${text}</textarea>
+            <button class="close-btn" aria-label="Close code modal">×</button>
+          </div>
+        </div>
+      `;
+      document.body.appendChild(modal);
+      
+      const closeBtn = modal.querySelector('.close-btn');
+      const textarea = modal.querySelector('textarea');
+      
+      textarea.focus();
+      textarea.select();
+      
+      closeBtn.addEventListener('click', () => {
+        document.body.removeChild(modal);
+      });
+      
+      modal.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          document.body.removeChild(modal);
+        }
+      });
+    }
+  });
+});
+
+// Performance optimization: Preload critical resources
+const preloadLinks = [
+  '/assets/css/main.css',
+  '/assets/js/darkmode.js'
+];
+
+preloadLinks.forEach(href => {
+  const link = document.createElement('link');
+  link.rel = 'preload';
+  link.href = href;
+  link.as = href.endsWith('.css') ? 'style' : 'script';
+  document.head.appendChild(link);
+});
+</script>
+
+<!-- Jekyll Feed -->
+{% feed_meta %}
+
+<!-- Custom Scripts -->
 {% if site.footer_scripts %}
   {% for script in site.footer_scripts %}
-    <script src="{{ script | relative_url }}"></script>
-  {% endfor %}
-{% else %}
-  <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
-{% endif %}
-
-{% if site.search == true or page.layout == "search" %}
-  {%- assign search_provider = site.search_provider | default: "lunr" -%}
-  {%- case search_provider -%}
-    {%- when "lunr" -%}
-      {% include_cached search/lunr-search-scripts.html %}
-    {%- when "google" -%}
-      {% include_cached search/google-search-scripts.html %}
-    {%- when "algolia" -%}
-      {% include_cached search/algolia-search-scripts.html %}
-  {%- endcase -%}
-{% endif %}
-
-{% include analytics.html %}
-{% include /comments-providers/scripts.html %}
-
-{% if site.after_footer_scripts %}
-  {% for script in site.after_footer_scripts %}
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% endif %}

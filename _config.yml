@@ -1,10 +1,7 @@
-# 사용할 원격 테마를 지정합니다. 여기서는 "mmistakes/minimal-mistakes" 테마를 사용하고 있습니다.
-# 테마를 변경하면 블로그의 전체적인 디자인과 레이아웃이 변경됩니다.
-remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
-
-# 테마의 스킨 색상을 설정합니다. 
-# 스킨을 변경하면 블로그의 전체적인 색상 테마가 변경됩니다.
-minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# ========================================
+# ShokaX Pure Jekyll Configuration
+# ========================================
+# MM 테마 완전 제거 - 순수 Jekyll + ShokaX 적용
 
 # Site Settings
 locale                   : "ko-KR" # 사이트의 언어를 한국어로 설정합니다.
@@ -120,6 +117,9 @@ highlighter: rouge # 구문 강조에 사용할 하이라이터로 rouge를 설�
 lsi: false # Latent Semantic Indexing(LSI)을 사용하지 않습니다.
 excerpt_separator: "\n\n" # 포스트 요약을 생성할 때 사용할 구분자를 설정합니다. 여기서는 두 개의 줄바꿈(\n\n)으로 설정되어 있습니다.
 incremental: false # 증분 재생성을 비활성화합니다. 증분 재생성은 변경된 파일만 다시 빌드하여 사이트 생성 속도를 향상시킵니다.
+
+# ShokaX Permalink Structure
+permalink: /:categories/:title/
 
 # Markdown Processing
 kramdown:
@@ -299,15 +299,14 @@ paginate_path: /page:num/ # 페이지 번호가 포함된 페이지의 경로를
 timezone: Asia/Seoul # 타임존을 서울로 설정합니다.
 
 # Plugins
+# ShokaX Essential Plugins
 plugins:
- # 사용할 플러그인을 나열합니다.
- - jekyll-paginate # 페이지 번호 매기기 플러그인
- - jekyll-sitemap # 사이트맵 생성 플러그인
- - jekyll-gist # GitHub Gist 삽입 플러그인
- - jekyll-feed # RSS 피드 생성 플러그인
- - jemoji # 이모지 지원 플러그인
- - jekyll-include-cache # 포함(include) 캐싱 플러그인
- # jekyll-algolia 플러그인 제거 (GitHub Pages에서 지원하지 않음)
+ - jekyll-paginate      # 페이지네이션
+ - jekyll-sitemap       # 사이트맵 생성
+ - jekyll-feed          # RSS 피드
+ - jekyll-seo-tag       # SEO 메타태그
+ - jekyll-gist          # GitHub Gist 지원
+ - jemoji               # 이모지 지원
 
 whitelist:
  # GitHub Pages에서 사용 가능한 플러그인을 나열합니다.

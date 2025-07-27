@@ -1,0 +1,93 @@
+<!-- Quick Search Box for Sidebar -->
+<div class="quick-search" role="search" aria-label="Quick search">
+  <form class="quick-search-form" action="{{ '/search/' | relative_url }}" method="get">
+    <div class="quick-search-input-group">
+      <input type="text" 
+             name="q" 
+             placeholder="빠른 검색..." 
+             class="quick-search-input"
+             aria-label="Quick search input"
+             autocomplete="off">
+      <button type="submit" class="quick-search-button" aria-label="Execute quick search">
+        <i class="fas fa-search" aria-hidden="true"></i>
+      </button>
+    </div>
+  </form>
+</div>
+
+<style>
+.quick-search {
+  margin-bottom: var(--spacing-lg);
+  padding-top: var(--spacing-lg);
+  border-top: 2px solid var(--border-color-light);
+}
+
+.dark-theme .quick-search {
+  border-top-color: var(--border-color-dark);
+}
+
+.quick-search-input-group {
+  display: flex;
+  gap: 0;
+}
+
+.quick-search-input {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  border: 2px solid var(--primary-color);
+  border-right: none;
+  border-radius: var(--border-radius-sm) 0 0 var(--border-radius-sm);
+  background: var(--card-bg-light);
+  color: var(--text-color-light);
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  
+  &:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 2px rgba(237, 110, 160, 0.1);
+  }
+  
+  &::placeholder {
+    color: var(--grey-4);
+  }
+}
+
+.dark-theme .quick-search-input {
+  background: var(--card-bg-dark);
+  color: var(--text-color-dark);
+}
+
+.quick-search-button {
+  padding: 0.5rem 0.75rem;
+  background: var(--primary-color);
+  color: white;
+  border: 2px solid var(--primary-color);
+  border-radius: 0 var(--border-radius-sm) var(--border-radius-sm) 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+  
+  &:hover, &:focus {
+    background: var(--secondary-color);
+    border-color: var(--secondary-color);
+    transform: scale(1.05);
+  }
+}
+
+@media (max-width: 768px) {
+  .quick-search-input-group {
+    flex-direction: column;
+    gap: 0.5rem;
+    
+    .quick-search-input {
+      border-radius: var(--border-radius-sm);
+      border-right: 2px solid var(--primary-color);
+    }
+    
+    .quick-search-button {
+      border-radius: var(--border-radius-sm);
+    }
+  }
+}
+</style>

@@ -1,0 +1,180 @@
+# ShokaX Categories Configuration
+# Define category metadata, icons, and descriptions
+
+# Programming Categories
+programming:
+  title: "프로그래밍"
+  emoji: "💻"
+  description: "프로그래밍 언어, 프레임워크, 개발 도구에 대한 글"
+
+python:
+  title: "Python"
+  emoji: "🐍"
+  description: "Python 프로그래밍 언어와 관련 라이브러리"
+
+javascript:
+  title: "JavaScript"
+  emoji: "⚡"
+  description: "JavaScript, Node.js, 프론트엔드 개발"
+
+react:
+  title: "React"
+  emoji: "⚛️"
+  description: "React 라이브러리와 생태계"
+
+vue:
+  title: "Vue.js"
+  emoji: "💚"
+  description: "Vue.js 프레임워크"
+
+backend:
+  title: "백엔드"
+  emoji: "🔧"
+  description: "서버 사이드 개발, API, 데이터베이스"
+
+frontend:
+  title: "프론트엔드"
+  emoji: "🎨"
+  description: "UI/UX, 웹 디자인, 사용자 경험"
+
+# Data Science Categories
+data-science:
+  title: "데이터 사이언스"
+  emoji: "📊"
+  description: "데이터 분석, 시각화, 통계학"
+
+machine-learning:
+  title: "머신러닝"
+  emoji: "🤖"
+  description: "기계학습 알고리즘과 모델"
+
+deep-learning:
+  title: "딥러닝"
+  emoji: "🧠"
+  description: "신경망, 딥러닝 프레임워크"
+
+ai:
+  title: "인공지능"
+  emoji: "🚀"
+  description: "AI 기술, 자연어처리, 컴퓨터 비전"
+
+statistics:
+  title: "통계학"
+  emoji: "📈"
+  description: "통계 분석, 확률론, 수학적 모델링"
+
+# Database Categories
+database:
+  title: "데이터베이스"
+  emoji: "🗄️"
+  description: "데이터베이스 설계, SQL, NoSQL"
+
+sql:
+  title: "SQL"
+  emoji: "🔍"
+  description: "SQL 쿼리, 데이터베이스 관리"
+
+mongodb:
+  title: "MongoDB"
+  emoji: "🍃"
+  description: "NoSQL 데이터베이스"
+
+postgresql:
+  title: "PostgreSQL"
+  emoji: "🐘"
+  description: "관계형 데이터베이스"
+
+# Tools & Productivity
+tools:
+  title: "도구"
+  emoji: "🛠️"
+  description: "개발 도구, 생산성 도구"
+
+git:
+  title: "Git"
+  emoji: "📝"
+  description: "버전 관리, Git 워크플로우"
+
+docker:
+  title: "Docker"
+  emoji: "🐳"
+  description: "컨테이너화, DevOps"
+
+aws:
+  title: "AWS"
+  emoji: "☁️"
+  description: "클라우드 컴퓨팅, AWS 서비스"
+
+linux:
+  title: "Linux"
+  emoji: "🐧"
+  description: "리눅스 시스템, 명령어, 서버 관리"
+
+# Portfolio & Projects
+portfolio:
+  title: "포트폴리오"
+  emoji: "🎯"
+  description: "프로젝트 쇼케이스, 작업물"
+
+projects:
+  title: "프로젝트"
+  emoji: "🚧"
+  description: "개발 프로젝트, 사이드 프로젝트"
+
+tutorial:
+  title: "튜토리얼"
+  emoji: "📚"
+  description: "단계별 가이드, 학습 자료"
+
+# Personal Growth
+growth:
+  title: "성장"
+  emoji: "🌱"
+  description: "개인 성장, 학습 경험"
+
+career:
+  title: "커리어"
+  emoji: "💼"
+  description: "커리어 개발, 취업 준비"
+
+study:
+  title: "학습"
+  emoji: "📖"
+  description: "학습 방법, 공부 기록"
+
+review:
+  title: "리뷰"
+  emoji: "⭐"
+  description: "도서 리뷰, 강의 후기"
+
+# Technology Trends
+tech:
+  title: "기술"
+  emoji: "🔬"
+  description: "최신 기술 동향, 기술 분석"
+
+web:
+  title: "웹 개발"
+  emoji: "🌐"
+  description: "웹 기술, 웹 표준"
+
+mobile:
+  title: "모바일"
+  emoji: "📱"
+  description: "모바일 앱 개발"
+
+# Miscellaneous
+blog:
+  title: "블로그"
+  emoji: "✍️"
+  description: "블로그 운영, 글쓰기"
+
+life:
+  title: "일상"
+  emoji: "☕"
+  description: "일상 이야기, 생각"
+
+tips:
+  title: "팁"
+  emoji: "💡"
+  description: "유용한 팁, 노하우"
