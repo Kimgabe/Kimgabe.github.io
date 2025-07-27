@@ -104,6 +104,8 @@ exclude:
   - x-posts # x-posts 디렉토리를 제외합니다.
   - _docs
   - _drafts
+  - docs/programming/algorithms/ # 한글 파일명으로 인한 빌드 오류 방지
+  - docs/programming/python/ # 특수문자 파일명으로 인한 빌드 오류 방지
 
 keep_files:
   # 생성된 사이트를 빌드할 때 유지할 파일들을 지정합니다.
