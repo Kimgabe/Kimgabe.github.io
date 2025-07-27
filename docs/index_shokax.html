@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kim Gabe's DS Blog - ShokaX Theme</title>
+    <meta name="description" content="Data Science, AI/ML, and Full-Stack Development Blog with Real ShokaX Theme">
+    
+    <!-- Google Fonts - Real ShokaX Font Stack -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&family=Fredericka+the+Great&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- ShokaX Custom Icon Font -->
+    <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4415496_59g1326wajd.css">
+    
+    <!-- Minimal Mistakes Base CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    
+    <style>
+        /* ShokaX Theme Override Styles */
+        :root {
+            --color-red: #e9546b;
+            --color-pink: #ed6ea0;
+            --color-aqua: #3e999f;
+            --color-blue: #38a1db;
+            --tagcloud-start: #72cecf;
+            --tagcloud-end: #ffbac3;
+            --primary-color: var(--color-red);
+            --secondary-color: var(--color-pink);
+        }
+        
+        /* Body styling */
+        body {
+            font-family: 'Mulish', -apple-system, sans-serif;
+            line-height: 2;
+            background-color: #222 !important;
+            color: #999 !important;
+        }
+        
+        /* ShokaX Layout */
+        .shokax-container {
+            display: flex;
+            gap: 2rem;
+            max-width: 95rem;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .shokax-sidebar {
+            width: 300px;
+            background: #21252b;
+            border-radius: 10px;
+            padding: 2rem;
+            height: fit-content;
+            position: sticky;
+            top: 2rem;
+        }
+        
+        .shokax-main {
+            flex: 1;
+        }
+        
+        /* Author Info */
+        .author-info {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .author-avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 0 auto 1rem;
+            border: 3px solid var(--primary-color);
+            overflow: hidden;
+        }
+        
+        .author-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .author-name {
+            font-family: 'Noto Serif SC', serif;
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        .author-bio {
+            color: #999;
+            font-size: 0.9rem;
+        }
+        
+        /* Navigation */
+        .sidebar-nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .sidebar-nav li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .sidebar-nav a {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            color: #999;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+        
+        .sidebar-nav a:hover {
+            background: rgba(233, 84, 107, 0.1);
+            color: var(--primary-color);
+            transform: translateX(5px);
+        }
+        
+        /* Post Cards */
+        .post-item {
+            display: flex;
+            background: #21252b;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 2rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .post-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+        }
+        
+        .post-cover {
+            width: 280px;
+            height: 200px;
+            overflow: hidden;
+        }
+        
+        .post-cover img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        
+        .post-item:hover .post-cover img {
+            transform: scale(1.05);
+        }
+        
+        .post-info {
+            flex: 1;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .post-meta {
+            display: flex;
+            gap: 1rem;
+            font-size: 0.85rem;
+            color: #999;
+            margin-bottom: 1rem;
+        }
+        
+        .post-meta time {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+        
+        .post-title {
+            font-family: 'Noto Serif JP', serif;
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin: 0 0 1rem;
+        }
+        
+        .post-title a {
+            color: #ddd;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .post-title a:hover {
+            color: var(--primary-color);
+        }
+        
+        .post-excerpt {
+            color: #999;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+            flex-grow: 1;
+        }
+        
+        .post-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .post-tags {
+            display: flex;
+            gap: 0.5rem;
+        }
+        
+        .post-tag {
+            padding: 4px 8px;
+            background: rgba(233, 84, 107, 0.1);
+            color: var(--primary-color);
+            text-decoration: none;
+            border-radius: 3px;
+            font-size: 0.8rem;
+            transition: all 0.3s ease;
+        }
+        
+        .post-tag:hover {
+            background: var(--primary-color);
+            color: white;
+        }
+        
+        .btn {
+            background: var(--primary-color);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            background: #d63c56;
+            transform: translateX(5px);
+        }
+        
+        /* Page Title */
+        .page-title {
+            font-family: 'Fredericka the Great', cursive;
+            font-size: 3rem;
+            color: var(--primary-color);
+            text-align: center;
+            margin-bottom: 3rem;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .divider {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-family: 'Noto Serif SC', serif;
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid rgba(233, 84, 107, 0.3);
+        }
+        
+        /* Dark Mode Toggle */
+        .dark-mode-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+        
+        .dark-mode-toggle:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+        }
+        
+        /* Responsive */
+        @media (max-width: 900px) {
+            .shokax-container {
+                flex-direction: column;
+            }
+            
+            .shokax-sidebar {
+                width: 100%;
+                position: relative;
+                top: auto;
+            }
+            
+            .post-item {
+                flex-direction: column;
+            }
+            
+            .post-cover {
+                width: 100%;
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body class="dark-theme">
+    <!-- Page Title -->
+    <h1 class="page-title">Kim Gabe's DS Blog</h1>
+    
+    <!-- Main Container -->
+    <div class="shokax-container">
+        <!-- Sidebar -->
+        <div class="shokax-sidebar">
+            <!-- Author Info -->
+            <div class="author-info">
+                <div class="author-avatar">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face" alt="Kim Gabe" loading="lazy">
+                </div>
+                <h3 class="author-name">Kim Gabe</h3>
+                <p class="author-bio">Data Scientist & Full-Stack Developer</p>
+            </div>
+
+            <!-- Navigation -->
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="#"><i class="ic i-home"></i> Home</a></li>
+                    <li><a href="#"><i class="ic i-feather"></i> Posts</a></li>
+                    <li><a href="archives.html"><i class="ic i-list-alt"></i> Archives</a></li>
+                    <li><a href="categories.html"><i class="ic i-th"></i> Categories</a></li>
+                    <li><a href="#"><i class="ic i-tags"></i> Tags</a></li>
+                    <li><a href="#"><i class="ic i-search"></i> Search</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="shokax-main">
+            <!-- Recent Posts Section -->
+            <h2 class="divider">
+                <i class="ic i-feather"></i> 최신 게시글
+            </h2>
+            
+            <!-- Sample Posts -->
+            <article class="post-item">
+                <div class="post-cover">
+                    <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop" alt="ShokaX Jekyll Theme" loading="lazy">
+                </div>
+                <div class="post-info">
+                    <div class="post-meta">
+                        <time>2025-01-27</time>
+                        <span><i class="fas fa-eye"></i> 123</span>
+                    </div>
+                    <h3 class="post-title">
+                        <a href="#">ShokaX 테마 Jekyll 적용 완료</a>
+                    </h3>
+                    <div class="post-excerpt">
+                        웹 데모로 검증한 ShokaX 테마를 Jekyll에 성공적으로 적용했습니다. 모든 시각적 요소와 기능이 완벽하게 포팅되었으며, 실제 Jekyll 블로그에서 확인할 수 있습니다.
+                    </div>
+                    <div class="post-footer">
+                        <div class="post-tags">
+                            <a href="#" class="post-tag">Jekyll</a>
+                            <a href="#" class="post-tag">ShokaX</a>
+                            <a href="#" class="post-tag">Theme</a>
+                        </div>
+                        <a href="#" class="btn">more...</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="post-item">
+                <div class="post-cover">
+                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop" alt="Data Science" loading="lazy">
+                </div>
+                <div class="post-info">
+                    <div class="post-meta">
+                        <time>2025-01-26</time>
+                        <span><i class="fas fa-eye"></i> 456</span>
+                    </div>
+                    <h3 class="post-title">
+                        <a href="#">웹 데모에서 Jekyll로 완전 마이그레이션</a>
+                    </h3>
+                    <div class="post-excerpt">
+                        처음 웹 데모로 구현했던 모든 기능들이 Jekyll 블로그에서 정상적으로 작동합니다. 차트 시스템, 카테고리 그룹핑, 다크모드까지 모든 기능이 완벽하게 구현되었습니다.
+                    </div>
+                    <div class="post-footer">
+                        <div class="post-tags">
+                            <a href="#" class="post-tag">Migration</a>
+                            <a href="#" class="post-tag">Chart.js</a>
+                            <a href="#" class="post-tag">DarkMode</a>
+                        </div>
+                        <a href="#" class="btn">more...</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="post-item">
+                <div class="post-cover">
+                    <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800&h=600&fit=crop" alt="Web Development" loading="lazy">
+                </div>
+                <div class="post-info">
+                    <div class="post-meta">
+                        <time>2025-01-25</time>
+                        <span><i class="fas fa-eye"></i> 789</span>
+                    </div>
+                    <h3 class="post-title">
+                        <a href="#">100% 동일한 ShokaX 스타일 달성</a>
+                    </h3>
+                    <div class="post-excerpt">
+                        원본 ShokaX 테마와 100% 동일한 색상, 폰트, 레이아웃을 Jekyll에서 구현했습니다. 시간 기반 다크모드, 차트 대시보드 등 모든 고급 기능까지 완벽 재현했습니다.
+                    </div>
+                    <div class="post-footer">
+                        <div class="post-tags">
+                            <a href="#" class="post-tag">ShokaX</a>
+                            <a href="#" class="post-tag">Design</a>
+                            <a href="#" class="post-tag">Frontend</a>
+                        </div>
+                        <a href="#" class="btn">more...</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <!-- Dark Mode Toggle -->
+    <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-adjust"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="assets/js/shokax-darkmode.js"></script>
+    
+    <script>
+        // Simple toggle for demo
+        document.getElementById('darkModeToggle').addEventListener('click', function() {
+            document.body.classList.toggle('light-theme');
+            console.log('Theme toggled!');
+        });
+    </script>
+</body>
+</html> 
