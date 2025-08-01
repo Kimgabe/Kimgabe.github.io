@@ -1,0 +1,104 @@
+<!-- Search Box Component -->
+<section class="search-box" role="search" aria-label="Site search">
+  <form class="search-form" action="{{ '/search/' | relative_url }}" method="get">
+    <div class="search-input-group">
+      <input type="search" 
+             id="search-input" 
+             name="q" 
+             class="search-input" 
+             placeholder="Search posts..." 
+             aria-label="Search posts"
+             autocomplete="off"
+             required>
+      <button type="submit" class="search-button" aria-label="Submit search">
+        <i class="fas fa-search" aria-hidden="true"></i>
+      </button>
+    </div>
+  </form>
+</section>
+
+<style>
+.search-box {
+  margin-bottom: var(--spacing-lg);
+  padding: var(--spacing-md);
+  background: var(--card-bg-light);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color-light);
+}
+
+.dark-theme .search-box {
+  background: var(--card-bg-dark);
+  border-color: var(--border-color-dark);
+}
+
+.search-form {
+  width: 100%;
+}
+
+.search-input-group {
+  display: flex;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  border: 2px solid var(--border-color-light);
+  transition: border-color 0.3s ease;
+}
+
+.search-input-group:focus-within {
+  border-color: var(--primary-color);
+}
+
+.dark-theme .search-input-group {
+  border-color: var(--border-color-dark);
+}
+
+.search-input {
+  flex: 1;
+  padding: var(--spacing-sm);
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+  background: var(--grey-0);
+  color: var(--text-color-light);
+}
+
+.dark-theme .search-input {
+  background: var(--grey-8);
+  color: var(--text-color-dark);
+}
+
+.search-input::placeholder {
+  color: var(--grey-5);
+}
+
+.search-button {
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: var(--primary-color);
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-button:hover {
+  background: var(--secondary-color);
+}
+
+.search-button:focus {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .search-box {
+    padding: var(--spacing-sm);
+  }
+  
+  .search-input {
+    font-size: 16px; /* Prevent zoom on iOS */
+  }
+}
+</style>
