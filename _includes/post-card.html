@@ -1,0 +1,78 @@
+<!-- Post Card Component (ShokaX Rectangular Card Style) -->
+<article class="post-item">
+  <!-- Post Cover Image -->
+  <div class="cover">
+    {% if post.image %}
+    <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+    {% elsif post.header.image %}
+    <img src="{{ post.header.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+    {% else %}
+    <!-- Default cover image based on category -->
+    {% assign category_slug = post.categories.first | slugify %}
+    {% case category_slug %}
+      {% when 'programming', 'code', 'dev' %}
+        <img src="https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?w=400&h=250&fit=crop" alt="Programming related post" loading="lazy">
+      {% when 'data-science', 'ml', 'ai' %}
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop" alt="Data science related post" loading="lazy">
+      {% when 'tutorial', 'guide' %}
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=250&fit=crop" alt="Tutorial related post" loading="lazy">
+      {% else %}
+        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=400&h=250&fit=crop" alt="Blog post cover" loading="lazy">
+    {% endcase %}
+    {% endif %}
+  </div>
+  
+  <!-- Post Info -->
+  <div class="info">
+    <!-- Post Meta -->
+    <div class="post-meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">
+        <i class="far fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%Y-%m-%d" }}
+      </time>
+      {% if post.categories.size > 0 %}
+      <span class="category">
+        <i class="fas fa-folder" aria-hidden="true"></i> 
+        {% for category in post.categories limit: 1 %}
+        <a href="{{ '/categories/#' | append: category | slugify | relative_url }}">{{ category }}</a>
+        {% endfor %}
+      </span>
+      {% endif %}
+      {% if post.read_time %}
+      <span class="read-time">
+        <i class="far fa-clock" aria-hidden="true"></i> {{ post.read_time }}
+      </span>
+      {% endif %}
+    </div>
+    
+    <!-- Post Title -->
+    <h2 class="post-title">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h2>
+    
+    <!-- Post Excerpt -->
+    <div class="post-excerpt">
+      {% if post.excerpt %}
+        {{ post.excerpt | strip_html | truncate: 120 }}
+      {% else %}
+        {{ post.content | strip_html | truncate: 120 }}
+      {% endif %}
+    </div>
+    
+    <!-- Post Footer -->
+    <div class="post-footer">
+      <!-- Tags -->
+      {% if post.tags.size > 0 %}
+      <div class="post-tags">
+        {% for tag in post.tags limit: 3 %}
+        <a href="{{ '/tags/#' | append: tag | slugify | relative_url }}" class="post-tag">{{ tag }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+      
+      <!-- Read More Button -->
+      <a href="{{ post.url | relative_url }}" class="btn" aria-label="Read full post: {{ post.title }}">
+        읽어보기 <i class="fas fa-arrow-right" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+</article>
