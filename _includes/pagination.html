@@ -1,0 +1,249 @@
+<!-- Pagination Component for ShokaX Theme -->
+{% if paginator.total_pages > 1 %}
+<nav class="pagination" role="navigation" aria-label="Pagination navigation">
+  <div class="pagination-wrapper">
+    <!-- Previous Page -->
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-item pagination-prev" rel="prev" aria-label="Previous page">
+        <i class="fas fa-chevron-left" aria-hidden="true"></i>
+        <span>이전</span>
+      </a>
+    {% else %}
+      <span class="pagination-item pagination-prev disabled" aria-label="No previous page">
+        <i class="fas fa-chevron-left" aria-hidden="true"></i>
+        <span>이전</span>
+      </span>
+    {% endif %}
+
+    <!-- Page Numbers -->
+    <div class="pagination-numbers">
+      {% comment %} Calculate the range of pages to show {% endcomment %}
+      {% assign start_page = paginator.page | minus: 2 %}
+      {% assign end_page = paginator.page | plus: 2 %}
+      
+      {% if start_page < 1 %}
+        {% assign start_page = 1 %}
+        {% assign end_page = 5 %}
+      {% endif %}
+      
+      {% if end_page > paginator.total_pages %}
+        {% assign end_page = paginator.total_pages %}
+        {% assign start_page = paginator.total_pages | minus: 4 %}
+        {% if start_page < 1 %}
+          {% assign start_page = 1 %}
+        {% endif %}
+      {% endif %}
+
+      <!-- First page (if not in range) -->
+      {% if start_page > 1 %}
+        <a href="{{ '/' | relative_url }}" class="pagination-item" aria-label="Go to page 1">1</a>
+        {% if start_page > 2 %}
+          <span class="pagination-item pagination-ellipsis" aria-hidden="true">…</span>
+        {% endif %}
+      {% endif %}
+
+      <!-- Page number range -->
+      {% for page in (start_page..end_page) %}
+        {% if page == paginator.page %}
+          <span class="pagination-item pagination-current" aria-current="page" aria-label="Current page {{ page }}">{{ page }}</span>
+        {% else %}
+          {% if page == 1 %}
+            <a href="{{ '/' | relative_url }}" class="pagination-item" aria-label="Go to page {{ page }}">{{ page }}</a>
+          {% else %}
+            <a href="{{ site.paginate_path | replace: ':num', page | relative_url }}" class="pagination-item" aria-label="Go to page {{ page }}">{{ page }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+      <!-- Last page (if not in range) -->
+      {% if end_page < paginator.total_pages %}
+        {% if end_page < paginator.total_pages | minus: 1 %}
+          <span class="pagination-item pagination-ellipsis" aria-hidden="true">…</span>
+        {% endif %}
+        <a href="{{ site.paginate_path | replace: ':num', paginator.total_pages | relative_url }}" class="pagination-item" aria-label="Go to page {{ paginator.total_pages }}">{{ paginator.total_pages }}</a>
+      {% endif %}
+    </div>
+
+    <!-- Next Page -->
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-item pagination-next" rel="next" aria-label="Next page">
+        <span>다음</span>
+        <i class="fas fa-chevron-right" aria-hidden="true"></i>
+      </a>
+    {% else %}
+      <span class="pagination-item pagination-next disabled" aria-label="No next page">
+        <span>다음</span>
+        <i class="fas fa-chevron-right" aria-hidden="true"></i>
+      </span>
+    {% endif %}
+  </div>
+
+  <!-- Page info -->
+  <div class="pagination-info">
+    <span class="page-info">
+      페이지 {{ paginator.page }} / {{ paginator.total_pages }} 
+      <span class="post-count">(총 {{ paginator.total_posts }}개 게시글)</span>
+    </span>
+  </div>
+</nav>
+{% endif %}
+
+<style>
+.pagination {
+  margin: var(--spacing-xl) 0;
+  text-align: center;
+}
+
+.pagination-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-md);
+}
+
+.pagination-numbers {
+  display: flex;
+  gap: var(--spacing-xs);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pagination-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-xs);
+  min-width: 40px;
+  height: 40px;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--border-radius);
+  text-decoration: none;
+  color: var(--text-color-light);
+  background: var(--card-bg-light);
+  border: 2px solid var(--border-color-light);
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.dark-theme .pagination-item {
+  color: var(--text-color-dark);
+  background: var(--card-bg-dark);
+  border-color: var(--border-color-dark);
+}
+
+.pagination-item:hover:not(.disabled):not(.pagination-current) {
+  background: var(--primary-color);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-medium);
+  border-color: var(--primary-color);
+}
+
+.pagination-current {
+  background: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+  cursor: default;
+  box-shadow: var(--shadow-light);
+}
+
+.pagination-item.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background: var(--grey-2);
+  color: var(--grey-5);
+  border-color: var(--grey-3);
+}
+
+.dark-theme .pagination-item.disabled {
+  background: var(--grey-7);
+  color: var(--grey-4);
+  border-color: var(--grey-6);
+}
+
+.pagination-ellipsis {
+  background: transparent;
+  border: none;
+  cursor: default;
+  color: var(--grey-5);
+}
+
+.pagination-ellipsis:hover {
+  background: transparent;
+  transform: none;
+  box-shadow: none;
+}
+
+.pagination-prev,
+.pagination-next {
+  font-weight: 700;
+  padding: var(--spacing-xs) var(--spacing-md);
+}
+
+.pagination-info {
+  margin-top: var(--spacing-sm);
+  color: var(--grey-5);
+  font-size: 0.85rem;
+}
+
+.post-count {
+  opacity: 0.7;
+  font-size: 0.8rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .pagination-wrapper {
+    gap: 0.25rem;
+  }
+  
+  .pagination-numbers {
+    gap: 0.25rem;
+  }
+  
+  .pagination-item {
+    min-width: 35px;
+    height: 35px;
+    padding: var(--spacing-xs);
+    font-size: 0.8rem;
+  }
+  
+  .pagination-prev,
+  .pagination-next {
+    padding: var(--spacing-xs) var(--spacing-sm);
+  }
+  
+  .pagination-prev span,
+  .pagination-next span {
+    display: none;
+  }
+  
+  .pagination-info {
+    font-size: 0.8rem;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  .pagination-wrapper {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+  }
+  
+  .pagination-numbers {
+    order: 1;
+  }
+  
+  .pagination-prev {
+    order: 0;
+  }
+  
+  .pagination-next {
+    order: 2;
+  }
+}
+</style>
