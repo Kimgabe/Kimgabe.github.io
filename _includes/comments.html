@@ -1,0 +1,97 @@
+<!-- Comments Provider Integration -->
+{% case site.comments.provider %}
+  {% when "disqus" %}
+    <!-- Disqus Comments -->
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function () {
+        this.page.url = "{{ page.url | absolute_url }}";
+        this.page.identifier = "{{ page.id }}";
+        this.page.title = "{{ page.title }}";
+      };
+      (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://{{ site.comments.disqus.shortname }}.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>
+      Please enable JavaScript to view the 
+      <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+
+  {% when "utterances" %}
+    <!-- Utterances Comments -->
+    <script src="https://utteranc.es/client.js"
+            repo="{{ site.comments.utterances.repo }}"
+            issue-term="{{ site.comments.utterances.issue_term | default: 'pathname' }}"
+            theme="{{ site.comments.utterances.theme | default: 'github-light' }}"
+            crossorigin="anonymous"
+            async>
+    </script>
+
+  {% when "giscus" %}
+    <!-- Giscus Comments -->
+    <script src="https://giscus.app/client.js"
+            data-repo="{{ site.comments.giscus.repo }}"
+            data-repo-id="{{ site.comments.giscus.repo_id }}"
+            data-category="{{ site.comments.giscus.category }}"
+            data-category-id="{{ site.comments.giscus.category_id }}"
+            data-mapping="{{ site.comments.giscus.mapping | default: 'pathname' }}"
+            data-strict="{{ site.comments.giscus.strict | default: '0' }}"
+            data-reactions-enabled="{{ site.comments.giscus.reactions_enabled | default: '1' }}"
+            data-emit-metadata="{{ site.comments.giscus.emit_metadata | default: '0' }}"
+            data-input-position="{{ site.comments.giscus.input_position | default: 'bottom' }}"
+            data-theme="{{ site.comments.giscus.theme | default: 'light' }}"
+            data-lang="{{ site.comments.giscus.lang | default: 'ko' }}"
+            crossorigin="anonymous"
+            async>
+    </script>
+
+  {% else %}
+    <!-- Default: No comments provider configured -->
+    <div class="comments-placeholder">
+      <p>댓글 시스템이 구성되어 있지 않습니다.</p>
+      <p>관리자는 _config.yml에서 comments.provider를 설정해주세요.</p>
+    </div>
+{% endcase %}
+
+<style>
+#disqus_thread {
+  margin-top: var(--spacing-lg);
+}
+
+.utterances {
+  max-width: 100% !important;
+  margin-top: var(--spacing-lg);
+}
+
+.giscus {
+  margin-top: var(--spacing-lg);
+}
+
+.comments-placeholder {
+  text-align: center;
+  color: var(--grey-5);
+  font-style: italic;
+  padding: var(--spacing-xl) var(--spacing-lg);
+  background: var(--grey-1);
+  border-radius: var(--border-radius);
+  border: 2px dashed var(--grey-3);
+  margin-top: var(--spacing-lg);
+}
+
+.dark-theme .comments-placeholder {
+  background: var(--grey-7);
+  border-color: var(--grey-6);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .comments-placeholder {
+    padding: var(--spacing-lg) var(--spacing-md);
+    font-size: 0.9rem;
+  }
+}
+</style>
