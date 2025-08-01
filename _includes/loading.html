@@ -1,0 +1,92 @@
+<!-- ShokaX Loading Animation -->
+<div id="loading" class="loading-container">
+  <div class="loading-spinner">
+    <div class="spinner-ring">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="loading-text">Loading...</div>
+  </div>
+</div>
+
+<style>
+.loading-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-color-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.loading-container.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.loading-spinner {
+  text-align: center;
+}
+
+.spinner-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.spinner-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid var(--primary-color);
+  border-radius: 50%;
+  animation: spinner-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: var(--primary-color) transparent transparent transparent;
+}
+
+.spinner-ring div:nth-child(1) { animation-delay: -0.45s; }
+.spinner-ring div:nth-child(2) { animation-delay: -0.3s; }
+.spinner-ring div:nth-child(3) { animation-delay: -0.15s; }
+
+@keyframes spinner-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-text {
+  color: var(--text-color-dark);
+  margin-top: 1rem;
+  font-family: var(--font-primary);
+}
+</style>
+
+<script>
+// Hide loading screen when page is loaded
+document.addEventListener('DOMContentLoaded', function() {
+  setTimeout(function() {
+    const loading = document.getElementById('loading');
+    if (loading) {
+      loading.classList.add('hidden');
+      setTimeout(function() {
+        loading.remove();
+      }, 500);
+    }
+  }, 800);
+});
+</script>

@@ -4,20 +4,70 @@
   {% include head.html %}
 </head>
 <body class="dark-theme">
+  {% include loading.html %}
   <div id="container">
-    {% include header.html %}
-    {% include darkmode-toggle.html %}
+    <!-- ShokaX Header Structure -->
+    <header id="header">
+      <div class="inner">
+        <div id="brand">
+          <div class="pjax">
+            <a href="{{ '/' | relative_url }}" class="logo" rel="start">
+              <p class="artboard">{{ site.title | default: "Kim Gabe's DS Blog" }}</p>
+              <h1 class="title">{{ site.title | default: "Kim Gabe's DS Blog" }}</h1>
+            </a>
+            {% if site.subtitle %}
+            <p class="meta">= {{ site.subtitle }} =</p>
+            {% endif %}
+          </div>
+        </div>
+        {% include header-nav.html %}
+      </div>
+      
+      <!-- Cover Images Section -->
+      <div id="imgs" class="pjax">
+        <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&h=1080&fit=crop" 
+             loading="eager" decoding="async" fetchpriority="high" alt="{{ site.title }}">
+      </div>
+    </header>
     
+    <!-- SVG Waves Animation -->
+    <div id="waves">
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+           viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"/>
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0"/>
+          <use xlink:href="#gentle-wave" x="48" y="3"/>
+          <use xlink:href="#gentle-wave" x="48" y="5"/>
+          <use xlink:href="#gentle-wave" x="48" y="7"/>
+        </g>
+      </svg>
+    </div>
+    
+    <!-- Main Content Area -->
     <main>
       <div class="inner">
-        {% include sidebar.html %}
-        <div id="main">
+        <div id="main" class="pjax">
           {{ content }}
         </div>
+        <div id="sidebar">
+          {% include sidebar.html %}
+        </div>
+        <div class="dimmer"></div>
       </div>
+      <div id="player"></div>
     </main>
     
-    {% include footer.html %}
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="inner">
+        {% include footer.html %}
+      </div>
+    </footer>
+    
+    {% include darkmode-toggle.html %}
     {% include scripts.html %}
   </div>
 </body>
