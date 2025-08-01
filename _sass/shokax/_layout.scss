@@ -26,6 +26,7 @@ main > .inner {
   justify-content: space-between;
   margin: 0 auto;
   padding: 0 var(--spacing-md);
+  gap: var(--spacing-xl);
   
   // User's customization: sidebar.position = left
   flex-direction: row-reverse;
@@ -41,6 +42,7 @@ main > .inner {
 .wrap {
   max-width: 100%;
   margin: 0 auto;
+  padding: var(--spacing-lg);
 }
 
 /* Index Layout */

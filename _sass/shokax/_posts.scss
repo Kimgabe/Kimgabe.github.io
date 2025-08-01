@@ -232,11 +232,10 @@
   gap: 0.5rem;
 }
 
-/* Post Layout: 3-Column Structure (Left Sidebar + Center Content + Right TOC) */
+/* Post Layout: Single Column Structure for Individual Posts */
 .post-layout {
-  display: flex;
-  gap: var(--spacing-xl);
-  align-items: flex-start;
+  display: block; /* Changed from flex to block for vertical stacking */
+  margin-bottom: var(--spacing-xl);
 }
 
 .post-content {
