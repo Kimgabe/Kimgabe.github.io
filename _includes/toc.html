@@ -1,0 +1,13 @@
+{% if page.toc %}
+<aside class="post-toc">
+  <div class="toc-wrapper">
+    <h3 class="toc-title">
+      <i class="fas fa-list-ol" aria-hidden="true"></i>
+      {{ page.toc_label | default: "목차" }}
+    </h3>
+    <nav class="toc-nav" role="navigation" aria-label="Table of contents">
+      {{ content | toc_only }}
+    </nav>
+  </div>
+</aside>
+{% endif %}

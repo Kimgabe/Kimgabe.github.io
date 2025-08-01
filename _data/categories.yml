@@ -1,0 +1,103 @@
+# Categories metadata for Kim Gabe's DS Blog
+
+# Main Categories
+programming:
+  title: "Programming"
+  emoji: "💻"
+  description: "프로그래밍 언어와 개발 도구"
+
+data-science:
+  title: "Data Science"
+  emoji: "📊"
+  description: "데이터 분석과 전처리 기법"
+
+ai-ml:
+  title: "AI & ML"
+  emoji: "🧠"
+  description: "인공지능과 머신러닝"
+
+portfolio:
+  title: "Portfolio"
+  emoji: "💼"
+  description: "데이터 사이언스 프로젝트"
+
+growth:
+  title: "Growth"
+  emoji: "📈"
+  description: "개인 성장과 회고"
+
+database:
+  title: "Database"
+  emoji: "🗄️"
+  description: "데이터베이스와 SQL"
+
+# Sub Categories - Programming
+python:
+  title: "Python"
+  emoji: "🐍"
+  description: "파이썬 프로그래밍 기초부터 심화까지"
+
+algorithms:
+  title: "Algorithms"
+  emoji: "⚡"
+  description: "알고리즘과 코딩테스트 문제 해결"
+
+# Sub Categories - Data Science
+preprocessing:
+  title: "Preprocessing"
+  emoji: "🔧"
+  description: "데이터 전처리와 정제"
+
+visualization:
+  title: "Visualization"
+  emoji: "📈"
+  description: "데이터 시각화와 차트"
+
+statistics:
+  title: "Statistics"
+  emoji: "📐"
+  description: "통계학과 수학"
+
+# Sub Categories - AI & ML
+machine-learning:
+  title: "Machine Learning"
+  emoji: "🤖"
+  description: "머신러닝 알고리즘과 모델"
+
+deep-learning:
+  title: "Deep Learning"
+  emoji: "🧠"
+  description: "딥러닝과 신경망"
+
+# Sub Categories - Portfolio
+data-analysis:
+  title: "Data Analysis"
+  emoji: "🔍"
+  description: "EDA와 데이터 분석 프로젝트"
+
+ml-based:
+  title: "ML Projects"
+  emoji: "🚀"
+  description: "머신러닝 기반 프로젝트"
+
+# Sub Categories - Growth
+reviews:
+  title: "Reviews"
+  emoji: "📝"
+  description: "책 리뷰와 학습 후기"
+
+retrospective:
+  title: "Retrospective"
+  emoji: "🔄"
+  description: "회고와 성찰"
+
+career:
+  title: "Career"
+  emoji: "💼"
+  description: "커리어와 직무 전환"
+
+# Sub Categories - Database
+sql:
+  title: "SQL"
+  emoji: "🔍"
+  description: "SQL 쿼리와 데이터베이스 관리"

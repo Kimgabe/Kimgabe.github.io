@@ -38,12 +38,27 @@ layout: default
     </div>
   </header>
 
-  <!-- Main Post Layout: Content in single column -->
+  <!-- Main Post Layout: Content with TOC -->
   <div class="post-layout">
     <!-- Post Content -->
     <article class="post-content">
       {{ content }}
     </article>
+    
+    <!-- Table of Contents -->
+    {% if page.toc %}
+    <aside class="post-toc">
+      <div class="toc-wrapper">
+        <h3 class="toc-title">
+          <i class="fas fa-list-ol" aria-hidden="true"></i>
+          {{ page.toc_label | default: "목차" }}
+        </h3>
+        <nav class="toc-nav" role="navigation" aria-label="Table of contents">
+          {{ content | toc_only }}
+        </nav>
+      </div>
+    </aside>
+    {% endif %}
   </div>
 
   <!-- Post Categories -->

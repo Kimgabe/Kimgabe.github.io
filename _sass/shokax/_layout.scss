@@ -29,20 +29,21 @@ main > .inner {
   gap: var(--spacing-xl);
   
   // User's customization: sidebar.position = left
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 /* Main Content Area */
 #main {
   flex: 1;
-  width: calc(100% - 20rem - #{var(--spacing-xl)});
+  width: calc(100% - 16rem - #{var(--spacing-xl)});
   min-width: 0; // Allow shrinking
+  max-width: none; // Remove max-width constraint
 }
 
 .wrap {
   max-width: 100%;
   margin: 0 auto;
-  padding: var(--spacing-lg);
+  padding: var(--spacing-md);
 }
 
 /* Index Layout */

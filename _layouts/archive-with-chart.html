@@ -1,0 +1,214 @@
+---
+layout: default
+---
+
+<div class="wrap">
+  <header class="page-header">
+    <div class="page-header-content">
+      <h1 class="page-title">{{ page.title }}</h1>
+      {% if page.excerpt %}
+      <div class="page-excerpt">{{ page.excerpt | markdownify }}</div>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="page-content">
+    {{ content }}
+  </div>
+</div>
+
+<!-- Chart.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+.archive-chart-container {
+  background: var(--card-bg-light);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-xl);
+  margin-bottom: var(--spacing-xl);
+  box-shadow: var(--shadow-light);
+  height: 300px;
+  position: relative;
+}
+
+.dark-theme .archive-chart-container {
+  background: var(--card-bg-dark);
+}
+
+.archive-content {
+  display: grid;
+  gap: var(--spacing-xl);
+}
+
+.archive-year {
+  background: var(--card-bg-light);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-light);
+  border-left: 4px solid var(--primary-color);
+}
+
+.dark-theme .archive-year {
+  background: var(--card-bg-dark);
+}
+
+.archive-year-title {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-lg);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.archive-month {
+  margin-bottom: var(--spacing-lg);
+}
+
+.archive-month-title {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin-bottom: var(--spacing-md);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.archive-month-title:hover {
+  color: var(--primary-color);
+  transform: translateX(5px);
+}
+
+.post-count {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  font-weight: normal;
+}
+
+.archive-posts {
+  display: grid;
+  gap: var(--spacing-sm);
+  margin-left: var(--spacing-lg);
+}
+
+.archive-post-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-md);
+  padding: var(--spacing-sm);
+  border-radius: var(--border-radius-sm);
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.archive-post-item:hover {
+  background: var(--grey-2);
+  border-color: var(--primary-color);
+  transform: translateX(3px);
+}
+
+.dark-theme .archive-post-item:hover {
+  background: var(--grey-6);
+}
+
+.archive-post-meta {
+  min-width: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.archive-post-meta time {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  color: var(--grey-5);
+  font-weight: 600;
+}
+
+.archive-post-categories {
+  display: flex;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.archive-category {
+  background: linear-gradient(45deg, var(--tagcloud-start), var(--tagcloud-end));
+  color: white;
+  padding: 0.125rem 0.5rem;
+  border-radius: 0.75rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.archive-post-title {
+  flex: 1;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.archive-post-title a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.archive-post-title a:hover {
+  color: var(--primary-color);
+}
+
+.page-header {
+  background: linear-gradient(135deg, var(--tagcloud-start), var(--tagcloud-end));
+  color: white;
+  padding: var(--spacing-xl);
+  border-radius: var(--border-radius);
+  margin-bottom: var(--spacing-xl);
+  text-align: center;
+  box-shadow: var(--shadow-medium);
+}
+
+.page-title {
+  font-family: var(--font-title);
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-md);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.page-excerpt {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .archive-chart-container {
+    height: 250px;
+    padding: var(--spacing-lg);
+  }
+  
+  .archive-post-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .archive-post-meta {
+    min-width: auto;
+    flex-direction: row;
+    gap: var(--spacing-sm);
+    align-items: center;
+  }
+  
+  .archive-posts {
+    margin-left: 0;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+  }
+}
+</style>
