@@ -1,28 +1,17 @@
-<!-- ShokaX Style Header with Accessibility Enhancements -->
-<header class="masthead" role="banner">
-  <div class="masthead__inner-wrap">
-    <nav class="masthead__menu" role="navigation" aria-label="Main navigation">
-      <a href="{{ '/' | relative_url }}" class="site-title" aria-label="Home - {{ site.title }}">{{ site.title }}</a>
-      
-      <!-- Mobile Menu Toggle -->
-      <button class="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="main-nav">
-        <span class="hamburger-line"></span>
-        <span class="hamburger-line"></span>
-        <span class="hamburger-line"></span>
-      </button>
-      
-      <div class="main-nav" id="main-nav" role="menubar">
-        <ul role="none">
-          <li role="none"><a href="{{ '/' | relative_url }}" role="menuitem" aria-label="Go to home page"><i class="ic i-home" aria-hidden="true"></i> <span>Home</span></a></li>
-          <li role="none"><a href="{{ '/posts/' | relative_url }}" role="menuitem" aria-label="View all posts"><i class="ic i-feather" aria-hidden="true"></i> <span>Posts</span></a></li>
-          <li role="none"><a href="{{ '/archives/' | relative_url }}" role="menuitem" aria-label="Browse post archives"><i class="ic i-list-alt" aria-hidden="true"></i> <span>Archives</span></a></li>
-          <li role="none"><a href="{{ '/categories/' | relative_url }}" role="menuitem" aria-label="Browse by categories"><i class="ic i-th" aria-hidden="true"></i> <span>Categories</span></a></li>
-          <li role="none"><a href="{{ '/tags/' | relative_url }}" role="menuitem" aria-label="Browse by tags"><i class="ic i-tags" aria-hidden="true"></i> <span>Tags</span></a></li>
-          {% if site.search == true %}
-          <li role="none"><a href="{{ '/search/' | relative_url }}" role="menuitem" aria-label="Search posts"><i class="ic i-search" aria-hidden="true"></i> <span>Search</span></a></li>
-          {% endif %}
-        </ul>
-      </div>
-    </nav>
-  </div>
+<!-- ShokaX Style Header with Gradient Background -->
+<header class="masthead">
+    <div class="masthead__inner-wrap">
+        <nav class="masthead__menu">
+            <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title | default: "Kim Gabe's DS Blog" }}</a>
+            <div class="main-nav">
+                <ul>
+                    <li><a href="{{ '/' | relative_url }}"><i class="ic i-home"></i> Home</a></li>
+                    <li><a href="{{ '/posts/' | relative_url }}"><i class="ic i-feather"></i> Posts</a></li>
+                    <li><a href="{{ '/archives/' | relative_url }}"><i class="ic i-list-alt"></i> Archives</a></li>
+                    <li><a href="{{ '/categories/' | relative_url }}"><i class="ic i-th"></i> Categories</a></li>
+                    <li><a href="{{ '/tags/' | relative_url }}"><i class="ic i-tags"></i> Tags</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 </header>

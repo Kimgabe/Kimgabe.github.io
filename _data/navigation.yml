@@ -1,13 +1,15 @@
-# main links
+# main links - ShokaX Style Navigation
 main:
-  - title : "By Category"
+  - title : "Home"
+    url   : /
+  - title : "Posts"
+    url   : /posts/
+  - title : "Archives"
+    url   : /archives/
+  - title : "Categories"
     url   : /categories/
-  - title : "By Tag"
+  - title : "Tags"
     url   : /tags/
-  - title : "By Year"
-    url   : /year-archive-grid/    
-  - title : "Search"
-    url   : /search/
 
 # 포스팅내 사이드바에 메뉴 표시
 docs:

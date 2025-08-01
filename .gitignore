@@ -27,3 +27,11 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+
+# Error and debug logs
+latest_error*.txt
+*.log
+debug_build.*
+debug_*.txt
+debug_*.bat
+debug_*.ps1
